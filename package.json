@@ -1,6 +1,6 @@
 {
   "name": "record-shop-enricher",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Deep multi-tier intelligence extraction for record shops - web crawling, structured data, social media, reviews, and more",
   "main": "enrich_shop_v2.js",
   "scripts": {

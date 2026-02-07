@@ -1,0 +1,4 @@
+RECORD-SHOPS-DB-URL = "https://oytflcaqukxvzmbddrlg.supabase.co"
+TABLE = "shops"
+SHOW = "all shops"
+PUBLIC-KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im95dGZsY2FxdWt4dnptYmRkcmxnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjY5NTIwMjQsImV4cCI6MjA4MjUyODAyNH0.YpFZfu2BPxwXxXz5j-xqgu7VdIuTP315eiS3UuLD2wo"
