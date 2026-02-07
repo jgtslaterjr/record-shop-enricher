@@ -1,0 +1,25 @@
+{
+  "name": "record-shop-enricher",
+  "version": "2.0.0",
+  "description": "Deep multi-tier intelligence extraction for record shops - web crawling, structured data, social media, reviews, and more",
+  "main": "enrich_shop_v2.js",
+  "scripts": {
+    "enrich": "node enrich_shop_v2.js"
+  },
+  "keywords": [
+    "record-shop",
+    "vinyl",
+    "web-scraping",
+    "business-intelligence",
+    "data-enrichment"
+  ],
+  "author": "John Slater",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jgtslaterjr/record-shop-enricher.git"
+  }
+}
