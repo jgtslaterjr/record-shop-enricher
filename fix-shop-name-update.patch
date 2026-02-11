@@ -1,0 +1,26 @@
+--- enricher-ui.js.orig	2024-02-08 10:30:00.000000000 -0500
++++ enricher-ui.js	2024-02-08 10:31:00.000000000 -0500
+@@ -1320,6 +1320,10 @@
+       
+       // Only include fields that have values (or explicitly null to clear)
+       const name = document.getElementById('edit-name').value.trim();
++      
++      // Debug logging
++      console.log('Current shop name:', currentEditShop.name);
++      console.log('New name value from input:', name);
+       const website = document.getElementById('edit-website').value.trim();
+       const phone = document.getElementById('edit-phone').value.trim();
+       const address = document.getElementById('edit-address').value.trim();
+@@ -1327,7 +1331,11 @@
+       const neighborhood = document.getElementById('edit-neighborhood').value.trim();
+       const state = document.getElementById('edit-state').value.trim();
+       
+-      if (name) updates.name = name;
++      // Always include name in updates if it's different from current
++      // This ensures we can update even if the field appears empty
++      if (name !== currentEditShop.name) {
++        updates.name = name || null;  // Allow clearing the name if needed
++      }
+       if (website) updates.website = website;
+       if (phone) updates.phone = phone;
+       if (address) updates.address = address;

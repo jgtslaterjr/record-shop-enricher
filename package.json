@@ -1,10 +1,13 @@
 {
   "name": "record-shop-enricher",
-  "version": "2.0.1",
-  "description": "Deep multi-tier intelligence extraction for record shops - web crawling, structured data, social media, reviews, and more",
+  "version": "2.4.0",
+  "description": "Deep multi-tier intelligence extraction for record shops - web crawling, structured data, social media, reviews, and content capture",
   "main": "enrich_shop_v2.js",
   "scripts": {
-    "enrich": "node enrich_shop_v2.js"
+    "enrich": "node enrich_shop_v2.js",
+    "capture-web": "node capture_web_content.js",
+    "capture-social": "node capture_social_content.js",
+    "ui": "node enricher-ui.js"
   },
   "keywords": [
     "record-shop",

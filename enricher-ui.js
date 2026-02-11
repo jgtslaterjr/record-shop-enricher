@@ -4,6 +4,7 @@ const http = require('http');
 const { execSync, spawn } = require('child_process');
 const fs = require('fs');
 const path = require('path');
+const { enrichSocial } = require('./enrich_social.js');
 
 const SUPABASE_URL = "https://oytflcaqukxvzmbddrlg.supabase.co";
 const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im95dGZsY2FxdWt4dnptYmRkcmxnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjY5NTIwMjQsImV4cCI6MjA4MjUyODAyNH0.YpFZfu2BPxwXxXz5j-xqgu7VdIuTP315eiS3UuLD2wo";
@@ -27,24 +28,63 @@ function deleteShop(shopId) {
 }
 
 function updateShop(shopId, updates) {
+  console.log('Updating shop:', shopId, 'with data:', JSON.stringify(updates, null, 2));
+  
+  // Check if we're trying to update the name
+  if ('name' in updates) {
+    console.log('Name update detected:', updates.name);
+  }
+  
   try {
+    // Write JSON to temp file to avoid shell escaping issues
+    const tempFile = `/tmp/shop-update-${shopId}.json`;
+    fs.writeFileSync(tempFile, JSON.stringify(updates));
+    
     const result = execSync(`curl -s -X PATCH "${SUPABASE_URL}/rest/v1/shops?id=eq.${shopId}" \
       -H "apikey: ${SUPABASE_KEY}" \
       -H "Authorization: Bearer ${SUPABASE_KEY}" \
       -H "Content-Type: application/json" \
-      -d '${JSON.stringify(updates)}'`,
+      -H "Prefer: return=representation" \
+      -d @${tempFile}`,
       { encoding: 'utf8' }
     );
+    
+    // Clean up temp file
+    try { fs.unlinkSync(tempFile); } catch (e) {}
+    
+    console.log('Supabase update response:', result);
+    
+    // Check if response is an error
+    if (!result || result.trim() === '') {
+      console.error('Empty response from Supabase');
+      return false;
+    }
+    
+    const parsed = JSON.parse(result);
+    
+    // Check for error response
+    if (parsed.code || parsed.error || parsed.message) {
+      console.error('Supabase update error:', parsed);
+      return false;
+    }
+    
+    // Check if array with data was returned
+    if (Array.isArray(parsed) && parsed.length > 0) {
+      console.log('Update successful, returned:', parsed[0]);
+      return true;
+    }
+    
+    console.log('Update completed');
     return true;
   } catch (error) {
-    console.error("Error updating shop:", error.message);
+    console.error("Error updating shop:", error.message, error.stack);
     return false;
   }
 }
 
 function fetchShops() {
   // Always fetch all shops, filter client-side
-  let url = `${SUPABASE_URL}/rest/v1/shops?select=id,name,city,state,website,phone,address,enrichment_status,date_of_enrichment&order=name&limit=1000`;
+  let url = `${SUPABASE_URL}/rest/v1/shops?select=id,name,city,state,neighborhood,website,phone,address,social_instagram,social_facebook,social_tiktok,enrichment_status,date_of_enrichment&order=name&limit=1000`;
   
   console.log(`Fetching all shops from database`);
   
@@ -72,12 +112,25 @@ function fetchShops() {
   }
 }
 
-function updateShopStatus(shopId) {
+function updateShopStatus(shopId, socialData = null) {
   const now = new Date().toISOString();
   const updateData = {
     enrichment_status: 'enriched',
     date_of_enrichment: now
   };
+  
+  // Add social media data if provided
+  if (socialData) {
+    if (socialData.social_profiles?.instagram) {
+      updateData.social_instagram = socialData.social_profiles.instagram.url;
+    }
+    if (socialData.social_profiles?.facebook) {
+      updateData.social_facebook = socialData.social_profiles.facebook.url;
+    }
+    if (socialData.social_profiles?.tiktok) {
+      updateData.social_tiktok = socialData.social_profiles.tiktok.url;
+    }
+  }
   
   try {
     execSync(`curl -s -X PATCH "${SUPABASE_URL}/rest/v1/shops?id=eq.${shopId}" \
@@ -222,13 +275,90 @@ const server = http.createServer((req, res) => {
     return;
   }
   
-  // API: Enrich shop
+  // API: Enrich social media
+  if (url.pathname === '/api/enrich-social' && req.method === 'POST') {
+    let body = '';
+    req.on('data', chunk => body += chunk);
+    req.on('end', async () => {
+      try {
+        const { shopId, shopName, website, socialInstagram, socialFacebook, socialTiktok, neighborhood, city, state } = JSON.parse(body);
+        
+        // Set up SSE-like streaming
+        res.writeHead(200, {
+          'Content-Type': 'text/event-stream',
+          'Cache-Control': 'no-cache',
+          'Connection': 'keep-alive'
+        });
+        
+        // Capture console output
+        const originalLog = console.log;
+        const outputBuffer = [];
+        
+        console.log = (...args) => {
+          const text = args.join(' ') + '\n';
+          outputBuffer.push(text);
+          res.write(`data: ${JSON.stringify({ type: 'output', text })}\n\n`);
+          originalLog(...args);
+        };
+        
+        // Send location context header
+        let locationInfo = '';
+        if (neighborhood) {
+          locationInfo = `🎯 Location Context: ${neighborhood}, ${city}, ${state}\n`;
+        } else if (city) {
+          locationInfo = `🎯 Location Context: ${city}, ${state}\n`;
+        }
+        if (locationInfo) {
+          locationInfo += `\n⚠️  NOTE: Social media accounts may be:\n`;
+          locationInfo += `   • Shared across all locations (e.g., @amoebamusic for all stores)\n`;
+          locationInfo += `   • Location-specific (e.g., @amoebaberkeley)\n`;
+          locationInfo += `\nThe enrichment will attempt to identify which type.\n\n`;
+          res.write(`data: ${JSON.stringify({ type: 'output', text: locationInfo })}\n\n`);
+        }
+        
+        try {
+          const existingSocial = {
+            instagram: socialInstagram || null,
+            facebook: socialFacebook || null,
+            tiktok: socialTiktok || null
+          };
+          
+          const locationContext = {
+            neighborhood: neighborhood || null,
+            city: city || null,
+            state: state || null
+          };
+          
+          const socialData = await enrichSocial(shopName, existingSocial, website, locationContext);
+          
+          // Restore console.log
+          console.log = originalLog;
+          
+          // Update database with social data
+          updateShopStatus(shopId, socialData);
+          
+          res.write(`data: ${JSON.stringify({ type: 'complete', success: true })}\n\n`);
+          res.end();
+        } catch (error) {
+          console.log = originalLog;
+          res.write(`data: ${JSON.stringify({ type: 'complete', success: false, error: error.message })}\n\n`);
+          res.end();
+        }
+      } catch (error) {
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ success: false, error: error.message }));
+      }
+    });
+    return;
+  }
+  
+  // API: Enrich shop (web)
   if (url.pathname === '/api/enrich' && req.method === 'POST') {
     let body = '';
     req.on('data', chunk => body += chunk);
     req.on('end', async () => {
       try {
-        const { shopId, shopName, website } = JSON.parse(body);
+        const { shopId, shopName, website, neighborhood, city, state, address } = JSON.parse(body);
         
         if (!website || website.includes('yelp.com')) {
           res.writeHead(400, { 'Content-Type': 'application/json' });
@@ -243,8 +373,33 @@ const server = http.createServer((req, res) => {
           'Connection': 'keep-alive'
         });
         
+        // Add location context to environment
+        const locationEnv = {
+          ...process.env,
+          LOCATION_NEIGHBORHOOD: neighborhood || '',
+          LOCATION_CITY: city || '',
+          LOCATION_STATE: state || '',
+          LOCATION_ADDRESS: address || ''
+        };
+        
+        // Send location context header
+        let locationInfo = '';
+        if (neighborhood) {
+          locationInfo = `🎯 Location Context: ${neighborhood}, ${city}, ${state}\n`;
+        } else if (city) {
+          locationInfo = `🎯 Location Context: ${city}, ${state}\n`;
+        }
+        if (address) {
+          locationInfo += `📍 Address: ${address}\n`;
+        }
+        if (locationInfo) {
+          locationInfo += `⚠️  Multi-location shop detected. Extracting data for THIS location only.\n\n`;
+          res.write(`data: ${JSON.stringify({ type: 'output', text: locationInfo })}\n\n`);
+        }
+        
         const enrichProcess = spawn('node', ['enrich_shop_v2.js', shopName, website], {
-          cwd: __dirname
+          cwd: __dirname,
+          env: locationEnv
         });
         
         // Track active process
@@ -297,6 +452,7 @@ const server = http.createServer((req, res) => {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Record Shop Enricher</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🪙</text></svg>">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -334,6 +490,26 @@ const server = http.createServer((req, res) => {
       gap: 10px;
       align-items: center;
       flex-wrap: wrap;
+    }
+    .search-box {
+      flex: 1;
+      min-width: 250px;
+      max-width: 400px;
+    }
+    .search-box input {
+      width: 100%;
+      padding: 10px 15px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      font-size: 1em;
+      transition: border-color 0.2s;
+    }
+    .search-box input:focus {
+      outline: none;
+      border-color: #667eea;
+    }
+    .search-box input::placeholder {
+      color: #999;
     }
     .filter-btn {
       padding: 10px 20px;
@@ -413,6 +589,19 @@ const server = http.createServer((req, res) => {
       border: none;
       border-radius: 8px;
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      font-size: 1em;
+      font-weight: bold;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .enrich-social-btn {
+      width: 100%;
+      padding: 12px;
+      margin-top: 8px;
+      border: none;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
       color: white;
       font-size: 1em;
       font-weight: bold;
@@ -596,11 +785,14 @@ const server = http.createServer((req, res) => {
   <div class="container">
     <div class="header">
       <h1>🎵 Record Shop Enricher</h1>
-      <p>Tier 1: Enhanced Web Intelligence • v 2.0.1</p>
+      <p>Tier 1: Web Intelligence • Tier 2: Social Media • v 2.3.8</p>
     </div>
     
     <div class="controls">
       <div class="filters">
+        <div class="search-box">
+          <input type="text" id="search" placeholder="🔍 Search shops by name, city, or neighborhood..." />
+        </div>
         <button class="filter-btn active" data-filter="all">All Shops</button>
         <button class="filter-btn" data-filter="unenriched">Unenriched</button>
         <button class="filter-btn" data-filter="enriched">Enriched</button>
@@ -655,8 +847,26 @@ const server = http.createServer((req, res) => {
           <input type="text" id="edit-city" />
         </div>
         <div class="form-group">
+          <label for="edit-neighborhood">Neighborhood</label>
+          <input type="text" id="edit-neighborhood" placeholder="e.g., Hollywood, Berkeley" />
+        </div>
+        <div class="form-group">
           <label for="edit-state">State</label>
           <input type="text" id="edit-state" />
+        </div>
+        <hr style="margin: 20px 0; border: none; border-top: 2px solid #eee;">
+        <h3 style="margin-bottom: 15px; color: #667eea;">Social Media</h3>
+        <div class="form-group">
+          <label for="edit-instagram">Instagram Username</label>
+          <input type="text" id="edit-instagram" placeholder="username (without @)" />
+        </div>
+        <div class="form-group">
+          <label for="edit-facebook">Facebook Page ID</label>
+          <input type="text" id="edit-facebook" placeholder="pagename or page-id" />
+        </div>
+        <div class="form-group">
+          <label for="edit-tiktok">TikTok Username</label>
+          <input type="text" id="edit-tiktok" placeholder="username (without @)" />
         </div>
       </div>
       <div class="modal-actions">
@@ -668,14 +878,17 @@ const server = http.createServer((req, res) => {
   
   <script>
     let currentFilter = 'all';
+    let searchQuery = '';
     let shops = [];
     let currentEnrichmentShopId = null;
     let currentEditShop = null;
     
     async function loadShops() {
       try {
-        const response = await fetch(\`/api/shops?filter=\${currentFilter}\`);
+        console.log('Loading shops with filter:', currentFilter);
+        const response = await fetch('/api/shops?filter=' + currentFilter);
         shops = await response.json();
+        console.log('Loaded ' + shops.length + ' shops');
         renderShops();
       } catch (error) {
         console.error('Error loading shops:', error);
@@ -683,67 +896,236 @@ const server = http.createServer((req, res) => {
       }
     }
     
+    function escapeHtml(text) {
+      if (!text) return '';
+      return text.toString().replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+    }
+    
     function renderShops() {
       const container = document.getElementById('shops');
-      const enrichedCount = shops.filter(s => s.enrichment_status === 'enriched').length;
       
-      document.getElementById('stats').textContent = \`\${shops.length} shops (\${enrichedCount} enriched)\`;
+      // Apply search filter
+      let filteredShops = shops;
+      if (searchQuery) {
+        const query = searchQuery.toLowerCase();
+        filteredShops = shops.filter(shop => {
+          const name = (shop.name || '').toLowerCase();
+          const city = (shop.city || '').toLowerCase();
+          const state = (shop.state || '').toLowerCase();
+          const neighborhood = (shop.neighborhood || '').toLowerCase();
+          
+          return name.includes(query) || 
+                 city.includes(query) || 
+                 state.includes(query) || 
+                 neighborhood.includes(query);
+        });
+      }
       
-      if (shops.length === 0) {
+      const enrichedCount = filteredShops.filter(s => s.enrichment_status === 'enriched').length;
+      const totalEnriched = shops.filter(s => s.enrichment_status === 'enriched').length;
+      
+      if (searchQuery) {
+        document.getElementById('stats').textContent = filteredShops.length + ' of ' + shops.length + ' shops (' + enrichedCount + ' enriched)';
+      } else {
+        document.getElementById('stats').textContent = shops.length + ' shops (' + totalEnriched + ' enriched)';
+      }
+      
+      if (filteredShops.length === 0) {
         container.innerHTML = '<div class="loading">No shops found</div>';
         return;
       }
       
-      container.innerHTML = shops.map(shop => {
+      // Store all shop data globally
+      window.shopData = window.shopData || {};
+      filteredShops.forEach(shop => {
+        window.shopData[shop.id] = shop;
+      });
+      
+      container.innerHTML = filteredShops.map((shop, index) => {
         const isEnriched = shop.enrichment_status === 'enriched';
         const hasWebsite = shop.website && !shop.website.includes('yelp.com');
         const status = isEnriched ? '✓' : '○';
         const cardClass = isEnriched ? 'shop-card enriched' : (hasWebsite ? 'shop-card' : 'shop-card no-website');
         
-        return \`
-          <div class="\${cardClass}">
-            <div class="shop-header">
-              <div class="shop-name">\${shop.name}</div>
-              <div class="shop-status">\${status}</div>
-            </div>
-            <div class="shop-info">📍 \${shop.city}, \${shop.state}</div>
-            \${shop.website ? \`<a href="\${shop.website}" target="_blank" class="shop-website">\${shop.website}</a>\` : '<div class="shop-info">No website</div>'}
-            \${shop.date_of_enrichment ? \`<div class="shop-info" style="font-size: 0.85em; color: #999;">Enriched: \${new Date(shop.date_of_enrichment).toLocaleDateString()}</div>\` : ''}
-            <button 
-              class="enrich-btn" 
-              onclick="enrichShop('\${shop.id}', '\${shop.name.replace(/'/g, "\\'")}', '\${shop.website || ''}')"
-              \${!hasWebsite ? 'disabled' : ''}
-              id="btn-\${shop.id}"
-            >
-              \${!hasWebsite ? '⚠️ No Valid URL' : (isEnriched ? '🔄 Re-enrich' : '🚀 Enrich Now')}
-            </button>
-            <button class="edit-btn" onclick='editShop(\${JSON.stringify(shop)})'>
-              ✏️ Edit Details
-            </button>
-            <button class="delete-btn" onclick="deleteShop('\${shop.id}', '\${shop.name.replace(/'/g, "\\'")}')">
-              🗑️ Remove from Database
-            </button>
-          </div>
-        \`;
+        const websiteLink = shop.website 
+          ? '<a href="' + escapeHtml(shop.website) + '" target="_blank" class="shop-website">' + escapeHtml(shop.website) + '</a>'
+          : '<div class="shop-info">No website</div>';
+          
+        const enrichedDate = shop.date_of_enrichment 
+          ? '<div class="shop-info" style="font-size: 0.85em; color: #999;">Enriched: ' + new Date(shop.date_of_enrichment).toLocaleDateString() + '</div>'
+          : '';
+          
+        const locationText = shop.neighborhood 
+          ? escapeHtml(shop.neighborhood) + ', ' + escapeHtml(shop.city) + ', ' + escapeHtml(shop.state)
+          : escapeHtml(shop.city) + ', ' + escapeHtml(shop.state);
+        
+        return '<div class="' + cardClass + '">' +
+          '<div class="shop-header">' +
+            '<div class="shop-name">' + escapeHtml(shop.name) + '</div>' +
+            '<div class="shop-status">' + status + '</div>' +
+          '</div>' +
+          '<div class="shop-info">📍 ' + locationText + '</div>' +
+          websiteLink +
+          enrichedDate +
+          '<button class="enrich-btn" data-shop-id="' + escapeHtml(shop.id) + '" ' +
+            (hasWebsite ? '' : 'disabled ') +
+            'id="btn-' + shop.id + '">' +
+            (!hasWebsite ? '⚠️ No Valid URL' : (isEnriched ? '🔄 Re-enrich Web' : '🚀 Enrich Now')) +
+          '</button>' +
+          '<button class="enrich-social-btn" data-shop-id="' + escapeHtml(shop.id) + '" id="btn-social-' + shop.id + '">' +
+            '📱 Enrich Social' +
+          '</button>' +
+          '<button class="edit-btn" data-shop-id="' + escapeHtml(shop.id) + '">' +
+            '✏️ Edit Details' +
+          '</button>' +
+          '<button class="delete-btn" data-shop-id="' + escapeHtml(shop.id) + '">' +
+            '🗑️ Remove from Database' +
+          '</button>' +
+        '</div>';
       }).join('');
+      
+      // Attach event listeners using event delegation
+      container.querySelectorAll('.enrich-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+          const shopId = this.getAttribute('data-shop-id');
+          enrichShop(window.shopData[shopId]);
+        });
+      });
+      
+      container.querySelectorAll('.enrich-social-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+          const shopId = this.getAttribute('data-shop-id');
+          enrichSocial(window.shopData[shopId]);
+        });
+      });
+      
+      container.querySelectorAll('.edit-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+          const shopId = this.getAttribute('data-shop-id');
+          editShop(window.shopData[shopId]);
+        });
+      });
+      
+      container.querySelectorAll('.delete-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+          const shopId = this.getAttribute('data-shop-id');
+          deleteShopById(shopId);
+        });
+      });
     }
     
-    async function enrichShop(shopId, shopName, website) {
+    async function enrichSocial(shop) {
+      const shopId = shop.id;
+      const shopName = shop.name;
+      
       currentEnrichmentShopId = shopId;
-      const btn = document.getElementById(\`btn-\${shopId}\`);
+      const btn = document.getElementById('btn-social-' + shopId);
+      btn.disabled = true;
+      btn.classList.add('enriching');
+      btn.textContent = '⏳ Enriching Social...';
+      
+      const locationDisplay = shop.neighborhood 
+        ? shop.neighborhood + ', ' + shop.city + ', ' + shop.state
+        : shop.city + ', ' + shop.state;
+      
+      showModal(shopName + ' - ' + locationDisplay + ' - Social', '📱 Starting social media enrichment...\\n\\n');
+      document.getElementById('cancel-btn').style.display = 'none'; // Can't cancel social enrichment (runs as function)
+      
+      try {
+        const response = await fetch('/api/enrich-social', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ 
+            shopId, 
+            shopName, 
+            website: shop.website,
+            socialInstagram: shop.social_instagram,
+            socialFacebook: shop.social_facebook,
+            socialTiktok: shop.social_tiktok,
+            neighborhood: shop.neighborhood,
+            city: shop.city,
+            state: shop.state
+          })
+        });
+        
+        if (!response.ok) {
+          throw new Error('Social enrichment failed');
+        }
+        
+        const reader = response.body.getReader();
+        const decoder = new TextDecoder();
+        
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          
+          const chunk = decoder.decode(value);
+          const lines = chunk.split('\\n');
+          
+          for (const line of lines) {
+            if (line.startsWith('data: ')) {
+              const data = JSON.parse(line.substring(6));
+              
+              if (data.type === 'output') {
+                document.getElementById('modal-body').textContent += data.text;
+                const modalBody = document.getElementById('modal-body');
+                modalBody.scrollTop = modalBody.scrollHeight;
+              } else if (data.type === 'complete') {
+                if (data.success) {
+                  document.getElementById('modal-body').textContent += '\\n\\n✅ Social enrichment complete! Database updated.\\n\\n[Click Close to continue]';
+                  btn.classList.remove('enriching');
+                  btn.textContent = '✓ Social Done';
+                  setTimeout(() => loadShops(), 1000);
+                } else {
+                  document.getElementById('modal-body').textContent += '\\n\\n❌ Error: ' + (data.error || 'Unknown error');
+                  btn.disabled = false;
+                  btn.classList.remove('enriching');
+                  btn.textContent = '🔄 Retry Social';
+                }
+              }
+            }
+          }
+        }
+      } catch (error) {
+        document.getElementById('modal-body').textContent += '\\n\\n❌ Error: ' + error.message;
+        btn.disabled = false;
+        btn.classList.remove('enriching');
+        btn.textContent = '🔄 Retry Social';
+      }
+    }
+    
+    async function enrichShop(shop) {
+      const shopId = shop.id;
+      const shopName = shop.name;
+      const website = shop.website;
+      
+      currentEnrichmentShopId = shopId;
+      const btn = document.getElementById('btn-' + shopId);
       const originalText = btn.textContent;
       btn.disabled = true;
       btn.classList.add('enriching');
-      btn.textContent = '⏳ Enriching...';
+      btn.textContent = '⏳ Enriching Web...';
       
-      showModal(shopName, '🚀 Starting enrichment...\\n\\n');
+      const locationDisplay = shop.neighborhood 
+        ? shop.neighborhood + ', ' + shop.city + ', ' + shop.state
+        : shop.city + ', ' + shop.state;
+      
+      showModal(shopName + ' - ' + locationDisplay, '🚀 Starting web enrichment...\\n\\n');
       document.getElementById('cancel-btn').style.display = 'block';
       
       try {
         const response = await fetch('/api/enrich', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ shopId, shopName, website })
+          body: JSON.stringify({ 
+            shopId, 
+            shopName, 
+            website,
+            neighborhood: shop.neighborhood,
+            city: shop.city,
+            state: shop.state,
+            address: shop.address
+          })
         });
         
         if (!response.ok) {
@@ -815,7 +1197,7 @@ const server = http.createServer((req, res) => {
           document.getElementById('modal-body').textContent += '\\n\\n⏹️ Enrichment cancelled by user.';
           document.getElementById('cancel-btn').style.display = 'none';
           
-          const btn = document.getElementById(\`btn-\${currentEnrichmentShopId}\`);
+          const btn = document.getElementById('btn-' + currentEnrichmentShopId);
           if (btn) {
             btn.disabled = false;
             btn.classList.remove('enriching');
@@ -829,8 +1211,17 @@ const server = http.createServer((req, res) => {
       }
     }
     
+    function deleteShopById(shopId) {
+      const shop = window.shopData[shopId];
+      if (!shop) {
+        alert('Shop data not found');
+        return;
+      }
+      deleteShop(shopId, shop.name);
+    }
+    
     async function deleteShop(shopId, shopName) {
-      if (!confirm(\`Are you sure you want to permanently delete "\${shopName}" from the database?\\n\\nThis cannot be undone.\`)) {
+      if (!confirm("Are you sure you want to permanently delete " + JSON.stringify(shopName) + " from the database?\\n\\nThis cannot be undone.")) {
         return;
       }
       
@@ -866,13 +1257,55 @@ const server = http.createServer((req, res) => {
     }
     
     function editShop(shop) {
+      console.log('Opening edit for shop:', shop);
+      
       currentEditShop = shop;
       document.getElementById('edit-name').value = shop.name || '';
       document.getElementById('edit-website').value = shop.website || '';
       document.getElementById('edit-phone').value = shop.phone || '';
       document.getElementById('edit-address').value = shop.address || '';
       document.getElementById('edit-city').value = shop.city || '';
+      document.getElementById('edit-neighborhood').value = shop.neighborhood || '';
       document.getElementById('edit-state').value = shop.state || '';
+      
+      // Extract username from social URLs - show just the username for easier editing
+      const extractUsername = (url, platform) => {
+        if (!url) {
+          console.log('No ' + platform + ' URL');
+          return '';
+        }
+        console.log('Extracting ' + platform + ' from:', url);
+        
+        // Remove trailing slashes
+        url = url.replace(/\\/+$/, '');
+        
+        let pattern;
+        if (platform === 'instagram') {
+          // Match instagram.com/username or instagr.am/username
+          pattern = /(?:instagram\\.com|instagr\\.am)\\/([a-zA-Z0-9._]+)(?:\\/|$)/;
+        } else if (platform === 'facebook') {
+          // Match facebook.com/username
+          pattern = /facebook\\.com\\/([a-zA-Z0-9._-]+)(?:\\/|$)/;
+        } else if (platform === 'tiktok') {
+          // Match tiktok.com/@username
+          pattern = /tiktok\\.com\\/@([a-zA-Z0-9._]+)(?:\\/|$)/;
+        }
+        
+        const match = url.match(pattern);
+        const result = match ? match[1] : url;
+        console.log('Extracted ' + platform + ':', result);
+        return result;
+      };
+      
+      console.log('Social URLs from database:');
+      console.log('  instagram:', shop.social_instagram);
+      console.log('  facebook:', shop.social_facebook);
+      console.log('  tiktok:', shop.social_tiktok);
+      
+      document.getElementById('edit-instagram').value = extractUsername(shop.social_instagram, 'instagram');
+      document.getElementById('edit-facebook').value = extractUsername(shop.social_facebook, 'facebook');
+      document.getElementById('edit-tiktok').value = extractUsername(shop.social_tiktok, 'tiktok');
+      
       document.getElementById('edit-modal').classList.add('active');
     }
     
@@ -884,19 +1317,67 @@ const server = http.createServer((req, res) => {
     async function saveShopEdit() {
       if (!currentEditShop) return;
       
-      const updates = {
-        name: document.getElementById('edit-name').value,
-        website: document.getElementById('edit-website').value,
-        phone: document.getElementById('edit-phone').value,
-        address: document.getElementById('edit-address').value,
-        city: document.getElementById('edit-city').value,
-        state: document.getElementById('edit-state').value
+      const instagram = document.getElementById('edit-instagram').value.trim();
+      const facebook = document.getElementById('edit-facebook').value.trim();
+      const tiktok = document.getElementById('edit-tiktok').value.trim();
+      
+      const updates = {};
+      
+      // Only include fields that have values (or explicitly null to clear)
+      const name = document.getElementById('edit-name').value.trim();
+      const website = document.getElementById('edit-website').value.trim();
+      const phone = document.getElementById('edit-phone').value.trim();
+      const address = document.getElementById('edit-address').value.trim();
+      const city = document.getElementById('edit-city').value.trim();
+      const neighborhood = document.getElementById('edit-neighborhood').value.trim();
+      const state = document.getElementById('edit-state').value.trim();
+      
+      // Debug logging for name field
+      console.log('Current shop name:', currentEditShop.name);
+      console.log('New name value from input:', name);
+      console.log('Name input element:', document.getElementById('edit-name'));
+      
+      // Always include name if it's different from current value
+      if (name !== (currentEditShop.name || '')) {
+        updates.name = name;
+      }
+      if (website) updates.website = website;
+      if (phone) updates.phone = phone;
+      if (address) updates.address = address;
+      if (city) updates.city = city;
+      if (neighborhood) updates.neighborhood = neighborhood;
+      if (state) updates.state = state;
+      
+      // Handle social media - normalize to URL format
+      // If user enters full URL, use it. If username, construct URL.
+      const normalizeSocialUrl = (input, platform) => {
+        if (!input) return null;
+        
+        // If it's already a full URL, just clean it up
+        if (input.startsWith('http://') || input.startsWith('https://')) {
+          return input.replace(/\\/+$/, ''); // Remove trailing slashes
+        }
+        
+        // Otherwise, treat as username and construct URL
+        const username = input.replace(/^@/, '');
+        
+        if (platform === 'instagram') {
+          return 'https://instagram.com/' + username;
+        } else if (platform === 'facebook') {
+          return 'https://facebook.com/' + username;
+        } else if (platform === 'tiktok') {
+          return 'https://tiktok.com/@' + username;
+        }
+        
+        return null;
       };
       
-      // Remove empty values
-      Object.keys(updates).forEach(key => {
-        if (!updates[key]) delete updates[key];
-      });
+      updates.social_instagram = normalizeSocialUrl(instagram, 'instagram');
+      updates.social_facebook = normalizeSocialUrl(facebook, 'facebook');
+      updates.social_tiktok = normalizeSocialUrl(tiktok, 'tiktok');
+      
+      console.log('Saving shop updates for ID:', currentEditShop.id);
+      console.log('Updates:', updates);
       
       try {
         const response = await fetch('/api/update', {
@@ -906,17 +1387,33 @@ const server = http.createServer((req, res) => {
         });
         
         const result = await response.json();
+        console.log('Server response:', result);
         
         if (result.success) {
+          console.log('Update successful, reloading shops...');
           closeEditModal();
-          loadShops(); // Refresh the list
+          
+          // Wait a moment for DB to propagate
+          await new Promise(resolve => setTimeout(resolve, 500));
+          await loadShops(); // Refresh the list
+          
+          console.log('Shops reloaded');
+          alert('✅ Shop details updated successfully!');
         } else {
-          alert('Failed to update shop: ' + (result.error || 'Unknown error'));
+          console.error('Update failed:', result);
+          alert('❌ Failed to update shop: ' + (result.error || 'Unknown error'));
         }
       } catch (error) {
-        alert('Error updating shop: ' + error.message);
+        console.error('Update error:', error);
+        alert('❌ Error updating shop: ' + error.message);
       }
     }
+    
+    // Search input
+    document.getElementById('search').addEventListener('input', (e) => {
+      searchQuery = e.target.value.trim();
+      renderShops();
+    });
     
     // Filter buttons
     document.querySelectorAll('.filter-btn').forEach(btn => {
