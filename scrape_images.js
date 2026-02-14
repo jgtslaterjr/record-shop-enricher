@@ -145,9 +145,8 @@ async function scrapeInstagramPhotos(instagramUrl) {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        directUrls: [`https://www.instagram.com/${username}/`],
+        username: [username],
         resultsLimit: 12,
-        resultsType: 'posts',
       })
     });
     const run = await runResponse.json();
@@ -182,6 +181,48 @@ async function scrapeInstagramPhotos(instagramUrl) {
     log(`  [Instagram] Found ${images.length} photos`);
   } catch (e) {
     log(`  [Instagram] Error: ${e.message}`);
+  }
+  return images;
+}
+
+// ─── Image Source: Instagram via Playwright (free fallback) ─────────────────
+
+async function scrapeInstagramPhotosDirect(instagramUrl) {
+  const images = [];
+  if (!instagramUrl) return images;
+  try {
+    log(`  [Instagram/Direct] Scraping via Playwright: ${instagramUrl}`);
+    const match = instagramUrl.match(/instagram\.com\/([^/?]+)/);
+    if (!match) return images;
+    const username = match[1];
+
+    const { browser, context, page } = await createStealthBrowser();
+    try {
+      // Instagram embeds JSON data in the page for public profiles
+      await page.goto(`https://www.instagram.com/${username}/`, { waitUntil: 'networkidle', timeout: 30000 });
+      await delay(2000, 3000);
+
+      // Try to extract image URLs from the rendered page
+      const photoUrls = await page.evaluate(() => {
+        const urls = [];
+        // Instagram renders images in article elements or main content
+        document.querySelectorAll('img[src*="cdninstagram.com"]').forEach(img => {
+          if (img.src && img.naturalWidth > 100) {
+            urls.push(img.src);
+          }
+        });
+        return [...new Set(urls)];
+      });
+
+      for (const url of photoUrls.slice(0, 12)) {
+        images.push({ url, source: 'instagram_direct' });
+      }
+      log(`  [Instagram/Direct] Found ${images.length} photos`);
+    } finally {
+      await browser.close();
+    }
+  } catch (e) {
+    log(`  [Instagram/Direct] Error: ${e.message}`);
   }
   return images;
 }
@@ -457,8 +498,12 @@ async function scrapeImagesForShop(shop) {
     await browser.close();
   }
 
-  // 4. Instagram (Apify - no browser needed)
-  addCandidates(await scrapeInstagramPhotos(shop.social_instagram));
+  // 4. Instagram (Apify, with Playwright fallback)
+  let igPhotos = await scrapeInstagramPhotos(shop.social_instagram);
+  if (igPhotos.length === 0 && shop.social_instagram) {
+    igPhotos = await scrapeInstagramPhotosDirect(shop.social_instagram);
+  }
+  addCandidates(igPhotos);
 
   // 5. Reddit
   addCandidates(await scrapeRedditImages(shop.name, shop.city));
@@ -545,12 +590,21 @@ async function scrapeImagesForShop(shop) {
   if (uploadedUrls.length > 0) {
     // Append to existing image_gallery
     const existing = shop.image_gallery || [];
-    const existingUrls = new Set(existing.map(e => typeof e === 'string' ? e : e.url));
-    const newImages = uploadedUrls.filter(u => !existingUrls.has(u.url));
+    // Normalize existing entries to plain URL strings
+    const existingNorm = existing.map(e => {
+      if (typeof e === 'string' && e.startsWith('{')) { try { return JSON.parse(e).url; } catch(_) { return e; } }
+      if (typeof e === 'object' && e.url) return e.url;
+      return e;
+    });
+    const existingUrls = new Set(existingNorm);
+    const newUrls = uploadedUrls.map(u => u.url).filter(url => !existingUrls.has(url));
     
-    const updatedGallery = [...existing, ...newImages];
+    const updatedGallery = [...existingNorm, ...newUrls];
     await updateShop(shop.id, { image_gallery: updatedGallery });
-    log(`\n✅ Updated image_gallery: ${existing.length} existing + ${newImages.length} new = ${updatedGallery.length} total`);
+    log(`\n✅ Updated image_gallery: ${existingNorm.length} existing + ${newUrls.length} new = ${updatedGallery.length} total`);
+    
+    // Save metadata separately
+    saveJSON(path.join(reviewDir, 'gallery_metadata.json'), uploadedUrls);
   }
 
   log(`\nDone with ${shop.name}!`);
