@@ -1,0 +1,35 @@
+{
+  "shopName": "Shady Dog Record & Disc Exchange",
+  "shopId": "efcb6547-a85b-4ef9-91c0-c16930232f34",
+  "city": "Berwyn",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "new_arrivals",
+      "title": "",
+      "date": [
+        "FEBRUARY 13TH, 2026",
+        "FEBRUARY 2ND, 2026",
+        "JANUARY 28TH, 2026",
+        "JANUARY 27TH, 2026 (PART 3)",
+        "JANUARY 27TH, 2026 (PART 2)",
+        "JANUARY 27TH, 2026",
+        "JANUARY 24TH, 2026",
+        "JANUARY 23RD, 2026",
+        "JANUARY 22ND, 2026",
+        "JANUARY 21ST, 2026 (RARE METAL)",
+        "JANUARY 21ST, 2026",
+        "JANUARY 20TH, 2026 (PART 2)",
+        "JANUARY 20TH, 2026",
+        "JANUARY 19TH, 2026 (PART 2)",
+        "JANUARY 19TH, 2026"
+      ],
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "http://shadydog.com/events"
+    }
+  ],
+  "totalFound": 1,
+  "scrapedAt": "2026-02-14T16:35:34.009Z"
+}

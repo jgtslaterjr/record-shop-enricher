@@ -114,49 +114,53 @@ async function scrapeGoogleMaps(page, shopName, city, state) {
   // Now try to get reviews by clicking the reviews tab/button
   let reviews = [];
   try {
-    const reviewsBtn = await page.$('button[aria-label*="Reviews"], button[aria-label*="reviews"], [data-tab-index="1"]');
+    // Try multiple selectors for the reviews tab
+    const reviewsBtn = await page.$('button[aria-label*="Reviews"], button[aria-label*="reviews"], [data-tab-index="1"], button[role="tab"]:has-text("Reviews")');
     if (reviewsBtn) {
       await reviewsBtn.click();
-      await delay(2000, 3000);
+      await delay(3000, 4000);
 
-      // Scroll to load more reviews
-      const scrollable = await page.$('[class*="review"], [role="main"] [tabindex="-1"]');
-      if (scrollable) {
-        for (let i = 0; i < 5; i++) {
-          await page.evaluate(el => el.scrollBy(0, 1000), scrollable);
-          await delay(1000, 1500);
-        }
+      // Scroll the reviews pane to load more
+      for (let i = 0; i < 5; i++) {
+        await page.evaluate(() => {
+          // Google Maps uses various scrollable containers
+          const containers = document.querySelectorAll('[role="main"] div[tabindex="-1"], .m6QErb.DxyBCb, .m6QErb.WNBkOb');
+          containers.forEach(c => c.scrollBy(0, 1000));
+        });
+        await delay(1000, 2000);
       }
 
+      // Click all "More" buttons to expand review text
+      await page.evaluate(() => {
+        document.querySelectorAll('button[aria-label="See more"], button[jsaction*="pane.review.expandReview"], button.w8nwRe').forEach(b => b.click());
+      });
+      await delay(1000);
+
       reviews = await page.evaluate(() => {
-        const reviewEls = document.querySelectorAll('[data-review-id], [class*="review"] [tabindex]');
+        // Try multiple known Google Maps review container selectors
+        const allReviews = document.querySelectorAll('[data-review-id], div.jftiEf, div[data-google-review-id]');
         const results = [];
         
-        reviewEls.forEach(el => {
-          // Expand "More" buttons
-          const moreBtn = el.querySelector('button[aria-label="See more"], button[jsaction*="expand"]');
-          if (moreBtn) moreBtn.click();
-        });
-
-        // Wait a tiny bit for expansion
-        // Re-query after expansion
-        const allReviews = document.querySelectorAll('[data-review-id], [class*="jftiEf"]');
         allReviews.forEach(el => {
-          const starEl = el.querySelector('span[aria-label*="star"]');
+          // Stars: look for aria-label with "star" or count filled star SVGs
           let stars = null;
+          const starEl = el.querySelector('span[aria-label*="star"], span[role="img"][aria-label*="star"]');
           if (starEl) {
             const m = starEl.getAttribute('aria-label')?.match(/(\d)/);
             if (m) stars = parseInt(m[1]);
           }
 
-          const textEl = el.querySelector('[class*="review-full-text"], [class*="wiI7pd"], span[class*="rsqaWe"]');
+          // Review text: multiple possible class names
+          const textEl = el.querySelector('.wiI7pd, .MyEned span, [data-expandable-section] span, .review-full-text');
           const text = textEl?.textContent?.trim();
           if (!text || text.length < 5) return;
 
-          const authorEl = el.querySelector('[class*="reviewer"], [class*="d4r55"], a[href*="contrib"]');
+          // Author
+          const authorEl = el.querySelector('.d4r55, a[href*="/contrib/"], .WNxzHc a');
           const author = authorEl?.textContent?.trim() || null;
 
-          const dateEl = el.querySelector('[class*="rsqaWe"], span[class*="xRkPPb"]');
+          // Date  
+          const dateEl = el.querySelector('.rsqaWe, .xRkPPb, span.dehysf');
           const dateText = dateEl?.textContent?.trim() || null;
 
           results.push({ stars, text, author, date: dateText });

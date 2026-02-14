@@ -73,10 +73,41 @@ ${reviewTexts.slice(0, 10000)}`;
   try {
     const result = await ollamaSummarize(prompt);
     
-    // Try to parse JSON
-    const jsonMatch = result.match(/\{[\s\S]*\}/);
-    if (jsonMatch) {
-      const analysis = JSON.parse(jsonMatch[0]);
+    // Try to parse JSON — multiple strategies for dealing with Ollama output
+    let analysis = null;
+    
+    // Strategy 1: extract from ```json ... ``` code fence
+    const fenceMatch = result.match(/```(?:json)?\s*(\{[\s\S]*?\})\s*```/);
+    // Strategy 2: find first { ... } block
+    const rawJson = fenceMatch ? fenceMatch[1] : (result.match(/\{[\s\S]*\}/) || [null])[0];
+    
+    if (rawJson) {
+      // Sanitize Python-style values and unquoted strings
+      let sanitized = rawJson
+        .replace(/:\s*None/g, ': null')
+        .replace(/:\s*True/g, ': true')
+        .replace(/:\s*False/g, ': false')
+        // Fix unquoted string values (common Ollama issue)
+        .replace(/:\s*([A-Z][^",\n\r}\]]*[^",\s\n\r}\]])\s*([,}\]])/g, ': "$1"$2');
+      
+      try {
+        analysis = JSON.parse(sanitized);
+      } catch (e) {
+        // Strategy 3: use a more lenient parse — strip trailing commas, fix quotes
+        sanitized = sanitized
+          .replace(/,\s*([}\]])/g, '$1')  // trailing commas
+          .replace(/([{,]\s*)(\w+)\s*:/g, '$1"$2":');  // unquoted keys
+        try {
+          analysis = JSON.parse(sanitized);
+        } catch (e2) {
+          // Strategy 4: just save the raw text as a summary
+          log(`    JSON parse failed, saving raw summary`);
+          analysis = { raw_summary: result.slice(0, 2000) };
+        }
+      }
+    }
+    
+    if (analysis) {
       
       // Add metadata
       analysis.metadata = {

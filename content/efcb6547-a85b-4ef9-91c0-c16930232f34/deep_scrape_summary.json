@@ -1,0 +1,34 @@
+{
+  "shopId": "efcb6547-a85b-4ef9-91c0-c16930232f34",
+  "shopName": "Shady Dog Record & Disc Exchange",
+  "city": "Berwyn",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-14T16:33:33.479Z",
+  "scrapers": {
+    "yelp": {
+      "status": "success",
+      "elapsed": "36.2s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "16.2s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "30.2s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "26.6s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "3.1s"
+    }
+  },
+  "completedAt": "2026-02-14T16:35:43.012Z"
+}
