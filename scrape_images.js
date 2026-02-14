@@ -89,7 +89,9 @@ async function scrapeYelpPhotos(page, yelpUrl) {
   const images = [];
   if (!yelpUrl) { log('  [Yelp] No yelp_url, skipping'); return images; }
   try {
-    const photosUrl = yelpUrl.replace(/\/$/, '') + '/photos';
+    // Strip query params from yelp URL before adding /photos
+    const yelpClean = yelpUrl.split('?')[0].replace(/\/$/, '');
+    const photosUrl = yelpClean + '/photos';
     log(`  [Yelp] Scraping: ${photosUrl}`);
     await page.goto(photosUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
     await delay(3000, 5000);
@@ -422,6 +424,10 @@ async function scrapeImagesForShop(shop) {
   function addCandidates(candidates) {
     for (const c of candidates) {
       if (!c.url || seenUrls.has(c.url)) continue;
+      // Fix protocol-relative URLs
+      if (c.url.startsWith('//')) c.url = 'https:' + c.url;
+      // Skip non-http URLs
+      if (!c.url.startsWith('http')) continue;
       seenUrls.add(c.url);
       allCandidates.push(c);
     }
@@ -468,9 +474,12 @@ async function scrapeImagesForShop(shop) {
   log('\n--- AI Image Review (Grok 4.1 Vision) ---');
   const approved = [];
   const reviewed = [];
+  const maxReview = parseInt(parseArgs()['max-review']) || allCandidates.length;
+  const toReview = allCandidates.slice(0, maxReview);
+  if (maxReview < allCandidates.length) log(`  Limiting review to ${maxReview}/${allCandidates.length} images`);
 
-  for (let i = 0; i < allCandidates.length; i++) {
-    const candidate = allCandidates[i];
+  for (let i = 0; i < toReview.length; i++) {
+    const candidate = toReview[i];
     log(`  Reviewing ${i + 1}/${allCandidates.length}: ${candidate.source} - ${candidate.url.slice(0, 80)}...`);
 
     const review = await reviewImageWithGrok(candidate.url);
