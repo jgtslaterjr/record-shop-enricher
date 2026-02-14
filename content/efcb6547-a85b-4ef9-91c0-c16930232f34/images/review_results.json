@@ -1,0 +1,295 @@
+{
+  "shop": {
+    "id": "efcb6547-a85b-4ef9-91c0-c16930232f34",
+    "name": "Shady Dog Record & Disc Exchange",
+    "slug": "shady_dog_record_disc_exchange_berwyn_berwyn_pa"
+  },
+  "timestamp": "2026-02-14T20:56:13.831Z",
+  "totalCandidates": 111,
+  "approved": 12,
+  "reviewed": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweq6T9MftZ1-MaNjJ-8ahem8ssuxYqg53Jvh14tEvJl4OLK56cZbRLparg2daXKECCjYxpePL4t6lkQcWiguVKKzTYEZttbsspDAWGQlxm2gDrHqKFvEG6DpgWFI-gmhgFsfrxCE=w800-h600-p-k-no",
+      "source": "google_maps",
+      "review": {
+        "score": 8,
+        "category": "storefront",
+        "description": "Clear exterior view of shop window with 'OPEN' sign, posters, and vinyl graphics."
+      }
+    },
+    {
+      "url": "https://maps.gstatic.com/tactile/pegman_v3/default/runway-1x.png",
+      "source": "google_maps",
+      "review": {
+        "score": 1,
+        "category": "other",
+        "description": "Abstract pixel art of yellow figures on colored background, unrelated to record shop"
+      }
+    },
+    {
+      "url": "https://64.media.tumblr.com/0096ecbbe730ccb4ac7262fcf5e4afdc/0e771c290710b074-63/s2048x3072/db8deb5937aec0fc8566020c15cf7ba498e6521c.jpg",
+      "source": "website",
+      "review": {
+        "score": 9,
+        "category": "storefront",
+        "description": "Clear exterior view of the record shop with prominent signage and window displays featuring band posters."
+      }
+    },
+    {
+      "url": "https://64.media.tumblr.com/1843c1143e475c03e051db18ab314b25/74f508d3dfb00d4e-61/s400x600/78ca1feccdd550b748fe8995d5fb911adce4801d.png",
+      "source": "website",
+      "review": {
+        "score": 9,
+        "category": "other",
+        "description": "Promotional 'Wanted' poster advertising top prices for vinyl records and collections"
+      }
+    },
+    {
+      "url": "https://64.media.tumblr.com/98e55aa2e5225731868d53c634a77f6c/74278e55b50a5456-b7/s1280x1920/d610c7af5b789fb4cc01549cc0e19e95f8ccc1c5.jpg",
+      "source": "website",
+      "review": {
+        "score": 2,
+        "category": "other",
+        "description": "Colorful mural of Berwyn, Pennsylvania landmarks on building wall, unrelated to record shop."
+      }
+    },
+    {
+      "url": "https://64.media.tumblr.com/b92ea9aa3a5cb8a13d881b21735a41d5/74278e55b50a5456-ba/s1280x1920/0b0fdd513e5f2a383015358e5b28b2cd6df08385.jpg",
+      "source": "website",
+      "review": {
+        "score": 7,
+        "category": "other",
+        "description": "Vibrant mural of cartoon dog holding vinyl records amid graffiti and train theme on tiled wall."
+      }
+    },
+    {
+      "url": "https://64.media.tumblr.com/ed2f71b50205d24bfe1d902c014e438b/4a2b01bdadb4c41e-f7/s640x960/96201da2f36d4f78f19705407a2fbcb39debecdd.jpg",
+      "source": "website",
+      "review": {
+        "score": 1,
+        "category": "other",
+        "description": "Generic 'Thank You' speech bubble graphic, unrelated to record shop"
+      }
+    },
+    {
+      "url": "https://64.media.tumblr.com/0e58fb5f497f24b634d123766ac5305b/431503265dd87816-64/s1280x1920/d9c186f0ea0c63c36587c0808c9f153f326fbb66.jpg",
+      "source": "website",
+      "review": {
+        "score": 9,
+        "category": "event",
+        "description": "Promotional graphic for Record Store Day Black Friday 11.28.25"
+      }
+    },
+    {
+      "url": "https://scontent-ord5-2.cdninstagram.com/v/t51.2885-15/13181281_515423005307655_383352150_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2QEP-QtpXIyc1y8p60NplU8YkQ23lYGVucbeV0iusiUPytHRQh9-FTJwMJ2Zrtjb7SY&_nc_ohc=MsoWwx_K1AwQ7kNvwGbd1Gh&_nc_gid=W7Lpbjp0mDywsiVw5Iws_g&edm=APs17CUBAAAA&ccb=7-5&oh=00_Afs9LeIkEIVZqZqHUCFwLtFG8-E4hk7MnZw8DEdJOSHeVQ&oe=6996C9AF&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 9,
+        "category": "product",
+        "description": "Close-up of sealed 'Paid in Full' vinyl by Eric B. & Rakim held from a box of records"
+      }
+    },
+    {
+      "url": "https://scontent-ord5-2.cdninstagram.com/v/t51.29350-15/237297813_1481674295525607_6989944467462535921_n.jpg?stp=dst-jpg_e35_s1080x1080_tt6&_nc_ht=scontent-ord5-2.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2QF27h1pf-LoCuAwnHxgnp0qp1oxzg2aZ3AgQhFyLFvwkG3oeLAMuoIrzyV5pREU-Lg&_nc_ohc=ZvBIPF6D2ZIQ7kNvwEyNBSz&_nc_gid=6j5Bh8Z5gecdGJr590oopg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfuPVZoe9VbJ5YbpkrB_8Jzztpo8V00lJ16WQTujOJljiQ&oe=6996A2DC&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 9,
+        "category": "product",
+        "description": "Close-up of shiny 'Hail Satin' vinyl record cover by DEEEEGEEES"
+      }
+    },
+    {
+      "url": "https://scontent-mia3-1.cdninstagram.com/v/t51.29350-15/238314205_520034059283394_5243677557889074842_n.jpg?stp=dst-jpg_e35_s1080x1080_tt6&_nc_ht=scontent-mia3-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2QHABd-9isxR3K0hPSiGR9HpngrmhhNt8d__EAAXHnloSz8RmkZ1oRxkkruSCM0tPsU&_nc_ohc=_j_dS-FHKysQ7kNvwEHJCYh&_nc_gid=DDm4xtgVI8Y5hh2Q-jsK6w&edm=APs17CUBAAAA&ccb=7-5&oh=00_Afsx0quIuQJ2EA088k3SQAjwykA0CZtMB_-CTPz7GcJqTg&oe=6996B388&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 7,
+        "category": "product",
+        "description": "Close-up of Willie Nelson-themed wrapping paper ('Pretty Paper'), music-related merch."
+      }
+    },
+    {
+      "url": "https://instagram.fwbw1-1.fna.fbcdn.net/v/t51.2885-15/12724716_223246191390453_37771261_n.jpg?stp=dst-jpg_e35_tt6&_nc_ht=instagram.fwbw1-1.fna.fbcdn.net&_nc_cat=109&_nc_oc=Q6cZ2QFuI6Jb-sZR9AR-cmO7mSWMiCTS32h0sQ9KRgNs5iKJsXcRJ6LWgNx7ZYVVHJHd7ds&_nc_ohc=P-1xBiDEnl4Q7kNvwGUsTDF&_nc_gid=34Bi-tKQmvnZvYaxhELdyw&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfttY0YKkvwOAn6otOdwPlrtbS-MRjliVTyzi0PXLX9p5w&oe=6996CDE9&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 9,
+        "category": "interior",
+        "description": "Close-up of record bins/shelves stocked with vinyl albums including The Doors and The Smiths."
+      }
+    },
+    {
+      "url": "https://instagram.fluk1-1.fna.fbcdn.net/v/t51.29350-15/238828860_984682852320362_8408417679571230843_n.jpg?stp=dst-jpg_e35_s1080x1080_tt6&_nc_ht=instagram.fluk1-1.fna.fbcdn.net&_nc_cat=102&_nc_oc=Q6cZ2QEbBXP7d8LkDXGYQK9Z-PQ7Z9COGnvwgEYrh897Z7WOOLBXrKAdZmnAJOhavCXejj0&_nc_ohc=4_1W7V1NbXQQ7kNvwGTbld7&_nc_gid=UyUYYxqozPzIdNLiydrkiQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AftB5UE6bin0l12g4wcMcTzBSO71MoycsWc6vzvB2INTEw&oe=6996C2E4&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 9,
+        "category": "product",
+        "description": "Clear close-up of Michael Jackson vinyl records like Thriller and Bad on shelves"
+      }
+    },
+    {
+      "url": "https://scontent-sea5-1.cdninstagram.com/v/t51.2885-15/11374141_1450940365210654_941551256_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-sea5-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2QFhv_ja3hoaeu8joW4LTCBMjnBmHUUhuSdG3GcybttUiRU3iop0PCDWOg9EskKSI3w&_nc_ohc=C8lwyGmQtFkQ7kNvwEoPs1n&_nc_gid=fe1Ab4oC5m01jqD09Z8MRg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Afu1ot8LHVvxjaFceS5UtzlrpNf4xyCpNuYgxJImHGZVAQ&oe=6996CE8C&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 10,
+        "category": "product",
+        "description": "Close-up of stacked vinyl records featuring Johnny Cash, Jerry Garcia, Bob Marley, and other classic albums in bins."
+      }
+    },
+    {
+      "url": "https://scontent-hou1-1.cdninstagram.com/v/t51.2885-15/13166744_1095759547134316_424961921_n.jpg?stp=dst-jpg_e35_tt6&_nc_ht=scontent-hou1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2QEg6R_OZ06yRy-FceblegN9Mn4nE4Uq1U5jeuMpEdcm9E9PNWKKiz4DhskTWFB3P0I&_nc_ohc=oUfP34IOYTQQ7kNvwHyFrdK&_nc_gid=QggVGIBIiq3a114d8oyCSQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfvIEzHw65mxCoSV0mjS8U7_dM1vviv8UOnIE67D1BEXXQ&oe=6996B6BA&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 9,
+        "category": "product",
+        "description": "Close-up of vintage Commodore Jazz Classics vinyl record cover"
+      }
+    },
+    {
+      "url": "https://instagram.fric1-2.fna.fbcdn.net/v/t51.2885-15/621691034_18109184626709733_2879179256417062729_n.jpg?stp=dst-jpg_e35_s1080x1080_sh0.08_tt6&_nc_ht=instagram.fric1-2.fna.fbcdn.net&_nc_cat=109&_nc_oc=Q6cZ2QHfg5ZXt26gD12ii1GHNvwFBqw9Q0nU4I1vnNXM8xtQN9znFe0daXcwA78THrlKYvY&_nc_ohc=gip-sVX8HDYQ7kNvwF5q2Pt&_nc_gid=pISeieAz6sVhj-_yLAGeNw&edm=APs17CUBAAAA&ccb=7-5&oh=00_AftBIQBllYJ5Fo79icsvdnHa1bxTlA-8vH0bO7WvZW_DMg&oe=6996A03F&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 9,
+        "category": "product",
+        "description": "Collage of vinyl records, posters, and CDs featuring bands like Mother Love Bone and Satyricon"
+      }
+    },
+    {
+      "url": "https://instagram.fagc1-1.fna.fbcdn.net/v/t51.2885-15/496799669_1043215890508622_8673959353358519343_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=instagram.fagc1-1.fna.fbcdn.net&_nc_cat=102&_nc_oc=Q6cZ2QHGENkEpKPtzixQNkdbWrd77pwVz8h42pSqVaGTuPcvTLgl1tOgFrGp9JSroDySqgk&_nc_ohc=11MuCqDSfPsQ7kNvwHGUJTR&_nc_gid=EFhrvtYbKQtImYYMra-q6Q&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfuXxp2UcqUaHhqQ_cXDnLY9N-8_SVICjxzx3a2DdFVJXg&oe=6996CF56&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 10,
+        "category": "interior",
+        "description": "Hand browsing through colorful vinyl records in shop bins and crates"
+      }
+    },
+    {
+      "url": "https://external-preview.redd.it/yn9MyOErjWa_DsMTWrUTvrzmwwxI89rcHQsYg7oeKxM.gif?format=png8&s=129c4f53cd0a9f9ad23a0b49635120786329616b",
+      "source": "reddit",
+      "postTitle": "Guinness World Record for Longest Flying Disc Throw Caught By a Dog (402 feet)",
+      "review": {
+        "score": 1,
+        "category": "other",
+        "description": "Unrelated outdoor scene of people playing frisbee with a dog in a field."
+      }
+    },
+    {
+      "url": "https://external-preview.redd.it/PuMD246_ay-LwgJFNyShElsJT0_R0FKL6n0G6M-hU8s.jpeg?auto=webp&s=f51f264720c4e27f34e948e6298256eadef1fd4f",
+      "source": "reddit",
+      "postTitle": "I saw 290 movies in theaters in 2025. Here is my full ranking.",
+      "review": {
+        "score": 1,
+        "category": "other",
+        "description": "Generic monthly bar chart graph, unrelated to record shop."
+      }
+    },
+    {
+      "url": "https://external-preview.redd.it/g7XciR-Rm630m5KJRDAbyoUS-8tUSmJuUU08EDk3x7Q.jpg?auto=webp&s=8ea8d8833b87c27ebe8adcd13562a258a18f9cbf",
+      "source": "reddit",
+      "postTitle": "TIL in 2010, Guinness competitive eater record holder Takeru Kobayashi was arrested for trespassing &amp; obstructing government administration at the Nathan’s Hot Dog Eating Contest. When Nathans removed him from their Wall of Fame, the contest lost multiple sponsorships &amp; 41% viewer ratings in 2 years",
+      "review": {
+        "score": 1,
+        "category": "other",
+        "description": "Group photo of people including police officers and a Dodgers fan holding a trophy; unrelated to record shop."
+      }
+    },
+    {
+      "url": "https://preview.redd.it/9hhwg7kzrkig1.jpg?width=2252&format=pjpg&auto=webp&s=a38978d3c8e2fac7e1e14eb2a3c3abecf7dd700b",
+      "source": "reddit",
+      "postTitle": "Who remembers the crazy CD Players from the late 90's and early 2000's?",
+      "review": {
+        "score": 1,
+        "category": "other",
+        "description": "Magazine page about car audio systems (Kenwood stereos), unrelated to vinyl records or record shop."
+      }
+    },
+    {
+      "url": "https://preview.redd.it/7286euazrkig1.jpg?width=2252&format=pjpg&auto=webp&s=78717ec6f8068e7b7e3a5f57becee905b996d6c6",
+      "source": "reddit",
+      "postTitle": "Who remembers the crazy CD Players from the late 90's and early 2000's?",
+      "review": {
+        "score": 1,
+        "category": "other",
+        "description": "Advertisement for Kenwood car CD receivers, unrelated to vinyl records or record shop"
+      }
+    },
+    {
+      "url": "https://preview.redd.it/x91gmuizrkig1.jpg?width=2252&format=pjpg&auto=webp&s=0c2f755b29ff2d58d1a5f6af393971e217083108",
+      "source": "reddit",
+      "postTitle": "Who remembers the crazy CD Players from the late 90's and early 2000's?",
+      "review": {
+        "score": 1,
+        "category": "other",
+        "description": "Magazine advertisement for Kenwood car audio equipment like CD players and stereos, unrelated to records or shop"
+      }
+    },
+    {
+      "url": "https://preview.redd.it/hp9axi9zrkig1.jpg?width=2252&format=pjpg&auto=webp&s=4667c24d4a4af39c5507fbc4a79b143d4c477cfc",
+      "source": "reddit",
+      "postTitle": "Who remembers the crazy CD Players from the late 90's and early 2000's?",
+      "review": {
+        "score": 1,
+        "category": "other",
+        "description": "Scan of JVC car stereo catalog page, unrelated to vinyl records"
+      }
+    },
+    {
+      "url": "https://preview.redd.it/4qwac66zrkig1.jpg?width=2252&format=pjpg&auto=webp&s=feb012de57c49d44df0890e7e642512bb163aed5",
+      "source": "reddit",
+      "postTitle": "Who remembers the crazy CD Players from the late 90's and early 2000's?",
+      "review": {
+        "score": 1,
+        "category": "other",
+        "description": "Unrelated catalog page of Pioneer car CD receivers"
+      }
+    },
+    {
+      "url": "https://preview.redd.it/r6bdgdnzrkig1.jpg?width=2252&format=pjpg&auto=webp&s=26e9d7af955fbbd5d88d99f8aebb3cb869549c2b",
+      "source": "reddit",
+      "postTitle": "Who remembers the crazy CD Players from the late 90's and early 2000's?",
+      "review": {
+        "score": 1,
+        "category": "other",
+        "description": "Unrelated Panasonic car stereo catalog page"
+      }
+    },
+    {
+      "url": "https://preview.redd.it/onh6y18zrkig1.jpg?width=2252&format=pjpg&auto=webp&s=2493f77020d5ff15f259149c47184652aa355efb",
+      "source": "reddit",
+      "postTitle": "Who remembers the crazy CD Players from the late 90's and early 2000's?",
+      "review": {
+        "score": 1,
+        "category": "other",
+        "description": "Magazine ad for car CD receivers from Panasonic and Alpine, unrelated to vinyl records."
+      }
+    },
+    {
+      "url": "https://preview.redd.it/b2d6tpfzrkig1.jpg?width=2252&format=pjpg&auto=webp&s=ec67b4d1c4b5393f330d768a475c1a9ce6581f0a",
+      "source": "reddit",
+      "postTitle": "Who remembers the crazy CD Players from the late 90's and early 2000's?",
+      "review": {
+        "score": 1,
+        "category": "other",
+        "description": "Unrelated catalog ad for Pioneer car stereos and CD players, not relevant to vinyl record shop."
+      }
+    },
+    {
+      "url": "https://preview.redd.it/o17neidzrkig1.jpg?width=2252&format=pjpg&auto=webp&s=647be0e039315faa55a36f20fd14e0f1eb9fed18",
+      "source": "reddit",
+      "postTitle": "Who remembers the crazy CD Players from the late 90's and early 2000's?",
+      "review": {
+        "score": 1,
+        "category": "other",
+        "description": "Magazine ad for Kenwood MP3 CD players and car stereos, unrelated to vinyl records"
+      }
+    },
+    {
+      "url": "https://preview.redd.it/82ssutlzrkig1.jpg?width=2252&format=pjpg&auto=webp&s=0a63119875af49927e3a48c43641e197a7ff2df4",
+      "source": "reddit",
+      "postTitle": "Who remembers the crazy CD Players from the late 90's and early 2000's?",
+      "review": {
+        "score": 1,
+        "category": "other",
+        "description": "Scan of vintage Alpine car stereo catalog page, unrelated to vinyl records or record shop."
+      }
+    }
+  ]
+}

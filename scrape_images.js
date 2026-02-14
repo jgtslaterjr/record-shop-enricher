@@ -461,6 +461,23 @@ async function scrapeImagesForShop(shop) {
 
   const allCandidates = [];
   const seenUrls = new Set();
+  const seenBaseUrls = new Set();
+
+  // Normalize URL for dedup: strip query params, size variants, CDN prefixes
+  function normalizeUrlForDedup(url) {
+    try {
+      const u = new URL(url);
+      // Strip query params (Reddit uses ?width=, ?auto=, ?s= etc.)
+      let base = u.origin + u.pathname;
+      // Normalize Reddit preview/i.redd.it variants to same key
+      base = base.replace(/^https?:\/\/(preview|external-preview|i)\.redd\.it\//, 'reddit://');
+      // Normalize Google image size params
+      base = base.replace(/=s\d+/, '=s0').replace(/=w\d+-h\d+/, '=w0-h0');
+      // Strip trailing resolution suffixes
+      base = base.replace(/\/[a-z]+\.jpg$/, '/o.jpg');
+      return base;
+    } catch(_) { return url; }
+  }
 
   function addCandidates(candidates) {
     for (const c of candidates) {
@@ -469,7 +486,11 @@ async function scrapeImagesForShop(shop) {
       if (c.url.startsWith('//')) c.url = 'https:' + c.url;
       // Skip non-http URLs
       if (!c.url.startsWith('http')) continue;
+      // Dedup by normalized URL (catches same image at different sizes/CDN paths)
+      const baseUrl = normalizeUrlForDedup(c.url);
+      if (seenBaseUrls.has(baseUrl)) continue;
       seenUrls.add(c.url);
+      seenBaseUrls.add(baseUrl);
       allCandidates.push(c);
     }
   }
@@ -519,6 +540,7 @@ async function scrapeImagesForShop(shop) {
   log('\n--- AI Image Review (Grok 4.1 Vision) ---');
   const approved = [];
   const reviewed = [];
+  const seenDescriptions = new Set(); // Catch visually duplicate images via description
   const maxReview = parseInt(parseArgs()['max-review']) || allCandidates.length;
   const toReview = allCandidates.slice(0, maxReview);
   if (maxReview < allCandidates.length) log(`  Limiting review to ${maxReview}/${allCandidates.length} images`);
@@ -537,6 +559,13 @@ async function scrapeImagesForShop(shop) {
     log(`    Score: ${review.score}/10, Category: ${review.category} - ${review.description || ''}`);
 
     if (review.score >= 6 && review.category !== 'other') {
+      // Check for visual duplicates using description similarity
+      const descKey = (review.description || '').toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 60);
+      if (descKey.length > 20 && seenDescriptions.has(descKey)) {
+        log(`    ❌ Duplicate (same content as previous image)`);
+        continue;
+      }
+      seenDescriptions.add(descKey);
       approved.push({ ...candidate, review });
       log(`    ✅ Approved`);
     } else {
