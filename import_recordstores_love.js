@@ -327,7 +327,7 @@ async function main() {
       urls_found: [],
     };
     
-    const reportPath = path.join('/home/john/Projects/record_shop_enricher', 'recordstores_love_report.json');
+    const reportPath = path.join('/home/john/Projects/record-shop-enricher', 'recordstores_love_report.json');
     writeFileSync(reportPath, JSON.stringify(report, null, 2));
     console.log(`\n💾 Report saved to: ${reportPath}`);
     return;
@@ -363,7 +363,7 @@ async function main() {
     })),
   };
 
-  const reportPath = path.join('/home/john/Projects/record_shop_enricher', 'recordstores_love_report.json');
+  const reportPath = path.join('/home/john/Projects/record-shop-enricher', 'recordstores_love_report.json');
   writeFileSync(reportPath, JSON.stringify(report, null, 2));
 
   console.log('\n╔══════════════════════════════════════════════════════╗');

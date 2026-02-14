@@ -101,6 +101,27 @@
 
 ---
 
+### VinylMapper (vinylmapper.com)
+**What it is:** SEO-focused record store finder with interactive map. Global coverage organized by country/state.
+
+**Strengths:**
+- Strong SEO play — targets "record stores near me" searches
+- Interactive map with geolocation
+- Store profiles with photos, hours, reviews, links
+- Global coverage (US, Canada, Australia, Europe, etc.)
+- Clean, modern design
+- Location-based browsing hierarchy (country → state → city)
+
+**Weaknesses:**
+- Appears to aggregate Google/Yelp data rather than original content
+- No social media intelligence
+- No community features (no user lists, no reviews beyond aggregated ones)
+- No enrichment depth — similar shallow data as others
+- No API or data export
+- Relatively new — smaller dataset than VinylHub
+
+---
+
 ## 2. Our Angle — What Makes Us Different
 
 **We're building the most data-rich record shop directory in existence.**
@@ -251,6 +272,26 @@ Discovery → Enrichment → Social → Reviews → Score → Publish
 | Shops request data removal | Legal/PR risk | Build opt-out mechanism early |
 | Data goes stale | Poor user experience | Automated refresh pipeline |
 | Low traffic | No monetization | SEO focus, city guide content, social marketing |
+
+---
+
+---
+
+## 8. Domain Strategy
+
+**Domains owned:**
+- **recordshops.us** — 🥇 Primary candidate. Clear, memorable, US-focused. Perfect for "the definitive US record shop directory."
+- **vinylfinder.us** — Good for SEO ("find vinyl near me"). Could be a search/discovery sub-brand or redirect.
+- **lp-finder.com** — Global .com, LP-focused branding. Good for international expansion.
+- **33finder.com** — Niche/clever (33⅓ RPM reference). Best for a collector-focused sub-brand or merch.
+
+**Recommendation:**
+- Launch on **recordshops.us** as primary brand
+- Redirect **vinylfinder.us** → recordshops.us (capture SEO traffic)
+- Reserve **lp-finder.com** for future international version
+- Use **33finder.com** for merch/community brand or newsletter name
+
+**SEO targets:** "record shops near me", "best record stores [city]", "vinyl stores [state]", "independent record shops USA"
 
 ---
 

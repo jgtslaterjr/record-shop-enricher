@@ -15,7 +15,7 @@ const path = require('path');
 
 const SUPABASE_URL = "https://oytflcaqukxvzmbddrlg.supabase.co";
 const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im95dGZsY2FxdWt4dnptYmRkcmxnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjY5NTIwMjQsImV4cCI6MjA4MjUyODAyNH0.YpFZfu2BPxwXxXz5j-xqgu7VdIuTP315eiS3UuLD2wo";
-const CONTENT_DIR = '/home/john/Projects/record_shop_enricher/content';
+const CONTENT_DIR = '/home/john/Projects/record-shop-enricher/content';
 
 const args = process.argv.slice(2);
 const isBatch = args.includes('--batch');

@@ -17,7 +17,7 @@ const SUPABASE_URL = "https://oytflcaqukxvzmbddrlg.supabase.co";
 const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im95dGZsY2FxdWt4dnptYmRkcmxnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjY5NTIwMjQsImV4cCI6MjA4MjUyODAyNH0.YpFZfu2BPxwXxXz5j-xqgu7VdIuTP315eiS3UuLD2wo";
 
 const USER_AGENT = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
-const PROGRESS_FILE = '/home/john/Projects/record_shop_enricher/discover_progress.json';
+const PROGRESS_FILE = '/home/john/Projects/record-shop-enricher/discover_progress.json';
 
 // Parse args
 const args = process.argv.slice(2);
