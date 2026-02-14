@@ -1,0 +1,27 @@
+{
+  "date": "2026-02-14",
+  "totals": {
+    "searched": 0,
+    "matched": 0,
+    "updated": 0,
+    "inserted": 0,
+    "skipped": 0,
+    "cities": 2
+  },
+  "progress": {
+    "completedCities": [
+      "New York, NY",
+      "Los Angeles, CA"
+    ],
+    "apiCallsToday": 0,
+    "apiCallDate": "2026-02-14",
+    "stats": {
+      "searched": 0,
+      "matched": 0,
+      "updated": 0,
+      "inserted": 0,
+      "skipped": 0,
+      "cities": 2
+    }
+  }
+}

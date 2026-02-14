@@ -24,5 +24,13 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jgtslaterjr/record-shop-enricher.git"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.95.3",
+    "cheerio": "^1.2.0",
+    "dotenv": "^17.3.1",
+    "playwright": "^1.58.2",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }
