@@ -1,0 +1,1765 @@
+{
+  "timestamp": "2026-02-14T12:34:15.498Z",
+  "summary": {
+    "totalExternal": 9061,
+    "matches": 111,
+    "theyHaveWeDoNot": 2573,
+    "weHaveTheyDoNot": 696
+  },
+  "matches": [
+    {
+      "ourName": "Reckless Records",
+      "theirName": "Reckless Records",
+      "city": "Chicago"
+    },
+    {
+      "ourName": "Amoeba Music",
+      "theirName": "Amoeba Music",
+      "city": "Berkeley"
+    },
+    {
+      "ourName": "Amoeba Music",
+      "theirName": "Amoeba Music",
+      "city": "San Francisco"
+    },
+    {
+      "ourName": "Generation Records",
+      "theirName": "Generation Records",
+      "city": "New York"
+    },
+    {
+      "ourName": "Dusty Groove",
+      "theirName": "Dusty Groove",
+      "city": "Chicago"
+    },
+    {
+      "ourName": "Record Surplus",
+      "theirName": "Record Surplus",
+      "city": "Los Angeles"
+    },
+    {
+      "ourName": "Gramaphone Records",
+      "theirName": "Gramaphone Records",
+      "city": "Chicago"
+    },
+    {
+      "ourName": "Rockaway Records",
+      "theirName": "Rockaway Records",
+      "city": "Los Angeles"
+    },
+    {
+      "ourName": "Village Revival Records",
+      "theirName": "Village Revival Records",
+      "city": "New York"
+    },
+    {
+      "ourName": "Stranded Records NYC",
+      "theirName": "Stranded Records NYC",
+      "city": "New York"
+    },
+    {
+      "ourName": "Record Runner",
+      "theirName": "Record Runner",
+      "city": "New York"
+    },
+    {
+      "ourName": "Jacknife Records & Tapes",
+      "theirName": "Jacknife Records & Tapes",
+      "city": "Los Angeles"
+    },
+    {
+      "ourName": "Westsider Records",
+      "theirName": "Westsider Records",
+      "city": "New York"
+    },
+    {
+      "ourName": "Jazz Record Center",
+      "theirName": "Jazz Record Center",
+      "city": "New York"
+    },
+    {
+      "ourName": "Downtown Music Gallery",
+      "theirName": "Downtown Music Gallery",
+      "city": "New York"
+    },
+    {
+      "ourName": "Academy Records",
+      "theirName": "Academy Records",
+      "city": "New York"
+    },
+    {
+      "ourName": "Long In the Tooth",
+      "theirName": "Long In The Tooth",
+      "city": "Philadelphia"
+    },
+    {
+      "ourName": "Laurie's Planet Of Sound",
+      "theirName": "Laurie's Planet of Sound",
+      "city": "Chicago"
+    },
+    {
+      "ourName": "The Exchange",
+      "theirName": "The Exchange",
+      "city": "Chicago"
+    },
+    {
+      "ourName": "The Exchange",
+      "theirName": "The Exchange",
+      "city": "Chicago"
+    },
+    {
+      "ourName": "Headline Records",
+      "theirName": "Headline Records",
+      "city": "Los Angeles"
+    },
+    {
+      "ourName": "Bombass Muzik",
+      "theirName": "Bombassmuzik",
+      "city": "Los Angeles"
+    },
+    {
+      "ourName": "Out of the Past Records",
+      "theirName": "Out of the Past Records",
+      "city": "Chicago"
+    },
+    {
+      "ourName": "The Record Parlour",
+      "theirName": "The Record Parlour",
+      "city": "Los Angeles"
+    },
+    {
+      "ourName": "The Record Collector",
+      "theirName": "The Record Collector",
+      "city": "Los Angeles"
+    },
+    {
+      "ourName": "Main Street Music",
+      "theirName": "Main Street Music",
+      "city": "Philadelphia"
+    },
+    {
+      "ourName": "Repo Records",
+      "theirName": "Repo Records",
+      "city": "Philadelphia"
+    },
+    {
+      "ourName": "Shady Dog Record & Disc Exchange",
+      "theirName": "Shady Dog Record & Disc Exchange",
+      "city": "Berwyn"
+    },
+    {
+      "ourName": "Breakaway Records",
+      "theirName": "Breakaway Records",
+      "city": "Austin"
+    },
+    {
+      "ourName": "Antone's Record Shop",
+      "theirName": "Antone's Record Shop",
+      "city": "Austin"
+    },
+    {
+      "ourName": "The Book Trader",
+      "theirName": "The Book Trader",
+      "city": "Philadelphia"
+    },
+    {
+      "ourName": "Academy Records & CDs",
+      "theirName": "Academy Records & CDs",
+      "city": "New York"
+    },
+    {
+      "ourName": "Shuga Records",
+      "theirName": "Shuga Records",
+      "city": "Chicago"
+    },
+    {
+      "ourName": "606 Records",
+      "theirName": "606 Records",
+      "city": "Chicago"
+    },
+    {
+      "ourName": "Reckless Records",
+      "theirName": "Reckless Records",
+      "city": "Chicago"
+    },
+    {
+      "ourName": "Pinwheel Records",
+      "theirName": "Pinwheel Records",
+      "city": "Chicago"
+    },
+    {
+      "ourName": "DarkSide Records",
+      "theirName": "Darkside Records",
+      "city": "Poughkeepsie"
+    },
+    {
+      "ourName": "End Of An Ear",
+      "theirName": "End of An Ear",
+      "city": "Austin"
+    },
+    {
+      "ourName": "Bucket O'Blood Books & Records",
+      "theirName": "Bucket O' Blood Books and Records",
+      "city": "Chicago"
+    },
+    {
+      "ourName": "Sit & Spin Records",
+      "theirName": "Sit & Spin Records",
+      "city": "Philadelphia"
+    },
+    {
+      "ourName": "Discolandia Records",
+      "theirName": "Discolandia Records",
+      "city": "Philadelphia"
+    },
+    {
+      "ourName": "Bob's Blues & Jazz Mart",
+      "theirName": "Bob's Blues & Jazz Mart",
+      "city": "Chicago"
+    },
+    {
+      "ourName": "Shadyrest Vintage & Vinyl",
+      "theirName": "Shady Rest Vintage & Vinyl",
+      "city": "Chicago"
+    },
+    {
+      "ourName": "Beautiful World Syndicate",
+      "theirName": "Beautiful World Syndicate",
+      "city": "Philadelphia"
+    },
+    {
+      "ourName": "Haddonfield Record Exchange",
+      "theirName": "Haddonfield Record Exchange",
+      "city": "Haddonfield"
+    },
+    {
+      "ourName": "Inner Groove Records",
+      "theirName": "Inner Groove Records",
+      "city": "Collingswood"
+    },
+    {
+      "ourName": "Molly's Books and Records",
+      "theirName": "Molly's Books & Records",
+      "city": "Philadelphia"
+    },
+    {
+      "ourName": "Milkcrate Cafe",
+      "theirName": "Milkcrate Cafe",
+      "city": "Philadelphia"
+    },
+    {
+      "ourName": "Mercer Street Books & Records",
+      "theirName": "Mercer Street Books & Records",
+      "city": "New York"
+    },
+    {
+      "ourName": "Philadelphia Record Exchange",
+      "theirName": "Philadelphia Record Exchange",
+      "city": "Philadelphia"
+    }
+  ],
+  "missingFromOurDB": [
+    {
+      "name": "Streetlight Records",
+      "city": "San Jose",
+      "country": "US"
+    },
+    {
+      "name": "Streetlight Records",
+      "city": "Santa Cruz",
+      "country": "US"
+    },
+    {
+      "name": "VP Records Retail",
+      "city": "New York",
+      "country": "US"
+    },
+    {
+      "name": "VP Florida",
+      "city": "Miramar",
+      "country": "US"
+    },
+    {
+      "name": "Lou's Records",
+      "city": "Encinitas",
+      "country": "US"
+    },
+    {
+      "name": "M-Theory Music",
+      "city": "San Diego",
+      "country": "US"
+    },
+    {
+      "name": "Taang! Records",
+      "city": "San Diego",
+      "country": "US"
+    },
+    {
+      "name": "Nickelodeon Records",
+      "city": "San Diego",
+      "country": "US"
+    },
+    {
+      "name": "A-1 Record Shop",
+      "city": "New York",
+      "country": "US"
+    },
+    {
+      "name": "John Doe Records and Books",
+      "city": "Hudson",
+      "country": "US"
+    },
+    {
+      "name": "Rodgers Book Barn",
+      "city": "Hillsdale",
+      "country": "US"
+    },
+    {
+      "name": "Mystery Spot Antiques",
+      "city": "Phoenicia",
+      "country": "US"
+    },
+    {
+      "name": "Woodstock Music Shop",
+      "city": "Woodstock",
+      "country": "US"
+    },
+    {
+      "name": "Oblong Books and Music [Millerton]",
+      "city": "Millerton",
+      "country": "US"
+    },
+    {
+      "name": "Oblong Books [Rhinebeck]",
+      "city": "Rhinebeck",
+      "country": "US"
+    },
+    {
+      "name": "Bruised Apple",
+      "city": "Peekskill",
+      "country": "US"
+    },
+    {
+      "name": "Mr Cheapo CDs & Records",
+      "city": "Commack",
+      "country": "US"
+    },
+    {
+      "name": "House of Guitars",
+      "city": "Rochester",
+      "country": "US"
+    },
+    {
+      "name": "Downtown Records",
+      "city": "Danville",
+      "country": "US"
+    },
+    {
+      "name": "Mr Cheapo CDs",
+      "city": "New York",
+      "country": "US"
+    },
+    {
+      "name": "Electric Fetus",
+      "city": "Minneapolis",
+      "country": "US"
+    },
+    {
+      "name": "Music Millennium",
+      "city": "Portland",
+      "country": "US"
+    },
+    {
+      "name": "Vertigo Music",
+      "city": "Grand Rapids",
+      "country": "US"
+    },
+    {
+      "name": "Wazoo Records",
+      "city": "Ann Arbor",
+      "country": "US"
+    },
+    {
+      "name": "Cactus Music",
+      "city": "Houston",
+      "country": "US"
+    },
+    {
+      "name": "Bop Shop Records",
+      "city": "Rochester",
+      "country": "US"
+    },
+    {
+      "name": "Zia Records (Speedway - Tucson)",
+      "city": "Tucson",
+      "country": "US"
+    },
+    {
+      "name": "FYE",
+      "city": "Erie",
+      "country": "US"
+    },
+    {
+      "name": "Bookmans Speedway Entertainment Exchange",
+      "city": "Tucson",
+      "country": "US"
+    },
+    {
+      "name": "Lost Weekend Records",
+      "city": "Columbus",
+      "country": "US"
+    },
+    {
+      "name": "Sisters of Sound Records",
+      "city": "Manhattan",
+      "country": "US"
+    },
+    {
+      "name": "Extreme Noise Records",
+      "city": "Minneapolis",
+      "country": "US"
+    },
+    {
+      "name": "Vinyl Resting Place",
+      "city": "Portland",
+      "country": "US"
+    },
+    {
+      "name": "Twist & Shout Records",
+      "city": "Denver",
+      "country": "US"
+    },
+    {
+      "name": "Stinkweeds Record Store",
+      "city": "Phoenix",
+      "country": "US"
+    },
+    {
+      "name": "Vintage Vinyl",
+      "city": "St. Louis",
+      "country": "US"
+    },
+    {
+      "name": "Low - Vintage Clothing, Records & Antiques",
+      "city": "Charlottesville",
+      "country": "US"
+    },
+    {
+      "name": "Elizabeth's Records",
+      "city": "Columbus",
+      "country": "US"
+    },
+    {
+      "name": "Magnolia Thunderpussy",
+      "city": "Columbus",
+      "country": "US"
+    },
+    {
+      "name": "Wax 'N' Facts",
+      "city": "Atlanta",
+      "country": "US"
+    },
+    {
+      "name": "Criminal Records",
+      "city": "Atlanta",
+      "country": "US"
+    },
+    {
+      "name": "Decatur CD & Vinyl",
+      "city": "Decatur",
+      "country": "US"
+    },
+    {
+      "name": "Main Street Jukebox",
+      "city": "Stroudsburg",
+      "country": "US"
+    },
+    {
+      "name": "Mystic Disc",
+      "city": "Groton",
+      "country": "US"
+    },
+    {
+      "name": "Orpheus Performing Arts Trsrs",
+      "city": "Boston",
+      "country": "US"
+    },
+    {
+      "name": "Turn It Up",
+      "city": "Northampton",
+      "country": "US"
+    },
+    {
+      "name": "Turn It Up!",
+      "city": "Brattleboro",
+      "country": "US"
+    },
+    {
+      "name": "Turn It Up!",
+      "city": "Montague",
+      "country": "US"
+    },
+    {
+      "name": "Toadstool Sounds",
+      "city": "Peterborough",
+      "country": "US"
+    },
+    {
+      "name": "Sweat Records",
+      "city": "Miami",
+      "country": "US"
+    },
+    {
+      "name": "Please & Thank You",
+      "city": "Louisville",
+      "country": "US"
+    },
+    {
+      "name": "1-2-3-4 Go! Records",
+      "city": "Oakland",
+      "country": "US"
+    },
+    {
+      "name": "Atomic Records",
+      "city": "Los Angeles",
+      "country": "US"
+    },
+    {
+      "name": "Poo-Bah Record Shop",
+      "city": "Pasadena",
+      "country": "US"
+    },
+    {
+      "name": "The Thing",
+      "city": "New York",
+      "country": "US"
+    },
+    {
+      "name": "Spin Records",
+      "city": "Carlsbad",
+      "country": "US"
+    },
+    {
+      "name": "UHF Records",
+      "city": "Detroit",
+      "country": "US"
+    },
+    {
+      "name": "Records & Tapes Galore",
+      "city": "Saginaw",
+      "country": "US"
+    },
+    {
+      "name": "Forever Young Records",
+      "city": "Grand Prairie",
+      "country": "US"
+    },
+    {
+      "name": "Shake It Records",
+      "city": "Cincinnati",
+      "country": "US"
+    },
+    {
+      "name": "Ritual Records",
+      "city": "Bellingham",
+      "country": "US"
+    },
+    {
+      "name": "Hi-Voltage Records",
+      "city": "Tacoma",
+      "country": "US"
+    },
+    {
+      "name": "Easy Street Records & Cafe",
+      "city": "Seattle",
+      "country": "US"
+    },
+    {
+      "name": "Rainy Day Records",
+      "city": "Olympia",
+      "country": "US"
+    },
+    {
+      "name": "Sonic Boom Records",
+      "city": "Seattle",
+      "country": "US"
+    },
+    {
+      "name": "Jive Time Records",
+      "city": "Seattle",
+      "country": "US"
+    },
+    {
+      "name": "Love Garden Sounds",
+      "city": "Lawrence",
+      "country": "US"
+    },
+    {
+      "name": "House of Records",
+      "city": "Eugene",
+      "country": "US"
+    },
+    {
+      "name": "Happy Trails Records",
+      "city": "Corvallis",
+      "country": "US"
+    },
+    {
+      "name": "POPS Resale",
+      "city": "Lexington",
+      "country": "US"
+    },
+    {
+      "name": "Atlantic Sounds",
+      "city": "Daytona Beach",
+      "country": "US"
+    },
+    {
+      "name": "Zzz Records",
+      "city": "Des Moines",
+      "country": "US"
+    },
+    {
+      "name": "Little Amps Coffee",
+      "city": "Harrisburg",
+      "country": "US"
+    },
+    {
+      "name": "Wall of Sound",
+      "city": "Seattle",
+      "country": "US"
+    },
+    {
+      "name": "Phonoluxe Records Music",
+      "city": "Nashville",
+      "country": "US"
+    },
+    {
+      "name": "The Great Escape",
+      "city": "Nashville",
+      "country": "US"
+    },
+    {
+      "name": "Strictly Discs",
+      "city": "Madison",
+      "country": "US"
+    },
+    {
+      "name": "Good Records",
+      "city": "Dallas",
+      "country": "US"
+    },
+    {
+      "name": "Cheap Thrills",
+      "city": "San Luis Obispo",
+      "country": "US"
+    },
+    {
+      "name": "La Nouvelle Generation",
+      "city": "Spring Valley",
+      "country": "US"
+    },
+    {
+      "name": "Music Planet Games Vinyls",
+      "city": "New York",
+      "country": "US"
+    },
+    {
+      "name": "Rasputin Music",
+      "city": "Berkeley",
+      "country": "US"
+    },
+    {
+      "name": "Welfare Records",
+      "city": "Haverhill",
+      "country": "US"
+    },
+    {
+      "name": "Mystery Train",
+      "city": "Gloucester",
+      "country": "US"
+    },
+    {
+      "name": "Mystery Train Records",
+      "city": "Amherst",
+      "country": "US"
+    },
+    {
+      "name": "Strange Maine",
+      "city": "Portland",
+      "country": "US"
+    },
+    {
+      "name": "Cheap Thrills Music",
+      "city": "Boston",
+      "country": "US"
+    },
+    {
+      "name": "Armageddon Shop",
+      "city": "Boston",
+      "country": "US"
+    },
+    {
+      "name": "Dyno Records",
+      "city": "Newburyport",
+      "country": "US"
+    },
+    {
+      "name": "Record Exchange",
+      "city": "Salem",
+      "country": "US"
+    },
+    {
+      "name": "Cheapo Records",
+      "city": "Boston",
+      "country": "US"
+    },
+    {
+      "name": "Nuggets",
+      "city": "Boston",
+      "country": "US"
+    },
+    {
+      "name": "In Your Ear Records",
+      "city": "Warren",
+      "country": "US"
+    },
+    {
+      "name": "Pitchfork Records & Stereo",
+      "city": "Concord",
+      "country": "US"
+    },
+    {
+      "name": "Greenfield Records",
+      "city": "Greenfield",
+      "country": "US"
+    },
+    {
+      "name": "The Time Capsule",
+      "city": "Seekonk",
+      "country": "US"
+    },
+    {
+      "name": "Pure Pop Records",
+      "city": "Burlington",
+      "country": "US"
+    },
+    {
+      "name": "RRRecords",
+      "city": "Lowell",
+      "country": "US"
+    },
+    {
+      "name": "Garnick's",
+      "city": "Lowell",
+      "country": "US"
+    },
+    {
+      "name": "The Time Capsule",
+      "city": "Cranston",
+      "country": "US"
+    },
+    {
+      "name": "Armageddon Shop",
+      "city": "Providence",
+      "country": "US"
+    },
+    {
+      "name": "Planet Records",
+      "city": "Boston",
+      "country": "US"
+    },
+    {
+      "name": "Taurus Records",
+      "city": "Boston",
+      "country": "US"
+    },
+    {
+      "name": "Deja Vu Records",
+      "city": "Natick",
+      "country": "US"
+    },
+    {
+      "name": "Music Connection",
+      "city": "Manchester",
+      "country": "US"
+    },
+    {
+      "name": "Platterpus Records",
+      "city": "Easthampton",
+      "country": "US"
+    },
+    {
+      "name": "River Street Beat Shop",
+      "city": "Troy",
+      "country": "US"
+    },
+    {
+      "name": "Last Vestige Music Shop",
+      "city": "Albany",
+      "country": "US"
+    },
+    {
+      "name": "Off-Center Records",
+      "city": "Utica",
+      "country": "US"
+    },
+    {
+      "name": "Round Again Records",
+      "city": "Providence",
+      "country": "US"
+    },
+    {
+      "name": "Merle's Record Rack",
+      "city": "Orange",
+      "country": "US"
+    },
+    {
+      "name": "Exile On Main Street",
+      "city": "Branford",
+      "country": "US"
+    },
+    {
+      "name": "Exile On Main Street",
+      "city": "Barre",
+      "country": "US"
+    },
+    {
+      "name": "The Nevermind Shop",
+      "city": "Upton",
+      "country": "US"
+    },
+    {
+      "name": "Olympic Records",
+      "city": "Providence",
+      "country": "US"
+    },
+    {
+      "name": "Sunset Records",
+      "city": "Somerset",
+      "country": "US"
+    },
+    {
+      "name": "Spinnaker Records",
+      "city": "Barnstable",
+      "country": "US"
+    },
+    {
+      "name": "Instant Karma Records",
+      "city": "Orleans",
+      "country": "US"
+    },
+    {
+      "name": "Harvest Records",
+      "city": "Asheville",
+      "country": "US"
+    },
+    {
+      "name": "Gerosa Records",
+      "city": "Brookfield",
+      "country": "US"
+    },
+    {
+      "name": "Disc & Dat",
+      "city": "Bethel",
+      "country": "US"
+    },
+    {
+      "name": "Boo Boo Records Inc",
+      "city": "San Luis Obispo",
+      "country": "US"
+    },
+    {
+      "name": "Friends of Middletown Thrall Library Used Book Store",
+      "city": "Middletown",
+      "country": "US"
+    },
+    {
+      "name": "Groove Merchant Records",
+      "city": "San Francisco",
+      "country": "US"
+    },
+    {
+      "name": "Grooves",
+      "city": "San Francisco",
+      "country": "US"
+    },
+    {
+      "name": "Sound Exchange",
+      "city": "Houston",
+      "country": "US"
+    },
+    {
+      "name": "Sig's Lagoon Record Shop",
+      "city": "Houston",
+      "country": "US"
+    },
+    {
+      "name": "Warbler Records & Goods",
+      "city": "Santa Barbara",
+      "country": "US"
+    },
+    {
+      "name": "Dr. Freecloud's Record Store",
+      "city": "Huntington Beach",
+      "country": "US"
+    },
+    {
+      "name": "Landlocked Music",
+      "city": "Bloomington",
+      "country": "US"
+    },
+    {
+      "name": "Lunchbox Records",
+      "city": "Charlotte",
+      "country": "US"
+    },
+    {
+      "name": "Everybody's Records",
+      "city": "Cincinnati",
+      "country": "US"
+    },
+    {
+      "name": "Sound Go Round",
+      "city": "Vestal",
+      "country": "US"
+    },
+    {
+      "name": "Siren Records",
+      "city": "Doylestown",
+      "country": "US"
+    },
+    {
+      "name": "Freakbeat Records",
+      "city": "Los Angeles",
+      "country": "US"
+    },
+    {
+      "name": "Jump Jump Music",
+      "city": "Portland",
+      "country": "US"
+    },
+    {
+      "name": "Golden Oldies Records",
+      "city": "Seattle",
+      "country": "US"
+    },
+    {
+      "name": "Everyday Music",
+      "city": "Portland",
+      "country": "US"
+    },
+    {
+      "name": "Georgetown Records",
+      "city": "Seattle",
+      "country": "US"
+    },
+    {
+      "name": "Joe's Record Paradise",
+      "city": "Silver Spring",
+      "country": "US"
+    },
+    {
+      "name": "ARTpool Records",
+      "city": "St. Petersburg",
+      "country": "US"
+    },
+    {
+      "name": "Records Per Minute",
+      "city": "Columbus",
+      "country": "US"
+    },
+    {
+      "name": "Moodies Records",
+      "city": "New York",
+      "country": "US"
+    },
+    {
+      "name": "Millennium CD & Records",
+      "city": "New York",
+      "country": "US"
+    },
+    {
+      "name": "The Record Exchange",
+      "city": "Boise",
+      "country": "US"
+    },
+    {
+      "name": "Bargain CDs Records & Tapes",
+      "city": "Everett",
+      "country": "US"
+    },
+    {
+      "name": "Randy's Records",
+      "city": "Salt Lake City",
+      "country": "US"
+    },
+    {
+      "name": "Music Coop",
+      "city": "Ashland",
+      "country": "US"
+    },
+    {
+      "name": "4000 Holes Record Store",
+      "city": "Spokane",
+      "country": "US"
+    },
+    {
+      "name": "Hot Poop",
+      "city": "Walla Walla",
+      "country": "US"
+    },
+    {
+      "name": "Adventures Underground",
+      "city": "Richland",
+      "country": "US"
+    },
+    {
+      "name": "Black Gold Records",
+      "city": "New York",
+      "country": "US"
+    },
+    {
+      "name": "Jackpot Records",
+      "city": "Portland",
+      "country": "US"
+    },
+    {
+      "name": "Hogwild Records Tapes & CD's",
+      "city": "San Antonio",
+      "country": "US"
+    },
+    {
+      "name": "Gravity Records",
+      "city": "Wilmington",
+      "country": "US"
+    },
+    {
+      "name": "The Exchange",
+      "city": "Canton",
+      "country": "US"
+    },
+    {
+      "name": "The Exchange",
+      "city": "Canton",
+      "country": "US"
+    },
+    {
+      "name": "Third Man Records",
+      "city": "Nashville",
+      "country": "US"
+    },
+    {
+      "name": "Euclid Records New Orleans",
+      "city": "New Orleans",
+      "country": "US"
+    },
+    {
+      "name": "Mushroom New Orleans",
+      "city": "New Orleans",
+      "country": "US"
+    },
+    {
+      "name": "The Sound Garden-Baltimore",
+      "city": "Baltimore",
+      "country": "US"
+    },
+    {
+      "name": "El Suprimo Records",
+      "city": "Baltimore",
+      "country": "US"
+    },
+    {
+      "name": "Revival Records",
+      "city": "Eau Claire",
+      "country": "US"
+    },
+    {
+      "name": "Culture Shock Records - Gifts - Clothing",
+      "city": "Rockford",
+      "country": "US"
+    },
+    {
+      "name": "Dope Jams",
+      "city": "Oak Hill",
+      "country": "US"
+    },
+    {
+      "name": "Renaissance Records",
+      "city": "Birmingham",
+      "country": "US"
+    },
+    {
+      "name": "2nd & Charles",
+      "city": "Hoover",
+      "country": "US"
+    },
+    {
+      "name": "Record Graveyard",
+      "city": "Detroit",
+      "country": "US"
+    },
+    {
+      "name": "CD Trader",
+      "city": "Los Angeles",
+      "country": "US"
+    },
+    {
+      "name": "Jerry's Records",
+      "city": "Pittsburgh",
+      "country": "US"
+    },
+    {
+      "name": "Grady's Record & CD Refuge",
+      "city": "Ventura",
+      "country": "US"
+    },
+    {
+      "name": "Recorded Memories",
+      "city": "Spokane",
+      "country": "US"
+    },
+    {
+      "name": "Tracks In Wax",
+      "city": "Phoenix",
+      "country": "US"
+    },
+    {
+      "name": "Monster Music & Movies",
+      "city": "Charleston",
+      "country": "US"
+    },
+    {
+      "name": "Indy CD & Vinyl",
+      "city": "Indianapolis",
+      "country": "US"
+    },
+    {
+      "name": "Mississippi Records",
+      "city": "Portland",
+      "country": "US"
+    },
+    {
+      "name": "Rock & Roll Heaven",
+      "city": "Orlando",
+      "country": "US"
+    },
+    {
+      "name": "Bananas Records: Vinyl Warehouse",
+      "city": "St. Petersburg",
+      "country": "US"
+    },
+    {
+      "name": "Bananas Records: CDs, DVDs & Vinyl",
+      "city": "St. Petersburg",
+      "country": "US"
+    },
+    {
+      "name": "Music Matters Remixed",
+      "city": "St. Augustine",
+      "country": "US"
+    },
+    {
+      "name": "Yesterday And Today Records",
+      "city": "Miami",
+      "country": "US"
+    },
+    {
+      "name": "Acme Records",
+      "city": "Milwaukee",
+      "country": "US"
+    },
+    {
+      "name": "RushMor Records",
+      "city": "Milwaukee",
+      "country": "US"
+    },
+    {
+      "name": "Mobile Records",
+      "city": "Mobile",
+      "country": "US"
+    },
+    {
+      "name": "Deep Groove Records",
+      "city": "Richmond",
+      "country": "US"
+    },
+    {
+      "name": "Raunch Records & Skate",
+      "city": "Salt Lake City",
+      "country": "US"
+    },
+    {
+      "name": "Black Hills Vinyl",
+      "city": "Rapid City",
+      "country": "US"
+    },
+    {
+      "name": "Black Dots",
+      "city": "Buffalo",
+      "country": "US"
+    },
+    {
+      "name": "Soundsations Records",
+      "city": "Los Angeles",
+      "country": "US"
+    },
+    {
+      "name": "Third Eye Records",
+      "city": "Los Angeles",
+      "country": "US"
+    },
+    {
+      "name": "Vinyl Dreams",
+      "city": "San Francisco",
+      "country": "US"
+    },
+    {
+      "name": "Mills Record Company",
+      "city": "Kansas City",
+      "country": "US"
+    },
+    {
+      "name": "Moondog Records",
+      "city": "Las Vegas",
+      "country": "US"
+    },
+    {
+      "name": "Euclid Records",
+      "city": "St. Louis",
+      "country": "US"
+    },
+    {
+      "name": "The Last Bookstore",
+      "city": "Los Angeles",
+      "country": "US"
+    },
+    {
+      "name": "Canterbury Records",
+      "city": "Pasadena",
+      "country": "US"
+    },
+    {
+      "name": "Lovell's Records",
+      "city": "Whittier",
+      "country": "US"
+    },
+    {
+      "name": "Record Recycler",
+      "city": "Los Angeles",
+      "country": "US"
+    },
+    {
+      "name": "Bagatelle Records",
+      "city": "Los Angeles",
+      "country": "US"
+    },
+    {
+      "name": "Zoinks Records",
+      "city": "Pomona",
+      "country": "US"
+    }
+  ],
+  "uniqueToUs": [
+    {
+      "name": "101 Music",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "51 Record New York",
+      "city": "New York",
+      "state": "New York"
+    },
+    {
+      "name": "606 Records",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "7th Street Sound",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "929",
+      "city": "New York",
+      "state": "New York"
+    },
+    {
+      "name": "929",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "A Music Planet",
+      "city": "Brooklyn",
+      "state": "New York"
+    },
+    {
+      "name": "A To Z Music Services",
+      "city": "New York",
+      "state": "New York"
+    },
+    {
+      "name": "A-1 Record Shop",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "A1 Records",
+      "city": "New York",
+      "state": "New York"
+    },
+    {
+      "name": "A1 Records",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Aaron's Rock & Roll",
+      "city": "Austin",
+      "state": "Texas"
+    },
+    {
+      "name": "Aaron's Rock & Roll",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Abbie Road CD's",
+      "city": "Audubon",
+      "state": "New Jersey"
+    },
+    {
+      "name": "Abokash Books & Video",
+      "city": "Jackson Heights",
+      "state": "New York"
+    },
+    {
+      "name": "Absorb Records",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Academy Records",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Academy Records & CDs",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Academy Records Annex",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Academy Records Annex",
+      "city": "Brooklyn",
+      "state": "New York"
+    },
+    {
+      "name": "Acapulco Record Shop",
+      "city": "Austin",
+      "state": "Texas"
+    },
+    {
+      "name": "Acapulco Video & Record Shop",
+      "city": "Austin",
+      "state": "Texas"
+    },
+    {
+      "name": "Acosta Carmen",
+      "city": "Brooklyn",
+      "state": "New York"
+    },
+    {
+      "name": "Adelqui Enterprises",
+      "city": "Chicago",
+      "state": "Illinois"
+    },
+    {
+      "name": "Affordable Sound & Printing",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Ag Audio Cd",
+      "city": "Chicago",
+      "state": "Illinois"
+    },
+    {
+      "name": "Agora DTLA",
+      "city": "Los Angeles",
+      "state": "California"
+    },
+    {
+      "name": "Agora Records",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Al's Music Video & Games",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "All About Records",
+      "city": "Middle Village",
+      "state": "New York"
+    },
+    {
+      "name": "Almost Ready Records",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Almost Ready Records",
+      "city": "Brooklyn",
+      "state": "New York"
+    },
+    {
+      "name": "Angel Record Shop",
+      "city": "Philadelphia",
+      "state": "Pennsylvania"
+    },
+    {
+      "name": "Angelica's Records",
+      "city": "Chicago",
+      "state": "Illinois"
+    },
+    {
+      "name": "Another Level",
+      "city": "Chicago",
+      "state": "Illinois"
+    },
+    {
+      "name": "Another Planet Records",
+      "city": "New York",
+      "state": "New York"
+    },
+    {
+      "name": "Antone's Record Shop",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Archivio Records",
+      "city": "Brooklyn",
+      "state": "New York"
+    },
+    {
+      "name": "Arroyo Records",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Arthur",
+      "city": "Los Angeles",
+      "state": "California"
+    },
+    {
+      "name": "Artifact Records",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Artifact Records",
+      "city": "Chicago",
+      "state": "Illinois"
+    },
+    {
+      "name": "As the Record Turns",
+      "city": "Hollywood",
+      "state": "California"
+    },
+    {
+      "name": "As The Record Turns",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Astor Place Recordings",
+      "city": "New York",
+      "state": "New York"
+    },
+    {
+      "name": "AstronautSaint Records",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Atanacio Martir",
+      "city": "Los Angeles",
+      "state": "California"
+    },
+    {
+      "name": "Atomic Records💿",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Audio Element",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Audio Vision",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Austin Record Convention",
+      "city": "Austin",
+      "state": "Texas"
+    },
+    {
+      "name": "Austin Record Convention",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Avalon Vintage",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Average Joe's Vintage Collective",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Bad Dog",
+      "city": "Los Angeles",
+      "state": "California"
+    },
+    {
+      "name": "Bad Dog",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "BargainAnime",
+      "city": "Los Angeles",
+      "state": "California"
+    },
+    {
+      "name": "Barnes & Noble",
+      "city": "Glendale",
+      "state": "California"
+    },
+    {
+      "name": "Barnes & Noble Booksellers",
+      "city": "Philadelphia",
+      "state": "Pennsylvania"
+    },
+    {
+      "name": "Barnes & Noble Booksellers",
+      "city": "New York",
+      "state": "New York"
+    },
+    {
+      "name": "Barnes & Noble Booksellers",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Barry's Stereo & Sound",
+      "city": "New York",
+      "state": "New York"
+    },
+    {
+      "name": "Battl Victory Records",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Beacon Sound",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Beatology Vintage",
+      "city": "Los Angeles",
+      "state": "California"
+    },
+    {
+      "name": "Beatology Vintage",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Beats & Bohos",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Big Helium Records",
+      "city": "Los Angeles",
+      "state": "California"
+    },
+    {
+      "name": "Big Henry's Vinyl & Gifts",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Big Indie",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Bingo Used Books",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Bird Records",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Bishop & Wilde",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Black Gold Records",
+      "city": "Brooklyn",
+      "state": "New York"
+    },
+    {
+      "name": "Black Gold Records",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Black Market Skates",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Black Water Records",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "BLK Vinyl",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Bob's Blues & Jazz Mart",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Bookoff - New York",
+      "city": "New York",
+      "state": "New York"
+    },
+    {
+      "name": "Brackboy Records",
+      "city": "Philadelphia",
+      "state": "Pennsylvania"
+    },
+    {
+      "name": "Breakaway Records",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Bric-A-Brac Records",
+      "city": "Chicago",
+      "state": "Illinois"
+    },
+    {
+      "name": "Bric-A-Brac Records",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Bridgeport Records",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Brodarkey",
+      "city": "New York",
+      "state": "New York"
+    },
+    {
+      "name": "Brooklyn Record Exchange Greenpoint",
+      "city": "Brooklyn",
+      "state": "New York"
+    },
+    {
+      "name": "Brooklyn Vintage Company",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Brooklyn Vintage Company",
+      "city": "Brooklyn",
+      "state": "New York"
+    },
+    {
+      "name": "Brooklynphono",
+      "city": "Brooklyn",
+      "state": "New York"
+    },
+    {
+      "name": "Bucket O'Blood Books & Records",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Buena Vista Home Entertainment",
+      "city": "Burbank",
+      "state": "California"
+    },
+    {
+      "name": "Butala Emporium",
+      "city": "Jersey City",
+      "state": "New Jersey"
+    },
+    {
+      "name": "Buzzed Monkey Records",
+      "city": "Brooklyn",
+      "state": "New York"
+    },
+    {
+      "name": "C2K",
+      "city": "Culver City",
+      "state": "California"
+    },
+    {
+      "name": "Cafe Suspiro",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Camp 101 Records",
+      "city": "Upper Darby",
+      "state": "Pennsylvania"
+    },
+    {
+      "name": "Candy Love",
+      "city": "Greenwood",
+      "state": "New York"
+    },
+    {
+      "name": "Canterbury Records",
+      "city": null,
+      "state": "California"
+    },
+    {
+      "name": "Cantina Records",
+      "city": null,
+      "state": "California"
+    }
+  ]
+}
