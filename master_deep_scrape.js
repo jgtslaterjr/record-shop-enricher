@@ -13,8 +13,9 @@
  *   node master_deep_scrape.js --all --limit 50 --skip-yelp --skip-google  # skip specific scrapers
  */
 
-const { delay, saveJSON, loadJSON, contentDir, getAllShops, getShopByName,
+const { supabase, delay, saveJSON, loadJSON, contentDir, getAllShops, getShopByName,
   createStealthBrowser, parseArgs, log, ensureDir } = require('./lib/common');
+const { discoverLinks } = require('./discover_links');
 const fs = require('fs');
 const path = require('path');
 const { execSync, spawn } = require('child_process');
@@ -71,6 +72,16 @@ async function deepScrapeShop(shop, args) {
 
   const scrapers = [
     {
+      name: 'discovery',
+      skip: args['skip-discovery'],
+      run: async () => {
+        await discoverLinks(shop, { force: !!args.force });
+        // Refresh shop data so subsequent scrapers use newly discovered URLs
+        const { data } = await supabase.from('shops').select('*').eq('id', shop.id).single();
+        if (data) Object.assign(shop, data);
+      }
+    },
+    {
       name: 'yelp',
       skip: args['skip-yelp'],
       run: async () => {
@@ -100,16 +111,7 @@ async function deepScrapeShop(shop, args) {
         await runScript('scrape_shop_website.js', ['--url', shop.website, '--shop-id', shop.id, '--shop-name', shop.name]);
       }
     },
-    {
-      name: 'socials',
-      skip: args['skip-socials'],
-      run: async () => {
-        await runScript('discover_socials.js', ['--shop-id', shop.id]);
-        // Refresh shop data so instagram scraper can use newly discovered handles
-        const { data } = await supabase.from('shops').select('*').eq('id', shop.id).single();
-        if (data) Object.assign(shop, data);
-      }
-    },
+    // Note: 'socials' step superseded by 'discovery' (step 0) which covers socials + all other links
     {
       name: 'instagram',
       skip: args['skip-instagram'],
