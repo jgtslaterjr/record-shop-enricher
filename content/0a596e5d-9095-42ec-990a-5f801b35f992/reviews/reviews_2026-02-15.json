@@ -1,0 +1,20 @@
+{
+  "shopId": "0a596e5d-9095-42ec-990a-5f801b35f992",
+  "shopName": "A-1 Record Shop",
+  "city": null,
+  "state": "California",
+  "scrapedAt": "2026-02-15T18:25:53.362Z",
+  "google": {
+    "source": "google_maps",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.google.com/maps/search/A-1%20Record%20Shop%20null%20California%20record%20store",
+    "rawSnippets": []
+  },
+  "yelp": {
+    "source": "yelp_web",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.yelp.com/search?find_desc=A-1%20Record%20Shop&find_loc=null%2C%20California"
+  }
+}

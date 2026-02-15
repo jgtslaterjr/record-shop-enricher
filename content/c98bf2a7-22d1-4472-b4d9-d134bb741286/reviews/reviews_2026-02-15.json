@@ -1,0 +1,20 @@
+{
+  "shopId": "c98bf2a7-22d1-4472-b4d9-d134bb741286",
+  "shopName": "Abbie Road CD's",
+  "city": "Audubon",
+  "state": "New Jersey",
+  "scrapedAt": "2026-02-15T18:26:15.199Z",
+  "google": {
+    "source": "google_maps",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.google.com/maps/search/Abbie%20Road%20CD's%20Audubon%20New%20Jersey%20record%20store",
+    "rawSnippets": []
+  },
+  "yelp": {
+    "source": "yelp_web",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.yelp.com/search?find_desc=Abbie%20Road%20CD's&find_loc=Audubon%2C%20New%20Jersey"
+  }
+}

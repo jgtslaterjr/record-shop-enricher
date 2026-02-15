@@ -1,0 +1,20 @@
+{
+  "shopId": "56266f06-dceb-402b-8ba1-9c9ce09cbbde",
+  "shopName": "Academy Records & CDs",
+  "city": null,
+  "state": "California",
+  "scrapedAt": "2026-02-15T18:26:43.351Z",
+  "google": {
+    "source": "google_maps",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.google.com/maps/search/Academy%20Records%20%26%20CDs%20null%20California%20record%20store",
+    "rawSnippets": []
+  },
+  "yelp": {
+    "source": "yelp_web",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.yelp.com/search?find_desc=Academy%20Records%20%26%20CDs&find_loc=null%2C%20California"
+  }
+}

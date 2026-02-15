@@ -1,0 +1,20 @@
+{
+  "shopId": "a4b0c0f4-ff05-4506-8570-198aef2710c9",
+  "shopName": "A To Z Music Services",
+  "city": "New York",
+  "state": "New York",
+  "scrapedAt": "2026-02-15T18:25:48.913Z",
+  "google": {
+    "source": "google_maps",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.google.com/maps/search/A%20To%20Z%20Music%20Services%20New%20York%20New%20York%20record%20store",
+    "rawSnippets": []
+  },
+  "yelp": {
+    "source": "yelp_web",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.yelp.com/search?find_desc=A%20To%20Z%20Music%20Services&find_loc=New%20York%2C%20New%20York"
+  }
+}

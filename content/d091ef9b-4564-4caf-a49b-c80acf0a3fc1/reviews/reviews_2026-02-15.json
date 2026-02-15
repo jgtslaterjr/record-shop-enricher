@@ -1,0 +1,20 @@
+{
+  "shopId": "d091ef9b-4564-4caf-a49b-c80acf0a3fc1",
+  "shopName": "101 Music",
+  "city": null,
+  "state": "California",
+  "scrapedAt": "2026-02-15T18:25:06.357Z",
+  "google": {
+    "source": "google_maps",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.google.com/maps/search/101%20Music%20null%20California%20record%20store",
+    "rawSnippets": []
+  },
+  "yelp": {
+    "source": "yelp_web",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.yelp.com/search?find_desc=101%20Music&find_loc=null%2C%20California"
+  }
+}

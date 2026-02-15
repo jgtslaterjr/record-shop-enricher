@@ -1,0 +1,20 @@
+{
+  "shopId": "df681e91-55f5-423c-925b-435ce9a0ebd1",
+  "shopName": "Academy Records Annex",
+  "city": null,
+  "state": "California",
+  "scrapedAt": "2026-02-15T18:26:48.778Z",
+  "google": {
+    "source": "google_maps",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.google.com/maps/search/Academy%20Records%20Annex%20null%20California%20record%20store",
+    "rawSnippets": []
+  },
+  "yelp": {
+    "source": "yelp_web",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.yelp.com/search?find_desc=Academy%20Records%20Annex&find_loc=null%2C%20California"
+  }
+}

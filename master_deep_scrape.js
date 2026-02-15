@@ -101,6 +101,16 @@ async function deepScrapeShop(shop, args) {
       }
     },
     {
+      name: 'socials',
+      skip: args['skip-socials'],
+      run: async () => {
+        await runScript('discover_socials.js', ['--shop-id', shop.id]);
+        // Refresh shop data so instagram scraper can use newly discovered handles
+        const { data } = await supabase.from('shops').select('*').eq('id', shop.id).single();
+        if (data) Object.assign(shop, data);
+      }
+    },
+    {
       name: 'instagram',
       skip: args['skip-instagram'],
       run: async () => {

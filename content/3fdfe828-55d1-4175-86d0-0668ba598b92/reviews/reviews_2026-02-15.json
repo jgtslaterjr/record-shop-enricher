@@ -1,0 +1,20 @@
+{
+  "shopId": "3fdfe828-55d1-4175-86d0-0668ba598b92",
+  "shopName": "2nd Avenue Records",
+  "city": "Portland",
+  "state": "Oregon",
+  "scrapedAt": "2026-02-15T18:25:11.202Z",
+  "google": {
+    "source": "google_maps",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.google.com/maps/search/2nd%20Avenue%20Records%20Portland%20Oregon%20record%20store",
+    "rawSnippets": []
+  },
+  "yelp": {
+    "source": "yelp_web",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.yelp.com/search?find_desc=2nd%20Avenue%20Records&find_loc=Portland%2C%20Oregon"
+  }
+}

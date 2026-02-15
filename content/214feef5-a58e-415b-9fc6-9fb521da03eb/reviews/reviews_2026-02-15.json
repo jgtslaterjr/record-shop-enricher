@@ -1,0 +1,20 @@
+{
+  "shopId": "214feef5-a58e-415b-9fc6-9fb521da03eb",
+  "shopName": "929",
+  "city": "New York",
+  "state": "New York",
+  "scrapedAt": "2026-02-15T18:25:36.499Z",
+  "google": {
+    "source": "google_maps",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.google.com/maps/search/929%20New%20York%20New%20York%20record%20store",
+    "rawSnippets": []
+  },
+  "yelp": {
+    "source": "yelp_web",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.yelp.com/search?find_desc=929&find_loc=New%20York%2C%20New%20York"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "shopId": "4bf3e0d8-0440-4922-adc9-a98e3fe4db17",
+  "shopName": "A Music Planet",
+  "city": "Brooklyn",
+  "state": "New York",
+  "scrapedAt": "2026-02-15T18:25:44.861Z",
+  "google": {
+    "source": "google_maps",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.google.com/maps/search/A%20Music%20Planet%20Brooklyn%20New%20York%20record%20store",
+    "rawSnippets": []
+  },
+  "yelp": {
+    "source": "yelp_web",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.yelp.com/search?find_desc=A%20Music%20Planet&find_loc=Brooklyn%2C%20New%20York"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "shopId": "62f90917-cf30-488d-9dd8-594d5af03b21",
+  "shopName": "Academy Records & CDs",
+  "city": "New York",
+  "state": "New York",
+  "scrapedAt": "2026-02-15T18:26:38.839Z",
+  "google": {
+    "source": "google_maps",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.google.com/maps/search/Academy%20Records%20%26%20CDs%20New%20York%20New%20York%20record%20store",
+    "rawSnippets": []
+  },
+  "yelp": {
+    "source": "yelp_web",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.yelp.com/search?find_desc=Academy%20Records%20%26%20CDs&find_loc=New%20York%2C%20New%20York"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "shopId": "01bc9e6e-d094-48fa-951b-89cf32967de2",
+  "shopName": "51 Record New York",
+  "city": "New York",
+  "state": "New York",
+  "scrapedAt": "2026-02-15T18:25:19.608Z",
+  "google": {
+    "source": "google_maps",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.google.com/maps/search/51%20Record%20New%20York%20New%20York%20New%20York%20record%20store",
+    "rawSnippets": []
+  },
+  "yelp": {
+    "source": "yelp_web",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.yelp.com/search?find_desc=51%20Record%20New%20York&find_loc=New%20York%2C%20New%20York"
+  }
+}

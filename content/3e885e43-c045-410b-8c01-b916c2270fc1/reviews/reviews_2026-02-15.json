@@ -1,0 +1,20 @@
+{
+  "shopId": "3e885e43-c045-410b-8c01-b916c2270fc1",
+  "shopName": "Acapulco Video & Record Shop",
+  "city": "Austin",
+  "state": "Texas",
+  "scrapedAt": "2026-02-15T18:27:01.351Z",
+  "google": {
+    "source": "google_maps",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.google.com/maps/search/Acapulco%20Video%20%26%20Record%20Shop%20Austin%20Texas%20record%20store",
+    "rawSnippets": []
+  },
+  "yelp": {
+    "source": "yelp_web",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.yelp.com/search?find_desc=Acapulco%20Video%20%26%20Record%20Shop&find_loc=Austin%2C%20Texas"
+  }
+}

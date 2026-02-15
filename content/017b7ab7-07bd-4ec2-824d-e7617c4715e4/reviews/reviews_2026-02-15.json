@@ -1,0 +1,20 @@
+{
+  "shopId": "017b7ab7-07bd-4ec2-824d-e7617c4715e4",
+  "shopName": "Aaron's Rock & Roll",
+  "city": "Austin",
+  "state": "Texas",
+  "scrapedAt": "2026-02-15T18:26:06.002Z",
+  "google": {
+    "source": "google_maps",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.google.com/maps/search/Aaron's%20Rock%20%26%20Roll%20Austin%20Texas%20record%20store",
+    "rawSnippets": []
+  },
+  "yelp": {
+    "source": "yelp_web",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.yelp.com/search?find_desc=Aaron's%20Rock%20%26%20Roll&find_loc=Austin%2C%20Texas"
+  }
+}

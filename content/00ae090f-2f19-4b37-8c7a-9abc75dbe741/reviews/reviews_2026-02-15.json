@@ -1,0 +1,20 @@
+{
+  "shopId": "00ae090f-2f19-4b37-8c7a-9abc75dbe741",
+  "shopName": "606 Records",
+  "city": "Chicago",
+  "state": "Illinois",
+  "scrapedAt": "2026-02-15T18:25:24.049Z",
+  "google": {
+    "source": "google_maps",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.google.com/maps/search/606%20Records%20Chicago%20Illinois%20record%20store",
+    "rawSnippets": []
+  },
+  "yelp": {
+    "source": "yelp_web",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.yelp.com/search?find_desc=606%20Records&find_loc=Chicago%2C%20Illinois"
+  }
+}

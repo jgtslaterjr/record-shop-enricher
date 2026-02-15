@@ -1,0 +1,20 @@
+{
+  "shopId": "e3f08398-5c69-4a5f-86f3-0ca448d4f24f",
+  "shopName": "503 Records",
+  "city": "Beaverton",
+  "state": "Oregon",
+  "scrapedAt": "2026-02-15T18:25:15.498Z",
+  "google": {
+    "source": "google_maps",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.google.com/maps/search/503%20Records%20Beaverton%20Oregon%20record%20store",
+    "rawSnippets": []
+  },
+  "yelp": {
+    "source": "yelp_web",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.yelp.com/search?find_desc=503%20Records&find_loc=Beaverton%2C%20Oregon"
+  }
+}

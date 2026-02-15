@@ -1,0 +1,20 @@
+{
+  "shopId": "606f87ba-4b72-4406-b5b9-fbc91e8c1b8d",
+  "shopName": "Academy Records Annex",
+  "city": "Brooklyn",
+  "state": "New York",
+  "scrapedAt": "2026-02-15T18:26:52.906Z",
+  "google": {
+    "source": "google_maps",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.google.com/maps/search/Academy%20Records%20Annex%20Brooklyn%20New%20York%20record%20store",
+    "rawSnippets": []
+  },
+  "yelp": {
+    "source": "yelp_web",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.yelp.com/search?find_desc=Academy%20Records%20Annex&find_loc=Brooklyn%2C%20New%20York"
+  }
+}

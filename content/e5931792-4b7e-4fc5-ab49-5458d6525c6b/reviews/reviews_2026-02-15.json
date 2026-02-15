@@ -1,0 +1,20 @@
+{
+  "shopId": "e5931792-4b7e-4fc5-ab49-5458d6525c6b",
+  "shopName": "606 Records",
+  "city": null,
+  "state": "California",
+  "scrapedAt": "2026-02-15T18:25:28.331Z",
+  "google": {
+    "source": "google_maps",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.google.com/maps/search/606%20Records%20null%20California%20record%20store",
+    "rawSnippets": []
+  },
+  "yelp": {
+    "source": "yelp_web",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.yelp.com/search?find_desc=606%20Records&find_loc=null%2C%20California"
+  }
+}

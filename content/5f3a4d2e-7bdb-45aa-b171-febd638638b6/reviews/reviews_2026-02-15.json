@@ -1,0 +1,20 @@
+{
+  "shopId": "5f3a4d2e-7bdb-45aa-b171-febd638638b6",
+  "shopName": "A1 Records",
+  "city": null,
+  "state": "California",
+  "scrapedAt": "2026-02-15T18:26:01.840Z",
+  "google": {
+    "source": "google_maps",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.google.com/maps/search/A1%20Records%20null%20California%20record%20store",
+    "rawSnippets": []
+  },
+  "yelp": {
+    "source": "yelp_web",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.yelp.com/search?find_desc=A1%20Records&find_loc=null%2C%20California"
+  }
+}

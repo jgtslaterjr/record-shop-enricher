@@ -1,0 +1,29 @@
+{
+  "shop": {
+    "id": "85e871d8-ecd7-4e28-87e1-21e669c5014b",
+    "name": "Amoeba Music",
+    "slug": "amoeba-music-san-francisco-shops",
+    "city": "San Francisco",
+    "state": "California"
+  },
+  "timestamp": "2026-02-15T17:29:04.779Z",
+  "original_count": 19,
+  "new_count": 18,
+  "dupe_groups": [
+    {
+      "indices": [
+        5,
+        8
+      ],
+      "keep": 5
+    }
+  ],
+  "removed_indices": [],
+  "removed_images": [
+    {
+      "index_1based": 8,
+      "url": "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/amoeba-music-san-francisco-shops/1771119479140_6.jpg",
+      "reason": "Duplicate of #5"
+    }
+  ]
+}

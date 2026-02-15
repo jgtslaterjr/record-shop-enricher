@@ -1,0 +1,20 @@
+{
+  "shopId": "b297a622-d270-4c36-bf94-53ed0a3ec866",
+  "shopName": "Academy Records",
+  "city": "New York",
+  "state": "New York",
+  "scrapedAt": "2026-02-15T18:26:29.559Z",
+  "google": {
+    "source": "google_maps",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.google.com/maps/search/Academy%20Records%20New%20York%20New%20York%20record%20store",
+    "rawSnippets": []
+  },
+  "yelp": {
+    "source": "yelp_web",
+    "rating": null,
+    "reviewCount": null,
+    "url": "https://www.yelp.com/search?find_desc=Academy%20Records&find_loc=New%20York%2C%20New%20York"
+  }
+}
