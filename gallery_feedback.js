@@ -15,7 +15,16 @@
  */
 
 const { supabase, saveJSON, ensureDir, contentDir, getShopByName, updateShop, log } = require('./lib/common');
+const { createClient } = require('@supabase/supabase-js');
 const path = require('path');
+
+// Service client for storage operations (anon key can't delete)
+function getServiceClient() {
+  const url = process.env.SUPABASE_URL;
+  const key = process.env.SUPABASE_SERVICE_KEY;
+  if (!url || !key) return null;
+  return createClient(url, key);
+}
 
 // Custom arg parser that supports repeated --dupes flags
 function parseArgsMulti() {
@@ -163,6 +172,35 @@ async function main() {
   log('\nUpdating database...');
   await updateShop(shop.id, { image_gallery: newGallery });
   log(`✅ Gallery updated! ${imageUrls.length} → ${newGallery.length} images`);
+
+  // Delete orphaned files from Supabase Storage
+  const serviceClient = getServiceClient();
+  if (serviceClient) {
+    const removedUrls = [...toRemove].map(i => imageUrls[i]);
+    const storagePaths = removedUrls
+      .map(url => {
+        const match = url.match(/\/storage\/v1\/object\/public\/([^/]+)\/(.+)/);
+        return match ? { bucket: match[1], path: match[2] } : null;
+      })
+      .filter(Boolean);
+
+    // Group by bucket
+    const byBucket = {};
+    for (const { bucket, path: p } of storagePaths) {
+      (byBucket[bucket] = byBucket[bucket] || []).push(p);
+    }
+
+    for (const [bucket, paths] of Object.entries(byBucket)) {
+      const { data, error } = await serviceClient.storage.from(bucket).remove(paths);
+      if (error) {
+        log(`⚠ Storage cleanup failed (${bucket}): ${error.message}`);
+      } else {
+        log(`🗑️  Deleted ${data.length} orphaned file(s) from storage (${bucket})`);
+      }
+    }
+  } else {
+    log('⚠ SUPABASE_SERVICE_KEY not set — skipping storage cleanup');
+  }
 }
 
 main().catch(e => { console.error('❌ Fatal:', e.message); process.exit(1); });

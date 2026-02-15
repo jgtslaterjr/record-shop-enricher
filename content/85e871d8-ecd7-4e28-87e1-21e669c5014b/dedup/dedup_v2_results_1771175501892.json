@@ -1,0 +1,169 @@
+{
+  "shop": {
+    "id": "85e871d8-ecd7-4e28-87e1-21e669c5014b",
+    "name": "Amoeba Music",
+    "slug": "amoeba-music-san-francisco-shops",
+    "city": "San Francisco",
+    "state": "California"
+  },
+  "timestamp": "2026-02-15T17:11:41.892Z",
+  "image_count": 24,
+  "threshold": 8,
+  "hash_duplicate_groups": [
+    {
+      "indices_1based": [
+        1,
+        6
+      ],
+      "distance": 0,
+      "urls": [
+        "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/amoeba-music-san-francisco-shops/1771117936769_0.jpg",
+        "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/amoeba-music-san-francisco-shops/1771119477107_0.jpg"
+      ]
+    },
+    {
+      "indices_1based": [
+        2,
+        7
+      ],
+      "distance": 0,
+      "urls": [
+        "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/amoeba-music-san-francisco-shops/1771117937297_1.jpg",
+        "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/amoeba-music-san-francisco-shops/1771119477551_1.jpg"
+      ]
+    },
+    {
+      "indices_1based": [
+        3,
+        8
+      ],
+      "distance": 0,
+      "urls": [
+        "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/amoeba-music-san-francisco-shops/1771117937593_2.jpg",
+        "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/amoeba-music-san-francisco-shops/1771119477843_2.jpg"
+      ]
+    },
+    {
+      "indices_1based": [
+        4,
+        10
+      ],
+      "distance": 0,
+      "urls": [
+        "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/amoeba-music-san-francisco-shops/1771117938166_4.jpg",
+        "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/amoeba-music-san-francisco-shops/1771119478509_4.jpg"
+      ]
+    },
+    {
+      "indices_1based": [
+        5,
+        12
+      ],
+      "distance": 0,
+      "urls": [
+        "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/amoeba-music-san-francisco-shops/1771117938941_6.jpg",
+        "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/amoeba-music-san-francisco-shops/1771119479140_6.jpg"
+      ]
+    }
+  ],
+  "url_duplicate_groups": [],
+  "hashes": [
+    {
+      "index": 1,
+      "hash": "95ddcdc4284c9496"
+    },
+    {
+      "index": 2,
+      "hash": "4ffa6bf9bb63e0d0"
+    },
+    {
+      "index": 3,
+      "hash": "0a2243063cf9b1e5"
+    },
+    {
+      "index": 4,
+      "hash": "bd6f4f95b37b6767"
+    },
+    {
+      "index": 5,
+      "hash": "0f69e4a4d8d8b4c4"
+    },
+    {
+      "index": 6,
+      "hash": "95ddcdc4284c9496"
+    },
+    {
+      "index": 7,
+      "hash": "4ffa6bf9bb63e0d0"
+    },
+    {
+      "index": 8,
+      "hash": "0a2243063cf9b1e5"
+    },
+    {
+      "index": 9,
+      "hash": "d61bda52b0b83034"
+    },
+    {
+      "index": 10,
+      "hash": "bd6f4f95b37b6767"
+    },
+    {
+      "index": 11,
+      "hash": "016880031e189b52"
+    },
+    {
+      "index": 12,
+      "hash": "0f69e4a4d8d8b4c4"
+    },
+    {
+      "index": 13,
+      "hash": "83879930a6d65c40"
+    },
+    {
+      "index": 14,
+      "hash": "cf8e083066e0386c"
+    },
+    {
+      "index": 15,
+      "hash": "0e30cd4fc6cdccce"
+    },
+    {
+      "index": 16,
+      "hash": "67671f8c9c9680c4"
+    },
+    {
+      "index": 17,
+      "hash": "4b31b5b494b17071"
+    },
+    {
+      "index": 18,
+      "hash": "333e2e1a17820a08"
+    },
+    {
+      "index": 19,
+      "hash": "f01a694c452785dd"
+    },
+    {
+      "index": 20,
+      "hash": "4b1a8db6d6849e9c"
+    },
+    {
+      "index": 21,
+      "hash": "06c63f61484ccc18"
+    },
+    {
+      "index": 22,
+      "hash": "416172c2da9e970f"
+    },
+    {
+      "index": 23,
+      "hash": "b296cea2b6e4f8b0"
+    },
+    {
+      "index": 24,
+      "hash": "6bd312692896961f"
+    }
+  ],
+  "errors": []
+}

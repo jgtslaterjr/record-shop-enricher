@@ -1,0 +1,65 @@
+{
+  "shop": {
+    "id": "85e871d8-ecd7-4e28-87e1-21e669c5014b",
+    "name": "Amoeba Music",
+    "slug": "amoeba-music-san-francisco-shops",
+    "city": "San Francisco",
+    "state": "California"
+  },
+  "timestamp": "2026-02-15T17:13:56.786Z",
+  "original_count": 24,
+  "new_count": 20,
+  "dupe_groups": [
+    {
+      "indices": [
+        1,
+        6
+      ],
+      "keep": 1
+    },
+    {
+      "indices": [
+        2,
+        7
+      ],
+      "keep": 2
+    },
+    {
+      "indices": [
+        3,
+        8
+      ],
+      "keep": 3
+    },
+    {
+      "indices": [
+        4,
+        10
+      ],
+      "keep": 4
+    }
+  ],
+  "removed_indices": [],
+  "removed_images": [
+    {
+      "index_1based": 6,
+      "url": "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/amoeba-music-san-francisco-shops/1771119477107_0.jpg",
+      "reason": "Duplicate of #1"
+    },
+    {
+      "index_1based": 7,
+      "url": "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/amoeba-music-san-francisco-shops/1771119477551_1.jpg",
+      "reason": "Duplicate of #2"
+    },
+    {
+      "index_1based": 8,
+      "url": "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/amoeba-music-san-francisco-shops/1771119477843_2.jpg",
+      "reason": "Duplicate of #3"
+    },
+    {
+      "index_1based": 10,
+      "url": "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/amoeba-music-san-francisco-shops/1771119478509_4.jpg",
+      "reason": "Duplicate of #4"
+    }
+  ]
+}
