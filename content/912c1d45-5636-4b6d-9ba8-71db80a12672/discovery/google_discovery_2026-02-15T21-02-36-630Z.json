@@ -1,0 +1,122 @@
+{
+  "shop": {
+    "id": "912c1d45-5636-4b6d-9ba8-71db80a12672",
+    "name": "Angel Record Shop",
+    "city": "Philadelphia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Angel Record Shop Philadelphia Pennsylvania record store",
+    "Angel Record Shop Philadelphia instagram facebook"
+  ],
+  "discoveredAt": "2026-02-15T21:02:36.630Z",
+  "links": [
+    {
+      "category": "yelp",
+      "url": "https://www.yelp.com/biz/angel-record-shop-philadelphia"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.mapquest.com/us/pennsylvania/angel-record-shop-409064549",
+      "domain": "mapquest.com"
+    },
+    {
+      "category": "website",
+      "url": "https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/"
+    },
+    {
+      "category": "press",
+      "url": "https://wmmr.com/listicle/mmrs-philly-record-store-guide/",
+      "domain": "wmmr.com"
+    },
+    {
+      "category": "website",
+      "url": "https://phillyexplorer.com/best-vinyl-record-store-in-philadelphia"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.yellowpages.com/philadelphia-pa/mip/angel-record-shop-3775450",
+      "domain": "yellowpages.com"
+    },
+    {
+      "category": "press",
+      "url": "https://www.phillymag.com/life-style/philly-record-stores/",
+      "domain": "phillymag.com"
+    },
+    {
+      "category": "website",
+      "url": "https://citysquares.com/b/angel-record-shop-1799454"
+    },
+    {
+      "category": "website",
+      "url": "https://nextdoor.com/pages/angel-record-shop-philadelphia-pa/"
+    },
+    {
+      "category": "website",
+      "url": "https://www.merchantcircle.com/angel-record-shop1-philadelphia-pa"
+    }
+  ],
+  "byCategory": {
+    "yelp": [
+      {
+        "category": "yelp",
+        "url": "https://www.yelp.com/biz/angel-record-shop-philadelphia"
+      }
+    ],
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://www.mapquest.com/us/pennsylvania/angel-record-shop-409064549",
+        "domain": "mapquest.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.yellowpages.com/philadelphia-pa/mip/angel-record-shop-3775450",
+        "domain": "yellowpages.com"
+      }
+    ],
+    "website": [
+      {
+        "category": "website",
+        "url": "https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/"
+      },
+      {
+        "category": "website",
+        "url": "https://phillyexplorer.com/best-vinyl-record-store-in-philadelphia"
+      },
+      {
+        "category": "website",
+        "url": "https://citysquares.com/b/angel-record-shop-1799454"
+      },
+      {
+        "category": "website",
+        "url": "https://nextdoor.com/pages/angel-record-shop-philadelphia-pa/"
+      },
+      {
+        "category": "website",
+        "url": "https://www.merchantcircle.com/angel-record-shop1-philadelphia-pa"
+      }
+    ],
+    "press": [
+      {
+        "category": "press",
+        "url": "https://wmmr.com/listicle/mmrs-philly-record-store-guide/",
+        "domain": "wmmr.com"
+      },
+      {
+        "category": "press",
+        "url": "https://www.phillymag.com/life-style/philly-record-stores/",
+        "domain": "phillymag.com"
+      }
+    ]
+  },
+  "updates": {
+    "website": "https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/"
+  },
+  "skipped": {
+    "yelp_url": {
+      "current": "https://www.yelp.com/biz/angel-record-shop-philadelphia",
+      "discovered": "https://www.yelp.com/biz/angel-record-shop-philadelphia"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Camp 101 Records",
+  "rating": null,
+  "reviewCount": null,
+  "phone": "(610) 352-3252",
+  "address": "101 S State Rd",
+  "city": "Upper Darby",
+  "state": "PA",
+  "zip": "19082",
+  "website": null,
+  "hours": null,
+  "priceRange": null,
+  "categories": [],
+  "photos": [],
+  "amenities": null,
+  "specialties": null,
+  "reviews": [],
+  "highlights": [],
+  "yelpUrl": "https://www.yelp.com/biz/camp-101-records-upper-darby",
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T21:10:09.513Z"
+}

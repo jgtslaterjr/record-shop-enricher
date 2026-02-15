@@ -1,0 +1,48 @@
+{
+  "sentiment_score": 8,
+  "key_themes": [
+    "Customer service issues",
+    "Product quality concerns",
+    "Positive experiences with staff and products",
+    "Cultural relevance and language support",
+    "Community events and atmosphere"
+  ],
+  "pros": [
+    "Knowledgeable and helpful staff",
+    "Wide selection of music genres and instruments",
+    "Friendly and welcoming environment",
+    "Good customer service during holiday events"
+  ],
+  "cons": [
+    "Inconsistent product quality control",
+    "Difficulty in returning defective products",
+    "Limited availability of products due to 'by law' policies"
+  ],
+  "notable_quotes": {
+    "best": "Nothing but love for this gem.",
+    "worst": "WTF..The associate advised me to call the manufacture of the product. Been on the phone with them for over an hour and could not speak to anyone.",
+    "funniest": "WTF.."
+  },
+  "vibe_description": "Centro Musical is described as a welcoming environment, with friendly staff and a variety of music genres available. During holidays, they host parandas, adding to the festive atmosphere. However, some reviewers have mentioned inconsistent product quality control issues.",
+  "genre_specialties": [
+    "Jazz",
+    "Punk"
+  ],
+  "staff_mentions": "Reviewers praise the staff for being knowledgeable and helpful, with one reviewer noting that the associate was 'very responsible' when advising on returning defective products.",
+  "event_mentions": [
+    "Record Store Day",
+    "parandas during holidays"
+  ],
+  "recommendation_for": "Casual music browsers, collectors of specific genres (jazz, punk), and those looking for a welcoming community atmosphere.",
+  "metadata": {
+    "totalReviews": 3,
+    "yelpReviews": 3,
+    "googleReviews": 0,
+    "averageRating": 3.67,
+    "ratingDistribution": {
+      "1": 1,
+      "5": 2
+    },
+    "analyzedAt": "2026-02-15T21:12:16.829Z"
+  }
+}

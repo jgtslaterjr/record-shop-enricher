@@ -1,0 +1,37 @@
+{
+  "shopId": "00bcfcf7-7875-4250-94da-55ce313b6f9a",
+  "shopName": "Cornerstone Music and Culture",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-15T21:13:46.226Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.6s"
+    },
+    "google": {
+      "status": "skipped"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "13.1s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "26.0s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-15T21:14:46.851Z"
+}

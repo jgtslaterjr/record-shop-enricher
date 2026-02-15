@@ -1,0 +1,37 @@
+{
+  "shopId": "0ca8a3d4-9247-4ac8-9dce-f3856c7ad301",
+  "shopName": "Common Beat Music",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-15T21:12:33.697Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.2s"
+    },
+    "google": {
+      "status": "skipped"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "11.6s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "26.5s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-15T21:13:32.974Z"
+}

@@ -1,0 +1,30 @@
+{
+  "shopName": "Creep Records",
+  "shopId": "281c0f40-09fa-49bc-bbf6-8d3fa9a5a73b",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "Release Party",
+      "title": "Sex Slaves 'Bite Your Tongue' Release Party",
+      "date": "",
+      "description": "",
+      "artists": [
+        "Sex Slaves"
+      ],
+      "source": "website",
+      "sourceUrl": "http://creeprecords.com/events"
+    },
+    {
+      "event_type": "",
+      "title": "",
+      "date": "",
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "http://creeprecords.com/events"
+    }
+  ],
+  "totalFound": 2,
+  "scrapedAt": "2026-02-15T21:19:40.128Z"
+}

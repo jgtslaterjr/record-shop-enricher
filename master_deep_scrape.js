@@ -37,7 +37,8 @@ async function runScript(scriptName, args) {
       cwd: __dirname,
       stdio: ['pipe', 'pipe', 'pipe'],
       env: { ...process.env },
-      timeout: 300000, // 5 min timeout per script
+      timeout: 180000, // 3 min timeout per script
+      killSignal: 'SIGKILL',
     });
 
     let stdout = '';
@@ -51,8 +52,9 @@ async function runScript(scriptName, args) {
       process.stderr.write(d);
     });
     
-    proc.on('close', code => {
+    proc.on('close', (code, signal) => {
       if (code === 0) resolve(stdout);
+      else if (signal) reject(new Error(`${scriptName} killed by ${signal}`));
       else reject(new Error(`${scriptName} exited with code ${code}: ${stderr.slice(-500)}`));
     });
 
@@ -273,4 +275,9 @@ async function run() {
   }
 }
 
-run().catch(e => { console.error(e); process.exit(1); });
+// Force exit after 3 minutes max
+setTimeout(() => { console.error('Force exit: 3min timeout'); process.exit(2); }, 180000).unref();
+run().then(() => {
+  // Force exit after 3s — Supabase/Playwright keep event loop alive
+  setTimeout(() => process.exit(0), 3000);
+}).catch(e => { console.error(e); process.exit(1); });

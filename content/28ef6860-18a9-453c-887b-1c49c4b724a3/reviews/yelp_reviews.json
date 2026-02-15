@@ -1,0 +1,109 @@
+{
+  "name": "Barnes &amp; Noble Booksellers",
+  "rating": 3.2,
+  "reviewCount": 152,
+  "phone": "(215) 665-0716",
+  "address": "1708 Chestnut St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19103",
+  "website": "https://stores.barnesandnoble.com/store/3434",
+  "hours": {
+    "Mon": "10:00 AM - 8:00 PM",
+    "Wed": "10:00 AM - 8:00 PM",
+    "Fri": "10:00 AM - 8:00 PM",
+    "Sun": "11:00 AM - 6:00 PM"
+  },
+  "priceRange": null,
+  "categories": [],
+  "photos": [
+    "https://s3-media0.fl.yelpcdn.com/bphoto/dJFNYvkPughcqTp_vKCfyw/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/ggx68ibQS0SqJ7yCAPXQlw/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/qt6qJRFOBFVo7j2KiTxbWw/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/rHqfsYtjv8g1cQyvrmlWGQ/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/jNB0N4BuqcEdHSLZDa6f-A/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/ry7slbBVkFaaMuB62vvjgw/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/Wc1t-tCQDmrhkFflrMaxFQ/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/assets/public/user_60_square.yji-8b51f2026d9de1b3.png",
+    "https://s3-media0.fl.yelpcdn.com/assets/public/user_60_square.yji-8b51f2026d9de1b3.png",
+    "https://s3-media0.fl.yelpcdn.com/photo/BdIiuxv419sgCNRGLxOi6w/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/LoT4g7RnF37gbdfpoiL3pQ/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/-TvAGhBdG_nVgRw6dMjPjQ/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/Vg00_pV3gOC6NSypQIU47g/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/c5LepK790qgZX1_wEHX8hQ/348s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/J4kg6xrlFhy3LxfuS7CZpg/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/bG1YdxTrpAxrYImvSz0l4A/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/qt6qJRFOBFVo7j2KiTxbWw/348s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/Wc1t-tCQDmrhkFflrMaxFQ/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/TiT6yspvvOMsMGk9bGZApw/348s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/5NVFNosqlq8ftv2_Mvwx9A/348s.jpg"
+  ],
+  "amenities": null,
+  "specialties": null,
+  "reviews": [
+    {
+      "stars": 4,
+      "text": "I was really surprised how much was in this store which seems small from outside. I purchased two books but saw soooo many more that I want.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 3,
+      "text": "I love all B&N's. This location seemed to be missing some things, like a bathroom LOL & a larger local book section. I was at East State Penitentiary & failed to grab a book on its history. That should've been an easy grab, but wasn't a part of the offerings. Asked an employee for help, she said she'd \"look\" & then never returned.A nice selection of items in a convenient location, but missing a lot of the tchotchke items I love & the \"stay-awhile\" vibe I so appreciate w/ this chain.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 1,
+      "text": "This place is unbelievable! When I came here in look of a certain book I had wanted, I asked an employee for help, and she literally told me to find it myself... she left me in shock. Later on, I had witnessed multiple teenagers coming in and stealing books and those expensive legos they have there. Everything is so expensive, maybe that's why the teens steal. Place was also dirty",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 4,
+      "text": "I am really not about the B&N slander! I am a big fan of this new location, appreciate the kind staff, and like the layout. You'll find things separated by genre upstairs and a lot of great suggestions for local authors and new reads downstairs. Great ideas for gifts, a lot of hyper-local reads and trinkets, and just a great way to expand your mind for an afternoon. I like getting a beverage, walking around, and reading backs of books to add to my list.I typically prefer to buy from small, local bookshops, but when I know I need something specific (in this case, a smutty beach read and the new Sally Rooney), I tend to gravitate here for ease.That being said, they didn't have the exact smutty beach read I was looking for! I know Emily Henry is Emily Henry and it's spring break season but...come on. We must keep her stocked for the girlies! Overall, a great option for killing time in center city and refilling your literary cup with inspiration. Happy reading!",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "We love this location and have been coming for years and years! Usually bring my daughter and we go straight to the magna section. She loves anime and magna titles like Death Note, and My Gero Academia, Blue Lock and Naruto. When she does well in school- she gets treated to a new book to add to her collection. It's a nice store that has tons of books to choose from.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 4,
+      "text": "Barnes & Noble is a super nostalgic bookstore for me. This is the new Barnes & Noble in Rittenhouse Square. The old location closed. The decor modern and doesn't feel like the old B&Ns we used to love, but times change. It's a tighter two floor bookstore with new books displayed on the front. They had an amazing amount of new book so it was a little overwhelming, but that's the perk of going into a Barnes & Noble: you're going to get a lot of the best new releases. Barnes & Noble now offers a free membership which is more like a rewards program. There are two checkout counters, one on the top floor, which has children's and Lego section and then the main downstairs location. There is no café here. The staff is super friendly and they have their own recommendations for this specific branch. Even though Barnes & Noble now feels like an independent bookstore, they do offer a lot of discounts and percentages off of new releases.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "Upon walking in and being greeted by a nice Team member I was escorted to the second floor to the book I inquired about. Madeline assisted me with enrolling in a free rewards program and my purchase. Large selection, well organized, nice layout, great gift ideas and cost effective.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 4,
+      "text": "Had to update this review since visiting with a friend a couple of weeks ago. The old location facing Rittenhouse Square closed, and they moved to this location. The store is a little smaller (I don't think it has a cafe), but it's updated, beautiful, well laid out, and really well stocked! In a post-Amazon world, even the large corporate bookshops need our support if we want to be able to browse in a bookstore rather than making all of our purchases online. And it was a treat to support this new, bright, modern Barnes & Noble location.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 4,
+      "text": "This location is small and doesn't have as much of a selection as my hometown B&N. Nonetheless it's nice having a location in the city and they do a solid amount of events. Wish there was more seating.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 4,
+      "text": "This is one of my favorite stops every time I am in Philly. I am an avid reader so I love to come here and  enjoy a nice book. Everything is set up nicely with a Starbucks providing a fresh iced coffee. It is three floors which are sometimes empty due to a lack of employees in the store. Several times when I stopped by the escalators were not working which was annoying. There is a free bathroom on the second floor which always cause a long line of people waiting around. I was surprised they recently moved to a new location around the corner. This new location is much more compact than the previous one. I did not get the time to fully explore and see all the changes. It did feel a little tighter and more crowded with less space to sit and read a book. Regardless I still plan on stopping back here whenever I get a chance.",
+      "date": null,
+      "reviewer": null
+    }
+  ],
+  "highlights": [],
+  "yelpUrl": "https://www.yelp.com/biz/barnes-and-noble-booksellers-philadelphia",
+  "totalReviewsScraped": 10,
+  "scrapedAt": "2026-02-15T21:13:11.398Z"
+}

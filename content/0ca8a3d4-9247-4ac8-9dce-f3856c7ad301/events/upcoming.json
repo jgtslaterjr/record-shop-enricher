@@ -1,0 +1,43 @@
+{
+  "shopName": "Common Beat Music",
+  "shopId": "0ca8a3d4-9247-4ac8-9dce-f3856c7ad301",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "Vinyl Exchange",
+      "title": "New Arrivals",
+      "date": null,
+      "description": "Check out our latest vinyl releases",
+      "artists": [
+        "Various Artists"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.commonbeatmusic.com/events"
+    },
+    {
+      "event_type": "Live Music",
+      "title": "The Beatles Tribute Band",
+      "date": "March 15th at 7pm",
+      "description": "Join us for a night of Beatles music and fun!",
+      "artists": [
+        "The Beatles Tribute Band"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.commonbeatmusic.com/events"
+    },
+    {
+      "event_type": "Meet the Artist",
+      "title": "Artist Talk with Local Musician",
+      "date": null,
+      "description": "Hear from local musician on their creative process and inspirations",
+      "artists": [
+        "Local Musician"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.commonbeatmusic.com/events"
+    }
+  ],
+  "totalFound": 3,
+  "scrapedAt": "2026-02-15T21:13:25.959Z"
+}

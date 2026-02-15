@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "281c0f40-09fa-49bc-bbf6-8d3fa9a5a73b",
+    "name": "Creep Records",
+    "city": "Philadelphia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Creep Records Philadelphia Pennsylvania record store",
+    "Creep Records Philadelphia instagram facebook"
+  ],
+  "discoveredAt": "2026-02-15T21:18:29.258Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

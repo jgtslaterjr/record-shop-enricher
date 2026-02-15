@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "d5cd9aa1-0730-447f-9f5d-4fcd7b46b163",
+    "name": "Main Street Music",
+    "city": "Philadelphia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Main Street Music Philadelphia",
+    "Main Street Music Philadelphia record store"
+  ],
+  "discoveredAt": "2026-02-15T18:47:46.928Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

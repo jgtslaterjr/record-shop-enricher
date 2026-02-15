@@ -1,0 +1,114 @@
+{
+  "shopName": "Barnes & Noble Booksellers",
+  "shopId": "28ef6860-18a9-453c-887b-1c49c4b724a3",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "Storytime",
+      "title": "Sunday Storytime",
+      "date": "February 15, 2026 2:00 PM CST",
+      "description": "View Details",
+      "source": "website",
+      "sourceUrl": "https://stores.barnesandnoble.com/events"
+    },
+    {
+      "event_type": "Author Event",
+      "title": "Brian Gehrlein Storytime and Signing",
+      "date": "February 21, 2026 11:00 AM CST",
+      "description": "View Details",
+      "source": "website",
+      "sourceUrl": "https://stores.barnesandnoble.com/events"
+    },
+    {
+      "event_type": "Storytime",
+      "title": "Saturday Story Time",
+      "date": "February 21, 2026 11:00 AM CST",
+      "description": "View Details",
+      "source": "website",
+      "sourceUrl": "https://stores.barnesandnoble.com/events"
+    },
+    {
+      "event_type": "Author Event",
+      "title": "Paula Lafferty! Discussion & Book Signing",
+      "date": "February 21, 2026 1:00 PM CST",
+      "description": "View Details",
+      "source": "website",
+      "sourceUrl": "https://stores.barnesandnoble.com/events"
+    },
+    {
+      "event_type": "Storytime",
+      "title": "Saturday Storytime: Duck for President",
+      "date": "February 21, 2026 11:00 AM CST",
+      "description": "View Details",
+      "source": "website",
+      "sourceUrl": "https://stores.barnesandnoble.com/events"
+    },
+    {
+      "event_type": "Author Event",
+      "title": "Michael Pollan discusses A WORLD APPEARS",
+      "date": "February 25, 2026 6:00 PM ET",
+      "description": "View Details",
+      "source": "website",
+      "sourceUrl": "https://stores.barnesandnoble.com/events"
+    },
+    {
+      "event_type": "Storytime",
+      "title": "Weekly Children's Storytime",
+      "date": "February 28, 2026 11:00 AM CST",
+      "description": "View Details",
+      "source": "website",
+      "sourceUrl": "https://stores.barnesandnoble.com/events"
+    },
+    {
+      "event_type": "Author Event",
+      "title": "Jessica Ann Disciacca Author Signing",
+      "date": "February 28, 2026 1:00 PM CST",
+      "description": "View Details",
+      "source": "website",
+      "sourceUrl": "https://stores.barnesandnoble.com/events"
+    },
+    {
+      "event_type": "Storytime",
+      "title": "Saturday Storytime: Lovebird Lou",
+      "date": "February 28, 2026 11:00 AM CST",
+      "description": "View Details",
+      "source": "website",
+      "sourceUrl": "https://stores.barnesandnoble.com/events"
+    },
+    {
+      "event_type": "Author Event",
+      "title": "Meet Local Author Dan B. Fierce!",
+      "date": "February 28, 2026 1:00 PM CST",
+      "description": "View Details",
+      "source": "website",
+      "sourceUrl": "https://stores.barnesandnoble.com/events"
+    },
+    {
+      "event_type": "Author Event",
+      "title": "Allen Levi discusses THEO OF GOLDEN",
+      "date": "March 5, 2026 7:00 PM ET",
+      "description": "View Details",
+      "source": "website",
+      "sourceUrl": "https://stores.barnesandnoble.com/events"
+    },
+    {
+      "event_type": "Author Event",
+      "title": "Louise Erdrich discusses PYTHON'S KISS with Angeline Boulley!",
+      "date": "March 25, 2026 7:00 PM ET",
+      "description": "View Details",
+      "source": "website",
+      "sourceUrl": "https://stores.barnesandnoble.com/events"
+    },
+    {
+      "event_type": "Author Event",
+      "title": "Tana French celebrates THE KEEPER #BNMiddayMystery",
+      "date": "March 31, 2026 3:00 PM ET",
+      "description": "Register Now",
+      "source": "website",
+      "sourceUrl": "https://stores.barnesandnoble.com/events"
+    }
+  ],
+  "totalFound": 13,
+  "scrapedAt": "2026-02-15T21:14:27.983Z"
+}

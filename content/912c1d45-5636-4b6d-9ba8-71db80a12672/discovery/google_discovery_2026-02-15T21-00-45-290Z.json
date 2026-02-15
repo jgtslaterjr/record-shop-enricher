@@ -1,0 +1,170 @@
+{
+  "shop": {
+    "id": "912c1d45-5636-4b6d-9ba8-71db80a12672",
+    "name": "Angel Record Shop",
+    "city": "Philadelphia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Angel Record Shop Philadelphia Pennsylvania record store",
+    "Angel Record Shop Philadelphia instagram facebook"
+  ],
+  "discoveredAt": "2026-02-15T21:00:45.290Z",
+  "links": [
+    {
+      "category": "yelp",
+      "url": "https://www.yelp.com/biz/angel-record-shop-philadelphia"
+    },
+    {
+      "category": "website",
+      "url": "https://phillyexplorer.com/best-vinyl-record-store-in-philadelphia"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.mapquest.com/us/pennsylvania/angel-record-shop-409064549",
+      "domain": "mapquest.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.yellowpages.com/philadelphia-pa/mip/angel-record-shop-3775450",
+      "domain": "yellowpages.com"
+    },
+    {
+      "category": "press",
+      "url": "https://www.phillymag.com/life-style/philly-record-stores/",
+      "domain": "phillymag.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.vinylworld.org/record-stores/pennsylvania-united-states/",
+      "domain": "vinylworld.org"
+    },
+    {
+      "category": "website",
+      "url": "https://nextdoor.com/pages/angel-record-shop-philadelphia-pa/"
+    },
+    {
+      "category": "website",
+      "url": "https://citysquares.com/b/angel-record-shop-1799454"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/angel.records/",
+      "handle": "angel.records"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/angel.record.2025"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/angelrecordsentertainment/",
+      "handle": "angelrecordsentertainment"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/angelrecords_official/",
+      "handle": "angelrecords_official"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/angelrecords/",
+      "handle": "angelrecords"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/popular/angel-records/",
+      "handle": "popular"
+    }
+  ],
+  "byCategory": {
+    "yelp": [
+      {
+        "category": "yelp",
+        "url": "https://www.yelp.com/biz/angel-record-shop-philadelphia"
+      }
+    ],
+    "website": [
+      {
+        "category": "website",
+        "url": "https://phillyexplorer.com/best-vinyl-record-store-in-philadelphia"
+      },
+      {
+        "category": "website",
+        "url": "https://nextdoor.com/pages/angel-record-shop-philadelphia-pa/"
+      },
+      {
+        "category": "website",
+        "url": "https://citysquares.com/b/angel-record-shop-1799454"
+      }
+    ],
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://www.mapquest.com/us/pennsylvania/angel-record-shop-409064549",
+        "domain": "mapquest.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.yellowpages.com/philadelphia-pa/mip/angel-record-shop-3775450",
+        "domain": "yellowpages.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.vinylworld.org/record-stores/pennsylvania-united-states/",
+        "domain": "vinylworld.org"
+      }
+    ],
+    "press": [
+      {
+        "category": "press",
+        "url": "https://www.phillymag.com/life-style/philly-record-stores/",
+        "domain": "phillymag.com"
+      }
+    ],
+    "instagram": [
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/angel.records/",
+        "handle": "angel.records"
+      },
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/angelrecordsentertainment/",
+        "handle": "angelrecordsentertainment"
+      },
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/angelrecords_official/",
+        "handle": "angelrecords_official"
+      },
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/angelrecords/",
+        "handle": "angelrecords"
+      },
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/popular/angel-records/",
+        "handle": "popular"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/angel.record.2025"
+      }
+    ]
+  },
+  "updates": {
+    "social_instagram": "angel.records",
+    "social_facebook": "https://facebook.com/angel.record.2025",
+    "website": "https://phillyexplorer.com/best-vinyl-record-store-in-philadelphia"
+  },
+  "skipped": {
+    "yelp_url": {
+      "current": "https://www.yelp.com/biz/angel-record-shop-philadelphia",
+      "discovered": "https://www.yelp.com/biz/angel-record-shop-philadelphia"
+    }
+  }
+}

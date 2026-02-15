@@ -1,0 +1,140 @@
+{
+  "shop": {
+    "id": "d5cd9aa1-0730-447f-9f5d-4fcd7b46b163",
+    "name": "Main Street Music",
+    "city": "Philadelphia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Main Street Music Philadelphia Pennsylvania record store",
+    "Main Street Music Philadelphia instagram facebook"
+  ],
+  "discoveredAt": "2026-02-15T18:49:45.883Z",
+  "links": [
+    {
+      "category": "website",
+      "url": "https://mainstreetmusicpa.com/"
+    },
+    {
+      "category": "directory",
+      "url": "https://vinylmapper.com/record-stores/us/pa/philadelphia/main-street-music-19127/",
+      "domain": "vinylmapper.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/philadelphia/record-store/2003110620-main-street-music",
+      "domain": "chamberofcommerce.com"
+    },
+    {
+      "category": "press",
+      "url": "https://www.sofaburn.com/news/record-store-spotlight-main-street-music-philadelphia-pa",
+      "domain": "sofaburn.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.loc8nearme.com/pennsylvania/philadelphia/main-street-music/7014970/",
+      "domain": "loc8nearme.com"
+    },
+    {
+      "category": "website",
+      "url": "https://recordshopsnearme.com/store/main-street-music-philadelphia-pa-pa"
+    },
+    {
+      "category": "directory",
+      "url": "https://vinylpackman.com/store/150",
+      "domain": "vinylpackman.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.vinylworld.org/record-shop/main-street-music/",
+      "domain": "vinylworld.org"
+    },
+    {
+      "category": "website",
+      "url": "https://wmmr.com/2022/04/19/mmrs-philly-record-store-guide-main-street-music/"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/mainstreetmusicphiladelphia"
+    },
+    {
+      "category": "website",
+      "url": "https://recordstoreday.com/Store/3861"
+    },
+    {
+      "category": "website",
+      "url": "https://recordstoreday.com/Venue/3861"
+    }
+  ],
+  "byCategory": {
+    "website": [
+      {
+        "category": "website",
+        "url": "https://mainstreetmusicpa.com/"
+      },
+      {
+        "category": "website",
+        "url": "https://recordshopsnearme.com/store/main-street-music-philadelphia-pa-pa"
+      },
+      {
+        "category": "website",
+        "url": "https://wmmr.com/2022/04/19/mmrs-philly-record-store-guide-main-street-music/"
+      },
+      {
+        "category": "website",
+        "url": "https://recordstoreday.com/Store/3861"
+      },
+      {
+        "category": "website",
+        "url": "https://recordstoreday.com/Venue/3861"
+      }
+    ],
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://vinylmapper.com/record-stores/us/pa/philadelphia/main-street-music-19127/",
+        "domain": "vinylmapper.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/philadelphia/record-store/2003110620-main-street-music",
+        "domain": "chamberofcommerce.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.loc8nearme.com/pennsylvania/philadelphia/main-street-music/7014970/",
+        "domain": "loc8nearme.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://vinylpackman.com/store/150",
+        "domain": "vinylpackman.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.vinylworld.org/record-shop/main-street-music/",
+        "domain": "vinylworld.org"
+      }
+    ],
+    "press": [
+      {
+        "category": "press",
+        "url": "https://www.sofaburn.com/news/record-store-spotlight-main-street-music-philadelphia-pa",
+        "domain": "sofaburn.com"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/mainstreetmusicphiladelphia"
+      }
+    ]
+  },
+  "updates": {},
+  "skipped": {
+    "social_facebook": {
+      "current": "https://facebook.com/MainStreetMusicPA",
+      "discovered": "https://facebook.com/mainstreetmusicphiladelphia"
+    }
+  }
+}

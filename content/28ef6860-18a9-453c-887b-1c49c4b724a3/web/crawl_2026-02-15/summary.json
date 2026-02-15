@@ -1,0 +1,45 @@
+{
+  "overview": "Bookstore",
+  "history": {
+    "founded": 1917,
+    "note": "Founded by Ginni MacLeish"
+  },
+  "inventory_focus": {
+    "formats": [
+      "CD",
+      "cassette"
+    ],
+    "genres": [
+      "classic rock"
+    ],
+    "new_vs_used": "used"
+  },
+  "services": {
+    "buy/sell/trade": true,
+    "online_store": false,
+    "shipping": false
+  },
+  "events": {
+    "host": true,
+    "types": [
+      "author events",
+      "children's storytime"
+    ],
+    "frequency": "weekly"
+  },
+  "staff": {
+    "notable_staff": null
+  },
+  "hours_location": {
+    "store_hours": "Sun 11-6, Mon-Thur 10-8, Fri&Sat 10-9",
+    "address": "1708 Chestnut St, Philadelphia, PA 19103"
+  },
+  "unique_features": [
+    "listening rooms",
+    "cafe"
+  ],
+  "community_role": {
+    "engagement": null,
+    "partnerships": null
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "overview": "Common Beat Music is a brick-and-mortar record shop specializing in vinyl records and musician supplies, with a full instrument and electronics repair service.",
+  "history": "Founded location: West Philadelphia (address not specified), no specific founding date mentioned",
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "CD",
+      "cassette"
+    ],
+    "genres": "not explicitly stated, but specializing in musician supplies",
+    "new vs used": "both new and used records and audio & musician gear available"
+  },
+  "services": {
+    "buying": "buying used records and audio & musician gear 5 days a week (Monday through Friday) or by appointment",
+    "selling": "selling own music at the shop, with contact information provided for inquiries",
+    "trading": "no explicit mention of trading, but buying and selling used items"
+  },
+  "events": {
+    "hosting events": "yes, hosting events, but details not specified",
+    "event type": "not explicitly stated, but likely music-related events (e.g. in-store performances)"
+  },
+  "staff": {
+    "notable staff/owner info": "no notable information provided about the owner or staff"
+  },
+  "hours_location": {
+    "store hours": "Monday to Sunday: 12 noon - 6pm",
+    "location": "4916 Baltimore Ave, West Philadelphia, PA 19143, next to Cedar Park Cafe and half a block from the 34 Trolley stop"
+  },
+  "unique_features": {
+    "listening rooms": "no explicit mention of listening rooms, but note that they specialize in musician supplies",
+    "cafe": "a nearby cafe, Cedar Park Cafe"
+  },
+  "community_role": "engaging with the local music scene through their services and events, but specific details not mentioned"
+}

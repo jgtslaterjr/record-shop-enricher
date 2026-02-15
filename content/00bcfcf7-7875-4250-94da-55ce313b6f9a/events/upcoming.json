@@ -1,0 +1,19 @@
+{
+  "shopName": "Cornerstone Music and Culture",
+  "shopId": "00bcfcf7-7875-4250-94da-55ce313b6f9a",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "Upcoming Event",
+      "title": "",
+      "date": "February 2026SuMoTuWeThFrSa Sun 1 Mon 2 Tue 3 Wed 4 Thu 5 Fri 6 Sat 7 234567",
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "http://www.cccphilly.com/events"
+    }
+  ],
+  "totalFound": 1,
+  "scrapedAt": "2026-02-15T21:14:41.025Z"
+}

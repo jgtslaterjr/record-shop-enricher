@@ -1,0 +1,22 @@
+{
+  "name": null,
+  "rating": null,
+  "reviewCount": null,
+  "phone": null,
+  "address": null,
+  "city": null,
+  "state": null,
+  "zip": null,
+  "website": null,
+  "hours": null,
+  "priceRange": null,
+  "categories": [],
+  "photos": [],
+  "amenities": null,
+  "specialties": null,
+  "reviews": [],
+  "highlights": [],
+  "yelpUrl": "https://www.yelp.com/biz/creep-records-philadelphia-3",
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T21:18:34.923Z"
+}

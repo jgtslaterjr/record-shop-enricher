@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "28ef6860-18a9-453c-887b-1c49c4b724a3",
+    "name": "Barnes & Noble Booksellers",
+    "city": "Philadelphia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Barnes & Noble Booksellers Philadelphia Pennsylvania record store",
+    "Barnes & Noble Booksellers Philadelphia instagram facebook"
+  ],
+  "discoveredAt": "2026-02-15T21:05:01.292Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

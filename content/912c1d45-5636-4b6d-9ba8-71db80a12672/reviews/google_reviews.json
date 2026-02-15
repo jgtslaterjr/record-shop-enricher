@@ -1,0 +1,23 @@
+{
+  "name": "Results",
+  "rating": null,
+  "reviewCount": null,
+  "address": null,
+  "phone": null,
+  "website": null,
+  "hours": null,
+  "categories": [],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-proxy/ALd4DhGs--_6ivcoD1f739BeEFvHb_s5MDcJrq5mZCbsbihbKLsEUFDH_2CuXRoXAAKWreAVVRpq2IfVU75NQrEPqO0pbPsHn7JGlraTdtPQCexnrlT9PHotpVp7dgH7cL4NibWZ5Na_18nXo95mvD-S2dwdtGuydo1GdGllpY6qkyuLEmycyMQHRfaJBkGWe1Vfv3tRuqs=w129-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoC2h1WZDm4uG1haZlrQSUpWNAuLINlKhMgARPjYP8h5wTneFlXqqRwivC29dXwOrN-LT0caLzAhKMC_py2p2Wlc6-8C2_1oEGbPTDZHyoVptO7-wIoe4--ev1b-jQF8vugPVSC0A=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoad41j-uv3S5BBCRQ4AC8XBhj2Uyv-CsCJBZKH15rz0X5QECynzRjan6L0ft2ZjALQUvXE1ASpbHz0IxqAFog620ny9hqDQHpX-gpUAGgqCZ4pHQdnQUeXU3wzWO4JHCJHyarX=w152-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqEzyNDo-z4rziHlDzcJBAoCPTiDzmwa3i1PyoKqUiZyu7MGZ1ggg6J4Rrsu09bDKhBI9aaoUkCaH2-X17guk18kamggw3QU7MyX8B7dazSYU1mClT5XYPvEWzs_ZOdI9o1tqo=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoprGGjhP5uRjjHQGAbfFdMTcWbasr672pMo6AMW-raIIf8Rg8kvum69tM1Xh-rxpURe3Os4Vd-Thr1e8HwT2g-5gYgfjgOe2X3muNMqU4D7BiFAKvgfPF17YEkbf2ztMETCgzY=w181-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepSDMha29_T3ibDEbL-vJtjKsWSnud_OcyN8aqWUBPFGyV6i27nJak6yKPeuSDDaAKYOjP9_gN1T2Gk5ZYLu5R5MDqBlm5hNqBNQY_xihPdDAsis8ZZeSNe3WXMkTVGmIwh0t2nDg=w114-h86-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/search/Angel+Record+Shop+record+store+Philadelphia+Pennsylvania/@40.0621258,-75.4839069,12z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T21:11:50.509Z"
+}

@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "e17a557d-03e6-44a1-a529-e521df6cbc29",
+    "name": "Centro Musical",
+    "city": "Philadelphia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Centro Musical Philadelphia Pennsylvania record store",
+    "Centro Musical Philadelphia instagram facebook"
+  ],
+  "discoveredAt": "2026-02-15T21:10:45.014Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

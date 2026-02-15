@@ -1,0 +1,54 @@
+{
+  "sentiment_score": 4,
+  "key_themes": [
+    "small, local feel",
+    "variety of genres and sections",
+    "staff friendliness and helpfulness",
+    "event and performance offerings",
+    "value and affordability"
+  ],
+  "pros": [
+    "kind staff",
+    "great selection of books and gifts",
+    "convenient location",
+    "well-organized store layout",
+    "friendly and supportive employees"
+  ],
+  "cons": [
+    "small size compared to other B&N locations",
+    "occasional lack of employee presence on lower floors",
+    "bathroom lines and cleanliness issues",
+    "limited selection in certain genres (e.g. local books)",
+    "expensive items and prices"
+  ],
+  "notable_quotes": {
+    "best": "We love this location and have been coming for years and years! Usually bring my daughter and we go straight to the magna section.",
+    "worst": "When I came here in look of a certain book I had wanted, I asked an employee for help, and she literally told me to find it myself...",
+    "funniest": "I was really surprised how much was in this store which seems small from outside. I purchased two books but saw soooo many more that I want."
+  },
+  "vibe_description": "This Barnes & Noble location has a cozy, small-town feel with a modern twist. The staff is friendly and helpful, making it easy to navigate the shelves and find great reads. However, some reviewers noted that the store can feel empty when there aren't enough employees on hand, which may detract from the overall experience.",
+  "genre_specialties": [
+    "jazz",
+    "manga/anime",
+    "local authors and books"
+  ],
+  "staff_mentions": "Reviewers praised the kindness and helpfulness of B&N staff, with many noting that they were willing to go above and beyond to assist customers. However, some reviewers also mentioned that there could be a greater sense of camaraderie among employees.",
+  "event_mentions": [
+    "Record Store Day",
+    "book signings and author events"
+  ],
+  "recommendation_for": "This store would be ideal for fans of local authors and manga/anime, as well as anyone looking for a cozy, low-key bookstore experience in the city.",
+  "metadata": {
+    "totalReviews": 10,
+    "yelpReviews": 10,
+    "googleReviews": 0,
+    "averageRating": 3.8,
+    "ratingDistribution": {
+      "1": 1,
+      "3": 1,
+      "4": 6,
+      "5": 2
+    },
+    "analyzedAt": "2026-02-15T21:14:35.442Z"
+  }
+}

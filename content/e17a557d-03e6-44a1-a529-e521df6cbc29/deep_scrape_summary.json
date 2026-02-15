@@ -1,0 +1,38 @@
+{
+  "shopId": "e17a557d-03e6-44a1-a529-e521df6cbc29",
+  "shopName": "Centro Musical",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-15T21:18:05.469Z",
+  "scrapers": {
+    "discovery": {
+      "status": "skipped"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.8s"
+    },
+    "google": {
+      "status": "error",
+      "error": "deep_scrape_google.js exited with code 1: page.evaluate: Target page, context or browser has been closed\n    at scrapeGoogleMaps (/home/john/Projects/record-shop-enricher/deep_scrape_google.js:35:27)\n    at async run (/home/john/Projects/record-shop-enricher/deep_scrape_google.js:194:20)\n",
+      "elapsed": "10.2s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "35.4s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "50.5s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-15T21:19:59.421Z"
+}
