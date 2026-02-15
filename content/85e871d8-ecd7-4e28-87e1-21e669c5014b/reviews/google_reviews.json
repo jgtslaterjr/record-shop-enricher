@@ -1,0 +1,23 @@
+{
+  "name": "Results",
+  "rating": null,
+  "reviewCount": null,
+  "address": null,
+  "phone": null,
+  "website": null,
+  "hours": null,
+  "categories": [],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerx1pVD8RaK9PC5TO5JsaerxFM-j36BbNzXOiffEQ87WDXsmUCP-B7JnaXv-XfTWc4Y9cVqmEwasMl7FA8Jw1VsrpMdPMQz6JmzZiOEJv4hd1cNnoG06kKfx8W8GwhCQakXrp5B=w152-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer8Cqf2ia_wTm7adigZxng-ei-pS4T2NdMqSxhOQVXKUI52w2q8jAD2BKlUl7oUwMZ1CLOiA1FTunEGFUiNgWwyB-MSHc0r_SFtpqp_bLjYw3047Cxjl0bIUa722QyCr5jgBu9I=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqAOWa6Zr4ZCNwnScKrCxkL2lohyILe9akOkZPwqHBhCwqTWNwjUm-NOWgmZMHWhaGfdcKeg9x_NkDieI0XlfpES2oQ21xAvw0luPosG4h9_pJTU1gFcoy6KO4-XNlrVPWm4Ea7kH-lnDi_=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoA1OraLKqvaVyQn8wW18R2Cyt2S0pR0rGa0ycc0UedUOXBcsYAYrnQhZPcWgq2jiq4G21tgFMdXW7wtPc_WD5laY_UY4mnzi6S0e43KbCACa1Fsv61XHd_0uekaP41IDIq0G9B1ZOsS5ea=w86-h87-k-no",
+    "https://lh3.googleusercontent.com/p/AF1QipP0Oyo6-AAntQNFBxyFp6sm6hTrUqW7-SUhtF9j=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerfE43eBw5BGUdGln-Ux3ktAx62XYgJm8GDIISH7YkEIRlPDm9ObZ0bvw0JPFEnACxUL1w6M0bxXZYaFI4YEncRfn_BKGlkjxFM15oYhzDqW6h0o1ajvZp4viXi3sT2kXR2RKuu=w114-h86-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/search/Amoeba+Music+record+store+San+Francisco+California/@37.7702612,-122.4927486,13z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T01:32:16.825Z"
+}

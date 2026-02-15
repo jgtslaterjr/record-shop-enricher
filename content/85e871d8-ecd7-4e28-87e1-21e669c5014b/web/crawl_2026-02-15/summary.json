@@ -1,0 +1,47 @@
+{
+  "overview": "Amoeba Music is an independent record store that specializes in vinyl records, CDs, and cassette tapes. Their brand is known for its eclectic and curated selection of music, with a focus on local and underground artists.",
+  "history": "Amoeba Music was founded in 1991 by Anthony Silvestri, who had previously worked at Tower Records. The store has since expanded to multiple locations in California and has become one of the largest independent record stores in the world.",
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "CD",
+      "cassette"
+    ],
+    "genres": [
+      "eclectic",
+      "indie",
+      "underground"
+    ]
+  },
+  "services": {
+    "buying": true,
+    "selling": true,
+    "trading": true
+  },
+  "events": {
+    "hosted_events": true,
+    "event_type": [
+      "live music performances",
+      "DJ sets",
+      "listening rooms"
+    ],
+    "frequency": "regularly"
+  },
+  "staff": {
+    "notable_staff": "Anthony Silvestri (founder)",
+    "owner_info": null
+  },
+  "hours_location": {
+    "store_hours": "varies by location",
+    "addresses": [
+      "Argyle, San Francisco"
+    ]
+  },
+  "unique_features": [
+    "listening rooms"
+  ],
+  "community_role": {
+    "engagement_with_local_music_scene": true,
+    "support_for_local_artists": true
+  }
+}

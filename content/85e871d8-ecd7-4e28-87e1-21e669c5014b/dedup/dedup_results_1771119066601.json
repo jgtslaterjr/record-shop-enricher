@@ -1,0 +1,38 @@
+{
+  "shop": {
+    "id": "85e871d8-ecd7-4e28-87e1-21e669c5014b",
+    "name": "Amoeba Music",
+    "slug": "amoeba-music-san-francisco-shops",
+    "city": "San Francisco",
+    "state": "California"
+  },
+  "timestamp": "2026-02-15T01:31:06.601Z",
+  "original_count": 7,
+  "removed_count": 2,
+  "new_count": 5,
+  "analysis": {
+    "duplicates": [],
+    "wrong_location": [
+      {
+        "image": 3,
+        "reason": "This is Eye & Hand Society storefront with 'NOISE' mural and live performers, not Amoeba San Francisco - completely different signage and architecture"
+      },
+      {
+        "image": 5,
+        "reason": "Cramped interior with hanging guitars, CD stacks, and narrow layout unlike Amoeba SF's spacious yellow vinyl bins and poster walls"
+      }
+    ]
+  },
+  "removed_images": [
+    {
+      "index": 3,
+      "url": "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/amoeba-music-san-francisco-shops/1771117937856_3.jpg",
+      "reason": "Wrong location: This is Eye & Hand Society storefront with 'NOISE' mural and live performers, not Amoeba San Francisco - completely different signage and architecture"
+    },
+    {
+      "index": 5,
+      "url": "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/amoeba-music-san-francisco-shops/1771117938615_5.jpg",
+      "reason": "Wrong location: Cramped interior with hanging guitars, CD stacks, and narrow layout unlike Amoeba SF's spacious yellow vinyl bins and poster walls"
+    }
+  ]
+}

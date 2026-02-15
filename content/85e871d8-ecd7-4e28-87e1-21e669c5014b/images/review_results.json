@@ -1,0 +1,219 @@
+{
+  "shop": {
+    "id": "85e871d8-ecd7-4e28-87e1-21e669c5014b",
+    "name": "Amoeba Music",
+    "slug": "amoeba-music-san-francisco-shops"
+  },
+  "timestamp": "2026-02-15T01:37:56.992Z",
+  "totalCandidates": 29,
+  "approved": 19,
+  "reviewed": [
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerx1pVD8RaK9PC5TO5JsaerxFM-j36BbNzXOiffEQ87WDXsmUCP-B7JnaXv-XfTWc4Y9cVqmEwasMl7FA8Jw1VsrpMdPMQz6JmzZiOEJv4hd1cNnoG06kKfx8W8GwhCQakXrp5B=w800-h600-k-no",
+      "source": "google_maps",
+      "review": {
+        "score": 10,
+        "category": "interior",
+        "description": "High-quality wide-angle view of record shop interior showcasing extensive vinyl record shelves, bins, and wall posters."
+      }
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer8Cqf2ia_wTm7adigZxng-ei-pS4T2NdMqSxhOQVXKUI52w2q8jAD2BKlUl7oUwMZ1CLOiA1FTunEGFUiNgWwyB-MSHc0r_SFtpqp_bLjYw3047Cxjl0bIUa722QyCr5jgBu9I=w800-h600-k-no",
+      "source": "google_maps",
+      "review": {
+        "score": 9,
+        "category": "interior",
+        "description": "Well-lit interior view showing record bins, shelves, posters, and a customer browsing vinyls"
+      }
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqAOWa6Zr4ZCNwnScKrCxkL2lohyILe9akOkZPwqHBhCwqTWNwjUm-NOWgmZMHWhaGfdcKeg9x_NkDieI0XlfpES2oQ21xAvw0luPosG4h9_pJTU1gFcoy6KO4-XNlrVPWm4Ea7kH-lnDi_=w800-h600-k-no",
+      "source": "google_maps",
+      "review": {
+        "score": 10,
+        "category": "interior",
+        "description": "High-quality interior shot of record shop with shelves and bins full of vinyl records"
+      }
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerfE43eBw5BGUdGln-Ux3ktAx62XYgJm8GDIISH7YkEIRlPDm9ObZ0bvw0JPFEnACxUL1w6M0bxXZYaFI4YEncRfn_BKGlkjxFM15oYhzDqW6h0o1ajvZp4viXi3sT2kXR2RKuu=w800-h600-k-no",
+      "source": "google_maps",
+      "review": {
+        "score": 10,
+        "category": "interior",
+        "description": "Vibrant interior shot of record bins, hanging guitars, shelves of vinyls and CDs, with a customer browsing."
+      }
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/p/AF1QipP0Oyo6-AAntQNFBxyFp6sm6hTrUqW7-SUhtF9j=w800-h600-k-no",
+      "source": "google_maps",
+      "review": {
+        "score": 9,
+        "category": "interior",
+        "description": "Man standing in front of wall-mounted vinyl records and storage crates inside the shop"
+      }
+    },
+    {
+      "url": "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoA1OraLKqvaVyQn8wW18R2Cyt2S0pR0rGa0ycc0UedUOXBcsYAYrnQhZPcWgq2jiq4G21tgFMdXW7wtPc_WD5laY_UY4mnzi6S0e43KbCACa1Fsv61XHd_0uekaP41IDIq0G9B1ZOsS5ea=w800-h600-k-no",
+      "source": "google_maps",
+      "review": {
+        "score": 9,
+        "category": "event",
+        "description": "Live music performance outside the record shop storefront with musicians, instruments, and shop signage visible."
+      }
+    },
+    {
+      "url": "https://maps.gstatic.com/tactile/pegman_v3/default/runway-1x.png",
+      "source": "google_maps",
+      "review": {
+        "score": 1,
+        "category": "other",
+        "description": "Pixelated cartoonish figures in red/yellow, resembles a logo or unrelated icon, no record shop elements"
+      }
+    },
+    {
+      "url": "https://www.amoeba.com/uploads/content/banners/paypal_banner.jpg",
+      "source": "website",
+      "review": {
+        "score": 8,
+        "category": "interior",
+        "description": "Promotional banner overlay on stacks of records announcing PayPal acceptance."
+      }
+    },
+    {
+      "url": "https://scontent-lga3-3.cdninstagram.com/v/t51.2885-15/627653214_18559849075024606_4255369078750666379_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_ht=scontent-lga3-3.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2QGsE-6qUacwFgJbH5_bp9dtDGCxaxHboz5ZnjOoezmM5_q3P8HAuEQ6417_C8ET9yI&_nc_ohc=JsCDEeEXb0oQ7kNvwHDxOGL&_nc_gid=xMRlxAmXhyJDVOOUNO0_MQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AftcyTty2tATaILLXGkgbqc9n1OfelfX-HzK8yFwlmneBQ&oe=69970D67&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 9,
+        "category": "event",
+        "description": "In-store meet-and-greet or signing event with hip-hop artists, child fan, and Monster Energy backdrop."
+      }
+    },
+    {
+      "url": "https://scontent-mia3-3.cdninstagram.com/v/t51.2885-15/630140364_18561293542024606_580646730177272198_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_ht=scontent-mia3-3.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2QHDOzjrvSRrEx6A2n-dtKAlqFNckX6F75bhLZGAz7v-Lrz5Dr1-UtLtGwXWyFeQ4v8&_nc_ohc=bD6KoB81nmIQ7kNvwFhf0Kf&_nc_gid=uXHA3GNI6He_r0aPavJ-zA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Afu-VNhdecOkiTHXFwqxrff2zyylHqSp6rcGJkASYiwo3Q&oe=6996DDB6&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 9,
+        "category": "product",
+        "description": "Flat lay of Marshall headphones boxes, Record Store Day poster, keychains, and event swag."
+      }
+    },
+    {
+      "url": "https://scontent-ord5-3.cdninstagram.com/v/t51.2885-15/628032071_18560307409024606_1401152115324437451_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2QGAQB5Te2_n1GdkKIYIDgv2owuQ9i2Jj99W9b8vfEtY9udwVpM1imglpqfmGxCglrY&_nc_ohc=TmhPVwPF7bEQ7kNvwGvvXlN&_nc_gid=9Dsa2KXR98aTOOpWRBi56A&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfvyZof_65Tl6JfXIiBq7gSzqB-NCkLQJNeJrZYBt-EkWQ&oe=699710C1&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 2,
+        "category": "other",
+        "description": "Vibrant horror film festival poster for Orinda Theatre event, unrelated to record shop."
+      }
+    },
+    {
+      "url": "https://scontent-atl3-3.cdninstagram.com/v/t51.2885-15/629369348_18560638492024606_8557745998477982363_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2QEZzePMJAD0IF9GbyUuy6RWEE_Lxc__dHxF1p9nRbymAGXbc2fQTL020wRnyRXmt3w&_nc_ohc=udU7BhxfaOEQ7kNvwH-wFHc&_nc_gid=SxQCZMh7kp1oHiBYKeGSDA&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfsE2zluDrcYH4cyB9eXP_Oxe_wGXIgxIXXiHeyidlV8nQ&oe=6996FE22&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 3,
+        "category": "other",
+        "description": "Promotional poster for Noah Kahan concert tour at Oracle Park."
+      }
+    },
+    {
+      "url": "https://scontent-dfw5-1.cdninstagram.com/v/t51.2885-15/631229754_18560919148024606_4388449129663117949_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_ht=scontent-dfw5-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2QE1t7x98PVXUvZb1ZyaXEno79yRjlcN-I8VRuRF5aEDV93x-fUELHbqE9fWaxNCSEY&_nc_ohc=r49wpDdl0ZoQ7kNvwGodOGd&_nc_gid=lzAmUKLTeIoVrUGnZ3DyRg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfuxMWnErUjP1RqFDc0nI5z0HJUhGYN_xPO0zz5I2Ie7dQ&oe=6997021B&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 4,
+        "category": "other",
+        "description": "Concert poster for Metric and Broken Social Scene tour, not directly related to record shop"
+      }
+    },
+    {
+      "url": "https://scontent-mia3-3.cdninstagram.com/v/t51.2885-15/628371572_18560441431024606_5496823240009981565_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-mia3-3.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2QHeLthlbQIGsCe2IdKh8GK_7zDOLePlrM0X-fXv5lJR6JK86qqYz8b0_O7StCe4VJE&_nc_ohc=QaPXVPLnDGgQ7kNvwGOajev&_nc_gid=FexoTgmzZxje5dDZ1eZicA&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfudxMbu4DrT-CgSNiyvcYgDbdBvl98SN_1ntaVlNHqNrQ&oe=6996DF57&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 8,
+        "category": "people",
+        "description": "Smiling bearded man in hip-hop merch (Eric B & Rakim shirt) inside shop with retail background"
+      }
+    },
+    {
+      "url": "https://scontent-lga3-2.cdninstagram.com/v/t51.2885-15/630108243_18596027443032545_2022248923328150203_n.heic?stp=dst-jpg_e35_s1080x1080_sh0.08_tt6&_nc_ht=scontent-lga3-2.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2QFhQrUgBgB8CWI0fSQ67_9GfNg6JNQUWumu4nibRGaAEO80ngDfWmf3Go7XUpJOHEs&_nc_ohc=SGPtQoINADwQ7kNvwGZu22c&_nc_gid=XEd0eQhhfZCbF-1sCDhMIQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfvyQVn8i5EsPJyINsWjJOrAx0ELpjNrCriXeo_zpuktcw&oe=699706AE&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 9,
+        "category": "event",
+        "description": "Promotional graphic for Black History Month contest featuring Audio-Technica turntable, vinyl records, and prizes."
+      }
+    },
+    {
+      "url": "https://instagram.fhsv1-1.fna.fbcdn.net/v/t51.2885-15/629735597_18596434780032545_5518699993114135765_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_ht=instagram.fhsv1-1.fna.fbcdn.net&_nc_cat=105&_nc_oc=Q6cZ2QHV73DRQG-UjfpUtcQaICrs3qT4pA0cUB4kqLX3-7xOKLbhgjXQ5W-me3e3tV-o7Os&_nc_ohc=3GXdn7e0rO0Q7kNvwHSJDMz&_nc_gid=3TgBXfqcKZj2RGN2uiXXCA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Afvh8bf6-7Z6297UTbiQSALlVv-vr2_mHejBL4XRURQzRg&oe=6996F520&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 9,
+        "category": "people",
+        "description": "Two smiling staff members wearing Electric Fetus t-shirts, posing in front of an Amor Music sign inside the shop"
+      }
+    },
+    {
+      "url": "https://instagram.fhsv1-1.fna.fbcdn.net/v/t51.2885-15/629433354_18596434771032545_2066040954706686250_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_ht=instagram.fhsv1-1.fna.fbcdn.net&_nc_cat=105&_nc_oc=Q6cZ2QHV73DRQG-UjfpUtcQaICrs3qT4pA0cUB4kqLX3-7xOKLbhgjXQ5W-me3e3tV-o7Os&_nc_ohc=QnjY25fBfLYQ7kNvwF5W8-J&_nc_gid=3TgBXfqcKZj2RGN2uiXXCA&edm=APs17CUBAAAA&ccb=7-5&oh=00_AftmVGBfQf4q4_ZJTatY8pKuBkD4HdvXD2XHBBLQhl1FyA&oe=699700B9&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 9,
+        "category": "people",
+        "description": "Two staff or customers wearing store merch (Electric Fetus t-shirts) posing on interior stairs with record shelves and decorations in background"
+      }
+    },
+    {
+      "url": "https://instagram.fhsv1-1.fna.fbcdn.net/v/t51.2885-15/628125061_18596434795032545_9067350326995424186_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_ht=instagram.fhsv1-1.fna.fbcdn.net&_nc_cat=105&_nc_oc=Q6cZ2QHV73DRQG-UjfpUtcQaICrs3qT4pA0cUB4kqLX3-7xOKLbhgjXQ5W-me3e3tV-o7Os&_nc_ohc=jxCAURI1jwkQ7kNvwFTWP3L&_nc_gid=3TgBXfqcKZj2RGN2uiXXCA&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfvggUZGYGU6jzsqFJ1q2Mnytkpd7DmtCzK7gXxjeDOHqA&oe=6996E580&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 9,
+        "category": "people",
+        "description": "Two smiling staff members posing inside the store in front of labeled record shelves, wearing Electric Fetus merch."
+      }
+    },
+    {
+      "url": "https://scontent-ord5-3.cdninstagram.com/v/t51.2885-15/631349955_18561253297024606_7283718987300497164_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_ht=scontent-ord5-3.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2QFyibP7nv3z2f8qCkcAYBHtloeSiA1Eo5qYSffTEPD541Vehvbf3WP-N5EYvOcqq3U&_nc_ohc=pev4Z-dyZEAQ7kNvwFcW5y-&_nc_gid=8mFeTx_P4SGFKDrseoTjzQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfsVXp5jQgdSkwngwWENP-csJrqa6C7Megc2GXh-TkdCQA&oe=6996EEF4&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 9,
+        "category": "interior",
+        "description": "Woman in shop merch posing inside record store with visible shelves, bins, posters, and hip-hop signage."
+      }
+    },
+    {
+      "url": "https://scontent-dfw5-1.cdninstagram.com/v/t51.2885-15/629818533_18561047431024606_7678751222313702192_n.jpg?stp=dst-jpg_e15_tt6&_nc_ht=scontent-dfw5-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2QHGCQC-gZDGng7aAOD6Zf6ZEMdCQ6HIs0zuOcUXq62RncQr19h1QDI8luAF096DOEIt2O1FzLIYj2c8Pb5q49PE&_nc_ohc=ykOglwdL6sIQ7kNvwFtM_JJ&_nc_gid=9Wrva-YO4jemG_myaYhQxA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Afu3m2A145Sb0xEGMPKgPQZ1wJ8kYUqzjRc_OOxXYpUeXw&oe=6996E126&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 9,
+        "category": "interior",
+        "description": "Clear interior view of vinyl record shelves with artist albums and a promotional discount sign."
+      }
+    },
+    {
+      "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.2885-15/627150121_18559266820024606_8887741663355065730_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2QEzXOSIX1qnCHFf6aOkMg62mMTe9ALoz8_jDvbAh6HH27l1vFjDManzQHwlsfoJF2s&_nc_ohc=ITUWjZmSjNYQ7kNvwF-BIgq&_nc_gid=Z1J5cDvvsazaJ5oX9CFOFg&edm=APs17CUBAAAA&ccb=7-5&oh=00_Afuwm8GacURkSoVjQHPbhhny7QkJ3zZLBqIc7arLUcvlhQ&oe=69970A6F&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 9,
+        "category": "people",
+        "description": "Two women holding records and CDs, posing in front of Amoeba display inside a record shop with shelves and posters."
+      }
+    },
+    {
+      "url": "https://scontent-iad3-1.cdninstagram.com/v/t51.2885-15/627123070_18559266811024606_2325711008324092362_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2QEzXOSIX1qnCHFf6aOkMg62mMTe9ALoz8_jDvbAh6HH27l1vFjDManzQHwlsfoJF2s&_nc_ohc=FWnch3DcwSwQ7kNvwE5JvBt&_nc_gid=Z1J5cDvvsazaJ5oX9CFOFg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AfuOiHWI2-PfNHvQ_Qk0JJrB9aiEBM-FZifB34Am4mRcBA&oe=6996DEC9&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 9,
+        "category": "event",
+        "description": "Promotional poster for an album signing event at Amoeba Records in San Francisco."
+      }
+    },
+    {
+      "url": "https://scontent-atl3-3.cdninstagram.com/v/t51.2885-15/630110758_18559144000024606_5367139028893578089_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_ht=scontent-atl3-3.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2QHxNitjI7ie_dGfTeWy246RMLSyxeh9TNnxKvkPvOOOBa3CG6K_4YW84C9Mk00_V9M&_nc_ohc=QFHWgoSes5QQ7kNvwG6iwmm&_nc_gid=AjNAqPokrql2-QC5e69hBg&edm=APs17CUBAAAA&ccb=7-5&oh=00_AftQt3HtJvgJPXVFiakaLT0jeAZYGrIosKy8jX9elxFXlw&oe=6996F78E&_nc_sid=10d13b",
+      "source": "instagram",
+      "review": {
+        "score": 9,
+        "category": "interior",
+        "description": "Woman smiling while holding a vinyl record inside the record shop, with shelves, bins, and other customers visible in the background"
+      }
+    }
+  ]
+}
