@@ -255,6 +255,12 @@ async function scrapeYelpBusinessPage(page, yelpUrl) {
     }
   }
 
+  // Normalize hours — infer missing AM/PM from the one that's present
+  const { normalizeHours } = require('./lib/normalize_hours');
+  if (data.hours) {
+    data.hours = normalizeHours(data.hours);
+  }
+
   data.reviews = allReviews;
   data.totalReviewsScraped = allReviews.length;
   data.scrapedAt = new Date().toISOString();

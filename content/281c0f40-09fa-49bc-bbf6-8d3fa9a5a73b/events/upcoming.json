@@ -5,26 +5,15 @@
   "state": "Pennsylvania",
   "events": [
     {
-      "event_type": "Release Party",
-      "title": "Sex Slaves 'Bite Your Tongue' Release Party",
-      "date": "",
-      "description": "",
-      "artists": [
-        "Sex Slaves"
-      ],
-      "source": "website",
-      "sourceUrl": "http://creeprecords.com/events"
-    },
-    {
       "event_type": "",
       "title": "",
-      "date": "",
+      "date": null,
       "description": "",
       "artists": [],
       "source": "website",
       "sourceUrl": "http://creeprecords.com/events"
     }
   ],
-  "totalFound": 2,
-  "scrapedAt": "2026-02-15T21:19:40.128Z"
+  "totalFound": 1,
+  "scrapedAt": "2026-02-15T21:31:13.281Z"
 }

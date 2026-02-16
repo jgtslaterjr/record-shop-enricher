@@ -1,0 +1,14 @@
+{
+  "raw_summary": "Here is the analysis of the reviews for \"Mostly Books\" record shop in JSON format:\n\n{\n  \"sentiment_score\": 9,\n  \"key_themes\": [\n    \"variety of books and genres\",\n    \"used book section\",\n    \"vintage items\",\n    \"friendly staff\",\n    \"great prices\"\n  ],\n  \"pros\": [\n    \"incredible selection of used books\",\n    \"great prices\",\n    \"friendly and knowledgeable staff\",\n    \"interesting vintage items\",\n    \"fun atmosphere with a 'bookish chaos' vibe\"\n  ],\n  \"cons\": [\n    \"no database to keep track of inventory\",\n    \"some sections may be sparse\",\n    \"organization can be hit or miss\"\n  ],\n  \"notable_quotes\": {\n    \"best\": \"'Perfect if you're seeking a bit of bookish chaos.' - Review 5\",\n    \"worst\": \"None mentioned in reviews\",\n    \"funniest\": \"'They have cats guarding the books, so make sure to pet them for their service.' - Review 7\"\n  },\n  \"vibe_description\": \"Mostly Books has a lively and eclectic atmosphere, with a vast selection of used books that creates a 'bookish chaos' vibe. The friendly staff adds to the welcoming ambiance, making customers feel at home in this quaint bookstore.\",\n  \"genre_specialties\": [\"used books\", \"vintage items\", \"music (specifically, CDs and vinyl records)\"],\n  \"staff_mentions\": \"Reviewers praise the friendly and knowledgeable staff, with one reviewer mentioning that Sharon is particularly helpful. Staff are also mentioned as being willing to give store credit for rare or valuable items.\",\n  \"event_mentions\": [\"Record Store Day mentions in Review 8\"],\n  \"recommendation_for\": \"jazz collectors\", \"casual browsers\", \"book enthusiasts\"\n}",
+  "metadata": {
+    "totalReviews": 10,
+    "yelpReviews": 10,
+    "googleReviews": 0,
+    "averageRating": 4.6,
+    "ratingDistribution": {
+      "4": 4,
+      "5": 6
+    },
+    "analyzedAt": "2026-02-15T21:52:51.909Z"
+  }
+}

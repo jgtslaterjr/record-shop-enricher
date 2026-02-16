@@ -1,0 +1,20 @@
+{
+  "name": "Rustic Music",
+  "rating": null,
+  "reviewCount": null,
+  "address": "259 S 10th St, Philadelphia, PA 19107",
+  "phone": "(215) 732-7805",
+  "website": "http://www.rusticmusic.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoAc5tZtOXMBSxIeMj66cehCp4aCjvsau3YvUjuqWFWenqP1X9ITNmvOhLa5ZsBudCeOn99G15MQEpj4ddzTV1VAK4JfA5uBoaY2O614I03VKH3QZbs4-Dlc8S-w36kIq-dWbI9ZQ=w408-h543-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Rustic+Music/@39.9466706,-75.1601939,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6c6245b8f9cb3:0x130441e613701302!8m2!3d39.9466706!4d-75.157619!16s%2Fg%2F1tg7sznn?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T22:11:33.734Z"
+}

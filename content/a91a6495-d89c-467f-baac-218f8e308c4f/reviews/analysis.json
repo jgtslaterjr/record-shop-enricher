@@ -1,0 +1,15 @@
+{
+  "raw_summary": "Here is the comprehensive analysis of the customer reviews in JSON format:\n\n{\n  \"sentiment_score\": 4.2,\n  \"key_themes\": [\n    \"Prices\",\n    \"Selection variety\",\n    \"Staff friendliness and service\",\n    \"Atmosphere and ambiance\",\n    \"Vintage and rare items\"\n  ],\n  \"pros\": [\n    \"Excellent selection of vinyl records, especially vintage and rare items\",\n    \"Friendly and accommodating staff who are knowledgeable about music\",\n    \"Charming and welcoming atmosphere\",\n    \"Competitive prices for CDs and vinyl\",\n    \"Variety of turntable equipment and accessories\"\n  ],\n  \"cons\": [\n    \"Prices can be high, especially for certain albums or hard-to-find records\",\n    \"Small selection of new releases compared to some other record stores\",\n    \"Some customers have reported poor customer service from staff\"\n  ],\n  \"notable_quotes\": {\n    \"best\": \"'I'm not sure how I stumbled across Hideaway but I'm sure glad I did.' - Anon (5★)\",\n    \"worst\": \"'Customer service is truly dead. Not to get all Boomer, but...' - Anon (3★)\",\n    \"funniest\": \"'We have a bunch here if you want one'... SOLD!\" - Anon (4★)\n  },\n  \"vibe_description\": \"Hideaway Music is a charming and welcoming record store with a great selection of vinyl records and vintage items. The atmosphere is cozy and intimate, making it a perfect spot for music lovers to browse and discover new gems.\",\n  \"genre_specialties\": [\"Jazz\", \"Classical\", \"Rock\", \"Vinyl collecting\"],\n  \"staff_mentions\": \"Many reviewers praised the friendly and knowledgeable staff at Hideaway Music, who are happy to assist customers in finding what they're looking for. However, a few reviewers reported poor customer service from some staff members.\",\n  \"event_mentions\": [\"Record Store Day\", none mentioned explicitly but implied by the overall positive tone\"],\n  \"recommendation_for\": \"Music enthusiasts, vinyl collectors, and anyone looking for a unique shopping experience\"\n}",
+  "metadata": {
+    "totalReviews": 10,
+    "yelpReviews": 10,
+    "googleReviews": 0,
+    "averageRating": 4.2,
+    "ratingDistribution": {
+      "3": 2,
+      "4": 4,
+      "5": 4
+    },
+    "analyzedAt": "2026-02-15T21:25:33.705Z"
+  }
+}

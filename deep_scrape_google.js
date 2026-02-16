@@ -175,6 +175,13 @@ async function scrapeGoogleMaps(page, shopName, city, state) {
     log(`    Could not get reviews: ${e.message}`);
   }
 
+  // Normalize hours — infer missing AM/PM from the one that's present
+  // e.g. "1:00 - 5:00 PM" → "1:00 PM - 5:00 PM"
+  const { normalizeHours } = require('./lib/normalize_hours');
+  if (data.hours) {
+    data.hours = normalizeHours(data.hours);
+  }
+
   data.reviews = reviews;
   data.totalReviewsScraped = reviews.length;
   data.scrapedAt = new Date().toISOString();

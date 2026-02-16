@@ -1,0 +1,23 @@
+{
+  "name": "Results",
+  "rating": null,
+  "reviewCount": null,
+  "address": null,
+  "phone": null,
+  "website": null,
+  "hours": null,
+  "categories": [],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerUiZ1U9sgi6J-6sXFzQNXXAa2C3z4EDbnjhd2druc1H2dEE0wsEoTkRe3fq5_TeTFJ6pd7ynicHGdVmaiCCie5_I25cY2WxcaU-W80gcAgsjC-sC3JBURM2nhPw-_Jsuub65NI=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep9-75TKmEj7kaTXQmfkaBQf5_TOt7TKK4FC-Cs6pr7eHIvtOXqO2YW4kUrllmtDc1WjW_MIlQ3_Coo1p3ZKs9xscj8HXRT2YvrGrMVJJBluA89mUgZvw7R1wY2004M5hhWSE4TYA=w86-h114-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqUJgV51h4fEwuNswCyWsmFVj7Logvovmr5u-LWsAnEhazPtUWpA1Pt8lJ3ZBDpAxsd3jtWpI5FA65fc4dOwCnZ8RULoUga1vd1smYYoqagPRutG5NNHQ2XOLRqALEJVjKG7hJDzQ=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepqIjrY8W-lGo85HymSGDchfrwSCL7BXNei93qekhMv0bWj6ugxe9saJKy7WgWa3HuWyXnsRaMXq-5GdcdAkWDFgYcNWZ1t8HdLf1YeEMz2jliowmBKy4ISyDv6fByT2diLj7P7=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqEzyNDo-z4rziHlDzcJBAoCPTiDzmwa3i1PyoKqUiZyu7MGZ1ggg6J4Rrsu09bDKhBI9aaoUkCaH2-X17guk18kamggw3QU7MyX8B7dazSYU1mClT5XYPvEWzs_ZOdI9o1tqo=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerLAy6ZfXWxtunYDuxbmSC8dr1chd-wFKX9fTjaApBcvoi718HhQGrNrUb6he2niQ5P7r7FesG-TGWyDQAUprzCzMRLZI6GH8zOZg3rVOhPI25PYzZbZ6bH3_SDSLKbTU8jc3XJ=w152-h86-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/search/Milkcrate+Cafe+record+store+Philadelphia+Pennsylvania/@40.0620382,-75.5663146,11z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T21:47:54.570Z"
+}

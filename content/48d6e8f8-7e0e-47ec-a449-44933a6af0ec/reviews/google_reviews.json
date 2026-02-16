@@ -1,0 +1,20 @@
+{
+  "name": "Philadelphia Record Exchange",
+  "rating": null,
+  "reviewCount": null,
+  "address": "1524 Frankford Ave, Philadelphia, PA 19125",
+  "phone": "(215) 425-4389",
+  "website": "http://instagram.com/philarecx",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerB4Sgb5Gt2EIZuVvtnIRNw33Tll-BbzF9OBfRi_WpQjfMPGC56Kt-jJ4uOapd9lMuaSmQo0Mo-eD2DtTjHdYha_ky6xdEG4UkD8iELvR3iZwcQdf5VU6-Eyob4uysmQBfhKtGj=w408-h544-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Philadelphia+Record+Exchange/@39.9735714,-75.1364333,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6c89ef2c8d877:0x283d53fdead4ea25!8m2!3d39.9735714!4d-75.1338584!16s%2Fg%2F1tg6r1yj?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T22:01:08.797Z"
+}

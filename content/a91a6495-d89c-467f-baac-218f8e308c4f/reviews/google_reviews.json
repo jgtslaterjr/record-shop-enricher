@@ -1,0 +1,20 @@
+{
+  "name": "Hideaway Music",
+  "rating": null,
+  "reviewCount": null,
+  "address": "8232 Germantown Ave, Philadelphia, PA 19118",
+  "phone": "(215) 248-4434",
+  "website": "http://hideawaymusic.org/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/p/AF1QipPxXYq9BjKlLgxVjkyfFkfWNLMI1jvWMQpRV2oG=w408-h306-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Hideaway+Music/@40.0740205,-75.2061544,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6b97a3db62929:0x3283407ef0d00fe5!8m2!3d40.0740205!4d-75.2035795!16s%2Fg%2F1tzgq502?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T21:37:47.863Z"
+}

@@ -1,0 +1,38 @@
+{
+  "shopId": "207e5b47-a269-4da8-81df-173399c41cb2",
+  "shopName": "Rustic Music",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-15T22:11:06.837Z",
+  "scrapers": {
+    "discovery": {
+      "status": "skipped"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.3s"
+    },
+    "google": {
+      "status": "error",
+      "error": "deep_scrape_google.js exited with code 1: {\n  code: '42P17',\n  details: null,\n  hint: null,\n  message: 'infinite recursion detected in policy for relation \"profiles\"'\n}\n",
+      "elapsed": "20.8s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "4.9s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "31.7s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.3s"
+    }
+  },
+  "completedAt": "2026-02-15T22:12:25.553Z"
+}

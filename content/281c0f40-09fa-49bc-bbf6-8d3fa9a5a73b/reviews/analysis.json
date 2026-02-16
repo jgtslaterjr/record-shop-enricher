@@ -1,39 +1,38 @@
 {
-  "sentiment_score": 4.8,
+  "sentiment_score": 7.6,
   "key_themes": [
-    "overpriced",
-    "limited selection",
-    "friendly staff",
-    "community-focused",
-    "great music selection"
+    "Overpricing",
+    "Staff interaction and customer service",
+    "Selection and inventory",
+    "Community involvement (Record Store Day, live events)",
+    "Atmosphere and vibe"
   ],
   "pros": [
-    "deep cuts and incredible selections",
-    "friendly and helpful staff",
-    "participate in Record Store Day and host live bands",
-    "quick checkout"
+    "Friendly and helpful staff",
+    "Deep and diverse selection of records",
+    "Good prices for rare or hard-to-find albums",
+    "Participates in Record Store Day and hosts live events"
   ],
   "cons": [
-    "high prices",
-    "limited selection of albums",
-    "staff can be less interested in customers"
+    "Overpricing compared to other record stores",
+    "Limited selection of certain genres or styles"
   ],
   "notable_quotes": {
-    "best": "One of my favorite record stores in Philly. I try to stop by everytime I'm in town. They always have deep cuts and incredible selections.",
-    "worst": "Not a huge fan. Limited selection of records and highly overpriced.",
-    "funniest": "Sales staff were more interested in bsing with each other "
+    "best": "One of my favorite record stores in Philly. I try to stop by everytime I'm in town.",
+    "worst": "Staff here are really expensive. (He has a vinyl addiction.)",
+    "funniest": "Sales staff were more interested in bsing with each other"
   },
-  "vibe_description": "Creep Records is described as having a 'chill vibe' by one reviewer, while another mentions the shop has a 'relaxed atmosphere'. The overall tone of the reviews suggests a welcoming and community-focused environment.",
+  "vibe_description": "Creep Records exudes a relaxed, welcoming atmosphere that fosters a sense of community among music lovers. The background noise and carefully curated selection contribute to an enjoyable shopping experience.",
   "genre_specialties": [
-    "jazz",
-    "punk"
+    "Indie/Alternative",
+    "Rock"
   ],
-  "staff_mentions": "Staff are generally friendly and helpful, but some reviewers mention that they can be less interested in customers than others.",
+  "staff_mentions": "Reviewers praise the staff for their friendliness and helpfulness, with some mentioning that they are welcoming and enthusiastic about music.",
   "event_mentions": [
     "Record Store Day",
-    "hosting live bands"
+    "live bands"
   ],
-  "recommendation_for": "fans of jazz, punk, and indie rock music, as well as those looking for a unique shopping experience with a community-focused atmosphere.",
+  "recommendation_for": "Fans of indie/alternative and rock music, particularly those who value community and unique shopping experiences.",
   "metadata": {
     "totalReviews": 5,
     "yelpReviews": 5,
@@ -44,6 +43,6 @@
       "4": 1,
       "5": 3
     },
-    "analyzedAt": "2026-02-15T21:18:13.714Z"
+    "analyzedAt": "2026-02-15T21:31:18.810Z"
   }
 }

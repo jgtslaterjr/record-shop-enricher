@@ -1,0 +1,13 @@
+{
+  "raw_summary": "Here is the analysis in JSON format:\n\n{\n  \"sentiment_score\": 9,\n  \"key_themes\": [\"diverse selection\", \"knowledgeable staff\", \"cool atmosphere\"],\n  \"pros\": [\n    \"amazing and diverse selection of products\",\n    \"knowledgeable and friendly staff\",\n    \"cool atmosphere with arcade machines\"\n  ],\n  \"cons\": [],\n  \"notable_quotes\": {\n    \"best\": \"Place rocks!\",\n    \"worst\": None,\n    \"funniest\": \"Place rocks!\"\n  },\n  \"vibe_description\": \"Pop Culture Vulture's eclectic mix of movies, records, and games creates a unique and welcoming atmosphere. The addition of arcade machines adds to the shop's playful vibe.\",\n  \"genre_specialties\": [\"punk\", \"jazz\"],\n  \"staff_mentions\": Reviewers praise the staff for being knowledgeable and friendly.\",\n  \"event_mentions\": None,\n  \"recommendation_for\": \"casual browsers, music enthusiasts\"\n}",
+  "metadata": {
+    "totalReviews": 2,
+    "yelpReviews": 2,
+    "googleReviews": 0,
+    "averageRating": 5,
+    "ratingDistribution": {
+      "5": 2
+    },
+    "analyzedAt": "2026-02-15T21:49:27.041Z"
+  }
+}

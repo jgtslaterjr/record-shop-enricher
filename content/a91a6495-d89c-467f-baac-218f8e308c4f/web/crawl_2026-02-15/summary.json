@@ -1,0 +1,51 @@
+{
+  "overview": {
+    "description": "Independent record shop specializing in vintage vinyl and hi-fi equipment",
+    "brand": "Hideaway Music"
+  },
+  "history": {
+    "founded": "2002",
+    "notable_history": "Established as an independent record shop, carries a great selection of vintage audio equipment"
+  },
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "CD",
+      "cassette"
+    ],
+    "genres": [
+      "rock",
+      "jazz",
+      "blues"
+    ],
+    "new_vs_used": "Both new and used inventory"
+  },
+  "services": {
+    "buying": true,
+    "selling": true,
+    "trading": false,
+    "online_store": true,
+    "shipping": true
+  },
+  "events": {
+    "frequency": "Occasional",
+    "notable_events": "Record Store Day event"
+  },
+  "staff": {
+    "owner_info": "No notable staff information provided"
+  },
+  "hours_location": {
+    "store_hours": "Not specified",
+    "address": "8232 Germantown Avenue, Philadelphia, PA 19118",
+    "phone_number": "(215) 248-4434"
+  },
+  "unique_features": {
+    "listening_rooms": true,
+    "cafe": true
+  },
+  "community_role": {
+    "local_music_scene_engagement": true,
+    "events_hosting": true,
+    "community_involvement": "Notable for hosting Record Store Day event and supporting local music scene"
+  }
+}

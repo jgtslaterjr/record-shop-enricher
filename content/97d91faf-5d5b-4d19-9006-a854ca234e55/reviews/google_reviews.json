@@ -1,0 +1,20 @@
+{
+  "name": "Repo Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "506 South St, Philadelphia, PA 19147",
+  "phone": "(215) 627-3775",
+  "website": "http://www.reporecords.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep8Rh0U1YWcDiaSsWjKYj3HIUtnY5tCCuK_mhSJh2F6RnD3BexVVJeDWueHzGG8V6Prc9VbFQOremOdVxekyfYm8BMywUrZsyxEIjed4YdrltaswHswhkDFTxZb0JuDcqi0sTAsBrzFgi3d=w408-h544-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Repo+Records/@39.941617,-75.1536869,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6c89e65031fd7:0xd7a5fbeb925044c9!8m2!3d39.941617!4d-75.151112!16s%2Fg%2F1tdpbktq?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T22:10:04.719Z"
+}

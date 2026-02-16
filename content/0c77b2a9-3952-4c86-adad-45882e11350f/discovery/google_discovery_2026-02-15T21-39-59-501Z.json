@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "0c77b2a9-3952-4c86-adad-45882e11350f",
+    "name": "Music Hall",
+    "city": "Philadelphia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Music Hall Philadelphia Pennsylvania record store",
+    "Music Hall Philadelphia instagram facebook"
+  ],
+  "discoveredAt": "2026-02-15T21:39:59.501Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

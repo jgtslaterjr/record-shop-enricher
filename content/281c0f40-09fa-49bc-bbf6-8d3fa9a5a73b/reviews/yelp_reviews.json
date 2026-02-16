@@ -1,22 +1,64 @@
 {
-  "name": null,
-  "rating": null,
-  "reviewCount": null,
-  "phone": null,
-  "address": null,
-  "city": null,
-  "state": null,
-  "zip": null,
-  "website": null,
+  "name": "Creep Records",
+  "rating": 4.4,
+  "reviewCount": 5,
+  "phone": "(267) 239-2037",
+  "address": "608 N 2nd St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19123",
+  "website": "https://shopcreep.com",
   "hours": null,
   "priceRange": null,
   "categories": [],
-  "photos": [],
+  "photos": [
+    "https://s3-media0.fl.yelpcdn.com/bphoto/jjndpKAOkp2SMtR8DECMsg/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/4YS1BK79yB8cFTaA8W2JhQ/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/jIf-pLerVDdNDgbYm8X_Sg/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/PXMLEKg70s3UE8ozWt19LQ/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/feT_xncJO1tKaRAuU-KXww/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/4YS1BK79yB8cFTaA8W2JhQ/348s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/PXMLEKg70s3UE8ozWt19LQ/348s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/QZgyA_CO3BAqaaAn68bWTA/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/UR_i0F6Y9U1kJLVzXRCPJg/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/r2mX66H-6ev5RiN0oy4I5g/60s.jpg"
+  ],
   "amenities": null,
   "specialties": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "stars": 5,
+      "text": "Pretty large selection. They had what I was looking for (new taylor swift), which makes the perfect gift! Quick checkout, nice employees.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "Staff here are really welcoming. We don't visit often because when my husband walks in, it's always expensive. (He has a vinyl addiction.)They participate in Record Store Day and host live bands occasionally. I love businesses that create community, and I feel like Creep does that.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 4,
+      "text": "Nice shop with friendly staff. I always appreciate digging at stores that have a chill vibe and (any kind of) music in the background. The crates were well organized and stocked with a solid inventory, not loaded with dollar bin-type records. Grabbed a great copy of a Wilco live album from a past RSD and a clean copy of My Morning Jacket's At Dawn for below-Discogs prices. Probably could have walked out with 2-3 more records, but my will was too strong that day. Wish they had store stickers in stock though. Next time.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "One of my favorite record stores in Philly. I try to stop by everytime I'm in town. They always have deep cuts and incredible selections. I have to limit myself to how much I'm going to buy everytime I go in because otherwise I'll spend every penny to my name. Staff have always been really friendly and helpful too",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 3,
+      "text": "Not a huge fan.  Limited selection of records and highly overpriced.  I don't mind paying a little more for something as either a convenience or to give back to a small business, but their prices are higher than hunter (excuse the political).  Two albums that I was hemming and hawing on At Philadelphia Record Exchange for 20 & 25 respectively as I have seen them a hair cheaper, these folks price at 42 and 58.  Same albums. Same condition.  Sales staff were more interested in bsing with each other than helping.  I realized I'm probably a little older than most of their clientele but certain things like music genre shouldn't change on age.  If you're going to have a \"metal/punk\" section, learn what goes in it.  Dio, IronMaiden, Megadeth, Motorhead are all metal bands.  Hendrix is not. In fairness, half the store is a \"head shop\" or vape shop or whatever it's called nowadays and since I didn't shop that portion it's not fair to judge that half.  Hence the 3 star rather than a 1. Fortunately I had a free parking spot out front or it would not have been worth the price to park.",
+      "date": null,
+      "reviewer": null
+    }
+  ],
   "highlights": [],
   "yelpUrl": "https://www.yelp.com/biz/creep-records-philadelphia-3",
-  "totalReviewsScraped": 0,
-  "scrapedAt": "2026-02-15T21:18:34.923Z"
+  "totalReviewsScraped": 5,
+  "scrapedAt": "2026-02-15T21:29:08.431Z"
 }

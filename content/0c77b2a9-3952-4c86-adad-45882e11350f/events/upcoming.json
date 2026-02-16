@@ -1,0 +1,22 @@
+{
+  "shopName": "Music Hall",
+  "shopId": "0c77b2a9-3952-4c86-adad-45882e11350f",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "Concert",
+      "title": "Spin Doctors at The Queen",
+      "date": "March 27, 2026",
+      "description": "",
+      "artists": [
+        "Spin Doctors",
+        "CHILD, Inc."
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.thequeenwilmington.com/events"
+    }
+  ],
+  "totalFound": 1,
+  "scrapedAt": "2026-02-15T21:57:09.932Z"
+}

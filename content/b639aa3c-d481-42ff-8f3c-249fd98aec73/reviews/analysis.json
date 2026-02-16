@@ -1,0 +1,48 @@
+{
+  "sentiment_score": 7.6,
+  "key_themes": [
+    "small, specialized selection",
+    "niche expertise",
+    "friendly staff",
+    "great for specific genres",
+    "limited general music selection"
+  ],
+  "pros": [
+    "highly knowledgeable and helpful staff",
+    "unique and extensive selection of niche genres (goth/industrial/metal)",
+    "good prices and fair rates for buying/selling items"
+  ],
+  "cons": [
+    "small store size which can limit browsing experience",
+    "some reviewers mention limited general music selection",
+    "occasional issues with restocking or item availability"
+  ],
+  "notable_quotes": {
+    "best": "I love this place. I've never found another place like it.",
+    "worst": "Really??? ($25 for one cassette tape)",
+    "funniest": "quite possibly the only person with a mohawk to ever run for mayor"
+  },
+  "vibe_description": "Digital Underground has a cozy, specialized atmosphere that caters to enthusiasts of niche genres. The staff is friendly and knowledgeable, making it easy to find rare or hard-to-find items.",
+  "genre_specialties": [
+    "goth/industrial/metal",
+    "synthpop/darkwave"
+  ],
+  "staff_mentions": "Reviewers praise the staff for being friendly, helpful, and knowledgeable about specific genres.",
+  "event_mentions": [
+    "Fourth Friday art gala featuring Larry West's art",
+    "avante garde musical performances happening locally"
+  ],
+  "recommendation_for": "Goth/industrial/metal enthusiasts, gamers with a passion for music, and anyone looking for unique vinyl or CD releases.",
+  "metadata": {
+    "totalReviews": 10,
+    "yelpReviews": 10,
+    "googleReviews": 0,
+    "averageRating": 3.8,
+    "ratingDistribution": {
+      "1": 2,
+      "4": 4,
+      "5": 4
+    },
+    "analyzedAt": "2026-02-15T21:32:58.664Z"
+  }
+}

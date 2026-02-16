@@ -1,0 +1,43 @@
+{
+  "overview": {
+    "description": "Unfortunately, there is no available information on the website",
+    "brand": null
+  },
+  "history": {
+    "founded": null,
+    "notable_history": null
+  },
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "cd"
+    ],
+    "genres": null,
+    "new_vs_used": "used"
+  },
+  "services": {
+    "buy_sell_trade": true,
+    "online_store": true,
+    "shipping": true
+  },
+  "events": {
+    "host_events": false,
+    "event_type": null,
+    "frequency": null
+  },
+  "staff": {
+    "notable_staff": null,
+    "owner_info": null
+  },
+  "hours_location": {
+    "store_hours": null,
+    "address": null
+  },
+  "unique_features": {
+    "listening_rooms": false,
+    "cafe": false
+  },
+  "community_role": {
+    "engagement_with_local_music_scene": null
+  }
+}

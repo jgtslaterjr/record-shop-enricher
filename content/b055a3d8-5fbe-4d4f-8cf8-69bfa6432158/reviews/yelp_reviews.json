@@ -1,0 +1,109 @@
+{
+  "name": "The Book Trader",
+  "rating": 4.3,
+  "reviewCount": 145,
+  "phone": "(215) 925-2080",
+  "address": "7 N 2nd St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19106",
+  "website": "http://www.phillybooktrader.com",
+  "hours": {
+    "Mon": "11:00 AM - 10:00 PM",
+    "Wed": "11:00 AM - 10:00 PM",
+    "Fri": "11:00 AM - 10:00 PM",
+    "Sun": "11:00 AM - 10:00 PM"
+  },
+  "priceRange": null,
+  "categories": [],
+  "photos": [
+    "https://s3-media0.fl.yelpcdn.com/bphoto/FDq7eEx6PiD2zIeADgEl2A/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/n-5mo6xTcUJjvOG6M42Bxw/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/UPFndFj4txIewCIA58O0ZA/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/Ovnzrvbrb7k43askJw8MkQ/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/TyQUxFo7lkId0vA5SwqbWg/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/FaGKALdAULNYBkbZ4b6npA/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/jYYsGP3rfG4-OAxdSbaLAw/258s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/RRmFwNf9WItu15HZYTGhrg/258s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/plyD4R9wAcwWDTfy46FpPA/258s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/J8CAuI0YWn8XxW5vt1Ufqw/258s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/ctk6D7kjdbeUfe92FR2Png/258s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/q5Gv4MfSo19tcbbgzYw_XA/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/Zs0ypgiPBAIq8Ako1kxgwA/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/zN5m9Z03BKIGLKy29Nr_6g/348s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/1EpI6LwadjovRua4exQUfQ/348s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/1K5DOSSMclIVZnJBkqEw0A/348s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/DriXh-M0vqRKFzGNDAbRZg/348s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/rlAi7kZ9_VYX350NwK8W7g/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/FDq7eEx6PiD2zIeADgEl2A/348s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/qNrSvPHpLxjivxUTufB22w/348s.jpg"
+  ],
+  "amenities": null,
+  "specialties": null,
+  "reviews": [
+    {
+      "stars": 5,
+      "text": "One of Philly's favorite book stores. While it's a bit overwhelming with tiny aisles, one way signs, and a bit unorganized, its a great spot to wander. If you are looking for something hyper specific, this might not be the spot.There are thousands of books in every category you could imagine. The staff is helpful and friendly, and the resident cat that wanders the shop is even better. Pricing is cheap and there's always some sort of deal going on.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "The friend who told me about this store and recommended I check it out commented that it was \"a lot\" and they weren't wrong. It's a bit overwhelming when you first walk in, because it's packed with books. But the selection is amazing, and it's more organized than it seems at first. There are signs to direct you around the different sections and the shelves are pretty well organized for the volume of items. If you're claustrophobic you'll have trouble here, because the shelves are pretty close together, but if you're OK navigating tight spaces you're sure to find something here you want to purchase. I left with three books, including one I'd searched several other used bookstores for and hadn't been able to find, but they had two copies of it here, both in great condition. The prices are great - the books I looked at were between $7-$8. I did find the CD selection a bit underwhelming, but since the store name is Book Trader, books are clearly the focus here. The employee who rang up my purchase was pleasant. And they have a bookstore cat! Definitely recommend making a trip to Old City to spend some time browsing here.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 4,
+      "text": "Physically, it's a lot to take in. I don't think I've ever seen this many books in close quarters. I'd like to echo what another reviewer mentioned; it's a very no-nonsense place but certainly filled with knowledge.Unfortunately I didn't realize the one-way signs until I was already deep in a stack, and there is very little room to move around even if you are alone in a stack. I appreciated that they had a new releases section near the front, as I was actually able to pick up a hardcover version of this month's book club book and even found another paperback (albeit more beat-up) version upstairs!Very blessed to have run into the resident cat. So adorable and what a great touch! There is a small section upstairs to sit and read, but I wouldn't count on it being available. Great place to hide from bad weather or build into a trip around Old City. When I say you can get lost in here, I really mean it.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "What an amazing little bookstore. I had a couple authors in mind when I walked in and there was a phenomenal collection of books to peruse. I even found the one I had in mind! I'll take a $5 book from a local store any day. Great shop, great staff, great cat!",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "Great selection and two floors of everything! You always know when it is a good bookstore when there is a cat roaming around. The owner is a sweet person and any of the volunteers working know how to direct you to the selection you are looking for. The books are priced fairly based on condition. They also have 20% if you spend $50 worth of books. It is a little dangerous!",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "One of those places you could easily get lost in if you weren't on a clock. My friend and I were, yet even as we waited at the checkout line we each found a couple titles we wanted and as I hesitated over a beautiful Library of America edition of Dashiell Hammett novels, the cashier said, \"You get 20% off $50 or more,\" which pushed me over the edge.So often, particularly in used book stores, the right books find you, even if they weren't the ones you were looking for when you came in.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "Lovely the selection was great the help was great he vibe was great the cat and owner are great",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "My second home, call me the librarian while you're here :)This is a landmark almost of a book store. Makes Olde City feel complete. While you have every other kinds of store in town, this is a book store that rivals barns and noble. Pretty much has everything youre looking for and CDs, DVDs. Huge section of nonfiction on the first floor and fiction on the second floor. Generally well organized in their respective categories, the prices range from $4.95 to $12.95. The condition of the books are overall used but surprisingly there are new ones as well. I'm a BOTM collector, and they're hardbacks that have been let go by the subscriber, pretty much new when you find one. The fun part is browsing through these tight aisles. Reminds me of walking through Harry Potter's library. Very vintage. Go ahead, have a photo shoot here, youre probably not the first.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 3,
+      "text": "This book store is VERY cramped, especially on the first floor. There are one-way signs on the floor, and it's easy to understand why, once you've set foot inside. Stacks of books everywhere. Shelves fully stocked and close to each other. CDs, DVDs, and records on both floors. There's not that much space to walk (or crouch), and it can be a bit overwhelming. The second floor is definitely a lot warmer and more humid than the first. I did not spot the cat :(It's a no-frills sort of place. I wasn't greeted when I walked in, and I wasn't acknowledged when I walked out.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "If your a book lover definitely check this place out. It has two levels, first floor is mostly non-fiction and second is fiction. It gives a nice cozy vibe that you can read in and you're greeted by a cute cat when you walk in. Employees there are super kind as well! I would say be careful walking around since it gets pretty crowded.",
+      "date": null,
+      "reviewer": null
+    }
+  ],
+  "highlights": [],
+  "yelpUrl": "https://www.yelp.com/biz/the-book-trader-philadelphia",
+  "totalReviewsScraped": 10,
+  "scrapedAt": "2026-02-15T22:18:46.900Z"
+}

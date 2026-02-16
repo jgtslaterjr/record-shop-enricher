@@ -1,0 +1,28 @@
+{
+  "shopName": "Digital Underground",
+  "shopId": "b639aa3c-d481-42ff-8f3c-249fd98aec73",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "Talk",
+      "title": "Jim Mc Intyre - \"A Most Gallant Resistance: The Delaware River Campaign, September - November 1777\"",
+      "date": "Sat, Feb 21 at 12:00 PM EST",
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://www.facebook.com/events"
+    },
+    {
+      "event_type": "Talk",
+      "title": "Main Line Health’s Mild Cognitive Impairment Education Series (Virtual)",
+      "date": "Thu, Feb 26 at 2:00 PM EST",
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://www.facebook.com/events"
+    }
+  ],
+  "totalFound": 2,
+  "scrapedAt": "2026-02-15T21:32:50.325Z"
+}

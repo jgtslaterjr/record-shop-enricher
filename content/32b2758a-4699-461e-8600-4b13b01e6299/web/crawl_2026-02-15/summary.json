@@ -1,0 +1,42 @@
+{
+  "overview": {
+    "type": "record shop",
+    "vibe/brand": null
+  },
+  "history": {
+    "founded": 2005,
+    "notable history": null
+  },
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "CD",
+      "cassette"
+    ],
+    "genres": null,
+    "new vs used": "both"
+  },
+  "services": {
+    "buy/sell/trade": "yes",
+    "online store": "yes",
+    "shipping": "available"
+  },
+  "events": {
+    "hosted events": null,
+    "event frequency": null
+  },
+  "staff": {
+    "notable staff/owner info": null
+  },
+  "hours_location": {
+    "store hours": null,
+    "address details": null
+  },
+  "unique_features": {
+    "listening rooms": null,
+    "cafe": null
+  },
+  "community_role": {
+    "engagement with local music scene": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "99f7cc53-ca9f-4993-bd6a-9c10558bcc89",
+    "name": "Disco Latinos Records",
+    "city": "Philadelphia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Disco Latinos Records Philadelphia Pennsylvania record store",
+    "Disco Latinos Records Philadelphia instagram facebook"
+  ],
+  "discoveredAt": "2026-02-15T21:21:00.252Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

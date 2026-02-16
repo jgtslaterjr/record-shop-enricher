@@ -1,0 +1,38 @@
+{
+  "shopId": "a91a6495-d89c-467f-baac-218f8e308c4f",
+  "shopName": "Hideaway Music",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-15T21:37:21.921Z",
+  "scrapers": {
+    "discovery": {
+      "status": "skipped"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "2.8s"
+    },
+    "google": {
+      "status": "error",
+      "error": "deep_scrape_google.js exited with code 1: {\n  code: '42P17',\n  details: null,\n  hint: null,\n  message: 'infinite recursion detected in policy for relation \"profiles\"'\n}\n",
+      "elapsed": "21.2s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "17.2s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "26.1s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-15T21:38:49.077Z"
+}

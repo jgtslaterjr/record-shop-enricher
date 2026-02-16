@@ -1,0 +1,44 @@
+{
+  "overview": "Vinyl record boutique and cafe with locations in Fishtown and West Philadelphia, serving a variety of rock, soul, and jazz records.",
+  "history": "Not specified",
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "cassette",
+      "cd"
+    ],
+    "genres": [
+      "rock",
+      "soul",
+      "jazz"
+    ],
+    "new_vs_used": "Both new and used"
+  },
+  "services": {
+    "buy_sell_trade": true,
+    "online_store": true,
+    "shipping": true
+  },
+  "events": {
+    "host_events": false,
+    "event_frequency": "Not specified"
+  },
+  "staff": {
+    "notable_staff": "None mentioned",
+    "owner_info": "None mentioned"
+  },
+  "hours_location": {
+    "hours": "8am-3pm, Monday-Sunday",
+    "locations": [
+      "Fishtown",
+      "West Philadelphia"
+    ]
+  },
+  "unique_features": [
+    "Cafe with in-house brewed coffee and pastries",
+    "Listening rooms available for customers"
+  ],
+  "community_role": {
+    "engagement_with_local_music_scene": true
+  }
+}

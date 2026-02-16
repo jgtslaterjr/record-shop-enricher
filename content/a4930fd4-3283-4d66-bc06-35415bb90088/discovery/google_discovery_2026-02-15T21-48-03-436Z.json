@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "a4930fd4-3283-4d66-bc06-35415bb90088",
+    "name": "Pop Culture Vulture",
+    "city": "Philadelphia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Pop Culture Vulture Philadelphia Pennsylvania record store",
+    "Pop Culture Vulture Philadelphia instagram facebook"
+  ],
+  "discoveredAt": "2026-02-15T21:48:03.436Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

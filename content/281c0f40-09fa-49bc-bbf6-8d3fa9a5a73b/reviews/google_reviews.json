@@ -1,0 +1,16 @@
+{
+  "name": "Results",
+  "rating": null,
+  "reviewCount": null,
+  "address": null,
+  "phone": null,
+  "website": null,
+  "hours": null,
+  "categories": [],
+  "photos": [],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/search/Creep+Records+record+store+Philadelphia+Pennsylvania/@39.970794,-75.1448163,14z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T21:30:03.068Z"
+}

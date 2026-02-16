@@ -1,0 +1,20 @@
+{
+  "name": "Main Street Music",
+  "rating": null,
+  "reviewCount": null,
+  "address": "4444 Main St, Philadelphia, PA 19127",
+  "phone": "(215) 487-7732",
+  "website": "https://mainstreetmusicpa.tuneportals.com/Home",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerB_jB-q-AWkb30V90JIzaVHtCr-XY2MrTtVvZ7UZ5WTIclhgaK7J8t9FzN1kF47MrgZl6Nq1r52yKttlRWpxvoz_tuD4PAL61zt6QRSEwcLKbhVRhiX4NYMfJgR0Fk-LQWSZZLdQ=w408-h544-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Main+Street+Music/@40.0298023,-75.4725508,11z/data=!4m10!1m2!2m1!1sMusic+Hall+record+store+Philadelphia+Pennsylvania!3m6!1s0x89c6b8bfbe1e2ad1:0x2fb99b21b268b430!8m2!3d40.0263715!4d-75.226213!15sCjFNdXNpYyBIYWxsIHJlY29yZCBzdG9yZSBQaGlsYWRlbHBoaWEgUGVubnN5bHZhbmlhWjMiMW11c2ljIGhhbGwgcmVjb3JkIHN0b3JlIHBoaWxhZGVscGhpYSBwZW5uc3lsdmFuaWGSAQxyZWNvcmRfc3RvcmWaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTkVOalJNYTJWbkVBReABAPoBBAgAED4!16s%2Fg%2F1tsyl439?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T21:55:48.006Z"
+}

@@ -1,22 +1,106 @@
 {
-  "name": null,
-  "rating": null,
-  "reviewCount": null,
-  "phone": null,
-  "address": null,
-  "city": null,
-  "state": null,
-  "zip": null,
+  "name": "Digital Underground",
+  "rating": 4.1,
+  "reviewCount": 16,
+  "phone": "(215) 925-9259",
+  "address": "732 S 4th St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19147",
   "website": null,
-  "hours": null,
+  "hours": {
+    "Mon": "10:00 AM - 6:00 PM",
+    "Wed": "10:00 AM - 6:00 PM",
+    "Fri": "10:00 AM - 6:00 PM",
+    "Sun": "10:00 AM - 6:00 PM"
+  },
   "priceRange": null,
   "categories": [],
-  "photos": [],
+  "photos": [
+    "https://s3-media0.fl.yelpcdn.com/bphoto/5GM3SdI66uToX7Bmupmi_A/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/zjKvGIt9OZdEKYQOZOuMmA/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/NT9C3TM7ajBlMEZ54OPFrQ/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/8rVXSfd1K9IcWh-iukpdiw/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/g5JaYoS9f95e4kcmtHrg-w/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/MvYbEKn0f727SAKGb6dH5Q/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/NT9C3TM7ajBlMEZ54OPFrQ/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/E_zvONkUjrAkfOF0LfuXmg/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/wZrJyaHZUW4X4lhnaDytbA/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/Ov1s5tS41RWDariVZkLLfw/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/g5JaYoS9f95e4kcmtHrg-w/348s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/NT9C3TM7ajBlMEZ54OPFrQ/348s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/jnq2ITIcbqeW1lwT0laSSg/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/CAA1BCSaA7rrtYz0y-kDvg/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/E_zvONkUjrAkfOF0LfuXmg/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/jtibqZd9P_z0IkqDqTc1SQ/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/leCQjWHIX_bC8XRhMNSWhQ/60s.jpg"
+  ],
   "amenities": null,
   "specialties": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "stars": 5,
+      "text": "Love this place. A perfect marriage between gamer and musician alike, this place offers a great selection of hardcore/metal LP's and an abundance of magic cards (nearly every set in packs, boxes, and singles!). Staff is super friendly and helpful and they offer really fair rates both on buying a selling. Truly a necessity if you love metal and magic.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 1,
+      "text": "I came into this place today and found about $50 worth of stuff I wanted. It's basically next door to a place I had a 3:30 appointment for a haircut. I went to check out at 3:20 and the dude at the counter told me there are two vendors in the store (white tags and green tags) so he had to ring things up in two batches.Fine, no big deal.Then he starts ringing every item from the first batch up by writing out a long handwritten itemized list of everything, and he took FOREVER.Okay. kind of irritating but not the end of the world.But by the time he finished ringing up the first half of the items, ten minutes had passed. And then he's ringing up the final items and this time he's like hand scanning the barcodes and then typing stuff into this system manually and I was like, dude, look, I'm sorry but I gotta go so I guess I can't buy this other stuff. Had I known it would literally take ten minutes to ring up the first seven items, but I have an appointment next door.So he says hey, that's fine, we can hold this stuff if you want to come back. So I said great, thanks. I went next door to get my haircut, and I came in a half an hour later, and I'm told by one of the vendors that the OTHER vendor, who apparently is also the owner, put all of my stuff back out in the store because he didn't think I was going to bother coming back.So I very reluctantly went and found everything and rang it up and paid for it, but dude. That's f***ed up and insulting. Nothing in your shop is so unique and difficult to find that it's worth being treated like garbage, especially in 2020 when I can find it all for sale online, probably for less money.So needless to say I won't be coming back.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 4,
+      "text": "May as well be the first to base to drop a review on the new location. I stopped in for their Fourth Friday art gala which featured the art of Larry West (quite possibly the only person with a mohawk to ever run for mayor), and as I walked in I instantly realized how much better the new location suits them. Space was a serious issue for their old location because it seriously felt like the aisles where sandwiching you in after awhile, and they rarely had enough room to show off their clothing, books, and other items. But the new location is at least twice the size and gives them the much needed space to sell the other items. and as Fourth Friday revealed it gave them the chance to do a lot more like showcase art and bands. if your not into goth/industrial music (I'm recovering from it myself) then you're probably not going to be down with a good 75% of the merchandise. But they are well stocked with plenty of obscure 80's music (Remember \"Rock Me Amadeus\" by Falco? Apparently he has has 8-10 albums. who knew?). And they have plenty of music by the likes of Bjork, Patti Smith, and Ladytron to go through. And it's a great spot to go for random gifts like Star Trek Vinyl and Cthulu dolls. So while it might not be for everybody, Digital Ferret does have enough to make it great.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "I don't shop at Digital Underground often, but when I have, it has been worth it. As the only goth/industrial/metal music shop in town it is a welcome niche spot. The guys working there greeted us upon entering, & said to ask if we needed any help. So don't feel intimidated based on appearances. I went to the goth side of the store to look for replacement CDs where there is a sizable selection of new & used. I purchased Faun, Qntal, Omnia, & Irfan. Some of these are on the medieval & pagan folk spectrum. The prices for these were at $4.99 & $9.99.The gentleman who rang me up was friendly. Due to the pandemic, a clear plastic sheet was set up between the cash register & me. I wondered if they had other titles by Faun, & one of his colleagues went to check for me. There was nothing else in stock by them. BUT he brought out Omnia's \"Alive!\" which he offered to me at a reduced price. Unexpected. I added it. Much appreciated. So they don't stock the mainstream pop & rock here. That's not why you come to shop at Digital Underground. You come here where there is a focus on artists in the goth & metal genres that would not be as prevalent in other record stores. With the big record store chains (Tower, Virgin, HMV) relegated to history, and Amazon, eBay, & indie stores vying for music aficionados money, to have a shop with the focus on specific niche genres guarantees that you'll find the goth or metal release that might not show up anywhere else.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 1,
+      "text": "After visiting this joint for the first time the other day, it made me realize just how much I miss Tower Records.I really do want to support local businesses, but I cannot see that being possible when what the store has to offer is limited, quite expensive ($25 for one cassette tape.  Really???), and the general vibe of the place is yet another hot spot for goofy, transient hipsters.This store only carries heavy metal, goth, death metal and like genres. They do not carry general music, not even The Beatles (I couldn't believe my ears when the cashier told me that one) on average.I had to laugh to myself because the guy told me this after I saw a few Bon Jovi tapes in a display case.  Bon Jovi heavy metal?  Methinks not.  (And I've been a fan of theirs since the 80s.)The store carries majority vinyl, but there is a tiny CD section in the back along with cassette tapes in the aforementioned case.  Next to the CDs is a section for DVDs and ... VHS.  There's literally a handful or two of videos, but they're there.And besides the specialized selection of the music, there's the price of everything.  The going price of their vinyl is between $17-$35, sometimes more.  The prices of their cassette tapes (!) is $4 on average, with one carrying a $24.99 price tag!  (Pantera wasn't ever that good!)  The CDs I didn't bother looking at because I lost interest in the place at that point.Finally, I just wasn't comfortable with the vibe of the place.  As a local (that would mean born, raised, and live in the city), I actually felt out of place here.  And my childhood and teen years consisted of heavy doses of Ozzy, Sabbath, Anthrax, Iron Maiden, King Diamond, Metallica, knowing Megadeth was nothing more than \"the poor man's Metallica,\" struggling to stay up on Saturday nights to watch all 3 hours of Headbangers Ball, and being bullied/tortured for my love of metal, so my metal credentials are in order.  Nope, apparently the place isn't for me, but for those who feel it could be, beware of the specialized stock and sky high prices.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 4,
+      "text": "I heard that they have a new location and are no longer on 5th street. That is the shop that I have visited a couple of times. This is a shop that specializes in goth/industrial type of music. The most goth I get is from Bauhaus, The Cure, and Siouxsie and the Banshees. However, I am also big on Japanese music, including their goth/industrial music (but not as much as other types of music). I was told by a coworker about 5 years ago that this place carried Japanese CDs. I've been here 3-4 times since then. I do not know if they still carry Japanese CDs. The outside of the store made me feel uneasy, as if you weren't into their particular scene and didn't look the part, you would probably feel like an ass in there. So far, the folks have been pretty decent.I was pleasantly surprised when I found copies of well known visual kei artists like MALICE MIZER, Gackt, and Dir en grey. If I remember correctly, these were the actual Japanese releases, not the cheap Chinese bootlegs so they were priced correctly. If you buy a Japanese CD from a site like CDJapan or HMV Japan, they usually run between $30-$45 each, so the prices weren't cheap but at least the CDs were there. Also, one of the times I was there one of the workers informed me that they do carry albums of other Japanese rock bands, but the German release so they aren't as expensive, running the normal CD rate of $15-$20 dollars. I think they have the German releases of Japanese bands like MERRY, MUCC, D'espairs Ray, possibly more. Aside from Japanese CDs, they also carry Japanese DVDs. I purchased the Japanese import of MALICE MIZER's Merveilles concert DVD for $70 (it was worth it, it's an amazing show). They also have some Japanese magazines, stuff you can already find in comic shops or Hot Topic, like Gothic Lolita Bible (they may also carry other Japanese magazines, like Shoxx, but I didn't see anything like Fool's Mate).I hope to stop by their new location and hopefully they still have Japanese CDs and DVDs for me to buy.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 4,
+      "text": "Half record store/Half local game store.  Love the staff - very friendly and helpful.  Great local business!",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "Fantastic Genre Specific Store -We need more CD stores like this. It focuses very specifically on the gothic, industrial, EBM, synthpop, and darkwave genres. If you're interested in any of these, do yourself a favor and pop in here for a visit. There's a large \"metal\" section as well, but I know nothing about metal and will therefore ignore it in my comments.Generally speaking, the CDs you find here are releases you wouldn't expect to find in other brick and morter stores. For example, there might be 10 different Death In June CDs, 15 different Leaether Strip CDs, 20 different Depeche Mode CDs, etc. With the exception of bands that have \"crossed over\", there is almost no pop music to be found here. Each band has a \"header card\" so you can easily find what you're looking for. As these genres tend to rely heavily on imported products, this is one of the few CD stores where you'll typically pay LESS than you would with Amazon - great as Amazon might be, they're extremely expensive with import CDs. There's also a used section that has a fast enough turnover that I find a few items each visit. There's a decent amount of other \"stuff\" (books, collectibles, t-shirts, a modest amount of vinyl etc) that's consistent with the CD genres. I've been coming here for around 20 years (ne: Digital Underground) and still get excited every time I walk in the front door. Highly recommended.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "I love this place. I've never found another place like it. Although the era of CDs is pretty much over, this place still thrives on the fact that it carries some of the most difficult-to-obtain material I've ever seen. Unfortunately, I don't think they really restock some stuff, which is disappointing if you lose a CD. They also have a pretty good collection of band tees.The only thing I wish they sold was posters. I would love some reprinted vintage gothic rock posters.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 4,
+      "text": "Digital Ferret has is a great selection of goth, industrial and metal music. They also promote avante garde musical performances happening locally. There should be more CD stores like this.",
+      "date": null,
+      "reviewer": null
+    }
+  ],
   "highlights": [],
   "yelpUrl": "https://www.yelp.com/biz/digital-underground-philadelphia",
-  "totalReviewsScraped": 0,
-  "scrapedAt": "2026-02-15T21:20:06.947Z"
+  "totalReviewsScraped": 10,
+  "scrapedAt": "2026-02-15T21:31:51.644Z"
 }

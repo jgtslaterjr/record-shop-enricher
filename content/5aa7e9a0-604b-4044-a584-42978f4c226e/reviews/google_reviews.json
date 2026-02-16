@@ -1,0 +1,20 @@
+{
+  "name": "La Pachanga Enterprises",
+  "rating": null,
+  "reviewCount": null,
+  "address": "4920 N 5th St, Philadelphia, PA 19120",
+  "phone": "(215) 457-6318",
+  "website": null,
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepTEjWm48aeoOPIHX6Eg3cFRJMYW1NcdmPPriLINU_gQiiDVpTwXDRUfa1JduOp0zHtIrFnI7pEZ5SuxmOL_9euBh1kaUoMjLJHz1ZC4CihvjUqhVCR9Kb3ipbmwUX0M_zqDFaC=w408-h291-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/La+Pachanga+Enterprises/@40.0264538,-75.1354428,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6b7983c3a4949:0xe3ceeb78ae959476!8m2!3d40.0264538!4d-75.1328679!16s%2Fg%2F113f55k_g?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T21:42:26.216Z"
+}

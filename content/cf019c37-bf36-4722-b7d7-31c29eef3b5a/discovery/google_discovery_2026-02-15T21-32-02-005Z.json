@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "cf019c37-bf36-4722-b7d7-31c29eef3b5a",
+    "name": "Milkcrate Cafe",
+    "city": "Philadelphia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Milkcrate Cafe Philadelphia Pennsylvania record store",
+    "Milkcrate Cafe Philadelphia instagram facebook"
+  ],
+  "discoveredAt": "2026-02-15T21:32:02.005Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

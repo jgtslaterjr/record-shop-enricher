@@ -1,0 +1,38 @@
+{
+  "shopId": "ef2ef8fa-8583-45a9-a57f-903f9249711c",
+  "shopName": "Pat's Music Center",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-15T21:58:57.394Z",
+  "scrapers": {
+    "discovery": {
+      "status": "skipped"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.7s"
+    },
+    "google": {
+      "status": "error",
+      "error": "deep_scrape_google.js exited with code 1: {\n  code: '42P17',\n  details: null,\n  hint: null,\n  message: 'infinite recursion detected in policy for relation \"profiles\"'\n}\n",
+      "elapsed": "21.9s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "4.7s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "44.7s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-15T22:00:29.840Z"
+}

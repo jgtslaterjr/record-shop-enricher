@@ -1,0 +1,35 @@
+{
+  "overview": "Indie record shop with a curated selection of vinyl, CDs, and cassettes",
+  "history": "Founding date not specified, possibly founded by local music enthusiasts or collectors",
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "CD",
+      "cassette"
+    ],
+    "genres": "No specific genres listed, suggesting a general interest in independent and underground music"
+  },
+  "services": {
+    "buy/sell/trade": "Yes, they buy, sell, and trade records",
+    "online store": "Not explicitly mentioned, but the 'Sign Up' form suggests online functionality",
+    "shipping": "Shipping details not specified"
+  },
+  "events": {
+    "hosted events": "No specific information on hosted events, but possibly occasional performances or signings",
+    "frequency": "Irregular frequency not specified"
+  },
+  "staff": {
+    "notable staff/owner info": "None mentioned in the provided website content"
+  },
+  "hours_location": {
+    "store hours": "Not specified",
+    "address details": "Not specified"
+  },
+  "unique_features": {
+    "listening rooms": "No information on listening rooms or similar features",
+    "cafe": "No information on a cafe or food service"
+  },
+  "community_role": {
+    "engagement with local music scene": "No specific information on community engagement, but as an indie record shop, they likely support local artists and collectors"
+  }
+}

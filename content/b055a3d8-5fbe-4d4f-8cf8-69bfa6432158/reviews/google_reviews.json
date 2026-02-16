@@ -1,0 +1,20 @@
+{
+  "name": "The Book Trader",
+  "rating": null,
+  "reviewCount": null,
+  "address": "7 N 2nd St, Philadelphia, PA 19106",
+  "phone": "(215) 925-2080",
+  "website": "http://www.phillybooktrader.com/",
+  "hours": {},
+  "categories": [
+    "Used book store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwertIryA1IxaXEtmHgEvLB7s0UoG4qb2DUSA0Ggm6n66AQzLASQxfxF3Hq3t007l0d-_zmYBqF8Dr6B26p7vYuxwr-GG714Orpr11lpJcQlk8K-6rqkwiXMw5zRQc73TgFeUY-ZKgjYSWhH7=w408-h306-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/The+Book+Trader/@39.95023,-75.1460291,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6c8859282cde7:0xc3336f0a554c2f52!8m2!3d39.95023!4d-75.1434542!16s%2Fg%2F1wk6_qt8?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T22:19:12.895Z"
+}

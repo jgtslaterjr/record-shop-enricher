@@ -1,0 +1,28 @@
+{
+  "overview": "Independent record shop with a focus on local music scene",
+  "history": null,
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "CD",
+      "cassette"
+    ],
+    "genres": null,
+    "new_vs_used": "used"
+  },
+  "services": {
+    "buying": true,
+    "selling": true,
+    "trading": false,
+    "online_store": false,
+    "shipping": true
+  },
+  "events": null,
+  "staff": null,
+  "hours_location": null,
+  "unique_features": null,
+  "community_role": {
+    "role": "engaging with local music scene through events",
+    "info": null
+  }
+}

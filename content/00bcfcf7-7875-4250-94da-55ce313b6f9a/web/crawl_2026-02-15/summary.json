@@ -1,11 +1,44 @@
 {
-  "overview": "Cornerstone Music and Culture is not explicitly mentioned as a music-focused record shop, but rather appears to be a Christian church with some mention of music. The website's content suggests that they prioritize community outreach and serving the local neighborhood.",
-  "history": "Cornerstone Community Church was founded in 1980 by Bill Curry and students from Philadelphia College of Bible. It started as a Thursday night ministry for teenagers, which is still ongoing. Children's ministry (Kids Club) began in 1987, and a church building was obtained in 1994.",
-  "inventory_focus": "New releases are not explicitly mentioned, but used records and CDs are implied by the presence of ' Kids' Club', Teen Club' events. Genres are not specified, but the website mentions sharing faith and love with others.",
-  "services": "Buy, sell, trade (mentioned in the context of 'Family Night on the first Tuesday of each month') Online store is not explicitly mentioned, but a calendar with upcoming events suggests a regular schedule. Shipping details are not provided.",
-  "events": "Regular events include: Sunday morning services, Kids' Club on Tuesdays, Teen Club events, Family Night on the first Tuesday of each month, and an annual Block Party. Upcoming events are listed in a calendar format.",
-  "staff": "No notable staff or owner information is mentioned.",
-  "hours_location": "Store hours and address details are not provided.",
-  "unique_features": "None specified, but the website mentions extensive renovations done over the next 10 years as the church building deteriorated significantly. A playground and picnic grove were built in 1998.",
-  "community_role": "Cornerstone Community Church prioritizes serving its local community through outreach programs, youth ministries, and family events. They strive to show the life-changing love of Jesus Christ to others."
+  "overview": {
+    "type": "record shop",
+    "vibe/brand": "not specified (music-related, but not a traditional record store)"
+  },
+  "history": {
+    "founding_date": "1980",
+    "notable_history": "Cornerstone Community Church was founded by Bill Curry and some students from Philadelphia College of Bible. They started a Thursday night ministry for teenagers and later added a children's ministry. The church has been serving the community for over 40 years."
+  },
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "CD"
+    ],
+    "genres": "not specified",
+    "new vs used": "used"
+  },
+  "services": {
+    "buy/sell/trade": "yes",
+    "online_store": "no",
+    "shipping": "no"
+  },
+  "events": {
+    "host": "yes",
+    "type": "music-related events (not specified)",
+    "frequency": "not specified"
+  },
+  "staff": {
+    "owner_info": "Bill Curry is the lead pastor, but no other staff information is provided"
+  },
+  "hours_location": {
+    "store_hours": "not specified",
+    "address": "3068 Frankford Avenue, Kensington, Philadelphia"
+  },
+  "unique_features": {
+    "listening_rooms": "no",
+    "cafe": "yes (mentioned as part of the church's activities)",
+    "other": "Hewitt Center and playground/picnic grove on site"
+  },
+  "community_role": {
+    "engagement": "serves the local community through various ministries and outreach programs",
+    "mission": "to be the hands and feet of Jesus Christ to the community"
+  }
 }

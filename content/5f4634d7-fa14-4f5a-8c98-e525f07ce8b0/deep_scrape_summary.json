@@ -1,0 +1,37 @@
+{
+  "shopId": "5f4634d7-fa14-4f5a-8c98-e525f07ce8b0",
+  "shopName": "R & B Records",
+  "city": "Upper Darby",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-15T21:50:34.466Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "2.0s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "5.4s"
+    },
+    "google": {
+      "status": "skipped"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "3.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "43.9s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.3s"
+    }
+  },
+  "completedAt": "2026-02-15T21:51:47.394Z"
+}

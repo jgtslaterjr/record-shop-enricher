@@ -1,0 +1,22 @@
+{
+  "name": null,
+  "rating": null,
+  "reviewCount": null,
+  "phone": null,
+  "address": null,
+  "city": null,
+  "state": null,
+  "zip": null,
+  "website": null,
+  "hours": null,
+  "priceRange": null,
+  "categories": [],
+  "photos": [],
+  "amenities": null,
+  "specialties": null,
+  "reviews": [],
+  "highlights": [],
+  "yelpUrl": "https://www.yelp.com/biz/nuday-sounds-philadelphia",
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T21:57:27.783Z"
+}

@@ -1,0 +1,43 @@
+{
+  "overview": "Record shop with a punk rock vibe, offering vinyl records, CDs, cassettes, band merchandise, and clothing.",
+  "history": null,
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "CDs",
+      "cassettes"
+    ],
+    "genres": [
+      "rock",
+      "pop",
+      "jazz",
+      "funk + soul",
+      "hip-hop",
+      "blues",
+      "electronic"
+    ]
+  },
+  "services": {
+    "buy/sell/trade": true,
+    "online store": true,
+    "shipping": true
+  },
+  "events": {
+    "host events": true,
+    "event type": "Record Store Day",
+    "frequency": "annually"
+  },
+  "staff": null,
+  "hours_location": {
+    "hours": "Store hours not specified",
+    "location": "South Philadelphia, USA"
+  },
+  "unique_features": {
+    "listening rooms": null,
+    "cafe": null
+  },
+  "community_role": {
+    "engagement with local music scene": true,
+    "notable initiatives": "Record Store Day events and supporting local bands"
+  }
+}

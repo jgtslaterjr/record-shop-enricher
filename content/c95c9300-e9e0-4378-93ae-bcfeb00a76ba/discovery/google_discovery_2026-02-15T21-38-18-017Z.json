@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "c95c9300-e9e0-4378-93ae-bcfeb00a76ba",
+    "name": "Music Box Records",
+    "city": "Philadelphia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Music Box Records Philadelphia Pennsylvania record store",
+    "Music Box Records Philadelphia instagram facebook"
+  ],
+  "discoveredAt": "2026-02-15T21:38:18.017Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

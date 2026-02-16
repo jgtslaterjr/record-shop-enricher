@@ -1,0 +1,20 @@
+{
+  "name": "Impressions Philadelphia",
+  "rating": null,
+  "reviewCount": null,
+  "address": "2418 Martha St, Philadelphia, PA 19125",
+  "phone": null,
+  "website": "http://www.impressionsphilly.com/",
+  "hours": null,
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/p/AF1QipPNbmfsZggcJN7MK44RhxHhmztp-h0Ew-EZUMQ9=w408-h326-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Impressions+Philadelphia/@39.9824355,-75.1304097,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6c95fbd5838e5:0x312211724fc604c0!8m2!3d39.9824355!4d-75.1278348!16s%2Fg%2F11vkldw5v1?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T21:39:22.918Z"
+}

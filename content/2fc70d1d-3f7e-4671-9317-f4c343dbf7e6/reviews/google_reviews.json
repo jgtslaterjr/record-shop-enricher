@@ -1,0 +1,20 @@
+{
+  "name": "Records Forever",
+  "rating": null,
+  "reviewCount": null,
+  "address": "2036 Fairmount Ave, Philadelphia, PA 19130",
+  "phone": "(215) 252-3539",
+  "website": "https://www.recordsforevershop.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqYWvZ85k2cVyadowhQieag_JsEZ6XYp8U4wXQwKAfrV_SLvlYai8F_jVKgKLVPiMpZHCynvJ2iA-tg9-q1cpcCrl6lt2v99TgDHRlSXxFfI4dY2KIVh18zrMN6rVmgjRFCy3me9w=w408-h725-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Records+Forever/@39.9671059,-75.1740859,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6c7000e45aa5b:0xfc52b7a1f9352fff!8m2!3d39.9671059!4d-75.171511!16s%2Fg%2F11wqbggy10?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T22:08:18.014Z"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Discolandia Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "1112 S 9th St, Philadelphia, PA 19147",
+  "phone": "(215) 271-2488",
+  "website": null,
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoS_uRNMho9BCgeRWZolqNhXqViyjWNYKhRR1S0PGpZfTIikpRwRq3J5_7RWNV01Bmizs2Dh-I2VaTLIqjG9OfLRd_xoyldprEj8VzQ_T4GL2Iz_C3b9DemEy8rKxgxncW7oDG2RQ=w426-h240-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Discolandia+Records/@39.9359049,-75.1612479,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6c61ee189c759:0x9e485392419767b7!8m2!3d39.9359049!4d-75.158673!16s%2Fg%2F1td6bvc3?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T21:34:52.741Z"
+}

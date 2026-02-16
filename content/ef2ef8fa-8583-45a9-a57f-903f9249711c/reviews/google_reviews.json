@@ -1,0 +1,20 @@
+{
+  "name": "Pat's Music Center",
+  "rating": null,
+  "reviewCount": null,
+  "address": "3549 Ryan Ave, Philadelphia, PA 19136",
+  "phone": "(215) 708-0444",
+  "website": "http://www.patsmusiccenter.com/",
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqCkzgbf5JUfJ1aaoWMJvR7a09OUpw1_PDiPn716hp-oIMSYqIqgWA49i2nfb6wT9sRXqTkQpiSCz9SZyK6DhLk3i5TiJvqXzQaTwLuUtQ3PB0HszcAva35e63iOk2nlWvgGnk58g=w495-h240-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Pat's+Music+Center/@40.0372715,-75.0433099,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6b438e22ab7ad:0xb6b8414eedc7d7f!8m2!3d40.0372715!4d-75.040735!16s%2Fg%2F1tfxy_68?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T21:59:25.835Z"
+}

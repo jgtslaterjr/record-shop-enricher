@@ -1,0 +1,22 @@
+{
+  "name": null,
+  "rating": null,
+  "reviewCount": null,
+  "phone": null,
+  "address": null,
+  "city": null,
+  "state": null,
+  "zip": null,
+  "website": null,
+  "hours": null,
+  "priceRange": null,
+  "categories": [],
+  "photos": [],
+  "amenities": null,
+  "specialties": null,
+  "reviews": [],
+  "highlights": [],
+  "yelpUrl": "https://www.yelp.com/biz/hideaway-music-philadelphia?adjust_creative=IDgT_B7bwvrRXIkYlHml_A&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=IDgT_B7bwvrRXIkYlHml_A",
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T21:37:24.656Z"
+}

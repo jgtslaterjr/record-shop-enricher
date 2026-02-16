@@ -3,22 +3,23 @@
   "shopName": "Cornerstone Music and Culture",
   "city": "Philadelphia",
   "state": "Pennsylvania",
-  "startedAt": "2026-02-15T21:13:46.226Z",
+  "startedAt": "2026-02-15T21:21:23.772Z",
   "scrapers": {
     "discovery": {
-      "status": "success",
-      "elapsed": "0.2s"
+      "status": "skipped"
     },
     "yelp": {
       "status": "success",
-      "elapsed": "3.6s"
+      "elapsed": "3.2s"
     },
     "google": {
-      "status": "skipped"
+      "status": "error",
+      "error": "deep_scrape_google.js exited with code 1: page.evaluate: Target page, context or browser has been closed\n    at scrapeGoogleMaps (/home/john/Projects/record-shop-enricher/deep_scrape_google.js:35:27)\n    at async run (/home/john/Projects/record-shop-enricher/deep_scrape_google.js:194:20)\n",
+      "elapsed": "23.5s"
     },
     "website": {
       "status": "success",
-      "elapsed": "13.1s"
+      "elapsed": "11.5s"
     },
     "instagram": {
       "status": "success",
@@ -26,12 +27,12 @@
     },
     "events": {
       "status": "success",
-      "elapsed": "26.0s"
+      "elapsed": "27.4s"
     },
     "reviews": {
       "status": "success",
       "elapsed": "0.2s"
     }
   },
-  "completedAt": "2026-02-15T21:14:46.851Z"
+  "completedAt": "2026-02-15T21:22:48.335Z"
 }

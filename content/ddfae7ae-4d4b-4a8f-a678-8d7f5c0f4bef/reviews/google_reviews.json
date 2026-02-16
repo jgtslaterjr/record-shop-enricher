@@ -1,0 +1,20 @@
+{
+  "name": "Digital Underground",
+  "rating": null,
+  "reviewCount": null,
+  "address": "732 S 4th St, Philadelphia, PA 19147",
+  "phone": "(215) 925-9259",
+  "website": "https://www.facebook.com/digitalferret/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo3I10yA1PgkcRnIONzcl-Rdnds5jObc98MYxVcaWFB5ud0O055bJzVOO2IBeYG__CX0Zoq-sxkFINKq0BXL_wP4Ey59eLK0Qt1RlP60NArpGd00mJFvC7H9HFReEa0X2LJOXWO=w408-h307-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Digital+Underground/@39.9396779,-75.1523494,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6c89f26dd90b9:0x458c045de8d23d0b!8m2!3d39.9396779!4d-75.1497745!16s%2Fg%2F1vlqr4ww?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T22:22:06.835Z"
+}

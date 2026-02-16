@@ -18,6 +18,14 @@ function log(msg) {
   fs.appendFileSync(LOG, line + '\n');
 }
 
+function telegramUpdate(progress) {
+  const total = Object.keys(progress).length;
+  const done = progress.done.length;
+  const pct = Math.round((done / 40) * 100);
+  const msg = `🦞 Philly scrape: ${done}/40 (${pct}%)`;
+  execSync(`curl -s -X POST https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/sendMessage -d chat_id=${process.env.TELEGRAM_CHAT_ID} -d text="${msg}"`, {stdio: 'ignore'});
+}
+
 function loadProgress() {
   try { return JSON.parse(fs.readFileSync(PROGRESS, 'utf8')); } catch { return { done: [], failed: [] }; }
 }
@@ -59,6 +67,7 @@ async function main() {
       log(`[${i+1}/${shops.length}] ✅ DONE: ${shop.name}`);
       progress.done.push(shop.slug);
       succeeded++;
+      if (progress.done.length % 10 === 0) telegramUpdate(progress);
     } catch (e) {
       const reason = e.killed ? 'TIMEOUT' : `EXIT ${e.status}`;
       log(`[${i+1}/${shops.length}] ❌ FAILED (${reason}): ${shop.name}`);

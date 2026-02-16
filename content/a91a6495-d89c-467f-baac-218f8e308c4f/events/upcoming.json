@@ -1,0 +1,19 @@
+{
+  "shopName": "Hideaway Music",
+  "shopId": "a91a6495-d89c-467f-baac-218f8e308c4f",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "Record Store Day",
+      "title": "Our biggest Record Store Day event ever!",
+      "date": "9 AM",
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "http://hideawaymusic.org/events"
+    }
+  ],
+  "totalFound": 1,
+  "scrapedAt": "2026-02-15T21:38:41.052Z"
+}

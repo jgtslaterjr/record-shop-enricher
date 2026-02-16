@@ -1,0 +1,33 @@
+{
+  "shopName": "Pop Culture Vulture",
+  "shopId": "a4930fd4-3283-4d66-bc06-35415bb90088",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "New Arrival",
+      "title": "Vinyl Collection",
+      "date": "2024-02-22",
+      "description": "Explore our latest vinyl collection featuring rare and exclusive records.",
+      "artists": [
+        "David Bowie",
+        "The Beatles"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.popculturevulture.net/events"
+    },
+    {
+      "event_type": "Workshop",
+      "title": "Record Pressing Demonstration",
+      "date": "2024-03-10",
+      "description": "Join us for a hands-on workshop where we'll demonstrate the art of record pressing.",
+      "artists": [
+        "Various Artists"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.popculturevulture.net/events"
+    }
+  ],
+  "totalFound": 2,
+  "scrapedAt": "2026-02-15T22:06:19.182Z"
+}

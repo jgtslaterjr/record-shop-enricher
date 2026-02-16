@@ -1,0 +1,20 @@
+{
+  "name": "Long In the Tooth",
+  "rating": null,
+  "reviewCount": null,
+  "address": "2027 Sansom St, Philadelphia, PA 19103",
+  "phone": "(215) 569-1994",
+  "website": "https://www.instagram.com/longinthetoothrecords/",
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoAGet6OjRtgJ6DVxmJA338IY4klNxxfsBlqNAuB3yGm1ZcCmr9zSkA-V2LufOO64iGjzY6_O2Pa2GKxuqMTUPHbPbqsN9p-QS3w2-g-FBMWYXo4Ut-q4aAGJuy9rUzmXMMgboQfjZkS4A=w408-h873-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Long+In+the+Tooth/@39.951545,-75.1772779,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6c63775cc7b09:0x65310580ff5dea75!8m2!3d39.951545!4d-75.174703!16s%2Fg%2F1tlbkjjh?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T21:43:29.844Z"
+}

@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "ef2ef8fa-8583-45a9-a57f-903f9249711c",
+    "name": "Pat's Music Center",
+    "city": "Philadelphia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Pat's Music Center Philadelphia Pennsylvania record store",
+    "Pat's Music Center Philadelphia instagram facebook"
+  ],
+  "discoveredAt": "2026-02-15T21:42:52.204Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

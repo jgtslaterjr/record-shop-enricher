@@ -1,0 +1,18 @@
+{
+  "name": "Results",
+  "rating": null,
+  "reviewCount": null,
+  "address": null,
+  "phone": null,
+  "website": null,
+  "hours": null,
+  "categories": [],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepRRNeOSHSte-rJP8jNNsZ7xzsIJLuvjX3uHgDD8T9RAmyOvk0fJv40UeNUpUelcybfvBq738-orgb_2ljgNmnBYRXQAX7jEOHGEF0-zJzZ9y1qhjVXIFMkqZyrVAEdG_iLRSwt=w114-h86-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/search/Khmer+Angkor+Gift+Shop+record+store+Philadelphia+Pennsylvania/@40.0620382,-75.5663146,11z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T21:41:15.801Z"
+}

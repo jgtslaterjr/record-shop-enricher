@@ -1,0 +1,38 @@
+{
+  "shopId": "5c0a7b94-7ba0-4234-8a54-cd1fcec38b7b",
+  "shopName": "Philadelphia Record Exchange",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-15T22:02:33.245Z",
+  "scrapers": {
+    "discovery": {
+      "status": "skipped"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.9s"
+    },
+    "google": {
+      "status": "error",
+      "error": "deep_scrape_google.js exited with code 1: {\n  code: '42P17',\n  details: null,\n  hint: null,\n  message: 'infinite recursion detected in policy for relation \"profiles\"'\n}\n",
+      "elapsed": "19.9s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "33.4s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "35.5s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-15T22:04:24.545Z"
+}

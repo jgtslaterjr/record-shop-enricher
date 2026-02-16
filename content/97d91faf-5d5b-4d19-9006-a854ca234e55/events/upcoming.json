@@ -1,0 +1,43 @@
+{
+  "shopName": "Repo Records",
+  "shopId": "97d91faf-5d5b-4d19-9006-a854ca234e55",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "listening event",
+      "title": "Mitski Early Listening Event",
+      "date": "February 21, 2026",
+      "description": "Advance listen to Mitski's new album NOTHING'S ABOUT TO HAPPEN TO ME and create a community art project",
+      "artists": [
+        "Mitski"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.reporecords.com/events"
+    },
+    {
+      "event_type": "listening event",
+      "title": "Bruno Mars Early Listening Party",
+      "date": "February 25, 2026",
+      "description": "Early listening party for Bruno Mars' new album (dropping on 2/27/26)",
+      "artists": [
+        "Bruno Mars"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.reporecords.com/events"
+    },
+    {
+      "event_type": "record signing",
+      "title": "Nep (Noelle) Record Signing/Meet n Greet",
+      "date": "March 3, 2026",
+      "description": "Meet Nep and sign her new record \"Noelle\"",
+      "artists": [
+        "Nep"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.reporecords.com/events"
+    }
+  ],
+  "totalFound": 3,
+  "scrapedAt": "2026-02-15T22:10:52.006Z"
+}

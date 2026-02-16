@@ -1,0 +1,20 @@
+{
+  "name": "Mostly Books",
+  "rating": null,
+  "reviewCount": null,
+  "address": "529 Bainbridge St, Philadelphia, PA 19147",
+  "phone": "(215) 238-9838",
+  "website": "http://mostlybooksphilly.com/",
+  "hours": {},
+  "categories": [
+    "Used book store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerImulhdEkD9m28X_x27tN1ShedYg3MQQz5YuW31NZ65W5Rd-pOxUHIAnW5TbNtK-ijk5_W5-G06ZFAoM1UXH-p1CiupAtKg7-nL2UCLDkyvL_qLliKJdeAct2HOV-8us7u_bGKbQ=w408-h306-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Mostly+Books/@39.9411427,-75.1544608,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6c89e5eec9e2b:0x8ebed2734a862b09!8m2!3d39.9411427!4d-75.1518859!16s%2Fg%2F1tfv6267?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T21:51:45.480Z"
+}

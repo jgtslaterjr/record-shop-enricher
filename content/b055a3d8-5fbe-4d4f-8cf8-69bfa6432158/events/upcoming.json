@@ -1,0 +1,31 @@
+{
+  "shopName": "The Book Trader",
+  "shopId": "b055a3d8-5fbe-4d4f-8cf8-69bfa6432158",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "Record Swap Meet",
+      "title": "Swap Meet 2024",
+      "date": "2024-03-16",
+      "description": "Bring your gently used records to swap with others!",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "http://www.phillybooktrader.com/events"
+    },
+    {
+      "event_type": "Live Performance",
+      "title": "DJ Set by Local Favorite",
+      "date": "2024-04-01",
+      "description": "Get ready for a night of beats and vinyl enthusiasts",
+      "artists": [
+        "Local DJ",
+        "Record Shop Resident"
+      ],
+      "source": "website",
+      "sourceUrl": "http://www.phillybooktrader.com/events"
+    }
+  ],
+  "totalFound": 2,
+  "scrapedAt": "2026-02-15T22:19:53.735Z"
+}

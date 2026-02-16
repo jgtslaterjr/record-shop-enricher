@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "a91a6495-d89c-467f-baac-218f8e308c4f",
+    "name": "Hideaway Music",
+    "city": "Philadelphia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Hideaway Music Philadelphia Pennsylvania record store",
+    "Hideaway Music Philadelphia instagram facebook"
+  ],
+  "discoveredAt": "2026-02-15T21:23:55.074Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

@@ -1,0 +1,49 @@
+{
+  "sentiment_score": 8,
+  "key_themes": [
+    "overwhelming selection",
+    "no-frills atmosphere",
+    "cat-friendly",
+    "helpful staff",
+    "great prices"
+  ],
+  "pros": [
+    "amazing selection of books",
+    "organized shelves despite being crowded",
+    "friendly and knowledgeable staff",
+    "affordable prices",
+    "atmosphere that makes you want to browse forever"
+  ],
+  "cons": [
+    "can be overwhelming for claustrophobic customers",
+    "limited space to move around",
+    "no-frills atmosphere may not appeal to all customers"
+  ],
+  "notable_quotes": {
+    "best": "'My second home... Pretty much has everything youre looking for and CDs, DVDs. Huge section of nonfiction on the first floor and fiction on the second floor.' - Review 3 (5★)",
+    "worst": "Not a single complaint mentioned in all reviews.",
+    "funniest": "'It is a little dangerous!' - Review 7 (5★)"
+  },
+  "vibe_description": "The Book Trader has a cozy and welcoming atmosphere, with a vast selection of books that will make you feel like you've stumbled upon a treasure trove. The no-frills decor may not appeal to all customers, but for book lovers, it's a haven.",
+  "genre_specialties": [
+    "jazz",
+    "punk"
+  ],
+  "staff_mentions": "Reviewers praise the helpful and knowledgeable staff, who are always willing to assist with finding books or answering questions.",
+  "event_mentions": [
+    "No specific events mentioned"
+  ],
+  "recommendation_for": "book collectors, casual browsers, fans of jazz and punk music",
+  "metadata": {
+    "totalReviews": 10,
+    "yelpReviews": 10,
+    "googleReviews": 0,
+    "averageRating": 4.7,
+    "ratingDistribution": {
+      "3": 1,
+      "4": 1,
+      "5": 8
+    },
+    "analyzedAt": "2026-02-15T22:19:59.967Z"
+  }
+}

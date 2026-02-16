@@ -1,0 +1,39 @@
+{
+  "shopId": "cf019c37-bf36-4722-b7d7-31c29eef3b5a",
+  "shopName": "Milkcrate Cafe",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-15T21:46:34.522Z",
+  "scrapers": {
+    "discovery": {
+      "status": "skipped"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "35.0s"
+    },
+    "google": {
+      "status": "error",
+      "error": "deep_scrape_google.js exited with code 1: {\n  code: '42P17',\n  details: null,\n  hint: null,\n  message: 'infinite recursion detected in policy for relation \"profiles\"'\n}\n",
+      "elapsed": "41.3s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "11.2s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "44.8s"
+    },
+    "reviews": {
+      "status": "error",
+      "error": "summarize_reviews.js exited with code 1: {\n  code: '42P17',\n  details: null,\n  hint: null,\n  message: 'infinite recursion detected in policy for relation \"profiles\"'\n}\n",
+      "elapsed": "2.8s"
+    }
+  },
+  "completedAt": "2026-02-15T21:49:11.496Z"
+}

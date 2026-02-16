@@ -1,0 +1,109 @@
+{
+  "name": "Milkcrate Cafe",
+  "rating": 4.3,
+  "reviewCount": 287,
+  "phone": null,
+  "address": null,
+  "city": null,
+  "state": null,
+  "zip": null,
+  "website": "http://milkcratecafe.com",
+  "hours": {
+    "Mon": "8:00 AM - 3:00 PM",
+    "Wed": "8:00 AM - 3:00 PM",
+    "Fri": "8:00 AM - 3:00 PM",
+    "Sun": "8:00 AM - 5:00 PM"
+  },
+  "priceRange": null,
+  "categories": [],
+  "photos": [
+    "https://s3-media0.fl.yelpcdn.com/bphoto/Xx9KlGTimhdho2AG0PIMZw/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/6gMeX1s0-rJipuj3GfJumA/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/S9ziCefOaNo4_3CEjORO_w/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/UFrh02K1vfVEAwxn4IDS5A/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/xrFC3jCfFmnBxT8_n5h6og/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/iG0P93yPvKwVDL8dgFMrOQ/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/6gMeX1s0-rJipuj3GfJumA/258s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/UFrh02K1vfVEAwxn4IDS5A/258s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/xrFC3jCfFmnBxT8_n5h6og/258s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/iG0P93yPvKwVDL8dgFMrOQ/258s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/rsmsMee1yZsf0iCmLzGJwg/258s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/KzLL_51D3deJDAv1ZtlBDw/258s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/G3uaZ3laMYWqWsP6pZukXA/258s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/PQip4lJG71A__mfecIk0Qg/258s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/Hl_WvaCFHGzKG12yEDZCsA/258s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/Z2n-uMxNwe_fKL-iEBEZkA/258s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/Xx9KlGTimhdho2AG0PIMZw/258s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/6gMeX1s0-rJipuj3GfJumA/258s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/S9ziCefOaNo4_3CEjORO_w/258s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/UFrh02K1vfVEAwxn4IDS5A/258s.jpg"
+  ],
+  "amenities": null,
+  "specialties": null,
+  "reviews": [
+    {
+      "stars": 5,
+      "text": "I'm sad it took me so long to come here. What a phenomenal spot. I stepped in on a Sunday afternoon.  Hours posted on IG were different than at the store- they closed two hours earlier than posted. We would have definitely stayed longer. I got a hot chocolate and it was one of the best I've had in Philly by far. Staff was great and the inside of this place was much bigger than I thought and it was fantastic. Plenty of seating.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "Somehow overlooked this neighborhood gem for 7 years ! Ate here today for the first time and was delighted with French toast special that brought back memories of carnival funnel cake, avacado toast that didn't skimp on the avacado , no frills eggs and potatoes with onions that were perfectly seasoned, and fluffy buttermilk pancakes. A generous portion of  maple syrup, too! Truly a brunch that rivaled any other in Fishtown- plus great sunny ambiance with rock and roll vibes and solid vinyl collection to browse. Best part, though, was the staff- genuinely friendly, attentive, and frankly, adorable ! Thank you Milkcrate Cafe, we will be back!",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 4,
+      "text": "Nice laid back place for a breakfast.  We had the Biggie (added raw onion), the Chicka Boom, & the Cheddar biscuit with sausage & egg.  All were very good and would come back in a heartbeat.  Y'all really need to sell the Biscuits separately - to go.   Seriously!!!   Delish !!!Thank you",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 4,
+      "text": "Cool coffee shop on the corner with plenty of drink and food options. The space is decorated with art and records, which you can also buy. I tried the vanilla latte and the Notorious E.G.G. The latte was average, but the sandwich was bigger than expected and delicious. I'd come back just for the food.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "Fast friendly customer service. Food was perfect all the flavors there. Good chill atmosphere for a calm morning breakfast.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 4,
+      "text": "My go to for an iced latte and a quick breakfast. Even on a busy Saturday morning my food came out quick and hot! They have a great variety of options and something to suit everyone's taste (food and beverage wise!)",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 4,
+      "text": "Good breakfast bagel. Service not exactly friendly. Asked for cheddar but think we got American but it was still a good egg sandwich. Fun to see all the old albums.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 4,
+      "text": "Milk crate cafe is a great spot in fishtown to grab coffee. On the corner of Girard the inside is decorated with record albums. They also have a walkup window which is convenient if you have your pet with you. Coffee was delicious and the staff was friendly and didn't have to wait too long for my drink. Definitely a spot I would go back to.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "Coolest cafe in Philly! Delicious breakfast sammies, and then lunch salads and sandwiches as well. Best part is that it's also a record shop. Super cool vintage record options. A unique, one-of-a-kind spot.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "This shop is cute, clean and within walking distance of Penn Treaty Park. The staff is friendly and approachable and willing to give recommendations if it's your first time in. I like that certain food options were named after popular artists; fitting the theme of the shop. I had a medium iced latte with oat milk and a shot of coconut flavor. It was made perfectly. I like my coffee averagely sweet & this wasn't too bitter but it wasn't overly sugary either. I opted for the soft boy breakfast sandwich and it did not disappoint at all. The bread was extremely soft and everything tasted fresh. My friend had went with the lunch burrito and she said her meal was good as well. Definitely stop by this cafe!",
+      "date": null,
+      "reviewer": null
+    }
+  ],
+  "highlights": [],
+  "yelpUrl": "https://www.yelp.com/biz/milkcrate-cafe-philadelphia-3",
+  "totalReviewsScraped": 10,
+  "scrapedAt": "2026-02-15T21:47:09.513Z"
+}

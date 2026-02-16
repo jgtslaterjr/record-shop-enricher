@@ -1,0 +1,44 @@
+{
+  "overview": {
+    "type": "indie record shop",
+    "vibe/brand": "welcoming, inclusive, music-focused"
+  },
+  "history": {
+    "founded": "2024 (first year of operation)",
+    "notable history": "won Best Record Store in Philly in 2025"
+  },
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "CD",
+      "cassette"
+    ],
+    "genres": [
+      "all genres, with a focus on discovery"
+    ]
+  },
+  "services": {
+    "buying": "yes",
+    "selling": "yes (in-store and mail-order)",
+    "trading": "no",
+    "shipping": "yes"
+  },
+  "events": {
+    "hosted events": "none listed",
+    "frequency": "not specified"
+  },
+  "staff": {
+    "owner/gabriel coan": "mentioned in news articles"
+  },
+  "hours_location": {
+    "store hours": "11 AM - 7 PM (Mon-Sat), 11 AM - 5 PM (Sun)",
+    "address": "Philadelphia, PA"
+  },
+  "unique_features": {
+    "listening rooms": "none listed",
+    "cafe": "none listed"
+  },
+  "community_role": {
+    "local music scene engagement": "supports local artists and musicians, hosts events to engage with community"
+  }
+}

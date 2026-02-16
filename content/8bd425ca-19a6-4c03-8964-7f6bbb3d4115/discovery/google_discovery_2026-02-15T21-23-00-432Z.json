@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "8bd425ca-19a6-4c03-8964-7f6bbb3d4115",
+    "name": "F Ye",
+    "city": "Philadelphia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "F Ye Philadelphia Pennsylvania record store",
+    "F Ye Philadelphia instagram facebook"
+  ],
+  "discoveredAt": "2026-02-15T21:23:00.432Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

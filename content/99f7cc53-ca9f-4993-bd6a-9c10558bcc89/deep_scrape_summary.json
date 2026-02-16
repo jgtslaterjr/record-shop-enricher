@@ -1,0 +1,38 @@
+{
+  "shopId": "99f7cc53-ca9f-4993-bd6a-9c10558bcc89",
+  "shopName": "Disco Latinos Records",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-15T21:33:10.482Z",
+  "scrapers": {
+    "discovery": {
+      "status": "skipped"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.1s"
+    },
+    "google": {
+      "status": "error",
+      "error": "deep_scrape_google.js exited with code 1: page.evaluate: Target page, context or browser has been closed\n    at scrapeGoogleMaps (/home/john/Projects/record-shop-enricher/deep_scrape_google.js:35:27)\n    at async run (/home/john/Projects/record-shop-enricher/deep_scrape_google.js:194:20)\n",
+      "elapsed": "37.1s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "20.7s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-15T21:34:31.367Z"
+}

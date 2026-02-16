@@ -1,0 +1,38 @@
+{
+  "overview": "Independent record store with a focus on vinyl, Philadelphia-based bands, and local music events.",
+  "history": "Not explicitly stated, but mentions 'one of Philly's finest record stores' and being the only store with certain hard-to-find records.",
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "cassette"
+    ],
+    "genres": [
+      "Philadelphia-based bands",
+      "punk",
+      "emo",
+      "90s emo"
+    ],
+    "new_vs_used": "Both new and used records available"
+  },
+  "services": {
+    "buy/sell/trade": "Yes, they buy/sell/trade records",
+    "online_store": "No explicit mention, but Instagram shop links suggest online store presence",
+    "shipping": "Not explicitly stated, but assumes shipping based on online interactions"
+  },
+  "events": {
+    "hosted_events": "Yes, they host music events and concerts at their store",
+    "event_frequency": "Frequent events, with no specific frequency mentioned"
+  },
+  "staff": {
+    "notable_staff": "Owner/owner's name not explicitly stated, but mentions 'us' in some posts"
+  },
+  "hours_location": {
+    "store_hours": "Not explicitly stated",
+    "address": "Sansom Street (Philadelphia)"
+  },
+  "unique_features": {
+    "listening_rooms": "Yes, they have a listening room where customers can listen to records",
+    "cafe": "No explicit mention of a cafe, but mentions enjoying music and being in their 'lil corner'"
+  },
+  "community_role": "Engage with the local music scene by hosting events, supporting local bands, and sharing local content"
+}

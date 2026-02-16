@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "62ae403e-54ff-4262-8cd8-3d70f809845b",
+    "name": "Post Records",
+    "city": "Philadelphia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Post Records Philadelphia Pennsylvania record store",
+    "Post Records Philadelphia instagram facebook"
+  ],
+  "discoveredAt": "2026-02-15T21:49:42.959Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

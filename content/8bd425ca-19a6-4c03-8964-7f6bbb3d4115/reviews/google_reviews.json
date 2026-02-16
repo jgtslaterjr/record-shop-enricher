@@ -1,0 +1,23 @@
+{
+  "name": "Results",
+  "rating": null,
+  "reviewCount": null,
+  "address": null,
+  "phone": null,
+  "website": null,
+  "hours": null,
+  "categories": [],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerB_jB-q-AWkb30V90JIzaVHtCr-XY2MrTtVvZ7UZ5WTIclhgaK7J8t9FzN1kF47MrgZl6Nq1r52yKttlRWpxvoz_tuD4PAL61zt6QRSEwcLKbhVRhiX4NYMfJgR0Fk-LQWSZZLdQ=w86-h114-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerB4Sgb5Gt2EIZuVvtnIRNw33Tll-BbzF9OBfRi_WpQjfMPGC56Kt-jJ4uOapd9lMuaSmQo0Mo-eD2DtTjHdYha_ky6xdEG4UkD8iELvR3iZwcQdf5VU6-Eyob4uysmQBfhKtGj=w86-h114-k-no",
+    "https://lh3.googleusercontent.com/p/AF1QipPxXYq9BjKlLgxVjkyfFkfWNLMI1jvWMQpRV2oG=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/p/AF1QipPmOVCAR5jtUwHqoW-6k9sqFdI4HOloIbBRzt5c=w128-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqYWvZ85k2cVyadowhQieag_JsEZ6XYp8U4wXQwKAfrV_SLvlYai8F_jVKgKLVPiMpZHCynvJ2iA-tg9-q1cpcCrl6lt2v99TgDHRlSXxFfI4dY2KIVh18zrMN6rVmgjRFCy3me9w=w86-h152-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoweG5OG2bCpT-PjfUzHsF-X23hTq3_UO2smQmQQy1CkGXTJRPiEwo6TfRyKR2z0y03oB0J5DkV4na_Kp7u_HqbHHUXr0OIW3gfrAIHCVoHwWbBwsrr2GS2sQMG3KIrg5ueMiZrf5wF12q8=w86-h114-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/search/F+Ye+record+store+Philadelphia+Pennsylvania/@40.0620382,-75.5663146,11z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T21:36:35.070Z"
+}

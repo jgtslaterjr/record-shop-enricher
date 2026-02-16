@@ -1,0 +1,14 @@
+{
+  "raw_summary": "Here is the analysis of the reviews in JSON format:\n\n{\n  \"sentiment_score\": 8,\n  \"key_themes\": [\n    \"great coffee and food options\",\n    \"cozy atmosphere with record shop vibes\",\n    \"friendly staff and good customer service\",\n    \"wide variety of drinks and menu items\",\n    \"unique and fun decor\"\n  ],\n  \"pros\": [\n    \"high-quality coffee and food options\",\n    \"friendly and approachable staff\",\n    \"large seating area for customers to relax\",\n    \"wide selection of records for music lovers\"\n  ],\n  \"cons\": [\n    \"hours may not be clearly posted or accurate\",\n    \"some customers have experienced inconsistent service quality from staff\",\n    \"minor issues with food portion sizes or preparation (e.g. American cheese instead of cheddar)\"\n  ],\n  \"notable_quotes\": {\n    \"best\": \"Milk crate cafe is the coolest cafe in Philly!\",\n    \"worst\": None,\n    \"funniest\": \"Y'all really need to sell the Biscuits separately - to go.\"\n  },\n  \"vibe_description\": \"The Milk Crate Cafe is a cozy and welcoming spot with a record shop vibe, perfect for coffee, food, or browsing vinyl. The atmosphere is relaxed and fun, making it an ideal spot for music lovers and casual browsers alike.\",\n  \"genre_specialties\": [\"indie rock\", \"jazz\", \"punk\"],\n  \"staff_mentions\": \"Reviewers consistently praise the friendly and approachable staff, noting that they are always willing to give recommendations or assist with orders.\"\n  },\n  \"event_mentions\": [\n    \"Record Store Day\",\n    \"various food specials named after popular artists\"\n  ],\n  \"recommendation_for\": \"music lovers, coffee enthusiasts, and anyone looking for a unique and welcoming spot in Fishtown\"\n}",
+  "metadata": {
+    "totalReviews": 10,
+    "yelpReviews": 10,
+    "googleReviews": 0,
+    "averageRating": 4.5,
+    "ratingDistribution": {
+      "4": 5,
+      "5": 5
+    },
+    "analyzedAt": "2026-02-15T21:49:07.798Z"
+  }
+}

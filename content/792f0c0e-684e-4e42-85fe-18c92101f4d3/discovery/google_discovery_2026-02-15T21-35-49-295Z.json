@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "792f0c0e-684e-4e42-85fe-18c92101f4d3",
+    "name": "Mostly Books",
+    "city": "Philadelphia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Mostly Books Philadelphia Pennsylvania record store",
+    "Mostly Books Philadelphia instagram facebook"
+  ],
+  "discoveredAt": "2026-02-15T21:35:49.295Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

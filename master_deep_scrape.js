@@ -175,6 +175,12 @@ async function deepScrapeShop(shop, args) {
 
   results.completedAt = new Date().toISOString();
   
+  // Always mark as scraped
+  if (shop.id !== 'manual') {
+    await supabase.from('shops').update({ deep_scrape_at: results.completedAt }).eq('id', shop.id);
+    log('  ✓ Marked deep_scrape_at in Supabase');
+  }
+  
   // Save results summary
   const summaryPath = contentDir(shop.id, 'deep_scrape_summary.json');
   saveJSON(summaryPath, results);

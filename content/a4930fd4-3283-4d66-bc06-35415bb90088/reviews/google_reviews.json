@@ -1,0 +1,23 @@
+{
+  "name": "Results",
+  "rating": null,
+  "reviewCount": null,
+  "address": null,
+  "phone": null,
+  "website": null,
+  "hours": null,
+  "categories": [],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepWspNr7qoyKXhD3fxfseIsPdIyQDspM4YkYsbyTQ94Ej8zv6NbJCab_gwTIZTisdDi2vuHd5IRhNlIbJhSH-7bb0VYEHYwOx-MN6S1N4-6mkzk6_O9uBpWaKnGEkhDOp34s4z3ls5IIlJj=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoWP4oJwf-036f5IK-xG9EbafZbF3Hn3viMNJeLrk2XV0isT1HDZe6bVLeYXDmWlXBe2eiPNiA--gyDFLqLyRxXdlHtiV7bejG_5w_oUwcV2OlsrO8Yw47Iw6CXqnlAutxbBcXAHUa_vsWR=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoad41j-uv3S5BBCRQ4AC8XBhj2Uyv-CsCJBZKH15rz0X5QECynzRjan6L0ft2ZjALQUvXE1ASpbHz0IxqAFog620ny9hqDQHpX-gpUAGgqCZ4pHQdnQUeXU3wzWO4JHCJHyarX=w152-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoCPDkX42T_uOpoYFNo_Qs_YmntFCB5dSY43scSVT0IbHhT6_2vF2ZwdU0GQ8757R2EyHpz6yWkHZ7Jfmdh6lazt8QvZbexImyEvM3Eo5tmV52C-Jiee15pCHlNd7JfE6FA7zWJ=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo71FJSim78Ak80nep2fzSDW5qDKeYxYL6DlyQ0ojeZ62L52paOOjF8YTViUnhGuCMRh_oB9S73s_Oq4Vjnz9hfXtXOwWiU11gBzOU2grGh87N8DSkV3AzAMNaeD8lqQ2fjAi02=w86-h114-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwer0k4Dz3ZIzEftM7nfWzxJ_Z6Sl5c_YPYZh1eZGYcIFdDK-YlvR0EwNScw3HijWe2FywZ-eQGRsyceXmafkJLdoKdh7pp08JOewXwk7rO2zbS9VWahsPsp6s02NR_O1oEsptXsrAA=w114-h86-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/search/Pop+Culture+Vulture+record+store+Philadelphia+Pennsylvania/@40.0620382,-75.5663146,11z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T22:05:29.719Z"
+}

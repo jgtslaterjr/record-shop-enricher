@@ -3,22 +3,23 @@
   "shopName": "Cratediggaz",
   "city": "Philadelphia",
   "state": "Pennsylvania",
-  "startedAt": "2026-02-15T21:15:00.113Z",
+  "startedAt": "2026-02-15T21:22:56.489Z",
   "scrapers": {
     "discovery": {
-      "status": "success",
-      "elapsed": "0.2s"
+      "status": "skipped"
     },
     "yelp": {
       "status": "success",
-      "elapsed": "2.8s"
+      "elapsed": "3.0s"
     },
     "google": {
-      "status": "skipped"
+      "status": "error",
+      "error": "deep_scrape_google.js exited with code 1: {\n  code: '42P17',\n  details: null,\n  hint: null,\n  message: 'infinite recursion detected in policy for relation \"profiles\"'\n}\n",
+      "elapsed": "7.4s"
     },
     "website": {
       "status": "success",
-      "elapsed": "31.5s"
+      "elapsed": "31.6s"
     },
     "instagram": {
       "status": "success",
@@ -26,12 +27,12 @@
     },
     "events": {
       "status": "success",
-      "elapsed": "50.8s"
+      "elapsed": "45.8s"
     },
     "reviews": {
       "status": "success",
       "elapsed": "0.2s"
     }
   },
-  "completedAt": "2026-02-15T21:16:42.264Z"
+  "completedAt": "2026-02-15T21:24:40.237Z"
 }

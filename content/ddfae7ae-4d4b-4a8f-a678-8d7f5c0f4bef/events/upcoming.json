@@ -1,0 +1,46 @@
+{
+  "shopName": "Vinyl Altar",
+  "shopId": "ddfae7ae-4d4b-4a8f-a678-8d7f5c0f4bef",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "classics",
+      "title": "Jim Mc Intyre - A Most Gallant Resistance: The Delaware River Campaign, September - November 1777",
+      "date": "Thu, Feb 26 at 2:00 PM EST",
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://www.facebook.com/events"
+    },
+    {
+      "event_type": "classics",
+      "title": "The Deep Dig: Life and Afterlife in Ancient Thebes",
+      "date": "Tue, Mar 3 at 6:30 PM EST",
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://www.facebook.com/events"
+    },
+    {
+      "event_type": "classics",
+      "title": "FOL Support Group",
+      "date": "Sun, Feb 15 at 7:00 PM EST",
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://www.facebook.com/events"
+    },
+    {
+      "event_type": "classics",
+      "title": "Antique & Vintage This & That",
+      "date": "Sun, Feb 15 at 7:00 PM EST",
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://www.facebook.com/events"
+    }
+  ],
+  "totalFound": 4,
+  "scrapedAt": "2026-02-15T22:22:40.984Z"
+}

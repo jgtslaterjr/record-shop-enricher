@@ -1,0 +1,20 @@
+{
+  "name": "Sit and Spin Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "2243 S Lambert St, Philadelphia, PA 19145",
+  "phone": "(267) 773-8345",
+  "website": "http://www.sitandspinrecords.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqTlBW87G2Y9knH4V5eO6BYuCLfDMb07PLZiddklpaO-kzBuhGAUWaU5H7bwKn7IgE6VXbQR5oy5epbShBquLecK6qQUF9oFUkJHP2c-gJZAf1A-agUa-LfWcM1a9G3twHxBGIprg=w408-h544-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Sit+and+Spin+Records/@39.9235842,-75.1833227,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6c61c6e640123:0x4d15f746f1ef4432!8m2!3d39.9235842!4d-75.1807478!16s%2Fg%2F12333qq_x?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T22:13:00.972Z"
+}

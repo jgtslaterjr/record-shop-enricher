@@ -1,0 +1,14 @@
+{
+  "shopName": "Mostly Books",
+  "shopId": "792f0c0e-684e-4e42-85fe-18c92101f4d3",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "source": "website",
+      "sourceUrl": "http://mostlybooksphilly.com/happenings"
+    }
+  ],
+  "totalFound": 1,
+  "scrapedAt": "2026-02-15T21:52:45.915Z"
+}

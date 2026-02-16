@@ -5,9 +5,9 @@
   "state": "Pennsylvania",
   "events": [
     {
-      "event_type": "Upcoming Event",
+      "event_type": "Gospel",
       "title": "",
-      "date": "February 2026SuMoTuWeThFrSa Sun 1 Mon 2 Tue 3 Wed 4 Thu 5 Fri 6 Sat 7 234567",
+      "date": "February 2026SuMoTuWeThFrSa Sun 1 Mon 2 Tue 3 Wed 4 Thu 5 Fri 6 Sat 7 234567 Sun 8 Mon 9 Tue 10 Wed 11 Thu 12 Fri 13 Sat 14",
       "description": "",
       "artists": [],
       "source": "website",
@@ -15,5 +15,5 @@
     }
   ],
   "totalFound": 1,
-  "scrapedAt": "2026-02-15T21:14:41.025Z"
+  "scrapedAt": "2026-02-15T21:22:41.593Z"
 }

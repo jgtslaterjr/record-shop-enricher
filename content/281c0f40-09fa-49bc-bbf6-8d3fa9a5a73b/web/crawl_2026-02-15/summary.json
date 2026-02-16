@@ -1,3 +1,48 @@
 {
-  "error": "Unexpected token 'N', ...\"\"genres\": Not specif\"... is not valid JSON"
+  "overview": "Creep Records is a vinyl record store with a focus on exclusive releases, local artists, and alternative genres.",
+  "history": "No specific founding date mentioned, but they seem to have been around for some time based on their available inventory.",
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "CD",
+      "cassette"
+    ],
+    "genres": [
+      "alternative",
+      "punk",
+      "metal"
+    ],
+    "new_vs_used": "both"
+  },
+  "services": {
+    "buying": true,
+    "selling": true,
+    "trading": false,
+    "online_store": true,
+    "shipping": true
+  },
+  "events": {
+    "hosted_events": true,
+    "event_frequency": "occasional",
+    "event_types": [
+      "vinyl listening events",
+      "record swaps"
+    ]
+  },
+  "staff": {
+    "notable_staff": "no notable staff mentioned"
+  },
+  "hours_location": {
+    "store_hours": "Sun - Thurs: 11:00 AM - 8:00 PMFri - Sat: 11:00 AM - 9:00 PM",
+    "store_locations": [
+      "Philadelphia, PA",
+      "West Chester, PA"
+    ]
+  },
+  "unique_features": [
+    "listening rooms"
+  ],
+  "community_role": {
+    "local_music_scene": "engages with local music scene through vinyl events and exclusive releases"
+  }
 }

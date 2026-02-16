@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "5aa7e9a0-604b-4044-a584-42978f4c226e",
+    "name": "La Pachanga Enterprises",
+    "city": "Philadelphia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "La Pachanga Enterprises Philadelphia Pennsylvania record store",
+    "La Pachanga Enterprises Philadelphia instagram facebook"
+  ],
+  "discoveredAt": "2026-02-15T21:28:16.215Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Results",
+  "rating": null,
+  "reviewCount": null,
+  "address": null,
+  "phone": null,
+  "website": null,
+  "hours": null,
+  "categories": [],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerB_jB-q-AWkb30V90JIzaVHtCr-XY2MrTtVvZ7UZ5WTIclhgaK7J8t9FzN1kF47MrgZl6Nq1r52yKttlRWpxvoz_tuD4PAL61zt6QRSEwcLKbhVRhiX4NYMfJgR0Fk-LQWSZZLdQ=w86-h114-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoAGet6OjRtgJ6DVxmJA338IY4klNxxfsBlqNAuB3yGm1ZcCmr9zSkA-V2LufOO64iGjzY6_O2Pa2GKxuqMTUPHbPbqsN9p-QS3w2-g-FBMWYXo4Ut-q4aAGJuy9rUzmXMMgboQfjZkS4A=w86-h184-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweo3I10yA1PgkcRnIONzcl-Rdnds5jObc98MYxVcaWFB5ud0O055bJzVOO2IBeYG__CX0Zoq-sxkFINKq0BXL_wP4Ey59eLK0Qt1RlP60NArpGd00mJFvC7H9HFReEa0X2LJOXWO=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/p/AF1QipPxXYq9BjKlLgxVjkyfFkfWNLMI1jvWMQpRV2oG=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqTlBW87G2Y9knH4V5eO6BYuCLfDMb07PLZiddklpaO-kzBuhGAUWaU5H7bwKn7IgE6VXbQR5oy5epbShBquLecK6qQUF9oFUkJHP2c-gJZAf1A-agUa-LfWcM1a9G3twHxBGIprg=w86-h114-k-no",
+    "https://lh3.googleusercontent.com/p/AF1QipPmOVCAR5jtUwHqoW-6k9sqFdI4HOloIbBRzt5c=w128-h86-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/search/Nuday+Sounds+record+store+Philadelphia+Pennsylvania/@40.0620382,-75.5663146,11z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T21:58:11.789Z"
+}

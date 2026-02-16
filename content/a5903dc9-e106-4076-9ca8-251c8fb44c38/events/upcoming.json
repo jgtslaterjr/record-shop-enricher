@@ -1,0 +1,19 @@
+{
+  "shopName": "Sounds of Lehigh Ave",
+  "shopId": "a5903dc9-e106-4076-9ca8-251c8fb44c38",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "The Show",
+      "title": "The Ultimate Home Entertainment Experience",
+      "date": "Homec96304x12025-09-02T10:52:30-04:00",
+      "description": "When it comes to audio/video systems for your home or business, Sight & Sound knows quality counts. That’s why you need the best service possible from the planning stages to maintenance in order to keep your home entertainment systems at peak perfection.",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://lvsightandsound.com/shows"
+    }
+  ],
+  "totalFound": 1,
+  "scrapedAt": "2026-02-15T22:17:59.243Z"
+}

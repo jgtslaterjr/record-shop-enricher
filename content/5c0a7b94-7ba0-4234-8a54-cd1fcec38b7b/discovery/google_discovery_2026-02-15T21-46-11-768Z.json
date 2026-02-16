@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "5c0a7b94-7ba0-4234-8a54-cd1fcec38b7b",
+    "name": "Philadelphia Record Exchange",
+    "city": "Philadelphia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Philadelphia Record Exchange Philadelphia Pennsylvania record store",
+    "Philadelphia Record Exchange Philadelphia instagram facebook"
+  ],
+  "discoveredAt": "2026-02-15T21:46:11.768Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Results",
+  "rating": null,
+  "reviewCount": null,
+  "address": null,
+  "phone": null,
+  "website": null,
+  "hours": null,
+  "categories": [],
+  "photos": [
+    "https://lh3.googleusercontent.com/p/AF1QipOilHWxfk_bQXdVwJM7NFFzd0REdYGM3MDQPeqj=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepSDMha29_T3ibDEbL-vJtjKsWSnud_OcyN8aqWUBPFGyV6i27nJak6yKPeuSDDaAKYOjP9_gN1T2Gk5ZYLu5R5MDqBlm5hNqBNQY_xihPdDAsis8ZZeSNe3WXMkTVGmIwh0t2nDg=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoRiu8O4Eau_fMtLHK1ixnNURj7yaGrHxqyf_WSYCi85hKCEMcMgSl_ay0X_U218FXuebD-wWomGayc9WQ9-xN6A3LsVJNBxAY30rTlKjW8MRaTIxsUjI9hXXvxSyieVjK_-cK2pQ=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoprGGjhP5uRjjHQGAbfFdMTcWbasr672pMo6AMW-raIIf8Rg8kvum69tM1Xh-rxpURe3Os4Vd-Thr1e8HwT2g-5gYgfjgOe2X3muNMqU4D7BiFAKvgfPF17YEkbf2ztMETCgzY=w181-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqJ5gpDq5YZI170CqK4tostmj5cCQzRQaxJE_T3GxABY8aJ9Ey4R29_6emlt6Z7EKhb0MXWDfcWbREVfHPhWZTJXV6g9BRwsLzCVs321_F056-hkrp1DQyFmWlq5e5u-zfGzA=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoad41j-uv3S5BBCRQ4AC8XBhj2Uyv-CsCJBZKH15rz0X5QECynzRjan6L0ft2ZjALQUvXE1ASpbHz0IxqAFog620ny9hqDQHpX-gpUAGgqCZ4pHQdnQUeXU3wzWO4JHCJHyarX=w152-h86-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/search/Sounds+of+Lehigh+Ave+record+store+Philadelphia+Pennsylvania/@40.0620382,-75.5663146,11z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-15T22:17:03.038Z"
+}
