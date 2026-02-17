@@ -1,0 +1,20 @@
+{
+  "name": "Siren Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "25 E State St, Doylestown, PA 18901",
+  "phone": "(215) 348-2323",
+  "website": "http://www.sirenrecords.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweoKveauxhEmNCXO8OajrmTwAsiFGv4qxXOdCRx9STgDs0RDU0HYl1XPCf7N1tJnS3sKSu4XVZA5jOzrDizn9BdIVmI7jhgPAEl9qxurOWVNxq3wBvu5jUUqP84w348oCf-sG7dYiA=w408-h544-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Siren+Records/@40.3104099,-75.1325731,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6a8221fe9b83d:0x3d6c2c6e4f94b51c!8m2!3d40.3104099!4d-75.1299982!16s%2Fg%2F113h0d8b_?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-17T17:25:32.176Z"
+}

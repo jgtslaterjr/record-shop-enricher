@@ -1,0 +1,20 @@
+{
+  "name": "Compact Disc Center",
+  "rating": null,
+  "reviewCount": null,
+  "address": "1365 Easton Ave, Bethlehem, PA 18018",
+  "phone": "(610) 868-3070",
+  "website": "http://www.cdcenterpa.com/",
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerK4MVIMxzN2UlkCf5LqpgUKDQTxa5x69c5wn6q7H62hf5YYOsl4GlgSV1AhSsGQWm4aRsP6L0ePxeqON4BUa7LZxWqBaD6MnkwQPHF-4wO_voUeJlF8IxZ8yNhRZljhcHK1zTDSg=w426-h240-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Compact+Disc+Center/@40.6319626,-75.3716432,17z/data=!3m1!4b1!4m6!3m5!1s0x89c43fb69546a3cd:0xf1d42da6050b5399!8m2!3d40.6319626!4d-75.3690683!16s%2Fg%2F1td7_0nz?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-17T17:35:46.814Z"
+}

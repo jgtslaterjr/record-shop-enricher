@@ -1,0 +1,152 @@
+{
+  "shop": {
+    "id": "95861f1e-09c5-423c-b855-806b313452bd",
+    "name": "Attic Record Store Inc",
+    "city": "Aliquippa",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Attic Record Store Inc Aliquippa Pennsylvania record store",
+    "Attic Record Store Inc Aliquippa instagram facebook"
+  ],
+  "discoveredAt": "2026-02-17T17:32:54.758Z",
+  "links": [
+    {
+      "category": "website",
+      "url": "https://www.atticrecordstoreinc.com/"
+    },
+    {
+      "category": "yelp",
+      "url": "https://www.yelp.com/biz/attic-record-store-millvale-4"
+    },
+    {
+      "category": "website",
+      "url": "https://www.atticrecordstoreinc.com/buying"
+    },
+    {
+      "category": "website",
+      "url": "https://www.atticrecordstoreinc.com/new-records"
+    },
+    {
+      "category": "website",
+      "url": "https://www.atticrecordstoreinc.com/cds"
+    },
+    {
+      "category": "website",
+      "url": "https://www.atticrecordstoreinc.com/used-records"
+    },
+    {
+      "category": "website",
+      "url": "https://www.atticrecordstoreinc.com/contact"
+    },
+    {
+      "category": "website",
+      "url": "https://www.atticrecordstoreinc.com/orders"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.loc8nearme.com/pennsylvania/millvale/attic-record-store-inc/3206867/",
+      "domain": "loc8nearme.com"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/100076930604715"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/atticrecordstore/",
+      "handle": "atticrecordstore"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/100050318777308"
+    },
+    {
+      "category": "directory",
+      "url": "https://recordstoreday.com/Store/5820",
+      "domain": "recordstoreday.com"
+    },
+    {
+      "category": "website",
+      "url": "https://findvinylrecords.com/record-stores/pa/pittsburgh/attic-record-store-inc"
+    }
+  ],
+  "byCategory": {
+    "website": [
+      {
+        "category": "website",
+        "url": "https://www.atticrecordstoreinc.com/"
+      },
+      {
+        "category": "website",
+        "url": "https://www.atticrecordstoreinc.com/buying"
+      },
+      {
+        "category": "website",
+        "url": "https://www.atticrecordstoreinc.com/new-records"
+      },
+      {
+        "category": "website",
+        "url": "https://www.atticrecordstoreinc.com/cds"
+      },
+      {
+        "category": "website",
+        "url": "https://www.atticrecordstoreinc.com/used-records"
+      },
+      {
+        "category": "website",
+        "url": "https://www.atticrecordstoreinc.com/contact"
+      },
+      {
+        "category": "website",
+        "url": "https://www.atticrecordstoreinc.com/orders"
+      },
+      {
+        "category": "website",
+        "url": "https://findvinylrecords.com/record-stores/pa/pittsburgh/attic-record-store-inc"
+      }
+    ],
+    "yelp": [
+      {
+        "category": "yelp",
+        "url": "https://www.yelp.com/biz/attic-record-store-millvale-4"
+      }
+    ],
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://www.loc8nearme.com/pennsylvania/millvale/attic-record-store-inc/3206867/",
+        "domain": "loc8nearme.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://recordstoreday.com/Store/5820",
+        "domain": "recordstoreday.com"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/100076930604715"
+      },
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/100050318777308"
+      }
+    ],
+    "instagram": [
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/atticrecordstore/",
+        "handle": "atticrecordstore"
+      }
+    ]
+  },
+  "updates": {
+    "yelp_url": "https://www.yelp.com/biz/attic-record-store-millvale-4",
+    "social_instagram": "atticrecordstore",
+    "social_facebook": "https://facebook.com/100076930604715",
+    "website": "https://www.atticrecordstoreinc.com/"
+  },
+  "skipped": {}
+}

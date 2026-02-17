@@ -1,0 +1,20 @@
+{
+  "name": "Rock N' Roll Knife Fight",
+  "rating": null,
+  "reviewCount": null,
+  "address": "19 S Lansdowne Ave, Lansdowne, PA 19050",
+  "phone": "(484) 326-9972",
+  "website": "http://www.delcopunk.com/",
+  "hours": {},
+  "categories": [
+    "Clothing store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/p/AF1QipPBRwGMtK4AdRFQ1H_BryHaOwFEqfjIvqI-1VA=w408-h307-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Rock+N'+Roll+Knife+Fight/@39.9378508,-75.2746755,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6c1b65e3dd119:0x98fd0bc69d20cf7a!8m2!3d39.9378508!4d-75.2721006!16s%2Fg%2F11j2p8lv4h?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-16T12:14:32.681Z"
+}

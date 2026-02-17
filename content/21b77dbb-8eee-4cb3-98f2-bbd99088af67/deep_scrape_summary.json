@@ -1,0 +1,38 @@
+{
+  "shopId": "21b77dbb-8eee-4cb3-98f2-bbd99088af67",
+  "shopName": "Siren Records",
+  "city": "Aliquippa",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-17T17:25:08.804Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "6.3s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.5s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "7.8s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "31.6s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "33.5s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "44.8s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-17T17:27:37.392Z"
+}

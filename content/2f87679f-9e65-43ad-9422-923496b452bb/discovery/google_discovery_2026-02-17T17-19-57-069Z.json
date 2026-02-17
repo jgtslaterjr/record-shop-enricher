@@ -1,0 +1,177 @@
+{
+  "shop": {
+    "id": "2f87679f-9e65-43ad-9422-923496b452bb",
+    "name": "The Record Shop",
+    "city": "Aliquippa",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "The Record Shop Aliquippa Pennsylvania record store",
+    "The Record Shop Aliquippa instagram facebook"
+  ],
+  "discoveredAt": "2026-02-17T17:19:57.069Z",
+  "links": [
+    {
+      "category": "directory",
+      "url": "https://www.superpages.com/aliquippa-pa/record-stores",
+      "domain": "superpages.com"
+    },
+    {
+      "category": "website",
+      "url": "https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.vinylworld.org/record-stores/pennsylvania-united-states/",
+      "domain": "vinylworld.org"
+    },
+    {
+      "category": "press",
+      "url": "https://www.phillymag.com/life-style/philly-record-stores/",
+      "domain": "phillymag.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.yellowpages.com/aliquippa-pa/record-town-inc",
+      "domain": "yellowpages.com"
+    },
+    {
+      "category": "website",
+      "url": "https://www.whereorg.com/record-and-prerecorded-tape-stores-aliquippa-pa"
+    },
+    {
+      "category": "website",
+      "url": "https://www.wearesmelly.com/pennsylvania-record-stores"
+    },
+    {
+      "category": "website",
+      "url": "https://www.atticrecordstoreinc.com/"
+    },
+    {
+      "category": "directory",
+      "url": "https://vinylmapper.com/record-stores/us/pa/",
+      "domain": "vinylmapper.com"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/recordshoppa"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/therecordshopstudios/",
+      "handle": "therecordshopstudios"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/therecordshop1"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/thedanisunshineshop"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/therecordshop/",
+      "handle": "therecordshop"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/therecordshopstudios/reels/",
+      "handle": "therecordshopstudios"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/aliquippapa"
+    }
+  ],
+  "byCategory": {
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://www.superpages.com/aliquippa-pa/record-stores",
+        "domain": "superpages.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.vinylworld.org/record-stores/pennsylvania-united-states/",
+        "domain": "vinylworld.org"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.yellowpages.com/aliquippa-pa/record-town-inc",
+        "domain": "yellowpages.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://vinylmapper.com/record-stores/us/pa/",
+        "domain": "vinylmapper.com"
+      }
+    ],
+    "website": [
+      {
+        "category": "website",
+        "url": "https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/"
+      },
+      {
+        "category": "website",
+        "url": "https://www.whereorg.com/record-and-prerecorded-tape-stores-aliquippa-pa"
+      },
+      {
+        "category": "website",
+        "url": "https://www.wearesmelly.com/pennsylvania-record-stores"
+      },
+      {
+        "category": "website",
+        "url": "https://www.atticrecordstoreinc.com/"
+      }
+    ],
+    "press": [
+      {
+        "category": "press",
+        "url": "https://www.phillymag.com/life-style/philly-record-stores/",
+        "domain": "phillymag.com"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/recordshoppa"
+      },
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/therecordshop1"
+      },
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/thedanisunshineshop"
+      },
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/aliquippapa"
+      }
+    ],
+    "instagram": [
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/therecordshopstudios/",
+        "handle": "therecordshopstudios"
+      },
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/therecordshop/",
+        "handle": "therecordshop"
+      },
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/therecordshopstudios/reels/",
+        "handle": "therecordshopstudios"
+      }
+    ]
+  },
+  "updates": {
+    "social_instagram": "therecordshopstudios",
+    "social_facebook": "https://facebook.com/recordshoppa",
+    "website": "https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/"
+  },
+  "skipped": {}
+}

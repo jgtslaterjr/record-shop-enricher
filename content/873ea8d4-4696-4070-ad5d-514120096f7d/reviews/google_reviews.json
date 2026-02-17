@@ -1,0 +1,20 @@
+{
+  "name": "Vinyl Chickie",
+  "rating": null,
+  "reviewCount": null,
+  "address": "2256 Mt Carmel Ave UNIT 2, Glenside, PA 19038",
+  "phone": null,
+  "website": "https://instagram.com/vinylchickie",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepqkwLcxqOW0QF9GIYSN3kKKVlwmZ56CtZ5-KMpGOq5S2xonEHVwozDmiH5W-Fyvmflk4V8Pp0xwFi-ZsTeeXHjDC1OUydtMP4yRIFyP-JdxDX_7dbkSqhSlSZGoY39w83NlxLIZpCEV71c=w408-h408-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Vinyl+Chickie/@40.1012004,-75.1540284,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6b10c7ddb1e37:0x5c55c749e11db3b3!8m2!3d40.1012004!4d-75.1514535!16s%2Fg%2F11wxv9d4sn?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-17T17:40:12.531Z"
+}

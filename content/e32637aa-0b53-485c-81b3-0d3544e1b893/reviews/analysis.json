@@ -1,0 +1,15 @@
+{
+  "raw_summary": "Here is the comprehensive summary of the reviews in JSON format:\n\n{\n  \"sentiment_score\": 8,\n  \"key_themes\": [\n    \"amazing selection\",\n    \"great vibe and welcoming atmosphere\",\n    \"friendly and knowledgeable staff\",\n    \"hidden gem\",\n    \"music lover's heaven\"\n  ],\n  \"pros\": [\n    \"amazing selection of vinyl records from various artists\",\n    \"friendly and knowledgeable staff\",\n    \"welcoming and no pretension\",\n    \"great value for money\",\n    \"excellent customer service\"\n  ],\n  \"cons\": [\n    \"prices may be a bit high\",\n    \"no negotiation on used records\",\n    \"limited parking options\"\n  ],\n  \"notable_quotes\": {\n    \"best\": \"Positively Records absolutely lived up to its name.\",\n    \"worst\": \"Extremely disappointed with quality of service.\",\n    \"funniest\": None\n  },\n  \"vibe_description\": \"Positively Records is a music lover's haven with a welcoming and no pretension atmosphere. The shop is filled from top to bottom with excellent finds, making it a great place to discover new music and connect with fellow music enthusiasts.\",\n  \"genre_specialties\": [\n    \"jazz\",\n    \"punk\"\n  ],\n  \"staff_mentions\": Reviewers consistently praise the staff for being friendly, knowledgeable, and helpful. The owner is particularly commended for his excellent customer service.\n  \"event_mentions\": None,\n  \"recommendation_for\": \"music enthusiasts, vinyl collectors, casual browsers looking for a unique shopping experience.\"\n}",
+  "metadata": {
+    "totalReviews": 10,
+    "yelpReviews": 10,
+    "googleReviews": 0,
+    "averageRating": 4.5,
+    "ratingDistribution": {
+      "1": 1,
+      "4": 1,
+      "5": 8
+    },
+    "analyzedAt": "2026-02-17T17:29:57.483Z"
+  }
+}

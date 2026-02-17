@@ -1,0 +1,119 @@
+{
+  "shop": {
+    "id": "e32637aa-0b53-485c-81b3-0d3544e1b893",
+    "name": "Positively Records",
+    "city": "Aliquippa",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Positively Records Aliquippa Pennsylvania record store",
+    "Positively Records Aliquippa instagram facebook"
+  ],
+  "discoveredAt": "2026-02-17T17:27:48.303Z",
+  "links": [
+    {
+      "category": "website",
+      "url": "https://www.positivelyrecords.com/"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/positivelyrecordss"
+    },
+    {
+      "category": "yelp",
+      "url": "https://www.yelp.com/biz/positively-records-levittown"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.vinylworld.org/record-shop/positively-records/",
+      "domain": "vinylworld.org"
+    },
+    {
+      "category": "website",
+      "url": "https://local.yahoo.com/info-12185082-positively-records-levittown/"
+    },
+    {
+      "category": "directory",
+      "url": "https://vinylmapper.com/record-stores/us/pa/levittown/positively-records-19057/",
+      "domain": "vinylmapper.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://vinylpackman.com/store/153",
+      "domain": "vinylpackman.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/levittown/record-store/4719491-positively-records",
+      "domain": "chamberofcommerce.com"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/positivelyrecords"
+    },
+    {
+      "category": "website",
+      "url": "https://adh6206.wixsite.com/record-revival/positively-records"
+    }
+  ],
+  "byCategory": {
+    "website": [
+      {
+        "category": "website",
+        "url": "https://www.positivelyrecords.com/"
+      },
+      {
+        "category": "website",
+        "url": "https://local.yahoo.com/info-12185082-positively-records-levittown/"
+      },
+      {
+        "category": "website",
+        "url": "https://adh6206.wixsite.com/record-revival/positively-records"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/positivelyrecordss"
+      },
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/positivelyrecords"
+      }
+    ],
+    "yelp": [
+      {
+        "category": "yelp",
+        "url": "https://www.yelp.com/biz/positively-records-levittown"
+      }
+    ],
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://www.vinylworld.org/record-shop/positively-records/",
+        "domain": "vinylworld.org"
+      },
+      {
+        "category": "directory",
+        "url": "https://vinylmapper.com/record-stores/us/pa/levittown/positively-records-19057/",
+        "domain": "vinylmapper.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://vinylpackman.com/store/153",
+        "domain": "vinylpackman.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/levittown/record-store/4719491-positively-records",
+        "domain": "chamberofcommerce.com"
+      }
+    ]
+  },
+  "updates": {
+    "yelp_url": "https://www.yelp.com/biz/positively-records-levittown",
+    "social_facebook": "https://facebook.com/positivelyrecordss",
+    "website": "https://www.positivelyrecords.com/"
+  },
+  "skipped": {}
+}

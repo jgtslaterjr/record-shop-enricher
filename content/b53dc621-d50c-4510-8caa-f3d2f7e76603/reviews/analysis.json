@@ -1,0 +1,15 @@
+{
+  "raw_summary": "Here is the analysis of the reviews in JSON format:\n\n{\n  \"sentiment_score\": 8,\n  \"key_themes\": [\n    \"unique selection\",\n    \"amazing customer service\",\n    \"cute atmosphere\",\n    \"smell issue (due to smoking policy)\",\n    \"quality of records\"\n  ],\n  \"pros\": [\n    \"amazing customer service\",\n    \"great prices\",\n    \"good selection\",\n    \"unique and interesting record selection\"\n  ],\n  \"cons\": [\n    \"smell issue due to smoking policy\",\n    \"grouchy staff member\"\n  ],\n  \"notable_quotes\": {\n    \"best\": \"What an amazing person and what an amazing record store.\",\n    \"worst\": None,\n    \"funniest\": \"I'm normally one who wants to flip through all the records in hopes to find that album I have been searching for but this wasn't the place for me.\"\n  },\n  \"vibe_description\": \"Sweet Repeat Records is a charming and welcoming shop with a cozy atmosphere. Reviewers praise the shop's unique selection and excellent customer service, making it a haven for music enthusiasts. However, some reviewers note that the smell of smoke can be overpowering due to the store's no-smoking policy.\"\n  },\n  \"genre_specialties\": [\n    \"vinyl records\",\n    \"jazz\"\n  ],\n  \"staff_mentions\": \"Reviewers praise the shop's customer service as being kind and patient. However, one reviewer notes that a staff member was grouchy and introverted when they visited.\"\n  },\n  \"event_mentions\": [\"Record Store Day\"],\n  \"recommendation_for\": \"music enthusiasts who appreciate unique record selection, vinyl collectors, casual browsers looking for a welcoming atmosphere\"\n}",
+  "metadata": {
+    "totalReviews": 6,
+    "yelpReviews": 6,
+    "googleReviews": 0,
+    "averageRating": 4.33,
+    "ratingDistribution": {
+      "2": 1,
+      "4": 1,
+      "5": 4
+    },
+    "analyzedAt": "2026-02-17T17:39:30.701Z"
+  }
+}

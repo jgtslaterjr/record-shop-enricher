@@ -1,0 +1,38 @@
+{
+  "shopId": "ce21ec92-d1bc-41ce-900b-9e4e31e20b8f",
+  "shopName": "Vinyl Lab Record Store",
+  "city": "Aliquippa",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-17T17:22:56.059Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "2.9s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "2.5s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "20.7s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "25.9s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "22.7s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "25.5s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "3.5s"
+    }
+  },
+  "completedAt": "2026-02-17T17:25:01.900Z"
+}

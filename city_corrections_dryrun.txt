@@ -1,0 +1,1446 @@
+DRY RUN REPORT (with collision detection)
+================================================================================
+
+State field format: string (example: "Washington")
+
+[Supervinyl]:
+  city: null → Los Angeles
+  slug: supervinyl-los-angeles-shops → supervinyl_los-angeles_california-f5a3e31f (⚠ collision - added suffix)
+
+[101 Music]:
+  city: null → San Francisco
+  slug: 101-music-san-francisco-shops → 101-music_san-francisco_california
+
+[A-1 Record Shop]:
+  city: null → New York
+  state: California → New York
+  slug: a-1-record-shop-new-york-shops → a-1-record-shop_new-york_new-york
+
+[Academy Records]:
+  city: null → New York
+  state: California → New York
+  slug: academy-records-new-york-shops → academy-records_new-york_new-york-a1372083 (⚠ collision - added suffix)
+
+[Affordable Sound & Printing]:
+  city: null → Austin
+  state: California → Texas
+  slug: affordable-sound-printing-austin-shops → affordable-sound-printing_austin_texas
+
+[Al's Music Video & Games]:
+  city: null → Seattle
+  state: California → Washington
+  slug: als-music-video-games-seattle-shops → als-music-video-games_seattle_washington
+
+[As The Record Turns]:
+  city: null → Los Angeles
+  slug: as-the-record-turns-los-angeles-shops → as-the-record-turns_los-angeles_california
+
+[Johnny Twist Blues Museum]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: johnny-twist-blues-museum-chicago-shops → johnny-twist-blues-museum_chicago_illinois
+
+[Torn Light Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: torn-light-records-chicago-shops → torn-light-records_chicago_illinois-ff7aebb7 (⚠ collision - added suffix)
+
+[Bridgeport Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: bridgeport-records-chicago-shops → bridgeport-records_chicago_illinois
+
+[Out of the Past Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: out-of-the-past-records-chicago-shops → out-of-the-past-records_chicago_illinois-3b2bb206 (⚠ collision - added suffix)
+
+[Academy Records & CDs]:
+  city: null → New York
+  state: California → New York
+  slug: academy-records-cds-new-york-shops → academy-records-cds_new-york_new-york-56266f06 (⚠ collision - added suffix)
+
+[Antone's Record Shop]:
+  city: null → Austin
+  state: California → Texas
+  slug: antones-record-shop-austin-shops → antones-record-shop_austin_texas
+
+[SICK CITY RECORDS]:
+  city: null → Los Angeles
+  slug: sick-city-records-los-angeles-shops → sick-city-records_los-angeles_california-035a4ed9 (⚠ collision - added suffix)
+
+[Round Trip Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: round-trip-records-chicago-shops → round-trip-records_chicago_illinois-f5921be1 (⚠ collision - added suffix)
+
+[606 Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: 606-records-chicago-shops → 606-records_chicago_illinois-e5931792 (⚠ collision - added suffix)
+
+[Str33t Records]:
+  city: null → Alhambra
+  slug: str33t-records-los-angeles-shops → str33t-records_alhambra_california
+
+[Lily's Record Shop Inc]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: lilys-record-shop-inc-chicago-shops → lilys-record-shop-inc_chicago_illinois
+
+[Agora Records]:
+  city: null → Los Angeles
+  slug: agora-records-los-angeles-shops → agora-records_los-angeles_california
+
+[Headline Records]:
+  city: null → Los Angeles
+  slug: headline-records-los-angeles-shops → headline-records_los-angeles_california-4e0c619b (⚠ collision - added suffix)
+
+[Exploded Records at JuiceLand]:
+  city: null → Austin
+  state: California → Texas
+  slug: exploded-records-at-juiceland-austin-shops → exploded-records-at-juiceland_austin_texas
+
+[Big Henry's Vinyl & Gifts]:
+  city: null → Austin
+  state: California → Texas
+  slug: big-henrys-vinyl-gifts-austin-shops → big-henrys-vinyl-gifts_austin_texas
+
+[Orbit Records LLC]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: orbit-records-llc-chicago-shops → orbit-records-llc_chicago_illinois
+
+[Magic Isle Record Shop]:
+  city: null → Austin
+  state: California → Texas
+  slug: magic-isle-record-shop-austin-shops → magic-isle-record-shop_austin_texas
+
+[Love Wheel Records]:
+  city: null → Austin
+  state: California → Texas
+  slug: love-wheel-records-austin-shops → love-wheel-records_austin_texas-a6dd3443 (⚠ collision - added suffix)
+
+[Piranha Records]:
+  city: null → Round Rock
+  state: California → Texas
+  slug: piranha-records-austin-shops → piranha-records_round-rock_texas
+
+[Dusty Groove]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: dusty-groove-chicago-shops → dusty-groove_chicago_illinois-b3956c98 (⚠ collision - added suffix)
+
+[Hyde Park Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: hyde-park-records-chicago-shops → hyde-park-records_chicago_illinois
+
+[Discoteca Sanchez]:
+  city: null → Austin
+  state: California → Texas
+  slug: discoteca-sanchez-austin-shops → discoteca-sanchez_austin_texas-b0c6ead2 (⚠ collision - added suffix)
+
+[Let's Boogie Records & Tapes]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: lets-boogie-records-tapes-chicago-shops → lets-boogie-records-tapes_chicago_illinois
+
+[Gramaphone Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: gramaphone-records-chicago-shops → gramaphone-records_chicago_illinois-8c444398 (⚠ collision - added suffix)
+
+[Shuga Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: shuga-records-chicago-shops → shuga-records_chicago_illinois-da64840d (⚠ collision - added suffix)
+
+[Record Surplus]:
+  city: null → Los Angeles
+  slug: record-surplus-los-angeles-shops → record-surplus_los-angeles_california
+
+[Curbside Books & Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: curbside-books-records-chicago-shops → curbside-books-records_chicago_illinois-418ce058 (⚠ collision - added suffix)
+
+[Going Underground Records]:
+  city: null → Los Angeles
+  slug: going-underground-records-los-angeles-shops → going-underground-records_los-angeles_california-57a138f2 (⚠ collision - added suffix)
+
+[Rough Trade Below]:
+  city: null → New York
+  state: California → New York
+  slug: rough-trade-below-new-york-shops → rough-trade-below_new-york_new-york
+
+[Everyday Music]:
+  city: null → Portland
+  state: California → Oregon
+  slug: everyday-music-portland-shops → everyday-music_portland_oregon
+
+[Revolution Guitar Company]:
+  city: null → Elmhurst
+  state: California → Illinois
+  slug: revolution-guitar-company-chicago-shops → revolution-guitar-company_elmhurst_illinois-c0cee007 (⚠ collision - added suffix)
+
+[Duty Free Records]:
+  city: null → New York
+  state: California → New York
+  slug: duty-free-records-new-york-shops → duty-free-records_new-york_new-york
+
+[Vinyl Veritas]:
+  city: null → New York
+  state: California → New York
+  slug: vinyl-veritas-new-york-shops → vinyl-veritas_new-york_new-york
+
+[Division Street Vintage]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: division-street-vintage-chicago-shops → division-street-vintage_chicago_illinois-4b72e343 (⚠ collision - added suffix)
+
+[Black Gold Records]:
+  city: null → New York
+  state: California → New York
+  slug: black-gold-records-new-york-shops → black-gold-records_new-york_new-york
+
+[Second Hand Records NYC]:
+  city: null → New York
+  state: California → New York
+  slug: second-hand-records-nyc-new-york-shops → second-hand-records-nyc_new-york_new-york
+
+[Second Chance Records LLC]:
+  city: null → Portland
+  state: California → Oregon
+  slug: second-chance-records-llc-portland-shops → second-chance-records-llc_portland_oregon
+
+[Music History]:
+  city: null → Portland
+  state: California → Oregon
+  slug: music-history-portland-shops → music-history_portland_oregon
+
+[Little Axe Records]:
+  city: null → Portland
+  state: California → Oregon
+  slug: little-axe-records-portland-shops → little-axe-records_portland_oregon
+
+[Mississippi Records]:
+  city: null → Portland
+  state: California → Oregon
+  slug: mississippi-records-portland-shops → mississippi-records_portland_oregon
+
+[Crossroads Music]:
+  city: null → Portland
+  state: California → Oregon
+  slug: crossroads-music-portland-shops → crossroads-music_portland_oregon
+
+[Dig Vinyl]:
+  city: null → Portland
+  state: California → Oregon
+  slug: dig-vinyl-portland-shops → dig-vinyl_portland_oregon
+
+[Vinyl Resting Place]:
+  city: null → Portland
+  state: California → Oregon
+  slug: vinyl-resting-place-portland-shops → vinyl-resting-place_portland_oregon
+
+[Spin Cycle Records Movies and Games]:
+  city: null → Seattle
+  state: California → Washington
+  slug: spin-cycle-records-movies-and-games-seattle-shops → spin-cycle-records-movies-and-games_seattle_washington
+
+[Bird Records]:
+  city: null → San Francisco
+  slug: bird-records-san-francisco-shops → bird-records_san-francisco_california
+
+[Tunnel Records]:
+  city: null → San Francisco
+  slug: tunnel-records-san-francisco-shops → tunnel-records_san-francisco_california
+
+[Super7]:
+  city: null → San Francisco
+  slug: super7-san-francisco-shops → super7_san-francisco_california
+
+[Zions Gate Records]:
+  city: null → Seattle
+  state: California → Washington
+  slug: zions-gate-records-seattle-shops → zions-gate-records_seattle_washington
+
+[Silver Platters SoDo]:
+  city: null → Seattle
+  state: California → Washington
+  slug: silver-platters-sodo-seattle-shops → silver-platters-sodo_seattle_washington
+
+[Neptune Music Co]:
+  city: null → Seattle
+  state: California → Washington
+  slug: neptune-music-co-seattle-shops → neptune-music-co_seattle_washington
+
+[Selector Records & Apparel]:
+  city: null → Seattle
+  state: California → Washington
+  slug: selector-records-apparel-seattle-shops → selector-records-apparel_seattle_washington
+
+[Singles Going Steady]:
+  city: null → Seattle
+  state: California → Washington
+  slug: singles-going-steady-seattle-shops → singles-going-steady_seattle_washington
+
+[Fat Cat Records]:
+  city: null → Seattle
+  state: California → Washington
+  slug: fat-cat-records-seattle-shops → fat-cat-records_seattle_washington
+
+[Sub Pop Records]:
+  city: null → Seattle
+  state: California → Washington
+  slug: sub-pop-records-seattle-shops → sub-pop-records_seattle_washington
+
+[Silver Platters]:
+  city: null → Seattle
+  state: California → Washington
+  slug: silver-platters-seattle-shops → silver-platters_seattle_washington
+
+[Colbo]:
+  city: null → New York
+  state: California → New York
+  slug: colbo-new-york-shops → colbo_new-york_new-york-618829e0 (⚠ collision - added suffix)
+
+[Revolution Records]:
+  city: null → Los Angeles
+  slug: revolution-records-los-angeles-shops → revolution-records_los-angeles_california-01c8b1ff (⚠ collision - added suffix)
+
+[stellaremnant]:
+  city: null → Los Angeles
+  slug: stellaremnant-los-angeles-shops → stellaremnant_los-angeles_california-f64b9263 (⚠ collision - added suffix)
+
+[Nivessa Vinyl Records Store]:
+  city: null → Los Angeles
+  slug: nivessa-vinyl-records-store-los-angeles-shops → nivessa-vinyl-records-store_los-angeles_california-4a0dad2a (⚠ collision - added suffix)
+
+[End of An Ear]:
+  city: null → Austin
+  state: California → Texas
+  slug: end-of-an-ear-austin-shops → end-of-an-ear_austin_texas-57d73c38 (⚠ collision - added suffix)
+
+[Grandsony records]:
+  city: null → Austin
+  state: California → Texas
+  slug: grandsony-records-austin-shops → grandsony-records_austin_texas
+
+[Beatology Vintage]:
+  city: null → Los Angeles
+  slug: beatology-vintage-los-angeles-shops → beatology-vintage_los-angeles_california-7b92b971 (⚠ collision - added suffix)
+
+[Hawthorne Game Exchange]:
+  city: null → Portland
+  state: California → Oregon
+  slug: hawthorne-game-exchange-portland-shops → hawthorne-game-exchange_portland_oregon
+
+[Sibylline Records]:
+  city: null → Pasadena
+  slug: sibylline-records-los-angeles-shops → sibylline-records_pasadena_california
+
+[7th Street Sound]:
+  city: null → Austin
+  state: California → Texas
+  slug: 7th-street-sound-austin-shops → 7th-street-sound_austin_texas
+
+[Austin Record Convention]:
+  city: null → Austin
+  state: California → Texas
+  slug: austin-record-convention-austin-shops → austin-record-convention_austin_texas-15dd1ae6 (⚠ collision - added suffix)
+
+[Friends of the Whittier Library Bookstore]:
+  city: null → Whittier
+  slug: friends-of-the-whittier-library-bookstore-los-angeles-shops → friends-of-the-whittier-library-bookstore_whittier_california
+
+[Counterpoint Records & Books]:
+  city: null → Los Angeles
+  slug: counterpoint-records-books-los-angeles-shops → counterpoint-records-books_los-angeles_california
+
+[Cobraside Distribution]:
+  city: null → Glendale
+  slug: cobraside-distribution-los-angeles-shops → cobraside-distribution_glendale_california-f990cd3e (⚠ collision - added suffix)
+
+[Avalon Vintage]:
+  city: null → Los Angeles
+  slug: avalon-vintage-los-angeles-shops → avalon-vintage_los-angeles_california
+
+[Miyagi Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: miyagi-records-chicago-shops → miyagi-records_chicago_illinois
+
+[Music Direct]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: music-direct-chicago-shops → music-direct_chicago_illinois-cfc823bc (⚠ collision - added suffix)
+
+[We Buy Records]:
+  city: null → Westchester
+  state: California → Illinois
+  slug: we-buy-records-chicago-shops → we-buy-records_westchester_illinois
+
+[Rattleback Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: rattleback-records-chicago-shops → rattleback-records_chicago_illinois-2782f125 (⚠ collision - added suffix)
+
+[Bucket O'Blood Books & Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: bucket-oblood-books-records-chicago-shops → bucket-oblood-books-records_chicago_illinois
+
+[Meteor Gem]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: meteor-gem-chicago-shops → meteor-gem_chicago_illinois-be09dcac (⚠ collision - added suffix)
+
+[Disco City Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: disco-city-records-chicago-shops → disco-city-records_chicago_illinois-6091d47c (⚠ collision - added suffix)
+
+[Canterbury Records]:
+  city: null → Pasadena
+  slug: canterbury-records-los-angeles-shops → canterbury-records_pasadena_california
+
+[Captured Record Shop]:
+  city: null → New York
+  state: California → New York
+  slug: captured-record-shop-new-york-shops → captured-record-shop_new-york_new-york
+
+[Passenger Seat Records]:
+  city: null → Portland
+  state: California → Oregon
+  slug: passenger-seat-records-portland-shops → passenger-seat-records_portland_oregon
+
+[Holy Cow Records]:
+  city: null → Seattle
+  state: California → Washington
+  slug: holy-cow-records-seattle-shops → holy-cow-records_seattle_washington
+
+[Catalina Records]:
+  city: null → San Francisco
+  slug: catalina-records-san-francisco-shops → catalina-records_san-francisco_california
+
+[Light and Sound Records]:
+  city: null → Seattle
+  state: California → Washington
+  slug: light-and-sound-records-seattle-shops → light-and-sound-records_seattle_washington
+
+[I Hate Records]:
+  city: null → San Francisco
+  slug: i-hate-records-san-francisco-shops → i-hate-records_san-francisco_california
+
+[Knight Sounds Entertainment]:
+  city: null → San Jose
+  slug: knight-sounds-entertainment-san-francisco-shops → knight-sounds-entertainment_san-jose_california
+
+[Yesterday's Numbers]:
+  city: null → San Francisco
+  slug: yesterdays-numbers-san-francisco-shops → yesterdays-numbers_san-francisco_california
+
+[High Fidelity Records Inc]:
+  city: null → Los Angeles
+  slug: high-fidelity-records-inc-los-angeles-shops → high-fidelity-records-inc_los-angeles_california
+
+[Cosmic Vinyl]:
+  city: null → Los Angeles
+  slug: cosmic-vinyl-los-angeles-shops → cosmic-vinyl_los-angeles_california-eb13277e (⚠ collision - added suffix)
+
+[Videotheque]:
+  city: null → Los Angeles
+  slug: videotheque-los-angeles-shops → videotheque_los-angeles_california-31c96263 (⚠ collision - added suffix)
+
+[Soundsations Records]:
+  city: null → Los Angeles
+  slug: soundsations-records-los-angeles-shops → soundsations-records_los-angeles_california
+
+[Mutation Records]:
+  city: null → Los Angeles
+  slug: mutation-records-los-angeles-shops → mutation-records_los-angeles_california
+
+[Arroyo Records]:
+  city: null → Los Angeles
+  slug: arroyo-records-los-angeles-shops → arroyo-records_los-angeles_california-66facf1f (⚠ collision - added suffix)
+
+[On Maritime Records]:
+  city: null → Los Angeles
+  slug: on-maritime-records-los-angeles-shops → on-maritime-records_los-angeles_california
+
+[Commune Records]:
+  city: null → Pasadena
+  slug: commune-records-los-angeles-shops → commune-records_pasadena_california
+
+[HipHop Philosophy Record Shop/Radio Station/Art Gallery]:
+  city: null → Los Angeles
+  slug: hiphop-philosophy-record-shopradio-stationart-gall-los-angeles-shops → hiphop-philosophy-record-shopradio-stationart-gallery_los-angeles_california
+
+[Atomic Records💿]:
+  city: null → Burbank
+  slug: atomic-records-los-angeles-shops → atomic-records_burbank_california
+
+[Gimme Gimme Records]:
+  city: null → Los Angeles
+  slug: gimme-gimme-records-los-angeles-shops → gimme-gimme-records_los-angeles_california
+
+[Common Wave Hi-Fi]:
+  city: null → Los Angeles
+  slug: common-wave-hi-fi-los-angeles-shops → common-wave-hi-fi_los-angeles_california-b6ab9bc5 (⚠ collision - added suffix)
+
+[Caveman Vintage Music]:
+  city: null → Los Angeles
+  slug: caveman-vintage-music-los-angeles-shops → caveman-vintage-music_los-angeles_california-f0a6e4cf (⚠ collision - added suffix)
+
+[Permanent Records]:
+  city: null → Los Angeles
+  slug: permanent-records-los-angeles-shops → permanent-records_los-angeles_california-4f1f52fc (⚠ collision - added suffix)
+
+[The Artform Studio]:
+  city: null → Los Angeles
+  slug: the-artform-studio-los-angeles-shops → the-artform-studio_los-angeles_california
+
+[De La Playa Records]:
+  city: null → Los Angeles
+  slug: de-la-playa-records-los-angeles-shops → de-la-playa-records_los-angeles_california
+
+[Rewind Audio]:
+  city: null → Los Angeles
+  slug: rewind-audio-los-angeles-shops → rewind-audio_los-angeles_california-3dffddbf (⚠ collision - added suffix)
+
+[Audio Element]:
+  city: null → Pasadena
+  slug: audio-element-los-angeles-shops → audio-element_pasadena_california
+
+[Hollywood DJ]:
+  city: null → Los Angeles
+  slug: hollywood-dj-los-angeles-shops → hollywood-dj_los-angeles_california-a2b76846 (⚠ collision - added suffix)
+
+[Breakaway Records]:
+  city: null → Austin
+  state: California → Texas
+  slug: breakaway-records-austin-shops → breakaway-records_austin_texas-2dee9b72 (⚠ collision - added suffix)
+
+[Sunshine Vinyl]:
+  city: null → Austin
+  state: California → Texas
+  slug: sunshine-vinyl-austin-shops → sunshine-vinyl_austin_texas-6ff68ebc (⚠ collision - added suffix)
+
+[BLK Vinyl]:
+  city: null → Austin
+  state: California → Texas
+  slug: blk-vinyl-austin-shops → blk-vinyl_austin_texas-61325837 (⚠ collision - added suffix)
+
+[Nivessa]:
+  city: null → Los Angeles
+  slug: nivessa-los-angeles-shops → nivessa_los-angeles_california-f9e7b8d7 (⚠ collision - added suffix)
+
+[Drinks Records]:
+  city: null → Austin
+  state: California → Texas
+  slug: drinks-records-austin-shops → drinks-records_austin_texas-9bd27e25 (⚠ collision - added suffix)
+
+[Mount Analog]:
+  city: null → Los Angeles
+  slug: mount-analog-los-angeles-shops → mount-analog_los-angeles_california-43588cca (⚠ collision - added suffix)
+
+[Turntable Records]:
+  city: null → Austin
+  state: California → Texas
+  slug: turntable-records-austin-shops → turntable-records_austin_texas-a6c3f9a9 (⚠ collision - added suffix)
+
+[Iris Records]:
+  city: null → Jersey City
+  state: California → New Jersey
+  slug: iris-records-new-york-shops → iris-records_jersey-city_new-jersey-30036eba (⚠ collision - added suffix)
+
+[Lost Art Records]:
+  city: null → Austin
+  state: California → Texas
+  slug: lost-art-records-austin-shops → lost-art-records_austin_texas
+
+[Big Indie]:
+  city: null → Austin
+  state: California → Texas
+  slug: big-indie-austin-shops → big-indie_austin_texas
+
+[Living In Stereo]:
+  city: null → Austin
+  state: California → Texas
+  slug: living-in-stereo-austin-shops → living-in-stereo_austin_texas-f349ae02 (⚠ collision - added suffix)
+
+[Pro-Tape]:
+  city: null → Austin
+  state: California → Texas
+  slug: pro-tape-austin-shops → pro-tape_austin_texas
+
+[Wild About Music]:
+  city: null → Austin
+  state: California → Texas
+  slug: wild-about-music-austin-shops → wild-about-music_austin_texas-855734de (⚠ collision - added suffix)
+
+[Just Push Record Studios]:
+  city: null → Austin
+  state: California → Texas
+  slug: just-push-record-studios-austin-shops → just-push-record-studios_austin_texas
+
+[Magic Isle Vinyl]:
+  city: null → Austin
+  state: California → Texas
+  slug: magic-isle-vinyl-austin-shops → magic-isle-vinyl_austin_texas-5e444bed (⚠ collision - added suffix)
+
+[Aaron's Rock & Roll]:
+  city: null → Austin
+  state: California → Texas
+  slug: aarons-rock-roll-austin-shops → aarons-rock-roll_austin_texas
+
+[Y Que]:
+  city: null → Los Angeles
+  slug: y-que-los-angeles-shops → y-que_los-angeles_california-a07ed9b5 (⚠ collision - added suffix)
+
+[Jacknife Records & Tapes]:
+  city: null → Los Angeles
+  slug: jacknife-records-tapes-los-angeles-shops → jacknife-records-tapes_los-angeles_california-249a1548 (⚠ collision - added suffix)
+
+[Healing Force Of The Universe]:
+  city: null → Pasadena
+  slug: healing-force-of-the-universe-los-angeles-shops → healing-force-of-the-universe_pasadena_california
+
+[High-Fidelity]:
+  city: null → Los Angeles
+  slug: high-fidelity-los-angeles-shops → high-fidelity_los-angeles_california-ec715543 (⚠ collision - added suffix)
+
+[Signal Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: signal-records-chicago-shops → signal-records_chicago_illinois
+
+[Chicago Public Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: chicago-public-records-chicago-shops → chicago-public-records_chicago_illinois
+
+[Record Breakers]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: record-breakers-chicago-shops → record-breakers_chicago_illinois-d2d2869a (⚠ collision - added suffix)
+
+[Laurie's Planet of Sound]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: lauries-planet-of-sound-chicago-shops → lauries-planet-of-sound_chicago_illinois
+
+[Shady Rest Vintage & Vinyl]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: shady-rest-vintage-vinyl-chicago-shops → shady-rest-vintage-vinyl_chicago_illinois
+
+[Rolling Stones]:
+  city: null → Norridge
+  state: California → Illinois
+  slug: rolling-stones-chicago-shops → rolling-stones_norridge_illinois-152fa186 (⚠ collision - added suffix)
+
+[Tone Deaf Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: tone-deaf-records-chicago-shops → tone-deaf-records_chicago_illinois-a5e6a2db (⚠ collision - added suffix)
+
+[Pinwheel Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: pinwheel-records-chicago-shops → pinwheel-records_chicago_illinois-81dd0a05 (⚠ collision - added suffix)
+
+[Loud Pizza Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: loud-pizza-records-chicago-shops → loud-pizza-records_chicago_illinois-13c6838d (⚠ collision - added suffix)
+
+[Graveface Chicago]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: graveface-chicago-chicago-shops → graveface-chicago_chicago_illinois-a6d316b4 (⚠ collision - added suffix)
+
+[ShopColumbia]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: shopcolumbia-chicago-shops → shopcolumbia_chicago_illinois-ec934da6 (⚠ collision - added suffix)
+
+[Bob's Blues & Jazz Mart]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: bobs-blues-jazz-mart-chicago-shops → bobs-blues-jazz-mart_chicago_illinois
+
+[Interstellar Space Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: interstellar-space-records-chicago-shops → interstellar-space-records_chicago_illinois-1d5bd384 (⚠ collision - added suffix)
+
+[Lily's Record Shop]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: lilys-record-shop-chicago-shops → lilys-record-shop_chicago_illinois
+
+[Bric-A-Brac Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: bric-a-brac-records-chicago-shops → bric-a-brac-records_chicago_illinois-5ffe0e6f (⚠ collision - added suffix)
+
+[Thrill Jockey Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: thrill-jockey-records-chicago-shops → thrill-jockey-records_chicago_illinois-fee118f0 (⚠ collision - added suffix)
+
+[Groove Distribution]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: groove-distribution-chicago-shops → groove-distribution_chicago_illinois-0fd51b5f (⚠ collision - added suffix)
+
+[Morpho Gallery Records and Art]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: morpho-gallery-records-and-art-chicago-shops → morpho-gallery-records-and-art_chicago_illinois-0005d4f5 (⚠ collision - added suffix)
+
+[Artifact Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: artifact-records-chicago-shops → artifact-records_chicago_illinois-8a7fa6e4 (⚠ collision - added suffix)
+
+[Transistor]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: transistor-chicago-shops → transistor_chicago_illinois-072eacbf (⚠ collision - added suffix)
+
+[Queenc Tobacco and Records Sells]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: queenc-tobacco-and-records-sells-chicago-shops → queenc-tobacco-and-records-sells_chicago_illinois-c15f6534 (⚠ collision - added suffix)
+
+[Landmark Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: landmark-records-chicago-shops → landmark-records_chicago_illinois-0263b315 (⚠ collision - added suffix)
+
+[Delmark Records]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: delmark-records-chicago-shops → delmark-records_chicago_illinois-3470714f (⚠ collision - added suffix)
+
+[Chicago Independent Distribution]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: chicago-independent-distribution-chicago-shops → chicago-independent-distribution_chicago_illinois-be055d7c (⚠ collision - added suffix)
+
+[FT-58 No Requests]:
+  city: null → Chicago
+  state: California → Illinois
+  slug: ft-58-no-requests-chicago-shops → ft-58-no-requests_chicago_illinois-9343c749 (⚠ collision - added suffix)
+
+[The Record Parlour]:
+  city: null → Los Angeles
+  slug: the-record-parlour-los-angeles-shops → the-record-parlour_los-angeles_california-39bc1e43 (⚠ collision - added suffix)
+
+[Nivessa Vinyl Records Store (on Pico)]:
+  city: null → Los Angeles
+  slug: nivessa-vinyl-records-store-on-pico-los-angeles-shops → nivessa-vinyl-records-store-on-pico_los-angeles_california
+
+[Nivessa Vinyl Records: The Music Experience (Hollywood)]:
+  city: null → Los Angeles
+  slug: nivessa-vinyl-records-the-music-experience-hollywo-los-angeles-shops → nivessa-vinyl-records-the-music-experience-hollywood_los-angeles_california
+
+[Record Safari]:
+  city: null → Los Angeles
+  slug: record-safari-los-angeles-shops → record-safari_los-angeles_california-0349557b (⚠ collision - added suffix)
+
+[Rockaway Records]:
+  city: null → Los Angeles
+  slug: rockaway-records-los-angeles-shops → rockaway-records_los-angeles_california-daa035bb (⚠ collision - added suffix)
+
+[Salt Box Records]:
+  city: null → Los Angeles
+  slug: salt-box-records-los-angeles-shops → salt-box-records_los-angeles_california-37f2899c (⚠ collision - added suffix)
+
+[Freakbeat Records]:
+  city: null → Los Angeles
+  slug: freakbeat-records-los-angeles-shops → freakbeat-records_los-angeles_california
+
+[Sans Visage]:
+  city: null → Los Angeles
+  slug: sans-visage-los-angeles-shops → sans-visage_los-angeles_california-50ba648e (⚠ collision - added suffix)
+
+[Dark Brown Records]:
+  city: null → Inglewood
+  slug: dark-brown-records-los-angeles-shops → dark-brown-records_inglewood_california
+
+[DESTIJL]:
+  city: null → Los Angeles
+  slug: destijl-los-angeles-shops → destijl_los-angeles_california-365e5576 (⚠ collision - added suffix)
+
+[R&G Records]:
+  city: null → Inglewood
+  slug: rg-records-los-angeles-shops → rg-records_inglewood_california
+
+[Bad Dog]:
+  city: null → Los Angeles
+  slug: bad-dog-los-angeles-shops → bad-dog_los-angeles_california-0c58e209 (⚠ collision - added suffix)
+
+[Rough Trade Above]:
+  city: null → New York
+  state: California → New York
+  slug: rough-trade-above-new-york-shops → rough-trade-above_new-york_new-york
+
+[Generation Records]:
+  city: null → New York
+  state: California → New York
+  slug: generation-records-new-york-shops → generation-records_new-york_new-york-cf2cfe12 (⚠ collision - added suffix)
+
+[Producer plug]:
+  city: null → New York
+  state: California → New York
+  slug: producer-plug-new-york-shops → producer-plug_new-york_new-york
+
+[Tunes]:
+  city: null → Hoboken
+  state: California → New Jersey
+  slug: tunes-new-york-shops → tunes_hoboken_new-jersey-a36d0cbc (⚠ collision - added suffix)
+
+[Stranded Records NYC]:
+  city: null → New York
+  state: California → New York
+  slug: stranded-records-nyc-new-york-shops → stranded-records-nyc_new-york_new-york-70c00a40 (⚠ collision - added suffix)
+
+[Limited to One Record Shop]:
+  city: null → New York
+  state: California → New York
+  slug: limited-to-one-record-shop-new-york-shops → limited-to-one-record-shop_new-york_new-york-82055604 (⚠ collision - added suffix)
+
+[Village Revival Records]:
+  city: null → New York
+  state: California → New York
+  slug: village-revival-records-new-york-shops → village-revival-records_new-york_new-york-b4b96487 (⚠ collision - added suffix)
+
+[Catalyst Records LES & Market Bar]:
+  city: null → New York
+  state: California → New York
+  slug: catalyst-records-les-market-bar-new-york-shops → catalyst-records-les-market-bar_new-york_new-york
+
+[Rotten Island Records]:
+  city: null → New York
+  state: California → New York
+  slug: rotten-island-records-new-york-shops → rotten-island-records_new-york_new-york-564da812 (⚠ collision - added suffix)
+
+[Paradise of Replica]:
+  city: null → New York
+  state: California → New York
+  slug: paradise-of-replica-new-york-shops → paradise-of-replica_new-york_new-york-fbf653d5 (⚠ collision - added suffix)
+
+[Downtown Music Gallery]:
+  city: null → New York
+  state: California → New York
+  slug: downtown-music-gallery-new-york-shops → downtown-music-gallery_new-york_new-york-c82abcff (⚠ collision - added suffix)
+
+[Jazz Record Center]:
+  city: null → New York
+  state: California → New York
+  slug: jazz-record-center-new-york-shops → jazz-record-center_new-york_new-york-29373d1f (⚠ collision - added suffix)
+
+[Ergot Records]:
+  city: null → New York
+  state: California → New York
+  slug: ergot-records-new-york-shops → ergot-records_new-york_new-york-1d14e72c (⚠ collision - added suffix)
+
+[Record Runner]:
+  city: null → New York
+  state: California → New York
+  slug: record-runner-new-york-shops → record-runner_new-york_new-york-a385312f (⚠ collision - added suffix)
+
+[Human Head Records]:
+  city: null → New York
+  state: California → New York
+  slug: human-head-records-new-york-shops → human-head-records_new-york_new-york
+
+[POP MART]:
+  city: null → New York
+  state: California → New York
+  slug: pop-mart-new-york-shops → pop-mart_new-york_new-york
+
+[For The Record]:
+  city: null → New York
+  state: California → New York
+  slug: for-the-record-new-york-shops → for-the-record_new-york_new-york
+
+[Rock and Soul DJ Equipment and Records]:
+  city: null → New York
+  state: California → New York
+  slug: rock-and-soul-dj-equipment-and-records-new-york-shops → rock-and-soul-dj-equipment-and-records_new-york_new-york-81adc93c (⚠ collision - added suffix)
+
+[929]:
+  city: null → New York
+  state: California → New York
+  slug: 929-new-york-shops → 929_new-york_new-york-206f1c80 (⚠ collision - added suffix)
+
+[Face Records NYC]:
+  city: null → New York
+  state: California → New York
+  slug: face-records-nyc-new-york-shops → face-records-nyc_new-york_new-york
+
+[Mercer Street Books & Records]:
+  city: null → New York
+  state: California → New York
+  slug: mercer-street-books-records-new-york-shops → mercer-street-books-records_new-york_new-york-950fe248 (⚠ collision - added suffix)
+
+[Stray Vintage]:
+  city: null → New York
+  state: California → New York
+  slug: stray-vintage-new-york-shops → stray-vintage_new-york_new-york
+
+[Material World]:
+  city: null → New York
+  state: California → New York
+  slug: material-world-new-york-shops → material-world_new-york_new-york
+
+[Westsider Rare and Used Books]:
+  city: null → New York
+  state: California → New York
+  slug: westsider-rare-and-used-books-new-york-shops → westsider-rare-and-used-books_new-york_new-york-66082ab5 (⚠ collision - added suffix)
+
+[Record Shop]:
+  city: null → New York
+  state: California → New York
+  slug: record-shop-new-york-shops → record-shop_new-york_new-york
+
+[Barnes & Noble Booksellers]:
+  city: null → New York
+  state: California → New York
+  slug: barnes-noble-booksellers-new-york-shops → barnes-noble-booksellers_new-york_new-york-e5204dcd (⚠ collision - added suffix)
+
+[A1 Records]:
+  city: null → New York
+  state: California → New York
+  slug: a1-records-new-york-shops → a1-records_new-york_new-york-5f3a4d2e (⚠ collision - added suffix)
+
+[Westsider Records]:
+  city: null → New York
+  state: California → New York
+  slug: westsider-records-new-york-shops → westsider-records_new-york_new-york-08d3b03c (⚠ collision - added suffix)
+
+[Academy Records Annex]:
+  city: null → New York
+  state: California → New York
+  slug: academy-records-annex-new-york-shops → academy-records-annex_new-york_new-york
+
+[Fifth Avenue Records & Tapes]:
+  city: null → New York
+  state: California → New York
+  slug: fifth-avenue-records-tapes-new-york-shops → fifth-avenue-records-tapes_new-york_new-york
+
+[Vinyl + Thread]:
+  city: null → New York
+  state: California → New York
+  slug: vinyl-thread-new-york-shops → vinyl-thread_new-york_new-york
+
+[True Love Always]:
+  city: null → New York
+  state: California → New York
+  slug: true-love-always-new-york-shops → true-love-always_new-york_new-york
+
+[Captured Tracks Shop]:
+  city: null → New York
+  state: California → New York
+  slug: captured-tracks-shop-new-york-shops → captured-tracks-shop_new-york_new-york
+
+[Joseph Koch Comics Warehouse]:
+  city: null → New York
+  state: California → New York
+  slug: joseph-koch-comics-warehouse-new-york-shops → joseph-koch-comics-warehouse_new-york_new-york
+
+[Underground Vinyl Records]:
+  city: null → New York
+  state: California → New York
+  slug: underground-vinyl-records-new-york-shops → underground-vinyl-records_new-york_new-york-15c197b0 (⚠ collision - added suffix)
+
+[Legacy]:
+  city: null → New York
+  state: California → New York
+  slug: legacy-new-york-shops → legacy_new-york_new-york
+
+[Rebel Rouser]:
+  city: null → New York
+  state: California → New York
+  slug: rebel-rouser-new-york-shops → rebel-rouser_new-york_new-york
+
+[Record City]:
+  city: null → New York
+  state: California → New York
+  slug: record-city-new-york-shops → record-city_new-york_new-york
+
+[Record Grouch]:
+  city: null → New York
+  state: California → New York
+  slug: record-grouch-new-york-shops → record-grouch_new-york_new-york
+
+[Brooklyn Vintage Company]:
+  city: null → New York
+  state: California → New York
+  slug: brooklyn-vintage-company-new-york-shops → brooklyn-vintage-company_new-york_new-york
+
+[Vinyl Fantasy]:
+  city: null → New York
+  state: California → New York
+  slug: vinyl-fantasy-new-york-shops → vinyl-fantasy_new-york_new-york
+
+[Earwax Records]:
+  city: null → New York
+  state: California → New York
+  slug: earwax-records-new-york-shops → earwax-records_new-york_new-york
+
+[Deep Cuts Record Store]:
+  city: null → New York
+  state: California → New York
+  slug: deep-cuts-record-store-new-york-shops → deep-cuts-record-store_new-york_new-york
+
+[Rough Trade]:
+  city: null → New York
+  state: California → New York
+  slug: rough-trade-new-york-shops → rough-trade_new-york_new-york-ef12fa7b (⚠ collision - added suffix)
+
+[Almost Ready Records]:
+  city: null → New York
+  state: California → New York
+  slug: almost-ready-records-new-york-shops → almost-ready-records_new-york_new-york
+
+[Sterling Records]:
+  city: null → New York
+  state: California → New York
+  slug: sterling-records-new-york-shops → sterling-records_new-york_new-york
+
+[Dream Fishing Tackle]:
+  city: null → New York
+  state: California → New York
+  slug: dream-fishing-tackle-new-york-shops → dream-fishing-tackle_new-york_new-york
+
+[Manhattan45]:
+  city: null → New York
+  state: California → New York
+  slug: manhattan45-new-york-shops → manhattan45_new-york_new-york-ee0545b8 (⚠ collision - added suffix)
+
+[Grooves]:
+  city: null → San Francisco
+  slug: grooves-san-francisco-shops → grooves_san-francisco_california
+
+[Out of Sight Records]:
+  city: null → San Francisco
+  slug: out-of-sight-records-san-francisco-shops → out-of-sight-records_san-francisco_california
+
+[Originals Vinyl]:
+  city: null → San Francisco
+  slug: originals-vinyl-san-francisco-shops → originals-vinyl_san-francisco_california
+
+[Music Millennium]:
+  city: null → Portland
+  state: California → Oregon
+  slug: music-millennium-portland-shops → music-millennium_portland_oregon
+
+[Tomorrow Records]:
+  city: null → Portland
+  state: California → Oregon
+  slug: tomorrow-records-portland-shops → tomorrow-records_portland_oregon
+
+[Too Many Records]:
+  city: null → Portland
+  state: California → Oregon
+  slug: too-many-records-portland-shops → too-many-records_portland_oregon
+
+[Landfill Rescue Unit Records]:
+  city: null → Portland
+  state: California → Oregon
+  slug: landfill-rescue-unit-records-portland-shops → landfill-rescue-unit-records_portland_oregon
+
+[Louder Records by Baerlic Brewing]:
+  city: null → Portland
+  state: California → Oregon
+  slug: louder-records-by-baerlic-brewing-portland-shops → louder-records-by-baerlic-brewing_portland_oregon
+
+[Jackpot Records]:
+  city: null → Portland
+  state: California → Oregon
+  slug: jackpot-records-portland-shops → jackpot-records_portland_oregon
+
+[Platinum Records Lights & Sound]:
+  city: null → Portland
+  state: California → Oregon
+  slug: platinum-records-lights-sound-portland-shops → platinum-records-lights-sound_portland_oregon
+
+[My Vinyl Underground]:
+  city: null → Portland
+  state: California → Oregon
+  slug: my-vinyl-underground-portland-shops → my-vinyl-underground_portland_oregon
+
+[Mint Gallery Records]:
+  city: null → Portland
+  state: California → Oregon
+  slug: mint-gallery-records-portland-shops → mint-gallery-records_portland_oregon
+
+[Clinton Street Record & Stereo]:
+  city: null → Portland
+  state: California → Oregon
+  slug: clinton-street-record-stereo-portland-shops → clinton-street-record-stereo_portland_oregon
+
+[The Record Pub]:
+  city: null → Portland
+  state: California → Oregon
+  slug: the-record-pub-portland-shops → the-record-pub_portland_oregon
+
+[Prospector Records]:
+  city: null → Portland
+  state: California → Oregon
+  slug: prospector-records-portland-shops → prospector-records_portland_oregon
+
+[Speck's Records & Tapes]:
+  city: null → Portland
+  state: California → Oregon
+  slug: specks-records-tapes-portland-shops → specks-records-tapes_portland_oregon
+
+[Black Water Records]:
+  city: null → Portland
+  state: California → Oregon
+  slug: black-water-records-portland-shops → black-water-records_portland_oregon
+
+[Variety Records]:
+  city: null → Portland
+  state: California → Oregon
+  slug: variety-records-portland-shops → variety-records_portland_oregon
+
+[Landfill Rescue Unit]:
+  city: null → Portland
+  state: California → Oregon
+  slug: landfill-rescue-unit-portland-shops → landfill-rescue-unit_portland_oregon
+
+[Jump Jump Music]:
+  city: null → Portland
+  state: California → Oregon
+  slug: jump-jump-music-portland-shops → jump-jump-music_portland_oregon
+
+[Bishop & Wilde]:
+  city: null → Portland
+  state: California → Oregon
+  slug: bishop-wilde-portland-shops → bishop-wilde_portland_oregon
+
+[Bingo Used Books]:
+  city: null → Portland
+  state: California → Oregon
+  slug: bingo-used-books-portland-shops → bingo-used-books_portland_oregon
+
+[Exiled Records]:
+  city: null → Portland
+  state: California → Oregon
+  slug: exiled-records-portland-shops → exiled-records_portland_oregon
+
+[Average Joe's Vintage Collective]:
+  city: null → Portland
+  state: California → Oregon
+  slug: average-joes-vintage-collective-portland-shops → average-joes-vintage-collective_portland_oregon
+
+[Spin the Bottle]:
+  city: null → Portland
+  state: California → Oregon
+  slug: spin-the-bottle-portland-shops → spin-the-bottle_portland_oregon
+
+[Second Chance Records]:
+  city: null → Portland
+  state: California → Oregon
+  slug: second-chance-records-portland-shops → second-chance-records_portland_oregon
+
+[generation K]:
+  city: null → undefined
+  state: California → Oregon
+  slug: generation-k-portland-shops → generation-k_oregon
+
+[Creatures Closet]:
+  city: null → Portland
+  state: California → Oregon
+  slug: creatures-closet-portland-shops → creatures-closet_portland_oregon
+
+[Super-Electric Records]:
+  city: null → Portland
+  state: California → Oregon
+  slug: super-electric-records-portland-shops → super-electric-records_portland_oregon
+
+[Grover’s Curiosity Shop]:
+  city: null → Portland
+  state: California → Oregon
+  slug: grovers-curiosity-shop-portland-shops → grovers-curiosity-shop_portland_oregon
+
+[Tender Loving Empire]:
+  city: null → Portland
+  state: California → Oregon
+  slug: tender-loving-empire-portland-shops → tender-loving-empire_portland_oregon
+
+[Devout records]:
+  city: null → Portland
+  state: California → Oregon
+  slug: devout-records-portland-shops → devout-records_portland_oregon
+
+[Discogs]:
+  city: null → Beaverton
+  state: California → Oregon
+  slug: discogs-portland-shops → discogs_beaverton_oregon
+
+[Musique Plastique]:
+  city: null → Portland
+  state: California → Oregon
+  slug: musique-plastique-portland-shops → musique-plastique_portland_oregon
+
+[Beacon Sound]:
+  city: null → Portland
+  state: California → Oregon
+  slug: beacon-sound-portland-shops → beacon-sound_portland_oregon
+
+[City Noise]:
+  city: null → Portland
+  state: California → Oregon
+  slug: city-noise-portland-shops → city-noise_portland_oregon
+
+[AstronautSaint Records]:
+  city: null → Milwaukie
+  state: California → Oregon
+  slug: astronautsaint-records-portland-shops → astronautsaint-records_milwaukie_oregon
+
+[Royal Records]:
+  city: null → Seattle
+  state: California → Washington
+  slug: royal-records-seattle-shops → royal-records_seattle_washington
+
+[Vinyl Dreams]:
+  city: null → San Francisco
+  slug: vinyl-dreams-san-francisco-shops → vinyl-dreams_san-francisco_california
+
+[Cantina Records]:
+  city: null → San Francisco
+  slug: cantina-records-san-francisco-shops → cantina-records_san-francisco_california
+
+[Rooky Ricardo's Records]:
+  city: null → San Francisco
+  slug: rooky-ricardos-records-san-francisco-shops → rooky-ricardos-records_san-francisco_california
+
+[Groove Merchant Records]:
+  city: null → San Francisco
+  slug: groove-merchant-records-san-francisco-shops → groove-merchant-records_san-francisco_california
+
+[Stranded Records SF]:
+  city: null → San Francisco
+  slug: stranded-records-sf-san-francisco-shops → stranded-records-sf_san-francisco_california
+
+[Thrillhouse Records]:
+  city: null → San Francisco
+  slug: thrillhouse-records-san-francisco-shops → thrillhouse-records_san-francisco_california
+
+[Discodelic]:
+  city: null → San Francisco
+  slug: discodelic-san-francisco-shops → discodelic_san-francisco_california
+
+[Hyde Street Studios]:
+  city: null → San Francisco
+  slug: hyde-street-studios-san-francisco-shops → hyde-street-studios_san-francisco_california
+
+[Noise]:
+  city: null → San Francisco
+  slug: noise-san-francisco-shops → noise_san-francisco_california
+
+[The Music Store]:
+  city: null → San Francisco
+  slug: the-music-store-san-francisco-shops → the-music-store_san-francisco_california
+
+[Huslin Dream Records]:
+  city: null → San Francisco
+  slug: huslin-dream-records-san-francisco-shops → huslin-dream-records_san-francisco_california
+
+[Fig & Thistle Apothecary]:
+  city: null → San Francisco
+  slug: fig-thistle-apothecary-san-francisco-shops → fig-thistle-apothecary_san-francisco_california
+
+[Jack's Record Cellar]:
+  city: null → San Francisco
+  slug: jacks-record-cellar-san-francisco-shops → jacks-record-cellar_san-francisco_california
+
+[Offshore Sounds]:
+  city: null → San Francisco
+  slug: offshore-sounds-san-francisco-shops → offshore-sounds_san-francisco_california
+
+[Dark Entries Records]:
+  city: null → San Francisco
+  slug: dark-entries-records-san-francisco-shops → dark-entries-records_san-francisco_california
+
+[Stranded Records - San Francisco]:
+  city: null → San Francisco
+  slug: stranded-records-san-francisco-san-francisco-shops → stranded-records-san-francisco_san-francisco_california
+
+[Grooves Inspiralled Vinyl]:
+  city: null → San Francisco
+  slug: grooves-inspiralled-vinyl-san-francisco-shops → grooves-inspiralled-vinyl_san-francisco_california
+
+[Cafe Suspiro]:
+  city: null → San Francisco
+  slug: cafe-suspiro-san-francisco-shops → cafe-suspiro_san-francisco_california
+
+[Audio Vision]:
+  city: null → San Francisco
+  slug: audio-vision-san-francisco-shops → audio-vision_san-francisco_california
+
+[Mission Synths]:
+  city: null → San Francisco
+  slug: mission-synths-san-francisco-shops → mission-synths_san-francisco_california
+
+[Fat Wreck Chords]:
+  city: null → San Francisco
+  slug: fat-wreck-chords-san-francisco-shops → fat-wreck-chords_san-francisco_california
+
+[The Plastic Pancake]:
+  city: null → San Francisco
+  slug: the-plastic-pancake-san-francisco-shops → the-plastic-pancake_san-francisco_california
+
+[Lyrical Vinyl]:
+  city: null → Brisbane
+  slug: lyrical-vinyl-san-francisco-shops → lyrical-vinyl_brisbane_california
+
+[Cubby Control Records]:
+  city: null → San Francisco
+  slug: cubby-control-records-san-francisco-shops → cubby-control-records_san-francisco_california
+
+[Easy Street Records & Cafe]:
+  city: null → Seattle
+  state: California → Washington
+  slug: easy-street-records-cafe-seattle-shops → easy-street-records-cafe_seattle_washington
+
+[Jive Time Records]:
+  city: null → Seattle
+  state: California → Washington
+  slug: jive-time-records-seattle-shops → jive-time-records_seattle_washington
+
+[Sonic Boom Records]:
+  city: null → Seattle
+  state: California → Washington
+  slug: sonic-boom-records-seattle-shops → sonic-boom-records_seattle_washington
+
+[Seattle Records and CDs cassettes turntables]:
+  city: null → Seattle
+  state: California → Washington
+  slug: seattle-records-and-cds-cassettes-turntables-seattle-shops → seattle-records-and-cds-cassettes-turntables_seattle_washington
+
+[Porchlight Coffee & Records]:
+  city: null → Seattle
+  state: California → Washington
+  slug: porchlight-coffee-records-seattle-shops → porchlight-coffee-records_seattle_washington
+
+[Golden Oldies Records]:
+  city: null → Seattle
+  state: California → Washington
+  slug: golden-oldies-records-seattle-shops → golden-oldies-records_seattle_washington
+
+[HIFI LOFI]:
+  city: null → Seattle
+  state: California → Washington
+  slug: hifi-lofi-seattle-shops → hifi-lofi_seattle_washington
+
+[Wall of Sound]:
+  city: null → Seattle
+  state: California → Washington
+  slug: wall-of-sound-seattle-shops → wall-of-sound_seattle_washington
+
+[Georgetown Records]:
+  city: null → Seattle
+  state: California → Washington
+  slug: georgetown-records-seattle-shops → georgetown-records_seattle_washington
+
+[Kpop Nara]:
+  city: null → Seattle
+  state: California → Washington
+  slug: kpop-nara-seattle-shops → kpop-nara_seattle_washington
+
+[Spin Cycle]:
+  city: null → Seattle
+  state: California → Washington
+  slug: spin-cycle-seattle-shops → spin-cycle_seattle_washington
+
+[Flora & Fauna]:
+  city: null → Seattle
+  state: California → Washington
+  slug: flora-fauna-seattle-shops → flora-fauna_seattle_washington
+
+[Sonic Boom  ]:
+  city: null → Seattle
+  state: California → Washington
+  slug: sonic-boom--seattle-shops → sonic-boom-_seattle_washington
+
+[Neptune Music Company]:
+  city: null → Seattle
+  state: California → Washington
+  slug: neptune-music-company-seattle-shops → neptune-music-company_seattle_washington
+
+[Empire Roasters & Records]:
+  city: null → Seattle
+  state: California → Washington
+  slug: empire-roasters-records-seattle-shops → empire-roasters-records_seattle_washington
+
+[Seattle Records]:
+  city: null → Seattle
+  state: California → Washington
+  slug: seattle-records-seattle-shops → seattle-records_seattle_washington
+
+[Beats & Bohos]:
+  city: null → Seattle
+  state: California → Washington
+  slug: beats-bohos-seattle-shops → beats-bohos_seattle_washington
+
+[Black Market Skates]:
+  city: null → Seattle
+  state: California → Washington
+  slug: black-market-skates-seattle-shops → black-market-skates_seattle_washington
+
+[Volver Records]:
+  city: null → Mercer Island
+  state: California → Washington
+  slug: volver-records-seattle-shops → volver-records_mercer-island_washington
+
+[The Wise Owl Books and Music]:
+  city: null → Seattle
+  state: California → Washington
+  slug: the-wise-owl-books-and-music-seattle-shops → the-wise-owl-books-and-music_seattle_washington
+
+[Battl Victory Records]:
+  city: null → Seattle
+  state: California → Washington
+  slug: battl-victory-records-seattle-shops → battl-victory-records_seattle_washington
+
+[Clone Press Studio & Records]:
+  city: null → Burien
+  state: California → Washington
+  slug: clone-press-studio-records-seattle-shops → clone-press-studio-records_burien_washington
+
+[Deano's Golden Collectibles]:
+  city: null → Seattle
+  state: California → Washington
+  slug: deanos-golden-collectibles-seattle-shops → deanos-golden-collectibles_seattle_washington
+
+[Absorb Records]:
+  city: null → Seattle
+  state: California → Washington
+  slug: absorb-records-seattle-shops → absorb-records_seattle_washington
+
+[Waterloo Records & Video]:
+  city: null → Austin
+  state: California → Texas
+  slug: waterloo-records-video-austin-shops → waterloo-records-video_austin_texas-a59cc54d (⚠ collision - added suffix)
+
+[Permanent Records Roadhouse]:
+  city: null → Los Angeles
+  slug: permanent-records-roadhouse-los-angeles-shops → permanent-records-roadhouse_los-angeles_california-5769eb17 (⚠ collision - added suffix)
+
+================================================================================
+SUMMARY:
+  Total shops: 306
+  City changes: 305
+  State changes: 214
+  Slug changes: 305
+  Slug collisions handled: 101

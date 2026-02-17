@@ -1,0 +1,124 @@
+{
+  "shop": {
+    "id": "b53dc621-d50c-4510-8caa-f3d2f7e76603",
+    "name": "Sweet Repeat Records",
+    "city": "Aliquippa",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Sweet Repeat Records Aliquippa Pennsylvania record store",
+    "Sweet Repeat Records Aliquippa instagram facebook"
+  ],
+  "discoveredAt": "2026-02-17T17:37:10.655Z",
+  "links": [
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/profile.php"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/sweetrepeatrecords_14/",
+      "handle": "sweetrepeatrecords_14"
+    },
+    {
+      "category": "website",
+      "url": "https://destinationgettysburg.com/members/sweet-repeat-records/"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/new-hope/record-store/43520321-sweet-repeat-records",
+      "domain": "chamberofcommerce.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://vinylmapper.com/record-stores/us/pa/new-hope/sweet-repeat-records-18938/",
+      "domain": "vinylmapper.com"
+    },
+    {
+      "category": "yelp",
+      "url": "https://www.yelp.com/biz/sweet-repeat-records-gettysburg"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.vinylworld.org/record-shop/sweet-repeat-1/",
+      "domain": "vinylworld.org"
+    },
+    {
+      "category": "directory",
+      "url": "https://recordshopsnearme.com/store/sweet-repeat-records",
+      "domain": "recordshopsnearme.com"
+    },
+    {
+      "category": "website",
+      "url": "https://gettysburgconnection.org/business-profile-sweet-repeat-records-brings-fresh-sounds-to-gettysburg/"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/people"
+    }
+  ],
+  "byCategory": {
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/profile.php"
+      },
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/people"
+      }
+    ],
+    "instagram": [
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/sweetrepeatrecords_14/",
+        "handle": "sweetrepeatrecords_14"
+      }
+    ],
+    "website": [
+      {
+        "category": "website",
+        "url": "https://destinationgettysburg.com/members/sweet-repeat-records/"
+      },
+      {
+        "category": "website",
+        "url": "https://gettysburgconnection.org/business-profile-sweet-repeat-records-brings-fresh-sounds-to-gettysburg/"
+      }
+    ],
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/new-hope/record-store/43520321-sweet-repeat-records",
+        "domain": "chamberofcommerce.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://vinylmapper.com/record-stores/us/pa/new-hope/sweet-repeat-records-18938/",
+        "domain": "vinylmapper.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.vinylworld.org/record-shop/sweet-repeat-1/",
+        "domain": "vinylworld.org"
+      },
+      {
+        "category": "directory",
+        "url": "https://recordshopsnearme.com/store/sweet-repeat-records",
+        "domain": "recordshopsnearme.com"
+      }
+    ],
+    "yelp": [
+      {
+        "category": "yelp",
+        "url": "https://www.yelp.com/biz/sweet-repeat-records-gettysburg"
+      }
+    ]
+  },
+  "updates": {
+    "yelp_url": "https://www.yelp.com/biz/sweet-repeat-records-gettysburg",
+    "social_instagram": "sweetrepeatrecords_14",
+    "social_facebook": "https://facebook.com/profile.php",
+    "website": "https://destinationgettysburg.com/members/sweet-repeat-records/"
+  },
+  "skipped": {}
+}

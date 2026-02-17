@@ -1,0 +1,32 @@
+{
+  "overview": "Record shop directory listing various independent record stores across Pennsylvania",
+  "history": null,
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "CD",
+      "cassette"
+    ],
+    "genres": null,
+    "new-vs-used": "both"
+  },
+  "services": {
+    "buy-sell-trade": true,
+    "online-store": true,
+    "shipping": true
+  },
+  "events": null,
+  "staff": {
+    "notable-staff": null
+  },
+  "hours_location": {
+    "store-hours": "Not specified",
+    "address": "Not specified"
+  },
+  "unique_features": [
+    "Local Radio Station Directory"
+  ],
+  "community_role": {
+    "engagement": "hosts local events and supports the local music scene"
+  }
+}

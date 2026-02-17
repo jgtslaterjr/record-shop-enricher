@@ -1,0 +1,20 @@
+{
+  "name": "Results",
+  "rating": null,
+  "reviewCount": null,
+  "address": null,
+  "phone": null,
+  "website": null,
+  "hours": null,
+  "categories": [],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqO27Z7uGu8vvRUcar_IL9f-UnqTXtzFtigk9i7dVnhi_fqM6c7rE8ZI6KrTLn3hi0LMcqmxATnvUFC4y8bMNodvItoHh9NcXVzaeHHl4lheb6CklCxotafwpWtz3yMsiRpK5SV=w181-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepXsYXwoKEE8gSLugs4aF7ncCF5ZulupWg-Ir5uLi2Wxtl0Bf6lRvrfzEfHe0pHQqXAHVmuEnLXi4xsLGyzdSPHasynQM0D1YAqo_tZdndbtj5kNBHdVm96IsDzw8UgAjZnz7KS=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep40rsDIttsmWPUPWivsIcZLevDxHIJxY5KcY91ZH-NF6zP9j4hLPJ275yT6bB78vAiPCgFzq9jgwBUz9oD6oZZCrihPDFdETWwwK22mgBvaQ30OBbzW4dESQwqhGtZ1JLxkpnZ=w114-h86-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/search/Liberty+Vinyl+record+store+Ambler+Pennsylvania/@40.0621258,-75.4839069,12z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-17T17:47:53.104Z"
+}

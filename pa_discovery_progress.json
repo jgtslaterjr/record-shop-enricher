@@ -1,0 +1,897 @@
+{
+  "completed": [
+    "Pittsburgh, PA",
+    "Allentown, PA",
+    "Erie, PA",
+    "Reading, PA",
+    "Scranton, PA",
+    "Bethlehem, PA",
+    "Lancaster, PA",
+    "Harrisburg, PA",
+    "York, PA",
+    "Wilkes-Barre, PA",
+    "West Chester, PA",
+    "Doylestown, PA",
+    "Media, PA",
+    "New Hope, PA",
+    "Phoenixville, PA",
+    "Ardmore, PA",
+    "Norristown, PA",
+    "King of Prussia, PA",
+    "Lansdale, PA",
+    "Pottstown, PA",
+    "Easton, PA",
+    "Stroudsburg, PA",
+    "Jim Thorpe, PA",
+    "Emmaus, PA",
+    "Carlisle, PA",
+    "Gettysburg, PA",
+    "Chambersburg, PA",
+    "Mechanicsburg, PA",
+    "Lebanon, PA",
+    "Lititz, PA",
+    "Ephrata, PA",
+    "Hanover, PA",
+    "Hershey, PA",
+    "Greensburg, PA",
+    "Washington, PA",
+    "Butler, PA",
+    "Indiana, PA",
+    "New Castle, PA",
+    "Beaver, PA",
+    "Monroeville, PA",
+    "Cranberry Township, PA",
+    "State College, PA",
+    "Williamsport, PA",
+    "Lewisburg, PA",
+    "Bellefonte, PA",
+    "Bloomsburg, PA",
+    "Hazleton, PA",
+    "Carbondale, PA",
+    "Honesdale, PA",
+    "Kutztown, PA",
+    "Boyertown, PA",
+    "Meadville, PA",
+    "Oil City, PA",
+    "Warren, PA",
+    "Altoona, PA",
+    "Johnstown, PA",
+    "Pottsville, PA",
+    "Kennett Square, PA",
+    "Narberth, PA",
+    "Jenkintown, PA",
+    "Conshohocken, PA",
+    "Abington, PA",
+    "Adams Township, PA",
+    "Allegheny Township, PA",
+    "Aliquippa, PA",
+    "Ambler, PA",
+    "Ambridge, PA",
+    "Amity Township, PA",
+    "Antrim, PA",
+    "Archbald, PA",
+    "Aston, PA",
+    "Baldwin, PA",
+    "Beaver Falls, PA",
+    "Bedminster, PA",
+    "Bellevue, PA",
+    "Benner, PA",
+    "Bensalem, PA",
+    "Bern, PA",
+    "Berwick, PA",
+    "Bethel Park, PA",
+    "Bethel Township, PA",
+    "Bethlehem Township, PA",
+    "Blakely, PA",
+    "Bradford, PA",
+    "Brecknock Township, PA",
+    "Brentwood, PA",
+    "Brighton, PA",
+    "Bristol, PA",
+    "Bristol Township, PA",
+    "Brookhaven, PA",
+    "Buckingham Township, PA",
+    "Buffalo Township, PA",
+    "Bullskin, PA",
+    "Bushkill, PA",
+    "Butler Township, PA",
+    "Caln, PA",
+    "Camp Hill, PA",
+    "Canonsburg, PA",
+    "Canton Township, PA",
+    "Carnegie, PA",
+    "Carroll Township, PA",
+    "Castle Shannon, PA",
+    "Catasauqua, PA",
+    "Cecil, PA",
+    "Center Township, PA",
+    "Charlestown, PA",
+    "Chartiers, PA",
+    "Cheltenham, PA",
+    "Chester, PA",
+    "Chestnuthill, PA",
+    "Chippewa, PA",
+    "Clay Township, PA",
+    "Clifton Heights, PA",
+    "Coal, PA",
+    "Coatesville, PA",
+    "College, PA",
+    "Collier, PA",
+    "Collingdale, PA",
+    "Columbia, PA",
+    "Concord Township, PA",
+    "Conemaugh Township, PA",
+    "Conewago Township, PA",
+    "Connellsville, PA",
+    "Coolbaugh, PA",
+    "Cumberland Township, PA",
+    "Cumru, PA",
+    "Dallas Township, PA",
+    "Darby, PA",
+    "Darby Township, PA",
+    "Delaware Township, PA",
+    "Derry Township, PA",
+    "Dingman, PA",
+    "Dormont, PA",
+    "Douglass Township, PA",
+    "Dover Township, PA",
+    "Downingtown, PA",
+    "Doylestown Township, PA",
+    "DuBois, PA",
+    "Dunmore, PA",
+    "Earl Township, PA",
+    "East Bradford, PA",
+    "East Brandywine, PA",
+    "East Buffalo, PA",
+    "East Cocalico, PA",
+    "East Coventry, PA",
+    "East Donegal, PA",
+    "East Earl, PA",
+    "East Fallowfield Township, PA",
+    "East Goshen, PA",
+    "East Hempfield, PA",
+    "East Huntingdon, PA",
+    "East Lampeter, PA",
+    "East Manchester, PA",
+    "East Marlborough, PA",
+    "East Norriton, PA",
+    "East Nottingham, PA"
+  ],
+  "discovered": [
+    {
+      "name": "Electric Avenue Music",
+      "city": "Aliquippa",
+      "rating": null
+    },
+    {
+      "name": "The Record Shop",
+      "city": "Aliquippa",
+      "rating": null
+    },
+    {
+      "name": "Vinyl Lab Record Store",
+      "city": "Aliquippa",
+      "rating": null
+    },
+    {
+      "name": "Siren Records",
+      "city": "Aliquippa",
+      "rating": null
+    },
+    {
+      "name": "Positively Records",
+      "city": "Aliquippa",
+      "rating": null
+    },
+    {
+      "name": "Everlong Records LLC",
+      "city": "Aliquippa",
+      "rating": null
+    },
+    {
+      "name": "Attic Record Store Inc",
+      "city": "Aliquippa",
+      "rating": null
+    },
+    {
+      "name": "Compact Disc Center",
+      "city": "Aliquippa",
+      "rating": null
+    },
+    {
+      "name": "Sweet Repeat Records",
+      "city": "Aliquippa",
+      "rating": null
+    },
+    {
+      "name": "Vinyl Chickie",
+      "city": "Ambler",
+      "rating": null
+    },
+    {
+      "name": "Matones Music",
+      "city": "Ambler",
+      "rating": null
+    },
+    {
+      "name": "SOOK Vinyl & Vintage",
+      "city": "Ambler",
+      "rating": null
+    },
+    {
+      "name": "Rotation Records LLC",
+      "city": "Ambler",
+      "rating": null
+    },
+    {
+      "name": "Bah-Fo Studio - Recording",
+      "city": "Ambler",
+      "rating": null
+    },
+    {
+      "name": "Jupiter Records",
+      "city": "Ambler",
+      "rating": null
+    },
+    {
+      "name": "Liberty Vinyl",
+      "city": "Ambler",
+      "rating": null
+    },
+    {
+      "name": "Music To My Ear",
+      "city": "Ambridge",
+      "rating": null
+    },
+    {
+      "name": "Preserving Record Shop",
+      "city": "Ambridge",
+      "rating": null
+    },
+    {
+      "name": "Last Dog Records",
+      "city": "Ambridge",
+      "rating": null
+    },
+    {
+      "name": "Audio Loft Studios",
+      "city": "Ambridge",
+      "rating": null
+    },
+    {
+      "name": "Spiders From Mars Record Shop",
+      "city": "Ambridge",
+      "rating": null
+    },
+    {
+      "name": "Jerry's Records",
+      "city": "Ambridge",
+      "rating": null
+    },
+    {
+      "name": "AVX Music and Movies / Audio Video Xing, formerly CD Zone",
+      "city": "Ambridge",
+      "rating": null
+    },
+    {
+      "name": "Musical Energi",
+      "city": "Ambridge",
+      "rating": null
+    },
+    {
+      "name": "Vertigo Music Trade",
+      "city": "Ambridge",
+      "rating": null
+    },
+    {
+      "name": "Mad Bad Music Dungeon",
+      "city": "Ambridge",
+      "rating": null
+    },
+    {
+      "name": "A DAY IN THE LIFE RECORDS",
+      "city": "Ambridge",
+      "rating": null
+    },
+    {
+      "name": "Downtown Records & Tapes",
+      "city": "Amity Township",
+      "rating": null
+    },
+    {
+      "name": "Homer & Forkie’s Record Store",
+      "city": "Amity Township",
+      "rating": null
+    },
+    {
+      "name": "Haul House Records",
+      "city": "Amity Township",
+      "rating": null
+    },
+    {
+      "name": "What a Croc Records",
+      "city": "Amity Township",
+      "rating": null
+    },
+    {
+      "name": "Etown Record Lounge",
+      "city": "Amity Township",
+      "rating": null
+    },
+    {
+      "name": "Stan's Record Bar",
+      "city": "Amity Township",
+      "rating": null
+    },
+    {
+      "name": "Sonic Ascension Records",
+      "city": "Antrim",
+      "rating": null
+    },
+    {
+      "name": "Fez Records",
+      "city": "Antrim",
+      "rating": null
+    },
+    {
+      "name": "Magdon Music",
+      "city": "Archbald",
+      "rating": null
+    },
+    {
+      "name": "Northeast Music Center Inc",
+      "city": "Archbald",
+      "rating": null
+    },
+    {
+      "name": "Soundcheck Records Inc",
+      "city": "Archbald",
+      "rating": null
+    },
+    {
+      "name": "Crazy Kahuna Records",
+      "city": "Archbald",
+      "rating": null
+    },
+    {
+      "name": "Railroad Records",
+      "city": "Archbald",
+      "rating": null
+    },
+    {
+      "name": "Toms Music Trade",
+      "city": "Archbald",
+      "rating": null
+    },
+    {
+      "name": "Full Circle Record Shop",
+      "city": "Archbald",
+      "rating": null
+    },
+    {
+      "name": "Music & Video Express",
+      "city": "Archbald",
+      "rating": null
+    },
+    {
+      "name": "3 Love Records",
+      "city": "Archbald",
+      "rating": null
+    },
+    {
+      "name": "Moonrocket Vinyl Record Store",
+      "city": "Aston",
+      "rating": null
+    },
+    {
+      "name": "Jam - Music and Memorabilia",
+      "city": "Aston",
+      "rating": null
+    },
+    {
+      "name": "Goodboy Vinyl",
+      "city": "Aston",
+      "rating": null
+    },
+    {
+      "name": "Romeo's Record Shop",
+      "city": "Aston",
+      "rating": null
+    },
+    {
+      "name": "The Record Vault",
+      "city": "Aston",
+      "rating": null
+    },
+    {
+      "name": "Sky Valley Records",
+      "city": "Aston",
+      "rating": null
+    },
+    {
+      "name": "Rockdale Music & Studios",
+      "city": "Aston",
+      "rating": null
+    },
+    {
+      "name": "Audiolab Stereo & Video Center Inc.",
+      "city": "Aston",
+      "rating": null
+    },
+    {
+      "name": "COMPACT DISC OUTLET",
+      "city": "Aston",
+      "rating": null
+    },
+    {
+      "name": "Vinyl Remains",
+      "city": "Baldwin",
+      "rating": null
+    },
+    {
+      "name": "Rosie's Records",
+      "city": "Baldwin",
+      "rating": null
+    },
+    {
+      "name": "Dorsey's Record Shop",
+      "city": "Baldwin",
+      "rating": null
+    },
+    {
+      "name": "Get Hip Records",
+      "city": "Baldwin",
+      "rating": null
+    },
+    {
+      "name": "939 Records",
+      "city": "Baldwin",
+      "rating": null
+    },
+    {
+      "name": "D.R.S. Vinyl Designs",
+      "city": "Beaver Falls",
+      "rating": null
+    },
+    {
+      "name": "Flip Side Records & Collectibles",
+      "city": "Beaver Falls",
+      "rating": null
+    },
+    {
+      "name": "Melusina Records",
+      "city": "Beaver Falls",
+      "rating": null
+    },
+    {
+      "name": "Music Garden Studios",
+      "city": "Beaver Falls",
+      "rating": null
+    },
+    {
+      "name": "Endless Records",
+      "city": "Beaver Falls",
+      "rating": null
+    },
+    {
+      "name": "Blue Raven Records",
+      "city": "Bedminster",
+      "rating": null
+    },
+    {
+      "name": "Experience Vinyl",
+      "city": "Bedminster",
+      "rating": null
+    },
+    {
+      "name": "Gotta Have it Vinyl",
+      "city": "Bedminster",
+      "rating": null
+    },
+    {
+      "name": "Bucks County Folk Music Shop",
+      "city": "Bedminster",
+      "rating": null
+    },
+    {
+      "name": "Mount Holly Records",
+      "city": "Bedminster",
+      "rating": null
+    },
+    {
+      "name": "Hellbender Vinyl",
+      "city": "Bellevue",
+      "rating": null
+    },
+    {
+      "name": "Boxcar Music",
+      "city": "Benner",
+      "rating": null
+    },
+    {
+      "name": "SC Vinyl LLC.",
+      "city": "Benner",
+      "rating": null
+    },
+    {
+      "name": "Rainbow Music",
+      "city": "Benner",
+      "rating": null
+    },
+    {
+      "name": "Launderette Records",
+      "city": "Bensalem",
+      "rating": null
+    },
+    {
+      "name": "Comic Collection & Records Too",
+      "city": "Bensalem",
+      "rating": null
+    },
+    {
+      "name": "Play It Again Records",
+      "city": "Bethlehem Township",
+      "rating": null
+    },
+    {
+      "name": "Joker studio record",
+      "city": "Blakely",
+      "rating": null
+    },
+    {
+      "name": "WaxPax Records",
+      "city": "Blakely",
+      "rating": null
+    },
+    {
+      "name": "Lititz Music Co.",
+      "city": "Blakely",
+      "rating": null
+    },
+    {
+      "name": "Weird Fish Records",
+      "city": "Bradford",
+      "rating": null
+    },
+    {
+      "name": "Iko's Music Trade",
+      "city": "Brecknock Township",
+      "rating": null
+    },
+    {
+      "name": "BoDoc Records, LLC",
+      "city": "Brecknock Township",
+      "rating": null
+    },
+    {
+      "name": "Tela Records",
+      "city": "Buckingham Township",
+      "rating": null
+    },
+    {
+      "name": "Atkins Music Center",
+      "city": "Bullskin",
+      "rating": null
+    },
+    {
+      "name": "Mom's Basement Records",
+      "city": "Bullskin",
+      "rating": null
+    },
+    {
+      "name": "Spotto's Music",
+      "city": "Bullskin",
+      "rating": null
+    },
+    {
+      "name": "Chuck's R.I.P. Records",
+      "city": "Bullskin",
+      "rating": null
+    },
+    {
+      "name": "Studio 4 Vinyl",
+      "city": "Caln",
+      "rating": null
+    },
+    {
+      "name": "Moretti Music",
+      "city": "Caln",
+      "rating": null
+    },
+    {
+      "name": "TribeSound Records",
+      "city": "Caln",
+      "rating": null
+    },
+    {
+      "name": "Disc Hounds",
+      "city": "Caln",
+      "rating": null
+    },
+    {
+      "name": "Record Smith PA",
+      "city": "Camp Hill",
+      "rating": null
+    },
+    {
+      "name": "Make Music Easy",
+      "city": "Camp Hill",
+      "rating": null
+    },
+    {
+      "name": "SqueezeBox Records",
+      "city": "Camp Hill",
+      "rating": null
+    },
+    {
+      "name": "U Rock Music Center",
+      "city": "Canonsburg",
+      "rating": null
+    },
+    {
+      "name": "Record Nations",
+      "city": "Canton Township",
+      "rating": null
+    },
+    {
+      "name": "CI Records",
+      "city": "Carroll Township",
+      "rating": null
+    },
+    {
+      "name": "Serenity Records Studios",
+      "city": "Catasauqua",
+      "rating": null
+    },
+    {
+      "name": "Buying All Comic Books And Records",
+      "city": "Catasauqua",
+      "rating": null
+    },
+    {
+      "name": "CD Imprintables",
+      "city": "Cheltenham",
+      "rating": null
+    },
+    {
+      "name": "DJ Sean Music Studio",
+      "city": "Cheltenham",
+      "rating": null
+    },
+    {
+      "name": "CI Records & Skates",
+      "city": "Clay Township",
+      "rating": null
+    },
+    {
+      "name": "Madhouse Records",
+      "city": "Clifton Heights",
+      "rating": null
+    },
+    {
+      "name": "Red Planet Recording, Live Sound & Rehearsal",
+      "city": "Clifton Heights",
+      "rating": null
+    },
+    {
+      "name": "On the Record",
+      "city": "Coal",
+      "rating": null
+    },
+    {
+      "name": "Right Coast Recording, Inc.",
+      "city": "Columbia",
+      "rating": null
+    },
+    {
+      "name": "Bo Moore's Village Street Music",
+      "city": "Conemaugh Township",
+      "rating": null
+    },
+    {
+      "name": "DeadWayMusic",
+      "city": "Conemaugh Township",
+      "rating": null
+    },
+    {
+      "name": "The Cd Music - Dvd & VHS Movie Place",
+      "city": "Connellsville",
+      "rating": null
+    },
+    {
+      "name": "Big Bug Music",
+      "city": "Coolbaugh",
+      "rating": null
+    },
+    {
+      "name": "Ant Farm Music",
+      "city": "Coolbaugh",
+      "rating": null
+    },
+    {
+      "name": "Pagoda City Records",
+      "city": "Cumru",
+      "rating": null
+    },
+    {
+      "name": "Penn Avenue Music",
+      "city": "Cumru",
+      "rating": null
+    },
+    {
+      "name": "Menchey Music Service, Inc.",
+      "city": "Cumru",
+      "rating": null
+    },
+    {
+      "name": "Spyro's Modern Music & Recording",
+      "city": "Cumru",
+      "rating": null
+    },
+    {
+      "name": "Todaro's Music",
+      "city": "Cumru",
+      "rating": null
+    },
+    {
+      "name": "Wayne's World Music",
+      "city": "Dallas Township",
+      "rating": null
+    },
+    {
+      "name": "Exotic Records Studios",
+      "city": "Dallas Township",
+      "rating": null
+    },
+    {
+      "name": "Better Now Records",
+      "city": "Darby",
+      "rating": null
+    },
+    {
+      "name": "A & G Music Center",
+      "city": "Darby",
+      "rating": null
+    },
+    {
+      "name": "Winding Way Records, LLC.",
+      "city": "Darby",
+      "rating": null
+    },
+    {
+      "name": "Shock Vinyl",
+      "city": "Delaware Township",
+      "rating": null
+    },
+    {
+      "name": "Capsule & Tonic Records",
+      "city": "Delaware Township",
+      "rating": null
+    },
+    {
+      "name": "Just-Records",
+      "city": "Dormont",
+      "rating": null
+    },
+    {
+      "name": "Funky Frets Music Store",
+      "city": "Douglass Township",
+      "rating": null
+    },
+    {
+      "name": "Kosmos Music",
+      "city": "Dover Township",
+      "rating": null
+    },
+    {
+      "name": "Spotts Music Center",
+      "city": "DuBois",
+      "rating": null
+    },
+    {
+      "name": "Northeast Aluminum & Vinyl Products",
+      "city": "Dunmore",
+      "rating": null
+    },
+    {
+      "name": "Players Row Music Supply",
+      "city": "Dunmore",
+      "rating": null
+    },
+    {
+      "name": "West Chester Music Store",
+      "city": "East Bradford",
+      "rating": null
+    },
+    {
+      "name": "Taylor's Music Store & Studios",
+      "city": "East Bradford",
+      "rating": null
+    },
+    {
+      "name": "Music 'n More",
+      "city": "East Buffalo",
+      "rating": null
+    },
+    {
+      "name": "Joseph Wise Music",
+      "city": "East Buffalo",
+      "rating": null
+    },
+    {
+      "name": "Astrovinylart",
+      "city": "East Coventry",
+      "rating": null
+    },
+    {
+      "name": "Audio Sensations",
+      "city": "East Coventry",
+      "rating": null
+    },
+    {
+      "name": "George's Music",
+      "city": "East Coventry",
+      "rating": null
+    },
+    {
+      "name": "Keystone Music Supply",
+      "city": "East Coventry",
+      "rating": null
+    },
+    {
+      "name": "Keystone Music and Repair",
+      "city": "East Coventry",
+      "rating": null
+    },
+    {
+      "name": "Pa Dave's Vinyl Decals",
+      "city": "East Donegal",
+      "rating": null
+    },
+    {
+      "name": "Honey House Records",
+      "city": "East Huntingdon",
+      "rating": null
+    },
+    {
+      "name": "JERRY B GOODE MUSIC LLC",
+      "city": "East Lampeter",
+      "rating": null
+    },
+    {
+      "name": "Ever After Gifts (formerly SJM Vinyl Creations)",
+      "city": "East Lampeter",
+      "rating": null
+    },
+    {
+      "name": "Record Club of America",
+      "city": "East Manchester",
+      "rating": null
+    },
+    {
+      "name": "AMH Records",
+      "city": "East Manchester",
+      "rating": null
+    },
+    {
+      "name": "milky way music",
+      "city": "East Norriton",
+      "rating": null
+    },
+    {
+      "name": "Musical Intervals",
+      "city": "East Norriton",
+      "rating": null
+    },
+    {
+      "name": "Dean Sapp's Music Store",
+      "city": "East Nottingham",
+      "rating": null
+    }
+  ],
+  "stats": {
+    "new": 0,
+    "existing": 0,
+    "skipped": 0
+  }
+}

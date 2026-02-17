@@ -1,0 +1,35 @@
+{
+  "name": "Everlong Records",
+  "rating": null,
+  "reviewCount": null,
+  "phone": "(484) 638-9609",
+  "address": "805 State St",
+  "city": "Hamburg",
+  "state": "PA",
+  "zip": "19526",
+  "website": "https://everlongrecords.squarespace.com",
+  "hours": {
+    "Mon": "8:00 AM - 6:00 PM",
+    "8:00 AM - 6:00 PM": "Open now",
+    "Wed": "8:00 AM - 6:00 PM",
+    "Fri": "8:00 AM - 6:00 PM",
+    "Sun": "11:00 AM - 4:00 PM"
+  },
+  "priceRange": null,
+  "categories": [],
+  "photos": [
+    "https://s3-media0.fl.yelpcdn.com/bphoto/InqT2I-T3mjQcUTXI4aWBQ/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/V1-MJNczsiCKSUokltY63Q/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/zoHb8e9CqeKuFjPk_2uC-Q/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/sofMslg_4poMIPBiSstEOw/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/pQ2TsO24o0Kg8l0R0Xd4AQ/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/eMXv8mPa0MVX7h7T-AOvBw/l.jpg"
+  ],
+  "amenities": null,
+  "specialties": null,
+  "reviews": [],
+  "highlights": [],
+  "yelpUrl": "https://www.yelp.com/biz/everlong-records-hamburg",
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-17T17:30:21.097Z"
+}

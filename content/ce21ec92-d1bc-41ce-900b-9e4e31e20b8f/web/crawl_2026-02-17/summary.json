@@ -1,0 +1,43 @@
+{
+  "overview": "Unknown",
+  "history": "Unknown",
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "CD",
+      "cassette"
+    ],
+    "genres": [
+      "unknown"
+    ]
+  },
+  "services": {
+    "buy": true,
+    "sell": true,
+    "trade": true,
+    "online_store": true,
+    "shipping": true
+  },
+  "events": {
+    "host_events": true,
+    "event_type": [
+      "record_fair",
+      "live_performance"
+    ],
+    "frequency": "irregular"
+  },
+  "staff": {
+    "notable_staff": []
+  },
+  "hours_location": {
+    "store_hours": "unknown",
+    "address": "unknown"
+  },
+  "unique_features": {
+    "listening_rooms": true,
+    "cafe": false
+  },
+  "community_role": {
+    "local_music_scene": true
+  }
+}

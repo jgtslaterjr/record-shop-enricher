@@ -1,0 +1,20 @@
+{
+  "name": "Electric Avenue Music",
+  "rating": null,
+  "reviewCount": null,
+  "address": "323 E Gay St, West Chester, PA 19380",
+  "phone": "(610) 692-3600",
+  "website": "http://www.electricavenuemusicwc.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqdN-P1XP14kdlU6BUKhb27lxdb0htdW57f3BnEDKzSRQ_VA20zer220GoQM8Fj-39MDrIn2erZpjJcr2_sOt8D1ehk4T-X6bX6ysnnURmFXhjXZ0nTZquPudUfS5kBdDtLgQ_PJpyaPhw=w408-h294-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Electric+Avenue+Music/@39.9633954,-75.6027938,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6f142e2f1103b:0x3c842506657c50ea!8m2!3d39.9633954!4d-75.6002189!16s%2Fg%2F1pty4crts?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-17T17:18:33.575Z"
+}

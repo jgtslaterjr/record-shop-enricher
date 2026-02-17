@@ -1,0 +1,23 @@
+{
+  "name": "Results",
+  "rating": null,
+  "reviewCount": null,
+  "address": null,
+  "phone": null,
+  "website": null,
+  "hours": null,
+  "categories": [],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwepXsYXwoKEE8gSLugs4aF7ncCF5ZulupWg-Ir5uLi2Wxtl0Bf6lRvrfzEfHe0pHQqXAHVmuEnLXi4xsLGyzdSPHasynQM0D1YAqo_tZdndbtj5kNBHdVm96IsDzw8UgAjZnz7KS=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqO27Z7uGu8vvRUcar_IL9f-UnqTXtzFtigk9i7dVnhi_fqM6c7rE8ZI6KrTLn3hi0LMcqmxATnvUFC4y8bMNodvItoHh9NcXVzaeHHl4lheb6CklCxotafwpWtz3yMsiRpK5SV=w181-h86-k-no",
+    "https://lh3.googleusercontent.com/p/AF1QipPw-Ei2lKOWlVF1T1ig3LXw_36265JNFbJ6gGDF=w114-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqoCqbwEToQD6SfLKWl10m_u2b3BNoZ-EeTbZuUzUoi6eNq5m8JtiO5qL3VgGWqgayGa4IXBaJKoIDeo6LAQWWPfhLPkmFAA1MKJDzUPhlMQf1eGgGTjz55CS5fBV3jpv1i5UER=w143-h86-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwerpEbq8ZMbINnqpbAJmSJDr_aXV5NTqImKnB6XLYigY-0A6ThWe0PKtv7nGXcuHlgbhOPrqcCrxd6hocXph8c4vYA9yOyWach3CAi4XJ5wCcmxyQJI3NUVCu09G3Ck5ilxBqkKU=w86-h152-k-no",
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAwep40rsDIttsmWPUPWivsIcZLevDxHIJxY5KcY91ZH-NF6zP9j4hLPJ275yT6bB78vAiPCgFzq9jgwBUz9oD6oZZCrihPDFdETWwwK22mgBvaQ30OBbzW4dESQwqhGtZ1JLxkpnZ=w114-h86-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/search/The+Record+Shop+record+store+Aliquippa+Pennsylvania/@40.0621258,-75.4839069,12z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-17T17:20:55.066Z"
+}

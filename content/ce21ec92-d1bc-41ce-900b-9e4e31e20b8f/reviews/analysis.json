@@ -1,0 +1,51 @@
+{
+  "sentiment_score": 9,
+  "key_themes": [
+    "excellent customer service",
+    "great music selection",
+    "friendly and knowledgeable staff",
+    "competitive pricing",
+    "small business with a personal touch"
+  ],
+  "pros": [
+    "Great selection of new and used vinyl records",
+    "Friendly and knowledgeable staff who give great recommendations",
+    "Competitive pricing for both new and used records",
+    "Clean and welcoming store atmosphere",
+    "Excellent customer service, especially considering the recent grand opening"
+  ],
+  "cons": [
+    "Some reviewers found the selection to be hit or miss, with some items being overpriced or understocked",
+    "The store's location may be a barrier for customers with mobility issues due to the stairs",
+    "Not all reviews mentioned any potential drawbacks or areas for improvement"
+  ],
+  "notable_quotes": {
+    "best": "This is truly a phenomenal store. Fantastic selection of new/used vinyl at great price points.",
+    "worst": null,
+    "funniest": "I’m shocked (in the best way)! "
+  },
+  "vibe_description": "Vinyl Lab Records has a welcoming and personal atmosphere, with friendly staff who are knowledgeable about music and eager to help customers. The store's small size makes it feel like a community hub for local music lovers.",
+  "genre_specialties": [
+    "indie rock",
+    "punk",
+    "jazz"
+  ],
+  "staff_mentions": "Reviewers praise the staff for being friendly, knowledgeable, and helpful, with many mentioning that they go above and beyond to assist customers. Several reviewers also appreciate the staff's passion for music.",
+  "event_mentions": [
+    "NIN playing during a visit",
+    "Grand opening planned for August 23rd"
+  ],
+  "recommendation_for": "Music enthusiasts, especially those interested in indie rock, punk, and jazz, as well as local music collectors looking for a unique shopping experience.",
+  "metadata": {
+    "totalReviews": 40,
+    "yelpReviews": 0,
+    "googleReviews": 40,
+    "averageRating": 4.7,
+    "ratingDistribution": {
+      "3": 4,
+      "4": 4,
+      "5": 32
+    },
+    "analyzedAt": "2026-02-17T17:24:58.220Z"
+  }
+}

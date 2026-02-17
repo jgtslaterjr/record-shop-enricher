@@ -1,0 +1,119 @@
+{
+  "shop": {
+    "id": "525f6749-5eca-4f13-9c34-f3b0aea240af",
+    "name": "Electric Avenue Music",
+    "city": "Aliquippa",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Electric Avenue Music Aliquippa Pennsylvania record store",
+    "Electric Avenue Music Aliquippa instagram facebook"
+  ],
+  "discoveredAt": "2026-02-17T17:18:03.861Z",
+  "links": [
+    {
+      "category": "website",
+      "url": "https://www.electricavenuemusicwc.com/"
+    },
+    {
+      "category": "website",
+      "url": "https://www.discogs.com/record-stores/store/electric_avenue/"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/electricavenuemusicwc"
+    },
+    {
+      "category": "directory",
+      "url": "https://vinylmapper.com/record-stores/us/pa/west-chester/electric-avenue-music-19380/",
+      "domain": "vinylmapper.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.loc8nearme.com/pennsylvania/west-chester/electric-avenue-music/3225759/",
+      "domain": "loc8nearme.com"
+    },
+    {
+      "category": "website",
+      "url": "https://www.allbiz.com/business/electric-avenue-music-610-692-3600"
+    },
+    {
+      "category": "website",
+      "url": "https://usa-stores.worldorgs.com/catalog/west-chester/music-store/electric-avenue-music"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.yellowpages.com/west-chester-pa/mip/electric-avenue-music-480113392",
+      "domain": "yellowpages.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://recordstoreday.com/Venue/13400",
+      "domain": "recordstoreday.com"
+    },
+    {
+      "category": "yelp",
+      "url": "https://www.yelp.com/biz/electric-avenue-music-west-chester?start=10"
+    }
+  ],
+  "byCategory": {
+    "website": [
+      {
+        "category": "website",
+        "url": "https://www.electricavenuemusicwc.com/"
+      },
+      {
+        "category": "website",
+        "url": "https://www.discogs.com/record-stores/store/electric_avenue/"
+      },
+      {
+        "category": "website",
+        "url": "https://www.allbiz.com/business/electric-avenue-music-610-692-3600"
+      },
+      {
+        "category": "website",
+        "url": "https://usa-stores.worldorgs.com/catalog/west-chester/music-store/electric-avenue-music"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/electricavenuemusicwc"
+      }
+    ],
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://vinylmapper.com/record-stores/us/pa/west-chester/electric-avenue-music-19380/",
+        "domain": "vinylmapper.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.loc8nearme.com/pennsylvania/west-chester/electric-avenue-music/3225759/",
+        "domain": "loc8nearme.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.yellowpages.com/west-chester-pa/mip/electric-avenue-music-480113392",
+        "domain": "yellowpages.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://recordstoreday.com/Venue/13400",
+        "domain": "recordstoreday.com"
+      }
+    ],
+    "yelp": [
+      {
+        "category": "yelp",
+        "url": "https://www.yelp.com/biz/electric-avenue-music-west-chester?start=10"
+      }
+    ]
+  },
+  "updates": {
+    "yelp_url": "https://www.yelp.com/biz/electric-avenue-music-west-chester?start=10",
+    "social_facebook": "https://facebook.com/electricavenuemusicwc",
+    "website": "https://www.electricavenuemusicwc.com/"
+  },
+  "skipped": {}
+}

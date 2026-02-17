@@ -1,0 +1,34 @@
+{
+  "shopName": "Compact Disc Center",
+  "shopId": "7876519f-407e-424b-82a0-3a6e3f4ed990",
+  "city": "Aliquippa",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "Print a Calendar",
+      "title": "Printable 2026 Calendar",
+      "date": "February 2026",
+      "description": "Free printable calendars. Easy to print, download, and share with others. Even add notes and customize it the way you want.",
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/calendar"
+    },
+    {
+      "event_type": "Handy Calendars",
+      "title": "May Free Printable May Calendar with Notes Section",
+      "date": "May 2026",
+      "description": "Create yours Today!",
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/calendar"
+    },
+    {
+      "event_type": "Top10.com",
+      "title": "Shareable Calendars Online - Shareable Calendar Ad",
+      "date": "February 2026",
+      "description": "Never Miss a Deadline Again! Meet the Shareable Calendar for Teams & Projects. Try Calendar Apps for Free & Get Matched With Your Ideal Calendar App.",
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/calendar"
+    }
+  ],
+  "totalFound": 3,
+  "scrapedAt": "2026-02-17T17:36:54.839Z"
+}

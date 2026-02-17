@@ -1,0 +1,18 @@
+{
+  "shopName": "Vinyl Lab Record Store",
+  "shopId": "ce21ec92-d1bc-41ce-900b-9e4e31e20b8f",
+  "city": "Aliquippa",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "Concerts and Events",
+      "title": "",
+      "date": "Feb 9, 2026",
+      "description": "Things to do in Philly this week: 215 Day, Disney's Beauty and the Beast, the PSCA Adult Prom, Rare Accidents, Fishtown Queer Social, and more",
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    }
+  ],
+  "totalFound": 1,
+  "scrapedAt": "2026-02-17T17:24:51.462Z"
+}

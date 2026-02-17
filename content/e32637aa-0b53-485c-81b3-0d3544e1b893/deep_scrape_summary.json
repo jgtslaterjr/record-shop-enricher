@@ -1,0 +1,38 @@
+{
+  "shopId": "e32637aa-0b53-485c-81b3-0d3544e1b893",
+  "shopName": "Positively Records",
+  "city": "Aliquippa",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-17T17:27:45.482Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "3.0s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "35.8s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "21.9s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "8.8s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "44.3s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "2.5s"
+    }
+  },
+  "completedAt": "2026-02-17T17:30:00.789Z"
+}

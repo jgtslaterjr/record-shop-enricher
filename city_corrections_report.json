@@ -1,0 +1,284 @@
+{
+  "summary": {
+    "total_shops": 306,
+    "with_latLng": 306,
+    "with_zip": 0,
+    "with_address_only": 0,
+    "with_no_data": 0
+  },
+  "sample_results": [
+    {
+      "id": "ecb8480a-782f-48e7-afa6-ebd960bf3229",
+      "name": "Daybreak Records",
+      "current": {
+        "city": null,
+        "state": "California"
+      },
+      "proposed": {
+        "city": "Seattle",
+        "state": "Washington",
+        "country": "US"
+      },
+      "raw": {
+        "shop": "Daybreak Records",
+        "house_number": "4323",
+        "road": "Fremont Avenue North",
+        "suburb": "Fremont",
+        "city": "Seattle",
+        "county": "King County",
+        "state": "Washington",
+        "ISO3166-2-lvl4": "US-WA",
+        "postcode": "98103",
+        "country": "United States",
+        "country_code": "us"
+      }
+    },
+    {
+      "id": "f5a3e31f-2825-4567-a40f-c6c5271216d9",
+      "name": "Supervinyl",
+      "current": {
+        "city": null,
+        "state": "California"
+      },
+      "proposed": {
+        "city": "Los Angeles",
+        "state": "California",
+        "country": "US"
+      },
+      "raw": {
+        "house_number": "858",
+        "road": "North Sycamore Avenue",
+        "suburb": "Fairfax",
+        "city": "Los Angeles",
+        "county": "Los Angeles County",
+        "state": "California",
+        "ISO3166-2-lvl4": "US-CA",
+        "postcode": "90038",
+        "country": "United States",
+        "country_code": "us"
+      }
+    },
+    {
+      "id": "d091ef9b-4564-4caf-a49b-c80acf0a3fc1",
+      "name": "101 Music",
+      "current": {
+        "city": null,
+        "state": "California"
+      },
+      "proposed": {
+        "city": "San Francisco",
+        "state": "California",
+        "country": "US"
+      },
+      "raw": {
+        "shop": "101 Music",
+        "house_number": "1414",
+        "road": "Grant Avenue",
+        "quarter": "North Beach",
+        "city": "San Francisco",
+        "state": "California",
+        "ISO3166-2-lvl4": "US-CA",
+        "postcode": "94113",
+        "country": "United States",
+        "country_code": "us"
+      }
+    },
+    {
+      "id": "0a596e5d-9095-42ec-990a-5f801b35f992",
+      "name": "A-1 Record Shop",
+      "current": {
+        "city": null,
+        "state": "California"
+      },
+      "proposed": {
+        "city": "New York",
+        "state": "New York",
+        "country": "US"
+      },
+      "raw": {
+        "shop": "A-1 Record Shop",
+        "house_number": "439",
+        "road": "East 6th Street",
+        "neighbourhood": "Alphabet City",
+        "suburb": "Manhattan",
+        "county": "New York County",
+        "city": "New York",
+        "state": "New York",
+        "ISO3166-2-lvl4": "US-NY",
+        "postcode": "10003",
+        "country": "United States",
+        "country_code": "us"
+      }
+    },
+    {
+      "id": "a1372083-75fc-47db-b1ff-e1ac4b65db13",
+      "name": "Academy Records",
+      "current": {
+        "city": null,
+        "state": "California"
+      },
+      "proposed": {
+        "city": "New York",
+        "state": "New York",
+        "country": "US"
+      },
+      "raw": {
+        "shop": "Academy Records",
+        "house_number": "415",
+        "road": "East 12th Street",
+        "neighbourhood": "Alphabet City",
+        "suburb": "Manhattan",
+        "county": "New York County",
+        "city": "New York",
+        "state": "New York",
+        "ISO3166-2-lvl4": "US-NY",
+        "postcode": "10009",
+        "country": "United States",
+        "country_code": "us"
+      }
+    },
+    {
+      "id": "0bd4b910-993e-4031-be15-4eee3abf0d90",
+      "name": "Affordable Sound & Printing",
+      "current": {
+        "city": null,
+        "state": "California"
+      },
+      "proposed": {
+        "city": "Austin",
+        "state": "Texas",
+        "country": "US"
+      },
+      "raw": {
+        "house_number": "1029",
+        "road": "Reinli Street",
+        "neighbourhood": "Ridge Top",
+        "city": "Austin",
+        "county": "Travis County",
+        "state": "Texas",
+        "ISO3166-2-lvl4": "US-TX",
+        "postcode": "78723",
+        "country": "United States",
+        "country_code": "us"
+      }
+    },
+    {
+      "id": "0b6f8ea9-58d3-4804-9d3d-9bc060da8aeb",
+      "name": "Al's Music Video & Games",
+      "current": {
+        "city": null,
+        "state": "California"
+      },
+      "proposed": {
+        "city": "Seattle",
+        "state": "Washington",
+        "country": "US"
+      },
+      "raw": {
+        "shop": "Al's Music & Games",
+        "house_number": "4547",
+        "road": "University Way Northeast",
+        "neighbourhood": "University Heights",
+        "suburb": "University District",
+        "city": "Seattle",
+        "county": "King County",
+        "state": "Washington",
+        "ISO3166-2-lvl4": "US-WA",
+        "postcode": "98105",
+        "country": "United States",
+        "country_code": "us"
+      }
+    },
+    {
+      "id": "5f416fa0-2a46-4148-bbdd-8557ecc1aa00",
+      "name": "As The Record Turns",
+      "current": {
+        "city": null,
+        "state": "California"
+      },
+      "proposed": {
+        "city": "Los Angeles",
+        "state": "California",
+        "country": "US"
+      },
+      "raw": {
+        "shop": "Hollywood Happyland",
+        "house_number": "6723",
+        "road": "Hollywood Boulevard",
+        "suburb": "Hollywood",
+        "city": "Los Angeles",
+        "county": "Los Angeles County",
+        "state": "California",
+        "ISO3166-2-lvl4": "US-CA",
+        "postcode": "90028",
+        "country": "United States",
+        "country_code": "us"
+      }
+    },
+    {
+      "id": "e975afe2-9d36-4ed6-9433-e7d12ffced3a",
+      "name": "Johnny Twist Blues Museum",
+      "current": {
+        "city": null,
+        "state": "California"
+      },
+      "proposed": {
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "US"
+      },
+      "raw": {
+        "house_number": "802-810",
+        "road": "East 65th Street",
+        "suburb": "Woodlawn",
+        "city": "Chicago",
+        "municipality": "Hyde Park Township",
+        "county": "Cook County",
+        "state": "Illinois",
+        "ISO3166-2-lvl4": "US-IL",
+        "postcode": "60637",
+        "country": "United States",
+        "country_code": "us"
+      }
+    },
+    {
+      "id": "ff7aebb7-fc1e-41f1-8c56-87d9fefbac48",
+      "name": "Torn Light Records",
+      "current": {
+        "city": null,
+        "state": "California"
+      },
+      "proposed": {
+        "city": "Chicago",
+        "state": "Illinois",
+        "country": "US"
+      },
+      "raw": {
+        "shop": "Chicago Teacher",
+        "house_number": "1855",
+        "road": "North Milwaukee Avenue",
+        "quarter": "Wicker Park",
+        "suburb": "West Town",
+        "city": "Chicago",
+        "municipality": "West Chicago Township",
+        "county": "Cook County",
+        "state": "Illinois",
+        "ISO3166-2-lvl4": "US-IL",
+        "postcode": "60647",
+        "country": "United States",
+        "country_code": "us"
+      }
+    }
+  ],
+  "corrections_breakdown": {
+    "successful_reverse_geocode": 306,
+    "failed_reverse_geocode": 0,
+    "successful_zip_lookup": 0,
+    "failed_zip_lookup": 0,
+    "needs_manual_review": 0
+  },
+  "edge_cases": {
+    "outside_california": 215,
+    "outside_us": 0
+  }
+}

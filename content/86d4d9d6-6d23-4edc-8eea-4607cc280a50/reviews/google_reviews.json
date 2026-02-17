@@ -1,0 +1,20 @@
+{
+  "name": "Matones Music",
+  "rating": null,
+  "reviewCount": null,
+  "address": "331 E Main St Unit 1, Collegeville, PA 19426",
+  "phone": "(484) 854-1105",
+  "website": "http://www.matonesmusic.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://lh3.googleusercontent.com/gps-cs-s/AHVAweqz_dkpO9je2MbikudCa0MEbUK3eYBWFeCLEOlObVp8sKWAKJSBD9_WnZFf0kJTE7wh00NWuz3A_OpmmnR8lwZtqndr7OP11Gfpt-VzNZQ698H2-y8_S3Lwuzu69FCBt0ieqUUhdA=w408-h544-k-no"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Matones+Music/@40.1867883,-75.4546793,17z/data=!3m1!4b1!4m6!3m5!1s0x89c690bca9991edb:0x87cf7659c30e1634!8m2!3d40.1867883!4d-75.4521044!16s%2Fg%2F11cs4y94d9?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-17T17:41:26.797Z"
+}

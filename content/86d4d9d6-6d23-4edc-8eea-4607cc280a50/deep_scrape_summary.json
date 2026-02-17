@@ -1,0 +1,38 @@
+{
+  "shopId": "86d4d9d6-6d23-4edc-8eea-4607cc280a50",
+  "shopName": "Matones Music",
+  "city": "Ambler",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-17T17:40:56.372Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.3s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.5s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "19.9s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "21.2s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-17T17:42:03.124Z"
+}

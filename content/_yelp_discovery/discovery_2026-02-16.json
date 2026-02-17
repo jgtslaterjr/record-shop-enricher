@@ -1,0 +1,26 @@
+{
+  "date": "2026-02-16",
+  "totals": {
+    "searched": 0,
+    "matched": 0,
+    "updated": 0,
+    "inserted": 0,
+    "skipped": 0,
+    "cities": 1
+  },
+  "progress": {
+    "completedCities": [
+      "Media, PA"
+    ],
+    "apiCallsToday": 0,
+    "apiCallDate": "2026-02-16",
+    "stats": {
+      "searched": 0,
+      "matched": 0,
+      "updated": 0,
+      "inserted": 0,
+      "skipped": 0,
+      "cities": 1
+    }
+  }
+}

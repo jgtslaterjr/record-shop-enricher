@@ -1,0 +1,152 @@
+{
+  "shop": {
+    "id": "21b77dbb-8eee-4cb3-98f2-bbd99088af67",
+    "name": "Siren Records",
+    "city": "Aliquippa",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Siren Records Aliquippa Pennsylvania record store",
+    "Siren Records Aliquippa instagram facebook"
+  ],
+  "discoveredAt": "2026-02-17T17:25:14.880Z",
+  "links": [
+    {
+      "category": "website",
+      "url": "https://sirenrecords.com/"
+    },
+    {
+      "category": "website",
+      "url": "https://www.discogs.com/record-stores/store/sirenrecords/"
+    },
+    {
+      "category": "website",
+      "url": "https://sirenrecords.com/Store"
+    },
+    {
+      "category": "website",
+      "url": "https://sirenrecords.com/CustomPage/9408"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/sirenrecordsdoylestown"
+    },
+    {
+      "category": "yelp",
+      "url": "https://www.yelp.com/biz/siren-records-doylestown"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/sirenrecords/",
+      "handle": "sirenrecords"
+    },
+    {
+      "category": "yelp",
+      "url": "https://www.yelp.com/biz/siren-records-doylestown?start=20"
+    },
+    {
+      "category": "website",
+      "url": "https://sirenrecords.com/CustomPage/9385"
+    },
+    {
+      "category": "website",
+      "url": "https://www.bestprosintown.com/pa/doylestown/siren-records-/"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/siren_records/",
+      "handle": "siren_records"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/siren__records/",
+      "handle": "siren__records"
+    },
+    {
+      "category": "website",
+      "url": "http://www.siren-records.com/"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/sirenrecs/",
+      "handle": "sirenrecs"
+    }
+  ],
+  "byCategory": {
+    "website": [
+      {
+        "category": "website",
+        "url": "https://sirenrecords.com/"
+      },
+      {
+        "category": "website",
+        "url": "https://www.discogs.com/record-stores/store/sirenrecords/"
+      },
+      {
+        "category": "website",
+        "url": "https://sirenrecords.com/Store"
+      },
+      {
+        "category": "website",
+        "url": "https://sirenrecords.com/CustomPage/9408"
+      },
+      {
+        "category": "website",
+        "url": "https://sirenrecords.com/CustomPage/9385"
+      },
+      {
+        "category": "website",
+        "url": "https://www.bestprosintown.com/pa/doylestown/siren-records-/"
+      },
+      {
+        "category": "website",
+        "url": "http://www.siren-records.com/"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/sirenrecordsdoylestown"
+      }
+    ],
+    "yelp": [
+      {
+        "category": "yelp",
+        "url": "https://www.yelp.com/biz/siren-records-doylestown"
+      },
+      {
+        "category": "yelp",
+        "url": "https://www.yelp.com/biz/siren-records-doylestown?start=20"
+      }
+    ],
+    "instagram": [
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/sirenrecords/",
+        "handle": "sirenrecords"
+      },
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/siren_records/",
+        "handle": "siren_records"
+      },
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/siren__records/",
+        "handle": "siren__records"
+      },
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/sirenrecs/",
+        "handle": "sirenrecs"
+      }
+    ]
+  },
+  "updates": {
+    "yelp_url": "https://www.yelp.com/biz/siren-records-doylestown",
+    "social_instagram": "sirenrecords",
+    "social_facebook": "https://facebook.com/sirenrecordsdoylestown",
+    "website": "https://sirenrecords.com/"
+  },
+  "skipped": {}
+}

@@ -1,0 +1,38 @@
+{
+  "shopId": "7876519f-407e-424b-82a0-3a6e3f4ed990",
+  "shopName": "Compact Disc Center",
+  "city": "Aliquippa",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-17T17:35:11.267Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "3.7s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.9s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "22.3s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "26.6s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "32.8s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-17T17:37:00.277Z"
+}

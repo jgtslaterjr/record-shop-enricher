@@ -1,0 +1,78 @@
+{
+  "name": "Sweet Repeat Records",
+  "rating": 4.3,
+  "reviewCount": 6,
+  "phone": "(267) 885-6320",
+  "address": "5 Batimore St",
+  "city": "Gettysburg",
+  "state": "PA",
+  "zip": "17325",
+  "website": null,
+  "hours": {
+    "Mon": "11:00 AM - 5:00 PM",
+    "Closed": "Closed now",
+    "Wed": "Closed",
+    "Fri": "11:00 AM - 5:00 PM",
+    "Sun": "11:00 AM - 5:00 PM"
+  },
+  "priceRange": null,
+  "categories": [],
+  "photos": [
+    "https://s3-media0.fl.yelpcdn.com/bphoto/YhUd8VUKh1LvPGr6bC-KXQ/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/iW-wb5hXMT3t_6xb8qGWVQ/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/3spcalC-fR3wBVwS3mgohA/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/leZj0YDjlhLPHcC23ZMYqg/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/Lriub1lV8cM65Aa3zZe10g/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/J0kz7aBF7YRHqJuiH8V4Qw/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/Uh_j2R6jAtQ5XfA-BCpJUA/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/Lriub1lV8cM65Aa3zZe10g/348s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/leZj0YDjlhLPHcC23ZMYqg/348s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/eOGUny9zmc8kfaSOx_tNnQ/348s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/3spcalC-fR3wBVwS3mgohA/348s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/176GvAeKqdU25mVXIZcZ-A/60s.jpg"
+  ],
+  "amenities": null,
+  "specialties": null,
+  "reviews": [
+    {
+      "stars": 4,
+      "text": "PROS: this place is the only record stores in the town. Their selection is amazing, their lounge is great, and the prices are good CONS: the guy at the counter was grouchy and very introverted when we came inOVERALL: I don't think the hospitality was good but if you're just looking for a record than this is the spot to come to",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 2,
+      "text": "My son bought 4 cassettes from Sweet Repeat Records. I tried to look through the vinyl records but the store smelled of cigarettes and the smoke smell was so strong that I had to go outside and wait until my son was through shopping. I'm normally one who wants to flip through all the records in hopes to find that album I have been searching for but this wasn't the place for me.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "The records in this place are good and i think the most interesting is that they were made in a very different time frame and they are all in a very unique time period.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "Friend of mine saw a record there for the soundtrack of my favorite move - \"Summer of '42\".  Friend couldn't make it back to pick it up, so the owner shipped it to us - for free, even after we offered to pay by venmo!  What an amazing person and what an amazing record store.  I could not have found that vinyl record anywhere.  5 stars!",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "Awesome little place with good prices and selection. Def stop in and take a look. Hope to visit again.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "It was so cute! Great customer service, very kind and patient. Amazing music.",
+      "date": null,
+      "reviewer": null
+    }
+  ],
+  "highlights": [],
+  "yelpUrl": "https://www.yelp.com/biz/sweet-repeat-records-gettysburg",
+  "totalReviewsScraped": 6,
+  "scrapedAt": "2026-02-17T17:37:17.315Z"
+}

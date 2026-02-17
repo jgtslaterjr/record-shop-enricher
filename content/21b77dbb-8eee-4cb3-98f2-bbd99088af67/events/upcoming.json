@@ -1,0 +1,28 @@
+{
+  "shopName": "Siren Records",
+  "shopId": "21b77dbb-8eee-4cb3-98f2-bbd99088af67",
+  "city": "Aliquippa",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "Record Store Day",
+      "title": "Record Store Day 2025",
+      "date": null,
+      "description": null,
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://sirenrecords.com/happenings"
+    },
+    {
+      "event_type": "Record Store Day",
+      "title": "RSD Black Friday 2025",
+      "date": null,
+      "description": null,
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://sirenrecords.com/happenings"
+    }
+  ],
+  "totalFound": 2,
+  "scrapedAt": "2026-02-17T17:27:30.867Z"
+}

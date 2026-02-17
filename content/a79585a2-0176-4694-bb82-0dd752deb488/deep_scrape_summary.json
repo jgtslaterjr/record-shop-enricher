@@ -1,0 +1,38 @@
+{
+  "shopId": "a79585a2-0176-4694-bb82-0dd752deb488",
+  "shopName": "SOOK Vinyl & Vintage",
+  "city": "Ambler",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-17T17:42:10.622Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.8s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "20.9s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "20.7s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-17T17:43:18.107Z"
+}

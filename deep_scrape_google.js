@@ -9,9 +9,84 @@
  */
 
 const { delay, saveJSON, contentDir, getAllShops, getShopByName,
-  updateShop, createStealthBrowser, parseArgs, log } = require('./lib/common');
+  updateShop, createStealthBrowser, parseArgs, log, supabase } = require('./lib/common');
+const https = require('https');
+const http = require('http');
 
-async function scrapeGoogleMaps(page, shopName, city, state) {
+async function downloadAndUploadImage(url, slug, index) {
+  return new Promise((resolve) => {
+    try {
+      const urlObj = new URL(url);
+      const client = urlObj.protocol === 'https:' ? https : http;
+      
+      const req = client.get(url, { timeout: 10000 }, async (res) => {
+        if (res.statusCode !== 200) {
+          log(`    ⚠️  Failed to download image ${index}: HTTP ${res.statusCode}`);
+          return resolve(null);
+        }
+
+        const chunks = [];
+        res.on('data', (chunk) => chunks.push(chunk));
+        res.on('end', async () => {
+          try {
+            const buffer = Buffer.concat(chunks);
+            const contentType = res.headers['content-type'] || 'image/jpeg';
+            
+            // Determine extension
+            let ext = 'jpg';
+            if (contentType.includes('png')) ext = 'png';
+            else if (contentType.includes('webp')) ext = 'webp';
+            else if (contentType.includes('gif')) ext = 'gif';
+
+            // Upload to Supabase storage
+            const timestamp = Date.now();
+            const storagePath = `gallery/${slug}/${timestamp}_google_${index}.${ext}`;
+            
+            const { data, error } = await supabase.storage
+              .from('shop-logos')
+              .upload(storagePath, buffer, {
+                contentType,
+                upsert: false
+              });
+
+            if (error) {
+              log(`    ⚠️  Storage upload failed for image ${index}: ${error.message}`);
+              return resolve(null);
+            }
+
+            // Get public URL
+            const { data: publicUrlData } = supabase.storage
+              .from('shop-logos')
+              .getPublicUrl(storagePath);
+
+            log(`    ✓ Uploaded image ${index} to storage`);
+            resolve(publicUrlData.publicUrl);
+          } catch (e) {
+            log(`    ⚠️  Error processing image ${index}: ${e.message}`);
+            resolve(null);
+          }
+        });
+      });
+
+      req.on('error', (e) => {
+        log(`    ⚠️  Download error for image ${index}: ${e.message}`);
+        resolve(null);
+      });
+
+      req.on('timeout', () => {
+        req.destroy();
+        log(`    ⚠️  Timeout downloading image ${index}`);
+        resolve(null);
+      });
+
+    } catch (e) {
+      log(`    ⚠️  Invalid URL for image ${index}: ${e.message}`);
+      resolve(null);
+    }
+  });
+}
+
+async function scrapeGoogleMaps(page, shopName, city, state, slug = null) {
   const query = encodeURIComponent(`${shopName} record store ${city} ${state}`);
   const url = `https://www.google.com/maps/search/${query}`;
   
@@ -111,6 +186,28 @@ async function scrapeGoogleMaps(page, shopName, city, state) {
     };
   });
 
+  // Download and upload photos to permanent storage
+  if (slug && data.photos && data.photos.length > 0) {
+    const originalPhotoCount = data.photos.length;
+    log(`    Downloading and uploading ${originalPhotoCount} photos...`);
+    const uploadedPhotos = [];
+    
+    for (let i = 0; i < originalPhotoCount; i++) {
+      const photoUrl = data.photos[i];
+      const uploadedUrl = await downloadAndUploadImage(photoUrl, slug, i + 1);
+      if (uploadedUrl) {
+        uploadedPhotos.push(uploadedUrl);
+      }
+      // Small delay between uploads
+      if (i < originalPhotoCount - 1) {
+        await delay(500, 1000);
+      }
+    }
+    
+    data.photos = uploadedPhotos;
+    log(`    ✓ Successfully uploaded ${uploadedPhotos.length}/${originalPhotoCount} photos`);
+  }
+
   // Now try to get reviews by clicking the reviews tab/button
   let reviews = [];
   try {
@@ -197,13 +294,14 @@ async function run() {
     const page = await context.newPage();
 
     if (args.shop && args.city && args.state) {
-      // Single shop
-      const data = await scrapeGoogleMaps(page, args.shop, args.city, args.state);
-      
-      // Find in Supabase
+      // Single shop - first get the shop to have slug for image uploads
       const shops = await getShopByName(args.shop, args.city, args.state);
-      if (shops && shops.length > 0) {
-        const shop = shops[0];
+      const shop = shops && shops.length > 0 ? shops[0] : null;
+      const slug = shop ? shop.slug : null;
+      
+      const data = await scrapeGoogleMaps(page, args.shop, args.city, args.state, slug);
+      
+      if (shop) {
         const outPath = contentDir(shop.id, 'reviews', 'google_reviews.json');
         saveJSON(outPath, data);
         
@@ -221,11 +319,10 @@ async function run() {
     }
 
     if (args['shop-id']) {
-      const { supabase } = require('./lib/common');
       const { data: shop } = await supabase.from('shops').select('*').eq('id', args['shop-id']).single();
       if (!shop) { log('Shop not found'); return; }
       
-      const data = await scrapeGoogleMaps(page, shop.name, shop.city, shop.state);
+      const data = await scrapeGoogleMaps(page, shop.name, shop.city, shop.state, shop.slug);
       const outPath = contentDir(shop.id, 'reviews', 'google_reviews.json');
       saveJSON(outPath, data);
       log(`Saved to ${outPath}`);
@@ -244,17 +341,26 @@ async function run() {
         }
 
         try {
-          const data = await scrapeGoogleMaps(page, shop.name, shop.city, shop.state);
+          const data = await scrapeGoogleMaps(page, shop.name, shop.city, shop.state, shop.slug);
           const outPath = contentDir(shop.id, 'reviews', 'google_reviews.json');
           saveJSON(outPath, data);
 
-          await updateShop(shop.id, {
+          // Update shop with gallery images
+          const updateData = {
             google_maps_url: data.googleMapsUrl,
             average_rating: data.rating || shop.average_rating,
-          });
+          };
+          
+          // Add photos to image_gallery if any were uploaded
+          if (data.photos && data.photos.length > 0) {
+            const existingGallery = Array.isArray(shop.image_gallery) ? shop.image_gallery : [];
+            updateData.image_gallery = [...data.photos, ...existingGallery];
+          }
+
+          await updateShop(shop.id, updateData);
 
           processed++;
-          log(`✓ [${processed}/${shops.length}] ${shop.name} — ${data.rating}★ (${data.totalReviewsScraped} reviews)`);
+          log(`✓ [${processed}/${shops.length}] ${shop.name} — ${data.rating}★ (${data.totalReviewsScraped} reviews, ${data.photos?.length || 0} photos)`);
           await delay(3000, 6000);
         } catch (e) {
           log(`✗ ${shop.name}: ${e.message}`);

@@ -1,0 +1,1642 @@
+[dotenv@17.3.1] injecting env (5) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[2026-02-17T17:18:00.903Z] ╔════════════════════════════════════════════════════════╗
+[2026-02-17T17:18:00.903Z] ║   Pennsylvania Record Shop Batch Enrichment           ║
+╔════════════════════════════════════════════════════════╗
+║   Pennsylvania Record Shop Batch Enrichment           ║
+[2026-02-17T17:18:00.903Z] ╚════════════════════════════════════════════════════════╝
+╚════════════════════════════════════════════════════════╝
+[2026-02-17T17:18:01.039Z] Found 190 unenriched PA shops
+
+Found 190 unenriched PA shops
+
+[2026-02-17T17:18:01.039Z] 
+============================================================
+
+============================================================
+[2026-02-17T17:18:01.039Z] [1/190] Electric Avenue Music (Aliquippa)
+[1/190] Electric Avenue Music (Aliquippa)
+[2026-02-17T17:18:01.039Z] ID: 525f6749-5eca-4f13-9c34-f3b0aea240af
+ID: 525f6749-5eca-4f13-9c34-f3b0aea240af
+[2026-02-17T17:18:01.039Z] ============================================================
+============================================================
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[2026-02-17T17:18:01.084Z] ╔══════════════════════════════════════════════════════════╗
+[2026-02-17T17:18:01.084Z] ║     Master Deep Scrape Orchestrator                      ║
+[2026-02-17T17:18:01.084Z] ╚══════════════════════════════════════════════════════════╝
+[2026-02-17T17:18:01.188Z] 
+  ▶ Running discovery scraper...
+[2026-02-17T17:18:01.188Z] 
+🔍 Google Discovery for: Electric Avenue Music (Aliquippa, Pennsylvania)
+[2026-02-17T17:18:01.188Z]   📎 Searching: "Electric Avenue Music Aliquippa Pennsylvania record store"
+[2026-02-17T17:18:02.038Z]   Found 10 raw URLs
+[2026-02-17T17:18:03.807Z]   📎 Searching: "Electric Avenue Music Aliquippa instagram facebook"
+[2026-02-17T17:18:03.860Z]   ⚠ Google returned 429 (rate limited), skipping query
+[2026-02-17T17:18:03.861Z] 
+  📋 Discovery Results:
+[2026-02-17T17:18:03.861Z]     [website] https://www.electricavenuemusicwc.com/
+[2026-02-17T17:18:03.861Z]     [website] https://www.discogs.com/record-stores/store/electric_avenue/
+[2026-02-17T17:18:03.861Z]     [website] https://www.allbiz.com/business/electric-avenue-music-610-692-3600
+[2026-02-17T17:18:03.861Z]     [website] https://usa-stores.worldorgs.com/catalog/west-chester/music-store/electric-avenue-music
+[2026-02-17T17:18:03.861Z]     [facebook] https://facebook.com/electricavenuemusicwc
+[2026-02-17T17:18:03.861Z]     [directory] https://vinylmapper.com/record-stores/us/pa/west-chester/electric-avenue-music-19380/
+[2026-02-17T17:18:03.861Z]     [directory] https://www.loc8nearme.com/pennsylvania/west-chester/electric-avenue-music/3225759/
+[2026-02-17T17:18:03.861Z]     [directory] https://www.yellowpages.com/west-chester-pa/mip/electric-avenue-music-480113392
+[2026-02-17T17:18:03.861Z]     [directory] https://recordstoreday.com/Venue/13400
+[2026-02-17T17:18:03.861Z]     [yelp] https://www.yelp.com/biz/electric-avenue-music-west-chester?start=10
+[2026-02-17T17:18:03.861Z]   💾 Report saved: /home/john/Projects/record-shop-enricher/content/525f6749-5eca-4f13-9c34-f3b0aea240af/discovery/google_discovery_2026-02-17T17-18-03-861Z.json
+[2026-02-17T17:18:03.861Z] 
+  📝 Updating 3 field(s):
+[2026-02-17T17:18:03.861Z]     yelp_url: https://www.yelp.com/biz/electric-avenue-music-west-chester?start=10
+[2026-02-17T17:18:03.861Z]     social_facebook: https://facebook.com/electricavenuemusicwc
+[2026-02-17T17:18:03.861Z]     website: https://www.electricavenuemusicwc.com/
+[2026-02-17T17:18:03.948Z]   ✅ Database updated
+[2026-02-17T17:18:04.020Z]   ✓ discovery completed in 2.8s
+[2026-02-17T17:18:06.912Z] 
+  ▶ Running yelp scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[2026-02-17T17:18:07.355Z]   Scraping business page: https://www.yelp.com/biz/electric-avenue-music-west-chester?start=10
+[2026-02-17T17:18:10.332Z] Saved to /home/john/Projects/record-shop-enricher/content/525f6749-5eca-4f13-9c34-f3b0aea240af/reviews/yelp_reviews.json
+[2026-02-17T17:18:10.353Z]   ✓ yelp completed in 3.4s
+[2026-02-17T17:18:12.372Z] 
+  ▶ Running google scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[2026-02-17T17:18:12.714Z]   Searching Google Maps: Electric Avenue Music, Aliquippa, Pennsylvania
+[2026-02-17T17:18:33.574Z]     Got 0 Google reviews
+[2026-02-17T17:18:33.739Z] Saved to /home/john/Projects/record-shop-enricher/content/525f6749-5eca-4f13-9c34-f3b0aea240af/reviews/google_reviews.json
+[2026-02-17T17:18:33.778Z]   ✓ google completed in 21.4s
+[2026-02-17T17:18:37.319Z] 
+  ▶ Running website scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[2026-02-17T17:18:37.707Z]   Crawling: https://www.electricavenuemusicwc.com
+[2026-02-17T17:18:38.769Z]   Crawling: https://www.electricavenuemusicwc.com/about
+[2026-02-17T17:18:38.871Z]   Crawling: https://www.electricavenuemusicwc.com/about-us
+[2026-02-17T17:18:40.313Z]   Crawling: https://www.electricavenuemusicwc.com/our-story
+[2026-02-17T17:18:40.421Z]   Crawling: https://www.electricavenuemusicwc.com/events
+[2026-02-17T17:18:40.521Z]   Crawling: https://www.electricavenuemusicwc.com/calendar
+[2026-02-17T17:18:40.625Z]   Crawling: https://www.electricavenuemusicwc.com/shows
+[2026-02-17T17:18:40.699Z]   Crawling: https://www.electricavenuemusicwc.com/in-store
+[2026-02-17T17:18:40.765Z]   Crawling: https://www.electricavenuemusicwc.com/contact
+[2026-02-17T17:18:40.863Z]   Crawling: https://www.electricavenuemusicwc.com/contact-us
+[2026-02-17T17:18:40.936Z]   Crawling: https://www.electricavenuemusicwc.com/hours
+[2026-02-17T17:18:41.022Z]   Crawling: https://www.electricavenuemusicwc.com/location
+[2026-02-17T17:18:41.093Z]   Crawling: https://www.electricavenuemusicwc.com/visit
+[2026-02-17T17:18:41.191Z]   Crawling: https://www.electricavenuemusicwc.com/blog
+[2026-02-17T17:18:41.276Z]   Crawling: https://www.electricavenuemusicwc.com/news
+[2026-02-17T17:18:41.354Z]   Crawling: https://www.electricavenuemusicwc.com/press
+[2026-02-17T17:18:41.422Z]   Crawling: https://www.electricavenuemusicwc.com/shop
+[2026-02-17T17:18:41.492Z]   Crawling: https://www.electricavenuemusicwc.com/store
+[2026-02-17T17:18:41.592Z]   Crawling: https://www.electricavenuemusicwc.com/catalog
+[2026-02-17T17:18:41.664Z]   Crawling: https://www.electricavenuemusicwc.com/new-arrivals
+[2026-02-17T17:18:41.734Z]   Summarizing 2 pages with Ollama...
+[2026-02-17T17:18:47.778Z]     Ollama summarization failed: Unexpected token 'N', ...""genres": Not specif"... is not valid JSON
+[2026-02-17T17:18:47.778Z] Saved 2 pages + summary to /home/john/Projects/record-shop-enricher/content/525f6749-5eca-4f13-9c34-f3b0aea240af/web/crawl_2026-02-17
+[2026-02-17T17:18:47.802Z]   ✓ website completed in 10.5s
+[2026-02-17T17:18:49.909Z] 
+  ▶ Running instagram scraper...
+[2026-02-17T17:18:49.909Z]   No Instagram handle, skipping
+[2026-02-17T17:18:49.909Z]   ✓ instagram completed in 0.0s
+[2026-02-17T17:18:52.585Z] 
+  ▶ Running events scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[2026-02-17T17:18:53.109Z] 
+═══ Electric Avenue Music (Aliquippa, Pennsylvania) ═══
+[2026-02-17T17:18:53.110Z]   Searching: Electric Avenue Music Aliquippa Pennsylvania events
+[2026-02-17T17:19:00.565Z]   Searching: Electric Avenue Music Aliquippa in-store performance
+[2026-02-17T17:19:07.673Z]   Searching: Electric Avenue Music record store day
+[2026-02-17T17:19:12.939Z]   Found 0 event mentions from search
+[2026-02-17T17:19:12.939Z]   Checking events page: https://www.electricavenuemusicwc.com/events
+[2026-02-17T17:19:16.858Z]   Checking events page: https://www.electricavenuemusicwc.com/events/
+[2026-02-17T17:19:21.514Z]   Checking events page: https://www.electricavenuemusicwc.com/calendar
+[2026-02-17T17:19:25.600Z]   Checking events page: https://www.electricavenuemusicwc.com/shows
+[2026-02-17T17:19:30.298Z]   Checking events page: https://www.electricavenuemusicwc.com/in-store
+[2026-02-17T17:19:33.785Z]   Checking events page: https://www.electricavenuemusicwc.com/happenings
+[2026-02-17T17:19:38.012Z] Saved to /home/john/Projects/record-shop-enricher/content/525f6749-5eca-4f13-9c34-f3b0aea240af/events/upcoming.json
+[2026-02-17T17:19:38.034Z]   ✓ events completed in 45.4s
+[2026-02-17T17:19:41.442Z] 
+  ▶ Running reviews scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[2026-02-17T17:19:41.784Z]   No reviews found for Electric Avenue Music
+[2026-02-17T17:19:41.817Z]   ✓ reviews completed in 0.4s
+[2026-02-17T17:19:45.382Z]   ✓ Marked deep_scrape_at in Supabase
+[2026-02-17T17:19:48.388Z] ✓ Completed: Electric Avenue Music
+✓ Completed: Electric Avenue Music
+[2026-02-17T17:19:51.924Z] 
+============================================================
+[2026-02-17T17:19:51.924Z] [2/190] The Record Shop (Aliquippa)
+
+============================================================
+[2/190] The Record Shop (Aliquippa)
+[2026-02-17T17:19:51.924Z] ID: 2f87679f-9e65-43ad-9422-923496b452bb
+[2026-02-17T17:19:51.924Z] ============================================================
+ID: 2f87679f-9e65-43ad-9422-923496b452bb
+============================================================
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[2026-02-17T17:19:51.969Z] ╔══════════════════════════════════════════════════════════╗
+[2026-02-17T17:19:51.970Z] ║     Master Deep Scrape Orchestrator                      ║
+[2026-02-17T17:19:51.970Z] ╚══════════════════════════════════════════════════════════╝
+[2026-02-17T17:19:52.068Z] 
+  ▶ Running discovery scraper...
+[2026-02-17T17:19:52.069Z] 
+🔍 Google Discovery for: The Record Shop (Aliquippa, Pennsylvania)
+[2026-02-17T17:19:52.069Z]   📎 Searching: "The Record Shop Aliquippa Pennsylvania record store"
+[2026-02-17T17:19:52.833Z]   Found 10 raw URLs
+[2026-02-17T17:19:54.486Z]   📎 Searching: "The Record Shop Aliquippa instagram facebook"
+[2026-02-17T17:19:55.168Z]   Found 10 raw URLs
+[2026-02-17T17:19:57.069Z] 
+  📋 Discovery Results:
+[2026-02-17T17:19:57.069Z]     [directory] https://www.superpages.com/aliquippa-pa/record-stores
+[2026-02-17T17:19:57.069Z]     [directory] https://www.vinylworld.org/record-stores/pennsylvania-united-states/
+[2026-02-17T17:19:57.069Z]     [directory] https://www.yellowpages.com/aliquippa-pa/record-town-inc
+[2026-02-17T17:19:57.069Z]     [directory] https://vinylmapper.com/record-stores/us/pa/
+[2026-02-17T17:19:57.069Z]     [website] https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/
+[2026-02-17T17:19:57.069Z]     [website] https://www.whereorg.com/record-and-prerecorded-tape-stores-aliquippa-pa
+[2026-02-17T17:19:57.069Z]     [website] https://www.wearesmelly.com/pennsylvania-record-stores
+[2026-02-17T17:19:57.069Z]     [website] https://www.atticrecordstoreinc.com/
+[2026-02-17T17:19:57.069Z]     [press] https://www.phillymag.com/life-style/philly-record-stores/
+[2026-02-17T17:19:57.069Z]     [facebook] https://facebook.com/recordshoppa
+[2026-02-17T17:19:57.069Z]     [facebook] https://facebook.com/therecordshop1
+[2026-02-17T17:19:57.069Z]     [facebook] https://facebook.com/thedanisunshineshop
+[2026-02-17T17:19:57.069Z]     [facebook] https://facebook.com/aliquippapa
+[2026-02-17T17:19:57.069Z]     [instagram] @therecordshopstudios — https://www.instagram.com/therecordshopstudios/
+[2026-02-17T17:19:57.069Z]     [instagram] @therecordshop — https://www.instagram.com/therecordshop/
+[2026-02-17T17:19:57.069Z]     [instagram] @therecordshopstudios — https://www.instagram.com/therecordshopstudios/reels/
+[2026-02-17T17:19:57.070Z]   💾 Report saved: /home/john/Projects/record-shop-enricher/content/2f87679f-9e65-43ad-9422-923496b452bb/discovery/google_discovery_2026-02-17T17-19-57-069Z.json
+[2026-02-17T17:19:57.070Z] 
+  📝 Updating 3 field(s):
+[2026-02-17T17:19:57.070Z]     social_instagram: therecordshopstudios
+[2026-02-17T17:19:57.070Z]     social_facebook: https://facebook.com/recordshoppa
+[2026-02-17T17:19:57.070Z]     website: https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/
+[2026-02-17T17:19:57.187Z]   ✅ Database updated
+[2026-02-17T17:19:57.268Z]   ✓ discovery completed in 5.2s
+[2026-02-17T17:19:59.500Z] 
+  ▶ Running yelp scraper...
+[2026-02-17T17:19:59.500Z]   No Yelp URL, searching by city...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[2026-02-17T17:19:59.853Z] 
+═══ Searching Yelp for record shops in Aliquippa, Pennsylvania ═══
+[2026-02-17T17:19:59.853Z] Fetching Yelp search: Aliquippa, Pennsylvania (offset 0)
+[2026-02-17T17:20:03.007Z]   Unique shops found in Aliquippa, Pennsylvania: 0
+[2026-02-17T17:20:03.007Z] 
+═══ DONE ═══
+[2026-02-17T17:20:03.007Z] Total shops processed: 0
+[2026-02-17T17:20:03.007Z] New shops added: 0
+[2026-02-17T17:20:03.031Z]   ✓ yelp completed in 3.5s
+[2026-02-17T17:20:06.816Z] 
+  ▶ Running google scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+[2026-02-17T17:20:07.137Z]   Searching Google Maps: The Record Shop, Aliquippa, Pennsylvania
+[2026-02-17T17:20:55.066Z]     Got 0 Google reviews
+[2026-02-17T17:20:55.251Z] Saved to /home/john/Projects/record-shop-enricher/content/2f87679f-9e65-43ad-9422-923496b452bb/reviews/google_reviews.json
+[2026-02-17T17:20:55.283Z]   ✓ google completed in 48.5s
+[2026-02-17T17:20:58.818Z] 
+  ▶ Running website scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[2026-02-17T17:20:59.202Z]   Crawling: https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania
+[2026-02-17T17:21:01.415Z]   Crawling: https://recordstoredirectory.com
+[2026-02-17T17:21:02.570Z]   Crawling: https://recordstoredirectory.com/about
+[2026-02-17T17:21:07.038Z]   Crawling: https://recordstoredirectory.com/about-us
+[2026-02-17T17:21:09.431Z]   Crawling: https://recordstoredirectory.com/our-story
+[2026-02-17T17:21:10.817Z]   Crawling: https://recordstoredirectory.com/events
+[2026-02-17T17:21:12.472Z]   Crawling: https://recordstoredirectory.com/calendar
+[2026-02-17T17:21:14.321Z]   Crawling: https://recordstoredirectory.com/shows
+[2026-02-17T17:21:16.032Z]   Crawling: https://recordstoredirectory.com/in-store
+[2026-02-17T17:21:17.831Z]   Crawling: https://recordstoredirectory.com/contact
+[2026-02-17T17:21:20.396Z]   Crawling: https://recordstoredirectory.com/contact-us
+[2026-02-17T17:21:21.727Z]   Crawling: https://recordstoredirectory.com/hours
+[2026-02-17T17:21:23.375Z]   Crawling: https://recordstoredirectory.com/location
+[2026-02-17T17:21:24.959Z]   Crawling: https://recordstoredirectory.com/visit
+[2026-02-17T17:21:26.734Z]   Crawling: https://recordstoredirectory.com/blog
+[2026-02-17T17:21:28.521Z]   Crawling: https://recordstoredirectory.com/news
+[2026-02-17T17:21:30.245Z]   Crawling: https://recordstoredirectory.com/press
+[2026-02-17T17:21:32.092Z]   Crawling: https://recordstoredirectory.com/shop
+[2026-02-17T17:21:33.918Z]   Crawling: https://recordstoredirectory.com/store
+[2026-02-17T17:21:35.473Z]   Crawling: https://recordstoredirectory.com/catalog
+[2026-02-17T17:21:37.188Z]   Summarizing 5 pages with Ollama...
+[2026-02-17T17:21:39.219Z] Saved 5 pages + summary to /home/john/Projects/record-shop-enricher/content/2f87679f-9e65-43ad-9422-923496b452bb/web/crawl_2026-02-17
+[2026-02-17T17:21:39.254Z]   ✓ website completed in 40.4s
+[2026-02-17T17:21:41.560Z] 
+  ▶ Running instagram scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[2026-02-17T17:21:41.889Z]   Scraping Instagram: @therecordshopstudios
+[2026-02-17T17:22:03.592Z] Saved to /home/john/Projects/record-shop-enricher/content/2f87679f-9e65-43ad-9422-923496b452bb/social/instagram.json
+[2026-02-17T17:22:03.646Z]   ✓ instagram completed in 22.1s
+[2026-02-17T17:22:07.538Z] 
+  ▶ Running events scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[2026-02-17T17:22:08.155Z] 
+═══ The Record Shop (Aliquippa, Pennsylvania) ═══
+[2026-02-17T17:22:08.156Z]   Searching: The Record Shop Aliquippa Pennsylvania events
+[2026-02-17T17:22:15.379Z]   Searching: The Record Shop Aliquippa in-store performance
+[2026-02-17T17:22:20.533Z]   Searching: The Record Shop record store day
+[2026-02-17T17:22:28.709Z]   Found 0 event mentions from search
+[2026-02-17T17:22:28.710Z]   Checking events page: https://recordstoredirectory.com/events
+[2026-02-17T17:22:34.454Z]   Checking events page: https://recordstoredirectory.com/events/
+[2026-02-17T17:22:39.259Z]   Checking events page: https://recordstoredirectory.com/calendar
+[2026-02-17T17:22:43.979Z]   Checking events page: https://recordstoredirectory.com/shows
+[2026-02-17T17:22:48.539Z]   Checking events page: https://recordstoredirectory.com/in-store
+Force exit: 3min timeout
+[2026-02-17T17:22:51.978Z] ✗ Failed: The Record Shop — Exit code 2: Force exit: 3min timeout
+
+✗ Failed: The Record Shop — Exit code 2: Force exit: 3min timeout
+
+[2026-02-17T17:22:55.886Z] 
+============================================================
+[2026-02-17T17:22:55.887Z] [3/190] Vinyl Lab Record Store (Aliquippa)
+
+============================================================
+[2026-02-17T17:22:55.887Z] ID: ce21ec92-d1bc-41ce-900b-9e4e31e20b8f
+[3/190] Vinyl Lab Record Store (Aliquippa)
+ID: ce21ec92-d1bc-41ce-900b-9e4e31e20b8f
+[2026-02-17T17:22:55.887Z] ============================================================
+============================================================
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[2026-02-17T17:22:55.931Z] ╔══════════════════════════════════════════════════════════╗
+[2026-02-17T17:22:55.931Z] ║     Master Deep Scrape Orchestrator                      ║
+[2026-02-17T17:22:55.931Z] ╚══════════════════════════════════════════════════════════╝
+[2026-02-17T17:22:56.059Z] 
+  ▶ Running discovery scraper...
+[2026-02-17T17:22:56.059Z] 
+🔍 Google Discovery for: Vinyl Lab Record Store (Aliquippa, Pennsylvania)
+[2026-02-17T17:22:56.059Z]   📎 Searching: "Vinyl Lab Record Store Aliquippa Pennsylvania record store"
+[2026-02-17T17:22:56.951Z]   Found 12 raw URLs
+[2026-02-17T17:22:58.742Z]   📎 Searching: "Vinyl Lab Record Store Aliquippa instagram facebook"
+[2026-02-17T17:22:58.793Z]   ⚠ Google returned 429 (rate limited), skipping query
+[2026-02-17T17:22:58.793Z] 
+  📋 Discovery Results:
+[2026-02-17T17:22:58.793Z]     [website] https://duckduckgo.com/y.js?ad_domain=amazon.com&amp;ad_provider=bingv7aa&amp;ad_type=txad&amp;click_metadata=CY_01Wr2mdD4NPRMKV5lcbfwcSQy8qEh6v5WWwoH53seCpH43kwUrAsLzQ07Uyikg2w0_Raw8O4-wHttnZRbVLN5O1-J_FhXC7oCVS-Fc4XZJJDa2ktP5sO0qsppIHZv8Un49wXv1UQnAO6vtzoZFdkDqzeNfu5Z15Xthw46icA.PgPDiBndcNsSQ7zoaMJ5Aw&amp;rut=65cba3e77e6c6de12d50b94a2200521781e039b6860d521c5372b5397144d8d6&amp;u3=https://www.bing.com/aclick?ld=e8D2oNmd5K4F-rQlDdLLzAETVUCUzLzhzm47tETeGKN0tySpKQwAiA2O9cpw4zOE-ZWjn3ISShZaFp2FhP_0WsCQbT-WnMlRRPmat3fCgTVFsK9DlUqdrH06d4Go8fbPOm_-eeH-bqoxSJQDF0_8y6bKbZb1hktCKC4m7Z85OL6Dy2ctypk-192tpWFd3sRKZGfFrkfke4rGqkf35GxlEKo04xBfg&u=aHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmNvbSUyZnMlMmYlM2ZpZSUzZFVURjglMjZrZXl3b3JkcyUzZGxwJTJicmVjb3JkcyUyYnZpbnlsJTJiYWxidW1zJTI2aW5kZXglM2RhcHMlMjZ0YWclM2R0eHRzdGRiZ2R0LTIwJTI2cmVmJTNkcGRfc2xfNm5oNGM1NXg2bV9wJTI2YWRncnBpZCUzZDEyMjcwNTUyODcxNDY2MTAlMjZodmFkaWQlM2Q3NjY5MTEyMjAxNTQxNiUyNmh2bmV0dyUzZHMlMjZodnFtdCUzZHAlMjZodmJtdCUzZGJwJTI2aHZkZXYlM2RjJTI2aHZsb2NpbnQlM2Q2MjY2MSUyNmh2bG9jcGh5JTNkOTUzMzYlMjZodnRhcmdpZCUzZGt3ZC03NjY5MTE5MDI5MTU4NSUzYWxvYy0xOTAlMjZoeWRhZGNyJTNkMTAyMDZfMTM1ODYwNjglMjZtY2lkJTNkNDMyZWFhODVhNzY3M2U2NThmNTI5NmU3NzU5ZDQ0NTclMjZsYW5ndWFnZSUzZGVuX1VTJTI2bXNjbGtpZCUzZDM1ZDcxNDI0MTAxZTEwY2RiNzI5N2RiMGIzZWUwOGJh&rlid=35d71424101e10cdb7297db0b3ee08ba&amp;vqd=4-20374165219738438766545849973041198174&amp;iurl={1}IG=A04256091A0A40D29854612766397605&CID=049BD601830A6EB43EA6C10282A76FD1&ID=DevEx,5046.1
+[2026-02-17T17:22:58.793Z]     [website] https://duckduckgo.com/duckduckgo-help-pages/company/ads-by-microsoft-on-duckduckgo-private-search
+[2026-02-17T17:22:58.793Z]     [website] https://www.shopvinyllab.com/
+[2026-02-17T17:22:58.793Z]     [website] https://audiolab.com/pages/vinyl-lab-record-store-grand-opening
+[2026-02-17T17:22:58.793Z]     [website] https://www.fezrecords.com/
+[2026-02-17T17:22:58.793Z]     [website] https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/
+[2026-02-17T17:22:58.793Z]     [facebook] https://facebook.com/vinyl.lab.record.store
+[2026-02-17T17:22:58.793Z]     [facebook] https://facebook.com/61576180417691
+[2026-02-17T17:22:58.793Z]     [directory] https://www.vinylworld.org/record-stores/pennsylvania-united-states/
+[2026-02-17T17:22:58.793Z]     [directory] https://www.bbb.org/us/pa/west-aliquippa/category/vinyl-records
+[2026-02-17T17:22:58.793Z]     [instagram] @vinyl_lab_record_store — https://www.instagram.com/vinyl_lab_record_store/
+[2026-02-17T17:22:58.794Z]   💾 Report saved: /home/john/Projects/record-shop-enricher/content/ce21ec92-d1bc-41ce-900b-9e4e31e20b8f/discovery/google_discovery_2026-02-17T17-22-58-793Z.json
+[2026-02-17T17:22:58.794Z] 
+  📝 Updating 3 field(s):
+[2026-02-17T17:22:58.794Z]     social_instagram: vinyl_lab_record_store
+[2026-02-17T17:22:58.794Z]     social_facebook: https://facebook.com/vinyl.lab.record.store
+[2026-02-17T17:22:58.794Z]     website: https://duckduckgo.com/y.js?ad_domain=amazon.com&amp;ad_provider=bingv7aa&amp;ad_type=txad&amp;click_metadata=CY_01Wr2mdD4NPRMKV5lcbfwcSQy8qEh6v5WWwoH53seCpH43kwUrAsLzQ07Uyikg2w0_Raw8O4-wHttnZRbVLN5O1-J_FhXC7oCVS-Fc4XZJJDa2ktP5sO0qsppIHZv8Un49wXv1UQnAO6vtzoZFdkDqzeNfu5Z15Xthw46icA.PgPDiBndcNsSQ7zoaMJ5Aw&amp;rut=65cba3e77e6c6de12d50b94a2200521781e039b6860d521c5372b5397144d8d6&amp;u3=https://www.bing.com/aclick?ld=e8D2oNmd5K4F-rQlDdLLzAETVUCUzLzhzm47tETeGKN0tySpKQwAiA2O9cpw4zOE-ZWjn3ISShZaFp2FhP_0WsCQbT-WnMlRRPmat3fCgTVFsK9DlUqdrH06d4Go8fbPOm_-eeH-bqoxSJQDF0_8y6bKbZb1hktCKC4m7Z85OL6Dy2ctypk-192tpWFd3sRKZGfFrkfke4rGqkf35GxlEKo04xBfg&u=aHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmNvbSUyZnMlMmYlM2ZpZSUzZFVURjglMjZrZXl3b3JkcyUzZGxwJTJicmVjb3JkcyUyYnZpbnlsJTJiYWxidW1zJTI2aW5kZXglM2RhcHMlMjZ0YWclM2R0eHRzdGRiZ2R0LTIwJTI2cmVmJTNkcGRfc2xfNm5oNGM1NXg2bV9wJTI2YWRncnBpZCUzZDEyMjcwNTUyODcxNDY2MTAlMjZodmFkaWQlM2Q3NjY5MTEyMjAxNTQxNiUyNmh2bmV0dyUzZHMlMjZodnFtdCUzZHAlMjZodmJtdCUzZGJwJTI2aHZkZXYlM2RjJTI2aHZsb2NpbnQlM2Q2MjY2MSUyNmh2bG9jcGh5JTNkOTUzMzYlMjZodnRhcmdpZCUzZGt3ZC03NjY5MTE5MDI5MTU4NSUzYWxvYy0xOTAlMjZoeWRhZGNyJTNkMTAyMDZfMTM1ODYwNjglMjZtY2lkJTNkNDMyZWFhODVhNzY3M2U2NThmNTI5NmU3NzU5ZDQ0NTclMjZsYW5ndWFnZSUzZGVuX1VTJTI2bXNjbGtpZCUzZDM1ZDcxNDI0MTAxZTEwY2RiNzI5N2RiMGIzZWUwOGJh&rlid=35d71424101e10cdb7297db0b3ee08ba&amp;vqd=4-20374165219738438766545849973041198174&amp;iurl={1}IG=A04256091A0A40D29854612766397605&CID=049BD601830A6EB43EA6C10282A76FD1&ID=DevEx,5046.1
+[2026-02-17T17:22:58.866Z]   ✅ Database updated
+[2026-02-17T17:22:58.952Z]   ✓ discovery completed in 2.9s
+[2026-02-17T17:23:01.185Z] 
+  ▶ Running yelp scraper...
+[2026-02-17T17:23:01.185Z]   No Yelp URL, searching by city...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[2026-02-17T17:23:01.512Z] 
+═══ Searching Yelp for record shops in Aliquippa, Pennsylvania ═══
+[2026-02-17T17:23:01.513Z] Fetching Yelp search: Aliquippa, Pennsylvania (offset 0)
+[2026-02-17T17:23:03.676Z]   Unique shops found in Aliquippa, Pennsylvania: 0
+[2026-02-17T17:23:03.676Z] 
+═══ DONE ═══
+[2026-02-17T17:23:03.676Z] Total shops processed: 0
+[2026-02-17T17:23:03.676Z] New shops added: 0
+[2026-02-17T17:23:03.698Z]   ✓ yelp completed in 2.5s
+[2026-02-17T17:23:07.404Z] 
+  ▶ Running google scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[2026-02-17T17:23:07.737Z]   Searching Google Maps: Vinyl Lab Record Store, Aliquippa, Pennsylvania
+[2026-02-17T17:23:27.867Z]     Got 40 Google reviews
+[2026-02-17T17:23:28.024Z] Saved to /home/john/Projects/record-shop-enricher/content/ce21ec92-d1bc-41ce-900b-9e4e31e20b8f/reviews/google_reviews.json
+[2026-02-17T17:23:28.075Z]   ✓ google completed in 20.7s
+[2026-02-17T17:23:31.074Z] 
+  ▶ Running website scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[2026-02-17T17:23:31.450Z]   Crawling: https://duckduckgo.com/y.js
+[2026-02-17T17:23:32.243Z]   Crawling: https://duckduckgo.com
+[2026-02-17T17:23:34.176Z]   Crawling: https://duckduckgo.com/about
+[2026-02-17T17:23:35.025Z]   Crawling: https://duckduckgo.com/about-us
+[2026-02-17T17:23:36.540Z]   Crawling: https://duckduckgo.com/our-story
+[2026-02-17T17:23:38.019Z]   Crawling: https://duckduckgo.com/events
+[2026-02-17T17:23:39.304Z]   Crawling: https://duckduckgo.com/calendar
+[2026-02-17T17:23:40.630Z]   Crawling: https://duckduckgo.com/shows
+[2026-02-17T17:23:42.291Z]   Crawling: https://duckduckgo.com/in-store
+[2026-02-17T17:23:43.257Z]   Crawling: https://duckduckgo.com/contact
+[2026-02-17T17:23:44.842Z]   Crawling: https://duckduckgo.com/contact-us
+[2026-02-17T17:23:45.620Z]   Crawling: https://duckduckgo.com/hours
+[2026-02-17T17:23:46.943Z]   Crawling: https://duckduckgo.com/location
+[2026-02-17T17:23:47.754Z]   Crawling: https://duckduckgo.com/visit
+[2026-02-17T17:23:48.805Z]   Crawling: https://duckduckgo.com/blog
+[2026-02-17T17:23:50.320Z]   Crawling: https://duckduckgo.com/news
+[2026-02-17T17:23:51.189Z]   Crawling: https://duckduckgo.com/press
+[2026-02-17T17:23:52.389Z]   Crawling: https://duckduckgo.com/shop
+[2026-02-17T17:23:52.738Z]   Crawling: https://duckduckgo.com/store
+[2026-02-17T17:23:52.903Z]   Crawling: https://duckduckgo.com/catalog
+[2026-02-17T17:23:54.521Z]   Summarizing 18 pages with Ollama...
+[2026-02-17T17:23:56.895Z] Saved 18 pages + summary to /home/john/Projects/record-shop-enricher/content/ce21ec92-d1bc-41ce-900b-9e4e31e20b8f/web/crawl_2026-02-17
+[2026-02-17T17:23:56.925Z]   ✓ website completed in 25.9s
+[2026-02-17T17:23:59.933Z] 
+  ▶ Running instagram scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+[2026-02-17T17:24:00.261Z]   Scraping Instagram: @vinyl_lab_record_store
+[2026-02-17T17:24:22.580Z] Saved to /home/john/Projects/record-shop-enricher/content/ce21ec92-d1bc-41ce-900b-9e4e31e20b8f/social/instagram.json
+[2026-02-17T17:24:22.634Z]   ✓ instagram completed in 22.7s
+[2026-02-17T17:24:26.003Z] 
+  ▶ Running events scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[2026-02-17T17:24:26.605Z] 
+═══ Vinyl Lab Record Store (Aliquippa, Pennsylvania) ═══
+[2026-02-17T17:24:26.605Z]   Searching: Vinyl Lab Record Store Aliquippa Pennsylvania events
+[2026-02-17T17:24:32.744Z]   Searching: Vinyl Lab Record Store Aliquippa in-store performance
+[2026-02-17T17:24:39.275Z]   Searching: Vinyl Lab Record Store record store day
+[2026-02-17T17:24:47.151Z]   Found 0 event mentions from search
+[2026-02-17T17:24:47.151Z]   Checking events page: https://duckduckgo.com/events
+[2026-02-17T17:24:51.462Z]   Found 3 events from /events
+[2026-02-17T17:24:51.462Z] Saved to /home/john/Projects/record-shop-enricher/content/ce21ec92-d1bc-41ce-900b-9e4e31e20b8f/events/upcoming.json
+[2026-02-17T17:24:51.484Z]   ✓ events completed in 25.5s
+[2026-02-17T17:24:54.812Z] 
+  ▶ Running reviews scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+[2026-02-17T17:24:54.954Z]   Analyzing 40 reviews (0 Yelp, 40 Google)
+[2026-02-17T17:24:58.285Z] Saved analysis to /home/john/Projects/record-shop-enricher/content/ce21ec92-d1bc-41ce-900b-9e4e31e20b8f/reviews/analysis.json
+{
+  "sentiment_score": 9,
+  "key_themes": [
+    "excellent customer service",
+    "great music selection",
+    "friendly and knowledgeable staff",
+    "competitive pricing",
+    "small business with a personal touch"
+  ],
+  "pros": [
+    "Great selection of new and used vinyl records",
+    "Friendly and knowledgeable staff who give great recommendations",
+    "Competitive pricing for both new and used records",
+    "Clean and welcoming store atmosphere",
+    "Excellent customer service, especially considering the recent grand opening"
+  ],
+  "cons": [
+    "Some reviewers found the selection to be hit or miss, with some items being overpriced or understocked",
+    "The store's location may be a barrier for customers with mobility issues due to the stairs",
+    "Not all reviews mentioned any potential drawbacks or areas for improvement"
+  ],
+  "notable_quotes": {
+    "best": "This is truly a phenomenal store. Fantastic selection of new/used vinyl at great price points.",
+    "worst": null,
+    "funniest": "I’m shocked (in the best way)! "
+  },
+  "vibe_description": "Vinyl Lab Records has a welcoming and personal atmosphere, with friendly staff who are knowledgeable about music and eager to help customers. The store's small size makes it feel like a community hub for local music lovers.",
+  "genre_specialties": [
+    "indie rock",
+    "punk",
+    "jazz"
+  ],
+  "staff_mentions": "Reviewers praise the staff for being friendly, knowledgeable, and helpful, with many mentioning that they go above and beyond to assist customers. Several reviewers also appreciate the staff's passion for music.",
+  "event_mentions": [
+    "NIN playing during a visit",
+    "Grand opening planned for August 23rd"
+  ],
+  "recommendation_for": "Music enthusiasts, especially those interested in indie rock, punk, and jazz, as well as local music collectors looking for a unique shopping experience.",
+  "metadata": {
+    "totalReviews": 40,
+    "yelpReviews": 0,
+    "googleReviews": 40,
+    "averageRating": 4.7,
+    "ratingDistribution": {
+      "3": 4,
+      "4": 4,
+      "5": 32
+    },
+    "analyzedAt": "2026-02-17T17:24:58.220Z"
+  }
+}
+[2026-02-17T17:24:58.290Z]   ✓ reviews completed in 3.5s
+[2026-02-17T17:25:01.994Z]   ✓ Marked deep_scrape_at in Supabase
+[2026-02-17T17:25:05.002Z] ✓ Completed: Vinyl Lab Record Store
+✓ Completed: Vinyl Lab Record Store
+[2026-02-17T17:25:08.661Z] 
+============================================================
+
+============================================================
+[2026-02-17T17:25:08.661Z] [4/190] Siren Records (Aliquippa)
+[4/190] Siren Records (Aliquippa)
+[2026-02-17T17:25:08.662Z] ID: 21b77dbb-8eee-4cb3-98f2-bbd99088af67
+[2026-02-17T17:25:08.662Z] ============================================================
+ID: 21b77dbb-8eee-4cb3-98f2-bbd99088af67
+============================================================
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[2026-02-17T17:25:08.703Z] ╔══════════════════════════════════════════════════════════╗
+[2026-02-17T17:25:08.704Z] ║     Master Deep Scrape Orchestrator                      ║
+[2026-02-17T17:25:08.704Z] ╚══════════════════════════════════════════════════════════╝
+[2026-02-17T17:25:08.804Z] 
+  ▶ Running discovery scraper...
+[2026-02-17T17:25:08.805Z] 
+🔍 Google Discovery for: Siren Records (Aliquippa, Pennsylvania)
+[2026-02-17T17:25:08.805Z]   📎 Searching: "Siren Records Aliquippa Pennsylvania record store"
+[2026-02-17T17:25:09.564Z]   Found 10 raw URLs
+[2026-02-17T17:25:11.920Z]   📎 Searching: "Siren Records Aliquippa instagram facebook"
+[2026-02-17T17:25:12.543Z]   Found 10 raw URLs
+[2026-02-17T17:25:14.880Z] 
+  📋 Discovery Results:
+[2026-02-17T17:25:14.880Z]     [website] https://sirenrecords.com/
+[2026-02-17T17:25:14.880Z]     [website] https://www.discogs.com/record-stores/store/sirenrecords/
+[2026-02-17T17:25:14.880Z]     [website] https://sirenrecords.com/Store
+[2026-02-17T17:25:14.880Z]     [website] https://sirenrecords.com/CustomPage/9408
+[2026-02-17T17:25:14.880Z]     [website] https://sirenrecords.com/CustomPage/9385
+[2026-02-17T17:25:14.880Z]     [website] https://www.bestprosintown.com/pa/doylestown/siren-records-/
+[2026-02-17T17:25:14.880Z]     [website] http://www.siren-records.com/
+[2026-02-17T17:25:14.880Z]     [facebook] https://facebook.com/sirenrecordsdoylestown
+[2026-02-17T17:25:14.880Z]     [yelp] https://www.yelp.com/biz/siren-records-doylestown
+[2026-02-17T17:25:14.880Z]     [yelp] https://www.yelp.com/biz/siren-records-doylestown?start=20
+[2026-02-17T17:25:14.880Z]     [instagram] @sirenrecords — https://www.instagram.com/sirenrecords/
+[2026-02-17T17:25:14.880Z]     [instagram] @siren_records — https://www.instagram.com/siren_records/
+[2026-02-17T17:25:14.880Z]     [instagram] @siren__records — https://www.instagram.com/siren__records/
+[2026-02-17T17:25:14.880Z]     [instagram] @sirenrecs — https://www.instagram.com/sirenrecs/
+[2026-02-17T17:25:14.881Z]   💾 Report saved: /home/john/Projects/record-shop-enricher/content/21b77dbb-8eee-4cb3-98f2-bbd99088af67/discovery/google_discovery_2026-02-17T17-25-14-880Z.json
+[2026-02-17T17:25:14.881Z] 
+  📝 Updating 4 field(s):
+[2026-02-17T17:25:14.881Z]     yelp_url: https://www.yelp.com/biz/siren-records-doylestown
+[2026-02-17T17:25:14.881Z]     social_instagram: sirenrecords
+[2026-02-17T17:25:14.881Z]     social_facebook: https://facebook.com/sirenrecordsdoylestown
+[2026-02-17T17:25:14.881Z]     website: https://sirenrecords.com/
+[2026-02-17T17:25:14.972Z]   ✅ Database updated
+[2026-02-17T17:25:15.063Z]   ✓ discovery completed in 6.3s
+[2026-02-17T17:25:18.132Z] 
+  ▶ Running yelp scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[2026-02-17T17:25:18.606Z]   Scraping business page: https://www.yelp.com/biz/siren-records-doylestown
+[2026-02-17T17:25:21.628Z] Saved to /home/john/Projects/record-shop-enricher/content/21b77dbb-8eee-4cb3-98f2-bbd99088af67/reviews/yelp_reviews.json
+[2026-02-17T17:25:21.650Z]   ✓ yelp completed in 3.5s
+[2026-02-17T17:25:24.658Z] 
+  ▶ Running google scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+[2026-02-17T17:25:24.984Z]   Searching Google Maps: Siren Records, Aliquippa, Pennsylvania
+[2026-02-17T17:25:32.372Z] Saved to /home/john/Projects/record-shop-enricher/content/21b77dbb-8eee-4cb3-98f2-bbd99088af67/reviews/google_reviews.json
+[2026-02-17T17:25:32.409Z]   ✓ google completed in 7.8s
+[2026-02-17T17:25:36.381Z] 
+  ▶ Running website scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[2026-02-17T17:25:36.759Z]   Crawling: https://sirenrecords.com
+[2026-02-17T17:25:39.222Z]   Crawling: https://sirenrecords.com/about
+[2026-02-17T17:25:40.425Z]   Crawling: https://sirenrecords.com/about-us
+[2026-02-17T17:25:41.397Z]   Crawling: https://sirenrecords.com/our-story
+[2026-02-17T17:25:42.787Z]   Crawling: https://sirenrecords.com/events
+[2026-02-17T17:25:44.296Z]   Crawling: https://sirenrecords.com/calendar
+[2026-02-17T17:25:45.734Z]   Crawling: https://sirenrecords.com/shows
+[2026-02-17T17:25:47.090Z]   Crawling: https://sirenrecords.com/in-store
+[2026-02-17T17:25:48.151Z]   Crawling: https://sirenrecords.com/contact
+[2026-02-17T17:25:49.980Z]   Crawling: https://sirenrecords.com/contact-us
+[2026-02-17T17:25:50.940Z]   Crawling: https://sirenrecords.com/hours
+[2026-02-17T17:25:52.411Z]   Crawling: https://sirenrecords.com/location
+[2026-02-17T17:25:54.169Z]   Crawling: https://sirenrecords.com/visit
+[2026-02-17T17:25:55.726Z]   Crawling: https://sirenrecords.com/blog
+[2026-02-17T17:25:56.792Z]   Crawling: https://sirenrecords.com/news
+[2026-02-17T17:25:58.190Z]   Crawling: https://sirenrecords.com/press
+[2026-02-17T17:25:59.594Z]   Crawling: https://sirenrecords.com/shop
+[2026-02-17T17:26:01.305Z]   Crawling: https://sirenrecords.com/store
+[2026-02-17T17:26:02.485Z]   Crawling: https://sirenrecords.com/catalog
+[2026-02-17T17:26:03.834Z]   Crawling: https://sirenrecords.com/new-arrivals
+[2026-02-17T17:26:04.938Z]   Summarizing 20 pages with Ollama...
+[2026-02-17T17:26:07.906Z]     Ollama summarization failed: Unexpected token 'N', ..."founded": Not specif"... is not valid JSON
+[2026-02-17T17:26:07.907Z] Saved 20 pages + summary to /home/john/Projects/record-shop-enricher/content/21b77dbb-8eee-4cb3-98f2-bbd99088af67/web/crawl_2026-02-17
+[2026-02-17T17:26:07.943Z]   ✓ website completed in 31.6s
+[2026-02-17T17:26:09.997Z] 
+  ▶ Running instagram scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[2026-02-17T17:26:10.336Z]   Scraping Instagram: @sirenrecords
+[2026-02-17T17:26:43.459Z] Saved to /home/john/Projects/record-shop-enricher/content/21b77dbb-8eee-4cb3-98f2-bbd99088af67/social/instagram.json
+[2026-02-17T17:26:43.513Z]   ✓ instagram completed in 33.5s
+[2026-02-17T17:26:46.087Z] 
+  ▶ Running events scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[2026-02-17T17:26:46.675Z] 
+═══ Siren Records (Aliquippa, Pennsylvania) ═══
+[2026-02-17T17:26:46.675Z]   Searching: Siren Records Aliquippa Pennsylvania events
+[2026-02-17T17:26:53.208Z]   Searching: Siren Records Aliquippa in-store performance
+[2026-02-17T17:26:59.723Z]   Searching: Siren Records record store day
+[2026-02-17T17:27:05.905Z]   Found 0 event mentions from search
+[2026-02-17T17:27:05.906Z]   Checking events page: https://sirenrecords.com/events
+[2026-02-17T17:27:10.471Z]   Checking events page: https://sirenrecords.com/events/
+[2026-02-17T17:27:14.050Z]   Checking events page: https://sirenrecords.com/calendar
+[2026-02-17T17:27:17.999Z]   Checking events page: https://sirenrecords.com/shows
+[2026-02-17T17:27:21.432Z]   Checking events page: https://sirenrecords.com/in-store
+[2026-02-17T17:27:26.583Z]     Events page error: Expected double-quoted property name in JSON at position 135 (line 5 column 27)
+[2026-02-17T17:27:28.089Z]   Checking events page: https://sirenrecords.com/happenings
+[2026-02-17T17:27:30.867Z]   Found 2 events from /happenings
+[2026-02-17T17:27:30.868Z] Saved to /home/john/Projects/record-shop-enricher/content/21b77dbb-8eee-4cb3-98f2-bbd99088af67/events/upcoming.json
+[2026-02-17T17:27:30.892Z]   ✓ events completed in 44.8s
+[2026-02-17T17:27:34.687Z] 
+  ▶ Running reviews scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[2026-02-17T17:27:34.848Z]   No reviews found for Siren Records
+[2026-02-17T17:27:34.875Z]   ✓ reviews completed in 0.2s
+[2026-02-17T17:27:37.473Z]   ✓ Marked deep_scrape_at in Supabase
+[2026-02-17T17:27:40.480Z] ✓ Completed: Siren Records
+✓ Completed: Siren Records
+[2026-02-17T17:27:45.329Z] 
+============================================================
+[2026-02-17T17:27:45.329Z] [5/190] Positively Records (Aliquippa)
+
+============================================================
+[5/190] Positively Records (Aliquippa)
+[2026-02-17T17:27:45.329Z] ID: e32637aa-0b53-485c-81b3-0d3544e1b893
+ID: e32637aa-0b53-485c-81b3-0d3544e1b893
+[2026-02-17T17:27:45.329Z] ============================================================
+============================================================
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[2026-02-17T17:27:45.372Z] ╔══════════════════════════════════════════════════════════╗
+[2026-02-17T17:27:45.373Z] ║     Master Deep Scrape Orchestrator                      ║
+[2026-02-17T17:27:45.373Z] ╚══════════════════════════════════════════════════════════╝
+[2026-02-17T17:27:45.482Z] 
+  ▶ Running discovery scraper...
+[2026-02-17T17:27:45.482Z] 
+🔍 Google Discovery for: Positively Records (Aliquippa, Pennsylvania)
+[2026-02-17T17:27:45.483Z]   📎 Searching: "Positively Records Aliquippa Pennsylvania record store"
+[2026-02-17T17:27:46.296Z]   Found 10 raw URLs
+[2026-02-17T17:27:48.259Z]   📎 Searching: "Positively Records Aliquippa instagram facebook"
+[2026-02-17T17:27:48.303Z]   ⚠ Google returned 429 (rate limited), skipping query
+[2026-02-17T17:27:48.303Z] 
+  📋 Discovery Results:
+[2026-02-17T17:27:48.303Z]     [website] https://www.positivelyrecords.com/
+[2026-02-17T17:27:48.303Z]     [website] https://local.yahoo.com/info-12185082-positively-records-levittown/
+[2026-02-17T17:27:48.303Z]     [website] https://adh6206.wixsite.com/record-revival/positively-records
+[2026-02-17T17:27:48.303Z]     [facebook] https://facebook.com/positivelyrecordss
+[2026-02-17T17:27:48.303Z]     [facebook] https://facebook.com/positivelyrecords
+[2026-02-17T17:27:48.303Z]     [yelp] https://www.yelp.com/biz/positively-records-levittown
+[2026-02-17T17:27:48.303Z]     [directory] https://www.vinylworld.org/record-shop/positively-records/
+[2026-02-17T17:27:48.303Z]     [directory] https://vinylmapper.com/record-stores/us/pa/levittown/positively-records-19057/
+[2026-02-17T17:27:48.303Z]     [directory] https://vinylpackman.com/store/153
+[2026-02-17T17:27:48.303Z]     [directory] https://www.chamberofcommerce.com/business-directory/pennsylvania/levittown/record-store/4719491-positively-records
+[2026-02-17T17:27:48.303Z]   💾 Report saved: /home/john/Projects/record-shop-enricher/content/e32637aa-0b53-485c-81b3-0d3544e1b893/discovery/google_discovery_2026-02-17T17-27-48-303Z.json
+[2026-02-17T17:27:48.303Z] 
+  📝 Updating 3 field(s):
+[2026-02-17T17:27:48.303Z]     yelp_url: https://www.yelp.com/biz/positively-records-levittown
+[2026-02-17T17:27:48.303Z]     social_facebook: https://facebook.com/positivelyrecordss
+[2026-02-17T17:27:48.303Z]     website: https://www.positivelyrecords.com/
+[2026-02-17T17:27:48.372Z]   ✅ Database updated
+[2026-02-17T17:27:48.454Z]   ✓ discovery completed in 3.0s
+[2026-02-17T17:27:51.935Z] 
+  ▶ Running yelp scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+[2026-02-17T17:27:52.382Z]   Scraping business page: https://www.yelp.com/biz/positively-records-levittown
+[2026-02-17T17:28:27.684Z] Saved to /home/john/Projects/record-shop-enricher/content/e32637aa-0b53-485c-81b3-0d3544e1b893/reviews/yelp_reviews.json
+[2026-02-17T17:28:27.725Z]   ✓ yelp completed in 35.8s
+[2026-02-17T17:28:29.781Z] 
+  ▶ Running google scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[2026-02-17T17:28:30.105Z]   Searching Google Maps: Positively Records, Aliquippa, Pennsylvania
+[2026-02-17T17:28:51.326Z]     Got 0 Google reviews
+[2026-02-17T17:28:51.602Z] Saved to /home/john/Projects/record-shop-enricher/content/e32637aa-0b53-485c-81b3-0d3544e1b893/reviews/google_reviews.json
+[2026-02-17T17:28:51.640Z]   ✓ google completed in 21.9s
+[2026-02-17T17:28:54.466Z] 
+  ▶ Running website scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[2026-02-17T17:28:54.856Z]   Crawling: https://www.positivelyrecords.com
+[2026-02-17T17:28:56.269Z]   Crawling: https://www.positivelyrecords.com/about
+[2026-02-17T17:28:57.665Z]   Crawling: https://www.positivelyrecords.com/about-us
+[2026-02-17T17:28:57.781Z]   Crawling: https://www.positivelyrecords.com/our-story
+[2026-02-17T17:28:57.860Z]   Crawling: https://www.positivelyrecords.com/events
+[2026-02-17T17:28:58.097Z]   Crawling: https://www.positivelyrecords.com/calendar
+[2026-02-17T17:28:58.179Z]   Crawling: https://www.positivelyrecords.com/shows
+[2026-02-17T17:28:58.247Z]   Crawling: https://www.positivelyrecords.com/in-store
+[2026-02-17T17:28:58.314Z]   Crawling: https://www.positivelyrecords.com/contact
+[2026-02-17T17:28:59.078Z]   Crawling: https://www.positivelyrecords.com/contact-us
+[2026-02-17T17:28:59.150Z]   Crawling: https://www.positivelyrecords.com/hours
+[2026-02-17T17:28:59.218Z]   Crawling: https://www.positivelyrecords.com/location
+[2026-02-17T17:28:59.293Z]   Crawling: https://www.positivelyrecords.com/visit
+[2026-02-17T17:28:59.363Z]   Crawling: https://www.positivelyrecords.com/blog
+[2026-02-17T17:28:59.450Z]   Crawling: https://www.positivelyrecords.com/news
+[2026-02-17T17:28:59.523Z]   Crawling: https://www.positivelyrecords.com/press
+[2026-02-17T17:28:59.588Z]   Crawling: https://www.positivelyrecords.com/shop
+[2026-02-17T17:29:00.765Z]   Crawling: https://www.positivelyrecords.com/store
+[2026-02-17T17:29:00.845Z]   Crawling: https://www.positivelyrecords.com/catalog
+[2026-02-17T17:29:00.917Z]   Crawling: https://www.positivelyrecords.com/new-arrivals
+[2026-02-17T17:29:01.018Z]   Summarizing 4 pages with Ollama...
+[2026-02-17T17:29:03.258Z]     Ollama summarization failed: Unexpected token 'y', ..."l/trade": yes,
+    ""... is not valid JSON
+[2026-02-17T17:29:03.258Z] Saved 4 pages + summary to /home/john/Projects/record-shop-enricher/content/e32637aa-0b53-485c-81b3-0d3544e1b893/web/crawl_2026-02-17
+[2026-02-17T17:29:03.296Z]   ✓ website completed in 8.8s
+[2026-02-17T17:29:05.369Z] 
+  ▶ Running instagram scraper...
+[2026-02-17T17:29:05.369Z]   No Instagram handle, skipping
+[2026-02-17T17:29:05.369Z]   ✓ instagram completed in 0.0s
+[2026-02-17T17:29:08.622Z] 
+  ▶ Running events scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[2026-02-17T17:29:09.093Z] 
+═══ Positively Records (Aliquippa, Pennsylvania) ═══
+[2026-02-17T17:29:09.093Z]   Searching: Positively Records Aliquippa Pennsylvania events
+[2026-02-17T17:29:15.535Z]   Searching: Positively Records Aliquippa in-store performance
+[2026-02-17T17:29:22.123Z]   Searching: Positively Records record store day
+[2026-02-17T17:29:28.796Z]   Found 0 event mentions from search
+[2026-02-17T17:29:28.796Z]   Checking events page: https://www.positivelyrecords.com/events
+[2026-02-17T17:29:32.762Z]   Checking events page: https://www.positivelyrecords.com/events/
+[2026-02-17T17:29:36.502Z]   Checking events page: https://www.positivelyrecords.com/calendar
+[2026-02-17T17:29:40.485Z]   Checking events page: https://www.positivelyrecords.com/shows
+[2026-02-17T17:29:44.455Z]   Checking events page: https://www.positivelyrecords.com/in-store
+[2026-02-17T17:29:49.054Z]   Checking events page: https://www.positivelyrecords.com/happenings
+[2026-02-17T17:29:52.870Z] Saved to /home/john/Projects/record-shop-enricher/content/e32637aa-0b53-485c-81b3-0d3544e1b893/events/upcoming.json
+[2026-02-17T17:29:52.892Z]   ✓ events completed in 44.3s
+[2026-02-17T17:29:55.054Z] 
+  ▶ Running reviews scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[2026-02-17T17:29:55.224Z]   Analyzing 10 reviews (10 Yelp, 0 Google)
+[2026-02-17T17:29:57.483Z]     JSON parse failed, saving raw summary
+[2026-02-17T17:29:57.536Z] Saved analysis to /home/john/Projects/record-shop-enricher/content/e32637aa-0b53-485c-81b3-0d3544e1b893/reviews/analysis.json
+{
+  "raw_summary": "Here is the comprehensive summary of the reviews in JSON format:\n\n{\n  \"sentiment_score\": 8,\n  \"key_themes\": [\n    \"amazing selection\",\n    \"great vibe and welcoming atmosphere\",\n    \"friendly and knowledgeable staff\",\n    \"hidden gem\",\n    \"music lover's heaven\"\n  ],\n  \"pros\": [\n    \"amazing selection of vinyl records from various artists\",\n    \"friendly and knowledgeable staff\",\n    \"welcoming and no pretension\",\n    \"great value for money\",\n    \"excellent customer service\"\n  ],\n  \"cons\": [\n    \"prices may be a bit high\",\n    \"no negotiation on used records\",\n    \"limited parking options\"\n  ],\n  \"notable_quotes\": {\n    \"best\": \"Positively Records absolutely lived up to its name.\",\n    \"worst\": \"Extremely disappointed with quality of service.\",\n    \"funniest\": None\n  },\n  \"vibe_description\": \"Positively Records is a music lover's haven with a welcoming and no pretension atmosphere. The shop is filled from top to bottom with excellent finds, making it a great place to discover new music and connect with fellow music enthusiasts.\",\n  \"genre_specialties\": [\n    \"jazz\",\n    \"punk\"\n  ],\n  \"staff_mentions\": Reviewers consistently praise the staff for being friendly, knowledgeable, and helpful. The owner is particularly commended for his excellent customer service.\n  \"event_mentions\": None,\n  \"recommendation_for\": \"music enthusiasts, vinyl collectors, casual browsers looking for a unique shopping experience.\"\n}",
+  "metadata": {
+    "totalReviews": 10,
+    "yelpReviews": 10,
+    "googleReviews": 0,
+    "averageRating": 4.5,
+    "ratingDistribution": {
+      "1": 1,
+      "4": 1,
+      "5": 8
+    },
+    "analyzedAt": "2026-02-17T17:29:57.483Z"
+  }
+}
+[2026-02-17T17:29:57.541Z]   ✓ reviews completed in 2.5s
+[2026-02-17T17:30:00.874Z]   ✓ Marked deep_scrape_at in Supabase
+[2026-02-17T17:30:03.881Z] ✓ Completed: Positively Records
+✓ Completed: Positively Records
+[2026-02-17T17:30:07.460Z] 
+============================================================
+[2026-02-17T17:30:07.460Z] [6/190] Everlong Records LLC (Aliquippa)
+
+============================================================
+[6/190] Everlong Records LLC (Aliquippa)
+[2026-02-17T17:30:07.460Z] ID: 5da6ad83-54c6-4e94-946d-cacfe8cabd43
+[2026-02-17T17:30:07.460Z] ============================================================
+ID: 5da6ad83-54c6-4e94-946d-cacfe8cabd43
+============================================================
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[2026-02-17T17:30:07.505Z] ╔══════════════════════════════════════════════════════════╗
+[2026-02-17T17:30:07.505Z] ║     Master Deep Scrape Orchestrator                      ║
+[2026-02-17T17:30:07.505Z] ╚══════════════════════════════════════════════════════════╝
+[2026-02-17T17:30:07.624Z] 
+  ▶ Running discovery scraper...
+[2026-02-17T17:30:07.625Z] 
+🔍 Google Discovery for: Everlong Records LLC (Aliquippa, Pennsylvania)
+[2026-02-17T17:30:07.625Z]   📎 Searching: "Everlong Records LLC Aliquippa Pennsylvania record store"
+[2026-02-17T17:30:08.581Z]   Found 12 raw URLs
+[2026-02-17T17:30:10.132Z]   📎 Searching: "Everlong Records LLC Aliquippa instagram facebook"
+[2026-02-17T17:30:10.724Z]   Found 10 raw URLs
+[2026-02-17T17:30:12.261Z] 
+  📋 Discovery Results:
+[2026-02-17T17:30:12.261Z]     [website] https://duckduckgo.com/y.js?ad_domain=amazon.com&amp;ad_provider=bingv7aa&amp;ad_type=txad&amp;click_metadata=K39JycdmfA_DllFuWqAGhndqNGCjl6BGTxrGCptaMvm6XuOwYKrYDFuokz3HIPO4oAwEB-xrLSU6uHhajmBVgqFWXJy_GPW0QFrScrkt5dU1_f4mj6Xij2PSNXVfAH6ruwp67dPWfr67gLgEAVGiK_77EMLSJBd8IJ9jHBORxw0.ixAkhpId_LtGoQ6TWmbWhQ&amp;rut=26727f1ac49e899d9f006826314b177dd9004f5da74c374b3e2f19b8c555ab97&amp;u3=https://www.bing.com/aclick?ld=e8ZSqFavRA96rGN_nHdRJYcDVUCUy9-xckHg6vu1U2opHcsoedgQohoE7FCoRgierZVbwphjh-XpPA7BZ_ele0BzFsm8xa5OeljwQ5_urJ5nzr981mItw2ClWE-oqssTPlQl_ZTS1SL1OD4Zi8Jy1X6W603ZF-1AI7mONRl_Y6fLlo23XlY8RP_-AYo04sIOZKTems9jIAFUUFiIjMAymwquYcuB0&u=aHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmNvbSUyZnMlMmYlM2ZpZSUzZFVURjglMjZrZXl3b3JkcyUzZHJlY29yZHMlMmJtdXNpYyUyNmluZGV4JTNkYXBzJTI2dGFnJTNkdHh0c3RkYmdkdC0yMCUyNnJlZiUzZHBkX3NsXzFwZTI2MG1ybndfcCUyNmFkZ3JwaWQlM2QxMjMxNDUzMzM0MzU1Njg2JTI2aHZhZGlkJTNkNzY5NjU5OTk4MzU0MjMlMjZodm5ldHclM2RzJTI2aHZxbXQlM2RwJTI2aHZibXQlM2RicCUyNmh2ZGV2JTNkYyUyNmh2bG9jaW50JTNkNjI2NjElMjZodmxvY3BoeSUzZDk1MzU0JTI2aHZ0YXJnaWQlM2Rrd2QtNzY5NjYwNzMzMjY0MTElM2Fsb2MtMTkwJTI2aHlkYWRjciUzZDg3MTZfMTM2MDg3NDAlMjZtY2lkJTNkYTg0OGFiYzg1MmIxM2U0Y2E1Yzg1ZGZlZTEzZWI1OTMlMjZsYW5ndWFnZSUzZGVuX1VTJTI2bXNjbGtpZCUzZDFiZjFkODg5MmRmMjE3MzFhOTg5YjExZDg4NTI3NDky&rlid=1bf1d8892df21731a989b11d88527492&amp;vqd=4-319459657751997870812985941014224916877&amp;iurl={1}IG=3908634447974954BE7762A2176DAAD7&CID=2AFEAB7386AD6CF30498BC7087396DEF&ID=DevEx,5046.1
+[2026-02-17T17:30:12.261Z]     [website] https://duckduckgo.com/duckduckgo-help-pages/company/ads-by-microsoft-on-duckduckgo-private-search
+[2026-02-17T17:30:12.261Z]     [website] https://everlongrecords.squarespace.com/
+[2026-02-17T17:30:12.261Z]     [website] https://hamburgpa.org/business/everlong-records-llc/
+[2026-02-17T17:30:12.261Z]     [website] https://local.yahoo.com/info-238560479-everlong-records-hamburg/
+[2026-02-17T17:30:12.261Z]     [website] https://www.cylex.us.com/company/everlong-records-llc-40027854.html
+[2026-02-17T17:30:12.261Z]     [facebook] https://facebook.com/profile.php
+[2026-02-17T17:30:12.261Z]     [facebook] https://facebook.com/story.php
+[2026-02-17T17:30:12.261Z]     [facebook] https://facebook.com/61564685334672
+[2026-02-17T17:30:12.261Z]     [yelp] https://www.yelp.com/biz/everlong-records-hamburg
+[2026-02-17T17:30:12.261Z]     [instagram] @everlong_records — https://www.instagram.com/everlong_records/
+[2026-02-17T17:30:12.261Z]     [instagram] @everlong_records — https://www.instagram.com/everlong_records/reel/DUqtUaMD1-d/
+[2026-02-17T17:30:12.261Z]     [directory] https://recordstoreday.com/Store/26679
+[2026-02-17T17:30:12.261Z]     [directory] https://www.mapquest.com/us/pennsylvania/everlong-records-776487607
+[2026-02-17T17:30:12.261Z]   💾 Report saved: /home/john/Projects/record-shop-enricher/content/5da6ad83-54c6-4e94-946d-cacfe8cabd43/discovery/google_discovery_2026-02-17T17-30-12-261Z.json
+[2026-02-17T17:30:12.261Z] 
+  📝 Updating 4 field(s):
+[2026-02-17T17:30:12.261Z]     yelp_url: https://www.yelp.com/biz/everlong-records-hamburg
+[2026-02-17T17:30:12.261Z]     social_instagram: everlong_records
+[2026-02-17T17:30:12.261Z]     social_facebook: https://facebook.com/profile.php
+[2026-02-17T17:30:12.261Z]     website: https://duckduckgo.com/y.js?ad_domain=amazon.com&amp;ad_provider=bingv7aa&amp;ad_type=txad&amp;click_metadata=K39JycdmfA_DllFuWqAGhndqNGCjl6BGTxrGCptaMvm6XuOwYKrYDFuokz3HIPO4oAwEB-xrLSU6uHhajmBVgqFWXJy_GPW0QFrScrkt5dU1_f4mj6Xij2PSNXVfAH6ruwp67dPWfr67gLgEAVGiK_77EMLSJBd8IJ9jHBORxw0.ixAkhpId_LtGoQ6TWmbWhQ&amp;rut=26727f1ac49e899d9f006826314b177dd9004f5da74c374b3e2f19b8c555ab97&amp;u3=https://www.bing.com/aclick?ld=e8ZSqFavRA96rGN_nHdRJYcDVUCUy9-xckHg6vu1U2opHcsoedgQohoE7FCoRgierZVbwphjh-XpPA7BZ_ele0BzFsm8xa5OeljwQ5_urJ5nzr981mItw2ClWE-oqssTPlQl_ZTS1SL1OD4Zi8Jy1X6W603ZF-1AI7mONRl_Y6fLlo23XlY8RP_-AYo04sIOZKTems9jIAFUUFiIjMAymwquYcuB0&u=aHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmNvbSUyZnMlMmYlM2ZpZSUzZFVURjglMjZrZXl3b3JkcyUzZHJlY29yZHMlMmJtdXNpYyUyNmluZGV4JTNkYXBzJTI2dGFnJTNkdHh0c3RkYmdkdC0yMCUyNnJlZiUzZHBkX3NsXzFwZTI2MG1ybndfcCUyNmFkZ3JwaWQlM2QxMjMxNDUzMzM0MzU1Njg2JTI2aHZhZGlkJTNkNzY5NjU5OTk4MzU0MjMlMjZodm5ldHclM2RzJTI2aHZxbXQlM2RwJTI2aHZibXQlM2RicCUyNmh2ZGV2JTNkYyUyNmh2bG9jaW50JTNkNjI2NjElMjZodmxvY3BoeSUzZDk1MzU0JTI2aHZ0YXJnaWQlM2Rrd2QtNzY5NjYwNzMzMjY0MTElM2Fsb2MtMTkwJTI2aHlkYWRjciUzZDg3MTZfMTM2MDg3NDAlMjZtY2lkJTNkYTg0OGFiYzg1MmIxM2U0Y2E1Yzg1ZGZlZTEzZWI1OTMlMjZsYW5ndWFnZSUzZGVuX1VTJTI2bXNjbGtpZCUzZDFiZjFkODg5MmRmMjE3MzFhOTg5YjExZDg4NTI3NDky&rlid=1bf1d8892df21731a989b11d88527492&amp;vqd=4-319459657751997870812985941014224916877&amp;iurl={1}IG=3908634447974954BE7762A2176DAAD7&CID=2AFEAB7386AD6CF30498BC7087396DEF&ID=DevEx,5046.1
+[2026-02-17T17:30:12.350Z]   ✅ Database updated
+[2026-02-17T17:30:12.428Z]   ✓ discovery completed in 4.8s
+[2026-02-17T17:30:15.517Z] 
+  ▶ Running yelp scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[2026-02-17T17:30:15.965Z]   Scraping business page: https://www.yelp.com/biz/everlong-records-hamburg
+[2026-02-17T17:30:21.097Z] Saved to /home/john/Projects/record-shop-enricher/content/5da6ad83-54c6-4e94-946d-cacfe8cabd43/reviews/yelp_reviews.json
+[2026-02-17T17:30:21.128Z]   ✓ yelp completed in 5.6s
+[2026-02-17T17:30:24.781Z] 
+  ▶ Running google scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[2026-02-17T17:30:25.120Z]   Searching Google Maps: Everlong Records LLC, Aliquippa, Pennsylvania
+[2026-02-17T17:30:46.066Z]     Got 0 Google reviews
+[2026-02-17T17:30:46.232Z] Saved to /home/john/Projects/record-shop-enricher/content/5da6ad83-54c6-4e94-946d-cacfe8cabd43/reviews/google_reviews.json
+[2026-02-17T17:30:46.265Z]   ✓ google completed in 21.5s
+[2026-02-17T17:30:49.302Z] 
+  ▶ Running website scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[2026-02-17T17:30:49.681Z]   Crawling: https://duckduckgo.com/y.js
+[2026-02-17T17:30:50.761Z]   Crawling: https://duckduckgo.com
+[2026-02-17T17:30:52.419Z]   Crawling: https://duckduckgo.com/about
+[2026-02-17T17:30:53.313Z]   Crawling: https://duckduckgo.com/about-us
+[2026-02-17T17:30:54.336Z]   Crawling: https://duckduckgo.com/our-story
+[2026-02-17T17:30:56.021Z]   Crawling: https://duckduckgo.com/events
+[2026-02-17T17:30:57.086Z]   Crawling: https://duckduckgo.com/calendar
+[2026-02-17T17:30:58.208Z]   Crawling: https://duckduckgo.com/shows
+[2026-02-17T17:30:59.379Z]   Crawling: https://duckduckgo.com/in-store
+[2026-02-17T17:31:00.991Z]   Crawling: https://duckduckgo.com/contact
+[2026-02-17T17:31:01.740Z]   Crawling: https://duckduckgo.com/contact-us
+[2026-02-17T17:31:02.777Z]   Crawling: https://duckduckgo.com/hours
+[2026-02-17T17:31:04.321Z]   Crawling: https://duckduckgo.com/location
+[2026-02-17T17:31:05.543Z]   Crawling: https://duckduckgo.com/visit
+[2026-02-17T17:31:06.414Z]   Crawling: https://duckduckgo.com/blog
+[2026-02-17T17:31:07.858Z]   Crawling: https://duckduckgo.com/news
+[2026-02-17T17:31:08.713Z]   Crawling: https://duckduckgo.com/press
+[2026-02-17T17:31:10.123Z]   Crawling: https://duckduckgo.com/shop
+[2026-02-17T17:31:10.499Z]   Crawling: https://duckduckgo.com/store
+[2026-02-17T17:31:10.666Z]   Crawling: https://duckduckgo.com/catalog
+[2026-02-17T17:31:11.575Z]   Summarizing 18 pages with Ollama...
+[2026-02-17T17:31:13.918Z] Saved 18 pages + summary to /home/john/Projects/record-shop-enricher/content/5da6ad83-54c6-4e94-946d-cacfe8cabd43/web/crawl_2026-02-17
+[2026-02-17T17:31:13.947Z]   ✓ website completed in 24.6s
+[2026-02-17T17:31:17.006Z] 
+  ▶ Running instagram scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[2026-02-17T17:31:17.342Z]   Scraping Instagram: @everlong_records
+[2026-02-17T17:31:38.471Z] Saved to /home/john/Projects/record-shop-enricher/content/5da6ad83-54c6-4e94-946d-cacfe8cabd43/social/instagram.json
+[2026-02-17T17:31:38.523Z]   ✓ instagram completed in 21.5s
+[2026-02-17T17:31:41.382Z] 
+  ▶ Running events scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[2026-02-17T17:31:41.891Z] 
+═══ Everlong Records LLC (Aliquippa, Pennsylvania) ═══
+[2026-02-17T17:31:41.892Z]   Searching: Everlong Records LLC Aliquippa Pennsylvania events
+[2026-02-17T17:31:49.405Z]   Searching: Everlong Records LLC Aliquippa in-store performance
+[2026-02-17T17:31:56.299Z]   Searching: Everlong Records LLC record store day
+[2026-02-17T17:32:02.635Z]   Found 0 event mentions from search
+[2026-02-17T17:32:02.635Z]   Checking events page: https://duckduckgo.com/events
+[2026-02-17T17:32:07.817Z]   Checking events page: https://duckduckgo.com/events/
+[2026-02-17T17:32:10.900Z]   Checking events page: https://duckduckgo.com/calendar
+[2026-02-17T17:32:20.618Z]     Events page error: Expected ',' or '}' after property value in JSON at position 427 (line 13 column 86)
+[2026-02-17T17:32:22.546Z]   Checking events page: https://duckduckgo.com/shows
+[2026-02-17T17:32:26.977Z]   Checking events page: https://duckduckgo.com/in-store
+[2026-02-17T17:32:30.779Z]   Checking events page: https://duckduckgo.com/happenings
+[2026-02-17T17:32:35.241Z] Saved to /home/john/Projects/record-shop-enricher/content/5da6ad83-54c6-4e94-946d-cacfe8cabd43/events/upcoming.json
+[2026-02-17T17:32:35.266Z]   ✓ events completed in 53.9s
+[2026-02-17T17:32:39.178Z] 
+  ▶ Running reviews scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[2026-02-17T17:32:39.346Z]   No reviews found for Everlong Records LLC
+[2026-02-17T17:32:39.375Z]   ✓ reviews completed in 0.2s
+[2026-02-17T17:32:42.160Z]   ✓ Marked deep_scrape_at in Supabase
+[2026-02-17T17:32:45.166Z] ✓ Completed: Everlong Records LLC
+✓ Completed: Everlong Records LLC
+[2026-02-17T17:32:48.834Z] 
+============================================================
+[2026-02-17T17:32:48.834Z] [7/190] Attic Record Store Inc (Aliquippa)
+
+============================================================
+[7/190] Attic Record Store Inc (Aliquippa)
+[2026-02-17T17:32:48.834Z] ID: 95861f1e-09c5-423c-b855-806b313452bd
+ID: 95861f1e-09c5-423c-b855-806b313452bd
+[2026-02-17T17:32:48.834Z] ============================================================
+============================================================
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[2026-02-17T17:32:48.877Z] ╔══════════════════════════════════════════════════════════╗
+[2026-02-17T17:32:48.877Z] ║     Master Deep Scrape Orchestrator                      ║
+[2026-02-17T17:32:48.877Z] ╚══════════════════════════════════════════════════════════╝
+[2026-02-17T17:32:48.971Z] 
+  ▶ Running discovery scraper...
+[2026-02-17T17:32:48.971Z] 
+🔍 Google Discovery for: Attic Record Store Inc (Aliquippa, Pennsylvania)
+[2026-02-17T17:32:48.972Z]   📎 Searching: "Attic Record Store Inc Aliquippa Pennsylvania record store"
+[2026-02-17T17:32:49.714Z]   Found 10 raw URLs
+[2026-02-17T17:32:51.749Z]   📎 Searching: "Attic Record Store Inc Aliquippa instagram facebook"
+[2026-02-17T17:32:52.473Z]   Found 10 raw URLs
+[2026-02-17T17:32:54.757Z] 
+  📋 Discovery Results:
+[2026-02-17T17:32:54.757Z]     [website] https://www.atticrecordstoreinc.com/
+[2026-02-17T17:32:54.757Z]     [website] https://www.atticrecordstoreinc.com/buying
+[2026-02-17T17:32:54.757Z]     [website] https://www.atticrecordstoreinc.com/new-records
+[2026-02-17T17:32:54.757Z]     [website] https://www.atticrecordstoreinc.com/cds
+[2026-02-17T17:32:54.757Z]     [website] https://www.atticrecordstoreinc.com/used-records
+[2026-02-17T17:32:54.757Z]     [website] https://www.atticrecordstoreinc.com/contact
+[2026-02-17T17:32:54.757Z]     [website] https://www.atticrecordstoreinc.com/orders
+[2026-02-17T17:32:54.757Z]     [website] https://findvinylrecords.com/record-stores/pa/pittsburgh/attic-record-store-inc
+[2026-02-17T17:32:54.757Z]     [yelp] https://www.yelp.com/biz/attic-record-store-millvale-4
+[2026-02-17T17:32:54.757Z]     [directory] https://www.loc8nearme.com/pennsylvania/millvale/attic-record-store-inc/3206867/
+[2026-02-17T17:32:54.757Z]     [directory] https://recordstoreday.com/Store/5820
+[2026-02-17T17:32:54.757Z]     [facebook] https://facebook.com/100076930604715
+[2026-02-17T17:32:54.757Z]     [facebook] https://facebook.com/100050318777308
+[2026-02-17T17:32:54.757Z]     [instagram] @atticrecordstore — https://www.instagram.com/atticrecordstore/
+[2026-02-17T17:32:54.758Z]   💾 Report saved: /home/john/Projects/record-shop-enricher/content/95861f1e-09c5-423c-b855-806b313452bd/discovery/google_discovery_2026-02-17T17-32-54-757Z.json
+[2026-02-17T17:32:54.758Z] 
+  📝 Updating 4 field(s):
+[2026-02-17T17:32:54.758Z]     yelp_url: https://www.yelp.com/biz/attic-record-store-millvale-4
+[2026-02-17T17:32:54.758Z]     social_instagram: atticrecordstore
+[2026-02-17T17:32:54.758Z]     social_facebook: https://facebook.com/100076930604715
+[2026-02-17T17:32:54.758Z]     website: https://www.atticrecordstoreinc.com/
+[2026-02-17T17:32:54.842Z]   ✅ Database updated
+[2026-02-17T17:32:54.923Z]   ✓ discovery completed in 6.0s
+[2026-02-17T17:32:57.122Z] 
+  ▶ Running yelp scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[2026-02-17T17:32:57.559Z]   Scraping business page: https://www.yelp.com/biz/attic-record-store-millvale-4
+[2026-02-17T17:32:59.928Z] Saved to /home/john/Projects/record-shop-enricher/content/95861f1e-09c5-423c-b855-806b313452bd/reviews/yelp_reviews.json
+[2026-02-17T17:32:59.949Z]   ✓ yelp completed in 2.8s
+[2026-02-17T17:33:03.673Z] 
+  ▶ Running google scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+[2026-02-17T17:33:03.999Z]   Searching Google Maps: Attic Record Store Inc, Aliquippa, Pennsylvania
+[2026-02-17T17:33:22.101Z]     Got 0 Google reviews
+[2026-02-17T17:33:22.243Z] Saved to /home/john/Projects/record-shop-enricher/content/95861f1e-09c5-423c-b855-806b313452bd/reviews/google_reviews.json
+[2026-02-17T17:33:22.280Z]   ✓ google completed in 18.6s
+[2026-02-17T17:33:25.342Z] 
+  ▶ Running website scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[2026-02-17T17:33:25.723Z]   Crawling: https://www.atticrecordstoreinc.com
+[2026-02-17T17:33:27.459Z]   Crawling: https://www.atticrecordstoreinc.com/about
+[2026-02-17T17:33:27.562Z]   Crawling: https://www.atticrecordstoreinc.com/about-us
+[2026-02-17T17:33:27.642Z]   Crawling: https://www.atticrecordstoreinc.com/our-story
+[2026-02-17T17:33:27.734Z]   Crawling: https://www.atticrecordstoreinc.com/events
+[2026-02-17T17:33:27.790Z]   Crawling: https://www.atticrecordstoreinc.com/calendar
+[2026-02-17T17:33:27.871Z]   Crawling: https://www.atticrecordstoreinc.com/shows
+[2026-02-17T17:33:27.954Z]   Crawling: https://www.atticrecordstoreinc.com/in-store
+[2026-02-17T17:33:28.024Z]   Crawling: https://www.atticrecordstoreinc.com/contact
+[2026-02-17T17:33:29.121Z]   Crawling: https://www.atticrecordstoreinc.com/contact-us
+[2026-02-17T17:33:29.215Z]   Crawling: https://www.atticrecordstoreinc.com/hours
+[2026-02-17T17:33:29.275Z]   Crawling: https://www.atticrecordstoreinc.com/location
+[2026-02-17T17:33:29.339Z]   Crawling: https://www.atticrecordstoreinc.com/visit
+[2026-02-17T17:33:29.402Z]   Crawling: https://www.atticrecordstoreinc.com/blog
+[2026-02-17T17:33:29.475Z]   Crawling: https://www.atticrecordstoreinc.com/news
+[2026-02-17T17:33:29.540Z]   Crawling: https://www.atticrecordstoreinc.com/press
+[2026-02-17T17:33:29.637Z]   Crawling: https://www.atticrecordstoreinc.com/shop
+[2026-02-17T17:33:29.706Z]   Crawling: https://www.atticrecordstoreinc.com/store
+[2026-02-17T17:33:29.773Z]   Crawling: https://www.atticrecordstoreinc.com/catalog
+[2026-02-17T17:33:29.841Z]   Crawling: https://www.atticrecordstoreinc.com/new-arrivals
+[2026-02-17T17:33:29.919Z]   Summarizing 2 pages with Ollama...
+[2026-02-17T17:33:32.757Z] Saved 2 pages + summary to /home/john/Projects/record-shop-enricher/content/95861f1e-09c5-423c-b855-806b313452bd/web/crawl_2026-02-17
+[2026-02-17T17:33:32.798Z]   ✓ website completed in 7.5s
+[2026-02-17T17:33:36.262Z] 
+  ▶ Running instagram scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[2026-02-17T17:33:36.595Z]   Scraping Instagram: @atticrecordstore
+[2026-02-17T17:34:11.442Z] Saved to /home/john/Projects/record-shop-enricher/content/95861f1e-09c5-423c-b855-806b313452bd/social/instagram.json
+[2026-02-17T17:34:11.484Z]   ✓ instagram completed in 35.2s
+[2026-02-17T17:34:14.717Z] 
+  ▶ Running events scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+[2026-02-17T17:34:15.240Z] 
+═══ Attic Record Store Inc (Aliquippa, Pennsylvania) ═══
+[2026-02-17T17:34:15.240Z]   Searching: Attic Record Store Inc Aliquippa Pennsylvania events
+[2026-02-17T17:34:23.277Z]   Searching: Attic Record Store Inc Aliquippa in-store performance
+[2026-02-17T17:34:29.444Z]   Searching: Attic Record Store Inc record store day
+[2026-02-17T17:34:34.557Z]   Found 0 event mentions from search
+[2026-02-17T17:34:34.557Z]   Checking events page: https://www.atticrecordstoreinc.com/events
+[2026-02-17T17:34:38.833Z]   Checking events page: https://www.atticrecordstoreinc.com/events/
+[2026-02-17T17:34:41.893Z]   Checking events page: https://www.atticrecordstoreinc.com/calendar
+[2026-02-17T17:34:46.289Z]   Checking events page: https://www.atticrecordstoreinc.com/shows
+[2026-02-17T17:34:50.799Z]   Checking events page: https://www.atticrecordstoreinc.com/in-store
+[2026-02-17T17:34:55.412Z]   Checking events page: https://www.atticrecordstoreinc.com/happenings
+[2026-02-17T17:34:58.802Z] Saved to /home/john/Projects/record-shop-enricher/content/95861f1e-09c5-423c-b855-806b313452bd/events/upcoming.json
+[2026-02-17T17:34:58.829Z]   ✓ events completed in 44.1s
+[2026-02-17T17:35:00.968Z] 
+  ▶ Running reviews scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+[2026-02-17T17:35:01.224Z]   No reviews found for Attic Record Store Inc
+[2026-02-17T17:35:01.253Z]   ✓ reviews completed in 0.3s
+[2026-02-17T17:35:03.778Z]   ✓ Marked deep_scrape_at in Supabase
+[2026-02-17T17:35:06.783Z] ✓ Completed: Attic Record Store Inc
+✓ Completed: Attic Record Store Inc
+[2026-02-17T17:35:11.117Z] 
+============================================================
+[2026-02-17T17:35:11.118Z] [8/190] Compact Disc Center (Aliquippa)
+
+============================================================
+[2026-02-17T17:35:11.118Z] ID: 7876519f-407e-424b-82a0-3a6e3f4ed990
+[8/190] Compact Disc Center (Aliquippa)
+ID: 7876519f-407e-424b-82a0-3a6e3f4ed990
+[2026-02-17T17:35:11.118Z] ============================================================
+============================================================
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[2026-02-17T17:35:11.162Z] ╔══════════════════════════════════════════════════════════╗
+[2026-02-17T17:35:11.162Z] ║     Master Deep Scrape Orchestrator                      ║
+[2026-02-17T17:35:11.162Z] ╚══════════════════════════════════════════════════════════╝
+[2026-02-17T17:35:11.268Z] 
+  ▶ Running discovery scraper...
+[2026-02-17T17:35:11.268Z] 
+🔍 Google Discovery for: Compact Disc Center (Aliquippa, Pennsylvania)
+[2026-02-17T17:35:11.268Z]   📎 Searching: "Compact Disc Center Aliquippa Pennsylvania record store"
+[2026-02-17T17:35:12.499Z]   Found 12 raw URLs
+[2026-02-17T17:35:14.753Z]   📎 Searching: "Compact Disc Center Aliquippa instagram facebook"
+[2026-02-17T17:35:14.794Z]   ⚠ Google returned 429 (rate limited), skipping query
+[2026-02-17T17:35:14.794Z] 
+  📋 Discovery Results:
+[2026-02-17T17:35:14.794Z]     [website] https://duckduckgo.com/y.js?ad_domain=amazon.com&amp;ad_provider=bingv7aa&amp;ad_type=txad&amp;click_metadata=Ja-LaMQcVEfsI3iYWrRfzTRgWJ7v5hW-7JjZ818sWdaFphMsgplP7o7WuV-Lt1M9Z9GOWwYjhDYnCiWKVF5K67b91r9VZyN9lKB4uhAWwmU2UxkKx6astGs_sU1TNeMdha4Z0rM67pDK__UpCCX58Q.Co7ZnE2IgANvCRfoFyMQzA&amp;rut=3028f009a877f80436bd338d7a01ee3624ca2fa253c11bcb39278c7f071d18ea&amp;u3=https://www.bing.com/aclick?ld=e8ZyR89FRfWXxPrC58IcgIaTVUCUxzhvkagG-HswVB5KNuRugqb7l9gQpjin7o2mFiT7OMZj-mxKgZgRpzZ6yMEIo-PFcBzhN8K4LxUsHpmbDY71MgEqLKP1UPrRSVUtt9dy6JNWrna6QtyyhM_Ko83ccgksq1HGb9kMvlwBFye1NqwM1ubgs9JnRSW2d9qVTZksZbEoJVpdire_v9V4NL9TFZrik&u=aHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmNvbSUyZnMlMmYlM2ZpZSUzZFVURjglMjZrZXl3b3JkcyUzZGNkJTJicmVjb3JkcyUyNmluZGV4JTNkYXBzJTI2dGFnJTNkdHh0c3RkYmdkdC0yMCUyNnJlZiUzZHBkX3NsXzQxNDh2bXAyM3lfcCUyNmFkZ3JwaWQlM2QxMjM0NzUxODg3ODMzMTQ1JTI2aHZhZGlkJTNkNzcxNzIxNTkwOTc5ODYlMjZodm5ldHclM2RzJTI2aHZxbXQlM2RwJTI2aHZibXQlM2RicCUyNmh2ZGV2JTNkYyUyNmh2bG9jaW50JTNkNjI2NjElMjZodmxvY3BoeSUzZDk0NDEzJTI2aHZ0YXJnaWQlM2Rrd2QtNzcxNzIyNTMxNjUxNjAlM2Fsb2MtMTkwJTI2aHlkYWRjciUzZDE5Njk2XzEzNDkyODgwJTI2bWNpZCUzZGJmOGE0NDhjNzY1ZDNjOWU5NDU2NDA3YzczZjlkY2EyJTI2bGFuZ3VhZ2UlM2Rlbl9VUyUyNm1zY2xraWQlM2QzMjYzYThiZmUzY2MxYTVlOGU3Y2MxMmI0NTAzNWZlYg&rlid=3263a8bfe3cc1a5e8e7cc12b45035feb&amp;vqd=4-316907842561459917653312075428001078118&amp;iurl={1}IG=976BE4DDC87E4C45B63FDEBDDD234DD1&CID=26D126197CC265183CE9311A7D4964F2&ID=DevEx,5046.1
+[2026-02-17T17:35:14.794Z]     [website] https://duckduckgo.com/duckduckgo-help-pages/company/ads-by-microsoft-on-duckduckgo-private-search
+[2026-02-17T17:35:14.794Z]     [website] https://www.cdcenterpa.com/
+[2026-02-17T17:35:14.794Z]     [website] https://www.discoverlehighvalley.com/blog/the-best-record-stores-in-lehigh-valley/
+[2026-02-17T17:35:14.794Z]     [website] https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/
+[2026-02-17T17:35:14.794Z]     [website] https://local.yahoo.com/info-12082288-compact-disc-center-bethlehem/
+[2026-02-17T17:35:14.794Z]     [facebook] https://facebook.com/cdcenter
+[2026-02-17T17:35:14.794Z]     [directory] https://recordstoreday.com/Store/7180
+[2026-02-17T17:35:14.794Z]     [directory] https://vinylpackman.com/store/11485
+[2026-02-17T17:35:14.794Z]     [directory] https://recordstoreday.com/Venue/7180
+[2026-02-17T17:35:14.794Z]     [directory] https://www.mapquest.com/us/pennsylvania/compact-disc-center-2161035
+[2026-02-17T17:35:14.794Z]     [yelp] https://www.yelp.com/biz/compact-disc-center-bethlehem
+[2026-02-17T17:35:14.795Z]   💾 Report saved: /home/john/Projects/record-shop-enricher/content/7876519f-407e-424b-82a0-3a6e3f4ed990/discovery/google_discovery_2026-02-17T17-35-14-794Z.json
+[2026-02-17T17:35:14.795Z] 
+  📝 Updating 3 field(s):
+[2026-02-17T17:35:14.795Z]     yelp_url: https://www.yelp.com/biz/compact-disc-center-bethlehem
+[2026-02-17T17:35:14.795Z]     social_facebook: https://facebook.com/cdcenter
+[2026-02-17T17:35:14.795Z]     website: https://duckduckgo.com/y.js?ad_domain=amazon.com&amp;ad_provider=bingv7aa&amp;ad_type=txad&amp;click_metadata=Ja-LaMQcVEfsI3iYWrRfzTRgWJ7v5hW-7JjZ818sWdaFphMsgplP7o7WuV-Lt1M9Z9GOWwYjhDYnCiWKVF5K67b91r9VZyN9lKB4uhAWwmU2UxkKx6astGs_sU1TNeMdha4Z0rM67pDK__UpCCX58Q.Co7ZnE2IgANvCRfoFyMQzA&amp;rut=3028f009a877f80436bd338d7a01ee3624ca2fa253c11bcb39278c7f071d18ea&amp;u3=https://www.bing.com/aclick?ld=e8ZyR89FRfWXxPrC58IcgIaTVUCUxzhvkagG-HswVB5KNuRugqb7l9gQpjin7o2mFiT7OMZj-mxKgZgRpzZ6yMEIo-PFcBzhN8K4LxUsHpmbDY71MgEqLKP1UPrRSVUtt9dy6JNWrna6QtyyhM_Ko83ccgksq1HGb9kMvlwBFye1NqwM1ubgs9JnRSW2d9qVTZksZbEoJVpdire_v9V4NL9TFZrik&u=aHR0cHMlM2ElMmYlMmZ3d3cuYW1hem9uLmNvbSUyZnMlMmYlM2ZpZSUzZFVURjglMjZrZXl3b3JkcyUzZGNkJTJicmVjb3JkcyUyNmluZGV4JTNkYXBzJTI2dGFnJTNkdHh0c3RkYmdkdC0yMCUyNnJlZiUzZHBkX3NsXzQxNDh2bXAyM3lfcCUyNmFkZ3JwaWQlM2QxMjM0NzUxODg3ODMzMTQ1JTI2aHZhZGlkJTNkNzcxNzIxNTkwOTc5ODYlMjZodm5ldHclM2RzJTI2aHZxbXQlM2RwJTI2aHZibXQlM2RicCUyNmh2ZGV2JTNkYyUyNmh2bG9jaW50JTNkNjI2NjElMjZodmxvY3BoeSUzZDk0NDEzJTI2aHZ0YXJnaWQlM2Rrd2QtNzcxNzIyNTMxNjUxNjAlM2Fsb2MtMTkwJTI2aHlkYWRjciUzZDE5Njk2XzEzNDkyODgwJTI2bWNpZCUzZGJmOGE0NDhjNzY1ZDNjOWU5NDU2NDA3YzczZjlkY2EyJTI2bGFuZ3VhZ2UlM2Rlbl9VUyUyNm1zY2xraWQlM2QzMjYzYThiZmUzY2MxYTVlOGU3Y2MxMmI0NTAzNWZlYg&rlid=3263a8bfe3cc1a5e8e7cc12b45035feb&amp;vqd=4-316907842561459917653312075428001078118&amp;iurl={1}IG=976BE4DDC87E4C45B63FDEBDDD234DD1&CID=26D126197CC265183CE9311A7D4964F2&ID=DevEx,5046.1
+[2026-02-17T17:35:14.858Z]   ✅ Database updated
+[2026-02-17T17:35:14.944Z]   ✓ discovery completed in 3.7s
+[2026-02-17T17:35:17.385Z] 
+  ▶ Running yelp scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+[2026-02-17T17:35:17.814Z]   Scraping business page: https://www.yelp.com/biz/compact-disc-center-bethlehem
+[2026-02-17T17:35:21.286Z] Saved to /home/john/Projects/record-shop-enricher/content/7876519f-407e-424b-82a0-3a6e3f4ed990/reviews/yelp_reviews.json
+[2026-02-17T17:35:21.308Z]   ✓ yelp completed in 3.9s
+[2026-02-17T17:35:24.772Z] 
+  ▶ Running google scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[2026-02-17T17:35:25.108Z]   Searching Google Maps: Compact Disc Center, Aliquippa, Pennsylvania
+[2026-02-17T17:35:46.814Z]     Got 0 Google reviews
+[2026-02-17T17:35:47.004Z] Saved to /home/john/Projects/record-shop-enricher/content/7876519f-407e-424b-82a0-3a6e3f4ed990/reviews/google_reviews.json
+[2026-02-17T17:35:47.043Z]   ✓ google completed in 22.3s
+[2026-02-17T17:35:50.168Z] 
+  ▶ Running website scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[2026-02-17T17:35:50.554Z]   Crawling: https://duckduckgo.com/y.js
+[2026-02-17T17:35:51.883Z]   Crawling: https://duckduckgo.com
+[2026-02-17T17:35:53.602Z]   Crawling: https://duckduckgo.com/about
+[2026-02-17T17:35:55.120Z]   Crawling: https://duckduckgo.com/about-us
+[2026-02-17T17:35:56.947Z]   Crawling: https://duckduckgo.com/our-story
+[2026-02-17T17:35:58.024Z]   Crawling: https://duckduckgo.com/events
+[2026-02-17T17:35:59.249Z]   Crawling: https://duckduckgo.com/calendar
+[2026-02-17T17:36:00.127Z]   Crawling: https://duckduckgo.com/shows
+[2026-02-17T17:36:01.104Z]   Crawling: https://duckduckgo.com/in-store
+[2026-02-17T17:36:02.308Z]   Crawling: https://duckduckgo.com/contact
+[2026-02-17T17:36:03.528Z]   Crawling: https://duckduckgo.com/contact-us
+[2026-02-17T17:36:04.686Z]   Crawling: https://duckduckgo.com/hours
+[2026-02-17T17:36:05.515Z]   Crawling: https://duckduckgo.com/location
+[2026-02-17T17:36:07.206Z]   Crawling: https://duckduckgo.com/visit
+[2026-02-17T17:36:08.024Z]   Crawling: https://duckduckgo.com/blog
+[2026-02-17T17:36:09.673Z]   Crawling: https://duckduckgo.com/news
+[2026-02-17T17:36:11.394Z]   Crawling: https://duckduckgo.com/press
+[2026-02-17T17:36:12.393Z]   Crawling: https://duckduckgo.com/shop
+[2026-02-17T17:36:12.712Z]   Crawling: https://duckduckgo.com/store
+[2026-02-17T17:36:12.904Z]   Crawling: https://duckduckgo.com/catalog
+[2026-02-17T17:36:14.460Z]   Summarizing 18 pages with Ollama...
+[2026-02-17T17:36:16.771Z]     Ollama summarization failed: Unexpected token 'o', ..."/brand": not specifi"... is not valid JSON
+[2026-02-17T17:36:16.772Z] Saved 18 pages + summary to /home/john/Projects/record-shop-enricher/content/7876519f-407e-424b-82a0-3a6e3f4ed990/web/crawl_2026-02-17
+[2026-02-17T17:36:16.802Z]   ✓ website completed in 26.6s
+[2026-02-17T17:36:19.194Z] 
+  ▶ Running instagram scraper...
+[2026-02-17T17:36:19.194Z]   No Instagram handle, skipping
+[2026-02-17T17:36:19.194Z]   ✓ instagram completed in 0.0s
+[2026-02-17T17:36:22.075Z] 
+  ▶ Running events scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[2026-02-17T17:36:22.587Z] 
+═══ Compact Disc Center (Aliquippa, Pennsylvania) ═══
+[2026-02-17T17:36:22.587Z]   Searching: Compact Disc Center Aliquippa Pennsylvania events
+[2026-02-17T17:36:29.605Z]   Searching: Compact Disc Center Aliquippa in-store performance
+[2026-02-17T17:36:35.160Z]   Searching: Compact Disc Center record store day
+[2026-02-17T17:36:41.382Z]   Found 0 event mentions from search
+[2026-02-17T17:36:41.382Z]   Checking events page: https://duckduckgo.com/events
+[2026-02-17T17:36:46.373Z]   Checking events page: https://duckduckgo.com/events/
+[2026-02-17T17:36:50.895Z]   Checking events page: https://duckduckgo.com/calendar
+[2026-02-17T17:36:54.839Z]   Found 3 events from /calendar
+[2026-02-17T17:36:54.839Z] Saved to /home/john/Projects/record-shop-enricher/content/7876519f-407e-424b-82a0-3a6e3f4ed990/events/upcoming.json
+[2026-02-17T17:36:54.866Z]   ✓ events completed in 32.8s
+[2026-02-17T17:36:57.066Z] 
+  ▶ Running reviews scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[2026-02-17T17:36:57.236Z]   No reviews found for Compact Disc Center
+[2026-02-17T17:36:57.266Z]   ✓ reviews completed in 0.2s
+[2026-02-17T17:37:00.358Z]   ✓ Marked deep_scrape_at in Supabase
+[2026-02-17T17:37:03.366Z] ✓ Completed: Compact Disc Center
+✓ Completed: Compact Disc Center
+[2026-02-17T17:37:07.879Z] 
+============================================================
+[2026-02-17T17:37:07.879Z] [9/190] Sweet Repeat Records (Aliquippa)
+[2026-02-17T17:37:07.879Z] ID: b53dc621-d50c-4510-8caa-f3d2f7e76603
+[2026-02-17T17:37:07.879Z] ============================================================
+
+============================================================
+[9/190] Sweet Repeat Records (Aliquippa)
+ID: b53dc621-d50c-4510-8caa-f3d2f7e76603
+============================================================
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[2026-02-17T17:37:07.923Z] ╔══════════════════════════════════════════════════════════╗
+[2026-02-17T17:37:07.923Z] ║     Master Deep Scrape Orchestrator                      ║
+[2026-02-17T17:37:07.923Z] ╚══════════════════════════════════════════════════════════╝
+[2026-02-17T17:37:08.019Z] 
+  ▶ Running discovery scraper...
+[2026-02-17T17:37:08.019Z] 
+🔍 Google Discovery for: Sweet Repeat Records (Aliquippa, Pennsylvania)
+[2026-02-17T17:37:08.019Z]   📎 Searching: "Sweet Repeat Records Aliquippa Pennsylvania record store"
+[2026-02-17T17:37:08.696Z]   Found 10 raw URLs
+[2026-02-17T17:37:10.614Z]   📎 Searching: "Sweet Repeat Records Aliquippa instagram facebook"
+[2026-02-17T17:37:10.655Z]   ⚠ Google returned 429 (rate limited), skipping query
+[2026-02-17T17:37:10.655Z] 
+  📋 Discovery Results:
+[2026-02-17T17:37:10.655Z]     [facebook] https://facebook.com/profile.php
+[2026-02-17T17:37:10.655Z]     [facebook] https://facebook.com/people
+[2026-02-17T17:37:10.655Z]     [instagram] @sweetrepeatrecords_14 — https://www.instagram.com/sweetrepeatrecords_14/
+[2026-02-17T17:37:10.655Z]     [website] https://destinationgettysburg.com/members/sweet-repeat-records/
+[2026-02-17T17:37:10.655Z]     [website] https://gettysburgconnection.org/business-profile-sweet-repeat-records-brings-fresh-sounds-to-gettysburg/
+[2026-02-17T17:37:10.655Z]     [directory] https://www.chamberofcommerce.com/business-directory/pennsylvania/new-hope/record-store/43520321-sweet-repeat-records
+[2026-02-17T17:37:10.655Z]     [directory] https://vinylmapper.com/record-stores/us/pa/new-hope/sweet-repeat-records-18938/
+[2026-02-17T17:37:10.655Z]     [directory] https://www.vinylworld.org/record-shop/sweet-repeat-1/
+[2026-02-17T17:37:10.655Z]     [directory] https://recordshopsnearme.com/store/sweet-repeat-records
+[2026-02-17T17:37:10.655Z]     [yelp] https://www.yelp.com/biz/sweet-repeat-records-gettysburg
+[2026-02-17T17:37:10.655Z]   💾 Report saved: /home/john/Projects/record-shop-enricher/content/b53dc621-d50c-4510-8caa-f3d2f7e76603/discovery/google_discovery_2026-02-17T17-37-10-655Z.json
+[2026-02-17T17:37:10.655Z] 
+  📝 Updating 4 field(s):
+[2026-02-17T17:37:10.655Z]     yelp_url: https://www.yelp.com/biz/sweet-repeat-records-gettysburg
+[2026-02-17T17:37:10.655Z]     social_instagram: sweetrepeatrecords_14
+[2026-02-17T17:37:10.655Z]     social_facebook: https://facebook.com/profile.php
+[2026-02-17T17:37:10.655Z]     website: https://destinationgettysburg.com/members/sweet-repeat-records/
+[2026-02-17T17:37:10.705Z]   ✅ Database updated
+[2026-02-17T17:37:10.780Z]   ✓ discovery completed in 2.8s
+[2026-02-17T17:37:12.996Z] 
+  ▶ Running yelp scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[2026-02-17T17:37:13.412Z]   Scraping business page: https://www.yelp.com/biz/sweet-repeat-records-gettysburg
+[2026-02-17T17:37:17.316Z] Saved to /home/john/Projects/record-shop-enricher/content/b53dc621-d50c-4510-8caa-f3d2f7e76603/reviews/yelp_reviews.json
+[2026-02-17T17:37:17.351Z]   ✓ yelp completed in 4.4s
+[2026-02-17T17:37:19.577Z] 
+  ▶ Running google scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[2026-02-17T17:37:19.913Z]   Searching Google Maps: Sweet Repeat Records, Aliquippa, Pennsylvania
+[2026-02-17T17:37:29.568Z] Saved to /home/john/Projects/record-shop-enricher/content/b53dc621-d50c-4510-8caa-f3d2f7e76603/reviews/google_reviews.json
+[2026-02-17T17:37:29.613Z]   ✓ google completed in 10.0s
+[2026-02-17T17:37:32.936Z] 
+  ▶ Running website scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[2026-02-17T17:37:33.327Z]   Crawling: https://destinationgettysburg.com/members/sweet-repeat-records
+[2026-02-17T17:37:35.519Z]   Crawling: https://destinationgettysburg.com
+[2026-02-17T17:37:37.167Z]   Crawling: https://destinationgettysburg.com/about
+[2026-02-17T17:37:38.324Z]   Crawling: https://destinationgettysburg.com/about-us
+[2026-02-17T17:37:39.759Z]   Crawling: https://destinationgettysburg.com/our-story
+[2026-02-17T17:37:40.133Z]   Crawling: https://destinationgettysburg.com/events
+[2026-02-17T17:37:42.010Z]   Crawling: https://destinationgettysburg.com/calendar
+[2026-02-17T17:37:42.347Z]   Crawling: https://destinationgettysburg.com/shows
+[2026-02-17T17:37:42.695Z]   Crawling: https://destinationgettysburg.com/in-store
+[2026-02-17T17:37:43.044Z]   Crawling: https://destinationgettysburg.com/contact
+[2026-02-17T17:37:46.626Z]   Crawling: https://destinationgettysburg.com/contact-us
+[2026-02-17T17:37:47.970Z]   Crawling: https://destinationgettysburg.com/hours
+[2026-02-17T17:37:48.293Z]   Crawling: https://destinationgettysburg.com/location
+[2026-02-17T17:37:48.607Z]   Crawling: https://destinationgettysburg.com/visit
+[2026-02-17T17:37:51.008Z]   Crawling: https://destinationgettysburg.com/blog
+[2026-02-17T17:37:52.280Z]   Crawling: https://destinationgettysburg.com/news
+[2026-02-17T17:37:54.017Z]   Crawling: https://destinationgettysburg.com/press
+[2026-02-17T17:37:55.741Z]   Crawling: https://destinationgettysburg.com/shop
+[2026-02-17T17:37:56.128Z]   Crawling: https://destinationgettysburg.com/store
+[2026-02-17T17:37:56.460Z]   Crawling: https://destinationgettysburg.com/catalog
+[2026-02-17T17:37:56.772Z]   Summarizing 11 pages with Ollama...
+[2026-02-17T17:38:00.069Z] Saved 11 pages + summary to /home/john/Projects/record-shop-enricher/content/b53dc621-d50c-4510-8caa-f3d2f7e76603/web/crawl_2026-02-17
+[2026-02-17T17:38:00.126Z]   ✓ website completed in 27.2s
+[2026-02-17T17:38:02.620Z] 
+  ▶ Running instagram scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[2026-02-17T17:38:02.951Z]   Scraping Instagram: @sweetrepeatrecords_14
+[2026-02-17T17:38:33.559Z] Saved to /home/john/Projects/record-shop-enricher/content/b53dc621-d50c-4510-8caa-f3d2f7e76603/social/instagram.json
+[2026-02-17T17:38:33.608Z]   ✓ instagram completed in 31.0s
+[2026-02-17T17:38:36.700Z] 
+  ▶ Running events scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[2026-02-17T17:38:37.220Z] 
+═══ Sweet Repeat Records (Aliquippa, Pennsylvania) ═══
+[2026-02-17T17:38:37.220Z]   Searching: Sweet Repeat Records Aliquippa Pennsylvania events
+[2026-02-17T17:38:44.759Z]   Searching: Sweet Repeat Records Aliquippa in-store performance
+[2026-02-17T17:38:50.779Z]   Searching: Sweet Repeat Records record store day
+[2026-02-17T17:38:58.166Z]   Found 0 event mentions from search
+[2026-02-17T17:38:58.166Z]   Checking events page: https://destinationgettysburg.com/events
+[2026-02-17T17:39:01.717Z]   Checking events page: https://destinationgettysburg.com/events/
+[2026-02-17T17:39:05.788Z]   Checking events page: https://destinationgettysburg.com/calendar
+[2026-02-17T17:39:10.219Z]   Checking events page: https://destinationgettysburg.com/shows
+[2026-02-17T17:39:14.574Z]   Checking events page: https://destinationgettysburg.com/in-store
+[2026-02-17T17:39:18.845Z]   Checking events page: https://destinationgettysburg.com/happenings
+[2026-02-17T17:39:22.705Z]     Events page error: Unexpected non-whitespace character after JSON at position 443 (line 5 column 1)
+[2026-02-17T17:39:24.579Z] Saved to /home/john/Projects/record-shop-enricher/content/b53dc621-d50c-4510-8caa-f3d2f7e76603/events/upcoming.json
+[2026-02-17T17:39:24.621Z]   ✓ events completed in 47.9s
+[2026-02-17T17:39:28.046Z] 
+  ▶ Running reviews scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[2026-02-17T17:39:28.314Z]   Analyzing 6 reviews (6 Yelp, 0 Google)
+[2026-02-17T17:39:30.701Z]     JSON parse failed, saving raw summary
+[2026-02-17T17:39:30.759Z] Saved analysis to /home/john/Projects/record-shop-enricher/content/b53dc621-d50c-4510-8caa-f3d2f7e76603/reviews/analysis.json
+{
+  "raw_summary": "Here is the analysis of the reviews in JSON format:\n\n{\n  \"sentiment_score\": 8,\n  \"key_themes\": [\n    \"unique selection\",\n    \"amazing customer service\",\n    \"cute atmosphere\",\n    \"smell issue (due to smoking policy)\",\n    \"quality of records\"\n  ],\n  \"pros\": [\n    \"amazing customer service\",\n    \"great prices\",\n    \"good selection\",\n    \"unique and interesting record selection\"\n  ],\n  \"cons\": [\n    \"smell issue due to smoking policy\",\n    \"grouchy staff member\"\n  ],\n  \"notable_quotes\": {\n    \"best\": \"What an amazing person and what an amazing record store.\",\n    \"worst\": None,\n    \"funniest\": \"I'm normally one who wants to flip through all the records in hopes to find that album I have been searching for but this wasn't the place for me.\"\n  },\n  \"vibe_description\": \"Sweet Repeat Records is a charming and welcoming shop with a cozy atmosphere. Reviewers praise the shop's unique selection and excellent customer service, making it a haven for music enthusiasts. However, some reviewers note that the smell of smoke can be overpowering due to the store's no-smoking policy.\"\n  },\n  \"genre_specialties\": [\n    \"vinyl records\",\n    \"jazz\"\n  ],\n  \"staff_mentions\": \"Reviewers praise the shop's customer service as being kind and patient. However, one reviewer notes that a staff member was grouchy and introverted when they visited.\"\n  },\n  \"event_mentions\": [\"Record Store Day\"],\n  \"recommendation_for\": \"music enthusiasts who appreciate unique record selection, vinyl collectors, casual browsers looking for a welcoming atmosphere\"\n}",
+  "metadata": {
+    "totalReviews": 6,
+    "yelpReviews": 6,
+    "googleReviews": 0,
+    "averageRating": 4.33,
+    "ratingDistribution": {
+      "2": 1,
+      "4": 1,
+      "5": 4
+    },
+    "analyzedAt": "2026-02-17T17:39:30.701Z"
+  }
+}
+[2026-02-17T17:39:30.764Z]   ✓ reviews completed in 2.7s
+[2026-02-17T17:39:33.913Z]   ✓ Marked deep_scrape_at in Supabase
+[2026-02-17T17:39:36.920Z] ✓ Completed: Sweet Repeat Records
+✓ Completed: Sweet Repeat Records
+[2026-02-17T17:39:41.496Z] 
+============================================================
+[2026-02-17T17:39:41.496Z] [10/190] Vinyl Chickie (Ambler)
+
+============================================================
+[2026-02-17T17:39:41.497Z] ID: 873ea8d4-4696-4070-ad5d-514120096f7d
+[10/190] Vinyl Chickie (Ambler)
+ID: 873ea8d4-4696-4070-ad5d-514120096f7d
+[2026-02-17T17:39:41.497Z] ============================================================
+============================================================
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[2026-02-17T17:39:41.540Z] ╔══════════════════════════════════════════════════════════╗
+[2026-02-17T17:39:41.540Z] ║     Master Deep Scrape Orchestrator                      ║
+[2026-02-17T17:39:41.540Z] ╚══════════════════════════════════════════════════════════╝
+[2026-02-17T17:39:41.639Z] 
+  ▶ Running discovery scraper...
+[2026-02-17T17:39:41.639Z] 
+🔍 Google Discovery for: Vinyl Chickie (Ambler, Pennsylvania)
+[2026-02-17T17:39:41.639Z]   📎 Searching: "Vinyl Chickie Ambler Pennsylvania record store"
+[2026-02-17T17:39:41.730Z]   ⚠ Google returned 429 (rate limited), skipping query
+[2026-02-17T17:39:41.730Z]   📎 Searching: "Vinyl Chickie Ambler instagram facebook"
+[2026-02-17T17:39:41.804Z]   ⚠ Google returned 429 (rate limited), skipping query
+[2026-02-17T17:39:41.805Z] 
+  📋 Discovery Results:
+[2026-02-17T17:39:41.805Z]   💾 Report saved: /home/john/Projects/record-shop-enricher/content/873ea8d4-4696-4070-ad5d-514120096f7d/discovery/google_discovery_2026-02-17T17-39-41-805Z.json
+[2026-02-17T17:39:41.805Z] 
+  ℹ No new fields to update
+[2026-02-17T17:39:41.854Z]   ✓ discovery completed in 0.2s
+[2026-02-17T17:39:45.184Z] 
+  ▶ Running yelp scraper...
+[2026-02-17T17:39:45.185Z]   No Yelp URL, searching by city...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+[2026-02-17T17:39:45.520Z] 
+═══ Searching Yelp for record shops in Ambler, Pennsylvania ═══
+[2026-02-17T17:39:45.520Z] Fetching Yelp search: Ambler, Pennsylvania (offset 0)
+[2026-02-17T17:39:47.740Z]   Unique shops found in Ambler, Pennsylvania: 0
+[2026-02-17T17:39:47.740Z] 
+═══ DONE ═══
+[2026-02-17T17:39:47.740Z] Total shops processed: 0
+[2026-02-17T17:39:47.740Z] New shops added: 0
+[2026-02-17T17:39:47.763Z]   ✓ yelp completed in 2.6s
+[2026-02-17T17:39:51.307Z] 
+  ▶ Running google scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[2026-02-17T17:39:51.643Z]   Searching Google Maps: Vinyl Chickie, Ambler, Pennsylvania
+[2026-02-17T17:40:12.531Z]     Got 0 Google reviews
+[2026-02-17T17:40:12.758Z] Saved to /home/john/Projects/record-shop-enricher/content/873ea8d4-4696-4070-ad5d-514120096f7d/reviews/google_reviews.json
+[2026-02-17T17:40:12.797Z]   ✓ google completed in 21.5s
+[2026-02-17T17:40:15.016Z] 
+  ▶ Running website scraper...
+[2026-02-17T17:40:15.017Z]   No real website URL, skipping website crawl
+[2026-02-17T17:40:15.017Z]   ✓ website completed in 0.0s
+[2026-02-17T17:40:17.470Z] 
+  ▶ Running instagram scraper...
+[2026-02-17T17:40:17.470Z]   No Instagram handle, skipping
+[2026-02-17T17:40:17.470Z]   ✓ instagram completed in 0.0s
+[2026-02-17T17:40:19.679Z] 
+  ▶ Running events scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[2026-02-17T17:40:20.152Z] 
+═══ Vinyl Chickie (Ambler, Pennsylvania) ═══
+[2026-02-17T17:40:20.152Z]   Searching: Vinyl Chickie Ambler Pennsylvania events
+[2026-02-17T17:40:26.723Z]   Searching: Vinyl Chickie Ambler in-store performance
+[2026-02-17T17:40:34.167Z]   Searching: Vinyl Chickie record store day
+[2026-02-17T17:40:41.938Z]   Found 0 event mentions from search
+[2026-02-17T17:40:41.939Z] Saved to /home/john/Projects/record-shop-enricher/content/873ea8d4-4696-4070-ad5d-514120096f7d/events/upcoming.json
+[2026-02-17T17:40:41.965Z]   ✓ events completed in 22.3s
+[2026-02-17T17:40:45.234Z] 
+  ▶ Running reviews scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[2026-02-17T17:40:45.404Z]   No reviews found for Vinyl Chickie
+[2026-02-17T17:40:45.434Z]   ✓ reviews completed in 0.2s
+[2026-02-17T17:40:49.483Z]   ✓ Marked deep_scrape_at in Supabase
+[2026-02-17T17:40:52.490Z] ✓ Completed: Vinyl Chickie
+✓ Completed: Vinyl Chickie
+[2026-02-17T17:40:52.564Z] 
+📊 Progress: 10/190 | ✓ 9 | ✗ 1
+
+📊 Progress: 10/190 | ✓ 9 | ✗ 1
+[2026-02-17T17:40:56.215Z] 
+============================================================
+[2026-02-17T17:40:56.215Z] [11/190] Matones Music (Ambler)
+
+============================================================
+[2026-02-17T17:40:56.215Z] ID: 86d4d9d6-6d23-4edc-8eea-4607cc280a50
+[11/190] Matones Music (Ambler)
+ID: 86d4d9d6-6d23-4edc-8eea-4607cc280a50
+[2026-02-17T17:40:56.215Z] ============================================================
+============================================================
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[2026-02-17T17:40:56.258Z] ╔══════════════════════════════════════════════════════════╗
+[2026-02-17T17:40:56.259Z] ║     Master Deep Scrape Orchestrator                      ║
+[2026-02-17T17:40:56.259Z] ╚══════════════════════════════════════════════════════════╝
+[2026-02-17T17:40:56.372Z] 
+  ▶ Running discovery scraper...
+[2026-02-17T17:40:56.372Z] 
+🔍 Google Discovery for: Matones Music (Ambler, Pennsylvania)
+[2026-02-17T17:40:56.372Z]   📎 Searching: "Matones Music Ambler Pennsylvania record store"
+[2026-02-17T17:40:56.490Z]   ⚠ Google returned 429 (rate limited), skipping query
+[2026-02-17T17:40:56.490Z]   📎 Searching: "Matones Music Ambler instagram facebook"
+[2026-02-17T17:40:56.561Z]   ⚠ Google returned 429 (rate limited), skipping query
+[2026-02-17T17:40:56.561Z] 
+  📋 Discovery Results:
+[2026-02-17T17:40:56.562Z]   💾 Report saved: /home/john/Projects/record-shop-enricher/content/86d4d9d6-6d23-4edc-8eea-4607cc280a50/discovery/google_discovery_2026-02-17T17-40-56-561Z.json
+[2026-02-17T17:40:56.562Z] 
+  ℹ No new fields to update
+[2026-02-17T17:40:56.631Z]   ✓ discovery completed in 0.3s
+[2026-02-17T17:41:00.068Z] 
+  ▶ Running yelp scraper...
+[2026-02-17T17:41:00.068Z]   No Yelp URL, searching by city...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[2026-02-17T17:41:00.398Z] 
+═══ Searching Yelp for record shops in Ambler, Pennsylvania ═══
+[2026-02-17T17:41:00.398Z] Fetching Yelp search: Ambler, Pennsylvania (offset 0)
+[2026-02-17T17:41:03.545Z]   Unique shops found in Ambler, Pennsylvania: 0
+[2026-02-17T17:41:03.545Z] 
+═══ DONE ═══
+[2026-02-17T17:41:03.545Z] Total shops processed: 0
+[2026-02-17T17:41:03.545Z] New shops added: 0
+[2026-02-17T17:41:03.568Z]   ✓ yelp completed in 3.5s
+[2026-02-17T17:41:07.134Z] 
+  ▶ Running google scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[2026-02-17T17:41:07.471Z]   Searching Google Maps: Matones Music, Ambler, Pennsylvania
+[2026-02-17T17:41:26.797Z]     Got 0 Google reviews
+[2026-02-17T17:41:26.987Z] Saved to /home/john/Projects/record-shop-enricher/content/86d4d9d6-6d23-4edc-8eea-4607cc280a50/reviews/google_reviews.json
+[2026-02-17T17:41:27.024Z]   ✓ google completed in 19.9s
+[2026-02-17T17:41:30.393Z] 
+  ▶ Running website scraper...
+[2026-02-17T17:41:30.393Z]   No real website URL, skipping website crawl
+[2026-02-17T17:41:30.393Z]   ✓ website completed in 0.0s
+[2026-02-17T17:41:33.495Z] 
+  ▶ Running instagram scraper...
+[2026-02-17T17:41:33.495Z]   No Instagram handle, skipping
+[2026-02-17T17:41:33.495Z]   ✓ instagram completed in 0.0s
+[2026-02-17T17:41:35.734Z] 
+  ▶ Running events scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+[2026-02-17T17:41:36.218Z] 
+═══ Matones Music (Ambler, Pennsylvania) ═══
+[2026-02-17T17:41:36.219Z]   Searching: Matones Music Ambler Pennsylvania events
+[2026-02-17T17:41:43.661Z]   Searching: Matones Music Ambler in-store performance
+[2026-02-17T17:41:50.400Z]   Searching: Matones Music record store day
+[2026-02-17T17:41:56.920Z]   Found 0 event mentions from search
+[2026-02-17T17:41:56.920Z] Saved to /home/john/Projects/record-shop-enricher/content/86d4d9d6-6d23-4edc-8eea-4607cc280a50/events/upcoming.json
+[2026-02-17T17:41:56.944Z]   ✓ events completed in 21.2s
+[2026-02-17T17:41:59.316Z] 
+  ▶ Running reviews scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  override existing env vars with { override: true }
+[2026-02-17T17:41:59.465Z]   No reviews found for Matones Music
+[2026-02-17T17:41:59.495Z]   ✓ reviews completed in 0.2s
+[2026-02-17T17:42:03.211Z]   ✓ Marked deep_scrape_at in Supabase
+[2026-02-17T17:42:06.215Z] ✓ Completed: Matones Music
+✓ Completed: Matones Music
+[2026-02-17T17:42:10.482Z] 
+============================================================
+[2026-02-17T17:42:10.482Z] [12/190] SOOK Vinyl & Vintage (Ambler)
+
+============================================================
+[2026-02-17T17:42:10.482Z] ID: a79585a2-0176-4694-bb82-0dd752deb488
+[12/190] SOOK Vinyl & Vintage (Ambler)
+ID: a79585a2-0176-4694-bb82-0dd752deb488
+[2026-02-17T17:42:10.482Z] ============================================================
+============================================================
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[2026-02-17T17:42:10.526Z] ╔══════════════════════════════════════════════════════════╗
+[2026-02-17T17:42:10.526Z] ║     Master Deep Scrape Orchestrator                      ║
+[2026-02-17T17:42:10.526Z] ╚══════════════════════════════════════════════════════════╝
+[2026-02-17T17:42:10.622Z] 
+  ▶ Running discovery scraper...
+[2026-02-17T17:42:10.622Z] 
+🔍 Google Discovery for: SOOK Vinyl & Vintage (Ambler, Pennsylvania)
+[2026-02-17T17:42:10.622Z]   📎 Searching: "SOOK Vinyl & Vintage Ambler Pennsylvania record store"
+[2026-02-17T17:42:10.712Z]   ⚠ Google returned 429 (rate limited), skipping query
+[2026-02-17T17:42:10.712Z]   📎 Searching: "SOOK Vinyl & Vintage Ambler instagram facebook"
+[2026-02-17T17:42:10.790Z]   ⚠ Google returned 429 (rate limited), skipping query
+[2026-02-17T17:42:10.790Z] 
+  📋 Discovery Results:
+[2026-02-17T17:42:10.790Z]   💾 Report saved: /home/john/Projects/record-shop-enricher/content/a79585a2-0176-4694-bb82-0dd752deb488/discovery/google_discovery_2026-02-17T17-42-10-790Z.json
+[2026-02-17T17:42:10.790Z] 
+  ℹ No new fields to update
+[2026-02-17T17:42:10.841Z]   ✓ discovery completed in 0.2s
+[2026-02-17T17:42:12.878Z] 
+  ▶ Running yelp scraper...
+[2026-02-17T17:42:12.878Z]   No Yelp URL, searching by city...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[2026-02-17T17:42:13.211Z] 
+═══ Searching Yelp for record shops in Ambler, Pennsylvania ═══
+[2026-02-17T17:42:13.212Z] Fetching Yelp search: Ambler, Pennsylvania (offset 0)
+[2026-02-17T17:42:16.672Z]   Unique shops found in Ambler, Pennsylvania: 0
+[2026-02-17T17:42:16.672Z] 
+═══ DONE ═══
+[2026-02-17T17:42:16.672Z] Total shops processed: 0
+[2026-02-17T17:42:16.672Z] New shops added: 0
+[2026-02-17T17:42:16.695Z]   ✓ yelp completed in 3.8s
+[2026-02-17T17:42:20.273Z] 
+  ▶ Running google scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[2026-02-17T17:42:20.611Z]   Searching Google Maps: SOOK Vinyl & Vintage, Ambler, Pennsylvania
+[2026-02-17T17:42:40.898Z]     Got 0 Google reviews
+[2026-02-17T17:42:41.096Z] Saved to /home/john/Projects/record-shop-enricher/content/a79585a2-0176-4694-bb82-0dd752deb488/reviews/google_reviews.json
+[2026-02-17T17:42:41.135Z]   ✓ google completed in 20.9s
+[2026-02-17T17:42:44.071Z] 
+  ▶ Running website scraper...
+[2026-02-17T17:42:44.071Z]   No real website URL, skipping website crawl
+[2026-02-17T17:42:44.071Z]   ✓ website completed in 0.0s
+[2026-02-17T17:42:47.191Z] 
+  ▶ Running instagram scraper...
+[2026-02-17T17:42:47.191Z]   No Instagram handle, skipping
+[2026-02-17T17:42:47.191Z]   ✓ instagram completed in 0.0s
+[2026-02-17T17:42:50.679Z] 
+  ▶ Running events scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[2026-02-17T17:42:51.167Z] 
+═══ SOOK Vinyl & Vintage (Ambler, Pennsylvania) ═══
+[2026-02-17T17:42:51.167Z]   Searching: SOOK Vinyl & Vintage Ambler Pennsylvania events
+[2026-02-17T17:42:57.520Z]   Searching: SOOK Vinyl & Vintage Ambler in-store performance
+[2026-02-17T17:43:04.066Z]   Searching: SOOK Vinyl & Vintage record store day
+[2026-02-17T17:43:11.336Z]   Found 0 event mentions from search
+[2026-02-17T17:43:11.337Z] Saved to /home/john/Projects/record-shop-enricher/content/a79585a2-0176-4694-bb82-0dd752deb488/events/upcoming.json
+[2026-02-17T17:43:11.365Z]   ✓ events completed in 20.7s
+[2026-02-17T17:43:14.570Z] 
+  ▶ Running reviews scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[2026-02-17T17:43:14.727Z]   No reviews found for SOOK Vinyl & Vintage
+[2026-02-17T17:43:14.757Z]   ✓ reviews completed in 0.2s
+[2026-02-17T17:43:18.183Z]   ✓ Marked deep_scrape_at in Supabase
+[2026-02-17T17:43:21.190Z] ✓ Completed: SOOK Vinyl & Vintage
+✓ Completed: SOOK Vinyl & Vintage
+[2026-02-17T17:43:24.853Z] 
+============================================================
+[2026-02-17T17:43:24.854Z] [13/190] Rotation Records LLC (Ambler)
+
+============================================================
+[2026-02-17T17:43:24.854Z] ID: dd81fd2c-b944-48bb-b2df-8b554dcee6fd
+[13/190] Rotation Records LLC (Ambler)
+ID: dd81fd2c-b944-48bb-b2df-8b554dcee6fd
+[2026-02-17T17:43:24.854Z] ============================================================
+============================================================
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[2026-02-17T17:43:24.898Z] ╔══════════════════════════════════════════════════════════╗
+[2026-02-17T17:43:24.899Z] ║     Master Deep Scrape Orchestrator                      ║
+[2026-02-17T17:43:24.899Z] ╚══════════════════════════════════════════════════════════╝
+[2026-02-17T17:43:25.015Z] 
+  ▶ Running discovery scraper...
+[2026-02-17T17:43:25.015Z] 
+🔍 Google Discovery for: Rotation Records LLC (Ambler, Pennsylvania)
+[2026-02-17T17:43:25.015Z]   📎 Searching: "Rotation Records LLC Ambler Pennsylvania record store"
+[2026-02-17T17:43:25.118Z]   ⚠ Google returned 429 (rate limited), skipping query
+[2026-02-17T17:43:25.118Z]   📎 Searching: "Rotation Records LLC Ambler instagram facebook"
+[2026-02-17T17:43:25.202Z]   ⚠ Google returned 429 (rate limited), skipping query
+[2026-02-17T17:43:25.202Z] 
+  📋 Discovery Results:
+[2026-02-17T17:43:25.202Z]   💾 Report saved: /home/john/Projects/record-shop-enricher/content/dd81fd2c-b944-48bb-b2df-8b554dcee6fd/discovery/google_discovery_2026-02-17T17-43-25-202Z.json
+[2026-02-17T17:43:25.202Z] 
+  ℹ No new fields to update
+[2026-02-17T17:43:25.267Z]   ✓ discovery completed in 0.3s
+[2026-02-17T17:43:29.060Z] 
+  ▶ Running yelp scraper...
+[2026-02-17T17:43:29.060Z]   No Yelp URL, searching by city...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[2026-02-17T17:43:29.402Z] 
+═══ Searching Yelp for record shops in Ambler, Pennsylvania ═══
+[2026-02-17T17:43:29.402Z] Fetching Yelp search: Ambler, Pennsylvania (offset 0)
+[2026-02-17T17:43:31.510Z]   Unique shops found in Ambler, Pennsylvania: 0
+[2026-02-17T17:43:31.510Z] 
+═══ DONE ═══
+[2026-02-17T17:43:31.510Z] Total shops processed: 0
+[2026-02-17T17:43:31.510Z] New shops added: 0
+[2026-02-17T17:43:31.532Z]   ✓ yelp completed in 2.5s
+[2026-02-17T17:43:35.317Z] 
+  ▶ Running google scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[2026-02-17T17:43:35.659Z]   Searching Google Maps: Rotation Records LLC, Ambler, Pennsylvania
+[2026-02-17T17:43:42.390Z] Saved to /home/john/Projects/record-shop-enricher/content/dd81fd2c-b944-48bb-b2df-8b554dcee6fd/reviews/google_reviews.json
+[2026-02-17T17:43:42.431Z]   ✓ google completed in 7.1s
+[2026-02-17T17:43:46.034Z] 
+  ▶ Running website scraper...
+[2026-02-17T17:43:46.035Z]   No real website URL, skipping website crawl
+[2026-02-17T17:43:46.035Z]   ✓ website completed in 0.0s
+[2026-02-17T17:43:49.156Z] 
+  ▶ Running instagram scraper...
+[2026-02-17T17:43:49.157Z]   No Instagram handle, skipping
+[2026-02-17T17:43:49.157Z]   ✓ instagram completed in 0.0s
+[2026-02-17T17:43:52.199Z] 
+  ▶ Running events scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[2026-02-17T17:43:52.686Z] 
+═══ Rotation Records LLC (Ambler, Pennsylvania) ═══
+[2026-02-17T17:43:52.687Z]   Searching: Rotation Records LLC Ambler Pennsylvania events
+[2026-02-17T17:43:59.426Z]   Searching: Rotation Records LLC Ambler in-store performance
+[2026-02-17T17:44:06.600Z]   Searching: Rotation Records LLC record store day
+[2026-02-17T17:44:13.314Z]   Found 0 event mentions from search
+[2026-02-17T17:44:13.315Z] Saved to /home/john/Projects/record-shop-enricher/content/dd81fd2c-b944-48bb-b2df-8b554dcee6fd/events/upcoming.json
+[2026-02-17T17:44:13.339Z]   ✓ events completed in 21.1s
+[2026-02-17T17:44:16.797Z] 
+  ▶ Running reviews scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[2026-02-17T17:44:16.943Z]   No reviews found for Rotation Records LLC
+[2026-02-17T17:44:16.974Z]   ✓ reviews completed in 0.2s
+[2026-02-17T17:44:20.228Z]   ✓ Marked deep_scrape_at in Supabase
+[2026-02-17T17:44:23.235Z] ✓ Completed: Rotation Records LLC
+✓ Completed: Rotation Records LLC
+[2026-02-17T17:44:26.506Z] 
+============================================================
+[2026-02-17T17:44:26.506Z] [14/190] Bah-Fo Studio - Recording (Ambler)
+
+============================================================
+[2026-02-17T17:44:26.506Z] ID: 6f70c5d6-7791-4ad3-b37c-aa9090139c1f
+[14/190] Bah-Fo Studio - Recording (Ambler)
+ID: 6f70c5d6-7791-4ad3-b37c-aa9090139c1f
+[2026-02-17T17:44:26.506Z] ============================================================
+============================================================
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+[2026-02-17T17:44:26.549Z] ╔══════════════════════════════════════════════════════════╗
+[2026-02-17T17:44:26.549Z] ║     Master Deep Scrape Orchestrator                      ║
+[2026-02-17T17:44:26.549Z] ╚══════════════════════════════════════════════════════════╝
+[2026-02-17T17:44:26.640Z] 
+  ▶ Running discovery scraper...
+[2026-02-17T17:44:26.640Z] 
+🔍 Google Discovery for: Bah-Fo Studio - Recording (Ambler, Pennsylvania)
+[2026-02-17T17:44:26.641Z]   📎 Searching: "Bah-Fo Studio - Recording Ambler Pennsylvania record store"
+[2026-02-17T17:44:26.714Z]   ⚠ Google returned 429 (rate limited), skipping query
+[2026-02-17T17:44:26.714Z]   📎 Searching: "Bah-Fo Studio - Recording Ambler instagram facebook"
+[2026-02-17T17:44:26.794Z]   ⚠ Google returned 429 (rate limited), skipping query
+[2026-02-17T17:44:26.794Z] 
+  📋 Discovery Results:
+[2026-02-17T17:44:26.794Z]   💾 Report saved: /home/john/Projects/record-shop-enricher/content/6f70c5d6-7791-4ad3-b37c-aa9090139c1f/discovery/google_discovery_2026-02-17T17-44-26-794Z.json
+[2026-02-17T17:44:26.794Z] 
+  ℹ No new fields to update
+[2026-02-17T17:44:26.851Z]   ✓ discovery completed in 0.2s
+[2026-02-17T17:44:30.289Z] 
+  ▶ Running yelp scraper...
+[2026-02-17T17:44:30.289Z]   No Yelp URL, searching by city...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[2026-02-17T17:44:30.619Z] 
+═══ Searching Yelp for record shops in Ambler, Pennsylvania ═══
+[2026-02-17T17:44:30.619Z] Fetching Yelp search: Ambler, Pennsylvania (offset 0)
+[2026-02-17T17:44:33.076Z]   Unique shops found in Ambler, Pennsylvania: 0
+[2026-02-17T17:44:33.076Z] 
+═══ DONE ═══
+[2026-02-17T17:44:33.076Z] Total shops processed: 0
+[2026-02-17T17:44:33.076Z] New shops added: 0
+[2026-02-17T17:44:33.103Z]   ✓ yelp completed in 2.8s
+[2026-02-17T17:44:36.430Z] 
+  ▶ Running google scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[2026-02-17T17:44:36.769Z]   Searching Google Maps: Bah-Fo Studio - Recording, Ambler, Pennsylvania
+[2026-02-17T17:44:58.909Z]     Got 0 Google reviews
+[2026-02-17T17:44:59.122Z] Saved to /home/john/Projects/record-shop-enricher/content/6f70c5d6-7791-4ad3-b37c-aa9090139c1f/reviews/google_reviews.json
+[2026-02-17T17:44:59.160Z]   ✓ google completed in 22.7s
+[2026-02-17T17:45:02.492Z] 
+  ▶ Running website scraper...
+[2026-02-17T17:45:02.492Z]   No real website URL, skipping website crawl
+[2026-02-17T17:45:02.492Z]   ✓ website completed in 0.0s
+[2026-02-17T17:45:06.331Z] 
+  ▶ Running instagram scraper...
+[2026-02-17T17:45:06.331Z]   No Instagram handle, skipping
+[2026-02-17T17:45:06.331Z]   ✓ instagram completed in 0.0s
+[2026-02-17T17:45:08.446Z] 
+  ▶ Running events scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[2026-02-17T17:45:08.927Z] 
+═══ Bah-Fo Studio - Recording (Ambler, Pennsylvania) ═══
+[2026-02-17T17:45:08.927Z]   Searching: Bah-Fo Studio - Recording Ambler Pennsylvania events
+[2026-02-17T17:45:14.733Z]   Searching: Bah-Fo Studio - Recording Ambler in-store performance
+[2026-02-17T17:45:21.380Z]   Searching: Bah-Fo Studio - Recording record store day
+[2026-02-17T17:45:28.634Z]   Found 0 event mentions from search
+[2026-02-17T17:45:28.634Z] Saved to /home/john/Projects/record-shop-enricher/content/6f70c5d6-7791-4ad3-b37c-aa9090139c1f/events/upcoming.json
+[2026-02-17T17:45:28.660Z]   ✓ events completed in 20.2s
+[2026-02-17T17:45:31.472Z] 
+  ▶ Running reviews scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[2026-02-17T17:45:31.622Z]   No reviews found for Bah-Fo Studio - Recording
+[2026-02-17T17:45:31.651Z]   ✓ reviews completed in 0.2s
+[2026-02-17T17:45:35.647Z]   ✓ Marked deep_scrape_at in Supabase
+[2026-02-17T17:45:38.652Z] ✓ Completed: Bah-Fo Studio - Recording
+✓ Completed: Bah-Fo Studio - Recording
+[2026-02-17T17:45:43.126Z] 
+============================================================
+[2026-02-17T17:45:43.126Z] [15/190] Jupiter Records (Ambler)
+
+============================================================
+[2026-02-17T17:45:43.126Z] ID: 2497ac6c-928d-40ed-9cd0-389d9d8ff6af
+[15/190] Jupiter Records (Ambler)
+ID: 2497ac6c-928d-40ed-9cd0-389d9d8ff6af
+[2026-02-17T17:45:43.126Z] ============================================================
+============================================================
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+[2026-02-17T17:45:43.170Z] ╔══════════════════════════════════════════════════════════╗
+[2026-02-17T17:45:43.170Z] ║     Master Deep Scrape Orchestrator                      ║
+[2026-02-17T17:45:43.170Z] ╚══════════════════════════════════════════════════════════╝
+[2026-02-17T17:45:43.275Z] 
+  ▶ Running discovery scraper...
+[2026-02-17T17:45:43.275Z] 
+🔍 Google Discovery for: Jupiter Records (Ambler, Pennsylvania)
+[2026-02-17T17:45:43.275Z]   📎 Searching: "Jupiter Records Ambler Pennsylvania record store"
+[2026-02-17T17:45:43.355Z]   ⚠ Google returned 429 (rate limited), skipping query
+[2026-02-17T17:45:43.355Z]   📎 Searching: "Jupiter Records Ambler instagram facebook"
+[2026-02-17T17:45:43.433Z]   ⚠ Google returned 429 (rate limited), skipping query
+[2026-02-17T17:45:43.433Z] 
+  📋 Discovery Results:
+[2026-02-17T17:45:43.433Z]   💾 Report saved: /home/john/Projects/record-shop-enricher/content/2497ac6c-928d-40ed-9cd0-389d9d8ff6af/discovery/google_discovery_2026-02-17T17-45-43-433Z.json
+[2026-02-17T17:45:43.433Z] 
+  ℹ No new fields to update
+[2026-02-17T17:45:43.492Z]   ✓ discovery completed in 0.2s
+[2026-02-17T17:45:47.291Z] 
+  ▶ Running yelp scraper...
+[2026-02-17T17:45:47.291Z]   No Yelp URL, searching by city...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+[2026-02-17T17:45:47.619Z] 
+═══ Searching Yelp for record shops in Ambler, Pennsylvania ═══
+[2026-02-17T17:45:47.620Z] Fetching Yelp search: Ambler, Pennsylvania (offset 0)
+[2026-02-17T17:45:49.776Z]   Unique shops found in Ambler, Pennsylvania: 0
+[2026-02-17T17:45:49.776Z] 
+═══ DONE ═══
+[2026-02-17T17:45:49.776Z] Total shops processed: 0
+[2026-02-17T17:45:49.776Z] New shops added: 0
+[2026-02-17T17:45:49.797Z]   ✓ yelp completed in 2.5s
+[2026-02-17T17:45:52.532Z] 
+  ▶ Running google scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+[2026-02-17T17:45:52.862Z]   Searching Google Maps: Jupiter Records, Ambler, Pennsylvania
+[2026-02-17T17:46:13.431Z]     Got 0 Google reviews
+[2026-02-17T17:46:13.632Z] Saved to /home/john/Projects/record-shop-enricher/content/2497ac6c-928d-40ed-9cd0-389d9d8ff6af/reviews/google_reviews.json
+[2026-02-17T17:46:13.671Z]   ✓ google completed in 21.1s
+[2026-02-17T17:46:15.818Z] 
+  ▶ Running website scraper...
+[2026-02-17T17:46:15.818Z]   No real website URL, skipping website crawl
+[2026-02-17T17:46:15.818Z]   ✓ website completed in 0.0s
+[2026-02-17T17:46:17.998Z] 
+  ▶ Running instagram scraper...
+[2026-02-17T17:46:17.999Z]   No Instagram handle, skipping
+[2026-02-17T17:46:17.999Z]   ✓ instagram completed in 0.0s
+[2026-02-17T17:46:20.739Z] 
+  ▶ Running events scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[2026-02-17T17:46:21.234Z] 
+═══ Jupiter Records (Ambler, Pennsylvania) ═══
+[2026-02-17T17:46:21.234Z]   Searching: Jupiter Records Ambler Pennsylvania events
+[2026-02-17T17:46:26.691Z]   Searching: Jupiter Records Ambler in-store performance
+[2026-02-17T17:46:33.332Z]   Searching: Jupiter Records record store day
+[2026-02-17T17:46:40.226Z]   Found 0 event mentions from search
+[2026-02-17T17:46:40.227Z] Saved to /home/john/Projects/record-shop-enricher/content/2497ac6c-928d-40ed-9cd0-389d9d8ff6af/events/upcoming.json
+[2026-02-17T17:46:40.249Z]   ✓ events completed in 19.5s
+[2026-02-17T17:46:43.854Z] 
+  ▶ Running reviews scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+[2026-02-17T17:46:44.018Z]   No reviews found for Jupiter Records
+[2026-02-17T17:46:44.049Z]   ✓ reviews completed in 0.2s
+[2026-02-17T17:46:47.508Z]   ✓ Marked deep_scrape_at in Supabase
+[2026-02-17T17:46:50.516Z] ✓ Completed: Jupiter Records
+✓ Completed: Jupiter Records
+[2026-02-17T17:46:54.589Z] 
+============================================================
+[2026-02-17T17:46:54.589Z] [16/190] Liberty Vinyl (Ambler)
+[2026-02-17T17:46:54.589Z] ID: 0565ba48-147e-4c5a-9283-8a2d13f638e7
+
+============================================================
+[2026-02-17T17:46:54.589Z] ============================================================
+[16/190] Liberty Vinyl (Ambler)
+ID: 0565ba48-147e-4c5a-9283-8a2d13f638e7
+============================================================
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[2026-02-17T17:46:54.632Z] ╔══════════════════════════════════════════════════════════╗
+[2026-02-17T17:46:54.632Z] ║     Master Deep Scrape Orchestrator                      ║
+[2026-02-17T17:46:54.632Z] ╚══════════════════════════════════════════════════════════╝
+[2026-02-17T17:46:54.728Z] 
+  ▶ Running discovery scraper...
+[2026-02-17T17:46:54.728Z] 
+🔍 Google Discovery for: Liberty Vinyl (Ambler, Pennsylvania)
+[2026-02-17T17:46:54.728Z]   📎 Searching: "Liberty Vinyl Ambler Pennsylvania record store"
+[2026-02-17T17:46:54.819Z]   ⚠ Google returned 429 (rate limited), skipping query
+[2026-02-17T17:46:54.819Z]   📎 Searching: "Liberty Vinyl Ambler instagram facebook"
+[2026-02-17T17:46:54.898Z]   ⚠ Google returned 429 (rate limited), skipping query
+[2026-02-17T17:46:54.899Z] 
+  📋 Discovery Results:
+[2026-02-17T17:46:54.899Z]   💾 Report saved: /home/john/Projects/record-shop-enricher/content/0565ba48-147e-4c5a-9283-8a2d13f638e7/discovery/google_discovery_2026-02-17T17-46-54-899Z.json
+[2026-02-17T17:46:54.899Z] 
+  ℹ No new fields to update
+[2026-02-17T17:46:54.959Z]   ✓ discovery completed in 0.2s
+[2026-02-17T17:46:57.964Z] 
+  ▶ Running yelp scraper...
+[2026-02-17T17:46:57.964Z]   No Yelp URL, searching by city...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+[2026-02-17T17:46:58.305Z] 
+═══ Searching Yelp for record shops in Ambler, Pennsylvania ═══
+[2026-02-17T17:46:58.306Z] Fetching Yelp search: Ambler, Pennsylvania (offset 0)
+[2026-02-17T17:47:00.461Z]   Unique shops found in Ambler, Pennsylvania: 0
+[2026-02-17T17:47:00.461Z] 
+═══ DONE ═══
+[2026-02-17T17:47:00.461Z] Total shops processed: 0
+[2026-02-17T17:47:00.461Z] New shops added: 0
+[2026-02-17T17:47:00.483Z]   ✓ yelp completed in 2.5s
+[2026-02-17T17:47:03.045Z] 
+  ▶ Running google scraper...
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[2026-02-17T17:47:03.378Z]   Searching Google Maps: Liberty Vinyl, Ambler, Pennsylvania
+[2026-02-17T17:47:53.104Z]     Got 0 Google reviews
+[2026-02-17T17:47:53.280Z] Saved to /home/john/Projects/record-shop-enricher/content/0565ba48-147e-4c5a-9283-8a2d13f638e7/reviews/google_reviews.json
+[2026-02-17T17:47:53.313Z]   ✓ google completed in 50.3s
+[2026-02-17T17:47:56.399Z] 
+  ▶ Running website scraper...
+[2026-02-17T17:47:56.400Z]   No real website URL, skipping website crawl
+[2026-02-17T17:47:56.400Z]   ✓ website completed in 0.0s
+[2026-02-17T17:47:59.148Z] 
+  ▶ Running instagram scraper...
+[2026-02-17T17:47:59.148Z]   No Instagram handle, skipping
+[2026-02-17T17:47:59.148Z]   ✓ instagram completed in 0.0s
