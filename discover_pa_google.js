@@ -11,7 +11,8 @@
  */
 
 const { delay, saveJSON, getAllShops, getShopByName, updateShop,
-  createStealthBrowser, parseArgs, log, supabase } = require('./lib/common');
+  createStealthBrowser, parseArgs, log, supabase, findExistingShop, 
+  scoreShopData, mergeShopData } = require('./lib/common');
 const { writeFileSync, readFileSync, existsSync } = require('fs');
 const path = require('path');
 
@@ -664,15 +665,39 @@ async function main() {
         totalFiltered += filtered;
         
         for (const shop of recordShops) {
-          const match = findMatch(shop.name, location, existingShops);
           const { city, state } = parseCityState(shop.address, location);
           
-          if (match) {
+          // Use new deduplication logic
+          const existing = await findExistingShop(
+            shop.name, 
+            city, 
+            state, 
+            null, // google_place_id not available in search results
+            null, // lat/lng not available yet
+            null
+          );
+          
+          if (existing) {
             totalExisting++;
-            // Backfill google_maps_url if missing
-            if (!match.google_maps_url && shop.googleMapsUrl && !dryRun) {
-              await supabase.from('shops').update({ google_maps_url: shop.googleMapsUrl }).eq('id', match.id);
-              log(`   ✏️  ${shop.name} — added Google Maps URL`);
+            
+            // Prepare update data with any new fields
+            const updates = {};
+            if (!existing.google_maps_url && shop.googleMapsUrl) {
+              updates.google_maps_url = shop.googleMapsUrl;
+            }
+            if (!existing.address && shop.address) {
+              updates.address = shop.address;
+            }
+            if (shop.rating && (!existing.average_rating || shop.rating > existing.average_rating)) {
+              updates.average_rating = shop.rating;
+            }
+            if (shop.reviewCount && (!existing.review_count || shop.reviewCount > existing.review_count)) {
+              updates.review_count = shop.reviewCount;
+            }
+            
+            if (Object.keys(updates).length > 0 && !dryRun) {
+              await supabase.from('shops').update(updates).eq('id', existing.id);
+              log(`   ✏️  ${shop.name} — updated with new data (${Object.keys(updates).join(', ')})`);
             } else {
               log(`   ✓  ${shop.name} — already in DB`);
             }
@@ -699,7 +724,6 @@ async function main() {
                   }
                   throw error;
                 }
-                existingShops.push({ ...newShop, id: inserted.id });
                 log(`   ➕ NEW: ${shop.name} (${city})`);
                 progress.discovered.push({ name: shop.name, city, rating: shop.rating });
               } catch (e) {
