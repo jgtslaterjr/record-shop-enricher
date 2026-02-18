@@ -9,82 +9,7 @@
  */
 
 const { delay, saveJSON, contentDir, getAllShops, getShopByName,
-  updateShop, createStealthBrowser, parseArgs, log, supabase } = require('./lib/common');
-const https = require('https');
-const http = require('http');
-
-async function downloadAndUploadImage(url, slug, index) {
-  return new Promise((resolve) => {
-    try {
-      const urlObj = new URL(url);
-      const client = urlObj.protocol === 'https:' ? https : http;
-      
-      const req = client.get(url, { timeout: 10000 }, async (res) => {
-        if (res.statusCode !== 200) {
-          log(`    ⚠️  Failed to download image ${index}: HTTP ${res.statusCode}`);
-          return resolve(null);
-        }
-
-        const chunks = [];
-        res.on('data', (chunk) => chunks.push(chunk));
-        res.on('end', async () => {
-          try {
-            const buffer = Buffer.concat(chunks);
-            const contentType = res.headers['content-type'] || 'image/jpeg';
-            
-            // Determine extension
-            let ext = 'jpg';
-            if (contentType.includes('png')) ext = 'png';
-            else if (contentType.includes('webp')) ext = 'webp';
-            else if (contentType.includes('gif')) ext = 'gif';
-
-            // Upload to Supabase storage
-            const timestamp = Date.now();
-            const storagePath = `gallery/${slug}/${timestamp}_google_${index}.${ext}`;
-            
-            const { data, error } = await supabase.storage
-              .from('shop-logos')
-              .upload(storagePath, buffer, {
-                contentType,
-                upsert: false
-              });
-
-            if (error) {
-              log(`    ⚠️  Storage upload failed for image ${index}: ${error.message}`);
-              return resolve(null);
-            }
-
-            // Get public URL
-            const { data: publicUrlData } = supabase.storage
-              .from('shop-logos')
-              .getPublicUrl(storagePath);
-
-            log(`    ✓ Uploaded image ${index} to storage`);
-            resolve(publicUrlData.publicUrl);
-          } catch (e) {
-            log(`    ⚠️  Error processing image ${index}: ${e.message}`);
-            resolve(null);
-          }
-        });
-      });
-
-      req.on('error', (e) => {
-        log(`    ⚠️  Download error for image ${index}: ${e.message}`);
-        resolve(null);
-      });
-
-      req.on('timeout', () => {
-        req.destroy();
-        log(`    ⚠️  Timeout downloading image ${index}`);
-        resolve(null);
-      });
-
-    } catch (e) {
-      log(`    ⚠️  Invalid URL for image ${index}: ${e.message}`);
-      resolve(null);
-    }
-  });
-}
+  updateShop, createStealthBrowser, parseArgs, log, supabase, downloadAndStoreImage } = require('./lib/common');
 
 async function scrapeGoogleMaps(page, shopName, city, state, slug = null) {
   const query = encodeURIComponent(`${shopName} record store ${city} ${state}`);
@@ -194,7 +119,7 @@ async function scrapeGoogleMaps(page, shopName, city, state, slug = null) {
     
     for (let i = 0; i < originalPhotoCount; i++) {
       const photoUrl = data.photos[i];
-      const uploadedUrl = await downloadAndUploadImage(photoUrl, slug, i + 1);
+      const uploadedUrl = await downloadAndStoreImage(photoUrl, slug, 'google');
       if (uploadedUrl) {
         uploadedPhotos.push(uploadedUrl);
       }
