@@ -14,7 +14,7 @@
  */
 
 const { supabase, delay, saveJSON, loadJSON, contentDir, getAllShops, getShopByName,
-  createStealthBrowser, parseArgs, log, ensureDir } = require('./lib/common');
+  createStealthBrowser, parseArgs, log, ensureDir, validateShopData } = require('./lib/common');
 const { discoverLinks } = require('./discover_links');
 const fs = require('fs');
 const path = require('path');
@@ -175,10 +175,15 @@ async function deepScrapeShop(shop, args) {
 
   results.completedAt = new Date().toISOString();
   
-  // Always mark as scraped
+  // Always mark as scraped, but validate data first
   if (shop.id !== 'manual') {
-    await supabase.from('shops').update({ deep_scrape_at: results.completedAt }).eq('id', shop.id);
-    log('  ✓ Marked deep_scrape_at in Supabase');
+    try {
+      const updateData = validateShopData({ deep_scrape_at: results.completedAt });
+      await supabase.from('shops').update(updateData).eq('id', shop.id);
+      log('  ✓ Marked deep_scrape_at in Supabase');
+    } catch (e) {
+      log(`  ⚠️  Validation failed: ${e.message}`);
+    }
   }
   
   // Save results summary
