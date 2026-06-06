@@ -1,0 +1,38 @@
+{
+  "shopId": "542b096d-f660-4054-aab0-8a50083994b1",
+  "shopName": "Pagoda City Records",
+  "city": "Cumru",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:31:08.518Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.9s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "7.4s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "22.3s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T17:32:03.584Z"
+}

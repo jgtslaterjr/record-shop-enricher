@@ -1,0 +1,38 @@
+{
+  "shopId": "1c38133a-43dc-4d9f-a4c8-175f80e55d8c",
+  "shopName": "DJ Sean Music Studio",
+  "city": "Cheltenham",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:10:38.865Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.5s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "8.2s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "21.2s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T17:11:33.645Z"
+}

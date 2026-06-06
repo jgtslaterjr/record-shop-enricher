@@ -1,0 +1,20 @@
+{
+  "name": "Murphy's Music Center Wexford",
+  "rating": null,
+  "reviewCount": null,
+  "address": "11945 Perry Hwy, Wexford, PA 15090",
+  "phone": "(724) 934-1090",
+  "website": "http://www.waddellsmusic.com/",
+  "hours": {},
+  "categories": [
+    "Musical instrument store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/murphys-music-center-wexford/1771520263609_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Murphy's+Music+Center+Wexford/@40.6304228,-80.0602689,17z/data=!3m1!4b1!4m6!3m5!1s0x8834899f63c9a835:0xed6df825573aaf26!8m2!3d40.6304228!4d-80.057694!16s%2Fg%2F1tf48tbd?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T16:57:57.015Z"
+}

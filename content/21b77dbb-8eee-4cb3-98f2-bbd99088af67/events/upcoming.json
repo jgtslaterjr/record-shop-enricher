@@ -6,23 +6,14 @@
   "events": [
     {
       "event_type": "Record Store Day",
-      "title": "Record Store Day 2025",
-      "date": null,
-      "description": null,
+      "title": null,
+      "date": "2025",
+      "description": "Record Store Day",
       "artists": [],
       "source": "website",
-      "sourceUrl": "https://sirenrecords.com/happenings"
-    },
-    {
-      "event_type": "Record Store Day",
-      "title": "RSD Black Friday 2025",
-      "date": null,
-      "description": null,
-      "artists": [],
-      "source": "website",
-      "sourceUrl": "https://sirenrecords.com/happenings"
+      "sourceUrl": "https://sirenrecords.com/calendar"
     }
   ],
-  "totalFound": 2,
-  "scrapedAt": "2026-02-17T17:27:30.867Z"
+  "totalFound": 1,
+  "scrapedAt": "2026-02-19T19:59:34.349Z"
 }

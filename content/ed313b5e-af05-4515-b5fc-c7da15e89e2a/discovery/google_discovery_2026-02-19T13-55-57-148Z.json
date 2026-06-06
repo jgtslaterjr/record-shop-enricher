@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "ed313b5e-af05-4515-b5fc-c7da15e89e2a",
+    "name": "Romeo's Record Shop",
+    "city": "Aston",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Romeo's Record Shop Aston Pennsylvania record store",
+    "Romeo's Record Shop Aston instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T13:55:57.148Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

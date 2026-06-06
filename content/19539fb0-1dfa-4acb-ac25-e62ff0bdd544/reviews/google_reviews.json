@@ -1,0 +1,20 @@
+{
+  "name": "Shady Dog Record & Disc Exchange",
+  "rating": null,
+  "reviewCount": null,
+  "address": "638 Lancaster Ave, Berwyn, PA 19312",
+  "phone": "(610) 644-1160",
+  "website": "http://shadydog.com/",
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/underdog-records/1771522538659_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Shady+Dog+Record+%26+Disc+Exchange/@40.5148172,-80.5126237,7z/data=!4m10!1m2!2m1!1sUnderdog+Records+record+store+Neshannock+Pennsylvania!3m6!1s0x89c6935a33987d6f:0x177ebee6605b76a4!8m2!3d40.0477477!4d-75.4413108!15sCjVVbmRlcmRvZyBSZWNvcmRzIHJlY29yZCBzdG9yZSBOZXNoYW5ub2NrIFBlbm5zeWx2YW5pYVo3IjV1bmRlcmRvZyByZWNvcmRzIHJlY29yZCBzdG9yZSBuZXNoYW5ub2NrIHBlbm5zeWx2YW5pYZIBC211c2ljX3N0b3JlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVIxTlZrMlEzcDNSUkFC4AEA-gEECG8QNg!16s%2Fg%2F1tcxw5qd?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T17:35:51.037Z"
+}

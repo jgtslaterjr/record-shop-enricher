@@ -1,0 +1,22 @@
+{
+  "name": "Results",
+  "rating": null,
+  "reviewCount": null,
+  "address": null,
+  "phone": null,
+  "website": null,
+  "hours": null,
+  "categories": [],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/dean-sapps-music-store/1771530562450_google.jpg",
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/dean-sapps-music-store/1771530563656_google.jpg",
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/dean-sapps-music-store/1771530564700_google.jpg",
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/dean-sapps-music-store/1771530565748_google.jpg",
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/dean-sapps-music-store/1771530566832_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/search/Dean+Sapp's+Music+Store+record+store+East+Nottingham+Pennsylvania/@40.0621258,-75.4839069,12z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T19:49:40.424Z"
+}

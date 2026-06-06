@@ -1,0 +1,20 @@
+{
+  "name": "Mad Bad Music Dungeon",
+  "rating": null,
+  "reviewCount": null,
+  "address": "36 S Baltimore St, Dillsburg, PA 17019",
+  "phone": "(717) 502-7280",
+  "website": "http://www.facebook.com/MusicDungeonRocks",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/mad-bad-music-dungeon/1771429050098_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Mad+Bad+Music+Dungeon/@40.1099087,-78.1891699,9z/data=!4m10!1m2!2m1!1sMad+Bad+Music+Dungeon+record+store+Ambridge+Pennsylvania!3m6!1s0x89c8e5a1ae44accf:0xc995e0dd48c25b17!8m2!3d40.1099087!4d-77.0356054!15sCjhNYWQgQmFkIE11c2ljIER1bmdlb24gcmVjb3JkIHN0b3JlIEFtYnJpZGdlIFBlbm5zeWx2YW5pYVo6IjhtYWQgYmFkIG11c2ljIGR1bmdlb24gcmVjb3JkIHN0b3JlIGFtYnJpZGdlIHBlbm5zeWx2YW5pYZIBDHJlY29yZF9zdG9yZZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VNdGJFd3RhVTlSRUFF4AEA-gEECAAQMw!16s%2Fg%2F11fll6clf3?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T15:37:41.805Z"
+}

@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "c2e5f7d2-1f27-4c46-ab71-a49970207110",
+    "name": "Amazing Books & Records",
+    "city": "Pittsburgh",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Amazing Books & Records Pittsburgh Pennsylvania record store",
+    "Amazing Books & Records Pittsburgh instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T20:38:07.141Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

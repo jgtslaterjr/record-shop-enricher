@@ -1,0 +1,89 @@
+{
+  "shop": {
+    "id": "ab6d74b8-58bb-4b1d-8a27-654f86bc4865",
+    "name": "Homer & Forkie’s Record Store",
+    "city": "Amity Township",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Homer & Forkie’s Record Store Amity Township Pennsylvania record store",
+    "Homer & Forkie’s Record Store Amity Township instagram facebook"
+  ],
+  "discoveredAt": "2026-02-18T15:43:28.584Z",
+  "links": [
+    {
+      "category": "yelp",
+      "url": "https://www.yelp.com/biz/homer-and-forkie-s-record-store-leesport"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/people"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.mapquest.com/us/pennsylvania/homer-and-forkies-record-store-776158209",
+      "domain": "mapquest.com"
+    },
+    {
+      "category": "website",
+      "url": "https://www.leesportmarket.com/homer-forkies"
+    },
+    {
+      "category": "website",
+      "url": "https://local.yahoo.com/info-238338837-Homer-and-Forkie’s-Record-Store?p=Homer+and+Forkie’s+Record+Store&amp;ei=UTF-8&amp;selectedId=238338837"
+    },
+    {
+      "category": "website",
+      "url": "https://www.msn.com/en-us/entertainment/music/popular-record-show-returning-to-leesport/ar-AA1ThCpO"
+    },
+    {
+      "category": "website",
+      "url": "https://local.yahoo.com/info-238338837-homer-and-forkies-record-store-leesport/"
+    }
+  ],
+  "byCategory": {
+    "yelp": [
+      {
+        "category": "yelp",
+        "url": "https://www.yelp.com/biz/homer-and-forkie-s-record-store-leesport"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/people"
+      }
+    ],
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://www.mapquest.com/us/pennsylvania/homer-and-forkies-record-store-776158209",
+        "domain": "mapquest.com"
+      }
+    ],
+    "website": [
+      {
+        "category": "website",
+        "url": "https://www.leesportmarket.com/homer-forkies"
+      },
+      {
+        "category": "website",
+        "url": "https://local.yahoo.com/info-238338837-Homer-and-Forkie’s-Record-Store?p=Homer+and+Forkie’s+Record+Store&amp;ei=UTF-8&amp;selectedId=238338837"
+      },
+      {
+        "category": "website",
+        "url": "https://www.msn.com/en-us/entertainment/music/popular-record-show-returning-to-leesport/ar-AA1ThCpO"
+      },
+      {
+        "category": "website",
+        "url": "https://local.yahoo.com/info-238338837-homer-and-forkies-record-store-leesport/"
+      }
+    ]
+  },
+  "updates": {
+    "yelp_url": "https://www.yelp.com/biz/homer-and-forkie-s-record-store-leesport",
+    "social_facebook": "https://facebook.com/people",
+    "website": "https://www.leesportmarket.com/homer-forkies"
+  },
+  "skipped": {}
+}

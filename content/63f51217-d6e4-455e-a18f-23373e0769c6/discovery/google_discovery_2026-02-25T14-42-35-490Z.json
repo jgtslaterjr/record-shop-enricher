@@ -1,0 +1,120 @@
+{
+  "shop": {
+    "id": "63f51217-d6e4-455e-a18f-23373e0769c6",
+    "name": "Vinyl Remains",
+    "city": "Pittsburgh",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Vinyl Remains Pittsburgh Pennsylvania record store",
+    "Vinyl Remains Pittsburgh instagram facebook"
+  ],
+  "discoveredAt": "2026-02-25T14:42:35.490Z",
+  "links": [
+    {
+      "category": "website",
+      "url": "https://www.vinylremainspg13.com/"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/vinylremainspg13"
+    },
+    {
+      "category": "website",
+      "url": "https://findvinylrecords.com/record-stores/pa/pittsburgh/vinyl-remains"
+    },
+    {
+      "category": "website",
+      "url": "https://www.bestprosintown.com/pa/pittsburgh/vinyl-remains-/"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.loc8nearme.com/pennsylvania/pittsburgh/vinyl-remains/3220465/",
+      "domain": "loc8nearme.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://vinylmapper.com/record-stores/us/pa/pittsburgh/vinyl-remains-15228/",
+      "domain": "vinylmapper.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.mapquest.com/us/pennsylvania/vinyl-remains-424483270",
+      "domain": "mapquest.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/pittsburgh/record-store/2006742502-vinyl-remains",
+      "domain": "chamberofcommerce.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.vinylworld.org/record-shop/vinyl-remains/",
+      "domain": "vinylworld.org"
+    },
+    {
+      "category": "directory",
+      "url": "https://recordstoreday.com/Store/20896",
+      "domain": "recordstoreday.com"
+    }
+  ],
+  "byCategory": {
+    "website": [
+      {
+        "category": "website",
+        "url": "https://www.vinylremainspg13.com/"
+      },
+      {
+        "category": "website",
+        "url": "https://findvinylrecords.com/record-stores/pa/pittsburgh/vinyl-remains"
+      },
+      {
+        "category": "website",
+        "url": "https://www.bestprosintown.com/pa/pittsburgh/vinyl-remains-/"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/vinylremainspg13"
+      }
+    ],
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://www.loc8nearme.com/pennsylvania/pittsburgh/vinyl-remains/3220465/",
+        "domain": "loc8nearme.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://vinylmapper.com/record-stores/us/pa/pittsburgh/vinyl-remains-15228/",
+        "domain": "vinylmapper.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.mapquest.com/us/pennsylvania/vinyl-remains-424483270",
+        "domain": "mapquest.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/pittsburgh/record-store/2006742502-vinyl-remains",
+        "domain": "chamberofcommerce.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.vinylworld.org/record-shop/vinyl-remains/",
+        "domain": "vinylworld.org"
+      },
+      {
+        "category": "directory",
+        "url": "https://recordstoreday.com/Store/20896",
+        "domain": "recordstoreday.com"
+      }
+    ]
+  },
+  "updates": {
+    "social_facebook": "https://facebook.com/vinylremainspg13",
+    "website": "https://www.vinylremainspg13.com/"
+  },
+  "skipped": {}
+}

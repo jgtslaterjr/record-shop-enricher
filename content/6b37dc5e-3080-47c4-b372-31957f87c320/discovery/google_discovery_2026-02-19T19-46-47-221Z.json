@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "6b37dc5e-3080-47c4-b372-31957f87c320",
+    "name": "Falcon Records",
+    "city": "Penn Hills",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Falcon Records Penn Hills Pennsylvania record store",
+    "Falcon Records Penn Hills instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T19:46:47.221Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

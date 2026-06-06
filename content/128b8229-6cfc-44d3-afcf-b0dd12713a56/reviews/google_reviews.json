@@ -1,0 +1,20 @@
+{
+  "name": "A DAY IN THE LIFE RECORDS",
+  "rating": null,
+  "reviewCount": null,
+  "address": "24A W Walnut St, Lancaster, PA 17603",
+  "phone": "(717) 508-4609",
+  "website": "http://adayintheliferecords.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/a-day-in-the-life-records/1771429162541_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/A+DAY+IN+THE+LIFE+RECORDS/@40.0424914,-76.3099991,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6248d4214c49d:0x8f24186070532273!8m2!3d40.0424914!4d-76.3074242!16s%2Fg%2F11c549x2_p?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T15:39:22.821Z"
+}

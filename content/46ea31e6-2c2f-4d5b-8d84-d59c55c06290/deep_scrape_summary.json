@@ -1,0 +1,38 @@
+{
+  "shopId": "46ea31e6-2c2f-4d5b-8d84-d59c55c06290",
+  "shopName": "Vinyl Press Signs and Graphics Easton",
+  "city": "Forks Township",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:06:55.776Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.2s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "22.4s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "21.6s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:08:03.399Z"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Moretti Music",
+  "rating": null,
+  "reviewCount": null,
+  "address": "801 W Lancaster Ave, Downingtown, PA 19335",
+  "phone": "(610) 873-6852",
+  "website": "http://www.morettimusic.net/",
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/moretti-music/1771518483094_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Moretti+Music/@39.9994125,-75.7268481,17z/data=!3m1!4b1!4m6!3m5!1s0x89c65f503f26c1ab:0xc14040467cc1726c!8m2!3d39.9994125!4d-75.7242732!16s%2Fg%2F1262h788l?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T16:28:15.217Z"
+}

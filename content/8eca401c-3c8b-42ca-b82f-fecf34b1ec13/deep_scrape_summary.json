@@ -1,0 +1,38 @@
+{
+  "shopId": "8eca401c-3c8b-42ca-b82f-fecf34b1ec13",
+  "shopName": "Fungus Books & Records",
+  "city": "Pittsburgh",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T20:30:52.480Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.2s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "7.4s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "20.4s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T20:31:43.279Z"
+}

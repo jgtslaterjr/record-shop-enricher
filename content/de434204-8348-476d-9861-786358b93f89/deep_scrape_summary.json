@@ -1,0 +1,38 @@
+{
+  "shopId": "de434204-8348-476d-9861-786358b93f89",
+  "shopName": "RSC Vinyl",
+  "city": "Lower Providence",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T16:24:49.824Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "3.0s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.5s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "52.1s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "30.1s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "53.3s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.3s"
+    }
+  },
+  "completedAt": "2026-02-19T16:27:31.315Z"
+}

@@ -1,0 +1,81 @@
+{
+  "shop": {
+    "id": "128b8229-6cfc-44d3-afcf-b0dd12713a56",
+    "name": "A DAY IN THE LIFE RECORDS",
+    "city": "Ambridge",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "A DAY IN THE LIFE RECORDS Ambridge Pennsylvania record store",
+    "A DAY IN THE LIFE RECORDS Ambridge instagram facebook"
+  ],
+  "discoveredAt": "2026-02-18T15:39:04.767Z",
+  "links": [
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/aditlrecords/",
+      "handle": "aditlrecords"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/aditlrecords"
+    },
+    {
+      "category": "website",
+      "url": "https://www.adayintheliferecords.com/"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/a_day_in.life/",
+      "handle": "a_day_in.life"
+    },
+    {
+      "category": "website",
+      "url": "https://www.adayintheliferecords.com/locationandcontact"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/adayinthelifethebeatlesblog"
+    }
+  ],
+  "byCategory": {
+    "instagram": [
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/aditlrecords/",
+        "handle": "aditlrecords"
+      },
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/a_day_in.life/",
+        "handle": "a_day_in.life"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/aditlrecords"
+      },
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/adayinthelifethebeatlesblog"
+      }
+    ],
+    "website": [
+      {
+        "category": "website",
+        "url": "https://www.adayintheliferecords.com/"
+      },
+      {
+        "category": "website",
+        "url": "https://www.adayintheliferecords.com/locationandcontact"
+      }
+    ]
+  },
+  "updates": {
+    "social_instagram": "aditlrecords",
+    "social_facebook": "https://facebook.com/aditlrecords",
+    "website": "https://www.adayintheliferecords.com/"
+  },
+  "skipped": {}
+}

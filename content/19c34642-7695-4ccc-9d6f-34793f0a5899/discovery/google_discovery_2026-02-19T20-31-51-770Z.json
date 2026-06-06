@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "19c34642-7695-4ccc-9d6f-34793f0a5899",
+    "name": "Book and Mortar Record Store",
+    "city": "Pittsburgh",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Book and Mortar Record Store Pittsburgh Pennsylvania record store",
+    "Book and Mortar Record Store Pittsburgh instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T20:31:51.770Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

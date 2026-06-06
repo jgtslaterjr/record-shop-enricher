@@ -1,0 +1,27 @@
+{
+  "shopName": "Haul House Records",
+  "shopId": "744c4e51-520f-46f5-9b16-6773691246f0",
+  "city": "Amity Township",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "title": "",
+      "date": "Dec 5, 2025",
+      "description": "Get tickets to upcoming concerts, live shows, festivals, and events in Wayne.",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    },
+    {
+      "event_type": "",
+      "title": "Annual Member Meeting and Awards Ceremony",
+      "date": "April (no specific date given)",
+      "description": "The WBA holds its Annual Member Meeting and Awards Ceremony. New board members are sworn in and awards are given.",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    }
+  ],
+  "totalFound": 2,
+  "scrapedAt": "2026-02-18T15:47:04.795Z"
+}

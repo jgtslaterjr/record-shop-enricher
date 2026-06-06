@@ -1,0 +1,54 @@
+{
+  "shopName": "Homer & Forkie’s Record Store",
+  "shopId": "ab6d74b8-58bb-4b1d-8a27-654f86bc4865",
+  "city": "Amity Township",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "Fall Market Festival",
+      "title": "Fall Market Festival",
+      "date": null,
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://www.leesportmarket.com/happenings"
+    },
+    {
+      "event_type": "Craft Shows",
+      "title": "Toy Show Auto Parts Flea Market",
+      "date": null,
+      "description": "",
+      "artists": [
+        "Toy Show",
+        "Auto Parts",
+        "Flea Market"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.leesportmarket.com/happenings"
+    },
+    {
+      "event_type": "Sports Card Memorabilia Show",
+      "title": "Sports Card Memorabilia Show",
+      "date": null,
+      "description": "",
+      "artists": [
+        "Sports Card Memorabilia Show"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.leesportmarket.com/happenings"
+    },
+    {
+      "event_type": "Halloween Flea Market",
+      "title": "Halloween Flea Market",
+      "date": null,
+      "description": "",
+      "artists": [
+        "Halloween Flea Market"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.leesportmarket.com/happenings"
+    }
+  ],
+  "totalFound": 4,
+  "scrapedAt": "2026-02-18T15:45:07.667Z"
+}

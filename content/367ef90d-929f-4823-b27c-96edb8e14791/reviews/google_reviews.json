@@ -1,0 +1,22 @@
+{
+  "name": "Jam - Music and Memorabilia",
+  "rating": null,
+  "reviewCount": null,
+  "address": "The Zeppelin and The Unicorn Antique Shop, 400 Silverside Rd #95, Wilmington, DE 19809",
+  "phone": "(302) 293-6576",
+  "website": null,
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/jam-music-and-memorabilia/1771509186043_google.png",
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/jam-music-and-memorabilia/1771509187216_google.jpg",
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/jam-music-and-memorabilia/1771509188195_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Jam+-+Music+and+Memorabilia/@39.785302,-75.4884894,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6e376b900334f:0x347c844ff635918!8m2!3d39.785302!4d-75.4859145!16s%2Fg%2F11dfxx95mq?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:53:24.191Z"
+}

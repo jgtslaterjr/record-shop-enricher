@@ -1,0 +1,34 @@
+{
+  "overview": "Vinyl Lab Record Store does not appear on the website content. However, based on external search results, Vinyl Lab appears to be a record shop that offers new and used vinyl records, CDs, and other music-related items.",
+  "history": "No notable history mentioned in the provided website content.",
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "CD",
+      "cassette"
+    ],
+    "genres": "Not specified",
+    "new_vs_used": "Both"
+  },
+  "services": {
+    "buy/sell/trade": "Yes",
+    "online_store": "Yes",
+    "shipping": "Yes"
+  },
+  "events": {
+    "host_events": "Yes",
+    "event_type": "Not specified",
+    "frequency": "Not specified"
+  },
+  "staff": {
+    "notable_staff/owner_info": "No notable staff or owner information mentioned."
+  },
+  "hours_location": "Store hours and location not specified in the provided website content.",
+  "unique_features": {
+    "listening_rooms": "Yes",
+    "cafe": "Yes"
+  },
+  "community_role": {
+    "local_music_scene": "Part of the local music scene, but no specific details mentioned."
+  }
+}

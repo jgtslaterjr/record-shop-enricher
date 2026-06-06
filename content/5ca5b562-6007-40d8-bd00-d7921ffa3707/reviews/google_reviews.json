@@ -1,0 +1,20 @@
+{
+  "name": "Etown Record Lounge",
+  "rating": null,
+  "reviewCount": null,
+  "address": "9 S Market St, Elizabethtown, PA 17022",
+  "phone": null,
+  "website": "https://www.etownrecordlounge.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/etown-record-lounge/1771506214921_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Etown+Record+Lounge/@40.1511727,-76.6081981,17z/data=!3m1!4b1!4m6!3m5!1s0x89c89975b739a231:0x1efa68277de8955!8m2!3d40.1511727!4d-76.6056232!16s%2Fg%2F11tn9m5j_9?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:03:49.697Z"
+}

@@ -1,0 +1,38 @@
+{
+  "shopId": "63d191c8-e08e-417e-a776-028d03535fd2",
+  "shopName": "Preserving Record Shop",
+  "city": "Ambridge",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-18T15:21:00.569Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "6.3s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "2.8s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "19.8s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "7.6s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "15.4s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "43.7s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-18T15:22:55.963Z"
+}

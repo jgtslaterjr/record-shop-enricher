@@ -1,0 +1,20 @@
+{
+  "name": "Sky Valley Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "618 S White Horse Pike, Somerdale, NJ 08083",
+  "phone": "(856) 545-7471",
+  "website": "https://skyvalleyrecords.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/sky-valley-records/1771509515983_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Sky+Valley+Records/@39.8385815,-75.0133818,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6cd74cd4c40a9:0x5d854a693e3f26b0!8m2!3d39.8385815!4d-75.0108069!16s%2Fg%2F11b8074rn8?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:58:36.174Z"
+}

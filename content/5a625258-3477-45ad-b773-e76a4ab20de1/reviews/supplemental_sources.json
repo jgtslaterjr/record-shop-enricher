@@ -1,0 +1,107 @@
+{
+  "google": {
+    "rating": 4.7,
+    "reviewCount": 63,
+    "source": "chamberofcommerce.com (aggregates Google data)"
+  },
+  "facebook": {
+    "recordStorePage": {
+      "url": "https://www.facebook.com/gethiprecordstore/",
+      "rating": "100% recommend",
+      "reviewCount": 35,
+      "phone": "(412) 231-4766",
+      "email": "recordstore@gethip.com",
+      "hours": "Monday-Sunday 10AM-6PM",
+      "priceRange": "$"
+    },
+    "labelPage": {
+      "url": "https://www.facebook.com/GetHipRecordings/",
+      "likes": 7244,
+      "talkingAbout": 24,
+      "reviewCount": 1,
+      "tagline": "Get Hip or Get Lost!"
+    }
+  },
+  "yelp": {
+    "url": "https://www.yelp.com/biz/get-hip-records-pittsburgh",
+    "rating": 5.0,
+    "photos": 19,
+    "hours": "Mon-Sat 10AM-6PM, Sun Closed",
+    "address": "1800 Columbus Ave, Pittsburgh, PA 15233",
+    "neighborhood": "North Side",
+    "claimed": false,
+    "snippets": [
+      "This place is really cool, and the owner was spinning tunes, and was really nice and very friendly.",
+      "This is a really cool record store with a great selection."
+    ]
+  },
+  "instagram": {
+    "url": "https://www.instagram.com/gethiprecords/",
+    "followers": 9385,
+    "following": 7713,
+    "posts": 2868,
+    "bio": "Record Label, Distributor, Store! Thousands of records in stock from all genres of music! Home of The Cynics!"
+  },
+  "wheree": {
+    "url": "https://get-hip-records.wheree.com/",
+    "summary": "Customers commend Get Hip Records for its knowledgeable staff, excellent selection of records across multiple genres, and a welcoming environment that encourages exploration. Many appreciate the organized layout which makes finding items easier.",
+    "reliability": "Many users highlighted the store's consistent operating hours and accessibility, making it a reliable choice for record shopping."
+  },
+  "mapquest": {
+    "url": "https://www.mapquest.com/us/pennsylvania/get-hip-records-354924950",
+    "description": "Get Hip Records is a prominent record store located in Pittsburgh, PA, specializing in a diverse selection of music, including exclusive releases and imports from various artists and labels.",
+    "snippets": [
+      "It's music to my ears because this record store is the absolute best of the best! It's paradise for vinyl lovers.",
+      "A go-to destination for music enthusiasts and collectors alike."
+    ]
+  },
+  "loc8nearme": {
+    "snippets": [
+      "This is by far one of the nicest record stores that I have been to. Everything was in great shape and neatly presented. Great selection of every genre. It was very easy to find everything."
+    ]
+  },
+  "wikipedia": {
+    "url": "https://en.wikipedia.org/wiki/Get_Hip_Records",
+    "summary": "Get Hip Records is an independent Pittsburgh-based music label and distributor formed by Gregg Kostelich in 1986. Kostelich used the label to release music by his own band, the Cynics, as well as other local, indie and retro garage rock bands."
+  },
+  "press": {
+    "nextPittsburgh": {
+      "url": "https://nextpittsburgh.com/city-design/31-years-get-hip-finally-opens-record-store/",
+      "date": "2017",
+      "title": "After 31 years, Get Hip finally opens a brick-and-mortar record store",
+      "keyQuotes": [
+        "I've been accumulating records my whole life and I can't take them to the graveyard, so why not start a record store?",
+        "We're gonna have every style of music. I'm not turning my back on jazz or blues. If I have a good enough polka collection, I'll have that for sale too.",
+        "We will have the best local section in Pittsburgh.",
+        "We love having parties and we love having fun. I just wanna have fucking fun until I die."
+      ],
+      "keyFacts": [
+        "Store opened 2017, 31 years after label founding in 1986",
+        "Located at 1800 Columbus Ave in Chateau/North Side, near Bicycle Heaven",
+        "VP: Barbara Garcia-Bernardo (Kostelich's wife)",
+        "Store managed by Geoff Leamon, former owner of Left of the Dial Records (Santa Ana, CA)",
+        "Staff includes Zack Keim, lead singer of Nox Boys (Get Hip band)",
+        "Plans included bi-weekly yoga classes, regular Friday/Saturday concerts in third-floor space",
+        "Purchased metal collection from Hits and Misses Records (Toronto/Vancouver)",
+        "Opened same month as Skull Records (Allentown) and Vinyl Remains (Dormont)"
+      ]
+    },
+    "pghCityPaper": {
+      "url": "https://www.pghcitypaper.com/pittsburgh/get-hip-recordings-is-over-30-years-old-yet-its-new-store-is-relatively-unknown/Content?oid=12560572",
+      "title": "Get Hip Recordings is over 30 years old, yet its new store is relatively unknown",
+      "subtitle": "The best Pittsburgh record store/venue/recording label you've never heard of"
+    }
+  },
+  "discogs": {
+    "labelUrl": "https://www.discogs.com/label/33189-Get-Hip-Recordings",
+    "sellerUrl": "https://www.discogs.com/seller/gethip/profile",
+    "note": "Cloudflare blocked direct scraping. Label page has links to gethip.com, Bandcamp, Facebook, Instagram, Wikipedia, Soundcloud"
+  },
+  "bandcamp": {
+    "url": "https://gethip.bandcamp.com",
+    "alias": "https://gethiprecordings.bandcamp.com"
+  },
+  "soundcloud": {
+    "note": "Listed on Discogs label page"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Chuck&apos;s RIP Records",
+  "rating": 4.7,
+  "reviewCount": 6,
+  "phone": "(717) 762-6901",
+  "address": "237 W 8th St",
+  "city": "Waynesboro",
+  "state": "PA",
+  "zip": "17268",
+  "website": null,
+  "hours": {
+    "Mon": "Closed",
+    "Wed": "12:00 PM - 7:00 PM",
+    "12:00 PM - 8:00 PM": "Closed now",
+    "Fri": "12:00 PM - 8:00 PM",
+    "Sun": "Closed"
+  },
+  "priceRange": null,
+  "categories": [],
+  "photos": [
+    "https://s3-media0.fl.yelpcdn.com/photo/uu249IjY8Y_PqidUD4szOg/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/Pybwon3YcaVsUm16rrt2iQ/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/GfJcR5wRwjdkP1IcdwvG6A/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/L-adsUgQ-YnnL5V8Wmbh4A/60s.jpg"
+  ],
+  "amenities": null,
+  "specialties": null,
+  "reviews": [
+    {
+      "stars": 5,
+      "text": "RIP Records is great I return often to see what is on the shelves or search for records or cds that I'm interested. I've even bought DVDs and books in here. Long live RIP records.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "Summary:  If vinyl record stores were like sex, this place would be the Kama Sutra.I've been a collector of records for years and when I was visiting my folks for Christmas I had a chance to stop at Chucks.Within 10 minutes, I'd found one album I haven't been able to find in almost a decade and another that I honestly thought I'd never find.The store looks small...but the kicker is the owner is a true collector and understands what people who collect vinyl are trying to find.  You won't see 20 copies of an album by someone that only their mother knows record an album.  There's solid selection of used vinyl from artists that matter like Bowie or the Stones or Beatles or Rush.He has some new vinyl, which isn't my thing, but those currently hopping on the vinyl trend will have something for them.And Chuck knows his crap when it comes to records.  If you want to do business with someone who knows what he's doing and prices his items in line with what collectors will pay (and not just rip you off like flea market folks do), you need to come here. I wish he wasn't 1,200 miles from my home.Bottom line:  The R.I.P. in Chuck's R.I.P. Records really stands for Really Important Place.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "A superb record experience!  Well curated, eclectic selection of new and used  lp's, plus a huge variety of cd's as well.  Really moderately priced, great new arrivals, and, though small, the shop is always stocked with something new.  I ALWAYS find some obscure and selective titles for my collection.  Great blues, rock, jazz, and just about everything else.  Chuck is always extremely knowledgeable and friendly too.  This place has to be checked out.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "This place isn't very big but I've found some good finds here. Check it out!It's worth the ride! RIP means REALLY IMPORTANT PLACE!",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 3,
+      "text": "Drove all the way from Frederick, MD to hopefully find some clean, rare vinyl from Chucks. After spending about 30 minutes looking around, the variety of records was just \"ok\" compared to some other shops I have been into, nothing like the reviews would suggest. He had nothing on my list of needed titles. I did find some new and went to the counter to pay with my card, he shakes his head. Only takes cash. What year is it in PA? 1983? Everyone takes some sort of digital payment these days. Left empty handed. Waste of time.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "Small shop with a nice atmosphere. My experience every time I have gone has been a good one. Lots of 60's psych and other obscure titles. I walked in, looked through the inventory, and talked with the owner (Chuck). It's cash only, so make sure to bring cash or stop at an ATM. Chuck has given me a few dollars off of my total price both times without me asking. It's a cool place to go if you're into harder to find stuff or if you just want some good knowledge from Chuck.",
+      "date": null,
+      "reviewer": null
+    }
+  ],
+  "highlights": [],
+  "yelpUrl": "https://www.yelp.com/biz/chucks-rip-records-waynesboro",
+  "totalReviewsScraped": 6,
+  "scrapedAt": "2026-02-19T16:20:42.832Z"
+}

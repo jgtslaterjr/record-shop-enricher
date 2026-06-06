@@ -1,0 +1,38 @@
+{
+  "shopId": "26952b0c-29e4-4a9e-a42c-fa5fa0703057",
+  "shopName": "CI Records & Skates",
+  "city": "Clay Township",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:13:28.779Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.3s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.3s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "57.6s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "19.0s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T17:15:09.441Z"
+}

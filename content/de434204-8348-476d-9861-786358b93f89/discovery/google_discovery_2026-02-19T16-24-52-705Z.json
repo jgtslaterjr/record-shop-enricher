@@ -1,0 +1,105 @@
+{
+  "shop": {
+    "id": "de434204-8348-476d-9861-786358b93f89",
+    "name": "RSC Vinyl",
+    "city": "Lower Providence",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "RSC Vinyl Lower Providence Pennsylvania record store",
+    "RSC Vinyl Lower Providence instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T16:24:52.705Z",
+  "links": [
+    {
+      "category": "website",
+      "url": "https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.vinylworld.org/record-stores/pennsylvania-united-states/",
+      "domain": "vinylworld.org"
+    },
+    {
+      "category": "website",
+      "url": "https://xpn.org/2024/04/16/wxpns-ultimate-guide-to-greater-philly-record-stores/"
+    },
+    {
+      "category": "directory",
+      "url": "https://vinylmapper.com/record-stores/us/pa/",
+      "domain": "vinylmapper.com"
+    },
+    {
+      "category": "website",
+      "url": "https://armageddonshop.com/index_prov.php"
+    },
+    {
+      "category": "website",
+      "url": "https://xpn.org/record-store-guide/"
+    },
+    {
+      "category": "website",
+      "url": "https://theoriginalgeorgessongshop.com/"
+    },
+    {
+      "category": "directory",
+      "url": "https://recordstores.love/US/PA",
+      "domain": "recordstores.love"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.vinylworld.org/record-stores/philadelphia-pennsylvania-united-states/",
+      "domain": "vinylworld.org"
+    }
+  ],
+  "byCategory": {
+    "website": [
+      {
+        "category": "website",
+        "url": "https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/"
+      },
+      {
+        "category": "website",
+        "url": "https://xpn.org/2024/04/16/wxpns-ultimate-guide-to-greater-philly-record-stores/"
+      },
+      {
+        "category": "website",
+        "url": "https://armageddonshop.com/index_prov.php"
+      },
+      {
+        "category": "website",
+        "url": "https://xpn.org/record-store-guide/"
+      },
+      {
+        "category": "website",
+        "url": "https://theoriginalgeorgessongshop.com/"
+      }
+    ],
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://www.vinylworld.org/record-stores/pennsylvania-united-states/",
+        "domain": "vinylworld.org"
+      },
+      {
+        "category": "directory",
+        "url": "https://vinylmapper.com/record-stores/us/pa/",
+        "domain": "vinylmapper.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://recordstores.love/US/PA",
+        "domain": "recordstores.love"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.vinylworld.org/record-stores/philadelphia-pennsylvania-united-states/",
+        "domain": "vinylworld.org"
+      }
+    ]
+  },
+  "updates": {
+    "website": "https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/"
+  },
+  "skipped": {}
+}

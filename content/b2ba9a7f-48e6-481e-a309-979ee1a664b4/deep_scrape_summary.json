@@ -1,0 +1,38 @@
+{
+  "shopId": "b2ba9a7f-48e6-481e-a309-979ee1a664b4",
+  "shopName": "Jack's Discount Videos",
+  "city": "Shaler",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T20:23:37.969Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.2s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "7.5s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "21.7s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T20:24:32.641Z"
+}

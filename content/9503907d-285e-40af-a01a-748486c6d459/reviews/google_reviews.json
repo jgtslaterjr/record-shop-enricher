@@ -1,0 +1,20 @@
+{
+  "name": "Mount Holly Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "68 High St, Mt Holly, NJ 08060",
+  "phone": "(609) 491-3770",
+  "website": "https://m.facebook.com/Mt-Holly-Records-602961986810097/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/mount-holly-records/1771442182363_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Mount+Holly+Records/@39.9947987,-74.7906246,17z/data=!3m1!4b1!4m6!3m5!1s0x89c149e25391abfd:0xe2251598403fff1b!8m2!3d39.9947987!4d-74.7880497!16s%2Fg%2F11glyb6pnt?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T19:16:35.887Z"
+}

@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "c078d1bb-abe9-4b95-a772-b0de45728ff3",
+    "name": "The Music Scene",
+    "city": "Pittston",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "The Music Scene Pittston Pennsylvania record store",
+    "The Music Scene Pittston instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T20:05:14.540Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

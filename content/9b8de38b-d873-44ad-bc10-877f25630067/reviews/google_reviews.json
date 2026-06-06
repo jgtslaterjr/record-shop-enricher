@@ -1,0 +1,20 @@
+{
+  "name": "Jerry's Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "2136 Murray Ave #2, Pittsburgh, PA 15217",
+  "phone": "(412) 421-4533",
+  "website": "http://www.jerrysrecords.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/jerrys-records/1771428649784_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Jerry's+Records/@40.4326817,-79.9258372,17z/data=!3m1!4b1!4m6!3m5!1s0x8834f1fe9e4b9cdb:0x7d098839429e1d44!8m2!3d40.4326817!4d-79.9232623!16s%2Fg%2F1tnctk9c?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T15:31:02.011Z"
+}

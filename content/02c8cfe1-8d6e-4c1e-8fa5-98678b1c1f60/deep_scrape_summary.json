@@ -1,0 +1,38 @@
+{
+  "shopId": "02c8cfe1-8d6e-4c1e-8fa5-98678b1c1f60",
+  "shopName": "TribeSound Records",
+  "city": "Caln",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T16:35:10.484Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "5.6s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.4s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "7.8s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "27.6s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "11.7s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "45.1s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.3s"
+    }
+  },
+  "completedAt": "2026-02-19T16:37:11.112Z"
+}

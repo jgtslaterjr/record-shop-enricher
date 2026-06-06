@@ -1,0 +1,20 @@
+{
+  "name": "Coyle's Richboro Music",
+  "rating": null,
+  "reviewCount": null,
+  "address": "1043 Second Street Pike, Richboro, PA 18954",
+  "phone": "(215) 355-6711",
+  "website": "http://www.richboromusic.com/",
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/coyles-richboro-music/1771519542982_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Coyle's+Richboro+Music/@40.2171291,-75.0118312,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6ac81118d1d7b:0x3e3a3091c7e5711!8m2!3d40.2171291!4d-75.0092563!16s%2Fg%2F1tctgkkg?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T16:45:55.707Z"
+}

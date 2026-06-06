@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "bde751a5-4a48-45e6-8844-e3e17a00d076",
+    "name": "VINYL",
+    "city": "Philadelphia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "VINYL Philadelphia Pennsylvania record store",
+    "VINYL Philadelphia instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T19:59:49.418Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

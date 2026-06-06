@@ -1,0 +1,38 @@
+{
+  "shopId": "ec08d8b5-a9cf-4630-b178-33b2019346a1",
+  "shopName": "Goodboy Vinyl",
+  "city": "Aston",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:54:06.096Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.0s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "56.2s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "19.9s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:55:48.752Z"
+}

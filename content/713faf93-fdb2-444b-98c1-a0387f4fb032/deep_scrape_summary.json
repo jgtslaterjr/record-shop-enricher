@@ -1,0 +1,38 @@
+{
+  "shopId": "713faf93-fdb2-444b-98c1-a0387f4fb032",
+  "shopName": "Make Music Easy",
+  "city": "Camp Hill",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T16:43:03.398Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "3.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.6s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "51.2s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "6.3s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "45.7s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T16:45:17.408Z"
+}

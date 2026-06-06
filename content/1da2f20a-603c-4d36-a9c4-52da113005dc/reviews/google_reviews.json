@@ -1,0 +1,20 @@
+{
+  "name": "Exotic Records Studios",
+  "rating": null,
+  "reviewCount": null,
+  "address": "610 Forest Rd, Wayne, PA 19087",
+  "phone": "(610) 710-6537",
+  "website": "https://exoticrecordsstudios.carrd.co/",
+  "hours": {},
+  "categories": [
+    "Music producer"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/exotic-records-studios/1771522838316_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Exotic+Records+Studios/@40.0738666,-75.3741648,17z/data=!3m1!4b1!4m6!3m5!1s0x89c695d27dc7295d:0xca23dadf7845867e!8m2!3d40.0738666!4d-75.3715899!16s%2Fg%2F11t_h45g8d?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T17:40:38.507Z"
+}

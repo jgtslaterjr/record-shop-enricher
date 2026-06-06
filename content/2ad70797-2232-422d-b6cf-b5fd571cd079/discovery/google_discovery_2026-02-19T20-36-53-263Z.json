@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "2ad70797-2232-422d-b6cf-b5fd571cd079",
+    "name": "Joe's Record Paradise",
+    "city": "Silver Spring",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Joe's Record Paradise Silver Spring Pennsylvania record store",
+    "Joe's Record Paradise Silver Spring instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T20:36:53.263Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

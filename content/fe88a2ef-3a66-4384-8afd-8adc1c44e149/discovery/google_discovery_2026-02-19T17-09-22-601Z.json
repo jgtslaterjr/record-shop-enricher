@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "fe88a2ef-3a66-4384-8afd-8adc1c44e149",
+    "name": "From The Top Music Shop",
+    "city": "Monessen",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "From The Top Music Shop Monessen Pennsylvania record store",
+    "From The Top Music Shop Monessen instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T17:09:22.601Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

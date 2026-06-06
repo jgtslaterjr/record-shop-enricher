@@ -1,0 +1,20 @@
+{
+  "name": "Stardrive Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "776 E Pumping Station Rd, Quakertown, PA 18951",
+  "phone": null,
+  "website": "https://www.stardriverecords.com/",
+  "hours": null,
+  "categories": [
+    "Recording studio"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/stardrive-records/1771530641632_google.png"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Stardrive+Records/@40.4636516,-75.3306043,17z/data=!3m1!4b1!4m6!3m5!1s0x89c4196221ac449d:0x8e41ec9b359fdf1c!8m2!3d40.4636516!4d-75.3280294!16s%2Fg%2F11xlknhmsj?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T19:50:42.076Z"
+}

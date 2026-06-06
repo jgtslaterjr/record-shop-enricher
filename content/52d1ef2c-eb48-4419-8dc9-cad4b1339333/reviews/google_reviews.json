@@ -1,0 +1,20 @@
+{
+  "name": "Soundcheck Records Inc",
+  "rating": null,
+  "reviewCount": null,
+  "address": "23 Broadway, Jim Thorpe, PA 18229",
+  "phone": "(570) 325-4009",
+  "website": "http://www.soundcheckrecords.com/",
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/soundcheck-records-inc/1771507746388_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Soundcheck+Records+Inc/@40.8634926,-75.7413145,17z/data=!3m1!4b1!4m6!3m5!1s0x89c5b2985dd9d29b:0x8a0f1d30a2d505a7!8m2!3d40.8634926!4d-75.7387396!16s%2Fg%2F1263k83zg?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:29:06.879Z"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Rockdale Music & Studios",
+  "rating": null,
+  "reviewCount": null,
+  "address": "3100 Mount Rd unit e, Aston Township, PA 19014",
+  "phone": "(610) 459-4096",
+  "website": "http://www.rockdalemusic.com/",
+  "hours": {},
+  "categories": [
+    "Music school"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/rockdale-music-and-studios/1771509578223_google.png"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Rockdale+Music+%26+Studios/@39.8850176,-75.4477743,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6e8b3a9f3359d:0xe999e0286fc808ef!8m2!3d39.8850176!4d-75.4451994!16s%2Fg%2F1td5s749?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:59:53.170Z"
+}

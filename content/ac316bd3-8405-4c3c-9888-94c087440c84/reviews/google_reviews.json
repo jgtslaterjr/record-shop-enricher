@@ -1,0 +1,20 @@
+{
+  "name": "Toms Music Trade",
+  "rating": null,
+  "reviewCount": null,
+  "address": "28 N Main St, Red Lion, PA 17356",
+  "phone": "(717) 659-4006",
+  "website": "http://tomsmusictrade.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/toms-music-trade/1771507990448_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Toms+Music+Trade/@39.9012924,-76.6094489,17z/data=!3m1!4b1!4m6!3m5!1s0x89c8864e05a0d521:0x5fff0ccc10c7dec0!8m2!3d39.9012924!4d-76.606874!16s%2Fg%2F1tycxmds?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:33:23.931Z"
+}

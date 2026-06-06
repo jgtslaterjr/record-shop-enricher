@@ -1,0 +1,38 @@
+{
+  "shopId": "2daa4438-c7ac-4178-9efe-bf09d9ec9952",
+  "shopName": "Last Dog Records",
+  "city": "Ambridge",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-18T15:23:04.281Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "3.6s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.1s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "53.7s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "24.8s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "44.5s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-18T15:25:38.004Z"
+}

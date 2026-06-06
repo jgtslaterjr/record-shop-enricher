@@ -1,0 +1,19 @@
+{
+  "shopName": "Last Dog Records",
+  "shopId": "2daa4438-c7ac-4178-9efe-bf09d9ec9952",
+  "city": "Ambridge",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "",
+      "title": "",
+      "date": null,
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://www.allbiz.com/happenings"
+    }
+  ],
+  "totalFound": 1,
+  "scrapedAt": "2026-02-18T15:25:32.075Z"
+}

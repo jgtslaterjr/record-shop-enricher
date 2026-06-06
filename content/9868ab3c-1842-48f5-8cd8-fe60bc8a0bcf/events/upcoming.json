@@ -1,0 +1,50 @@
+{
+  "shopName": "Vertigo Music Trade",
+  "shopId": "9868ab3c-1842-48f5-8cd8-fe60bc8a0bcf",
+  "city": "Ambridge",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "title": "DuckDuckGo Try the DuckDuckGo Browser. Fast. Free. Private",
+      "date": "",
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    },
+    {
+      "title": "Chinese New Year",
+      "date": "",
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    },
+    {
+      "title": "Philly Mag Wine & Dine",
+      "date": "",
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    },
+    {
+      "title": "444 Charity Birthday Party",
+      "date": "",
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    },
+    {
+      "title": "Punk Rock Flea Market",
+      "date": "",
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    }
+  ],
+  "totalFound": 5,
+  "scrapedAt": "2026-02-18T15:36:55.182Z"
+}

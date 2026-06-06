@@ -1,0 +1,43 @@
+{
+  "overview": null,
+  "history": {
+    "founded": null,
+    "notable_history": null
+  },
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "CD"
+    ],
+    "genres": null,
+    "new_vs_used": null
+  },
+  "services": {
+    "buying": null,
+    "selling": null,
+    "trading": null,
+    "online_store": null,
+    "shipping": null
+  },
+  "events": {
+    "host_events": false,
+    "event_type": null,
+    "frequency": null
+  },
+  "staff": {
+    "notable_staff": null,
+    "owner_info": null
+  },
+  "hours_location": {
+    "store_hours": null,
+    "address": null
+  },
+  "unique_features": {
+    "listening_rooms": false,
+    "cafe": false,
+    "other_features": null
+  },
+  "community_role": {
+    "local_music_scene": null
+  }
+}

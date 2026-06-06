@@ -1,0 +1,20 @@
+{
+  "name": "Studio 4 Vinyl",
+  "rating": null,
+  "reviewCount": null,
+  "address": "21 N 10th Ave, Coatesville, PA 19320",
+  "phone": "(302) 409-0341",
+  "website": "https://studio4vinyl.com/",
+  "hours": {},
+  "categories": [
+    "Record company"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/studio-4-vinyl/1771518190383_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Studio+4+Vinyl/@39.9871288,-75.8080541,17z/data=!3m1!4b1!4m6!3m5!1s0x89c7b522c018904d:0x4fcecdbb09bf56ba!8m2!3d39.9871288!4d-75.8054792!16s%2Fg%2F11rylf3m3r?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T16:23:22.784Z"
+}

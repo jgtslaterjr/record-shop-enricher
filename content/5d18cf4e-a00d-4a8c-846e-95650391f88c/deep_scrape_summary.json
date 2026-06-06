@@ -1,0 +1,38 @@
+{
+  "shopId": "5d18cf4e-a00d-4a8c-846e-95650391f88c",
+  "shopName": "The Cd Music - Dvd & VHS Movie Place",
+  "city": "Connellsville",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:26:54.885Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.8s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "56.0s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "20.1s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T17:28:34.250Z"
+}

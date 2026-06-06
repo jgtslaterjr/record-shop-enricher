@@ -1,0 +1,18 @@
+{
+  "shopName": "Spiders From Mars Record Shop",
+  "shopId": "799b1c05-b635-423e-9e49-38660f568906",
+  "city": "Ambridge",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "",
+      "title": "February 2026",
+      "date": "2/1/2026 - 2/28/2026",
+      "description": "",
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/calendar"
+    }
+  ],
+  "totalFound": 1,
+  "scrapedAt": "2026-02-18T15:30:14.568Z"
+}

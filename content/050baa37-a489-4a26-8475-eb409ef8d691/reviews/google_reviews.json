@@ -1,0 +1,20 @@
+{
+  "name": "Ant Farm Music",
+  "rating": null,
+  "reviewCount": null,
+  "address": "1439 N 9th St, Stroudsburg, PA 18360",
+  "phone": "(570) 517-0311",
+  "website": "http://www.antfarmmusic.com/",
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/ant-farm-music/1771522212150_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Ant+Farm+Music/@40.9912283,-75.2417529,17z/data=!3m1!4b1!4m6!3m5!1s0x89c4f10ff3f872c7:0xb822df40c5adaad6!8m2!3d40.9912283!4d-75.239178!16s%2Fg%2F1tgny4zc?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T17:30:25.893Z"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Zeswitz Music",
+  "rating": null,
+  "reviewCount": null,
+  "address": "100 Gibraltar Rd, Reading, PA 19606",
+  "phone": "(610) 406-4300",
+  "website": "http://zeswitzmusic.com/",
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/zeswitz-music/1771506354917_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Zeswitz+Music/@40.3025633,-75.8593686,17z/data=!3m1!4b1!4m6!3m5!1s0x89c67a4b89d69681:0xb83971140e86f369!8m2!3d40.3025633!4d-75.8567937!16s%2Fg%2F1th7nvr4?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:06:10.441Z"
+}

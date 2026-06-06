@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "42e566fa-6341-406f-93ad-d214cb65ae24",
+    "name": "World Wide Stereo",
+    "city": "Hatfield Township",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "World Wide Stereo Hatfield Township Pennsylvania record store",
+    "World Wide Stereo Hatfield Township instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T13:46:25.168Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

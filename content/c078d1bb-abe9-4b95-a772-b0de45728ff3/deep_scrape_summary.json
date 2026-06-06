@@ -1,0 +1,38 @@
+{
+  "shopId": "c078d1bb-abe9-4b95-a772-b0de45728ff3",
+  "shopName": "The Music Scene",
+  "city": "Pittston",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T20:05:14.355Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.6s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "21.5s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "22.2s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T20:06:22.570Z"
+}

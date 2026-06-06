@@ -1,0 +1,20 @@
+{
+  "name": "Downtown Records & Tapes",
+  "rating": null,
+  "reviewCount": null,
+  "address": "51 N Charlotte St, Pottstown, PA 19464",
+  "phone": "(610) 323-8457",
+  "website": null,
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/downtown-records-and-tapes/1771429280836_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Downtown+Records+%26+Tapes/@40.24658,-75.6500665,17z/data=!3m1!4b1!4m6!3m5!1s0x89c686417a436975:0xee142ec41f4a82e0!8m2!3d40.24658!4d-75.6474916!16s%2Fg%2F1tkr06p3?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T15:41:21.225Z"
+}

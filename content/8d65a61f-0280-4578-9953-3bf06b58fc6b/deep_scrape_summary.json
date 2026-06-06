@@ -1,0 +1,38 @@
+{
+  "shopId": "8d65a61f-0280-4578-9953-3bf06b58fc6b",
+  "shopName": "milky way music",
+  "city": "East Norriton",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T19:42:48.853Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "3.3s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.5s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "8.7s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "35.3s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "53.4s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T19:44:53.356Z"
+}

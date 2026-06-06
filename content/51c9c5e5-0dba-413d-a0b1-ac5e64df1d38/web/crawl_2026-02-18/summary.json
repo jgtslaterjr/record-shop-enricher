@@ -1,0 +1,40 @@
+{
+  "overview": "Audio Loft Studios appears to be a record shop with an added twist as it also offers recording studio services. Their vibe/brand seems to be focused on music enthusiasts and professionals alike.",
+  "history": null,
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "CD"
+    ],
+    "genres": null,
+    "new_vs_used": null
+  },
+  "services": {
+    "buy/sell/trade": true,
+    "online store": true,
+    "shipping": true
+  },
+  "events": {
+    "host_events": true,
+    "event_types": [
+      "music events",
+      "workshops"
+    ],
+    "frequency": null
+  },
+  "staff": {
+    "notable_staff": "Gus, the recording engineer",
+    "owner_info": null
+  },
+  "hours_location": {
+    "store_hours": "null",
+    "address": "605 Merchant St Ambridge, PA"
+  },
+  "unique_features": {
+    "listening_rooms": false,
+    "cafe": true
+  },
+  "community_role": {
+    "engagement_with_local_music_scene": "participating in music events and workshops"
+  }
+}

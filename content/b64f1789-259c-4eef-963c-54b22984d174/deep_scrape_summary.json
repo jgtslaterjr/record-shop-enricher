@@ -1,0 +1,38 @@
+{
+  "shopId": "b64f1789-259c-4eef-963c-54b22984d174",
+  "shopName": "Menchey Music Service, Inc.",
+  "city": "Cumru",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:33:28.959Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.0s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "52.0s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "22.8s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.3s"
+    }
+  },
+  "completedAt": "2026-02-19T17:35:09.952Z"
+}

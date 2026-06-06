@@ -1,0 +1,89 @@
+{
+  "shop": {
+    "id": "713faf93-fdb2-444b-98c1-a0387f4fb032",
+    "name": "Make Music Easy",
+    "city": "Camp Hill",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Make Music Easy Camp Hill Pennsylvania record store",
+    "Make Music Easy Camp Hill instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T16:43:06.403Z",
+  "links": [
+    {
+      "category": "directory",
+      "url": "https://www.superpages.com/camp-hill-pa/record-stores",
+      "domain": "superpages.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.yellowpages.com/camp-hill-pa/mip/f-y-e-2147568",
+      "domain": "yellowpages.com"
+    },
+    {
+      "category": "website",
+      "url": "https://www.recordsmithofpennsylvania.com/"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.vinylworld.org/record-stores/pennsylvania-united-states/",
+      "domain": "vinylworld.org"
+    },
+    {
+      "category": "website",
+      "url": "https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.yellowpages.com/camp-hill-pa/music-stores",
+      "domain": "yellowpages.com"
+    },
+    {
+      "category": "website",
+      "url": "https://www.commonbeatmusic.com/"
+    }
+  ],
+  "byCategory": {
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://www.superpages.com/camp-hill-pa/record-stores",
+        "domain": "superpages.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.yellowpages.com/camp-hill-pa/mip/f-y-e-2147568",
+        "domain": "yellowpages.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.vinylworld.org/record-stores/pennsylvania-united-states/",
+        "domain": "vinylworld.org"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.yellowpages.com/camp-hill-pa/music-stores",
+        "domain": "yellowpages.com"
+      }
+    ],
+    "website": [
+      {
+        "category": "website",
+        "url": "https://www.recordsmithofpennsylvania.com/"
+      },
+      {
+        "category": "website",
+        "url": "https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/"
+      },
+      {
+        "category": "website",
+        "url": "https://www.commonbeatmusic.com/"
+      }
+    ]
+  },
+  "updates": {
+    "website": "https://www.recordsmithofpennsylvania.com/"
+  },
+  "skipped": {}
+}

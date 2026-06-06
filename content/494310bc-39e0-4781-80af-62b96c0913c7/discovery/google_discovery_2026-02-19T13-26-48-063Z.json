@@ -1,0 +1,112 @@
+{
+  "shop": {
+    "id": "494310bc-39e0-4781-80af-62b96c0913c7",
+    "name": "Northeast Music Center Inc",
+    "city": "Archbald",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Northeast Music Center Inc Archbald Pennsylvania record store",
+    "Northeast Music Center Inc Archbald instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T13:26:48.063Z",
+  "links": [
+    {
+      "category": "website",
+      "url": "https://nemusiccenter.com/"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/northeastmusiccenter"
+    },
+    {
+      "category": "website",
+      "url": "https://www.allbiz.com/business/northeast-music-center-inc-570-909-9216"
+    },
+    {
+      "category": "website",
+      "url": "https://www.findglocal.com/US/Scranton/137191542963949/Northeast-Music-Center-Inc."
+    },
+    {
+      "category": "directory",
+      "url": "https://www.loc8nearme.com/pennsylvania/dickson-city/northeast-music-center-inc/3199764/",
+      "domain": "loc8nearme.com"
+    },
+    {
+      "category": "website",
+      "url": "https://zaubee.com/biz/northeast-music-center-inc-1l827b64"
+    },
+    {
+      "category": "website",
+      "url": "https://www.ebay.com/str/northeastmusiccenter"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.mapquest.com/us/pennsylvania/northeast-music-center-408922266",
+      "domain": "mapquest.com"
+    },
+    {
+      "category": "website",
+      "url": "https://nemusiccenter.com/directions/"
+    },
+    {
+      "category": "website",
+      "url": "https://nemusiccenter.com/f-a-q/"
+    }
+  ],
+  "byCategory": {
+    "website": [
+      {
+        "category": "website",
+        "url": "https://nemusiccenter.com/"
+      },
+      {
+        "category": "website",
+        "url": "https://www.allbiz.com/business/northeast-music-center-inc-570-909-9216"
+      },
+      {
+        "category": "website",
+        "url": "https://www.findglocal.com/US/Scranton/137191542963949/Northeast-Music-Center-Inc."
+      },
+      {
+        "category": "website",
+        "url": "https://zaubee.com/biz/northeast-music-center-inc-1l827b64"
+      },
+      {
+        "category": "website",
+        "url": "https://www.ebay.com/str/northeastmusiccenter"
+      },
+      {
+        "category": "website",
+        "url": "https://nemusiccenter.com/directions/"
+      },
+      {
+        "category": "website",
+        "url": "https://nemusiccenter.com/f-a-q/"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/northeastmusiccenter"
+      }
+    ],
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://www.loc8nearme.com/pennsylvania/dickson-city/northeast-music-center-inc/3199764/",
+        "domain": "loc8nearme.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.mapquest.com/us/pennsylvania/northeast-music-center-408922266",
+        "domain": "mapquest.com"
+      }
+    ]
+  },
+  "updates": {
+    "social_facebook": "https://facebook.com/northeastmusiccenter",
+    "website": "https://nemusiccenter.com/"
+  },
+  "skipped": {}
+}

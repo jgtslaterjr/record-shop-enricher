@@ -1,0 +1,20 @@
+{
+  "name": "Magdon Music",
+  "rating": null,
+  "reviewCount": null,
+  "address": "225 E Lackawanna Ave, Olyphant, PA 18447",
+  "phone": "(570) 383-9413",
+  "website": "http://www.magdonmusic.net/",
+  "hours": {},
+  "categories": [
+    "Musical instrument store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/magdon-music/1771507521873_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Magdon+Music/@41.469275,-76.7582285,9z/data=!4m10!1m2!2m1!1sMagdon+Music+record+store+Archbald+Pennsylvania!3m6!1s0x89c4da16c369c15f:0x452191c8b8cbed67!8m2!3d41.469275!4d-75.604664!15sCi9NYWdkb24gTXVzaWMgcmVjb3JkIHN0b3JlIEFyY2hiYWxkIFBlbm5zeWx2YW5pYVoxIi9tYWdkb24gbXVzaWMgcmVjb3JkIHN0b3JlIGFyY2hiYWxkIHBlbm5zeWx2YW5pYZIBGG11c2ljYWxfaW5zdHJ1bWVudF9zdG9yZZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSb2QzQmlUV0YzRUFF4AEA-gEECAAQMQ!16s%2Fg%2F1tn06rfc?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:25:35.370Z"
+}

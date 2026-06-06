@@ -1,0 +1,20 @@
+{
+  "name": "Boxcar Music",
+  "rating": null,
+  "reviewCount": null,
+  "address": "135 S Spring St, Bellefonte, PA 16823",
+  "phone": "(610) 656-7859",
+  "website": null,
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/boxcar-music/1771442230567_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Boxcar+Music/@40.9106531,-77.7821566,17z/data=!3m1!4b1!4m6!3m5!1s0x89cea3e9dc21b65f:0x2d4a71e01313c527!8m2!3d40.9106531!4d-77.7795817!16s%2Fg%2F11kqlq5rw1?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T19:17:10.746Z"
+}

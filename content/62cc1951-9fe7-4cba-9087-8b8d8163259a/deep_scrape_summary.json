@@ -1,0 +1,38 @@
+{
+  "shopId": "62cc1951-9fe7-4cba-9087-8b8d8163259a",
+  "shopName": "Frankmusic & Custom Box",
+  "city": "Salisbury Township",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T20:20:46.702Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.2s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "51.3s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "21.8s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T20:22:25.737Z"
+}

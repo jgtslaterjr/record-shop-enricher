@@ -3,23 +3,23 @@
   "shopName": "Electric Avenue Music",
   "city": "Aliquippa",
   "state": "Pennsylvania",
-  "startedAt": "2026-02-17T17:18:01.188Z",
+  "startedAt": "2026-02-19T19:53:47.393Z",
   "scrapers": {
     "discovery": {
       "status": "success",
-      "elapsed": "2.8s"
+      "elapsed": "0.2s"
     },
     "yelp": {
       "status": "success",
-      "elapsed": "3.4s"
+      "elapsed": "34.3s"
     },
     "google": {
       "status": "success",
-      "elapsed": "21.4s"
+      "elapsed": "22.5s"
     },
     "website": {
       "status": "success",
-      "elapsed": "10.5s"
+      "elapsed": "10.0s"
     },
     "instagram": {
       "status": "success",
@@ -27,12 +27,12 @@
     },
     "events": {
       "status": "success",
-      "elapsed": "45.4s"
+      "elapsed": "43.1s"
     },
     "reviews": {
       "status": "success",
-      "elapsed": "0.4s"
+      "elapsed": "2.3s"
     }
   },
-  "completedAt": "2026-02-17T17:19:45.296Z"
+  "completedAt": "2026-02-19T19:56:04.687Z"
 }

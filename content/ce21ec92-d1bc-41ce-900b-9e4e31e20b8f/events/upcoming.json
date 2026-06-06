@@ -5,14 +5,17 @@
   "state": "Pennsylvania",
   "events": [
     {
-      "event_type": "Concerts and Events",
-      "title": "",
-      "date": "Feb 9, 2026",
-      "description": "Things to do in Philly this week: 215 Day, Disney's Beauty and the Beast, the PSCA Adult Prom, Rare Accidents, Fishtown Queer Social, and more",
+      "event_type": "Unknown",
+      "title": null,
+      "date": [
+        "March 15th"
+      ],
+      "description": null,
+      "artists": null,
       "source": "website",
-      "sourceUrl": "https://duckduckgo.com/events"
+      "sourceUrl": "https://duckduckgo.com/events/"
     }
   ],
   "totalFound": 1,
-  "scrapedAt": "2026-02-17T17:24:51.462Z"
+  "scrapedAt": "2026-02-19T13:12:58.550Z"
 }

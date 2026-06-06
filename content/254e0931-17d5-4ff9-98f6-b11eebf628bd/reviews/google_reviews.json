@@ -1,0 +1,20 @@
+{
+  "name": "Serenity Records Studios",
+  "rating": null,
+  "reviewCount": null,
+  "address": "524 N Front St, Allentown, PA 18102",
+  "phone": "(347) 393-9182",
+  "website": "https://www.serenityrecordsstudios.com/",
+  "hours": {},
+  "categories": [
+    "Recording studio"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/serenity-records-studios/1771520524946_google.png"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Serenity+Records+Studios/@40.614206,-75.4621607,17z/data=!3m1!4b1!4m6!3m5!1s0x89c439dc14c59b99:0xdf615dd78807a977!8m2!3d40.614206!4d-75.4595858!16s%2Fg%2F11hhv00v46?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T17:02:05.489Z"
+}

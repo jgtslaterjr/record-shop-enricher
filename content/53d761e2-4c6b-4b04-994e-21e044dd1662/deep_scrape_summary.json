@@ -1,0 +1,38 @@
+{
+  "shopId": "53d761e2-4c6b-4b04-994e-21e044dd1662",
+  "shopName": "Disc Hounds",
+  "city": "Caln",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T16:37:19.374Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "3.0s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "2.9s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "19.6s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "25.3s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "44.3s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T16:39:17.653Z"
+}

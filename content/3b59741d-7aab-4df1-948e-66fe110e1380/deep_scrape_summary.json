@@ -1,0 +1,38 @@
+{
+  "shopId": "3b59741d-7aab-4df1-948e-66fe110e1380",
+  "shopName": "nebby Records",
+  "city": "Peters Township",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T19:51:25.789Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.8s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "9.0s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "24.3s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T19:52:23.251Z"
+}

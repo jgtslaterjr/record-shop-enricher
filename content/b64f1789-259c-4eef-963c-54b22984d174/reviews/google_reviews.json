@@ -1,0 +1,16 @@
+{
+  "name": "Results",
+  "rating": null,
+  "reviewCount": null,
+  "address": null,
+  "phone": null,
+  "website": null,
+  "hours": null,
+  "categories": [],
+  "photos": [],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/search/Menchey+Music+Service,+Inc.+record+store+Cumru+Pennsylvania/@40.0602859,-76.060902,9z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T17:34:29.856Z"
+}

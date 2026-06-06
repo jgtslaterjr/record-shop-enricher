@@ -1,0 +1,20 @@
+{
+  "name": "milky way music",
+  "rating": null,
+  "reviewCount": null,
+  "address": "51 Meadow Ln, Norristown, PA 19403",
+  "phone": null,
+  "website": "http://rogersmusiclife.com/",
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/milky-way-music/1771530190520_google.png"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/milky+way+music/@40.1297375,-75.3598399,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6979cc8c4b2c5:0xc4d2a5820e0d2834!8m2!3d40.1297375!4d-75.357265!16s%2Fg%2F11qg47jf5l?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T19:43:10.795Z"
+}

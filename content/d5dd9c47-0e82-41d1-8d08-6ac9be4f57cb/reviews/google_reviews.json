@@ -1,0 +1,20 @@
+{
+  "name": "Music To My Ear",
+  "rating": null,
+  "reviewCount": null,
+  "address": "3003 Babcock Blvd, Pittsburgh, PA 15237",
+  "phone": "(412) 223-9747",
+  "website": "http://musictomyear.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/music-to-my-ear/1771427966080_google_1.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Music+To+My+Ear/@40.514317,-80.00976,17z/data=!3m1!4b1!4m6!3m5!1s0x8834ed6c3ed24ecb:0x8e7fbc5e7dd41f96!8m2!3d40.514317!4d-80.0071851!16s%2Fg%2F1hg4t2p4w?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T15:19:38.676Z"
+}

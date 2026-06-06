@@ -1,0 +1,16 @@
+{
+  "name": "Results",
+  "rating": null,
+  "reviewCount": null,
+  "address": null,
+  "phone": null,
+  "website": null,
+  "hours": null,
+  "categories": [],
+  "photos": [],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/search/Record+Nations+record+store+Canton+Township+Pennsylvania/@40.0621258,-75.4839069,12z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T16:52:04.286Z"
+}

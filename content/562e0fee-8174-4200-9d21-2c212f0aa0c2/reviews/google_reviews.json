@@ -1,0 +1,21 @@
+{
+  "name": "Clemmer Music Inc",
+  "rating": null,
+  "reviewCount": null,
+  "address": "764 Harleysville Pike, Telford, PA 18969",
+  "phone": "(215) 723-4813",
+  "website": "http://www.clemmermusic.com/",
+  "hours": {},
+  "categories": [
+    "Musical instrument store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/clemmer-music-inc/1771518797873_google.jpg",
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/clemmer-music-inc/1771518798685_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Clemmer+Music+Inc/@40.1693228,-75.5721558,11z/data=!4m10!1m2!2m1!1sClemmer+Music+Inc+record+store+Lower+Salford+Pennsylvania!3m6!1s0x89c6993bf14574f1:0x118d201490994422!8m2!3d40.2963194!4d-75.3733837!15sCjlDbGVtbWVyIE11c2ljIEluYyByZWNvcmQgc3RvcmUgTG93ZXIgU2FsZm9yZCBQZW5uc3lsdmFuaWFaOyI5Y2xlbW1lciBtdXNpYyBpbmMgcmVjb3JkIHN0b3JlIGxvd2VyIHNhbGZvcmQgcGVubnN5bHZhbmlhkgEYbXVzaWNhbF9pbnN0cnVtZW50X3N0b3JlmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDIxa1JXRXlSVFZQV0VaMVkwZE5NMk13VVhoTk0wNTZVakZuTUZkdVl4QULgAQD6AQQIIRBH!16s%2Fg%2F1thksn80?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T16:33:33.001Z"
+}

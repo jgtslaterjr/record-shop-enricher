@@ -1,0 +1,23 @@
+{
+  "name": "Results",
+  "rating": null,
+  "reviewCount": null,
+  "address": null,
+  "phone": null,
+  "website": null,
+  "hours": null,
+  "categories": [],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/book-and-mortar-record-store_pittsburgh_pennsylvania/1771533159760_google.jpg",
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/book-and-mortar-record-store_pittsburgh_pennsylvania/1771533160592_google.jpg",
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/book-and-mortar-record-store_pittsburgh_pennsylvania/1771533161692_google.jpg",
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/book-and-mortar-record-store_pittsburgh_pennsylvania/1771533162793_google.jpg",
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/book-and-mortar-record-store_pittsburgh_pennsylvania/1771533163596_google.jpg",
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/book-and-mortar-record-store_pittsburgh_pennsylvania/1771533164700_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/search/Book+and+Mortar+Record+Store+record+store+Pittsburgh+Pennsylvania/@38.2763478,-171.2819756,3z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T20:32:57.113Z"
+}

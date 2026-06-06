@@ -1,0 +1,20 @@
+{
+  "name": "Music Garden Studios",
+  "rating": null,
+  "reviewCount": null,
+  "address": "1469 3rd Ave, New Brighton, PA 15066",
+  "phone": "(724) 581-4799",
+  "website": "http://musicgardenstudios.net/",
+  "hours": {},
+  "categories": [
+    "Recording studio"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/music-garden-studios/1771510957861_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Music+Garden+Studios/@40.7277835,-80.3101289,17z/data=!3m1!4b1!4m6!3m5!1s0x8834703982686297:0x5b4fccbeb7193db2!8m2!3d40.7277835!4d-80.307554!16s%2Fg%2F1tq4rr0l?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T14:22:51.034Z"
+}

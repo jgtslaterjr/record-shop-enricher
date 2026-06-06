@@ -1,0 +1,20 @@
+{
+  "name": "SqueezeBox Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "1901 W 11th St, Wilmington, DE 19805",
+  "phone": "(302) 510-9429",
+  "website": "https://www.squeezeboxrecords.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/squeezebox-records/1771519617685_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/SqueezeBox+Records/@39.9438474,-76.4352541,9z/data=!4m10!1m2!2m1!1sSqueezeBox+Records+record+store+Camp+Hill+Pennsylvania!3m6!1s0x89c6fd0eb174dde5:0xac1826208a00312d!8m2!3d39.7551765!4d-75.5681304!15sCjZTcXVlZXplQm94IFJlY29yZHMgcmVjb3JkIHN0b3JlIENhbXAgSGlsbCBQZW5uc3lsdmFuaWFaOCI2c3F1ZWV6ZWJveCByZWNvcmRzIHJlY29yZCBzdG9yZSBjYW1wIGhpbGwgcGVubnN5bHZhbmlhkgEMcmVjb3JkX3N0b3JlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU01TFhKTVl6SlJSUkFC4AEA-gEECAAQLA!16s%2Fg%2F11gbk1sght?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T16:47:12.152Z"
+}

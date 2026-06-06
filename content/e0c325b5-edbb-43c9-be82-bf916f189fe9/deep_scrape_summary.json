@@ -1,0 +1,38 @@
+{
+  "shopId": "e0c325b5-edbb-43c9-be82-bf916f189fe9",
+  "shopName": "Melusina Records",
+  "city": "Beaver Falls",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T14:16:23.532Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.4s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "20.9s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "19.1s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T14:17:26.541Z"
+}

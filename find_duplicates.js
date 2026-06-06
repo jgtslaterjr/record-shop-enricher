@@ -169,7 +169,7 @@ async function findDuplicates() {
           slug: shop.slug,
           latitude: shop.latitude,
           longitude: shop.longitude,
-          enrichment_status: shop.enrichment_status,
+          enrichment_status: typeof shop.enrichment_status === 'string' ? shop.enrichment_status : null,
           google_maps_url: shop.google_maps_url,
           website: shop.website,
           phone: shop.phone,

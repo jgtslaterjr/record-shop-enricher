@@ -1,0 +1,18 @@
+{
+  "name": "Crazy Kahuna Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "72 College Ave, Factoryville, PA 18419",
+  "phone": "(570) 945-9572",
+  "website": null,
+  "hours": null,
+  "categories": [
+    "Music store"
+  ],
+  "photos": [],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Crazy+Kahuna+Records/@41.5628929,-75.7836825,17z/data=!3m1!4b1!4m6!3m5!1s0x89c52915b3c21865:0x9d82c178fec313eb!8m2!3d41.5628929!4d-75.7811076!16s%2Fg%2F1tlvqgw_?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:30:08.461Z"
+}

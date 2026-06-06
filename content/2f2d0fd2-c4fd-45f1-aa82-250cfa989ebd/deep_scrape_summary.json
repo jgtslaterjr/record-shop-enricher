@@ -1,0 +1,38 @@
+{
+  "shopId": "2f2d0fd2-c4fd-45f1-aa82-250cfa989ebd",
+  "shopName": "Right Coast Recording, Inc.",
+  "city": "Columbia",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:21:29.166Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.9s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "20.9s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "18.9s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T17:22:36.709Z"
+}

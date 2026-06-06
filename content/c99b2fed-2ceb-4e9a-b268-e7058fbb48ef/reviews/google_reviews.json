@@ -1,0 +1,18 @@
+{
+  "name": "Hoots Music Center",
+  "rating": null,
+  "reviewCount": null,
+  "address": "1001 S 2nd St #4002, Ellwood City, PA 16117",
+  "phone": "(724) 752-1214",
+  "website": null,
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Hoots+Music+Center/@40.8523537,-80.2838144,17z/data=!3m1!4b1!4m6!3m5!1s0x883477f49226aaab:0x9dc8f478a2bf0c89!8m2!3d40.8523537!4d-80.2812395!16s%2Fg%2F11ggvy7jt4?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:02:36.469Z"
+}

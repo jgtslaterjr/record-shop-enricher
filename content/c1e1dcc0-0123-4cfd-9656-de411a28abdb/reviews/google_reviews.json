@@ -1,0 +1,20 @@
+{
+  "name": "Mc Gonigal's Music Studio",
+  "rating": null,
+  "reviewCount": null,
+  "address": "531 W Chestnut St, Perkasie, PA 18944",
+  "phone": "(215) 257-1006",
+  "website": "http://www.flaminharry.com/",
+  "hours": {},
+  "categories": [
+    "Musical instrument store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/mc-gonigals-music-studio/1771530769026_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Mc+Gonigal's+Music+Studio/@40.3733325,-75.2981235,17z/data=!3m1!4b1!4m6!3m5!1s0x89c41fab40d15a1d:0x93c679c912ca55ac!8m2!3d40.3733325!4d-75.2955486!16s%2Fg%2F1tk23wn2?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T19:53:01.541Z"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Wayne's World Music",
+  "rating": null,
+  "reviewCount": null,
+  "address": "2611 Memorial Hwy, Dallas, PA 18612",
+  "phone": "(570) 674-1995",
+  "website": "http://www.islandguitar.com/",
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/waynes-world-music/1771522762740_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Wayne's+World+Music/@41.3344384,-75.9617075,17z/data=!3m1!4b1!4m6!3m5!1s0x89c515b61337fabd:0xd9e99ad8b92ccbf9!8m2!3d41.3344384!4d-75.9591326!16s%2Fg%2F125_wyw8p?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T17:39:36.033Z"
+}

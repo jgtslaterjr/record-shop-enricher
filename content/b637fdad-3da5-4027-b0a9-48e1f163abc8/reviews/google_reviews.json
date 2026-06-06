@@ -1,0 +1,20 @@
+{
+  "name": "Round Again Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "278 Wickenden St, Providence, RI 02903",
+  "phone": "(401) 351-6292",
+  "website": "http://www.roundagainrecordsri.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/round-again-records/1771532186758_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Round+Again+Records/@41.8196457,-71.4001628,17z/data=!3m1!4b1!4m6!3m5!1s0x89e44538fe1581f5:0x1dc3391e9179329b!8m2!3d41.8196457!4d-71.3975879!16s%2Fg%2F1v_sp7ll?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T20:16:27.159Z"
+}

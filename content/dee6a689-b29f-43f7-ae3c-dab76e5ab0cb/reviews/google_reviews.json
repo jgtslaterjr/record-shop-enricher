@@ -1,0 +1,20 @@
+{
+  "name": "Stan's Record Bar",
+  "rating": null,
+  "reviewCount": null,
+  "address": "48 N Prince St, Lancaster, PA 17603",
+  "phone": "(717) 397-5200",
+  "website": "https://www.facebook.com/profile.php?id=153460531334929",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/stans-record-bar/1771506293073_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Stan's+Record+Bar/@40.0389703,-76.8849587,10z/data=!4m10!1m2!2m1!1sStan's+Record+Bar+record+store+Amity+Township+Pennsylvania!3m6!1s0x89c6250028e5955b:0x876f2306862d8537!8m2!3d40.0389703!4d-76.3081765!15sCjpTdGFuJ3MgUmVjb3JkIEJhciByZWNvcmQgc3RvcmUgQW1pdHkgVG93bnNoaXAgUGVubnN5bHZhbmlhkgEMcmVjb3JkX3N0b3Jl4AEA!16s%2Fg%2F11vx4wpjyg?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:04:53.404Z"
+}

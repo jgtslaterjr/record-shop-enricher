@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "b3554c57-6e00-405b-a49e-b09582642897",
+    "name": "COMPACT DISC OUTLET",
+    "city": "Aston",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "COMPACT DISC OUTLET Aston Pennsylvania record store",
+    "COMPACT DISC OUTLET Aston instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T14:01:54.688Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

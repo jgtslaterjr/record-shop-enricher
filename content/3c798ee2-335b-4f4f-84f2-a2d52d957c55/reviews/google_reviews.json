@@ -1,0 +1,20 @@
+{
+  "name": "Graham's Used Records Tapes",
+  "rating": null,
+  "reviewCount": null,
+  "address": "613 W 26th St, Erie, PA 16508",
+  "phone": "(814) 314-9625",
+  "website": "https://www.facebook.com/VinylRecordsErie/",
+  "hours": null,
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/grahams-used-records-tapes_erie_pennsylvania/1771533673030_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Graham's+Used+Records+Tapes/@42.1067247,-80.0898132,17z/data=!3m1!4b1!4m6!3m5!1s0x8832800df9d3ddb3:0xb5034d5e4d960654!8m2!3d42.1067247!4d-80.0872383!16s%2Fg%2F1vknq0m5?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T20:41:27.400Z"
+}

@@ -155,7 +155,195 @@
     "East Manchester, PA",
     "East Marlborough, PA",
     "East Norriton, PA",
-    "East Nottingham, PA"
+    "East Nottingham, PA",
+    "East Pennsboro, PA",
+    "East Pikeland, PA",
+    "East Stroudsburg, PA",
+    "East Vincent, PA",
+    "East Whiteland, PA",
+    "Easttown, PA",
+    "Economy, PA",
+    "Elizabeth Township, PA",
+    "Elizabethtown, PA",
+    "Ellwood City, PA",
+    "Ephrata Township, PA",
+    "Exeter Township, PA",
+    "Fairview Township, PA",
+    "Falls Township, PA",
+    "Ferguson Township, PA",
+    "Findlay, PA",
+    "Folcroft, PA",
+    "Forks Township, PA",
+    "Franconia, PA",
+    "Franklin Park, PA",
+    "Franklin Township, PA",
+    "Frankstown, PA",
+    "Glenolden, PA",
+    "Greene Township, PA",
+    "Grove City, PA",
+    "Guilford, PA",
+    "Hamilton Township, PA",
+    "Hampden, PA",
+    "Hampton, PA",
+    "Hanover Township, PA",
+    "Harborcreek, PA",
+    "Harrison Township, PA",
+    "Hatboro, PA",
+    "Hatfield Township, PA",
+    "Haverford, PA",
+    "Hazle, PA",
+    "Hempfield Township, PA",
+    "Hermitage, PA",
+    "Hilltown, PA",
+    "Honey Brook Township, PA",
+    "Hopewell Township, PA",
+    "Horsham, PA",
+    "Huntingdon, PA",
+    "Indiana Township, PA",
+    "Jackson Township, PA",
+    "Jeannette, PA",
+    "Jefferson Hills, PA",
+    "Kennett, PA",
+    "Kennedy, PA",
+    "Kingston, PA",
+    "Kingston Township, PA",
+    "Lancaster Township, PA",
+    "Lansdowne, PA",
+    "Latrobe, PA",
+    "Lawrence Township, PA",
+    "Lehigh Township, PA",
+    "Lehman Township, PA",
+    "Lewistown, PA",
+    "Limerick, PA",
+    "Lock Haven, PA",
+    "Logan Township, PA",
+    "London Grove, PA",
+    "Lower Allen, PA",
+    "Lower Burrell, PA",
+    "Lower Gwynedd, PA",
+    "Lower Heidelberg, PA",
+    "Lower Macungie, PA",
+    "Lower Makefield, PA",
+    "Lower Merion, PA",
+    "Lower Moreland, PA",
+    "Lower Nazareth, PA",
+    "Lower Paxton, PA",
+    "Lower Pottsgrove, PA",
+    "Lower Providence, PA",
+    "Lower Salford, PA",
+    "Lower Saucon, PA",
+    "Lower Southampton, PA",
+    "Lower Swatara, PA",
+    "Lower Windsor, PA",
+    "Loyalsock, PA",
+    "Maidencreek, PA",
+    "Manchester Township, PA",
+    "Manheim Township, PA",
+    "Manor Township, PA",
+    "Marple, PA",
+    "Marshall, PA",
+    "Maxatawny, PA",
+    "McCandless, PA",
+    "McKeesport, PA",
+    "Middle Smithfield, PA",
+    "Middlesex Township, PA",
+    "Middletown, PA",
+    "Middletown Township, PA",
+    "Milford Township, PA",
+    "Millcreek Township, PA",
+    "Millersville, PA",
+    "Milton, PA",
+    "Monessen, PA",
+    "Monroe Township, PA",
+    "Montgomery Township, PA",
+    "Moon, PA",
+    "Moore, PA",
+    "Morrisville, PA",
+    "Mount Joy, PA",
+    "Mount Joy Township, PA",
+    "Mount Lebanon, PA",
+    "Mount Pleasant Township, PA",
+    "Muhlenberg, PA",
+    "Munhall, PA",
+    "Murrysville, PA",
+    "Nanticoke, PA",
+    "Neshannock, PA",
+    "Nether Providence, PA",
+    "New Britain Township, PA",
+    "New Cumberland, PA",
+    "New Garden, PA",
+    "New Hanover, PA",
+    "New Kensington, PA",
+    "New Sewickley, PA",
+    "Newberry, PA",
+    "Newtown Township, PA",
+    "North Codorus, PA",
+    "North Cornwall, PA",
+    "North Coventry, PA",
+    "North Fayette, PA",
+    "North Huntingdon, PA",
+    "North Lebanon, PA",
+    "North Londonderry, PA",
+    "North Middleton, PA",
+    "North Strabane, PA",
+    "North Union Township, PA",
+    "North Versailles, PA",
+    "North Whitehall, PA",
+    "Northampton, PA",
+    "Northampton Township, PA",
+    "Oakmont, PA",
+    "O'Hara, PA",
+    "Ohio, PA",
+    "Old Forge, PA",
+    "Palmer, PA",
+    "Palmyra, PA",
+    "Patton Township, PA",
+    "Penn Forest, PA",
+    "Penn Hills, PA",
+    "Penn Township, PA",
+    "Perkasie, PA",
+    "Perkiomen, PA",
+    "Peters Township, PA",
+    "Philadelphia, PA",
+    "Pine Township, PA",
+    "Pittston, PA",
+    "Plains, PA",
+    "Pleasant Hills, PA",
+    "Plum, PA",
+    "Plumstead, PA",
+    "Plymouth Township, PA",
+    "Pocono, PA",
+    "Polk Township, PA",
+    "Prospect Park, PA",
+    "Providence, PA",
+    "Quakertown, PA",
+    "Radnor, PA",
+    "Rapho, PA",
+    "Red Lion, PA",
+    "Richland Township, PA",
+    "Ridley, PA",
+    "Ridley Park, PA",
+    "Robeson, PA",
+    "Robinson Township, PA",
+    "Ross Township, PA",
+    "Rostraver, PA",
+    "Salisbury Township, PA",
+    "Sandy, PA",
+    "Schuylkill Township, PA",
+    "Scott Township, PA",
+    "Shaler, PA",
+    "Shamokin, PA",
+    "Sharon, PA",
+    "Shenango Township, PA",
+    "Shrewsbury Township, PA",
+    "Silver Spring, PA",
+    "Skippack, PA",
+    "Slippery Rock Township, PA",
+    "Smithfield Township, PA",
+    "Solebury, PA",
+    "Somerset Township, PA",
+    "Souderton, PA",
+    "West Cocalico, PA"
   ],
   "discovered": [
     {
@@ -887,11 +1075,476 @@
       "name": "Dean Sapp's Music Store",
       "city": "East Nottingham",
       "rating": null
+    },
+    {
+      "name": "Hoots Music Center",
+      "city": "Ellwood City",
+      "rating": null
+    },
+    {
+      "name": "Bulldog Brothers Racing & Vinyl Shop",
+      "city": "Exeter Township",
+      "rating": null
+    },
+    {
+      "name": "Zeswitz Music",
+      "city": "Exeter Township",
+      "rating": null
+    },
+    {
+      "name": "Vinyl Press Signs and Graphics Easton",
+      "city": "Forks Township",
+      "rating": null
+    },
+    {
+      "name": "Real Truth Records",
+      "city": "Franconia",
+      "rating": null
+    },
+    {
+      "name": "Half Life Record Inc",
+      "city": "Glenolden",
+      "rating": null
+    },
+    {
+      "name": "Nightfall Records",
+      "city": "Hampton",
+      "rating": null
+    },
+    {
+      "name": "Music Go Round",
+      "city": "Hanover Township",
+      "rating": null
+    },
+    {
+      "name": "Andrea Bogusko Music Co",
+      "city": "Hanover Township",
+      "rating": null
+    },
+    {
+      "name": "Audio-Visual: Unlimited Studios",
+      "city": "Hanover Township",
+      "rating": null
+    },
+    {
+      "name": "Rick's Records",
+      "city": "Harborcreek",
+      "rating": null
+    },
+    {
+      "name": "Deluca Music Co",
+      "city": "Hatboro",
+      "rating": null
+    },
+    {
+      "name": "World Wide Stereo",
+      "city": "Hatfield Township",
+      "rating": null
+    },
+    {
+      "name": "Precision Vinyl Systems Inc",
+      "city": "Hazle",
+      "rating": null
+    },
+    {
+      "name": "Audiowave Sound & Lighting",
+      "city": "Honey Brook Township",
+      "rating": null
+    },
+    {
+      "name": "Raystown Music and Aquarium",
+      "city": "Huntingdon",
+      "rating": null
+    },
+    {
+      "name": "Hoffmans Music and Comics",
+      "city": "Kingston",
+      "rating": null
+    },
+    {
+      "name": "Elite Audio Records",
+      "city": "Kingston Township",
+      "rating": null
+    },
+    {
+      "name": "Latrobe Music Center",
+      "city": "Latrobe",
+      "rating": null
+    },
+    {
+      "name": "DP's Music Center",
+      "city": "Lewistown",
+      "rating": null
+    },
+    {
+      "name": "Music One",
+      "city": "Lock Haven",
+      "rating": null
+    },
+    {
+      "name": "Lanning Music Studio",
+      "city": "Lock Haven",
+      "rating": null
+    },
+    {
+      "name": "GOSPEL sounds Music Equipment Store",
+      "city": "Logan Township",
+      "rating": null
+    },
+    {
+      "name": "Data Music Services",
+      "city": "Logan Township",
+      "rating": null
+    },
+    {
+      "name": "BCR Music & Sound",
+      "city": "Lower Allen",
+      "rating": null
+    },
+    {
+      "name": "Full Custom Music Repair",
+      "city": "Lower Allen",
+      "rating": null
+    },
+    {
+      "name": "Professional Sound Recording Studi LLC",
+      "city": "Lower Allen",
+      "rating": null
+    },
+    {
+      "name": "A K Music",
+      "city": "Lower Burrell",
+      "rating": null
+    },
+    {
+      "name": "Iceburgh Records",
+      "city": "Lower Burrell",
+      "rating": null
+    },
+    {
+      "name": "The Broken Record",
+      "city": "Lower Macungie",
+      "rating": null
+    },
+    {
+      "name": "The Wax Hut",
+      "city": "Lower Makefield",
+      "rating": null
+    },
+    {
+      "name": "Nazareth Music Center",
+      "city": "Lower Nazareth",
+      "rating": null
+    },
+    {
+      "name": "Guitar Villa - Retro Music Bethlehem",
+      "city": "Lower Nazareth",
+      "rating": null
+    },
+    {
+      "name": "Sound VCR Repair & Recording",
+      "city": "Lower Nazareth",
+      "rating": null
+    },
+    {
+      "name": "Mike's Music Shop",
+      "city": "Lower Paxton",
+      "rating": null
+    },
+    {
+      "name": "Blue Mountain Music",
+      "city": "Lower Paxton",
+      "rating": null
+    },
+    {
+      "name": "Melodys Music",
+      "city": "Lower Paxton",
+      "rating": null
+    },
+    {
+      "name": "RSC Vinyl",
+      "city": "Lower Providence",
+      "rating": null
+    },
+    {
+      "name": "Clemmer Music Inc",
+      "city": "Lower Salford",
+      "rating": null
+    },
+    {
+      "name": "My Bankruptcy Records",
+      "city": "Lower Saucon",
+      "rating": null
+    },
+    {
+      "name": "Saucon Valley Music",
+      "city": "Lower Saucon",
+      "rating": null
+    },
+    {
+      "name": "Coyle's Richboro Music",
+      "city": "Lower Southampton",
+      "rating": null
+    },
+    {
+      "name": "Meadowood Music",
+      "city": "Maidencreek",
+      "rating": null
+    },
+    {
+      "name": "SOFY Records",
+      "city": "Manor Township",
+      "rating": null
+    },
+    {
+      "name": "Breadman Records",
+      "city": "Marple",
+      "rating": null
+    },
+    {
+      "name": "Murphy's Music Center Wexford",
+      "city": "McCandless",
+      "rating": null
+    },
+    {
+      "name": "Progressive Music",
+      "city": "McKeesport",
+      "rating": null
+    },
+    {
+      "name": "Pocono Record",
+      "city": "Middle Smithfield",
+      "rating": null
+    },
+    {
+      "name": "Tweedside Records",
+      "city": "Middle Smithfield",
+      "rating": null
+    },
+    {
+      "name": "Spectra Sound Recording, LLC",
+      "city": "Milford Township",
+      "rating": null
+    },
+    {
+      "name": "Rhythm House Records & JingleHouse",
+      "city": "Monessen",
+      "rating": null
+    },
+    {
+      "name": "From The Top Music Shop",
+      "city": "Monessen",
+      "rating": null
+    },
+    {
+      "name": "Johnstonbaugh's Music Center",
+      "city": "Murrysville",
+      "rating": null
+    },
+    {
+      "name": "Underdog Records",
+      "city": "Neshannock",
+      "rating": null
+    },
+    {
+      "name": "Division of Vital Records",
+      "city": "Neshannock",
+      "rating": null
+    },
+    {
+      "name": "Smash Music",
+      "city": "North Codorus",
+      "rating": null
+    },
+    {
+      "name": "Pusker Organ & Piano Music Company",
+      "city": "North Codorus",
+      "rating": null
+    },
+    {
+      "name": "Turnt Up Kings Records LLC",
+      "city": "North Middleton",
+      "rating": null
+    },
+    {
+      "name": "5P Records, Inc.",
+      "city": "North Union Township",
+      "rating": null
+    },
+    {
+      "name": "Yadco Music",
+      "city": "North Versailles",
+      "rating": null
+    },
+    {
+      "name": "Resolution Recording",
+      "city": "North Whitehall",
+      "rating": null
+    },
+    {
+      "name": "Deep Thoughts Record Shop",
+      "city": "Northampton",
+      "rating": null
+    },
+    {
+      "name": "Electric Eye Records",
+      "city": "Northampton",
+      "rating": null
+    },
+    {
+      "name": "Geo's Music",
+      "city": "Ohio",
+      "rating": null
+    },
+    {
+      "name": "Fat Hippy Records",
+      "city": "Ohio",
+      "rating": null
+    },
+    {
+      "name": "State Street Records",
+      "city": "Ohio",
+      "rating": null
+    },
+    {
+      "name": "Love the Arts! Music",
+      "city": "Old Forge",
+      "rating": null
+    },
+    {
+      "name": "Nu Flav Records",
+      "city": "Old Forge",
+      "rating": null
+    },
+    {
+      "name": "Salamander Books and Records",
+      "city": "Palmyra",
+      "rating": null
+    },
+    {
+      "name": "Falcon Records",
+      "city": "Penn Hills",
+      "rating": null
+    },
+    {
+      "name": "Mc Gonigal's Music Studio",
+      "city": "Perkasie",
+      "rating": null
+    },
+    {
+      "name": "Stardrive Records",
+      "city": "Perkasie",
+      "rating": null
+    },
+    {
+      "name": "Fretz Music Center",
+      "city": "Perkasie",
+      "rating": null
+    },
+    {
+      "name": "nebby Records",
+      "city": "Peters Township",
+      "rating": null
+    },
+    {
+      "name": "VINYL",
+      "city": "Philadelphia",
+      "rating": null
+    },
+    {
+      "name": "The Music Scene",
+      "city": "Pittston",
+      "rating": null
+    },
+    {
+      "name": "Rock Street Music",
+      "city": "Pittston",
+      "rating": null
+    },
+    {
+      "name": "Manic Music & Distribution",
+      "city": "Plymouth Township",
+      "rating": null
+    },
+    {
+      "name": "Olympic Records",
+      "city": "Providence",
+      "rating": null
+    },
+    {
+      "name": "Round Again Records",
+      "city": "Providence",
+      "rating": null
+    },
+    {
+      "name": "Creative Ventures Music, Inc",
+      "city": "Radnor",
+      "rating": null
+    },
+    {
+      "name": "Frankmusic & Custom Box",
+      "city": "Salisbury Township",
+      "rating": null
+    },
+    {
+      "name": "Impact Music Studio & Videos",
+      "city": "Salisbury Township",
+      "rating": null
+    },
+    {
+      "name": "Jack's Discount Videos",
+      "city": "Shaler",
+      "rating": null
+    },
+    {
+      "name": "Gratitude Records",
+      "city": "Shaler",
+      "rating": null
+    },
+    {
+      "name": "Music Showcase",
+      "city": "Shenango Township",
+      "rating": null
+    },
+    {
+      "name": "The Ford Music Center",
+      "city": "Shenango Township",
+      "rating": null
+    },
+    {
+      "name": "Ren's Music Studio",
+      "city": "Shrewsbury Township",
+      "rating": null
+    },
+    {
+      "name": "Joe's Record Paradise",
+      "city": "Silver Spring",
+      "rating": null
+    },
+    {
+      "name": "Mojomala Books, Records & Cool Stuff",
+      "city": "Silver Spring",
+      "rating": null
+    },
+    {
+      "name": "Orange: Coffee. Art. Music.",
+      "city": "Smithfield Township",
+      "rating": null
+    },
+    {
+      "name": "Blubaugh's Music",
+      "city": "Somerset Township",
+      "rating": null
+    },
+    {
+      "name": "Somerset Discount Store",
+      "city": "Somerset Township",
+      "rating": null
     }
   ],
   "stats": {
     "new": 0,
     "existing": 0,
-    "skipped": 0
+    "filtered": 550
   }
 }

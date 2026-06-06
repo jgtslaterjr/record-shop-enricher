@@ -1,0 +1,20 @@
+{
+  "name": "Latrobe Music Center",
+  "rating": null,
+  "reviewCount": null,
+  "address": "602 S Alexandria St, Latrobe, PA 15650",
+  "phone": "(724) 516-3871",
+  "website": null,
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/latrobe-music-center/1771510745988_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Latrobe+Music+Center/@40.319252,-79.3870771,17z/data=!3m1!4b1!4m6!3m5!1s0x8834cd13f82288f9:0xaa68b16cc5d0634!8m2!3d40.319252!4d-79.3845022!16s%2Fg%2F11vzp_03vc?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T14:19:19.915Z"
+}

@@ -1,0 +1,42 @@
+{
+  "shopName": "Fez Records",
+  "shopId": "3013274e-7e49-48a8-9c2e-ac02bad1f21c",
+  "city": "Antrim",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "concert",
+      "title": "Bandsintown",
+      "date": "Dec 26, 2025",
+      "description": "Concerts & Events in Ardmore, PA | Bandsintown",
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    },
+    {
+      "event_type": "event",
+      "title": "The Depot District in Ardmore's upcoming events",
+      "date": "Dec 18, 2025",
+      "description": "Find out more about The Depot District in Ardmore's upcoming events, get involved, browse the event calendar and more.",
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    },
+    {
+      "event_type": "concert",
+      "title": "WXPN",
+      "date": "Jan 1, 2026",
+      "description": "The ultimate guide to concerts in Philadelphia, the Suburbs, Central PA, and the Lehigh Valley. Find ticket information and more!",
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    },
+    {
+      "event_type": "event",
+      "title": "Main Line Weekend",
+      "date": "Jan 1, 2026",
+      "description": "A home show in Oaks, Lunar New Year celebration in King of Prussia and more events bring excitement to the western suburbs this weekend.",
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    }
+  ],
+  "totalFound": 4,
+  "scrapedAt": "2026-02-19T13:22:33.733Z"
+}

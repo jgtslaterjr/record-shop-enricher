@@ -1,0 +1,38 @@
+{
+  "shopId": "bde751a5-4a48-45e6-8844-e3e17a00d076",
+  "shopName": "VINYL",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T19:59:49.242Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.1s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "56.9s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "23.2s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T20:01:34.528Z"
+}

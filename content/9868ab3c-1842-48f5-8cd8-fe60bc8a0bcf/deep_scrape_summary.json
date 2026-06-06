@@ -1,0 +1,38 @@
+{
+  "shopId": "9868ab3c-1842-48f5-8cd8-fe60bc8a0bcf",
+  "shopName": "Vertigo Music Trade",
+  "city": "Ambridge",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-18T15:35:34.722Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "2.8s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.6s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "8.4s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "25.9s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "24.6s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-18T15:37:02.159Z"
+}

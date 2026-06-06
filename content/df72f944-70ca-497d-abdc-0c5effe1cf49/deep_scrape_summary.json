@@ -1,0 +1,38 @@
+{
+  "shopId": "df72f944-70ca-497d-abdc-0c5effe1cf49",
+  "shopName": "The Ford Music Center",
+  "city": "Shenango Township",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T20:33:43.249Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.2s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "58.3s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "25.2s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T20:35:33.696Z"
+}

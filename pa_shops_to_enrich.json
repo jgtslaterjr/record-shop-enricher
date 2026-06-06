@@ -1,0 +1,1372 @@
+[
+  {
+    "id": "7482f033-7cb3-4f4c-a9a1-edefa0230087",
+    "name": "Bulldog Brothers Racing & Vinyl Shop",
+    "slug": "bulldog-brothers-racing-and-vinyl-shop"
+  },
+  {
+    "id": "c99b2fed-2ceb-4e9a-b268-e7058fbb48ef",
+    "name": "Hoots Music Center",
+    "slug": "hoots-music-center"
+  },
+  {
+    "id": "5ca5b562-6007-40d8-bd00-d7921ffa3707",
+    "name": "Etown Record Lounge",
+    "slug": "etown-record-lounge"
+  },
+  {
+    "id": "dee6a689-b29f-43f7-ae3c-dab76e5ab0cb",
+    "name": "Stan's Record Bar",
+    "slug": "stans-record-bar"
+  },
+  {
+    "id": "0dd0aaf0-a177-468a-a154-6ae2d9d2155a",
+    "name": "Zeswitz Music",
+    "slug": "zeswitz-music"
+  },
+  {
+    "id": "46ea31e6-2c2f-4d5b-8d84-d59c55c06290",
+    "name": "Vinyl Press Signs and Graphics Easton",
+    "slug": "vinyl-press-signs-and-graphics-easton"
+  },
+  {
+    "id": "2f87679f-9e65-43ad-9422-923496b452bb",
+    "name": "The Record Shop",
+    "slug": "the-record-shop"
+  },
+  {
+    "id": "ce21ec92-d1bc-41ce-900b-9e4e31e20b8f",
+    "name": "Vinyl Lab Record Store",
+    "slug": "vinyl-lab-record-store"
+  },
+  {
+    "id": "271adf38-651b-4600-ad31-3f41f40795e3",
+    "name": "Real Truth Records",
+    "slug": "real-truth-records"
+  },
+  {
+    "id": "e32637aa-0b53-485c-81b3-0d3544e1b893",
+    "name": "Positively Records",
+    "slug": "positively-records"
+  },
+  {
+    "id": "92f0469e-7334-4e67-bc94-d2b4bb688d9f",
+    "name": "Sonic Ascension Records",
+    "slug": "sonic-ascension-records"
+  },
+  {
+    "id": "5da6ad83-54c6-4e94-946d-cacfe8cabd43",
+    "name": "Everlong Records LLC",
+    "slug": "everlong-records-llc"
+  },
+  {
+    "id": "3013274e-7e49-48a8-9c2e-ac02bad1f21c",
+    "name": "Fez Records",
+    "slug": "fez-records"
+  },
+  {
+    "id": "7876519f-407e-424b-82a0-3a6e3f4ed990",
+    "name": "Compact Disc Center",
+    "slug": "compact-disc-center"
+  },
+  {
+    "id": "8bfb9e29-9e7b-4d03-b606-02a0b2cdced7",
+    "name": "Magdon Music",
+    "slug": "magdon-music"
+  },
+  {
+    "id": "494310bc-39e0-4781-80af-62b96c0913c7",
+    "name": "Northeast Music Center Inc",
+    "slug": "northeast-music-center-inc"
+  },
+  {
+    "id": "52d1ef2c-eb48-4419-8dc9-cad4b1339333",
+    "name": "Soundcheck Records Inc",
+    "slug": "soundcheck-records-inc"
+  },
+  {
+    "id": "9ce56d12-8684-4d7b-99cb-3d3b0872de06",
+    "name": "Crazy Kahuna Records",
+    "slug": "crazy-kahuna-records"
+  },
+  {
+    "id": "aa33ac27-0da1-4a14-bdc8-1042f4288e45",
+    "name": "Half Life Record Inc",
+    "slug": "half-life-record-inc"
+  },
+  {
+    "id": "9800e3f4-4a9e-46c9-9c09-b2b97e521908",
+    "name": "Railroad Records",
+    "slug": "railroad-records"
+  },
+  {
+    "id": "ac316bd3-8405-4c3c-9888-94c087440c84",
+    "name": "Toms Music Trade",
+    "slug": "toms-music-trade"
+  },
+  {
+    "id": "792ec3e9-a3d1-44f9-9085-02b6ecdc5a10",
+    "name": "Full Circle Record Shop",
+    "slug": "full-circle-record-shop"
+  },
+  {
+    "id": "a20f48c5-1f44-4fe3-966a-de94d32a0877",
+    "name": "Music & Video Express",
+    "slug": "music-and-video-express"
+  },
+  {
+    "id": "64081db9-aa50-4014-9a1c-be239f014c14",
+    "name": "3 Love Records",
+    "slug": "3-love-records"
+  },
+  {
+    "id": "207586e9-ea97-4c26-8dfd-3e2f41141133",
+    "name": "Nightfall Records",
+    "slug": "nightfall-records"
+  },
+  {
+    "id": "461c55f2-86dd-4340-90db-ecea526c557d",
+    "name": "Music Go Round",
+    "slug": "music-go-round"
+  },
+  {
+    "id": "4b16e479-581f-424e-a10c-73fe505d8226",
+    "name": "Audio-Visual: Unlimited Studios",
+    "slug": "audio-visual-unlimited-studios"
+  },
+  {
+    "id": "41c4653f-8d3a-4205-a700-dc2d96ef67cd",
+    "name": "Rick's Records",
+    "slug": "ricks-records"
+  },
+  {
+    "id": "ead4bd15-32e9-42d0-8a66-b6c5468caedd",
+    "name": "Andrea Bogusko Music Co",
+    "slug": "andrea-bogusko-music-co"
+  },
+  {
+    "id": "8fa4465c-0099-44bf-8e74-62a63b9a36f9",
+    "name": "Deluca Music Co",
+    "slug": "deluca-music-co"
+  },
+  {
+    "id": "42e566fa-6341-406f-93ad-d214cb65ae24",
+    "name": "World Wide Stereo",
+    "slug": "world-wide-stereo"
+  },
+  {
+    "id": "d0a19954-7db9-493b-a017-2a0179755ee2",
+    "name": "Precision Vinyl Systems Inc",
+    "slug": "precision-vinyl-systems-inc"
+  },
+  {
+    "id": "b12cc108-0dd9-4daa-9d04-b630d574dd27",
+    "name": "Audiowave Sound & Lighting",
+    "slug": "audiowave-sound-and-lighting"
+  },
+  {
+    "id": "0565ba48-147e-4c5a-9283-8a2d13f638e7",
+    "name": "Liberty Vinyl",
+    "slug": "liberty-vinyl"
+  },
+  {
+    "id": "5aa570a7-f931-4b12-93c0-ed2414fcbd69",
+    "name": "Moonrocket Vinyl Record Store",
+    "slug": "moonrocket-vinyl-record-store"
+  },
+  {
+    "id": "367ef90d-929f-4823-b27c-96edb8e14791",
+    "name": "Jam - Music and Memorabilia",
+    "slug": "jam-music-and-memorabilia"
+  },
+  {
+    "id": "ec08d8b5-a9cf-4630-b178-33b2019346a1",
+    "name": "Goodboy Vinyl",
+    "slug": "goodboy-vinyl"
+  },
+  {
+    "id": "ed313b5e-af05-4515-b5fc-c7da15e89e2a",
+    "name": "Romeo's Record Shop",
+    "slug": "romeos-record-shop"
+  },
+  {
+    "id": "2fc7457a-d18f-46ad-bd2f-30dd2ffb1c0f",
+    "name": "The Record Vault",
+    "slug": "the-record-vault"
+  },
+  {
+    "id": "157bd563-37e8-43fc-9ce0-f552dea5c8df",
+    "name": "Sky Valley Records",
+    "slug": "sky-valley-records"
+  },
+  {
+    "id": "a6f0c308-3e53-4545-bec3-1f995b12188c",
+    "name": "Rockdale Music & Studios",
+    "slug": "rockdale-music-and-studios"
+  },
+  {
+    "id": "e0fada73-b88f-4556-82af-3ba426cebda1",
+    "name": "Audiolab Stereo & Video Center Inc.",
+    "slug": "audiolab-stereo-and-video-center-inc"
+  },
+  {
+    "id": "b3554c57-6e00-405b-a49e-b09582642897",
+    "name": "COMPACT DISC OUTLET",
+    "slug": "compact-disc-outlet"
+  },
+  {
+    "id": "65cce8cc-34d5-464e-8caf-6c9fcfcff03f",
+    "name": "Raystown Music and Aquarium",
+    "slug": "raystown-music-and-aquarium"
+  },
+  {
+    "id": "63f51217-d6e4-455e-a18f-23373e0769c6",
+    "name": "Vinyl Remains",
+    "slug": "vinyl-remains"
+  },
+  {
+    "id": "83a381cc-9986-4665-b937-14e3e71f67f8",
+    "name": "Rosie's Records",
+    "slug": "rosies-records"
+  },
+  {
+    "id": "ad0563a4-4388-4298-8532-261c791d1f20",
+    "name": "Dorsey's Record Shop",
+    "slug": "dorseys-record-shop"
+  },
+  {
+    "id": "5a625258-3477-45ad-b773-e76a4ab20de1",
+    "name": "Get Hip Records",
+    "slug": "get-hip-records"
+  },
+  {
+    "id": "c425f34b-e6d3-4cc3-92b4-90dcfec41b26",
+    "name": "939 Records",
+    "slug": "939-records"
+  },
+  {
+    "id": "632084be-182b-44b1-a2ed-ef15f8ece6a3",
+    "name": "Elite Audio Records",
+    "slug": "elite-audio-records"
+  },
+  {
+    "id": "0475027d-4bab-4d40-ac68-f7008f1fc7b4",
+    "name": "D.R.S. Vinyl Designs",
+    "slug": "d-r-s-vinyl-designs"
+  },
+  {
+    "id": "758bd827-e601-4415-9ffc-2029dd2002c8",
+    "name": "Flip Side Records & Collectibles",
+    "slug": "flip-side-records-and-collectibles"
+  },
+  {
+    "id": "e0c325b5-edbb-43c9-be82-bf916f189fe9",
+    "name": "Melusina Records",
+    "slug": "melusina-records"
+  },
+  {
+    "id": "df156dbc-53e3-4a49-8afd-e121a001a164",
+    "name": "Hoffmans Music and Comics",
+    "slug": "hoffmans-music-and-comics"
+  },
+  {
+    "id": "71dd1ec0-294c-4eda-ba72-e8e644302d59",
+    "name": "Latrobe Music Center",
+    "slug": "latrobe-music-center"
+  },
+  {
+    "id": "731eb02b-f403-4fbe-ab70-4d5c85b11d03",
+    "name": "Music Garden Studios",
+    "slug": "music-garden-studios"
+  },
+  {
+    "id": "5d3c48c8-a3d2-450d-b638-a7f7ef1dce3a",
+    "name": "Endless Records",
+    "slug": "endless-records"
+  },
+  {
+    "id": "eefbcaa4-22ac-468d-9d17-4973f71aa9c2",
+    "name": "Blue Raven Records",
+    "slug": "blue-raven-records"
+  },
+  {
+    "id": "829f07ae-bf52-4b0b-93d5-a5095d7d887e",
+    "name": "Gotta Have it Vinyl",
+    "slug": "gotta-have-it-vinyl"
+  },
+  {
+    "id": "58e03231-9fb6-4632-b479-1276dece52b7",
+    "name": "Bucks County Folk Music Shop",
+    "slug": "bucks-county-folk-music-shop"
+  },
+  {
+    "id": "9503907d-285e-40af-a01a-748486c6d459",
+    "name": "Mount Holly Records",
+    "slug": "mount-holly-records"
+  },
+  {
+    "id": "69625136-cca2-4996-8f9e-15034e1c61fc",
+    "name": "Hellbender Vinyl",
+    "slug": "hellbender-vinyl"
+  },
+  {
+    "id": "ff4a3377-1397-4c54-a6e6-f45eb10fd216",
+    "name": "Boxcar Music",
+    "slug": "boxcar-music"
+  },
+  {
+    "id": "6a60b382-fe14-435a-b0d4-9da36cf74e4e",
+    "name": "SC Vinyl LLC.",
+    "slug": "sc-vinyl-llc"
+  },
+  {
+    "id": "c6d9e014-4f2a-44ac-8cfa-58c95d72baf5",
+    "name": "Rainbow Music",
+    "slug": "rainbow-music"
+  },
+  {
+    "id": "715547d3-d3aa-420e-b0db-bc246f6175af",
+    "name": "DP's Music Center",
+    "slug": "dps-music-center"
+  },
+  {
+    "id": "b641c259-aa8f-4a2a-9d73-1494c66a3aaa",
+    "name": "Lanning Music Studio",
+    "slug": "lanning-music-studio"
+  },
+  {
+    "id": "eb7da792-d1ab-47b4-8832-bea37ee01fb1",
+    "name": "Data Music Services",
+    "slug": "data-music-services"
+  },
+  {
+    "id": "9b0c3490-88b3-43eb-95b9-077d9cd1437c",
+    "name": "Full Custom Music Repair",
+    "slug": "full-custom-music-repair"
+  },
+  {
+    "id": "74b08dca-0865-4809-94fe-add4886a895b",
+    "name": "Launderette Records",
+    "slug": "launderette-records"
+  },
+  {
+    "id": "507580ed-7640-4929-9b61-9503299d5d2a",
+    "name": "Comic Collection & Records Too",
+    "slug": "comic-collection-and-records-too"
+  },
+  {
+    "id": "d689992a-b7f6-40d7-93df-9bcd0e861bc1",
+    "name": "Music One",
+    "slug": "music-one"
+  },
+  {
+    "id": "06e227b1-030b-47a3-b941-fae9189c7718",
+    "name": "GOSPEL sounds Music Equipment Store",
+    "slug": "gospel-sounds-music-equipment-store"
+  },
+  {
+    "id": "8687660a-032a-4416-820b-28547c648200",
+    "name": "BCR Music & Sound",
+    "slug": "bcr-music-and-sound"
+  },
+  {
+    "id": "920b6e3a-2cf8-4bc5-aa7b-8761c21af324",
+    "name": "Professional Sound Recording Studi LLC",
+    "slug": "professional-sound-recording-studi-llc"
+  },
+  {
+    "id": "1a56b884-3371-4fae-afe4-21469eab4337",
+    "name": "Joker studio record",
+    "slug": "joker-studio-record"
+  },
+  {
+    "id": "8a237b47-2f19-47c6-bce7-21005f170c6a",
+    "name": "Iceburgh Records",
+    "slug": "iceburgh-records"
+  },
+  {
+    "id": "ae773a5e-5f01-45ff-85f3-58e10602437f",
+    "name": "WaxPax Records",
+    "slug": "waxpax-records"
+  },
+  {
+    "id": "ea65eb38-b085-46dc-bbaf-95909a800883",
+    "name": "Lititz Music Co.",
+    "slug": "lititz-music-co"
+  },
+  {
+    "id": "d89c72ec-43f2-4ebf-9f24-7bf6fab29210",
+    "name": "A K Music",
+    "slug": "a-k-music"
+  },
+  {
+    "id": "b2aa7e38-b05f-4c09-a27b-6f4663070c0e",
+    "name": "The Broken Record",
+    "slug": "the-broken-record"
+  },
+  {
+    "id": "57ddb4e0-1514-4a1f-8e42-d860ad99ac67",
+    "name": "The Wax Hut",
+    "slug": "the-wax-hut"
+  },
+  {
+    "id": "a2694ac4-33c9-46cc-bede-018d3b071231",
+    "name": "Weird Fish Records",
+    "slug": "weird-fish-records"
+  },
+  {
+    "id": "70b51b07-73d7-4f76-8170-7e6b617fd4da",
+    "name": "Nazareth Music Center",
+    "slug": "nazareth-music-center"
+  },
+  {
+    "id": "c47b1db3-3111-4873-a0f1-e5e201fe6d9e",
+    "name": "Iko's Music Trade",
+    "slug": "ikos-music-trade"
+  },
+  {
+    "id": "13b23e5c-3243-4e10-a05b-20b31a53a5a7",
+    "name": "BoDoc Records, LLC",
+    "slug": "bodoc-records-llc"
+  },
+  {
+    "id": "2c7dedf9-cee8-4fd6-9434-aac0c0e0f0e8",
+    "name": "Sound VCR Repair & Recording",
+    "slug": "sound-vcr-repair-and-recording"
+  },
+  {
+    "id": "2c983699-aff5-4e57-8874-0b9daf6e0e17",
+    "name": "Guitar Villa - Retro Music Bethlehem",
+    "slug": "guitar-villa-retro-music-bethlehem"
+  },
+  {
+    "id": "60d7e26c-536c-45c5-be4a-ec6bf3cc0552",
+    "name": "Tela Records",
+    "slug": "tela-records"
+  },
+  {
+    "id": "51a0dfc6-fcb3-493d-a71a-d5886817cf48",
+    "name": "Mike's Music Shop",
+    "slug": "mikes-music-shop"
+  },
+  {
+    "id": "9452952a-fd40-4712-9531-38dc5b572095",
+    "name": "Atkins Music Center",
+    "slug": "atkins-music-center"
+  },
+  {
+    "id": "6dcf9436-df37-413f-85b7-0ba3ef4dcff4",
+    "name": "Melodys Music",
+    "slug": "melodys-music"
+  },
+  {
+    "id": "4676bead-9f68-4c7f-aca4-18473e326a25",
+    "name": "Blue Mountain Music",
+    "slug": "blue-mountain-music"
+  },
+  {
+    "id": "62d0ed18-91b9-4ce7-a192-c94cb57f16f0",
+    "name": "Spotto's Music",
+    "slug": "spottos-music"
+  },
+  {
+    "id": "b33bde4c-aa0f-4a40-adf2-03256671749f",
+    "name": "Chuck's R.I.P. Records",
+    "slug": "chucks-r-i-p-records"
+  },
+  {
+    "id": "7f412ac4-dccd-4ce5-a047-c5573d3ec4ec",
+    "name": "Studio 4 Vinyl",
+    "slug": "studio-4-vinyl"
+  },
+  {
+    "id": "de434204-8348-476d-9861-786358b93f89",
+    "name": "RSC Vinyl",
+    "slug": "rsc-vinyl"
+  },
+  {
+    "id": "b2648549-865f-496f-bfe8-50096409f78e",
+    "name": "Moretti Music",
+    "slug": "moretti-music"
+  },
+  {
+    "id": "7d43cb35-aff7-4bbe-8bad-0b7dd61e0f9d",
+    "name": "Saucon Valley Music",
+    "slug": "saucon-valley-music"
+  },
+  {
+    "id": "562e0fee-8174-4200-9d21-2c212f0aa0c2",
+    "name": "Clemmer Music Inc",
+    "slug": "clemmer-music-inc"
+  },
+  {
+    "id": "02c8cfe1-8d6e-4c1e-8fa5-98678b1c1f60",
+    "name": "TribeSound Records",
+    "slug": "tribesound-records"
+  },
+  {
+    "id": "53d761e2-4c6b-4b04-994e-21e044dd1662",
+    "name": "Disc Hounds",
+    "slug": "disc-hounds"
+  },
+  {
+    "id": "112d59eb-9a5a-4594-abf6-63bfa781d31a",
+    "name": "My Bankruptcy Records",
+    "slug": "my-bankruptcy-records"
+  },
+  {
+    "id": "8cff72bb-8d85-4a48-b136-67d811c57910",
+    "name": "Record Smith PA",
+    "slug": "record-smith-pa"
+  },
+  {
+    "id": "713faf93-fdb2-444b-98c1-a0387f4fb032",
+    "name": "Make Music Easy",
+    "slug": "make-music-easy"
+  },
+  {
+    "id": "80b38112-b595-4b76-b6db-153c6ca2cb49",
+    "name": "Coyle's Richboro Music",
+    "slug": "coyles-richboro-music"
+  },
+  {
+    "id": "4aa7b821-9818-438e-861d-7a3c2b669449",
+    "name": "SqueezeBox Records",
+    "slug": "squeezebox-records"
+  },
+  {
+    "id": "0349f423-a023-44c6-a3d1-a361a289aae8",
+    "name": "U Rock Music Center",
+    "slug": "u-rock-music-center"
+  },
+  {
+    "id": "af811466-e282-45e9-9ceb-459b42aaf93c",
+    "name": "Meadowood Music",
+    "slug": "meadowood-music"
+  },
+  {
+    "id": "bf31e14e-672e-47a1-95fb-749a8309d83f",
+    "name": "Record Nations",
+    "slug": "record-nations"
+  },
+  {
+    "id": "c4e50675-b23f-4766-97e8-8d3d2026fc7e",
+    "name": "SOFY Records",
+    "slug": "sofy-records"
+  },
+  {
+    "id": "16984a03-fcd8-487c-817f-3bf305e609c2",
+    "name": "Breadman Records",
+    "slug": "breadman-records"
+  },
+  {
+    "id": "ad94d702-1434-4a04-b6ab-389113d1d417",
+    "name": "CI Records",
+    "slug": "ci-records"
+  },
+  {
+    "id": "9c5674f0-eee0-4aa7-a0ec-ef4d95348051",
+    "name": "Murphy's Music Center Wexford",
+    "slug": "murphys-music-center-wexford"
+  },
+  {
+    "id": "05ae11bc-90f8-4780-b60d-02a42843738e",
+    "name": "Progressive Music",
+    "slug": "progressive-music"
+  },
+  {
+    "id": "0e28b119-ca9d-4eed-b271-2673956bc8fd",
+    "name": "Tweedside Records",
+    "slug": "tweedside-records"
+  },
+  {
+    "id": "254e0931-17d5-4ff9-98f6-b11eebf628bd",
+    "name": "Serenity Records Studios",
+    "slug": "serenity-records-studios"
+  },
+  {
+    "id": "c3fde45e-b4e6-41c3-abbd-bcead05b4e10",
+    "name": "Pocono Record",
+    "slug": "pocono-record"
+  },
+  {
+    "id": "53519609-aa97-4af1-8d9d-5f1db5d2debb",
+    "name": "Buying All Comic Books And Records",
+    "slug": "buying-all-comic-books-and-records"
+  },
+  {
+    "id": "5cb22c7b-f7be-402a-b839-8f169693dd29",
+    "name": "Spectra Sound Recording, LLC",
+    "slug": "spectra-sound-recording-llc"
+  },
+  {
+    "id": "0636c8b3-64a1-4a32-bf4c-c2b91cc35b78",
+    "name": "CD Imprintables",
+    "slug": "cd-imprintables"
+  },
+  {
+    "id": "fe88a2ef-3a66-4384-8afd-8adc1c44e149",
+    "name": "From The Top Music Shop",
+    "slug": "from-the-top-music-shop"
+  },
+  {
+    "id": "1c38133a-43dc-4d9f-a4c8-175f80e55d8c",
+    "name": "DJ Sean Music Studio",
+    "slug": "dj-sean-music-studio"
+  },
+  {
+    "id": "bd40d2cc-0433-42a2-90e0-ac6c59fb9bd4",
+    "name": "Rhythm House Records & JingleHouse",
+    "slug": "rhythm-house-records-and-jinglehouse"
+  },
+  {
+    "id": "26952b0c-29e4-4a9e-a42c-fa5fa0703057",
+    "name": "CI Records & Skates",
+    "slug": "ci-records-and-skates"
+  },
+  {
+    "id": "250a232e-c8c9-420d-ab5c-4133931df855",
+    "name": "Madhouse Records",
+    "slug": "madhouse-records"
+  },
+  {
+    "id": "4d437ec6-b86a-4990-b5a4-9d4638ae8019",
+    "name": "Red Planet Recording, Live Sound & Rehearsal",
+    "slug": "red-planet-recording-live-sound-and-rehearsal"
+  },
+  {
+    "id": "d0a4e7f0-ab26-427a-8399-d3022ad796e8",
+    "name": "On the Record",
+    "slug": "on-the-record"
+  },
+  {
+    "id": "dc67ec34-20a7-473e-8a48-e044424b4a45",
+    "name": "Johnstonbaugh's Music Center",
+    "slug": "johnstonbaughs-music-center"
+  },
+  {
+    "id": "2f2d0fd2-c4fd-45f1-aa82-250cfa989ebd",
+    "name": "Right Coast Recording, Inc.",
+    "slug": "right-coast-recording-inc"
+  },
+  {
+    "id": "3c654cbb-095d-400d-87cd-1e22570d799e",
+    "name": "Bo Moore's Village Street Music",
+    "slug": "bo-moores-village-street-music"
+  },
+  {
+    "id": "2e448838-19bd-4775-aab0-9bd74fddb2ab",
+    "name": "DeadWayMusic",
+    "slug": "deadwaymusic"
+  },
+  {
+    "id": "e685fc4c-9b6e-4ff5-9655-c88650b9c405",
+    "name": "Division of Vital Records",
+    "slug": "division-of-vital-records"
+  },
+  {
+    "id": "5d18cf4e-a00d-4a8c-846e-95650391f88c",
+    "name": "The Cd Music - Dvd & VHS Movie Place",
+    "slug": "the-cd-music-dvd-and-vhs-movie-place"
+  },
+  {
+    "id": "d680d72f-dcbe-4a60-a47e-03600dcd3663",
+    "name": "Big Bug Music",
+    "slug": "big-bug-music"
+  },
+  {
+    "id": "050baa37-a489-4a26-8475-eb409ef8d691",
+    "name": "Ant Farm Music",
+    "slug": "ant-farm-music"
+  },
+  {
+    "id": "542b096d-f660-4054-aab0-8a50083994b1",
+    "name": "Pagoda City Records",
+    "slug": "pagoda-city-records"
+  },
+  {
+    "id": "62c00810-c950-4bf3-b470-3cc2a60f8ecb",
+    "name": "Penn Avenue Music",
+    "slug": "penn-avenue-music"
+  },
+  {
+    "id": "b64f1789-259c-4eef-963c-54b22984d174",
+    "name": "Menchey Music Service, Inc.",
+    "slug": "menchey-music-service-inc"
+  },
+  {
+    "id": "19539fb0-1dfa-4acb-ac25-e62ff0bdd544",
+    "name": "Underdog Records",
+    "slug": "underdog-records"
+  },
+  {
+    "id": "dc0a6715-d053-4a8d-ac79-818955b0712c",
+    "name": "Spyro's Modern Music & Recording",
+    "slug": "spyros-modern-music-and-recording"
+  },
+  {
+    "id": "c1a3ab91-348e-49c4-b915-ce8a2b11f49e",
+    "name": "Todaro's Music",
+    "slug": "todaros-music"
+  },
+  {
+    "id": "2262fb21-36a5-4447-b4fa-4b413820c735",
+    "name": "Wayne's World Music",
+    "slug": "waynes-world-music"
+  },
+  {
+    "id": "1da2f20a-603c-4d36-a9c4-52da113005dc",
+    "name": "Exotic Records Studios",
+    "slug": "exotic-records-studios"
+  },
+  {
+    "id": "27b6fece-3d83-449e-843c-7c264773658b",
+    "name": "Better Now Records",
+    "slug": "better-now-records"
+  },
+  {
+    "id": "ccfccbad-f677-4746-a9b9-e9f1340ebb16",
+    "name": "A & G Music Center",
+    "slug": "a-and-g-music-center"
+  },
+  {
+    "id": "9dc737e3-01f0-4190-9b74-b568f9e5944d",
+    "name": "Winding Way Records, LLC.",
+    "slug": "winding-way-records-llc"
+  },
+  {
+    "id": "e5da56d4-679a-4525-a828-a366f3f05327",
+    "name": "Pusker Organ & Piano Music Company",
+    "slug": "pusker-organ-and-piano-music-company"
+  },
+  {
+    "id": "c06bef97-7411-41f8-88f4-7a4d7bc32c45",
+    "name": "Smash Music",
+    "slug": "smash-music"
+  },
+  {
+    "id": "37f952dc-8357-4a41-8ad5-1bcc285f51ee",
+    "name": "Shock Vinyl",
+    "slug": "shock-vinyl"
+  },
+  {
+    "id": "93c24812-470f-4e0d-956a-251afeb48f98",
+    "name": "Capsule & Tonic Records",
+    "slug": "capsule-and-tonic-records"
+  },
+  {
+    "id": "fb7264d9-414a-499b-9e54-74d6c927ae46",
+    "name": "Turnt Up Kings Records LLC",
+    "slug": "turnt-up-kings-records-llc"
+  },
+  {
+    "id": "94fe09e6-3a1d-4a84-b3d1-c38fcc91272b",
+    "name": "Just-Records",
+    "slug": "just-records"
+  },
+  {
+    "id": "f1c0126a-6dfe-4767-9e64-425fe44ac023",
+    "name": "Funky Frets Music Store",
+    "slug": "funky-frets-music-store"
+  },
+  {
+    "id": "d76c09c3-7e50-4bc7-9d5a-6c5a013a156a",
+    "name": "Kosmos Music",
+    "slug": "kosmos-music"
+  },
+  {
+    "id": "e62ca83e-ee3b-4340-b958-f54486429c86",
+    "name": "5P Records, Inc.",
+    "slug": "5p-records-inc"
+  },
+  {
+    "id": "eb8ff3f3-bfd2-4632-b22a-007ccf4e08fc",
+    "name": "Spotts Music Center",
+    "slug": "spotts-music-center"
+  },
+  {
+    "id": "f247afca-fea0-4824-8de7-1ee4ab1b7918",
+    "name": "Yadco Music",
+    "slug": "yadco-music"
+  },
+  {
+    "id": "d1176e5b-96bb-4d8a-a44d-da291f92e025",
+    "name": "Resolution Recording",
+    "slug": "resolution-recording"
+  },
+  {
+    "id": "67b17972-c382-40c7-9b1c-4cc581d10642",
+    "name": "Northeast Aluminum & Vinyl Products",
+    "slug": "northeast-aluminum-and-vinyl-products"
+  },
+  {
+    "id": "d5e39e99-a2ee-474a-8731-9d87eb1d6523",
+    "name": "Players Row Music Supply",
+    "slug": "players-row-music-supply"
+  },
+  {
+    "id": "1ddf015f-2efc-42e3-bdab-c2a5c11382c9",
+    "name": "West Chester Music Store",
+    "slug": "west-chester-music-store"
+  },
+  {
+    "id": "81328034-b94f-4eee-a5a5-81d0b8c60e50",
+    "name": "Deep Thoughts Record Shop",
+    "slug": "deep-thoughts-record-shop"
+  },
+  {
+    "id": "b647d546-a131-4a5d-a474-132948b06df3",
+    "name": "Taylor's Music Store & Studios",
+    "slug": "taylors-music-store-and-studios"
+  },
+  {
+    "id": "2d9b56c4-bcaa-4162-a77d-4d70ce4323fc",
+    "name": "Electric Eye Records",
+    "slug": "electric-eye-records"
+  },
+  {
+    "id": "7b9e3b85-c7ea-4fe8-89ff-1452edbfab67",
+    "name": "Music 'n More",
+    "slug": "music-n-more"
+  },
+  {
+    "id": "a5c26863-7b1d-4a2b-9275-5ad7449ccec3",
+    "name": "Joseph Wise Music",
+    "slug": "joseph-wise-music"
+  },
+  {
+    "id": "806c3e2c-c1fb-4d00-b3d5-5fd1da125d9e",
+    "name": "Astrovinylart",
+    "slug": "astrovinylart"
+  },
+  {
+    "id": "3c5cade2-cea0-4d3e-898d-a9656bf6512e",
+    "name": "Audio Sensations",
+    "slug": "audio-sensations"
+  },
+  {
+    "id": "9b6a943f-705d-4e42-bb32-ea0786d8a34b",
+    "name": "George's Music",
+    "slug": "georges-music"
+  },
+  {
+    "id": "fc520f6e-b128-4aae-9c1f-09d2f24ec972",
+    "name": "Keystone Music Supply",
+    "slug": "keystone-music-supply"
+  },
+  {
+    "id": "400a7652-4817-4c9b-ad7e-b43a7751d797",
+    "name": "Geo's Music",
+    "slug": "geos-music"
+  },
+  {
+    "id": "c88924bb-bf66-4797-8d47-6773634e5ed1",
+    "name": "State Street Records",
+    "slug": "state-street-records"
+  },
+  {
+    "id": "6ec93ae3-684e-4d99-8fe0-fed78e1d7a9e",
+    "name": "Love the Arts! Music",
+    "slug": "love-the-arts-music"
+  },
+  {
+    "id": "0138e021-8ba8-4969-891a-28df9699be20",
+    "name": "Keystone Music and Repair",
+    "slug": "keystone-music-and-repair"
+  },
+  {
+    "id": "46439e87-79b5-4937-9c52-aceb74706db3",
+    "name": "Pa Dave's Vinyl Decals",
+    "slug": "pa-daves-vinyl-decals"
+  },
+  {
+    "id": "598aedd1-3145-4273-a409-63e29e0e29cd",
+    "name": "Fat Hippy Records",
+    "slug": "fat-hippy-records"
+  },
+  {
+    "id": "ace5c3ee-da01-45a4-bd33-112aefb4f69d",
+    "name": "Nu Flav Records",
+    "slug": "nu-flav-records"
+  },
+  {
+    "id": "c6f416af-14bb-42d0-9d2a-62dff5b2697c",
+    "name": "Honey House Records",
+    "slug": "honey-house-records"
+  },
+  {
+    "id": "9c57e3b1-9d5c-4eb6-a0dc-532d28cafd9b",
+    "name": "JERRY B GOODE MUSIC LLC",
+    "slug": "jerry-b-goode-music-llc"
+  },
+  {
+    "id": "270ab7fc-72f2-4aea-82a3-059ac4b8b722",
+    "name": "Ever After Gifts (formerly SJM Vinyl Creations)",
+    "slug": "ever-after-gifts-formerly-sjm-vinyl-creations"
+  },
+  {
+    "id": "0521274e-2161-489f-83ed-0ca3abcf54a1",
+    "name": "Record Club of America",
+    "slug": "record-club-of-america"
+  },
+  {
+    "id": "301e85d1-6de7-4807-a2d3-de8d47c3189b",
+    "name": "AMH Records",
+    "slug": "amh-records"
+  },
+  {
+    "id": "51b2e20c-b359-49b3-9b39-6a9c07223876",
+    "name": "Salamander Books and Records",
+    "slug": "salamander-books-and-records"
+  },
+  {
+    "id": "8d65a61f-0280-4578-9953-3bf06b58fc6b",
+    "name": "milky way music",
+    "slug": "milky-way-music"
+  },
+  {
+    "id": "b0402b70-9d00-4e2e-a0c9-750e45e291c4",
+    "name": "Musical Intervals",
+    "slug": "musical-intervals"
+  },
+  {
+    "id": "6b37dc5e-3080-47c4-b372-31957f87c320",
+    "name": "Falcon Records",
+    "slug": "falcon-records"
+  },
+  {
+    "id": "a7598995-811c-4ad8-9793-03ec456821f6",
+    "name": "Dean Sapp's Music Store",
+    "slug": "dean-sapps-music-store"
+  },
+  {
+    "id": "2b959b02-6458-429f-81d3-023cf3dd0050",
+    "name": "Stardrive Records",
+    "slug": "stardrive-records"
+  },
+  {
+    "id": "3b59741d-7aab-4df1-948e-66fe110e1380",
+    "name": "nebby Records",
+    "slug": "nebby-records"
+  },
+  {
+    "id": "c1e1dcc0-0123-4cfd-9656-de411a28abdb",
+    "name": "Mc Gonigal's Music Studio",
+    "slug": "mc-gonigals-music-studio"
+  },
+  {
+    "id": "525f6749-5eca-4f13-9c34-f3b0aea240af",
+    "name": "Electric Avenue Music",
+    "slug": "electric-avenue-music"
+  },
+  {
+    "id": "6d022496-444f-4898-b841-6747cacd6b61",
+    "name": "Fretz Music Center",
+    "slug": "fretz-music-center"
+  },
+  {
+    "id": "21b77dbb-8eee-4cb3-98f2-bbd99088af67",
+    "name": "Siren Records",
+    "slug": "siren-records"
+  },
+  {
+    "id": "bde751a5-4a48-45e6-8844-e3e17a00d076",
+    "name": "VINYL",
+    "slug": "vinyl"
+  },
+  {
+    "id": "46926fc4-385b-4553-8528-93b787c7e441",
+    "name": "Rock Street Music",
+    "slug": "rock-street-music"
+  },
+  {
+    "id": "95861f1e-09c5-423c-b855-806b313452bd",
+    "name": "Attic Record Store Inc",
+    "slug": "attic-record-store-inc"
+  },
+  {
+    "id": "c078d1bb-abe9-4b95-a772-b0de45728ff3",
+    "name": "The Music Scene",
+    "slug": "the-music-scene"
+  },
+  {
+    "id": "086e9729-9660-44bc-8ff3-4ee84b19812a",
+    "name": "Manic Music & Distribution",
+    "slug": "manic-music-and-distribution"
+  },
+  {
+    "id": "b53dc621-d50c-4510-8caa-f3d2f7e76603",
+    "name": "Sweet Repeat Records",
+    "slug": "sweet-repeat-records"
+  },
+  {
+    "id": "873ea8d4-4696-4070-ad5d-514120096f7d",
+    "name": "Vinyl Chickie",
+    "slug": "vinyl-chickie"
+  },
+  {
+    "id": "86d4d9d6-6d23-4edc-8eea-4607cc280a50",
+    "name": "Matones Music",
+    "slug": "matones-music"
+  },
+  {
+    "id": "0c2645fb-977b-404c-bd14-46b6932704fc",
+    "name": "Olympic Records",
+    "slug": "olympic-records"
+  },
+  {
+    "id": "a79585a2-0176-4694-bb82-0dd752deb488",
+    "name": "SOOK Vinyl & Vintage",
+    "slug": "sook-vinyl-and-vintage"
+  },
+  {
+    "id": "dd81fd2c-b944-48bb-b2df-8b554dcee6fd",
+    "name": "Rotation Records LLC",
+    "slug": "rotation-records-llc"
+  },
+  {
+    "id": "b637fdad-3da5-4027-b0a9-48e1f163abc8",
+    "name": "Round Again Records",
+    "slug": "round-again-records"
+  },
+  {
+    "id": "6f70c5d6-7791-4ad3-b37c-aa9090139c1f",
+    "name": "Bah-Fo Studio - Recording",
+    "slug": "bah-fo-studio-recording"
+  },
+  {
+    "id": "2497ac6c-928d-40ed-9cd0-389d9d8ff6af",
+    "name": "Jupiter Records",
+    "slug": "jupiter-records"
+  },
+  {
+    "id": "103e9566-4261-4d66-9933-46ef82e2b84f",
+    "name": "Creative Ventures Music, Inc",
+    "slug": "creative-ventures-music-inc"
+  },
+  {
+    "id": "62cc1951-9fe7-4cba-9087-8b8d8163259a",
+    "name": "Frankmusic & Custom Box",
+    "slug": "frankmusic-and-custom-box"
+  },
+  {
+    "id": "1686d971-fdf1-44c6-a3ad-81fdfa653705",
+    "name": "Impact Music Studio & Videos",
+    "slug": "impact-music-studio-and-videos"
+  },
+  {
+    "id": "b2ba9a7f-48e6-481e-a309-979ee1a664b4",
+    "name": "Jack's Discount Videos",
+    "slug": "jacks-discount-videos"
+  },
+  {
+    "id": "236e49ad-5b04-43b8-9df3-d0c67365187f",
+    "name": "Gratitude Records",
+    "slug": "gratitude-records"
+  },
+  {
+    "id": "d263cd40-2837-4efa-9b0b-7ba0c7a229a0",
+    "name": "Music Showcase",
+    "slug": "music-showcase"
+  },
+  {
+    "id": "4fd63d3a-e964-40b6-bf26-0d5acff4626c",
+    "name": "Mojomala Books, Records & Cool Stuff",
+    "slug": "mojomala-books-records-and-cool-stuff"
+  },
+  {
+    "id": "7e9fa1c9-2566-4fac-bb01-3a763e692ad2",
+    "name": "Groove Gallery and Records",
+    "slug": "groove-gallery-and-records_pittsburgh_pennsylvania"
+  },
+  {
+    "id": "8eca401c-3c8b-42ca-b82f-fecf34b1ec13",
+    "name": "Fungus Books & Records",
+    "slug": "fungus-books-records_pittsburgh_pennsylvania"
+  },
+  {
+    "id": "19c34642-7695-4ccc-9d6f-34793f0a5899",
+    "name": "Book and Mortar Record Store",
+    "slug": "book-and-mortar-record-store_pittsburgh_pennsylvania"
+  },
+  {
+    "id": "df72f944-70ca-497d-abdc-0c5effe1cf49",
+    "name": "The Ford Music Center",
+    "slug": "the-ford-music-center"
+  },
+  {
+    "id": "bb806022-df94-4ddb-8f15-4d08cc997f79",
+    "name": "Ren's Music Studio",
+    "slug": "rens-music-studio"
+  },
+  {
+    "id": "2ad70797-2232-422d-b6cf-b5fd571cd079",
+    "name": "Joe's Record Paradise",
+    "slug": "joes-record-paradise"
+  },
+  {
+    "id": "c2e5f7d2-1f27-4c46-ab71-a49970207110",
+    "name": "Amazing Books & Records",
+    "slug": "amazing-books-records_pittsburgh_pennsylvania"
+  },
+  {
+    "id": "6d3b83e3-71be-440c-bf53-6afb68694bd6",
+    "name": "BEK Hifi",
+    "slug": "bek-hifi_allentown_pennsylvania"
+  },
+  {
+    "id": "3c798ee2-335b-4f4f-84f2-a2d52d957c55",
+    "name": "Graham's Used Records Tapes",
+    "slug": "grahams-used-records-tapes_erie_pennsylvania"
+  },
+  {
+    "id": "69eb5358-dc04-4939-b0b2-2b4ec195f344",
+    "name": "Russo Music Philadelphia",
+    "slug": "russo-music-philadelphia_media_pennsylvania"
+  },
+  {
+    "id": "38da76ea-60f0-4620-a601-eacba51a695e",
+    "name": "Orange: Coffee. Art. Music.",
+    "slug": "orange-coffee-art-music"
+  },
+  {
+    "id": "6683faa3-a0ed-4a98-9ba7-4a495b79f054",
+    "name": "Quest World Music",
+    "slug": "quest-world-music_allentown_pennsylvania"
+  },
+  {
+    "id": "30926338-ecea-4469-9d22-ccadfb51e020",
+    "name": "Embassy Vinyl",
+    "slug": "embassy-vinyl_scranton_pennsylvania"
+  },
+  {
+    "id": "8bbbb69d-20e4-42ca-9037-9573af202032",
+    "name": "Fast Kill Records, LLC",
+    "slug": "fast-kill-records-llc_media_pennsylvania"
+  },
+  {
+    "id": "42fb23d2-e05f-4587-9cde-f40d50a2d89a",
+    "name": "Rick Emery's Mainline Music",
+    "slug": "rick-emerys-mainline-music_ardmore_pennsylvania"
+  },
+  {
+    "id": "de2c0179-f3ff-4ca1-8660-1462a637fc31",
+    "name": "Blubaugh's Music",
+    "slug": "blubaughs-music"
+  },
+  {
+    "id": "62028be7-5788-4d11-9780-d47c9c13c7bc",
+    "name": "Musicians' Electronic Services",
+    "slug": "musicians-electronic-services_ardmore_pennsylvania"
+  },
+  {
+    "id": "bd507769-0986-4129-a71f-0c1274436487",
+    "name": "Gold Million Records",
+    "slug": "gold-million-records_ardmore_pennsylvania"
+  },
+  {
+    "id": "783b3db3-06a9-4c3c-8702-6fb5172acb27",
+    "name": "Morpheus Music",
+    "slug": "morpheus-music_stroudsburg_pennsylvania"
+  },
+  {
+    "id": "f941129e-467f-4fe8-aeb0-c88c71c9239d",
+    "name": "Hub City Vinyl",
+    "slug": "hub-city-vinyl_chambersburg_pennsylvania"
+  },
+  {
+    "id": "ab31c524-6ff8-4d60-85de-4cc75032c5c4",
+    "name": "Somerset Discount Store",
+    "slug": "somerset-discount-store"
+  },
+  {
+    "id": "11bf4445-16d7-4b7d-bb95-e47fc9a982c8",
+    "name": "Liberty Records",
+    "slug": "liberty-records_lansdale_pennsylvania"
+  },
+  {
+    "id": "d1414e9f-d71f-432d-9b50-eee38bb290aa",
+    "name": "Morris Music",
+    "slug": "morris-music_chambersburg_pennsylvania"
+  },
+  {
+    "id": "a6f224b1-6083-4de4-9545-83d33051d1ee",
+    "name": "Sweet Repeat Records Gettysburg",
+    "slug": "sweet-repeat-records-gettysburg_chambersburg_pennsylvania"
+  },
+  {
+    "id": "d2df84e7-fc72-4705-b002-6f5467fc40d7",
+    "name": "The Head - Vinyl Records",
+    "slug": "the-head-vinyl-records_chambersburg_pennsylvania"
+  },
+  {
+    "id": "221fed75-99ac-48f9-a31a-a952f747b3e6",
+    "name": "Central Penn Music",
+    "slug": "central-penn-music_hershey_pennsylvania"
+  },
+  {
+    "id": "f8b6f2a9-e6ca-4597-b567-72000230f591",
+    "name": "Cumberland Valley School of Music",
+    "slug": "cumberland-valley-school-of-music_chambersburg_pennsylvania"
+  },
+  {
+    "id": "662108e9-b94b-4f7d-8d62-72282cdb2c6d",
+    "name": "Loser's Music, Inc.",
+    "slug": "losers-music-inc_lebanon_pennsylvania"
+  },
+  {
+    "id": "7b792837-01c8-4224-9498-6f6725ffe0e9",
+    "name": "CD Warehouse",
+    "slug": "cd-warehouse_greensburg_pennsylvania"
+  },
+  {
+    "id": "c03a65ea-32bd-4d2a-9991-f4486ceb6b3e",
+    "name": "Back Street Records",
+    "slug": "back-street-records_indiana_pennsylvania"
+  },
+  {
+    "id": "7ad70604-6e73-49cd-9fb3-4653a81123c4",
+    "name": "Preserving Vinyl",
+    "slug": "preserving-vinyl_new-castle_pennsylvania"
+  },
+  {
+    "id": "4decc97d-a1b1-408d-b495-d867e911c336",
+    "name": "Rabbit Hole Records Greensburg",
+    "slug": "rabbit-hole-records-greensburg_greensburg_pennsylvania"
+  },
+  {
+    "id": "1d33b113-46db-4c05-b7c0-d9a5ab97fb98",
+    "name": "Treasure Hunt Records and Collectibles",
+    "slug": "treasure-hunt-records-and-collectibles_new-castle_pennsylvania"
+  },
+  {
+    "id": "cab95fd3-b8c0-4336-a6cc-9b35530e5c22",
+    "name": "Reindeer Music",
+    "slug": "reindeer-music_cranberry-township_pennsylvania"
+  },
+  {
+    "id": "ab70a181-31a1-4520-9ae6-abb4c9b0eb43",
+    "name": "Music Mart",
+    "slug": "music-mart_state-college_pennsylvania"
+  },
+  {
+    "id": "dea013e3-0654-4104-8f30-02c98e0676d2",
+    "name": "Rock's Vintage Vinyl Record Shop",
+    "slug": "rocks-vintage-vinyl-record-shop_williamsport_pennsylvania"
+  },
+  {
+    "id": "095a53bb-8c35-46dd-850e-2d286a5a905c",
+    "name": "Carbon County Music & More",
+    "slug": "carbon-county-music-more_hazleton_pennsylvania"
+  },
+  {
+    "id": "a82f870c-d38c-4531-bc91-71bac6277451",
+    "name": "Bachman Music",
+    "slug": "bachman-music_boyertown_pennsylvania"
+  },
+  {
+    "id": "c785773d-7e83-408b-9fb0-19d809333a9f",
+    "name": "Stereo Stereo",
+    "slug": "stereo-stereo_cranberry-township_pennsylvania"
+  },
+  {
+    "id": "4aa507d7-323d-4441-8da3-0f7917108951",
+    "name": "K & S Music Center LLC",
+    "slug": "k-s-music-center-llc_williamsport_pennsylvania"
+  },
+  {
+    "id": "6890b7bb-79fb-4889-916b-1fa79fae4975",
+    "name": "Johnny Moratto's Music",
+    "slug": "johnny-morattos-music_hazleton_pennsylvania"
+  },
+  {
+    "id": "4ddbd6a1-21c4-4e61-b696-04476b7f1727",
+    "name": "Rattail Records",
+    "slug": "rattail-records_kutztown_pennsylvania"
+  },
+  {
+    "id": "daf96bfc-9900-404f-b897-e08715bd46ca",
+    "name": "Sean Carey Music LLC",
+    "slug": "sean-carey-music-llc_oil-city_pennsylvania"
+  },
+  {
+    "id": "01d559c2-ce49-4fb3-8d22-729995e85c2e",
+    "name": "The Caldwells Music Store",
+    "slug": "the-caldwells-music-store_altoona_pennsylvania"
+  },
+  {
+    "id": "c1f387f3-d5e0-4673-bf0c-306e1ac54fd0",
+    "name": "Foltin's Music Center",
+    "slug": "foltins-music-center_pottsville_pennsylvania"
+  },
+  {
+    "id": "41f54066-91b7-493a-ac77-737f91176a90",
+    "name": "Electric Mayhem Records",
+    "slug": "electric-mayhem-records_kennett-square_pennsylvania"
+  },
+  {
+    "id": "5377befc-9a05-42d5-8e25-8cf4e9fab6d1",
+    "name": "Sound Genius Recordings",
+    "slug": "sound-genius-recordings_jenkintown_pennsylvania"
+  },
+  {
+    "id": "c41b2e9b-292f-43f4-baf2-1cd78bda496a",
+    "name": "Studio 4 Recording",
+    "slug": "studio-4-recording_conshohocken_pennsylvania"
+  },
+  {
+    "id": "0d2535dc-94bf-4521-ba7a-c3e2e380c8fe",
+    "name": "The HiFi Attic",
+    "slug": "the-hifi-attic_kennett-square_pennsylvania"
+  },
+  {
+    "id": "7ca4b8d9-d952-4005-b1e4-9e5041d28295",
+    "name": "Philly JAM Recording",
+    "slug": "philly-jam-recording_jenkintown_pennsylvania"
+  },
+  {
+    "id": "e6af34ca-748a-4bd5-b0a4-2915af00c635",
+    "name": "Evidence Music Inc",
+    "slug": "evidence-music-inc_conshohocken_pennsylvania"
+  },
+  {
+    "id": "1490edaa-bc3c-45df-b8ad-c164e870d235",
+    "name": "Mom's Basement Records",
+    "slug": "moms-basement-records"
+  },
+  {
+    "id": "b864a90a-8972-430c-b753-c559185bba77",
+    "name": "Play Alone Records",
+    "slug": "play-alone-records_pittsburgh_pennsylvania"
+  },
+  {
+    "id": "4fd1bbcb-b0e3-4608-8640-1b3a99133ae9",
+    "name": "Music & Arts",
+    "slug": "music-arts_ardmore_pennsylvania"
+  },
+  {
+    "id": "1ed58475-d4e0-4af0-b41c-d306a7a85cd4",
+    "name": "Musical Energi",
+    "slug": "musical-energi"
+  },
+  {
+    "id": "fc1f6e5f-01be-46c0-9169-2c9c01f55d0f",
+    "name": "Experience Vinyl",
+    "slug": "experience-vinyl"
+  },
+  {
+    "id": "01477cdb-f82e-48ca-9d82-e80a66e8044b",
+    "name": "Play It Again Records",
+    "slug": "play-it-again-records"
+  },
+  {
+    "id": "4b293b0f-772a-4b2f-90be-2be284d5d0d2",
+    "name": "Funkadelphia Record Distribution",
+    "slug": "funkadelphia-record-distribution_ardmore_pennsylvania"
+  },
+  {
+    "id": "e1bf7b59-638f-4760-9eac-9d4e1a49a4ae",
+    "name": "Authors Books & Music",
+    "slug": "authors-books-music_warren_pennsylvania"
+  }
+]

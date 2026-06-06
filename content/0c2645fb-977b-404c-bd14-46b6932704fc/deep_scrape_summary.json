@@ -1,0 +1,38 @@
+{
+  "shopId": "0c2645fb-977b-404c-bd14-46b6932704fc",
+  "shopName": "Olympic Records",
+  "city": "Providence",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T20:12:41.991Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.0s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "21.4s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "17.4s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T20:13:45.273Z"
+}

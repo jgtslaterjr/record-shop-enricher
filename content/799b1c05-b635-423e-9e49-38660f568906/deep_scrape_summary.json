@@ -1,0 +1,38 @@
+{
+  "shopId": "799b1c05-b635-423e-9e49-38660f568906",
+  "shopName": "Spiders From Mars Record Shop",
+  "city": "Ambridge",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-18T15:27:56.243Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "5.9s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.8s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "20.0s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "27.8s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "33.7s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "32.6s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-18T15:30:21.766Z"
+}

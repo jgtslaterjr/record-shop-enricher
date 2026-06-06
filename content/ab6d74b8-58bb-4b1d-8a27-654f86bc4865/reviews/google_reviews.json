@@ -1,0 +1,20 @@
+{
+  "name": "Homer & Forkie’s Record Store",
+  "rating": null,
+  "reviewCount": null,
+  "address": "312 Gernants Church Rd building one, Leesport, PA 19533",
+  "phone": "(484) 663-3829",
+  "website": null,
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/homer-and-forkie-s-record-store/1771429425566_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Homer+%26+Forkie%E2%80%99s+Record+Store/@40.4545892,-75.9731392,17z/data=!3m1!4b1!4m6!3m5!1s0x89c5d922d2de4541:0x2b91511c17cb105!8m2!3d40.4545892!4d-75.9705643!16s%2Fg%2F11wqb997wv?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T15:44:00.104Z"
+}

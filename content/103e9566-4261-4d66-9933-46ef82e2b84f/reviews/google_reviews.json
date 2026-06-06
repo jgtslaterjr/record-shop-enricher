@@ -1,0 +1,20 @@
+{
+  "name": "Creative Ventures Music, Inc",
+  "rating": null,
+  "reviewCount": null,
+  "address": "218 Lenoir Ave, Wayne, PA 19087",
+  "phone": "(610) 745-7278",
+  "website": "http://www.creativeventuresmusic.com/",
+  "hours": {},
+  "categories": [
+    "Musician"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/creative-ventures-music-inc/1771532399689_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Creative+Ventures+Music,+Inc/@40.0425598,-75.3966118,17z/data=!3m1!4b1!4m6!3m5!1s0x89c694dbca3f2961:0xdbe3cd6d3ef43f5f!8m2!3d40.0425598!4d-75.3940369!16s%2Fg%2F1tddt49_?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T20:19:59.850Z"
+}

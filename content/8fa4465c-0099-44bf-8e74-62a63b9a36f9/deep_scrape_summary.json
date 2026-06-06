@@ -1,0 +1,38 @@
+{
+  "shopId": "8fa4465c-0099-44bf-8e74-62a63b9a36f9",
+  "shopName": "Deluca Music Co",
+  "city": "Hatboro",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:45:10.657Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "2.6s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "21.5s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "19.3s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:46:16.794Z"
+}

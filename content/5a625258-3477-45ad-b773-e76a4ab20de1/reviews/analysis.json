@@ -1,0 +1,18 @@
+{
+  "raw_summary": "```json\n{\n  \"review_score\": 9.1,\n  \"review_vibe\": \"Get Hip Records is a passion project turned physical institution — a record label, distributor, and brick-and-mortar store all rolled into one eclectic Chateau/North Side Pittsburgh destination. Founded by a musician who simply couldn't stop accumulating records, the shop radiates the energy of a lifelong collector who genuinely wants to share the obsession, with live concerts, a welcoming owner spinning tunes behind the counter, and a 'get hip or get lost' attitude that never feels exclusionary. It's the kind of place where the party never really stops — yoga classes, Friday night shows, and a staff made up of actual working musicians give it a community hub feel that most record stores can only aspire to.\",\n  \"review_pros\": [\n    \"Exceptional genre breadth and selection depth: the store stocks thousands of records spanning garage, punk, soul, pop, doo-wop, rock 'n' roll, jazz, blues, reggae, rockabilly, and more — with founder Kostelich explicitly refusing to turn his back on any genre (per the opening press coverage). One Loc8NearMe reviewer confirmed: 'Great selection of every genre.'\",\n    \"Impeccably organized and well-maintained inventory: Multiple reviewers specifically call out the clean, neat presentation. The Loc8NearMe reviewer noted 'Everything was in great shape and neatly presented. It was very easy to find everything,' and Wheree.com aggregates praise for the store's 'organized layout which makes finding items easier.'\",\n    \"Warm, knowledgeable, and music-obsessed staff: A Yelp reviewer noted the owner was personally 'spinning tunes' and described him as 'really nice and very friendly.' Wheree.com highlights 'knowledgeable staff' and a 'welcoming environment that encourages exploration.' Staff notably includes Zack Keim (lead singer of Get Hip band the Nox Boys) and manager Geoff Leamon (former owner of Left of the Dial Records in Santa Ana, CA) — serious vinyl credentials.\",\n    \"Unique triple iden",
+  "metadata": {
+    "sources": {
+      "yelp": 1,
+      "google": 63,
+      "facebook": 35,
+      "reddit": 3,
+      "wheree": true,
+      "user": 0,
+      "press": 5,
+      "discogs": 0,
+      "website": 0
+    },
+    "totalReviewsAnalyzed": 99,
+    "analyzedAt": "2026-02-25T16:11:44.344Z"
+  }
+}

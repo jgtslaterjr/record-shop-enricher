@@ -1,0 +1,20 @@
+{
+  "name": "Madhouse Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "4 Rockbourne Rd Floor 3, Clifton Heights, PA 19018",
+  "phone": "(484) 224-6536",
+  "website": "http://www.madhouserecs.com/",
+  "hours": {},
+  "categories": [
+    "Recording studio"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/madhouse-records/1771521335741_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Madhouse+Records/@39.9320304,-75.2957571,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6c32f3fdd51b3:0x4a1b1e13ca80fc2!8m2!3d39.9320304!4d-75.2931822!16s%2Fg%2F11swt8zmcx?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T17:15:48.551Z"
+}

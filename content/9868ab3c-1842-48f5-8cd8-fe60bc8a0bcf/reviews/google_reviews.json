@@ -1,0 +1,20 @@
+{
+  "name": "Vertigo Music Trade",
+  "rating": null,
+  "reviewCount": null,
+  "address": "449 Penn Ave, West Reading, PA 19611",
+  "phone": "(610) 320-9927",
+  "website": "https://www.discogs.com/seller/VertigoMusic449",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/vertigo-music-trade/1771428955567_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Vertigo+Music+Trade/@40.3358064,-75.9500917,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6712a6b0aa703:0x5640085ce4aba37d!8m2!3d40.3358064!4d-75.9475168!16s%2Fg%2F1tczfv_d?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T15:35:55.781Z"
+}

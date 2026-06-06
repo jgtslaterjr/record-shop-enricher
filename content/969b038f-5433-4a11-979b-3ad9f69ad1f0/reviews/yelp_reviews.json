@@ -1,0 +1,22 @@
+{
+  "name": "AV Xing",
+  "rating": null,
+  "reviewCount": null,
+  "phone": "(724) 496-5969",
+  "address": "301 Evans City Rd",
+  "city": "Butler",
+  "state": "PA",
+  "zip": "16001",
+  "website": "http://www.avxing.net/location.html",
+  "hours": null,
+  "priceRange": null,
+  "categories": [],
+  "photos": [],
+  "amenities": null,
+  "specialties": null,
+  "reviews": [],
+  "highlights": [],
+  "yelpUrl": "https://www.yelp.com/biz/av-xing-butler",
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T15:33:44.477Z"
+}

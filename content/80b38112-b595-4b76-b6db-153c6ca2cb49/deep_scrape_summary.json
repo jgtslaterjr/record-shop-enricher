@@ -1,0 +1,38 @@
+{
+  "shopId": "80b38112-b595-4b76-b6db-153c6ca2cb49",
+  "shopName": "Coyle's Richboro Music",
+  "city": "Lower Southampton",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T16:45:25.651Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.3s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.6s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "20.4s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "18.5s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T16:46:28.811Z"
+}

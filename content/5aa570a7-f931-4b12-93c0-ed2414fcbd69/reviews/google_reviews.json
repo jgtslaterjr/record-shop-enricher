@@ -1,0 +1,20 @@
+{
+  "name": "Moonrocket Vinyl Record Store",
+  "rating": null,
+  "reviewCount": null,
+  "address": "101 Washington St, Morrisville, PA 19067",
+  "phone": "(267) 756-3560",
+  "website": "https://www.instagram.com/moonrocket_vinyl",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/moonrocket-vinyl-record-store/1771509121239_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Moonrocket+Vinyl+Record+Store/@40.2077757,-74.7767812,17z/data=!3m1!4b1!4m6!3m5!1s0x89c159a4cc093f9b:0xa6847977de4c2b4!8m2!3d40.2077757!4d-74.7742063!16s%2Fg%2F11x5pkhrwm?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:52:01.574Z"
+}

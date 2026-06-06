@@ -1,0 +1,20 @@
+{
+  "name": "Chuck's R.I.P. Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "237 W 8th St, Waynesboro, PA 17268",
+  "phone": "(717) 762-6901",
+  "website": "https://m.facebook.com/chucksriprecords/",
+  "hours": {},
+  "categories": [
+    "CD store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/chucks-r-i-p-records/1771518053800_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Chuck's+R.I.P.+Records/@39.7473083,-77.5927227,17z/data=!3m1!4b1!4m6!3m5!1s0x89c996415eec3797:0xf0a1406846440b29!8m2!3d39.7473083!4d-77.5901478!16s%2Fg%2F11b7c60p1w?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T16:21:06.301Z"
+}

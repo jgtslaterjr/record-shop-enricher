@@ -1,0 +1,38 @@
+{
+  "shopId": "46926fc4-385b-4553-8528-93b787c7e441",
+  "shopName": "Rock Street Music",
+  "city": "Pittston",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T20:01:42.764Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.3s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.3s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "22.3s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "19.9s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.3s"
+    }
+  },
+  "completedAt": "2026-02-19T20:02:47.647Z"
+}

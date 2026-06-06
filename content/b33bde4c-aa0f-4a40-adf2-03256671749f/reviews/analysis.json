@@ -1,0 +1,48 @@
+{
+  "sentiment_score": 8,
+  "key_themes": [
+    "hidden gems",
+    "knowledgeable staff",
+    "small but curated selection",
+    "cash-only store",
+    "community-focused"
+  ],
+  "pros": [
+    "Knowledgeable and passionate owner (Chuck)",
+    "Variety of rare and obscure titles",
+    "Small but carefully curated selection",
+    "Friendly and welcoming atmosphere"
+  ],
+  "cons": [
+    "Cash-only policy might be off-putting for some customers",
+    "Limited seating or display space can make browsing challenging",
+    "Selection may not cater to every customer's interests",
+    "Store is small and might feel cramped for large groups or shoppers with a lot of bags"
+  ],
+  "notable_quotes": {
+    "best": "If vinyl record stores were like sex, this place would be the Kama Sutra.",
+    "worst": "What year is it in PA? 1983?",
+    "funniest": "RIP means REALLY IMPORTANT PLACE!"
+  },
+  "vibe_description": "Chuck's R.I.P. Records has a cozy and welcoming atmosphere, perfect for music enthusiasts looking for rare finds or just browsing through a curated selection of vinyl and CDs.",
+  "genre_specialties": [
+    "jazz",
+    "blues",
+    "rock",
+    "psych"
+  ],
+  "staff_mentions": "Reviewers consistently praise Chuck's knowledgeability, friendliness, and passion for records, making him an integral part of the shopping experience.",
+  "event_mentions": [],
+  "recommendation_for": "music enthusiasts, collectors, and fans of rare vinyl and CDs, particularly those interested in jazz, blues, rock, and psych genres.",
+  "metadata": {
+    "totalReviews": 6,
+    "yelpReviews": 6,
+    "googleReviews": 0,
+    "averageRating": 4.67,
+    "ratingDistribution": {
+      "3": 1,
+      "5": 5
+    },
+    "analyzedAt": "2026-02-19T16:22:37.176Z"
+  }
+}

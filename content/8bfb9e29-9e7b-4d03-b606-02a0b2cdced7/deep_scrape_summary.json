@@ -1,0 +1,38 @@
+{
+  "shopId": "8bfb9e29-9e7b-4d03-b606-02a0b2cdced7",
+  "shopName": "Magdon Music",
+  "city": "Archbald",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:24:57.257Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "4.8s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.9s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "24.5s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "8.5s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "5.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "31.5s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:26:36.872Z"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Preserving Record Shop",
+  "rating": null,
+  "reviewCount": null,
+  "address": "1101 5th Ave, New Kensington, PA 15068",
+  "phone": "(724) 980-5170",
+  "website": "http://www.preservingrecordshop.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/preserving-record-shop/1771428081460_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Preserving+Record+Shop/@40.5684233,-79.7688342,17z/data=!3m1!4b1!4m6!3m5!1s0x8834956f48b0a5a1:0x189d01cb7c15fe80!8m2!3d40.5684233!4d-79.7662593!16s%2Fg%2F11h1ltc94x?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T15:21:34.261Z"
+}

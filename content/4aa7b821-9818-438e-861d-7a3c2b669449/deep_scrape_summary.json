@@ -1,0 +1,38 @@
+{
+  "shopId": "4aa7b821-9818-438e-861d-7a3c2b669449",
+  "shopName": "SqueezeBox Records",
+  "city": "Camp Hill",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T16:46:37.037Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "2.8s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "25.7s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "18.6s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.3s"
+    }
+  },
+  "completedAt": "2026-02-19T16:47:47.507Z"
+}

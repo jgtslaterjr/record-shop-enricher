@@ -1,0 +1,20 @@
+{
+  "name": "CI Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "112 W Orange St, Lancaster, PA 17603",
+  "phone": "(717) 391-7865",
+  "website": "https://www.cirecords.com/",
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/ci-records/1771520199907_google.png"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/CI+Records/@40.0391049,-76.8852907,10z/data=!4m10!1m2!2m1!1sCI+Records+record+store+Carroll+Township+Pennsylvania!3m6!1s0x89c624f2527ac1c9:0xfff6beccc8d93530!8m2!3d40.0391049!4d-76.3085085!15sCjVDSSBSZWNvcmRzIHJlY29yZCBzdG9yZSBDYXJyb2xsIFRvd25zaGlwIFBlbm5zeWx2YW5pYVo3IjVjaSByZWNvcmRzIHJlY29yZCBzdG9yZSBjYXJyb2xsIHRvd25zaGlwIHBlbm5zeWx2YW5pYZIBC211c2ljX3N0b3JlmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5pYkVwTWJHTjNFQUXgAQD6AQQIABAs!16s%2Fg%2F11c5hyghpk?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T16:56:40.143Z"
+}

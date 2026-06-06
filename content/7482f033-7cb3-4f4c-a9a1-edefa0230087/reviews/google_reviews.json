@@ -1,0 +1,20 @@
+{
+  "name": "Bulldog Brothers Racing & Vinyl Shop",
+  "rating": null,
+  "reviewCount": null,
+  "address": "5140 Oley Turnpike Rd, Reading, PA 19606",
+  "phone": "(570) 877-1051",
+  "website": null,
+  "hours": {},
+  "categories": [
+    "Motorcycle repair shop"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/bulldog-brothers-racing-and-vinyl-shop/1771451045603_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Bulldog+Brothers+Racing+%26+Vinyl+Shop/@40.3344294,-75.8352674,17z/data=!3m1!4b1!4m6!3m5!1s0x89c679f41f960bd7:0x50f1d891686a30c4!8m2!3d40.3344294!4d-75.8326925!16s%2Fg%2F11rxp2x9l6?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T21:44:18.563Z"
+}

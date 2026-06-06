@@ -1,0 +1,106 @@
+{
+  "shop": {
+    "id": "562e0fee-8174-4200-9d21-2c212f0aa0c2",
+    "name": "Clemmer Music Inc",
+    "city": "Lower Salford",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Clemmer Music Inc Lower Salford Pennsylvania record store",
+    "Clemmer Music Inc Lower Salford instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T16:32:59.042Z",
+  "links": [
+    {
+      "category": "website",
+      "url": "https://clemmermusic.com/"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/telford/musical-instrument-store/2001911939-clemmer-music-inc",
+      "domain": "chamberofcommerce.com"
+    },
+    {
+      "category": "website",
+      "url": "https://businessyab.com/explore/united_states/pennsylvania/montgomery_county/franconia_township/telford/harleysville_pike/764/clemmer_music_inc.html"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.loc8nearme.com/pennsylvania/telford/clemmer-music-inc/3198031/",
+      "domain": "loc8nearme.com"
+    },
+    {
+      "category": "yelp",
+      "url": "https://www.yelp.com/biz/clemmer-music-telford"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.yellowpages.com/telford-pa/mip/clemmer-music-inc-4095795",
+      "domain": "yellowpages.com"
+    },
+    {
+      "category": "website",
+      "url": "https://local.yahoo.com/info-12301365-clemmer-music-telford/"
+    },
+    {
+      "category": "website",
+      "url": "https://start.cortera.com/company/research/k5q2rsm3r/clemmer-music/"
+    },
+    {
+      "category": "website",
+      "url": "https://www.locally.com/store/347448/clemmer-music-inc"
+    }
+  ],
+  "byCategory": {
+    "website": [
+      {
+        "category": "website",
+        "url": "https://clemmermusic.com/"
+      },
+      {
+        "category": "website",
+        "url": "https://businessyab.com/explore/united_states/pennsylvania/montgomery_county/franconia_township/telford/harleysville_pike/764/clemmer_music_inc.html"
+      },
+      {
+        "category": "website",
+        "url": "https://local.yahoo.com/info-12301365-clemmer-music-telford/"
+      },
+      {
+        "category": "website",
+        "url": "https://start.cortera.com/company/research/k5q2rsm3r/clemmer-music/"
+      },
+      {
+        "category": "website",
+        "url": "https://www.locally.com/store/347448/clemmer-music-inc"
+      }
+    ],
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/telford/musical-instrument-store/2001911939-clemmer-music-inc",
+        "domain": "chamberofcommerce.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.loc8nearme.com/pennsylvania/telford/clemmer-music-inc/3198031/",
+        "domain": "loc8nearme.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.yellowpages.com/telford-pa/mip/clemmer-music-inc-4095795",
+        "domain": "yellowpages.com"
+      }
+    ],
+    "yelp": [
+      {
+        "category": "yelp",
+        "url": "https://www.yelp.com/biz/clemmer-music-telford"
+      }
+    ]
+  },
+  "updates": {
+    "yelp_url": "https://www.yelp.com/biz/clemmer-music-telford",
+    "website": "https://clemmermusic.com/"
+  },
+  "skipped": {}
+}

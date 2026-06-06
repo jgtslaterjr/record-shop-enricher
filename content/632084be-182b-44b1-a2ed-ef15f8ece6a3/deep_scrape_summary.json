@@ -1,0 +1,38 @@
+{
+  "shopId": "632084be-182b-44b1-a2ed-ef15f8ece6a3",
+  "shopName": "Elite Audio Records",
+  "city": "Kingston Township",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T14:11:30.358Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.4s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "21.8s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "21.0s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.3s"
+    }
+  },
+  "completedAt": "2026-02-19T14:12:38.966Z"
+}

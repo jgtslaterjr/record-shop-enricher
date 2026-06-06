@@ -1,0 +1,38 @@
+{
+  "shopId": "4b16e479-581f-424e-a10c-73fe505d8226",
+  "shopName": "Audio-Visual: Unlimited Studios",
+  "city": "Hanover Township",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:41:00.213Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.7s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "52.7s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "19.9s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:42:33.870Z"
+}

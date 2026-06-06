@@ -1,0 +1,20 @@
+{
+  "name": "Raystown Music and Aquarium",
+  "rating": null,
+  "reviewCount": null,
+  "address": "1012 Mifflin St #1820, Huntingdon, PA 16652",
+  "phone": "(814) 643-5750",
+  "website": null,
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/raystown-music-and-aquarium/1771509811430_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Raystown+Music+and+Aquarium/@40.4903441,-78.0190263,17z/data=!3m1!4b1!4m6!3m5!1s0x89cbe3567e19b15f:0x334d96b241dc4b4b!8m2!3d40.4903441!4d-78.0164514!16s%2Fg%2F1tg6wnyj?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T14:03:44.063Z"
+}

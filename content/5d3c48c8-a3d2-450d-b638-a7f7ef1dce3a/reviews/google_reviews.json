@@ -1,0 +1,20 @@
+{
+  "name": "Endless Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "111 W Main St, Bloomsburg, PA 17815",
+  "phone": "(570) 951-1821",
+  "website": "https://www.facebook.com/endlessrecords",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/endless-records/1771442068927_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Endless+Records/@41.0024827,-76.4611311,17z/data=!3m1!4b1!4m6!3m5!1s0x89cf7d7f932a939b:0x14a678ed22ab2ca9!8m2!3d41.0024827!4d-76.4585562!16s%2Fg%2F11bbwp1qq0?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T19:14:43.639Z"
+}

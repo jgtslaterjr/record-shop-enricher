@@ -1,0 +1,87 @@
+{
+  "shop": {
+    "id": "92f0469e-7334-4e67-bc94-d2b4bb688d9f",
+    "name": "Sonic Ascension Records",
+    "city": "Antrim",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Sonic Ascension Records Antrim Pennsylvania record store",
+    "Sonic Ascension Records Antrim instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T13:16:51.520Z",
+  "links": [
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/sonicascensionrecords/",
+      "handle": "sonicascensionrecords"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/sonicascensionrecords"
+    },
+    {
+      "category": "website",
+      "url": "https://www.sonicascensionrecords.com/"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/sonic_records/",
+      "handle": "sonic_records"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/ascension.records/",
+      "handle": "ascension.records"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.manta.com/c/m1874zy/sonic-ascension-records",
+      "domain": "manta.com"
+    }
+  ],
+  "byCategory": {
+    "instagram": [
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/sonicascensionrecords/",
+        "handle": "sonicascensionrecords"
+      },
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/sonic_records/",
+        "handle": "sonic_records"
+      },
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/ascension.records/",
+        "handle": "ascension.records"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/sonicascensionrecords"
+      }
+    ],
+    "website": [
+      {
+        "category": "website",
+        "url": "https://www.sonicascensionrecords.com/"
+      }
+    ],
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://www.manta.com/c/m1874zy/sonic-ascension-records",
+        "domain": "manta.com"
+      }
+    ]
+  },
+  "updates": {
+    "social_instagram": "sonicascensionrecords",
+    "social_facebook": "https://facebook.com/sonicascensionrecords",
+    "website": "https://www.sonicascensionrecords.com/"
+  },
+  "skipped": {}
+}

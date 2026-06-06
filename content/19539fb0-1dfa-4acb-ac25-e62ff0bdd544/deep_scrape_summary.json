@@ -1,0 +1,38 @@
+{
+  "shopId": "19539fb0-1dfa-4acb-ac25-e62ff0bdd544",
+  "shopName": "Underdog Records",
+  "city": "Neshannock",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:35:18.194Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "2.9s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "23.0s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "23.1s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T17:36:29.061Z"
+}

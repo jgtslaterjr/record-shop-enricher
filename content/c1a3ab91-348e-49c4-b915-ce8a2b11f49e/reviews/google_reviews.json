@@ -1,0 +1,20 @@
+{
+  "name": "Todaro's Music",
+  "rating": null,
+  "reviewCount": null,
+  "address": "211 W Lancaster Ave, Shillington, PA 19607",
+  "phone": "(610) 623-3555",
+  "website": "http://www.worldfrets.com/",
+  "hours": {},
+  "categories": [
+    "Musical instrument store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/todaros-music/1771522686746_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Todaro's+Music/@40.3048725,-75.9745309,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6c16746d2f25d:0x8bf470cee425f689!8m2!3d40.3048725!4d-75.971956!16s%2Fg%2F1v4709b7?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T17:38:19.606Z"
+}

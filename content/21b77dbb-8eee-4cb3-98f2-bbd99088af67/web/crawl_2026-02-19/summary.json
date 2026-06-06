@@ -1,0 +1,42 @@
+{
+  "overview": "Siren Records appears to be a specialty record store with a focus on indie, rock, and hip-hop releases. The website features a curated selection of new and pre-order releases, as well as a section for recent restocks.",
+  "history": null,
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "CD",
+      "cassette"
+    ],
+    "genres": [
+      "rock",
+      "pop",
+      "indie",
+      "hip-hop",
+      "R&B",
+      "soul",
+      "country",
+      "folk",
+      "dance",
+      "electronic",
+      "blues",
+      "jazz",
+      "world music",
+      "classical"
+    ],
+    "new_vs_used": "both"
+  },
+  "services": {
+    "buying": true,
+    "selling": true,
+    "trading": true,
+    "shipping": true
+  },
+  "events": null,
+  "staff": null,
+  "hours_location": {
+    "address": "not found",
+    "store_hours": "Mon 11am-7pm Tues / Wed / Thurs 11am-9pm Fri 11am-10pm Sat 10am-10pm Sun 11am-7pm"
+  },
+  "unique_features": null,
+  "community_role": null
+}

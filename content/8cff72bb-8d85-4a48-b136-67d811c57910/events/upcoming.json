@@ -1,0 +1,100 @@
+{
+  "shopName": "Record Smith PA",
+  "shopId": "8cff72bb-8d85-4a48-b136-67d811c57910",
+  "city": "Camp Hill",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "Theatre",
+      "title": "People's Light",
+      "date": null,
+      "description": "Theatre, Community Events & Arts Discovery Education",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    },
+    {
+      "event_type": "Comedy Explosion",
+      "title": "Comedy Explosion",
+      "date": null,
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    },
+    {
+      "event_type": "Framers Market Gallery",
+      "title": "Framers Market Gallery",
+      "date": null,
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    },
+    {
+      "event_type": "Malvern Fair",
+      "title": "Malvern Fair",
+      "date": null,
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    },
+    {
+      "event_type": "American Treasure Tour",
+      "title": "American Treasure Tour",
+      "date": null,
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    },
+    {
+      "event_type": "Moonstone and Sage",
+      "title": "Moonstone and Sage",
+      "date": null,
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    },
+    {
+      "event_type": "Pinball Gallery",
+      "title": "Pinball Gallery",
+      "date": null,
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    },
+    {
+      "event_type": "Malvern School of Music",
+      "title": "Malvern School of Music",
+      "date": null,
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    },
+    {
+      "event_type": "Sugartown Strawberries",
+      "title": "Sugartown Strawberries",
+      "date": null,
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    },
+    {
+      "event_type": "Bubbletopia",
+      "title": "Bubbletopia",
+      "date": null,
+      "description": "",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    }
+  ],
+  "totalFound": 10,
+  "scrapedAt": "2026-02-19T16:42:47.569Z"
+}

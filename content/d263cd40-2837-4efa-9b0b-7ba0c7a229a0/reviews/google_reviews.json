@@ -1,0 +1,18 @@
+{
+  "name": "Music Showcase",
+  "rating": null,
+  "reviewCount": null,
+  "address": "1505 Wilmington Rd, New Castle, PA 16105",
+  "phone": "(724) 658-2141",
+  "website": null,
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Music+Showcase/@41.016165,-84.9673415,7z/data=!4m10!1m2!2m1!1sMusic+Showcase+record+store+Shenango+Township+Pennsylvania!3m6!1s0x88338e6d362e4a53:0x127ca44c436510e3!8m2!3d41.016165!4d-80.3530837!15sCjpNdXNpYyBTaG93Y2FzZSByZWNvcmQgc3RvcmUgU2hlbmFuZ28gVG93bnNoaXAgUGVubnN5bHZhbmlhWjwiOm11c2ljIHNob3djYXNlIHJlY29yZCBzdG9yZSBzaGVuYW5nbyB0b3duc2hpcCBwZW5uc3lsdmFuaWGSAQttdXNpY19zdG9yZZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOWWJuVnhWRXRCRUFF4AEA-gEECDMQPw!16s%2Fg%2F1vysx5c1?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T20:27:03.785Z"
+}

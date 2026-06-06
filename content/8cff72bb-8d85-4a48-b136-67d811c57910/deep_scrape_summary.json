@@ -1,0 +1,38 @@
+{
+  "shopId": "8cff72bb-8d85-4a48-b136-67d811c57910",
+  "shopName": "Record Smith PA",
+  "city": "Camp Hill",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T16:41:29.083Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "3.3s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "2.5s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "8.5s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "25.9s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "23.1s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T16:42:55.121Z"
+}

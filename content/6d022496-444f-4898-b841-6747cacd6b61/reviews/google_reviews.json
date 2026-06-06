@@ -1,0 +1,20 @@
+{
+  "name": "Fretz Music Center",
+  "rating": null,
+  "reviewCount": null,
+  "address": "740 PA-113, Souderton, PA 18964",
+  "phone": "(215) 723-3195",
+  "website": "http://www.fretzmusicschool.com/",
+  "hours": null,
+  "categories": [
+    "Music school"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/fretz-music-center/1771530988610_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Fretz+Music+Center/@40.3180901,-75.3104425,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6a042a3050acd:0x3755595fb8140943!8m2!3d40.3180901!4d-75.3078676!16s%2Fg%2F1v2f1gmw?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T19:56:42.932Z"
+}

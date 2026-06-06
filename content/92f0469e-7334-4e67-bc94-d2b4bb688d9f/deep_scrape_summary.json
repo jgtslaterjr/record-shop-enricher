@@ -1,0 +1,38 @@
+{
+  "shopId": "92f0469e-7334-4e67-bc94-d2b4bb688d9f",
+  "shopName": "Sonic Ascension Records",
+  "city": "Antrim",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:16:48.601Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "3.0s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.0s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "21.2s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "6.6s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "4.3s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "46.9s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:18:34.836Z"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Northeast Music Center Inc",
+  "rating": null,
+  "reviewCount": null,
+  "address": "713 Scranton Carbondale Hwy, Dickson City, PA 18519",
+  "phone": "(570) 909-9216",
+  "website": "http://www.nemusiccenter.com/",
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/northeast-music-center-inc/1771507625311_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Northeast+Music+Center+Inc/@41.4653358,-75.6526326,17z/data=!3m1!4b1!4m6!3m5!1s0x89c4d9bbf5226553:0xa3077cfbfd4334bb!8m2!3d41.4653358!4d-75.6500577!16s%2Fg%2F1hg4wd4bp?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:27:19.173Z"
+}

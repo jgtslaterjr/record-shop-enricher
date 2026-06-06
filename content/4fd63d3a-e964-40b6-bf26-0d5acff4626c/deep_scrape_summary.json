@@ -1,0 +1,38 @@
+{
+  "shopId": "4fd63d3a-e964-40b6-bf26-0d5acff4626c",
+  "shopName": "Mojomala Books, Records & Cool Stuff",
+  "city": "Silver Spring",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T20:27:49.617Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.3s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.7s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "49.4s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "20.4s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T20:29:24.184Z"
+}

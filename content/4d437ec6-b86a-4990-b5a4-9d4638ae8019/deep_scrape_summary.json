@@ -1,0 +1,38 @@
+{
+  "shopId": "4d437ec6-b86a-4990-b5a4-9d4638ae8019",
+  "shopName": "Red Planet Recording, Live Sound & Rehearsal",
+  "city": "Clifton Heights",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:16:32.831Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.4s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "22.2s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "19.1s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T17:17:38.296Z"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Rosie's Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "5401 Butler St 2nd Floor, Pittsburgh, PA 15201",
+  "phone": "(412) 251-2451",
+  "website": "https://www.rosiesrecords.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/rosies-records/1772030722376_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Rosie's+Records/@40.4831245,-79.9538227,17z/data=!3m1!4b1!4m6!3m5!1s0x89c7abf9b201a7d1:0x5b514ea7fe9f5e69!8m2!3d40.4831245!4d-79.9512478!16s%2Fg%2F11h2_8pzvm?entry=ttu&g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-25T14:45:36.486Z"
+}

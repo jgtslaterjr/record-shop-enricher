@@ -1,0 +1,20 @@
+{
+  "name": "Groove Gallery and Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "4623 Liberty Ave, Pittsburgh, PA 15224",
+  "phone": "(412) 902-0210",
+  "website": null,
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/groove-gallery-and-records_pittsburgh_pennsylvania/1771532989788_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Groove+Gallery+and+Records/@40.462473,-79.9525545,17z/data=!3m1!4b1!4m6!3m5!1s0x8834f3341c289889:0xfc8aaf41f3a38851!8m2!3d40.462473!4d-79.9499796!16s%2Fg%2F11w_mv61jt?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T20:30:03.949Z"
+}

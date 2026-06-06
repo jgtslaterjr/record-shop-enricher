@@ -1,0 +1,20 @@
+{
+  "name": "Haul House Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "611 Penn Ave, West Reading, PA 19611",
+  "phone": "(484) 269-9262",
+  "website": null,
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/haul-house-records/1771429546632_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Haul+House+Records/@40.33596,-76.5270157,10z/data=!4m10!1m2!2m1!1sHaul+House+Records+record+store+Amity+Township+Pennsylvania!3m6!1s0x89c671003b2ea6cf:0xb97d046d9255e8ce!8m2!3d40.33596!4d-75.9502335!15sCjtIYXVsIEhvdXNlIFJlY29yZHMgcmVjb3JkIHN0b3JlIEFtaXR5IFRvd25zaGlwIFBlbm5zeWx2YW5pYVo9IjtoYXVsIGhvdXNlIHJlY29yZHMgcmVjb3JkIHN0b3JlIGFtaXR5IHRvd25zaGlwIHBlbm5zeWx2YW5pYZIBDHJlY29yZF9zdG9yZZoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOSVp6aFFTMHhCRUFF4AEA-gEFCJICEEY!16s%2Fg%2F11w3t598y0?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T15:45:59.664Z"
+}

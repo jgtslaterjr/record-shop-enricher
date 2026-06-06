@@ -1,0 +1,38 @@
+{
+  "shopId": "9800e3f4-4a9e-46c9-9c09-b2b97e521908",
+  "shopName": "Railroad Records",
+  "city": "Archbald",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:31:50.586Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.0s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "9.7s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "20.0s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.3s"
+    }
+  },
+  "completedAt": "2026-02-19T13:32:44.789Z"
+}

@@ -1,0 +1,17 @@
+{
+  "overview": null,
+  "history": null,
+  "inventory_focus": null,
+  "services": {
+    "buy": false,
+    "sell": true,
+    "trade": true,
+    "online_store": true,
+    "shipping": true
+  },
+  "events": null,
+  "staff": null,
+  "hours_location": null,
+  "unique_features": null,
+  "community_role": null
+}

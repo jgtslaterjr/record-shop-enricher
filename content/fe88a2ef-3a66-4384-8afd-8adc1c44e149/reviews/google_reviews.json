@@ -1,0 +1,20 @@
+{
+  "name": "From The Top Music Shop",
+  "rating": null,
+  "reviewCount": null,
+  "address": "442 W Main St, Monongahela, PA 15063",
+  "phone": "(724) 258-6002",
+  "website": "http://www.fttmusic.com/",
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/from-the-top-music-shop/1771520978733_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/From+The+Top+Music+Shop/@40.203567,-79.9300869,17z/data=!3m1!4b1!4m6!3m5!1s0x8834fd5b2ee56db7:0x8c72341e797f3ed!8m2!3d40.203567!4d-79.927512!16s%2Fg%2F119vsmgmg?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T17:09:52.445Z"
+}

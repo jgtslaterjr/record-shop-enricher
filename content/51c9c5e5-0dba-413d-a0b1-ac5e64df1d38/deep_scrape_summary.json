@@ -1,0 +1,38 @@
+{
+  "shopId": "51c9c5e5-0dba-413d-a0b1-ac5e64df1d38",
+  "shopName": "Audio Loft Studios",
+  "city": "Ambridge",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-18T15:25:46.291Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "5.3s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.7s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "8.3s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "4.7s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "34.7s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "44.3s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-18T15:27:48.005Z"
+}

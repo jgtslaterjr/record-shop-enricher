@@ -1,0 +1,20 @@
+{
+  "name": "Romeo's Record Shop",
+  "rating": null,
+  "reviewCount": null,
+  "address": "1313 N Delaware St, Paulsboro, NJ 08066",
+  "phone": "(856) 423-3112",
+  "website": "http://romeos-record-shop.keeq.io/",
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/romeos-record-shop/1771509374890_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Romeo's+Record+Shop/@39.8309056,-75.2433954,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6db5c4aa71595:0x26cf644498acc3e4!8m2!3d39.8309056!4d-75.2408205!16s%2Fg%2F1td2hw87?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:56:28.412Z"
+}

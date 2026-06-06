@@ -1,0 +1,38 @@
+{
+  "shopId": "aa33ac27-0da1-4a14-bdc8-1042f4288e45",
+  "shopName": "Half Life Record Inc",
+  "city": "Glenolden",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:30:51.828Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.6s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "7.3s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "18.7s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:31:42.278Z"
+}

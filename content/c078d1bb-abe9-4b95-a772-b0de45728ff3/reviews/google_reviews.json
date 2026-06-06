@@ -1,0 +1,20 @@
+{
+  "name": "The Music Scene",
+  "rating": null,
+  "reviewCount": null,
+  "address": "36 N Main St, Pittston, PA 18640",
+  "phone": "(570) 654-4420",
+  "website": "http://www.themusicscene.biz/contact.html",
+  "hours": {},
+  "categories": [
+    "Musical instrument store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/the-music-scene/1771531529234_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/The+Music+Scene/@41.3238445,-75.7925448,17z/data=!3m1!4b1!4m6!3m5!1s0x89c51f3b414fce13:0x94559022932fb797!8m2!3d41.3238445!4d-75.7899699!16s%2Fg%2F1tcyyckm?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T20:05:43.574Z"
+}

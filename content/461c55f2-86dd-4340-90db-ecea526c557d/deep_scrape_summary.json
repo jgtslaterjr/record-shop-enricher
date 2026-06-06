@@ -1,0 +1,38 @@
+{
+  "shopId": "461c55f2-86dd-4340-90db-ecea526c557d",
+  "shopName": "Music Go Round",
+  "city": "Hanover Township",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:39:41.791Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.5s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "25.3s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "18.6s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:40:51.975Z"
+}

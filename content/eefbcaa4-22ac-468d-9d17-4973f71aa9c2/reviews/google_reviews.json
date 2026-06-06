@@ -1,0 +1,20 @@
+{
+  "name": "Blue Raven Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "108 Harrison St, Frenchtown, NJ 08825",
+  "phone": "(908) 628-9323",
+  "website": "https://www.blueravenrecordshop.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/blue-raven-records/1771442093087_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Blue+Raven+Records/@40.5267709,-75.064224,17z/data=!3m1!4b1!4m6!3m5!1s0x89c40f78ce0c960d:0xd0b4efd3d1fd0a!8m2!3d40.5267709!4d-75.0616491!16s%2Fg%2F11qby51jmx?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T19:15:06.284Z"
+}

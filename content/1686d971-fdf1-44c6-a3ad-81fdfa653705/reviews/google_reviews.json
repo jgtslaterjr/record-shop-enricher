@@ -1,0 +1,20 @@
+{
+  "name": "Impact Music Studio & Videos",
+  "rating": null,
+  "reviewCount": null,
+  "address": "521 Walnut St, Allentown, PA 18101",
+  "phone": "(484) 788-7574",
+  "website": "http://impactmusicstudio.square.site/",
+  "hours": {},
+  "categories": [
+    "Recording studio"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/impact-music-studio-and-videos/1771532570916_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Impact+Music+Studio+%26+Videos/@40.6017691,-75.470676,17z/data=!3m1!4b1!4m6!3m5!1s0x89c439a8e68b6f25:0x876af545644ccecf!8m2!3d40.6017691!4d-75.4681011!16s%2Fg%2F11gj0x_28s?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T20:22:51.132Z"
+}

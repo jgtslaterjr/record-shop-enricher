@@ -1,22 +1,66 @@
 {
-  "name": null,
-  "rating": null,
-  "reviewCount": null,
-  "phone": null,
-  "address": null,
-  "city": null,
-  "state": null,
-  "zip": null,
-  "website": null,
-  "hours": null,
+  "name": "Electric Avenue Music",
+  "rating": 4.9,
+  "reviewCount": 14,
+  "phone": "(610) 692-3600",
+  "address": "323 E Gay St\nSte B-2C",
+  "city": "West Chester",
+  "state": "PA",
+  "zip": "19380",
+  "website": "http://www.electricavenuemusicwc.com",
+  "hours": {
+    "Mon": "Closed",
+    "Wed": "11:00 AM - 5:00 PM",
+    "11:00 AM - 6:00 PM": "Open now",
+    "Fri": "11:00 AM - 6:00 PM",
+    "Sun": "12:00 PM - 5:00 PM"
+  },
   "priceRange": null,
   "categories": [],
-  "photos": [],
+  "photos": [
+    "https://s3-media0.fl.yelpcdn.com/bphoto/677vAC03_U0e7r-7T2roDw/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/SZs1yucTXAX9m1ARZ1unDA/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/MnxnShNgH7sUM1VULJY0zg/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/DkvGxBHZS5l1iD7nmpG9mQ/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/tI320xeeRh3pJ0mgN7fVUg/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/fhgUA0EJbKwJ4iARZOvb_A/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/rEP3_0E8md2G2VDZovP_Mg/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/assets/public/user_60_square.yji-8b51f2026d9de1b3.png",
+    "https://s3-media0.fl.yelpcdn.com/photo/4XU1oXsAUhbxi4oeFJTnEA/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/ni6KEwZwsawOT9hXaqUSNg/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/4XU1oXsAUhbxi4oeFJTnEA/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/rEP3_0E8md2G2VDZovP_Mg/60s.jpg"
+  ],
   "amenities": null,
   "specialties": null,
-  "reviews": [],
+  "reviews": [
+    {
+      "stars": 5,
+      "text": "Can't believe I hadn't rated my favorite independent record store yet! Great selection of new releases on both CD and Vinyl, plus lots of older stuff and used. If you can't find it they can almost always order it for you, the owners are so helpful and have been doing this for years (formerly at Chester County Book & Music Company) and they are pros. Just a really cool vibe.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 4,
+      "text": "Chester County was one of my favorite stores for their used CD selection and growing used vinyl selection.  Jason and Eryn have done even better on both fronts with Electric Avenue.  I'm really happy they could keep it going!  The store is really well organized.  I think they relate to their customers more than almost any record store out there too.  Nothing pretentious, just a love for music.",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "For my money, this is the best independent record shop in the Philadelphia area.  They've got everything you want in a record store: friendly knowledgeable staff that lets you shop at your leisure, a killer selection, and no pretentiousness.  I highly recommend Electric Avenue to anyone, and it will always be my first stop for new and used music",
+      "date": null,
+      "reviewer": null
+    },
+    {
+      "stars": 5,
+      "text": "I grew up going to Chester County Bookstore and bought 80% of all my high school records there and the other 20% being repo in philly. I moved out to Chicago for school and suffered from a lack of quality stores compared to this place. Once I came home and saw they opened their own shop after the bookstore downsized  I couldn't of been happier. It's by far one of my favorite shops, great taste in music, always great prices, and they will talk to you about almost anything you pick up. simply amazing. Oh, and they are some of the most knowledgeable people I have ever met!",
+      "date": null,
+      "reviewer": null
+    }
+  ],
   "highlights": [],
   "yelpUrl": "https://www.yelp.com/biz/electric-avenue-music-west-chester?start=10",
-  "totalReviewsScraped": 0,
-  "scrapedAt": "2026-02-17T17:18:10.331Z"
+  "totalReviewsScraped": 4,
+  "scrapedAt": "2026-02-19T19:54:24.981Z"
 }

@@ -1,0 +1,38 @@
+{
+  "shopId": "ed313b5e-af05-4515-b5fc-c7da15e89e2a",
+  "shopName": "Romeo's Record Shop",
+  "city": "Aston",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:55:56.971Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.8s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "20.4s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "19.3s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:57:04.331Z"
+}

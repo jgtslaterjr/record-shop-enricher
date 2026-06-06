@@ -1,0 +1,20 @@
+{
+  "name": "Audio Loft Studios",
+  "rating": null,
+  "reviewCount": null,
+  "address": "605 Merchant St, Ambridge, PA 15003",
+  "phone": "(878) 439-8370",
+  "website": "http://audioloftstudios.wixsite.com/website",
+  "hours": {},
+  "categories": [
+    "Recording studio"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/audio-loft-studios/1771428370498_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Audio+Loft+Studios/@40.5865994,-80.230284,17z/data=!3m1!4b1!4m6!3m5!1s0x8834676a2c8e3015:0xe69eae26956cce40!8m2!3d40.5865994!4d-80.2277091!16s%2Fg%2F11nxfmjx2c?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T15:26:10.715Z"
+}

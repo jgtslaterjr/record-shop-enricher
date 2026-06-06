@@ -1,0 +1,38 @@
+{
+  "shopId": "ad94d702-1434-4a04-b6ab-389113d1d417",
+  "shopName": "CI Records",
+  "city": "Carroll Township",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T16:56:19.489Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.0s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "10.5s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "21.6s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T16:57:16.733Z"
+}

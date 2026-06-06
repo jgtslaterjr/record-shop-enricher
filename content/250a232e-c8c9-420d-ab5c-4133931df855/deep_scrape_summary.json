@@ -1,0 +1,38 @@
+{
+  "shopId": "250a232e-c8c9-420d-ab5c-4133931df855",
+  "shopName": "Madhouse Records",
+  "city": "Clifton Heights",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:15:17.715Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.5s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "21.6s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "19.8s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T17:16:24.603Z"
+}

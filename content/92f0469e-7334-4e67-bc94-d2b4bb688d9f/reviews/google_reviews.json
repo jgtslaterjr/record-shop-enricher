@@ -1,0 +1,21 @@
+{
+  "name": "Sonic Ascension Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "128 Broad St, Montoursville, PA 17754",
+  "phone": "(570) 360-3486",
+  "website": "https://sonicascensionrecords.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/sonic-ascension-records/1771507028179_google.jpg",
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/sonic-ascension-records/1771507028951_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Sonic+Ascension+Records/@41.2501917,-76.9348404,17z/data=!3m1!4b1!4m6!3m5!1s0x89cfa6a7abfdb14f:0xa8ef24562e2b8602!8m2!3d41.2501917!4d-76.9322655!16s%2Fg%2F11cs47y2lt?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:17:21.805Z"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "DP's Music Center",
+  "rating": null,
+  "reviewCount": null,
+  "address": "400 E Walnut St, Lewistown, PA 17044",
+  "phone": "(717) 248-1020",
+  "website": "https://www.dpsmusic.com/",
+  "hours": {},
+  "categories": [
+    "Musical instrument store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/dps-music-center/1771442320259_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/DP's+Music+Center/@40.6064635,-77.5667991,17z/data=!3m1!4b1!4m6!3m5!1s0x89c94c1231ecbb1b:0x59862d2f0948dd02!8m2!3d40.6064635!4d-77.5642242!16s%2Fg%2F1tj9czl5?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T19:18:40.467Z"
+}

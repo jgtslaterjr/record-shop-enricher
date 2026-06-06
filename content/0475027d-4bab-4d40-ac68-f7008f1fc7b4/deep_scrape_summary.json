@@ -1,0 +1,38 @@
+{
+  "shopId": "0475027d-4bab-4d40-ac68-f7008f1fc7b4",
+  "shopName": "D.R.S. Vinyl Designs",
+  "city": "Beaver Falls",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T14:12:47.209Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.4s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "55.1s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "21.8s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T14:14:29.443Z"
+}

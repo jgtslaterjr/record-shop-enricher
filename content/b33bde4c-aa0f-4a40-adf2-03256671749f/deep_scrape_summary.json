@@ -1,0 +1,38 @@
+{
+  "shopId": "b33bde4c-aa0f-4a40-adf2-03256671749f",
+  "shopName": "Chuck's R.I.P. Records",
+  "city": "Bullskin",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T16:20:17.699Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "17.0s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.7s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "19.8s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "23.6s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "4.3s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "46.4s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "2.7s"
+    }
+  },
+  "completedAt": "2026-02-19T16:22:39.855Z"
+}

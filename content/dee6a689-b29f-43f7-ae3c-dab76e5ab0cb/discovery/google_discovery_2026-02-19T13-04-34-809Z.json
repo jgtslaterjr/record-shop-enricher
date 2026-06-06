@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "dee6a689-b29f-43f7-ae3c-dab76e5ab0cb",
+    "name": "Stan's Record Bar",
+    "city": "Amity Township",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Stan's Record Bar Amity Township Pennsylvania record store",
+    "Stan's Record Bar Amity Township instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T13:04:34.809Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

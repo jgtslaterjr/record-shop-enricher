@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "2fc7457a-d18f-46ad-bd2f-30dd2ffb1c0f",
+    "name": "The Record Vault",
+    "city": "Aston",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "The Record Vault Aston Pennsylvania record store",
+    "The Record Vault Aston instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T13:57:12.701Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

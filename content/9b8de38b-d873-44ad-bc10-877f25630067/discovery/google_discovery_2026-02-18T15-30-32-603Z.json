@@ -1,0 +1,111 @@
+{
+  "shop": {
+    "id": "9b8de38b-d873-44ad-bc10-877f25630067",
+    "name": "Jerry's Records",
+    "city": "Ambridge",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Jerry's Records Ambridge Pennsylvania record store",
+    "Jerry's Records Ambridge instagram facebook"
+  ],
+  "discoveredAt": "2026-02-18T15:30:32.603Z",
+  "links": [
+    {
+      "category": "website",
+      "url": "https://jerrysrecords.com/"
+    },
+    {
+      "category": "website",
+      "url": "https://www.discogs.com/record-stores/store/jerrysrecords/"
+    },
+    {
+      "category": "website",
+      "url": "https://jerrysrecords.com/trading-and-buying/"
+    },
+    {
+      "category": "website",
+      "url": "https://jerrysrecords.com/shop/"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/jerrysrecords"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.vinylworld.org/record-shop/jerrys-records/",
+      "domain": "vinylworld.org"
+    },
+    {
+      "category": "directory",
+      "url": "https://vinylmapper.com/record-stores/us/pa/pittsburgh/jerrys-records-15217/",
+      "domain": "vinylmapper.com"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/jerrys_records/",
+      "handle": "jerrys_records"
+    },
+    {
+      "category": "tripadvisor",
+      "url": "https://www.tripadvisor.com/Attraction_Review-g53449-d12995797-Reviews-Jerry_s_Records-Pittsburgh_Pennsylvania.html"
+    }
+  ],
+  "byCategory": {
+    "website": [
+      {
+        "category": "website",
+        "url": "https://jerrysrecords.com/"
+      },
+      {
+        "category": "website",
+        "url": "https://www.discogs.com/record-stores/store/jerrysrecords/"
+      },
+      {
+        "category": "website",
+        "url": "https://jerrysrecords.com/trading-and-buying/"
+      },
+      {
+        "category": "website",
+        "url": "https://jerrysrecords.com/shop/"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/jerrysrecords"
+      }
+    ],
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://www.vinylworld.org/record-shop/jerrys-records/",
+        "domain": "vinylworld.org"
+      },
+      {
+        "category": "directory",
+        "url": "https://vinylmapper.com/record-stores/us/pa/pittsburgh/jerrys-records-15217/",
+        "domain": "vinylmapper.com"
+      }
+    ],
+    "instagram": [
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/jerrys_records/",
+        "handle": "jerrys_records"
+      }
+    ],
+    "tripadvisor": [
+      {
+        "category": "tripadvisor",
+        "url": "https://www.tripadvisor.com/Attraction_Review-g53449-d12995797-Reviews-Jerry_s_Records-Pittsburgh_Pennsylvania.html"
+      }
+    ]
+  },
+  "updates": {
+    "social_instagram": "jerrys_records",
+    "social_facebook": "https://facebook.com/jerrysrecords",
+    "website": "https://jerrysrecords.com/"
+  },
+  "skipped": {}
+}

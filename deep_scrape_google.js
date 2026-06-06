@@ -211,6 +211,13 @@ async function scrapeGoogleMaps(page, shopName, city, state, slug = null) {
   return data;
 }
 
+function serializeHours(hoursObj) {
+  if (!hoursObj || typeof hoursObj !== 'object') return null;
+  const entries = Object.entries(hoursObj);
+  if (entries.length === 0) return null;
+  return entries.map(([day, hours]) => `${day}: ${hours}`).join(', ');
+}
+
 async function run() {
   const args = parseArgs();
   const { browser, context } = await createStealthBrowser();
@@ -230,11 +237,40 @@ async function run() {
         const outPath = contentDir(shop.id, 'reviews', 'google_reviews.json');
         saveJSON(outPath, data);
         
-        await updateShop(shop.id, {
+        // Build updates - only fill NULL fields
+        const updates = {
           google_maps_url: data.googleMapsUrl,
           average_rating: data.rating || shop.average_rating,
           review_count: Math.max(data.reviewCount || 0, shop.review_count || 0),
-        });
+        };
+        
+        // Add phone if shop doesn't have one
+        if (!shop.phone && data.phone) {
+          updates.phone = data.phone;
+          log(`  📞 Extracted phone: ${data.phone}`);
+        }
+        
+        // Add website if shop doesn't have one (or has platform URL)
+        if ((!shop.website || shop.website.includes('yelp.com') || shop.website.includes('facebook.com')) && data.website) {
+          updates.website = data.website;
+          log(`  🌐 Extracted website: ${data.website}`);
+        }
+        
+        // Add address if shop doesn't have one
+        if (!shop.address && data.address) {
+          updates.address = data.address;
+          log(`  📍 Extracted address: ${data.address}`);
+        }
+        
+        // Add hours_text if shop doesn't have one
+        if (!shop.hours_text && data.hours) {
+          updates.hours_text = serializeHours(data.hours);
+          if (updates.hours_text) {
+            log(`  🕐 Extracted hours: ${updates.hours_text.slice(0, 60)}...`);
+          }
+        }
+        
+        await updateShop(shop.id, updates);
         
         log(`Saved to ${outPath}`);
       } else {
@@ -270,11 +306,31 @@ async function run() {
           const outPath = contentDir(shop.id, 'reviews', 'google_reviews.json');
           saveJSON(outPath, data);
 
-          // Update shop with gallery images
+          // Build updates - only fill NULL fields
           const updateData = {
             google_maps_url: data.googleMapsUrl,
             average_rating: data.rating || shop.average_rating,
           };
+          
+          // Add phone if shop doesn't have one
+          if (!shop.phone && data.phone) {
+            updateData.phone = data.phone;
+          }
+          
+          // Add website if shop doesn't have one (or has platform URL)
+          if ((!shop.website || shop.website.includes('yelp.com') || shop.website.includes('facebook.com')) && data.website) {
+            updateData.website = data.website;
+          }
+          
+          // Add address if shop doesn't have one
+          if (!shop.address && data.address) {
+            updateData.address = data.address;
+          }
+          
+          // Add hours_text if shop doesn't have one
+          if (!shop.hours_text && data.hours) {
+            updateData.hours_text = serializeHours(data.hours);
+          }
           
           // Add photos to image_gallery if any were uploaded
           if (data.photos && data.photos.length > 0) {

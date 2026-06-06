@@ -1,0 +1,38 @@
+{
+  "shopId": "3c798ee2-335b-4f4f-84f2-a2d52d957c55",
+  "shopName": "Graham's Used Records Tapes",
+  "city": "Erie",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T20:40:53.648Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "2.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.9s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "21.2s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "22.8s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T20:42:06.096Z"
+}

@@ -1,0 +1,88 @@
+{
+  "shop": {
+    "id": "2daa4438-c7ac-4178-9efe-bf09d9ec9952",
+    "name": "Last Dog Records",
+    "city": "Ambridge",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Last Dog Records Ambridge Pennsylvania record store",
+    "Last Dog Records Ambridge instagram facebook"
+  ],
+  "discoveredAt": "2026-02-18T15:23:07.730Z",
+  "links": [
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/lastdogrecords"
+    },
+    {
+      "category": "website",
+      "url": "https://www.allbiz.com/business/last-dog-records-724-452-0539"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.mapquest.com/us/pennsylvania/last-dog-records-482012067",
+      "domain": "mapquest.com"
+    },
+    {
+      "category": "website",
+      "url": "https://bottlebrusharts.com/?page_id=146"
+    },
+    {
+      "category": "website",
+      "url": "https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.vinylworld.org/record-stores/pennsylvania-united-states/",
+      "domain": "vinylworld.org"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/harmonybusinessassociation"
+    }
+  ],
+  "byCategory": {
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/lastdogrecords"
+      },
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/harmonybusinessassociation"
+      }
+    ],
+    "website": [
+      {
+        "category": "website",
+        "url": "https://www.allbiz.com/business/last-dog-records-724-452-0539"
+      },
+      {
+        "category": "website",
+        "url": "https://bottlebrusharts.com/?page_id=146"
+      },
+      {
+        "category": "website",
+        "url": "https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/"
+      }
+    ],
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://www.mapquest.com/us/pennsylvania/last-dog-records-482012067",
+        "domain": "mapquest.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.vinylworld.org/record-stores/pennsylvania-united-states/",
+        "domain": "vinylworld.org"
+      }
+    ]
+  },
+  "updates": {
+    "social_facebook": "https://facebook.com/lastdogrecords",
+    "website": "https://www.allbiz.com/business/last-dog-records-724-452-0539"
+  },
+  "skipped": {}
+}

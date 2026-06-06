@@ -1,0 +1,38 @@
+{
+  "shopId": "7d43cb35-aff7-4bbe-8bad-0b7dd61e0f9d",
+  "shopName": "Saucon Valley Music",
+  "city": "Lower Saucon",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T16:30:18.270Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "5.3s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.2s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "26.0s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "25.7s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "17.8s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "48.8s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T16:32:47.808Z"
+}

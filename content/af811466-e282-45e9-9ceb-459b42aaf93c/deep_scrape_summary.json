@@ -1,0 +1,38 @@
+{
+  "shopId": "af811466-e282-45e9-9ceb-459b42aaf93c",
+  "shopName": "Meadowood Music",
+  "city": "Maidencreek",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T16:49:13.812Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.3s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "51.3s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "22.1s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T16:50:52.804Z"
+}

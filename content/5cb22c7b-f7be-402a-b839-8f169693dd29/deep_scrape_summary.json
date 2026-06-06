@@ -1,0 +1,38 @@
+{
+  "shopId": "5cb22c7b-f7be-402a-b839-8f169693dd29",
+  "shopName": "Spectra Sound Recording, LLC",
+  "city": "Milford Township",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:05:39.781Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.3s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.1s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "58.5s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "19.8s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T17:07:24.656Z"
+}

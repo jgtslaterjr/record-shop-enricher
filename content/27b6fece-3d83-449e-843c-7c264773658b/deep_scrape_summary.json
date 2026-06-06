@@ -1,0 +1,38 @@
+{
+  "shopId": "27b6fece-3d83-449e-843c-7c264773658b",
+  "shopName": "Better Now Records",
+  "city": "Darby",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:41:25.769Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "2.1s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.6s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "7.7s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "24.4s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T17:42:24.677Z"
+}

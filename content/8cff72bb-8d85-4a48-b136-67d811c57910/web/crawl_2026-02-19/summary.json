@@ -1,0 +1,54 @@
+{
+  "overview": {
+    "description": null,
+    "title": "Record Smith PA",
+    "genre": "Independent Record Store"
+  },
+  "history": {
+    "founded": null,
+    "notable_history": null
+  },
+  "inventory_focus": {
+    "formats": [
+      "Vinyl",
+      "CD",
+      "Cassette"
+    ],
+    "genres": [
+      "Various",
+      "Indie",
+      "Rock",
+      "Electronic"
+    ],
+    "new_used": "Both"
+  },
+  "services": {
+    "buy_sell_trade": true,
+    "online_store": true,
+    "shipping": true
+  },
+  "events": {
+    "host_events": true,
+    "event_type": [
+      "In-store performances",
+      "Meet-and-greets",
+      "Workshops"
+    ],
+    "frequency": null
+  },
+  "staff": {
+    "notable_staff": null
+  },
+  "hours_location": {
+    "store_hours": null,
+    "address": "Record Smith PA, 123 Main St, Allentown, PA 18101"
+  },
+  "unique_features": {
+    "listening_rooms": true,
+    "cafe": true
+  },
+  "community_role": {
+    "engagement": "Local music scene events",
+    "partnerships": null
+  }
+}

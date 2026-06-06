@@ -1,0 +1,38 @@
+{
+  "shopId": "b637fdad-3da5-4027-b0a9-48e1f163abc8",
+  "shopName": "Round Again Records",
+  "city": "Providence",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T20:16:09.136Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.7s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "8.1s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "22.1s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T20:17:04.880Z"
+}

@@ -1,0 +1,39 @@
+{
+  "overview": {
+    "description": "Real Truth Records",
+    "category": null,
+    "image_url": null
+  },
+  "history": null,
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "cd"
+    ],
+    "genres": null,
+    "new_vs_used": "both"
+  },
+  "services": {
+    "buy": true,
+    "sell": true,
+    "trade": true,
+    "online_store": false,
+    "shipping": true
+  },
+  "events": {
+    "host_events": true,
+    "event_type": null
+  },
+  "staff": null,
+  "hours_location": {
+    "address": null,
+    "store_hours": null
+  },
+  "unique_features": {
+    "listening_rooms": false,
+    "cafe": false
+  },
+  "community_role": {
+    "local_music_scene": true
+  }
+}

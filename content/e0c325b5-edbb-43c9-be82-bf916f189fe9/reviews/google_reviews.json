@@ -1,0 +1,20 @@
+{
+  "name": "Melusina Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "81 E State St Suite 13, Sharon, PA 16146",
+  "phone": "(724) 734-9067",
+  "website": "http://facebook.com/melusinarecords",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/melusina-records/1771510599561_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Melusina+Records/@41.2330758,-80.5101835,17z/data=!3m1!4b1!4m6!3m5!1s0x8833bf9aa1b2a68b:0x62e9e6a20825439a!8m2!3d41.2330758!4d-80.5076086!16s%2Fg%2F11c601y4p9?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T14:16:53.013Z"
+}

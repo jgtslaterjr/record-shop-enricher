@@ -1,0 +1,45 @@
+{
+  "sentiment_score": 9,
+  "key_themes": [
+    "independent record store",
+    "local expertise",
+    "family connections",
+    "customer service",
+    "music selection"
+  ],
+  "pros": [
+    "great taste in music",
+    "always great prices",
+    "friendly knowledgeable staff",
+    "helpful and knowledgeable owners"
+  ],
+  "cons": [
+    "none mentioned"
+  ],
+  "notable_quotes": {
+    "best": "simply amazing, a place that has come full circle after years of following it from afar.",
+    "worst": "none",
+    "funniest": "I think they relate to their customers more than almost any record store out there too."
+  },
+  "vibe_description": "Electric Avenue Music is described as having a 'really cool vibe' with knowledgeable staff and a welcoming atmosphere, making it a favorite among music enthusiasts. The shop's family connections and local expertise add to its charm.",
+  "genre_specialties": [
+    "jazz",
+    "punk"
+  ],
+  "staff_mentions": "reviewers praise the friendly and knowledgeable staff, noting that they have a personal connection to the owners, who are described as pros in their field.",
+  "event_mentions": [
+    "none mentioned"
+  ],
+  "recommendation_for": "music enthusiasts, especially those looking for independent record stores with local expertise and knowledgeable staff.",
+  "metadata": {
+    "totalReviews": 4,
+    "yelpReviews": 4,
+    "googleReviews": 0,
+    "averageRating": 4.75,
+    "ratingDistribution": {
+      "4": 1,
+      "5": 3
+    },
+    "analyzedAt": "2026-02-19T19:56:00.912Z"
+  }
+}

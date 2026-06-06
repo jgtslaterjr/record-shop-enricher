@@ -1,0 +1,20 @@
+{
+  "name": "Get Hip Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "1800 Columbus Ave, Pittsburgh, PA 15233",
+  "phone": "(412) 231-4766",
+  "website": "http://www.gethip.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/get-hip-records/1772030382966_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Get+Hip+Records/@40.4563419,-80.0349785,17z/data=!3m1!4b1!4m6!3m5!1s0x8834f418ffffffff:0x66fd79af0d905be8!8m2!3d40.4563419!4d-80.0324036!16s%2Fg%2F12626dn08?entry=ttu&g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-25T14:39:43.170Z"
+}

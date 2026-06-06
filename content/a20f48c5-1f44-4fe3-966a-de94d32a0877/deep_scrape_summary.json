@@ -1,0 +1,38 @@
+{
+  "shopId": "a20f48c5-1f44-4fe3-966a-de94d32a0877",
+  "shopName": "Music & Video Express",
+  "city": "Archbald",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:35:10.288Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.3s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "50.7s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "19.7s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:36:45.772Z"
+}

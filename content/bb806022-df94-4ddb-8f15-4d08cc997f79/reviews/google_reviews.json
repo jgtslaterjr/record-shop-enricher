@@ -1,0 +1,20 @@
+{
+  "name": "Ren's Music Studio",
+  "rating": null,
+  "reviewCount": null,
+  "address": "45 S Main St, Shrewsbury, PA 17361",
+  "phone": "(717) 495-7917",
+  "website": null,
+  "hours": {},
+  "categories": [
+    "Music school"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/rens-music-studio/1771533357721_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Ren's+Music+Studio/@39.7673436,-76.6820381,17z/data=!3m1!4b1!4m6!3m5!1s0x89c8650dfdb179e7:0x970c0b9cc9ae56df!8m2!3d39.7673436!4d-76.6794632!16s%2Fg%2F11jkvffwjf?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T20:36:12.893Z"
+}

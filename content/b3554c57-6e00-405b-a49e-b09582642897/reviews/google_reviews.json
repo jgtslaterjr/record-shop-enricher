@@ -1,0 +1,20 @@
+{
+  "name": "COMPACT DISC OUTLET",
+  "rating": null,
+  "reviewCount": null,
+  "address": "500 Chester Pike, Norwood, PA 19074",
+  "phone": "(610) 532-3333",
+  "website": "http://www.cdoutlet.com/",
+  "hours": {},
+  "categories": [
+    "Video game store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/compact-disc-outlet/1771509735843_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/COMPACT+DISC+OUTLET/@39.9681172,-75.4528378,12z/data=!4m10!1m2!2m1!1sCOMPACT+DISC+OUTLET+record+store+Aston+Pennsylvania!3m6!1s0x89c6c2fc88b7a235:0xa799d062a5d6249b!8m2!3d39.888545!4d-75.299563!15sCjNDT01QQUNUIERJU0MgT1VUTEVUIHJlY29yZCBzdG9yZSBBc3RvbiBQZW5uc3lsdmFuaWFaNSIzY29tcGFjdCBkaXNjIG91dGxldCByZWNvcmQgc3RvcmUgYXN0b24gcGVubnN5bHZhbmlhkgEQdmlkZW9fZ2FtZV9zdG9yZZoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VST2RXRmZNbnAzUlJBQuABAPoBBQiHARA7!16s%2Fg%2F1tzvxj7c?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T14:02:30.405Z"
+}

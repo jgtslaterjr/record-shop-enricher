@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "2f87679f-9e65-43ad-9422-923496b452bb",
+    "name": "The Record Shop",
+    "city": "Aliquippa",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "The Record Shop Aliquippa Pennsylvania record store",
+    "The Record Shop Aliquippa instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T13:08:11.749Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

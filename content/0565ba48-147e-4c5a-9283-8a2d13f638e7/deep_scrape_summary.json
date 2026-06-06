@@ -1,0 +1,38 @@
+{
+  "shopId": "0565ba48-147e-4c5a-9283-8a2d13f638e7",
+  "shopName": "Liberty Vinyl",
+  "city": "Ambler",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:49:55.810Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "2.8s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "51.7s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "21.4s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:51:34.373Z"
+}

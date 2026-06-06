@@ -1,0 +1,20 @@
+{
+  "name": "DJ Sean Music Studio",
+  "rating": null,
+  "reviewCount": null,
+  "address": "5810 Greene St, Philadelphia, PA 19144",
+  "phone": "(215) 848-1350",
+  "website": "https://apexphl.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/dj-sean-music-studio/1771521058008_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/DJ+Sean+Music+Studio/@40.0351651,-75.1811522,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6b849c2cfc931:0x982665e96f1f2e93!8m2!3d40.0351651!4d-75.1785773!16s%2Fg%2F1tp092b8?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T17:10:58.379Z"
+}

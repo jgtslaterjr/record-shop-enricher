@@ -1,0 +1,38 @@
+{
+  "shopId": "6d022496-444f-4898-b841-6747cacd6b61",
+  "shopName": "Fretz Music Center",
+  "city": "Perkasie",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T19:56:12.934Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.3s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.6s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "21.1s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "24.8s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T19:57:24.574Z"
+}

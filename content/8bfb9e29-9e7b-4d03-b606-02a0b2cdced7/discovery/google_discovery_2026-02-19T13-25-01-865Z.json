@@ -1,0 +1,159 @@
+{
+  "shop": {
+    "id": "8bfb9e29-9e7b-4d03-b606-02a0b2cdced7",
+    "name": "Magdon Music",
+    "city": "Archbald",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Magdon Music Archbald Pennsylvania record store",
+    "Magdon Music Archbald instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T13:25:01.866Z",
+  "links": [
+    {
+      "category": "website",
+      "url": "https://www.magdonmusic.net/"
+    },
+    {
+      "category": "website",
+      "url": "https://reverb.com/shop/magdon-music"
+    },
+    {
+      "category": "website",
+      "url": "https://www.ebay.com/str/magdonmusic"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/magdon"
+    },
+    {
+      "category": "website",
+      "url": "https://www.bestprosintown.com/pa/olyphant/magdon-music-/"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.manta.com/c/mmyzzx8/magdon-music",
+      "domain": "manta.com"
+    },
+    {
+      "category": "website",
+      "url": "https://discovernepa.com/listing/magdon-music/"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/olyphant/musical-instrument-store/2006200712-magdon-music",
+      "domain": "chamberofcommerce.com"
+    },
+    {
+      "category": "website",
+      "url": "https://www.merchantcircle.com/magdon-music-olyphant-pa"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/magdonmusic/",
+      "handle": "magdonmusic"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/profile.php"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/magdonmusic"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/photo.php"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/permalink.php"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/magdon.music/",
+      "handle": "magdon.music"
+    }
+  ],
+  "byCategory": {
+    "website": [
+      {
+        "category": "website",
+        "url": "https://www.magdonmusic.net/"
+      },
+      {
+        "category": "website",
+        "url": "https://reverb.com/shop/magdon-music"
+      },
+      {
+        "category": "website",
+        "url": "https://www.ebay.com/str/magdonmusic"
+      },
+      {
+        "category": "website",
+        "url": "https://www.bestprosintown.com/pa/olyphant/magdon-music-/"
+      },
+      {
+        "category": "website",
+        "url": "https://discovernepa.com/listing/magdon-music/"
+      },
+      {
+        "category": "website",
+        "url": "https://www.merchantcircle.com/magdon-music-olyphant-pa"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/magdon"
+      },
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/profile.php"
+      },
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/magdonmusic"
+      },
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/photo.php"
+      },
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/permalink.php"
+      }
+    ],
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://www.manta.com/c/mmyzzx8/magdon-music",
+        "domain": "manta.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/olyphant/musical-instrument-store/2006200712-magdon-music",
+        "domain": "chamberofcommerce.com"
+      }
+    ],
+    "instagram": [
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/magdonmusic/",
+        "handle": "magdonmusic"
+      },
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/magdon.music/",
+        "handle": "magdon.music"
+      }
+    ]
+  },
+  "updates": {
+    "social_instagram": "magdonmusic",
+    "social_facebook": "https://facebook.com/magdon",
+    "website": "https://www.magdonmusic.net/"
+  },
+  "skipped": {}
+}

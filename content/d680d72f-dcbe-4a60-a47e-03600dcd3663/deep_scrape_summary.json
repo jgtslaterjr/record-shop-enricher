@@ -1,0 +1,38 @@
+{
+  "shopId": "d680d72f-dcbe-4a60-a47e-03600dcd3663",
+  "shopName": "Big Bug Music",
+  "city": "Coolbaugh",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:28:42.536Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "2.5s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "22.1s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "18.1s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T17:29:46.391Z"
+}

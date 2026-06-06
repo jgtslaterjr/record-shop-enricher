@@ -1,0 +1,38 @@
+{
+  "shopId": "e0fada73-b88f-4556-82af-3ba426cebda1",
+  "shopName": "Audiolab Stereo & Video Center Inc.",
+  "city": "Aston",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T14:00:38.244Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.3s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "21.9s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "20.9s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T14:01:46.276Z"
+}

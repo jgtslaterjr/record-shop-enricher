@@ -1,0 +1,38 @@
+{
+  "shopId": "128b8229-6cfc-44d3-afcf-b0dd12713a56",
+  "shopName": "A DAY IN THE LIFE RECORDS",
+  "city": "Ambridge",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-18T15:39:02.324Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "2.6s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.2s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "8.5s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "10.1s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "31.1s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "31.1s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-18T15:40:50.261Z"
+}

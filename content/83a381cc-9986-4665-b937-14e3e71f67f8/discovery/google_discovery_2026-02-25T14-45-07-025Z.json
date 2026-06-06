@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "83a381cc-9986-4665-b937-14e3e71f67f8",
+    "name": "Rosie's Records",
+    "city": "Pittsburgh",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Rosie's Records Pittsburgh Pennsylvania record store",
+    "Rosie's Records Pittsburgh instagram facebook"
+  ],
+  "discoveredAt": "2026-02-25T14:45:07.025Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

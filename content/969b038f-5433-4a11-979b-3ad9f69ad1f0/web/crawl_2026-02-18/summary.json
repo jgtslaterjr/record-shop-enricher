@@ -1,0 +1,75 @@
+{
+  "overview": "Record shop specializing in music and movies, with a focus on buying, selling, and trading CDs, vinyl, DVDs, and Blu-rays.",
+  "history": {
+    "founded": "2013",
+    "notable_history": "Formerly CD Zone"
+  },
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "CD",
+      "cassette"
+    ],
+    "genres": [
+      "no specific mention"
+    ]
+  },
+  "services": {
+    "buying": true,
+    "selling": true,
+    "trading": true,
+    "online_store": true,
+    "shipping": true
+  },
+  "events": {
+    "hosted_events": true,
+    "event_frequency": "no specific mention"
+  },
+  "staff": {
+    "notable_staff": [
+      "Dale Schnur Jr"
+    ]
+  },
+  "hours_location": {
+    "store_hours": [
+      {
+        "day": "Monday",
+        "time": "11:00 AM - 8:00 PM"
+      },
+      {
+        "day": "Tuesday",
+        "time": "11:00 AM - 8:00 PM"
+      },
+      {
+        "day": "Wednesday",
+        "time": "11:00 AM - 8:00 PM"
+      },
+      {
+        "day": "Thursday",
+        "time": "11:00 AM - 8:00 PM"
+      },
+      {
+        "day": "Friday",
+        "time": "11:00 AM - 8:00 PM"
+      },
+      {
+        "day": "Saturday",
+        "time": "11:00 AM - 8:00 PM"
+      },
+      {
+        "day": "Sunday",
+        "time": "12:00 PM - 6:00 PM"
+      }
+    ],
+    "location": {
+      "address": "301 Evans City Rd Route 68, Butler, PA 16001"
+    }
+  },
+  "unique_features": [
+    "listening rooms",
+    "cafe"
+  ],
+  "community_role": {
+    "role_in_local_music_scene": "no specific mention"
+  }
+}

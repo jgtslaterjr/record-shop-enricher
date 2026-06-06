@@ -1,0 +1,38 @@
+{
+  "shopId": "367ef90d-929f-4823-b27c-96edb8e14791",
+  "shopName": "Jam - Music and Memorabilia",
+  "city": "Aston",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:52:47.869Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.0s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "25.2s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "18.7s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:53:57.826Z"
+}

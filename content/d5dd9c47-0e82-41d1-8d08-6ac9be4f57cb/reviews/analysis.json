@@ -1,0 +1,14 @@
+{
+  "raw_summary": "Here is the analysis in JSON format:\n\n{\n  \"sentiment_score\": 9,\n  \"key_themes\": [\"great selection of vinyl\", \"friendly and knowledgeable staff\", \"wide range of products (gear, amps, speakers)\"],\n  \"pros\": [\n    \"Excellent use of glass and wood to create a welcoming space\",\n    \"Tightly arranged selection of vinyl\",\n    \"Impressive array of turntables, amps, speakers, headphones, and other gear\"\n  ],\n  \"cons\": [],\n  \"notable_quotes\": {\n    \"best\": \"These people are amazing!\",\n    \"worst\": None,\n    \"funniest\": None\n  },\n  \"vibe_description\": \"Music To My Ear is a haven for music enthusiasts, with a cozy and inviting atmosphere that makes customers feel at home. The store's expert staff is always happy to help, making it a great destination for both casual browsers and serious collectors.\",\n  \"genre_specialties\": [\"jazz\", \"classical\", \"punk\"],\n  \"staff_mentions\": Reviewers rave about the friendly and knowledgeable staff, who are always willing to lend a hand. Some reviewers even mention that the staff is happy to special order items.\n  \"event_mentions\": None,\n  \"recommendation_for\": \"music enthusiasts of all levels, particularly those interested in vinyl, audio equipment, and classic rock\"\n}",
+  "metadata": {
+    "totalReviews": 8,
+    "yelpReviews": 8,
+    "googleReviews": 0,
+    "averageRating": 4.88,
+    "ratingDistribution": {
+      "4": 1,
+      "5": 7
+    },
+    "analyzedAt": "2026-02-18T15:20:48.932Z"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "nebby Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": null,
+  "phone": null,
+  "website": "https://www.nebbyrecords.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/nebby-records/1771530704939_google.png"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/nebby+Records/@40.3234048,-80.0772355,13z/data=!3m1!4b1!4m6!3m5!1s0xa8e44e57a41fa74d:0x84a5027ea892623d!8m2!3d40.3234121!4d-80.036036!16s%2Fg%2F11vr9crvnw?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T19:51:45.190Z"
+}

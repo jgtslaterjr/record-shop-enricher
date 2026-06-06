@@ -1,0 +1,38 @@
+{
+  "shopId": "2e448838-19bd-4775-aab0-9bd74fddb2ab",
+  "shopName": "DeadWayMusic",
+  "city": "Conemaugh Township",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:23:47.240Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.6s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "52.3s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "19.2s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.3s"
+    }
+  },
+  "completedAt": "2026-02-19T17:25:24.437Z"
+}

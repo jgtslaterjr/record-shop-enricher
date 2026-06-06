@@ -1,0 +1,20 @@
+{
+  "name": "Bucks County Folk Music Shop",
+  "rating": null,
+  "reviewCount": null,
+  "address": "40 S Sand Rd, New Britain, PA 18901",
+  "phone": "(215) 345-0616",
+  "website": "http://www.buckscountyfolkmusic.com/",
+  "hours": {},
+  "categories": [
+    "Musical instrument store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/bucks-county-folk-music-shop/1771442173340_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Bucks+County+Folk+Music+Shop/@40.2944714,-75.1919511,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6a7babbad67d5:0x3c73ab94e09d2db4!8m2!3d40.2944714!4d-75.1893762!16s%2Fg%2F1tvq51zr?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T19:16:13.686Z"
+}

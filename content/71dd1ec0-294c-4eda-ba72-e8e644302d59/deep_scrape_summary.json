@@ -1,0 +1,38 @@
+{
+  "shopId": "71dd1ec0-294c-4eda-ba72-e8e644302d59",
+  "shopName": "Latrobe Music Center",
+  "city": "Latrobe",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T14:18:48.188Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.4s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "22.0s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "18.0s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T14:19:53.574Z"
+}

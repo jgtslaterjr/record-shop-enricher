@@ -1,0 +1,38 @@
+{
+  "shopId": "a7598995-811c-4ad8-9793-03ec456821f6",
+  "shopName": "Dean Sapp's Music Store",
+  "city": "East Nottingham",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T19:48:35.335Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.3s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.2s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "55.4s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "20.8s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T19:50:16.667Z"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Jack's Discount Videos",
+  "rating": null,
+  "reviewCount": null,
+  "address": "316 Grant Ave, Millvale, PA 15209",
+  "phone": "(412) 821-3344",
+  "website": null,
+  "hours": {},
+  "categories": [
+    "Electronics store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/jacks-discount-videos/1771532634999_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Jack's+Discount+Videos/@40.4797227,-79.9752107,17z/data=!3m1!4b1!4m6!3m5!1s0x8834f3a8ff7a7a09:0xacb287fdec41f69!8m2!3d40.4797227!4d-79.9726358!16s%2Fg%2F11cs2hb0kd?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T20:23:55.197Z"
+}

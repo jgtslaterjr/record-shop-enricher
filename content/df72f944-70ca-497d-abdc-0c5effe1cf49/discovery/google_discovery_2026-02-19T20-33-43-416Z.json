@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "df72f944-70ca-497d-abdc-0c5effe1cf49",
+    "name": "The Ford Music Center",
+    "city": "Shenango Township",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "The Ford Music Center Shenango Township Pennsylvania record store",
+    "The Ford Music Center Shenango Township instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T20:33:43.417Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

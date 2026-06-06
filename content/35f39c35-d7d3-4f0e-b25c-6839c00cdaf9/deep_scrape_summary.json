@@ -1,0 +1,38 @@
+{
+  "shopId": "35f39c35-d7d3-4f0e-b25c-6839c00cdaf9",
+  "shopName": "What a Croc Records",
+  "city": "Amity Township",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-18T15:47:19.248Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "3.1s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.4s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "20.8s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "10.2s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "44.4s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-18T15:48:59.569Z"
+}

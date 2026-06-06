@@ -1,0 +1,38 @@
+{
+  "shopId": "19c34642-7695-4ccc-9d6f-34793f0a5899",
+  "shopName": "Book and Mortar Record Store",
+  "city": "Pittsburgh",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T20:31:51.597Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.4s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "55.1s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "21.2s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T20:33:34.992Z"
+}

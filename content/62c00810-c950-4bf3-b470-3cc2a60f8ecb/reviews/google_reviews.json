@@ -1,0 +1,20 @@
+{
+  "name": "Penn Avenue Music",
+  "rating": null,
+  "reviewCount": null,
+  "address": "2610 Penn Ave, Reading, PA 19609",
+  "phone": "(610) 678-2888",
+  "website": "http://www.pennavemusicofficial.com/",
+  "hours": {},
+  "categories": [
+    "Musical instrument store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/penn-avenue-music/1771522350105_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Penn+Avenue+Music/@40.3262191,-76.0015226,17z/data=!3m1!4b1!4m6!3m5!1s0x89c673e7541d8009:0xb9b2124921dd3005!8m2!3d40.3262191!4d-75.9989477!16s%2Fg%2F1tdy5dx3?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T17:32:43.854Z"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Progressive Music",
+  "rating": null,
+  "reviewCount": null,
+  "address": "316 5th Ave, McKeesport, PA 15132",
+  "phone": "(412) 672-9623",
+  "website": "http://www.progressivemusiccompany.com/",
+  "hours": {},
+  "categories": [
+    "Musical instrument store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/progressive-music/1771520342477_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Progressive+Music/@40.35082,-79.8667059,17z/data=!3m1!4b1!4m6!3m5!1s0x8834e587ee29b131:0x915995439f799acb!8m2!3d40.35082!4d-79.864131!16s%2Fg%2F1tp27y9y?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T16:59:15.228Z"
+}

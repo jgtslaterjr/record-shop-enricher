@@ -1,0 +1,128 @@
+{
+  "shop": {
+    "id": "5da6ad83-54c6-4e94-946d-cacfe8cabd43",
+    "name": "Everlong Records LLC",
+    "city": "Aliquippa",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Everlong Records LLC Aliquippa Pennsylvania record store",
+    "Everlong Records LLC Aliquippa instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T13:18:46.154Z",
+  "links": [
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/profile.php"
+    },
+    {
+      "category": "website",
+      "url": "https://everlongrecords.squarespace.com/"
+    },
+    {
+      "category": "yelp",
+      "url": "https://www.yelp.com/biz/everlong-records-hamburg"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/everlong_records/",
+      "handle": "everlong_records"
+    },
+    {
+      "category": "directory",
+      "url": "https://recordstoreday.com/Store/26679",
+      "domain": "recordstoreday.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.mapquest.com/us/pennsylvania/everlong-records-776487607",
+      "domain": "mapquest.com"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/story.php"
+    },
+    {
+      "category": "website",
+      "url": "https://local.yahoo.com/info-238560479-everlong-records-hamburg/"
+    },
+    {
+      "category": "website",
+      "url": "https://hamburgpa.org/business/everlong-records-llc/"
+    },
+    {
+      "category": "website",
+      "url": "https://www.cylex.us.com/company/everlong-records-llc-40027854.html"
+    }
+  ],
+  "byCategory": {
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/profile.php"
+      },
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/story.php"
+      }
+    ],
+    "website": [
+      {
+        "category": "website",
+        "url": "https://everlongrecords.squarespace.com/"
+      },
+      {
+        "category": "website",
+        "url": "https://local.yahoo.com/info-238560479-everlong-records-hamburg/"
+      },
+      {
+        "category": "website",
+        "url": "https://hamburgpa.org/business/everlong-records-llc/"
+      },
+      {
+        "category": "website",
+        "url": "https://www.cylex.us.com/company/everlong-records-llc-40027854.html"
+      }
+    ],
+    "yelp": [
+      {
+        "category": "yelp",
+        "url": "https://www.yelp.com/biz/everlong-records-hamburg"
+      }
+    ],
+    "instagram": [
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/everlong_records/",
+        "handle": "everlong_records"
+      }
+    ],
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://recordstoreday.com/Store/26679",
+        "domain": "recordstoreday.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.mapquest.com/us/pennsylvania/everlong-records-776487607",
+        "domain": "mapquest.com"
+      }
+    ]
+  },
+  "updates": {},
+  "skipped": {
+    "yelp_url": {
+      "current": "https://www.yelp.com/biz/everlong-records-hamburg",
+      "discovered": "https://www.yelp.com/biz/everlong-records-hamburg"
+    },
+    "social_instagram": {
+      "current": "everlong_records",
+      "discovered": "everlong_records"
+    },
+    "social_facebook": {
+      "current": "https://facebook.com/profile.php",
+      "discovered": "https://facebook.com/profile.php"
+    }
+  }
+}

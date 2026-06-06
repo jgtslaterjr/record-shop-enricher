@@ -1,0 +1,20 @@
+{
+  "name": "Salamander Books and Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "36 E Main St, Annville, PA 17003",
+  "phone": "(717) 310-7878",
+  "website": "https://www.salamanderbooks.net/",
+  "hours": {},
+  "categories": [
+    "Used book store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/salamander-books-and-records/1771530140913_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Salamander+Books+and+Records/@40.3293741,-76.5167855,17z/data=!3m1!4b1!4m6!3m5!1s0x89c8a9fd7e457b43:0xec879ebb09c39ed0!8m2!3d40.3293741!4d-76.5142106!16s%2Fg%2F11k13312fc?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T19:42:32.407Z"
+}

@@ -1,0 +1,38 @@
+{
+  "shopId": "dee6a689-b29f-43f7-ae3c-dab76e5ab0cb",
+  "shopName": "Stan's Record Bar",
+  "city": "Amity Township",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:04:34.660Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.3s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "10.1s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "19.0s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:05:28.825Z"
+}

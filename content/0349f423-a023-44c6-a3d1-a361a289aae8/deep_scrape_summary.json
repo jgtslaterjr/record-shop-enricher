@@ -1,0 +1,38 @@
+{
+  "shopId": "0349f423-a023-44c6-a3d1-a361a289aae8",
+  "shopName": "U Rock Music Center",
+  "city": "Canonsburg",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T16:47:55.765Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.3s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "22.3s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "22.3s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T16:49:05.578Z"
+}

@@ -1,0 +1,38 @@
+{
+  "shopId": "b12cc108-0dd9-4daa-9d04-b630d574dd27",
+  "shopName": "Audiowave Sound & Lighting",
+  "city": "Honey Brook Township",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:48:55.803Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.6s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "8.5s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "19.8s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:49:47.567Z"
+}

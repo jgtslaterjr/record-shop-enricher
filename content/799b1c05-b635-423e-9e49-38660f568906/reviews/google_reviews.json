@@ -1,0 +1,20 @@
+{
+  "name": "Spiders From Mars Record Shop",
+  "rating": null,
+  "reviewCount": null,
+  "address": "2223 Dutch Gold Dr, Lancaster, PA 17601",
+  "phone": "(717) 405-8162",
+  "website": "http://www.sfmrecordshop.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/spiders-from-mars-record-shop/1771428499427_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Spiders+From+Mars+Record+Shop/@40.0557962,-76.3634633,17z/data=!3m1!4b1!4m6!3m5!1s0x89c625292349ec8d:0x8605bd6e64c87c2b!8m2!3d40.0557962!4d-76.3608884!16s%2Fg%2F11h27mqcjc?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T15:28:31.379Z"
+}

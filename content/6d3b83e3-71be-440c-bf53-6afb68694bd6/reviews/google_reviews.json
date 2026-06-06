@@ -1,0 +1,20 @@
+{
+  "name": "BEK Hifi",
+  "rating": null,
+  "reviewCount": null,
+  "address": "808 St John St, Allentown, PA 18103",
+  "phone": "(610) 351-0764",
+  "website": "http://www.bekhifi.com/",
+  "hours": {},
+  "categories": [
+    "Home audio store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/bek-hifi_allentown_pennsylvania/1771533608673_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/BEK+Hifi/@40.5912948,-75.4718753,17z/data=!3m1!4b1!4m6!3m5!1s0x89c43bda8070e885:0x32c354858bf3f5d5!8m2!3d40.5912948!4d-75.4693004!16s%2Fg%2F1pty0gmlr?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T20:40:08.893Z"
+}

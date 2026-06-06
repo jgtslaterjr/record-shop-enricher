@@ -1,0 +1,38 @@
+{
+  "shopId": "53519609-aa97-4af1-8d9d-5f1db5d2debb",
+  "shopName": "Buying All Comic Books And Records",
+  "city": "Catasauqua",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:04:35.948Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.0s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "6.4s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "22.5s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T17:05:31.242Z"
+}

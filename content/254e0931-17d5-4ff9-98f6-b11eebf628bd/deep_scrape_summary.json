@@ -1,0 +1,38 @@
+{
+  "shopId": "254e0931-17d5-4ff9-98f6-b11eebf628bd",
+  "shopName": "Serenity Records Studios",
+  "city": "Catasauqua",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:01:47.799Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.3s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "8.8s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "19.3s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.3s"
+    }
+  },
+  "completedAt": "2026-02-19T17:02:38.573Z"
+}

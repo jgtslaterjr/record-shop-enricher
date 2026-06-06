@@ -1,0 +1,46 @@
+{
+  "shopName": "Music To My Ear",
+  "shopId": "d5dd9c47-0e82-41d1-8d08-6ac9be4f57cb",
+  "city": "Ambridge",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "Online",
+      "title": "Events in PA | Festivals in PA | Things to Do in PA This Weekend - visitPA",
+      "date": null,
+      "description": null,
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    },
+    {
+      "event_type": "Festivals & Events",
+      "title": "Festivals & Events | Experience Butler County PA",
+      "date": null,
+      "description": null,
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    },
+    {
+      "event_type": "Kids Activities",
+      "title": "Explore events, festivals, concerts, kids activities, virtual events ... - Eventeny",
+      "date": null,
+      "description": null,
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    },
+    {
+      "event_type": "Concerts",
+      "title": "THE 10 BEST Things to Do & Activities in Strafford, PA - Eventbrite",
+      "date": null,
+      "description": null,
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://duckduckgo.com/events"
+    }
+  ],
+  "totalFound": 4,
+  "scrapedAt": "2026-02-18T15:20:43.303Z"
+}

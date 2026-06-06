@@ -1,0 +1,20 @@
+{
+  "name": "U Rock Music Center",
+  "rating": null,
+  "reviewCount": null,
+  "address": "3909 Washington Rd Suite 203, McMurray, PA 15317",
+  "phone": "(724) 941-1435",
+  "website": "http://urockmusic.com/",
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/u-rock-music-center/1771519693746_google.png"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/U+Rock+Music+Center/@40.2715014,-84.7397891,7z/data=!3m1!5s0x883455bf2dbb4ae5:0x3bff6f9cacc77695!4m10!1m2!2m1!1sU+Rock+Music+Center+record+store+Canonsburg+Pennsylvania!3m6!1s0x883455b8ea005db9:0x70decf2182be56f9!8m2!3d40.2715014!4d-80.1255313!15sCjhVIFJvY2sgTXVzaWMgQ2VudGVyIHJlY29yZCBzdG9yZSBDYW5vbnNidXJnIFBlbm5zeWx2YW5pYVo6Ijh1IHJvY2sgbXVzaWMgY2VudGVyIHJlY29yZCBzdG9yZSBjYW5vbnNidXJnIHBlbm5zeWx2YW5pYZIBC211c2ljX3N0b3Jl4AEA!16s%2Fg%2F126142x_h?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T16:48:27.491Z"
+}

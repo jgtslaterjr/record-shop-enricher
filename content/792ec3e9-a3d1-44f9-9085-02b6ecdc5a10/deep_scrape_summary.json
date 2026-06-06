@@ -1,0 +1,38 @@
+{
+  "shopId": "792ec3e9-a3d1-44f9-9085-02b6ecdc5a10",
+  "shopName": "Full Circle Record Shop",
+  "city": "Archbald",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:34:08.426Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.3s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.2s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "7.7s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "19.8s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:35:02.056Z"
+}

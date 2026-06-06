@@ -1,0 +1,38 @@
+{
+  "shopId": "b0402b70-9d00-4e2e-a0c9-750e45e291c4",
+  "shopName": "Musical Intervals",
+  "city": "East Norriton",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T19:45:01.647Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.3s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.2s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "49.8s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "22.2s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T19:46:38.811Z"
+}

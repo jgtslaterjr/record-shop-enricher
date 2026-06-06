@@ -1,0 +1,38 @@
+{
+  "shopId": "157bd563-37e8-43fc-9ce0-f552dea5c8df",
+  "shopName": "Sky Valley Records",
+  "city": "Aston",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:58:18.466Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.3s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "6.8s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "22.1s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:59:12.564Z"
+}

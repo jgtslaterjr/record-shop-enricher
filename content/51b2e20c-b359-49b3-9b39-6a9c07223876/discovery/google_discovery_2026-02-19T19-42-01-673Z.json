@@ -1,0 +1,79 @@
+{
+  "shop": {
+    "id": "51b2e20c-b359-49b3-9b39-6a9c07223876",
+    "name": "Salamander Books and Records",
+    "city": "Palmyra",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Salamander Books and Records Palmyra Pennsylvania record store",
+    "Salamander Books and Records Palmyra instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T19:42:01.673Z",
+  "links": [
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/salamanderbooks/",
+      "handle": "salamanderbooks"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/lebanontown"
+    },
+    {
+      "category": "website",
+      "url": "https://mj21231.wixsite.com/salamanderbooks"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/salamanderbooks"
+    },
+    {
+      "category": "website",
+      "url": "https://lebtown.com/2021/06/16/salamander-books-and-musics-new-place-in-our-community-is-downtown-palmyra/"
+    },
+    {
+      "category": "website",
+      "url": "https://www.cylex.us.com/company/salamander-books-and-music-35468116.html"
+    }
+  ],
+  "byCategory": {
+    "instagram": [
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/salamanderbooks/",
+        "handle": "salamanderbooks"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/lebanontown"
+      },
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/salamanderbooks"
+      }
+    ],
+    "website": [
+      {
+        "category": "website",
+        "url": "https://mj21231.wixsite.com/salamanderbooks"
+      },
+      {
+        "category": "website",
+        "url": "https://lebtown.com/2021/06/16/salamander-books-and-musics-new-place-in-our-community-is-downtown-palmyra/"
+      },
+      {
+        "category": "website",
+        "url": "https://www.cylex.us.com/company/salamander-books-and-music-35468116.html"
+      }
+    ]
+  },
+  "updates": {
+    "social_instagram": "salamanderbooks",
+    "social_facebook": "https://facebook.com/lebanontown",
+    "website": "https://mj21231.wixsite.com/salamanderbooks"
+  },
+  "skipped": {}
+}

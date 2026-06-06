@@ -1,0 +1,47 @@
+{
+  "overview": "Record shop with a focus on protecting personal information and data, using their browser and privacy tools.",
+  "history": {
+    "founded": 2008,
+    "notable_history": [
+      "Announced to Hacker News and reddit communities",
+      "Launched charitable donations program",
+      "Moved out of founder's basement into a fortress in Paoli, PA"
+    ]
+  },
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "cd"
+    ],
+    "genres": [],
+    "new_vs_used": "both"
+  },
+  "services": {
+    "buy": true,
+    "sell": true,
+    "trade": false,
+    "online_store": true,
+    "shipping": true
+  },
+  "events": {
+    "host_events": true,
+    "event_types": [
+      "record-related events"
+    ],
+    "frequency": "regularly"
+  },
+  "staff": {
+    "notable_staff": null
+  },
+  "hours_location": {
+    "store_hours": null,
+    "address": null
+  },
+  "unique_features": {
+    "listening_rooms": false,
+    "cafe": false
+  },
+  "community_role": {
+    "engagement_with_local_music_scene": "supporting local music scene"
+  }
+}

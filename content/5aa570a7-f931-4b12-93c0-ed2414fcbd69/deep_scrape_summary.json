@@ -1,0 +1,38 @@
+{
+  "shopId": "5aa570a7-f931-4b12-93c0-ed2414fcbd69",
+  "shopName": "Moonrocket Vinyl Record Store",
+  "city": "Aston",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:51:42.596Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.3s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "7.4s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "21.7s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:52:39.636Z"
+}

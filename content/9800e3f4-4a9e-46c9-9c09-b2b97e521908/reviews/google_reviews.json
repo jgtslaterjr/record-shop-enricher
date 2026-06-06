@@ -1,0 +1,20 @@
+{
+  "name": "Railroad Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "335 Vine St, Bethlehem, PA 18015",
+  "phone": null,
+  "website": "http://railroadrecordspa.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/railroad-records/1771507928161_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Railroad+Records/@40.2853413,-75.6507377,10z/data=!4m10!1m2!2m1!1sRailroad+Records+record+store+Archbald+Pennsylvania!3m6!1s0x89c43f007c8e360f:0x99d72d2d044afe98!8m2!3d40.6107884!4d-75.3795877!15sCjNSYWlscm9hZCBSZWNvcmRzIHJlY29yZCBzdG9yZSBBcmNoYmFsZCBQZW5uc3lsdmFuaWFaNSIzcmFpbHJvYWQgcmVjb3JkcyByZWNvcmQgc3RvcmUgYXJjaGJhbGQgcGVubnN5bHZhbmlhkgEMcmVjb3JkX3N0b3JlmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJ4Q1MxSlVRalJrVjJSSVRWVTVhbGd4VFhka01HOTZXa2hzV0ZSR1JSQULgAQD6AQQIABBF!16s%2Fg%2F11yh65xklv?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:32:08.411Z"
+}

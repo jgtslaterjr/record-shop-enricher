@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "2f2d0fd2-c4fd-45f1-aa82-250cfa989ebd",
+    "name": "Right Coast Recording, Inc.",
+    "city": "Columbia",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Right Coast Recording, Inc. Columbia Pennsylvania record store",
+    "Right Coast Recording, Inc. Columbia instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T17:21:29.343Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

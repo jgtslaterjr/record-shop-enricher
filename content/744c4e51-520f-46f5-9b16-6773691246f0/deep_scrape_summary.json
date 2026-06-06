@@ -1,0 +1,38 @@
+{
+  "shopId": "744c4e51-520f-46f5-9b16-6773691246f0",
+  "shopName": "Haul House Records",
+  "city": "Amity Township",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-18T15:45:22.786Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "5.9s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "2.5s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "23.8s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "24.8s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "4.5s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "24.3s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-18T15:47:11.011Z"
+}

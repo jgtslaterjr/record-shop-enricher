@@ -1,0 +1,20 @@
+{
+  "name": "Andrea Bogusko Music Co",
+  "rating": null,
+  "reviewCount": null,
+  "address": "1150 Wilkes Barre Township Blvd, Wilkes-Barre Township, PA 18702",
+  "phone": "(570) 829-3679",
+  "website": null,
+  "hours": {},
+  "categories": [
+    "Musical instrument store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/andrea-bogusko-music-co/1771508651771_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Andrea+Bogusko+Music+Co/@41.2198112,-75.8875051,17z/data=!3m1!4b1!4m6!3m5!1s0x89c51abb8a16f9a1:0xd4bda3505500efc6!8m2!3d41.2198112!4d-75.8849302!16s%2Fg%2F1wj_6zx4?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:44:25.815Z"
+}

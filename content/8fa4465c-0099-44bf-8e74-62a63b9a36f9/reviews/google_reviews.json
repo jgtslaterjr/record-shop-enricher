@@ -1,0 +1,21 @@
+{
+  "name": "Deluca Music Co",
+  "rating": null,
+  "reviewCount": null,
+  "address": "56 S York Rd, Hatboro, PA 19040",
+  "phone": "(215) 674-1401",
+  "website": "http://www.delucamusic.com/",
+  "hours": {},
+  "categories": [
+    "Musical instrument store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/deluca-music-co/1771508727291_google.jpg",
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/deluca-music-co/1771508728261_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Deluca+Music+Co/@40.175899,-75.1094459,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6ae4b3a3d1713:0x9b19ba536a4ac3ce!8m2!3d40.175899!4d-75.106871!16s%2Fg%2F1tdv_v9w?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:45:41.972Z"
+}

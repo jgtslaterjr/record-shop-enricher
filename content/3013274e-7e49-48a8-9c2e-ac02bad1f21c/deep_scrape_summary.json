@@ -1,0 +1,38 @@
+{
+  "shopId": "3013274e-7e49-48a8-9c2e-ac02bad1f21c",
+  "shopName": "Fez Records",
+  "city": "Antrim",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:20:53.754Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "4.9s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.8s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "23.9s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "24.3s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "4.4s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "22.8s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:22:39.743Z"
+}

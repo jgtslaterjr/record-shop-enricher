@@ -1,0 +1,20 @@
+{
+  "name": "Real Truth Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "100 Main St, Lower Salford Township, PA 19438",
+  "phone": "(267) 664-9960",
+  "website": "http://www.facebook.com/realtruthproductions",
+  "hours": null,
+  "categories": [
+    "Recording studio"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/real-truth-records/1771506812383_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Real+Truth+Records/@40.2588234,-75.3666993,17z/data=!3m1!4b1!4m6!3m5!1s0x89c698b62c15973b:0x34b677a82e58bd40!8m2!3d40.2588234!4d-75.3641244!16s%2Fg%2F1ts3gksp?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:13:32.664Z"
+}

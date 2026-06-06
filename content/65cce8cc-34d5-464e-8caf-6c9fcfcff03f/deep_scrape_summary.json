@@ -1,0 +1,38 @@
+{
+  "shopId": "65cce8cc-34d5-464e-8caf-6c9fcfcff03f",
+  "shopName": "Raystown Music and Aquarium",
+  "city": "Huntingdon",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T14:03:12.735Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.2s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "19.3s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "18.7s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.3s"
+    }
+  },
+  "completedAt": "2026-02-19T14:04:19.166Z"
+}

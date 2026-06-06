@@ -1,0 +1,38 @@
+{
+  "shopId": "16984a03-fcd8-487c-817f-3bf305e609c2",
+  "shopName": "Breadman Records",
+  "city": "Marple",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T16:54:29.223Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.8s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "55.4s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "20.7s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T16:56:11.257Z"
+}

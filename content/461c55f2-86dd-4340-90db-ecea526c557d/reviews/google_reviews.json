@@ -1,0 +1,20 @@
+{
+  "name": "Music Go Round",
+  "rating": null,
+  "reviewCount": null,
+  "address": "677 Kidder St, Wilkes-Barre Township, PA 18702",
+  "phone": "(570) 823-8733",
+  "website": "http://www.musicgoroundpa.com/",
+  "hours": {},
+  "categories": [
+    "Used musical instrument store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/music-go-round/1771508400989_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Music+Go+Round/@40.3499296,-77.2672579,8z/data=!4m10!1m2!2m1!1sMusic+Go+Round+record+store+Hanover+Township+Pennsylvania!3m6!1s0x89c51ba83484fe71:0xe3d35a8b886e2872!8m2!3d41.2497793!4d-75.8481847!15sCjlNdXNpYyBHbyBSb3VuZCByZWNvcmQgc3RvcmUgSGFub3ZlciBUb3duc2hpcCBQZW5uc3lsdmFuaWFaOyI5bXVzaWMgZ28gcm91bmQgcmVjb3JkIHN0b3JlIGhhbm92ZXIgdG93bnNoaXAgcGVubnN5bHZhbmlhkgEddXNlZF9tdXNpY2FsX2luc3RydW1lbnRfc3RvcmWaAURDaTlEUVVsUlFVTnZaRU5vZEhsalJqbHZUMnRTZW1KdVVURlJNVUpLWW10b2JWTldRazlhVm14TlZVWmtkMUpzUlJBQuABAPoBBQirAhAu!16s%2Fg%2F1tzvxhz9?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:40:16.029Z"
+}

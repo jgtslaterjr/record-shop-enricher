@@ -1,0 +1,38 @@
+{
+  "shopId": "41c4653f-8d3a-4205-a700-dc2d96ef67cd",
+  "shopName": "Rick's Records",
+  "city": "Harborcreek",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:42:42.145Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.3s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.5s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "20.1s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "21.5s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:43:47.112Z"
+}

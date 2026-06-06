@@ -1,0 +1,20 @@
+{
+  "name": "Rock Street Music",
+  "rating": null,
+  "reviewCount": null,
+  "address": "148 S Main St, Pittston, PA 18640",
+  "phone": "(570) 655-6076",
+  "website": "http://www.rockstreetmusic.com/",
+  "hours": null,
+  "categories": [
+    "Musical instrument store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/rock-street-music/1771531319411_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Rock+Street+Music/@41.3186013,-75.7960528,17z/data=!3m1!4b1!4m6!3m5!1s0x89c51f25c1413c4f:0x1d472100a6517655!8m2!3d41.3186013!4d-75.7934779!16s%2Fg%2F1vg_dtc1?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T20:02:14.294Z"
+}

@@ -1,0 +1,46 @@
+{
+  "shopId": "83a381cc-9986-4665-b937-14e3e71f67f8",
+  "shopName": "Rosie's Records",
+  "city": "Pittsburgh",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-25T14:45:06.824Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.3s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.0s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "21.1s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "discogs": {
+      "status": "success",
+      "elapsed": "39.6s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "41.8s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "extract_fields": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-25T14:47:21.156Z"
+}

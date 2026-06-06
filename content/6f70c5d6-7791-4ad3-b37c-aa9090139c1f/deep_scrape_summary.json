@@ -3,7 +3,7 @@
   "shopName": "Bah-Fo Studio - Recording",
   "city": "Ambler",
   "state": "Pennsylvania",
-  "startedAt": "2026-02-17T17:44:26.640Z",
+  "startedAt": "2026-02-19T20:17:13.134Z",
   "scrapers": {
     "discovery": {
       "status": "success",
@@ -11,11 +11,11 @@
     },
     "yelp": {
       "status": "success",
-      "elapsed": "2.8s"
+      "elapsed": "2.6s"
     },
     "google": {
       "status": "success",
-      "elapsed": "22.7s"
+      "elapsed": "23.6s"
     },
     "website": {
       "status": "success",
@@ -27,12 +27,12 @@
     },
     "events": {
       "status": "success",
-      "elapsed": "20.2s"
+      "elapsed": "19.6s"
     },
     "reviews": {
       "status": "success",
       "elapsed": "0.2s"
     }
   },
-  "completedAt": "2026-02-17T17:45:35.563Z"
+  "completedAt": "2026-02-19T20:18:17.014Z"
 }

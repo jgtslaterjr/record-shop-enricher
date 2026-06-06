@@ -1,0 +1,20 @@
+{
+  "name": "Full Circle Record Shop",
+  "rating": null,
+  "reviewCount": null,
+  "address": "20 N Cameron St, Harrisburg, PA 17101",
+  "phone": null,
+  "website": "http://www.fullcirclerecordshop.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/full-circle-record-shop/1771508064339_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Full+Circle+Record+Shop/@40.2651667,-76.8777869,17z/data=!3m1!4b1!4m6!3m5!1s0x89c8c19a738f03b7:0x7da731686e88337f!8m2!3d40.2651667!4d-76.875212!16s%2Fg%2F11jsvmxxnw?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:34:24.558Z"
+}

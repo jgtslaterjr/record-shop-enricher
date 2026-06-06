@@ -1,0 +1,20 @@
+{
+  "name": "Vinyl Remains",
+  "rating": null,
+  "reviewCount": null,
+  "address": "692 Washington Rd, Pittsburgh, PA 15228",
+  "phone": "(412) 563-3500",
+  "website": "http://vinylremainspg13.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/vinyl-remains/1772030572610_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Vinyl+Remains/@40.380316,-80.0474023,17z/data=!3m1!4b1!4m6!3m5!1s0x8834f717133ecd9d:0x157958f627874c6c!8m2!3d40.380316!4d-80.0448274!16s%2Fg%2F11gd1w4csr?entry=ttu&g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-25T14:43:07.060Z"
+}

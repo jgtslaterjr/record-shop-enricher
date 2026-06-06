@@ -1,0 +1,38 @@
+{
+  "shopId": "b2648549-865f-496f-bfe8-50096409f78e",
+  "shopName": "Moretti Music",
+  "city": "Caln",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T16:27:39.604Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "5.4s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.2s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "20.4s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "25.6s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "26.2s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "45.9s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T16:30:10.025Z"
+}

@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "d0a4e7f0-ab26-427a-8399-d3022ad796e8",
+    "name": "On the Record",
+    "city": "Coal",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "On the Record Coal Pennsylvania record store",
+    "On the Record Coal instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T17:17:46.672Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

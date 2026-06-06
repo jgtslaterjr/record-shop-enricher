@@ -1,0 +1,38 @@
+{
+  "shopId": "207586e9-ea97-4c26-8dfd-3e2f41141133",
+  "shopName": "Nightfall Records",
+  "city": "Hampton",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:37:54.810Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.3s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.7s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "53.7s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "17.6s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:39:33.542Z"
+}

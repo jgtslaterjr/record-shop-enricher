@@ -1,0 +1,20 @@
+{
+  "name": "Fez Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "2042 Axemann Rd Suite 210, Bellefonte, PA 16823",
+  "phone": "(814) 810-2720",
+  "website": "http://www.fezrecords.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/fez-records/1771507276696_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Fez+Records/@40.9022226,-77.7798819,17z/data=!3m1!4b1!4m6!3m5!1s0x89cea3d1e2abdd33:0x77a5ac3cffe010d4!8m2!3d40.9022226!4d-77.777307!16s%2Fg%2F11t75ttzz2?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:21:32.403Z"
+}

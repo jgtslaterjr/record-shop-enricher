@@ -1,0 +1,160 @@
+{
+  "shop": {
+    "id": "7876519f-407e-424b-82a0-3a6e3f4ed990",
+    "name": "Compact Disc Center",
+    "city": "Aliquippa",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Compact Disc Center Aliquippa Pennsylvania record store",
+    "Compact Disc Center Aliquippa instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T13:22:53.690Z",
+  "links": [
+    {
+      "category": "website",
+      "url": "https://www.cdcenterpa.com/"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/cdcenter"
+    },
+    {
+      "category": "website",
+      "url": "https://www.discoverlehighvalley.com/blog/the-best-record-stores-in-lehigh-valley/"
+    },
+    {
+      "category": "directory",
+      "url": "https://recordstoreday.com/Store/7180",
+      "domain": "recordstoreday.com"
+    },
+    {
+      "category": "website",
+      "url": "https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/"
+    },
+    {
+      "category": "directory",
+      "url": "https://vinylpackman.com/store/11485",
+      "domain": "vinylpackman.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/bethlehem/music-store/2012175268-compact-disc-center",
+      "domain": "chamberofcommerce.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.vinylworld.org/record-shop/compact-disc-center/",
+      "domain": "vinylworld.org"
+    },
+    {
+      "category": "website",
+      "url": "https://www.cylex.us.com/company/compact-disc-center-4101329.html"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/compactdisccenter/reels/",
+      "handle": "compactdisccenter"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/compactdisccenter"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/compact"
+    },
+    {
+      "category": "directory",
+      "url": "https://recordstoreday.com/Venue/7180",
+      "domain": "recordstoreday.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.superpages.com/bethlehem-pa/bpp/compact-disc-center-19349978",
+      "domain": "superpages.com"
+    }
+  ],
+  "byCategory": {
+    "website": [
+      {
+        "category": "website",
+        "url": "https://www.cdcenterpa.com/"
+      },
+      {
+        "category": "website",
+        "url": "https://www.discoverlehighvalley.com/blog/the-best-record-stores-in-lehigh-valley/"
+      },
+      {
+        "category": "website",
+        "url": "https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/"
+      },
+      {
+        "category": "website",
+        "url": "https://www.cylex.us.com/company/compact-disc-center-4101329.html"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/cdcenter"
+      },
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/compactdisccenter"
+      },
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/compact"
+      }
+    ],
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://recordstoreday.com/Store/7180",
+        "domain": "recordstoreday.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://vinylpackman.com/store/11485",
+        "domain": "vinylpackman.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/bethlehem/music-store/2012175268-compact-disc-center",
+        "domain": "chamberofcommerce.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.vinylworld.org/record-shop/compact-disc-center/",
+        "domain": "vinylworld.org"
+      },
+      {
+        "category": "directory",
+        "url": "https://recordstoreday.com/Venue/7180",
+        "domain": "recordstoreday.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.superpages.com/bethlehem-pa/bpp/compact-disc-center-19349978",
+        "domain": "superpages.com"
+      }
+    ],
+    "instagram": [
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/compactdisccenter/reels/",
+        "handle": "compactdisccenter"
+      }
+    ]
+  },
+  "updates": {
+    "social_instagram": "compactdisccenter"
+  },
+  "skipped": {
+    "social_facebook": {
+      "current": "https://facebook.com/cdcenter",
+      "discovered": "https://facebook.com/cdcenter"
+    }
+  }
+}

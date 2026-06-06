@@ -1,0 +1,20 @@
+{
+  "name": "Record Smith PA",
+  "rating": null,
+  "reviewCount": null,
+  "address": "16 N Market St, Mechanicsburg, PA 17055",
+  "phone": "(717) 795-4859",
+  "website": "http://www.recordsmithofpennsylvania.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/record-smith-pa/1771519309295_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Record+Smith+PA/@40.2136799,-77.0107164,17z/data=!3m1!4b1!4m6!3m5!1s0x89c8e80865eaf313:0x4e8993b6895638d5!8m2!3d40.2136799!4d-77.0081415!16s%2Fg%2F11cn6xv3mg?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T16:41:49.571Z"
+}

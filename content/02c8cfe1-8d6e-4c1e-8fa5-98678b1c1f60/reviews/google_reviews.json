@@ -1,0 +1,20 @@
+{
+  "name": "TribeSound Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "116 W Gay St, West Chester, PA 19380",
+  "phone": "(484) 502-5150",
+  "website": "http://www.tribesound.com/",
+  "hours": null,
+  "categories": [
+    "Recording studio"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/tribesound-records/1771518932051_google.png"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/TribeSound+Records/@39.959582,-75.6092679,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6f1465dee4e1f:0x4c870aa7026acc82!8m2!3d39.959582!4d-75.606693!16s%2Fg%2F1tdhmslw?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T16:35:32.511Z"
+}

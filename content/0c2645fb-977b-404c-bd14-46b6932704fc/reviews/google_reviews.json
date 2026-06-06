@@ -1,0 +1,20 @@
+{
+  "name": "Olympic Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "580 Wickenden St, Providence, RI 02903",
+  "phone": "(401) 301-9266",
+  "website": "http://olympicvinyl.tumblr.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/olympic-records/1771531977091_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Olympic+Records/@41.8204003,-71.3939805,17z/data=!3m1!4b1!4m6!3m5!1s0x89e44537286b74ad:0xe759d8231b13e2d7!8m2!3d41.8204003!4d-71.3914056!16s%2Fg%2F1w3w4113?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T20:13:11.648Z"
+}

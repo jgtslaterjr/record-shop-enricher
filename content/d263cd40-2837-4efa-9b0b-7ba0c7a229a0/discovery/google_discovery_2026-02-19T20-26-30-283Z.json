@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "d263cd40-2837-4efa-9b0b-7ba0c7a229a0",
+    "name": "Music Showcase",
+    "city": "Shenango Township",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Music Showcase Shenango Township Pennsylvania record store",
+    "Music Showcase Shenango Township instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T20:26:30.283Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

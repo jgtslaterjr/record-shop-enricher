@@ -1,0 +1,20 @@
+{
+  "name": "Dorsey's Record Shop",
+  "rating": null,
+  "reviewCount": null,
+  "address": "7614 Frankstown Ave, Pittsburgh, PA 15208",
+  "phone": "(412) 731-6607",
+  "website": null,
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/dorseys-record-shop/1772030879818_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Dorsey's+Record+Shop/@40.4557432,-79.8919876,17z/data=!3m1!4b1!4m6!3m5!1s0x8834edb8916428cd:0x61531681ec68d7e7!8m2!3d40.4557432!4d-79.8894127!16s%2Fg%2F1tk1zpv2?entry=ttu&g_ep=EgoyMDI2MDIyMi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-25T14:48:13.033Z"
+}

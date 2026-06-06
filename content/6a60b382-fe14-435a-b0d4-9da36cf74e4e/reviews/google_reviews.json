@@ -1,0 +1,20 @@
+{
+  "name": "Vinyl Closet Record Store",
+  "rating": null,
+  "reviewCount": null,
+  "address": "2117 W Main St, Norristown, PA 19403",
+  "phone": "(484) 322-5728",
+  "website": null,
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/sc-vinyl-llc/1771442239821_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Vinyl+Closet+Record+Store/@40.1362539,-75.384485,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6a3093dbe7755:0x372ff25d4c72996b!8m2!3d40.1362539!4d-75.3819101!16s%2Fg%2F1263r_lhx?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T19:17:32.736Z"
+}

@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "ce21ec92-d1bc-41ce-900b-9e4e31e20b8f",
+    "name": "Vinyl Lab Record Store",
+    "city": "Aliquippa",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Vinyl Lab Record Store Aliquippa Pennsylvania record store",
+    "Vinyl Lab Record Store Aliquippa instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T13:11:15.147Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

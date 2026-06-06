@@ -1,0 +1,38 @@
+{
+  "shopId": "d0a19954-7db9-493b-a017-2a0179755ee2",
+  "shopName": "Precision Vinyl Systems Inc",
+  "city": "Hazle",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:47:41.064Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.4s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "22.3s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "18.9s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:48:47.559Z"
+}

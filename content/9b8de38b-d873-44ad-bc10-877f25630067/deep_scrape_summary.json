@@ -1,0 +1,38 @@
+{
+  "shopId": "9b8de38b-d873-44ad-bc10-877f25630067",
+  "shopName": "Jerry's Records",
+  "city": "Ambridge",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-18T15:30:30.000Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "2.8s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.4s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "20.2s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "38.5s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "32.8s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "54.4s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-18T15:33:22.474Z"
+}

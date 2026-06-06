@@ -1,0 +1,38 @@
+{
+  "shopId": "5ca5b562-6007-40d8-bd00-d7921ffa3707",
+  "shopName": "Etown Record Lounge",
+  "city": "Amity Township",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:03:18.964Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.7s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "20.8s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "19.3s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:04:26.440Z"
+}

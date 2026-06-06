@@ -1,0 +1,20 @@
+{
+  "name": "The Record Vault",
+  "rating": null,
+  "reviewCount": null,
+  "address": "939 Township Line Rd, Elkins Park, PA 19027",
+  "phone": "(215) 887-5060",
+  "website": null,
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/the-record-vault/1771509453516_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/The+Record+Vault/@40.1962222,-75.4838358,10z/data=!4m10!1m2!2m1!1sThe+Record+Vault+record+store+Aston+Pennsylvania!3m6!1s0x89c6b1001dbe4039:0x2fa7e86e4b09216d!8m2!3d40.0821412!4d-75.1179869!15sCjBUaGUgUmVjb3JkIFZhdWx0IHJlY29yZCBzdG9yZSBBc3RvbiBQZW5uc3lsdmFuaWFaMiIwdGhlIHJlY29yZCB2YXVsdCByZWNvcmQgc3RvcmUgYXN0b24gcGVubnN5bHZhbmlhkgEMcmVjb3JkX3N0b3JlmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDIxYWNWZ3hjR3BYYTFaMVVWVTVSbVZxV1hoVlYwNUZVMVpWZDFKSVl4QULgAQD6AQQIABAn!16s%2Fg%2F11ypr_w240?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:57:33.768Z"
+}

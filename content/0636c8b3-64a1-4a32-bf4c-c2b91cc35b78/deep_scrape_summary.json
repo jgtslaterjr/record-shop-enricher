@@ -1,0 +1,38 @@
+{
+  "shopId": "0636c8b3-64a1-4a32-bf4c-c2b91cc35b78",
+  "shopName": "CD Imprintables",
+  "city": "Cheltenham",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:07:32.989Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.3s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.1s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "55.8s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "21.0s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T17:09:14.183Z"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Better Now Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": null,
+  "phone": "(267) 888-4192",
+  "website": "https://www.betternowrecords.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/better-now-records/1771522905274_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Better+Now+Records/@40.06565,-76.043534,8z/data=!3m1!4b1!4m6!3m5!1s0x89c6c70a7fdfc3cf:0x873f7f68b88587d0!8m2!3d40.073132!4d-74.724323!16s%2Fg%2F11g10jkwmz?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T17:41:45.473Z"
+}

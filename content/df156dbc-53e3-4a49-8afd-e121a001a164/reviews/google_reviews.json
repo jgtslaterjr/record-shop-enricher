@@ -1,0 +1,20 @@
+{
+  "name": "Hoffmans Music and Comics",
+  "rating": null,
+  "reviewCount": null,
+  "address": "360 Kidder St, Wilkes-Barre, PA 18702",
+  "phone": "(570) 338-5860",
+  "website": "https://www.facebook.com/share/1aa9zFoiym/",
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/hoffmans-music-and-comics/1771510673112_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Hoffmans+Music+and+Comics/@41.2501639,-75.8593491,17z/data=!3m1!4b1!4m6!3m5!1s0x89c51b7b6f2f1e07:0x8d9c6bad118cf089!8m2!3d41.2501639!4d-75.8567742!16s%2Fg%2F11vrxpknk_?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T14:18:06.181Z"
+}

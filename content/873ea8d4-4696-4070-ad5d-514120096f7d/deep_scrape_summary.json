@@ -3,7 +3,7 @@
   "shopName": "Vinyl Chickie",
   "city": "Ambler",
   "state": "Pennsylvania",
-  "startedAt": "2026-02-17T17:39:41.639Z",
+  "startedAt": "2026-02-19T20:10:13.070Z",
   "scrapers": {
     "discovery": {
       "status": "success",
@@ -11,11 +11,11 @@
     },
     "yelp": {
       "status": "success",
-      "elapsed": "2.6s"
+      "elapsed": "4.3s"
     },
     "google": {
       "status": "success",
-      "elapsed": "21.5s"
+      "elapsed": "22.4s"
     },
     "website": {
       "status": "success",
@@ -27,12 +27,12 @@
     },
     "events": {
       "status": "success",
-      "elapsed": "22.3s"
+      "elapsed": "20.9s"
     },
     "reviews": {
       "status": "success",
       "elapsed": "0.2s"
     }
   },
-  "completedAt": "2026-02-17T17:40:49.379Z"
+  "completedAt": "2026-02-19T20:11:20.623Z"
 }

@@ -1,0 +1,38 @@
+{
+  "shopId": "050baa37-a489-4a26-8475-eb409ef8d691",
+  "shopName": "Ant Farm Music",
+  "city": "Coolbaugh",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:29:54.647Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.1s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "20.3s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "20.8s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T17:31:00.263Z"
+}

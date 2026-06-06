@@ -96,7 +96,7 @@ const FACEBOOK_SKIP = [
 ];
 
 const DIRECTORY_DOMAINS = [
-  'recordstores.love', 'vinylhub.discogs.com', 'recordshopmap.com',
+  'recordstores.love', 'recordshopmap.com',
   'yellowpages.com', 'bbb.org', 'mapquest.com', 'chamberofcommerce.com',
   'manta.com', 'hotfrog.com', 'brownbook.net', 'foursquare.com',
   'justdial.com', 'superpages.com', 'citysearch.com',
@@ -155,6 +155,11 @@ function categorizeURL(url) {
       return { category: 'tiktok', url: `https://tiktok.com/@${m[1]}`, handle: m[1] };
     }
     return null;
+  }
+
+  // Discogs
+  if (lower.includes('discogs.com/user/') || lower.includes('discogs.com/seller/')) {
+    return { category: 'discogs', url };
   }
 
   // TripAdvisor
@@ -285,6 +290,11 @@ async function discoverLinks(shop, { force = false } = {}) {
   // TikTok
   if (byCategory.tiktok && byCategory.tiktok.length > 0) {
     setField('social_tiktok', `https://tiktok.com/@${byCategory.tiktok[0].handle}`);
+  }
+
+  // Discogs
+  if (byCategory.discogs && byCategory.discogs.length > 0) {
+    setField('social_discogs', byCategory.discogs[0].url);
   }
 
   // Website — prefer shop's own domain over platform pages

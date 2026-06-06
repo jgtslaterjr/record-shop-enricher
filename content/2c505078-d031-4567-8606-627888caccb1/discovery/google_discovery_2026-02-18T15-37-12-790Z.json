@@ -1,0 +1,125 @@
+{
+  "shop": {
+    "id": "2c505078-d031-4567-8606-627888caccb1",
+    "name": "Mad Bad Music Dungeon",
+    "city": "Ambridge",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Mad Bad Music Dungeon Ambridge Pennsylvania record store",
+    "Mad Bad Music Dungeon Ambridge instagram facebook"
+  ],
+  "discoveredAt": "2026-02-18T15:37:12.790Z",
+  "links": [
+    {
+      "category": "directory",
+      "url": "https://recordstoreday.com/Store/23410",
+      "domain": "recordstoreday.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.loc8nearme.com/pennsylvania/dillsburg/mad-bad-music-dungeon/7177119/",
+      "domain": "loc8nearme.com"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/musicdungeonrocks"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/dillsburg/record-store/2006160773-mad-bad-music-dungeon",
+      "domain": "chamberofcommerce.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.vinylworld.org/record-shop/mad-bad-music-dungeon/",
+      "domain": "vinylworld.org"
+    },
+    {
+      "category": "website",
+      "url": "https://zaubee.com/biz/mad-bad-music-dungeon-gasj57tl"
+    },
+    {
+      "category": "yelp",
+      "url": "https://www.yelp.com/biz/music-dungeon-dillsburg"
+    },
+    {
+      "category": "directory",
+      "url": "https://recordshopsnearme.com/store/mad-bad-music-dungeon-dillsburg-pa-pa",
+      "domain": "recordshopsnearme.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.mapquest.com/us/pennsylvania/music-dungeon-371396297",
+      "domain": "mapquest.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.yellowpages.com/dillsburg-pa/mip/mad-bad-music-dungeon-531655496",
+      "domain": "yellowpages.com"
+    }
+  ],
+  "byCategory": {
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://recordstoreday.com/Store/23410",
+        "domain": "recordstoreday.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.loc8nearme.com/pennsylvania/dillsburg/mad-bad-music-dungeon/7177119/",
+        "domain": "loc8nearme.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/dillsburg/record-store/2006160773-mad-bad-music-dungeon",
+        "domain": "chamberofcommerce.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.vinylworld.org/record-shop/mad-bad-music-dungeon/",
+        "domain": "vinylworld.org"
+      },
+      {
+        "category": "directory",
+        "url": "https://recordshopsnearme.com/store/mad-bad-music-dungeon-dillsburg-pa-pa",
+        "domain": "recordshopsnearme.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.mapquest.com/us/pennsylvania/music-dungeon-371396297",
+        "domain": "mapquest.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.yellowpages.com/dillsburg-pa/mip/mad-bad-music-dungeon-531655496",
+        "domain": "yellowpages.com"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/musicdungeonrocks"
+      }
+    ],
+    "website": [
+      {
+        "category": "website",
+        "url": "https://zaubee.com/biz/mad-bad-music-dungeon-gasj57tl"
+      }
+    ],
+    "yelp": [
+      {
+        "category": "yelp",
+        "url": "https://www.yelp.com/biz/music-dungeon-dillsburg"
+      }
+    ]
+  },
+  "updates": {
+    "yelp_url": "https://www.yelp.com/biz/music-dungeon-dillsburg",
+    "social_facebook": "https://facebook.com/musicdungeonrocks",
+    "website": "https://zaubee.com/biz/mad-bad-music-dungeon-gasj57tl"
+  },
+  "skipped": {}
+}

@@ -84,6 +84,17 @@ async function deepScrapeShop(shop, args) {
       }
     },
     {
+      name: 'socials_brave',
+      skip: args['skip-socials'],
+      run: async () => {
+        const { discoverSocialsBrave } = require('./discover_socials_brave');
+        await discoverSocialsBrave(shop);
+        // Refresh shop data so subsequent scrapers use newly discovered URLs
+        const { data } = await supabase.from('shops').select('*').eq('id', shop.id).single();
+        if (data) Object.assign(shop, data);
+      }
+    },
+    {
       name: 'yelp',
       skip: args['skip-yelp'],
       run: async () => {
@@ -111,6 +122,13 @@ async function deepScrapeShop(shop, args) {
           return;
         }
         await runScript('scrape_shop_website.js', ['--url', shop.website, '--shop-id', shop.id, '--shop-name', shop.name]);
+      }
+    },
+    {
+      name: 'discogs',
+      skip: args['skip-discogs'],
+      run: async () => {
+        await runScript('scrape_discogs.js', ['--shop-id', shop.id]);
       }
     },
     // Note: 'socials' step superseded by 'discovery' (step 0) which covers socials + all other links
@@ -144,6 +162,14 @@ async function deepScrapeShop(shop, args) {
           return;
         }
         await runScript('summarize_reviews.js', ['--shop-id', shop.id]);
+      }
+    },
+    {
+      name: 'extract_fields',
+      skip: args['skip-extract'],
+      run: async () => {
+        // Final step: extract and fill any remaining empty fields from all scraped data
+        await runScript('extract_fields.js', ['--shop-id', shop.id]);
       }
     },
   ];

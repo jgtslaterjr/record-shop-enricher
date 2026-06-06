@@ -1,0 +1,20 @@
+{
+  "name": "The Rock Shop",
+  "rating": null,
+  "reviewCount": null,
+  "address": "160 N Gulph Rd, King of Prussia, PA 19406",
+  "phone": "(610) 265-1074",
+  "website": "http://www.facebook.com/rockshopkop",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/ricks-records/1771508577289_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/The+Rock+Shop/@40.088162,-75.3964602,17z/data=!3m1!4b1!4m6!3m5!1s0x89c695ca911dd20f:0x14886b25c2a24cf2!8m2!3d40.088162!4d-75.3938853!16s%2Fg%2F11g01kckc5?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:43:10.570Z"
+}

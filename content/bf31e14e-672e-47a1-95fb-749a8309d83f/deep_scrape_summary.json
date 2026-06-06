@@ -1,0 +1,38 @@
+{
+  "shopId": "bf31e14e-672e-47a1-95fb-749a8309d83f",
+  "shopName": "Record Nations",
+  "city": "Canton Township",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T16:51:01.047Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.4s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "51.7s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "21.6s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T16:52:40.071Z"
+}

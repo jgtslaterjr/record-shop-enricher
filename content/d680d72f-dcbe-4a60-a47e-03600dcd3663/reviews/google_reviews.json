@@ -1,0 +1,20 @@
+{
+  "name": "Big Bug Music",
+  "rating": null,
+  "reviewCount": null,
+  "address": "1439 N 9th St, Stroudsburg, PA 18360",
+  "phone": "(570) 424-6040",
+  "website": "http://www.bigbugmusic.com/",
+  "hours": {},
+  "categories": [
+    "Music store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/big-bug-music/1771522139698_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Big+Bug+Music/@40.9912283,-75.2417529,17z/data=!3m1!4b1!4m6!3m5!1s0x89c489baf823f625:0x6a71c1dc42f3e3c7!8m2!3d40.9912283!4d-75.239178!16s%2Fg%2F1tf16ty_?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T17:29:14.665Z"
+}

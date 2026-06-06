@@ -1,0 +1,38 @@
+{
+  "shopId": "1da2f20a-603c-4d36-a9c4-52da113005dc",
+  "shopName": "Exotic Records Studios",
+  "city": "Dallas Township",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:40:21.527Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.4s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "7.4s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "22.1s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T17:41:17.498Z"
+}

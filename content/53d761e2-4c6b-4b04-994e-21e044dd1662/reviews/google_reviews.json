@@ -1,0 +1,20 @@
+{
+  "name": "Disc Hounds",
+  "rating": null,
+  "reviewCount": null,
+  "address": "323 E Gay St Suite C-2, West Chester, PA 19380",
+  "phone": "(610) 696-8668",
+  "website": "https://www.dischounds.com/",
+  "hours": {},
+  "categories": [
+    "Video duplication service"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/disc-hounds/1771519059782_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Disc+Hounds/@39.9629268,-75.6031282,17z/data=!3m1!4b1!4m6!3m5!1s0x89c6f168842912c1:0xabf10872e1f097e0!8m2!3d39.9629268!4d-75.6005533!16s%2Fg%2F1tfw3_hp?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T16:37:51.669Z"
+}

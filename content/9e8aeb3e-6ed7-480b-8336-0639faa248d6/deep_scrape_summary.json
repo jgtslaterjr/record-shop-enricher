@@ -1,0 +1,38 @@
+{
+  "shopId": "9e8aeb3e-6ed7-480b-8336-0639faa248d6",
+  "shopName": "Downtown Records & Tapes",
+  "city": "Amity Township",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-18T15:40:58.504Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "5.0s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.8s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "6.6s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "26.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "32.3s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "43.1s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-18T15:43:17.697Z"
+}

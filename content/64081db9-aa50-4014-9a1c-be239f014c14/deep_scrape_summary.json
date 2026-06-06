@@ -1,0 +1,38 @@
+{
+  "shopId": "64081db9-aa50-4014-9a1c-be239f014c14",
+  "shopName": "3 Love Records",
+  "city": "Archbald",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T13:36:54.023Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.9s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "6.8s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "20.8s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T13:37:46.498Z"
+}

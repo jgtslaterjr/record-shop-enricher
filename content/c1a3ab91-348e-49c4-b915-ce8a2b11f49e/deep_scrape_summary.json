@@ -1,0 +1,38 @@
+{
+  "shopId": "c1a3ab91-348e-49c4-b915-ce8a2b11f49e",
+  "shopName": "Todaro's Music",
+  "city": "Cumru",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:37:48.420Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.9s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "20.4s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "23.7s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T17:38:58.730Z"
+}

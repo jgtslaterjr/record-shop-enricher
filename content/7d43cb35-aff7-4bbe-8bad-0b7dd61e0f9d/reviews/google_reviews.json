@@ -1,0 +1,20 @@
+{
+  "name": "Saucon Valley Music",
+  "rating": null,
+  "reviewCount": null,
+  "address": "1236 Main St A, Hellertown, PA 18055",
+  "phone": "(610) 838-6170",
+  "website": "http://sauconvalleymusic.com/",
+  "hours": {},
+  "categories": [
+    "Music instructor"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/saucon-valley-music/1771518645212_google.png"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Saucon+Valley+Music/@40.305321,-75.6864008,10z/data=!4m10!1m2!2m1!1sSaucon+Valley+Music+record+store+Lower+Saucon+Pennsylvania!3m6!1s0x89c43e02022acc2d:0xcb05b179735cc43f!8m2!3d40.5874637!4d-75.3414189!15sCjpTYXVjb24gVmFsbGV5IE11c2ljIHJlY29yZCBzdG9yZSBMb3dlciBTYXVjb24gUGVubnN5bHZhbmlhWjwiOnNhdWNvbiB2YWxsZXkgbXVzaWMgcmVjb3JkIHN0b3JlIGxvd2VyIHNhdWNvbiBwZW5uc3lsdmFuaWGSARBtdXNpY19pbnN0cnVjdG9ymgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJrZEdGTFRtOUJSUkFC4AEA-gEECAAQJg!16s%2Fg%2F1thmgbf9?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T16:30:59.563Z"
+}

@@ -1,0 +1,14 @@
+{
+  "shopName": "Magdon Music",
+  "shopId": "8bfb9e29-9e7b-4d03-b606-02a0b2cdced7",
+  "city": "Archbald",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "source": "website",
+      "sourceUrl": "https://www.magdonmusic.net/calendar"
+    }
+  ],
+  "totalFound": 1,
+  "scrapedAt": "2026-02-19T13:26:31.025Z"
+}

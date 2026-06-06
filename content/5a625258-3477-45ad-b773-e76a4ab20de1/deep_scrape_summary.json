@@ -1,0 +1,46 @@
+{
+  "shopId": "5a625258-3477-45ad-b773-e76a4ab20de1",
+  "shopName": "Get Hip Records",
+  "city": "Pittsburgh",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-25T14:39:18.322Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "5.7s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.1s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "8.4s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "31.5s"
+    },
+    "discogs": {
+      "status": "success",
+      "elapsed": "26.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "27.2s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "41.7s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "extract_fields": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-25T14:42:11.659Z"
+}

@@ -1,0 +1,115 @@
+{
+  "shop": {
+    "id": "8d65a61f-0280-4578-9953-3bf06b58fc6b",
+    "name": "milky way music",
+    "city": "East Norriton",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "milky way music East Norriton Pennsylvania record store",
+    "milky way music East Norriton instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T19:42:51.915Z",
+  "links": [
+    {
+      "category": "directory",
+      "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/norristown/music-store/2032165863-milky-way-music",
+      "domain": "chamberofcommerce.com"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/vinylclosetrecords"
+    },
+    {
+      "category": "directory",
+      "url": "https://recordstores.love/8196",
+      "domain": "recordstores.love"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.vinylworld.org/record-shop/vinyl-closet-records/",
+      "domain": "vinylworld.org"
+    },
+    {
+      "category": "website",
+      "url": "https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/"
+    },
+    {
+      "category": "directory",
+      "url": "https://recordstoreday.com/Store/23801",
+      "domain": "recordstoreday.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.yellowpages.com/norristown-pa/music-stores",
+      "domain": "yellowpages.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://vinylmapper.com/record-stores/us/pa/norristown/vinyl-closet-record-store-19403/",
+      "domain": "vinylmapper.com"
+    },
+    {
+      "category": "yelp",
+      "url": "https://www.yelp.com/biz/vinyl-closet-record-s-norristown"
+    }
+  ],
+  "byCategory": {
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/norristown/music-store/2032165863-milky-way-music",
+        "domain": "chamberofcommerce.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://recordstores.love/8196",
+        "domain": "recordstores.love"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.vinylworld.org/record-shop/vinyl-closet-records/",
+        "domain": "vinylworld.org"
+      },
+      {
+        "category": "directory",
+        "url": "https://recordstoreday.com/Store/23801",
+        "domain": "recordstoreday.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.yellowpages.com/norristown-pa/music-stores",
+        "domain": "yellowpages.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://vinylmapper.com/record-stores/us/pa/norristown/vinyl-closet-record-store-19403/",
+        "domain": "vinylmapper.com"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/vinylclosetrecords"
+      }
+    ],
+    "website": [
+      {
+        "category": "website",
+        "url": "https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/"
+      }
+    ],
+    "yelp": [
+      {
+        "category": "yelp",
+        "url": "https://www.yelp.com/biz/vinyl-closet-record-s-norristown"
+      }
+    ]
+  },
+  "updates": {
+    "yelp_url": "https://www.yelp.com/biz/vinyl-closet-record-s-norristown",
+    "social_facebook": "https://facebook.com/vinylclosetrecords",
+    "website": "https://recordstoredirectory.com/record-store-directory/record-stores-in-pennsylvania/"
+  },
+  "skipped": {}
+}

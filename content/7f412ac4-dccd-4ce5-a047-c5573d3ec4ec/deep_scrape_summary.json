@@ -1,0 +1,38 @@
+{
+  "shopId": "7f412ac4-dccd-4ce5-a047-c5573d3ec4ec",
+  "shopName": "Studio 4 Vinyl",
+  "city": "Caln",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T16:22:48.070Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "5.9s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.7s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "18.8s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "26.2s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "4.5s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "31.0s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T16:24:41.586Z"
+}

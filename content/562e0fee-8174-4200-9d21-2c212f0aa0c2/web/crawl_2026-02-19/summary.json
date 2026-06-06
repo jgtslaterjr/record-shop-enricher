@@ -1,0 +1,40 @@
+{
+  "overview": "Local music store offering instrument sales, rentals, lessons, repairs, and classes for all ages.",
+  "history": {
+    "founded": "early 1920s",
+    "notable history": "Founded by Joe Clemmer as a traveling guitar lesson business, expanded to a storefront location in the Indian Valley community"
+  },
+  "inventory_focus": {
+    "formats": [
+      "vinyl",
+      "CD",
+      "cassette"
+    ],
+    "genres": "various genres, including music lessons and classes for children (KidStart Music Classes)"
+  },
+  "services": {
+    "buy/sell/trade": true,
+    "online store": true,
+    "shipping": true
+  },
+  "events": {
+    "hosted events": true,
+    "types of events": "music lessons, instrument rentals, and classes",
+    "frequency": "varies"
+  },
+  "staff": {
+    "notable staff": "Nate and Abbey Orlowski, descendants of the store's founder Joe Clemmer"
+  },
+  "hours_location": {
+    "address": "764 Harleysville Pike, Telford, PA 18969",
+    "store hours": "Monday-Thursday 11am-6pm, Friday 11am-7pm, Saturday 11am-3pm, Sunday Closed"
+  },
+  "unique_features": {
+    "listening rooms": "no specific mention",
+    "cafe": "no specific mention"
+  },
+  "community_role": {
+    "engagement with local music scene": true,
+    "description": "supporting and strengthening the musical talents of the community through services"
+  }
+}

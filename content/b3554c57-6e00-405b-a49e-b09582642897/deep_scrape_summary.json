@@ -1,0 +1,38 @@
+{
+  "shopId": "b3554c57-6e00-405b-a49e-b09582642897",
+  "shopName": "COMPACT DISC OUTLET",
+  "city": "Aston",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T14:01:54.532Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.8s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "25.3s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "17.9s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T14:03:04.480Z"
+}

@@ -1,0 +1,115 @@
+{
+  "shopName": "A DAY IN THE LIFE RECORDS",
+  "shopId": "128b8229-6cfc-44d3-afcf-b0dd12713a56",
+  "city": "Ambridge",
+  "state": "Pennsylvania",
+  "events": [
+    {
+      "event_type": "RSD Black Friday",
+      "title": "A Day In The Life Records RSD Black Friday 2025",
+      "date": "Nov 28, 9:00 AM - 7:00 PM",
+      "description": "Join us as we celebrate RSD Black Friday 2025! We’ll be opening early, at 9:00am.",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://www.adayintheliferecords.com/events"
+    },
+    {
+      "event_type": "LISTENING PARTY",
+      "title": "Sun Not Yellow Listening Party",
+      "date": "Nov 13, 6:00 PM - 8:00 PM",
+      "description": "Presented by Closing Time Collective. Sun Not Yellow are releasing “The Kids Are Back Again”, a 9 song compilation of all the band’s singles released over the past 2 years + one song exclusive to this new physical vinyl release.",
+      "artists": [
+        "Sun Not Yellow"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.adayintheliferecords.com/events"
+    },
+    {
+      "event_type": "LIVE In-Store Performance",
+      "title": "Jeff Caudill with Jared Knapik - LIVE In-Store Performance",
+      "date": "Sep 14, 1:00 PM - 3:00 PM",
+      "description": "Please join us for an afternoon of LIVE music with acoustic in-store performances from Jeff Caudill (Gameface & Low Coast) and Jared Knapik.",
+      "artists": [
+        "Jeff Caudill",
+        "Jared Knapik"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.adayintheliferecords.com/events"
+    },
+    {
+      "event_type": "BOOK EVENT",
+      "title": "Ministry 33 1/3 Book Event with author Jason Pettigrew",
+      "date": "Aug 8, 6:00 PM - 7:30 PM",
+      "description": "It’s our great pleasure to welcome author Jason Pettigrew to the shop as we celebrate the release of his addition to the beloved 33 1/3 book series...",
+      "artists": [
+        "Jason Pettigrew"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.adayintheliferecords.com/events"
+    },
+    {
+      "event_type": "LISTENING PARTY",
+      "title": "TURNSTILE Listening Party",
+      "date": "Jun 6, 6:00 PM - 7:00 PM",
+      "description": "Please join us at 6pm on Friday, June 6 as we host a listening party for the brand new TURNSTILE album “Never Enough”. We’ll be playing the new album in full...",
+      "artists": [
+        "TURNSTILE"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.adayintheliferecords.com/events"
+    },
+    {
+      "event_type": "RECORD STORE DAY",
+      "title": "Record Store Day 2025",
+      "date": "Apr 12, 9:00 AM - 6:00 PM",
+      "description": "Please join us as we celebrate Record Store Day 2025. Our doors open early, at 9:00am sharp!",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://www.adayintheliferecords.com/events"
+    },
+    {
+      "event_type": "LISTENING PARTY",
+      "title": "Black Country, New Road Listening Party",
+      "date": "Apr 3, 5:00 PM - 6:00 PM",
+      "description": "Please join us on the eve of its release as we listen to “Forever Howlong”, the brand new album from Black Country, New Road.",
+      "artists": [
+        "Black Country, New Road"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.adayintheliferecords.com/events"
+    },
+    {
+      "event_type": "In-Store Acoustic Performance",
+      "title": "Bailey Run In-Store Acoustic Performance",
+      "date": "Sep 15, 2:00 PM - 3:30 PM",
+      "description": "Please join us for a great afternoon of live music from Bailey Run!",
+      "artists": [
+        "Bailey Run"
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.adayintheliferecords.com/events"
+    },
+    {
+      "event_type": "LISTENING PARTY",
+      "title": "Fontaines D.C. Listening Party",
+      "date": "Aug 17, 3:00 PM - 5:00 PM",
+      "description": "Please join us on Saturday, August 17 as we host a listening party for “Romance”, the upcoming new album from the Fontaines D.C.",
+      "artists": [
+        "Fontaines D.C."
+      ],
+      "source": "website",
+      "sourceUrl": "https://www.adayintheliferecords.com/events"
+    },
+    {
+      "event_type": "RSD Black Friday",
+      "title": "A Day In The Life Records RSD Black Friday 2024",
+      "date": "Nov 29, 9:00 AM - 7:00 PM",
+      "description": "Join us as we celebrate RSD Black Friday 2024! Our doors will open early, at 9:00am sharp.",
+      "artists": [],
+      "source": "website",
+      "sourceUrl": "https://www.adayintheliferecords.com/events"
+    }
+  ],
+  "totalFound": 10,
+  "scrapedAt": "2026-02-18T15:40:45.111Z"
+}

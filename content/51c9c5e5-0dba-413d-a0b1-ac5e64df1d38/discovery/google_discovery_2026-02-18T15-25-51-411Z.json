@@ -1,0 +1,152 @@
+{
+  "shop": {
+    "id": "51c9c5e5-0dba-413d-a0b1-ac5e64df1d38",
+    "name": "Audio Loft Studios",
+    "city": "Ambridge",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Audio Loft Studios Ambridge Pennsylvania record store",
+    "Audio Loft Studios Ambridge instagram facebook"
+  ],
+  "discoveredAt": "2026-02-18T15:25:51.411Z",
+  "links": [
+    {
+      "category": "website",
+      "url": "https://audioloftstudios.wixsite.com/website"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/audioloftstudiosambridge"
+    },
+    {
+      "category": "yelp",
+      "url": "https://www.yelp.com/biz/audioloft-studios-ambridge"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/ambridge/recording-studio/46556961-audio-loft-studios",
+      "domain": "chamberofcommerce.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.manta.com/c/mksrw6z/audioloft-studios",
+      "domain": "manta.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.mapquest.com/us/pennsylvania/audioloft-352390025",
+      "domain": "mapquest.com"
+    },
+    {
+      "category": "website",
+      "url": "https://www.cylex.us.com/company/audioloft-studios-3745704.html"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.yellowpages.com/ambridge-pa/mip/audio-loft-464926800",
+      "domain": "yellowpages.com"
+    },
+    {
+      "category": "website",
+      "url": "https://www.usaypage.com/recording-studios-category/pennsylvania-ambridge/audioloft-studios-p1035.html"
+    },
+    {
+      "category": "website",
+      "url": "https://www.dandb.com/businessdirectory/theaudioloft-ambridge-pa-27754446.html"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/audioloft20/",
+      "handle": "audioloft20"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/audioloft_studio/",
+      "handle": "audioloft_studio"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/audioloftstudio/",
+      "handle": "audioloftstudio"
+    }
+  ],
+  "byCategory": {
+    "website": [
+      {
+        "category": "website",
+        "url": "https://audioloftstudios.wixsite.com/website"
+      },
+      {
+        "category": "website",
+        "url": "https://www.cylex.us.com/company/audioloft-studios-3745704.html"
+      },
+      {
+        "category": "website",
+        "url": "https://www.usaypage.com/recording-studios-category/pennsylvania-ambridge/audioloft-studios-p1035.html"
+      },
+      {
+        "category": "website",
+        "url": "https://www.dandb.com/businessdirectory/theaudioloft-ambridge-pa-27754446.html"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/audioloftstudiosambridge"
+      }
+    ],
+    "yelp": [
+      {
+        "category": "yelp",
+        "url": "https://www.yelp.com/biz/audioloft-studios-ambridge"
+      }
+    ],
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/ambridge/recording-studio/46556961-audio-loft-studios",
+        "domain": "chamberofcommerce.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.manta.com/c/mksrw6z/audioloft-studios",
+        "domain": "manta.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.mapquest.com/us/pennsylvania/audioloft-352390025",
+        "domain": "mapquest.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.yellowpages.com/ambridge-pa/mip/audio-loft-464926800",
+        "domain": "yellowpages.com"
+      }
+    ],
+    "instagram": [
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/audioloft20/",
+        "handle": "audioloft20"
+      },
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/audioloft_studio/",
+        "handle": "audioloft_studio"
+      },
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/audioloftstudio/",
+        "handle": "audioloftstudio"
+      }
+    ]
+  },
+  "updates": {
+    "yelp_url": "https://www.yelp.com/biz/audioloft-studios-ambridge",
+    "social_instagram": "audioloft20",
+    "social_facebook": "https://facebook.com/audioloftstudiosambridge",
+    "website": "https://audioloftstudios.wixsite.com/website"
+  },
+  "skipped": {}
+}

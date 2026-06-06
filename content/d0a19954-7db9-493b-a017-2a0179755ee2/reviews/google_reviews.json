@@ -1,0 +1,20 @@
+{
+  "name": "Precision Vinyl Systems Inc",
+  "rating": null,
+  "reviewCount": null,
+  "address": "642 Foster Ave, Freeland, PA 18224",
+  "phone": "(570) 636-9878",
+  "website": "https://www.precisionvinyl.net/",
+  "hours": {},
+  "categories": [
+    "Fence supply store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/precision-vinyl-systems-inc/1771508879628_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Precision+Vinyl+Systems+Inc/@41.0400934,-75.8429779,17z/data=!3m1!4b1!4m6!3m5!1s0x89c5a9d75d1096b9:0xa79eb414a80b44ee!8m2!3d41.0400934!4d-75.840403!16s%2Fg%2F1tx47_ds?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:48:13.822Z"
+}

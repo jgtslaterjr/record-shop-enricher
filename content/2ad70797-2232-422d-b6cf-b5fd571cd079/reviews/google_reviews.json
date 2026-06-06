@@ -1,0 +1,20 @@
+{
+  "name": "Joe's Record Paradise",
+  "rating": null,
+  "reviewCount": null,
+  "address": "8700 Georgia Ave, Silver Spring, MD 20910",
+  "phone": "(301) 585-3269",
+  "website": "http://www.joesrecordparadise.com/",
+  "hours": {},
+  "categories": [
+    "Record store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/joes-record-paradise/1771533429522_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Joe's+Record+Paradise/@38.9973408,-77.0327882,17z/data=!3m1!4b1!4m6!3m5!1s0x89b7c8bc05b2af2d:0x5d4d4358529d7dcc!8m2!3d38.9973408!4d-77.0302133!16s%2Fg%2F1whdk7hw?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T20:37:20.861Z"
+}

@@ -1,0 +1,133 @@
+{
+  "shop": {
+    "id": "969b038f-5433-4a11-979b-3ad9f69ad1f0",
+    "name": "AVX Music and Movies / Audio Video Xing, formerly CD Zone",
+    "city": "Ambridge",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "AVX Music and Movies / Audio Video Xing, formerly CD Zone Ambridge Pennsylvania record store",
+    "AVX Music and Movies / Audio Video Xing, formerly CD Zone Ambridge instagram facebook"
+  ],
+  "discoveredAt": "2026-02-18T15:33:36.424Z",
+  "links": [
+    {
+      "category": "directory",
+      "url": "https://recordstoreday.com/Store/21843",
+      "domain": "recordstoreday.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.yellowpages.com/butler-pa/mip/av-xing-formerly-cd-zone-511986011",
+      "domain": "yellowpages.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.vinylworld.org/record-shop/avx-music-and-movies-audio-video-xing-formerly-cd-zone/",
+      "domain": "vinylworld.org"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.recordshopsnearme.com/store/avx-music-and-movies",
+      "domain": "recordshopsnearme.com"
+    },
+    {
+      "category": "website",
+      "url": "https://www.allbiz.com/business/audio-video-xing-avxing-records-movies-724-496-5969"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/butler/music-store/1330720824-audio-video-xing-avxing-records-movies",
+      "domain": "chamberofcommerce.com"
+    },
+    {
+      "category": "website",
+      "url": "https://usa-stores.worldorgs.com/catalog/butler/music-store/audio-video-xing-avx-records-movies"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.mapquest.com/us/pennsylvania/cd-zone-412310214",
+      "domain": "mapquest.com"
+    },
+    {
+      "category": "yelp",
+      "url": "https://www.yelp.com/biz/av-xing-butler"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.superpages.com/butler-pa/bpp/av-xing-formerly-cd-zone-511986011",
+      "domain": "superpages.com"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/cd"
+    }
+  ],
+  "byCategory": {
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://recordstoreday.com/Store/21843",
+        "domain": "recordstoreday.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.yellowpages.com/butler-pa/mip/av-xing-formerly-cd-zone-511986011",
+        "domain": "yellowpages.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.vinylworld.org/record-shop/avx-music-and-movies-audio-video-xing-formerly-cd-zone/",
+        "domain": "vinylworld.org"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.recordshopsnearme.com/store/avx-music-and-movies",
+        "domain": "recordshopsnearme.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.chamberofcommerce.com/business-directory/pennsylvania/butler/music-store/1330720824-audio-video-xing-avxing-records-movies",
+        "domain": "chamberofcommerce.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.mapquest.com/us/pennsylvania/cd-zone-412310214",
+        "domain": "mapquest.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.superpages.com/butler-pa/bpp/av-xing-formerly-cd-zone-511986011",
+        "domain": "superpages.com"
+      }
+    ],
+    "website": [
+      {
+        "category": "website",
+        "url": "https://www.allbiz.com/business/audio-video-xing-avxing-records-movies-724-496-5969"
+      },
+      {
+        "category": "website",
+        "url": "https://usa-stores.worldorgs.com/catalog/butler/music-store/audio-video-xing-avx-records-movies"
+      }
+    ],
+    "yelp": [
+      {
+        "category": "yelp",
+        "url": "https://www.yelp.com/biz/av-xing-butler"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/cd"
+      }
+    ]
+  },
+  "updates": {
+    "yelp_url": "https://www.yelp.com/biz/av-xing-butler",
+    "social_facebook": "https://facebook.com/cd",
+    "website": "https://www.allbiz.com/business/audio-video-xing-avxing-records-movies-724-496-5969"
+  },
+  "skipped": {}
+}

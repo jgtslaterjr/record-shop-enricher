@@ -1,0 +1,38 @@
+{
+  "shopId": "0e28b119-ca9d-4eed-b271-2673956bc8fd",
+  "shopName": "Tweedside Records",
+  "city": "Middle Smithfield",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:00:00.007Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.2s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "54.5s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "22.4s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T17:01:39.504Z"
+}

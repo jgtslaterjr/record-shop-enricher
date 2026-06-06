@@ -1,0 +1,38 @@
+{
+  "shopId": "05ae11bc-90f8-4780-b60d-02a42843738e",
+  "shopName": "Progressive Music",
+  "city": "McKeesport",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T16:58:44.124Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.6s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "20.3s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "20.3s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T16:59:51.726Z"
+}

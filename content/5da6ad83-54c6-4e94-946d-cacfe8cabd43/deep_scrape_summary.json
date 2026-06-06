@@ -3,36 +3,36 @@
   "shopName": "Everlong Records LLC",
   "city": "Aliquippa",
   "state": "Pennsylvania",
-  "startedAt": "2026-02-17T17:30:07.624Z",
+  "startedAt": "2026-02-19T13:18:43.078Z",
   "scrapers": {
     "discovery": {
       "status": "success",
-      "elapsed": "4.8s"
+      "elapsed": "3.1s"
     },
     "yelp": {
       "status": "success",
-      "elapsed": "5.6s"
+      "elapsed": "2.9s"
     },
     "google": {
       "status": "success",
-      "elapsed": "21.5s"
+      "elapsed": "21.8s"
     },
     "website": {
       "status": "success",
-      "elapsed": "24.6s"
+      "elapsed": "25.6s"
     },
     "instagram": {
       "status": "success",
-      "elapsed": "21.5s"
+      "elapsed": "4.2s"
     },
     "events": {
       "status": "success",
-      "elapsed": "53.9s"
+      "elapsed": "43.2s"
     },
     "reviews": {
       "status": "success",
-      "elapsed": "0.2s"
+      "elapsed": "0.3s"
     }
   },
-  "completedAt": "2026-02-17T17:32:42.074Z"
+  "completedAt": "2026-02-19T13:20:45.513Z"
 }

@@ -1,0 +1,38 @@
+{
+  "shopId": "df156dbc-53e3-4a49-8afd-e121a001a164",
+  "shopName": "Hoffmans Music and Comics",
+  "city": "Kingston",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T14:17:34.765Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.9s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "21.0s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "18.8s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T14:18:39.946Z"
+}

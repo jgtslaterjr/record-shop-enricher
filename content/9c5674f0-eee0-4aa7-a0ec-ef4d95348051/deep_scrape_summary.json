@@ -1,0 +1,38 @@
+{
+  "shopId": "9c5674f0-eee0-4aa7-a0ec-ef4d95348051",
+  "shopName": "Murphy's Music Center Wexford",
+  "city": "McCandless",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T16:57:24.975Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.2s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "21.3s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "21.3s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T16:58:35.885Z"
+}

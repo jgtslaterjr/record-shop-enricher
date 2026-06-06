@@ -1,0 +1,20 @@
+{
+  "name": "Hellbender Vinyl",
+  "rating": null,
+  "reviewCount": null,
+  "address": "5794 Butler St, Pittsburgh, PA 15201",
+  "phone": "(412) 587-4387",
+  "website": "http://hellbendervinyl.com/",
+  "hours": {},
+  "categories": [
+    "Record company"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/hellbender-vinyl/1771442207290_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Hellbender+Vinyl/@40.4861644,-84.5574543,7z/data=!4m10!1m2!2m1!1sHellbender+Vinyl+record+store+Bellevue+Pennsylvania!3m6!1s0x8834f3ee6a8a008f:0xc368aa725dcdc64e!8m2!3d40.4861644!4d-79.9431965!15sCjNIZWxsYmVuZGVyIFZpbnlsIHJlY29yZCBzdG9yZSBCZWxsZXZ1ZSBQZW5uc3lsdmFuaWFaNSIzaGVsbGJlbmRlciB2aW55bCByZWNvcmQgc3RvcmUgYmVsbGV2dWUgcGVubnN5bHZhbmlhkgEOcmVjb3JkX2NvbXBhbnmaASNDaFpEU1VoTk1HOW5TMFZKUTBGblRVUkphazFVZWxCQkVBReABAPoBBAguED4!16s%2Fg%2F11t4y741_2?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T19:17:00.005Z"
+}

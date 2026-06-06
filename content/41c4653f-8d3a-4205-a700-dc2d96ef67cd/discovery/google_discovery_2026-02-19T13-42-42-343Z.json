@@ -1,0 +1,17 @@
+{
+  "shop": {
+    "id": "41c4653f-8d3a-4205-a700-dc2d96ef67cd",
+    "name": "Rick's Records",
+    "city": "Harborcreek",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Rick's Records Harborcreek Pennsylvania record store",
+    "Rick's Records Harborcreek instagram facebook"
+  ],
+  "discoveredAt": "2026-02-19T13:42:42.343Z",
+  "links": [],
+  "byCategory": {},
+  "updates": {},
+  "skipped": {}
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Fungus Books & Records",
+  "rating": null,
+  "reviewCount": null,
+  "address": "700 1/2 S Trenton Ave, Pittsburgh, PA 15221",
+  "phone": null,
+  "website": "http://www.fungusbooks.com/",
+  "hours": {},
+  "categories": [
+    "Used book store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/fungus-books-records_pittsburgh_pennsylvania/1771533068666_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Fungus+Books+%26+Records/@40.4386975,-79.8949875,17z/data=!3m1!4b1!4m6!3m5!1s0x8834ed593f66b40d:0xda185aa187bdc86b!8m2!3d40.4386975!4d-79.8924126!16s%2Fg%2F11rmx7pkpc?entry=ttu&g_ep=EgoyMDI2MDIxNy4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T20:31:09.008Z"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "World Wide Stereo",
+  "rating": null,
+  "reviewCount": null,
+  "address": "218 E Lancaster Ave, Wayne, PA 19087",
+  "phone": "(610) 649-7002",
+  "website": "https://www.worldwidestereo.com/",
+  "hours": {},
+  "categories": [
+    "Electronics store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/world-wide-stereo/1771508801310_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/World+Wide+Stereo/@40.0435579,-75.3860224,17z/data=!3m1!4b1!4m6!3m5!1s0x89c695b7a79cc8d1:0xfc25196eb3af0e23!8m2!3d40.0435579!4d-75.3834475!16s%2Fg%2F11x33wkbvg?entry=ttu&g_ep=EgoyMDI2MDIxNi4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-19T13:46:55.373Z"
+}

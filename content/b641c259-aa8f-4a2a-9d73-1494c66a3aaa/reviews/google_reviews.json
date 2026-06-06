@@ -1,0 +1,20 @@
+{
+  "name": "Lanning Music Studio",
+  "rating": null,
+  "reviewCount": null,
+  "address": "119 E Main St, Lock Haven, PA 17745",
+  "phone": "(570) 748-3313",
+  "website": "http://www.facebook.com/lanningmusic",
+  "hours": {},
+  "categories": [
+    "Musical instrument store"
+  ],
+  "photos": [
+    "https://oytflcaqukxvzmbddrlg.supabase.co/storage/v1/object/public/shop-logos/gallery/lanning-music-studio/1771442330776_google.jpg"
+  ],
+  "popularTimes": [],
+  "googleMapsUrl": "https://www.google.com/maps/place/Lanning+Music+Studio/@41.1372118,-77.447736,17z/data=!3m1!4b1!4m6!3m5!1s0x89cef138cd4c2b0b:0x6636cae0a749c598!8m2!3d41.1372118!4d-77.4451611!16s%2Fg%2F1tfkgk85?entry=ttu&g_ep=EgoyMDI2MDIxMS4wIKXMDSoASAFQAw%3D%3D",
+  "reviews": [],
+  "totalReviewsScraped": 0,
+  "scrapedAt": "2026-02-18T19:19:05.256Z"
+}

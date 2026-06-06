@@ -1,0 +1,38 @@
+{
+  "shopId": "2262fb21-36a5-4447-b4fa-4b413820c735",
+  "shopName": "Wayne's World Music",
+  "city": "Dallas Township",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:39:06.994Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "3.3s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "20.2s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "20.3s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T17:40:13.199Z"
+}

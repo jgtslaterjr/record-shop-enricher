@@ -1,0 +1,160 @@
+{
+  "shop": {
+    "id": "63d191c8-e08e-417e-a776-028d03535fd2",
+    "name": "Preserving Record Shop",
+    "city": "Ambridge",
+    "state": "Pennsylvania"
+  },
+  "queries": [
+    "Preserving Record Shop Ambridge Pennsylvania record store",
+    "Preserving Record Shop Ambridge instagram facebook"
+  ],
+  "discoveredAt": "2026-02-18T15:21:06.765Z",
+  "links": [
+    {
+      "category": "website",
+      "url": "https://www.preservingvinyl.com/"
+    },
+    {
+      "category": "facebook",
+      "url": "https://facebook.com/preservingrecordshop"
+    },
+    {
+      "category": "website",
+      "url": "https://www.preservingconcerts.com/about-1"
+    },
+    {
+      "category": "website",
+      "url": "https://www.discogs.com/record-stores/store/preserving/"
+    },
+    {
+      "category": "directory",
+      "url": "https://recordstoreday.com/Store/26763",
+      "domain": "recordstoreday.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://vinylmapper.com/record-stores/us/pa/new-kensington/preserving-record-shop-15068/",
+      "domain": "vinylmapper.com"
+    },
+    {
+      "category": "directory",
+      "url": "https://www.vinylworld.org/record-shop/preserving-hardcore/",
+      "domain": "vinylworld.org"
+    },
+    {
+      "category": "yelp",
+      "url": "https://www.yelp.com/biz/preserving-record-shop-new-kensington"
+    },
+    {
+      "category": "website",
+      "url": "https://businessyab.com/explore/united_states/pennsylvania/westmoreland_county/new_kensington/downtown_new_kensington/5th_avenue/1101/preserving-record-shop-724-448-9175.html"
+    },
+    {
+      "category": "website",
+      "url": "https://www.newkensocial.com/retail"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/preservingrecordshop/",
+      "handle": "preservingrecordshop"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/preservingrecordshop/reel/DTGEL_SDW1V/",
+      "handle": "preservingrecordshop"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/preservingrecordshop/reels/",
+      "handle": "preservingrecordshop"
+    },
+    {
+      "category": "instagram",
+      "url": "https://www.instagram.com/preservingrecordshop/reel/DS-N2kKkZZg/",
+      "handle": "preservingrecordshop"
+    }
+  ],
+  "byCategory": {
+    "website": [
+      {
+        "category": "website",
+        "url": "https://www.preservingvinyl.com/"
+      },
+      {
+        "category": "website",
+        "url": "https://www.preservingconcerts.com/about-1"
+      },
+      {
+        "category": "website",
+        "url": "https://www.discogs.com/record-stores/store/preserving/"
+      },
+      {
+        "category": "website",
+        "url": "https://businessyab.com/explore/united_states/pennsylvania/westmoreland_county/new_kensington/downtown_new_kensington/5th_avenue/1101/preserving-record-shop-724-448-9175.html"
+      },
+      {
+        "category": "website",
+        "url": "https://www.newkensocial.com/retail"
+      }
+    ],
+    "facebook": [
+      {
+        "category": "facebook",
+        "url": "https://facebook.com/preservingrecordshop"
+      }
+    ],
+    "directory": [
+      {
+        "category": "directory",
+        "url": "https://recordstoreday.com/Store/26763",
+        "domain": "recordstoreday.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://vinylmapper.com/record-stores/us/pa/new-kensington/preserving-record-shop-15068/",
+        "domain": "vinylmapper.com"
+      },
+      {
+        "category": "directory",
+        "url": "https://www.vinylworld.org/record-shop/preserving-hardcore/",
+        "domain": "vinylworld.org"
+      }
+    ],
+    "yelp": [
+      {
+        "category": "yelp",
+        "url": "https://www.yelp.com/biz/preserving-record-shop-new-kensington"
+      }
+    ],
+    "instagram": [
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/preservingrecordshop/",
+        "handle": "preservingrecordshop"
+      },
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/preservingrecordshop/reel/DTGEL_SDW1V/",
+        "handle": "preservingrecordshop"
+      },
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/preservingrecordshop/reels/",
+        "handle": "preservingrecordshop"
+      },
+      {
+        "category": "instagram",
+        "url": "https://www.instagram.com/preservingrecordshop/reel/DS-N2kKkZZg/",
+        "handle": "preservingrecordshop"
+      }
+    ]
+  },
+  "updates": {
+    "yelp_url": "https://www.yelp.com/biz/preserving-record-shop-new-kensington",
+    "social_instagram": "preservingrecordshop",
+    "social_facebook": "https://facebook.com/preservingrecordshop",
+    "website": "https://www.preservingvinyl.com/"
+  },
+  "skipped": {}
+}

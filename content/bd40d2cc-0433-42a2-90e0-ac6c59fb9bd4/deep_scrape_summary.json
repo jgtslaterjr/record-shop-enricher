@@ -1,0 +1,38 @@
+{
+  "shopId": "bd40d2cc-0433-42a2-90e0-ac6c59fb9bd4",
+  "shopName": "Rhythm House Records & JingleHouse",
+  "city": "Monessen",
+  "state": "Pennsylvania",
+  "startedAt": "2026-02-19T17:11:41.934Z",
+  "scrapers": {
+    "discovery": {
+      "status": "success",
+      "elapsed": "0.2s"
+    },
+    "yelp": {
+      "status": "success",
+      "elapsed": "4.3s"
+    },
+    "google": {
+      "status": "success",
+      "elapsed": "51.7s"
+    },
+    "website": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "instagram": {
+      "status": "success",
+      "elapsed": "0.0s"
+    },
+    "events": {
+      "status": "success",
+      "elapsed": "18.3s"
+    },
+    "reviews": {
+      "status": "success",
+      "elapsed": "0.2s"
+    }
+  },
+  "completedAt": "2026-02-19T17:13:20.486Z"
+}
