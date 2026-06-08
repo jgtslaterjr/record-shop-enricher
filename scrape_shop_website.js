@@ -8,7 +8,7 @@
  */
 
 const { delay, saveJSON, contentDir, getAllShops, updateShop,
-  createStealthBrowser, ollamaSummarize, parseArgs, log } = require('./lib/common');
+  createStealthBrowser, ollamaSummarize, parseArgs, log, parseFencedJSON } = require('./lib/common');
 const cheerio = require('cheerio');
 const { URL } = require('url');
 
@@ -155,11 +155,8 @@ ${context.slice(0, 12000)}`;
 
   try {
     const result = await ollamaSummarize(prompt);
-    // Try to parse as JSON
-    const jsonMatch = result.match(/\{[\s\S]*\}/);
-    if (jsonMatch) {
-      return JSON.parse(jsonMatch[0]);
-    }
+    const parsed = parseFencedJSON(result);
+    if (parsed) return parsed;
     return { raw_summary: result };
   } catch (e) {
     log(`    Ollama summarization failed: ${e.message}`);

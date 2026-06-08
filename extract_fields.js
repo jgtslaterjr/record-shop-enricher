@@ -17,7 +17,7 @@
  */
 
 const { supabase, loadJSON, contentDir, getAllShops, updateShop,
-  parseArgs, log } = require('./lib/common');
+  parseArgs, log, anthropicSummarize, parseFencedJSON } = require('./lib/common');
 const fs = require('fs');
 const path = require('path');
 
@@ -156,6 +156,61 @@ function extractDescription(pages) {
 
 // ── Main Extraction Function ──────────────────────────────
 
+/**
+ * Build a 150-250 word long_description from any available signal.
+ * Priority: review_summary > website summary > raw page text via Claude.
+ */
+async function extractLongDescription(shop, pages) {
+  // 1. Try review synthesis output
+  try {
+    const analysisPath = contentDir(shop.id, 'reviews', 'analysis.json');
+    if (fs.existsSync(analysisPath)) {
+      const a = JSON.parse(fs.readFileSync(analysisPath, 'utf8'));
+      if (a.long_description && a.long_description.length > 100) return a.long_description;
+      if (a.review_summary && a.review_summary.length > 100) return a.review_summary;
+    }
+  } catch {}
+
+  // 2. Try website crawl summary
+  try {
+    const webDir = contentDir(shop.id, 'web');
+    if (fs.existsSync(webDir)) {
+      const crawls = fs.readdirSync(webDir).filter(f => f.startsWith('crawl_')).sort().reverse();
+      if (crawls.length > 0) {
+        const sumPath = path.join(webDir, crawls[0], 'summary.json');
+        if (fs.existsSync(sumPath)) {
+          const s = JSON.parse(fs.readFileSync(sumPath, 'utf8'));
+          if (s.overview && s.overview.length > 100) {
+            // Concatenate the structured fields into a flowing paragraph
+            const parts = [s.overview, s.history, s.inventory_focus, s.unique_features, s.community_role]
+              .filter(p => typeof p === 'string' && p.length > 20);
+            if (parts.length >= 2) return parts.join(' ').slice(0, 1500);
+          }
+        }
+      }
+    }
+  } catch {}
+
+  // 3. Last resort: ask Claude to write one from raw page text
+  if (pages && pages.length > 0) {
+    const text = pages.map(p => p.text || '').join('\n').slice(0, 8000);
+    if (text.length < 200) return null;
+    try {
+      const prompt = `Write a flowing 150-200 word description of "${shop.name}" — a record shop in ${shop.city}, ${shop.state} — based on this scraped website text. Cover what they specialize in, vibe, history if mentioned, and what makes them notable. Plain prose, no headers, no bullet points. Output JUST the paragraph, no JSON wrapper.
+
+WEBSITE TEXT:
+${text}`;
+      const result = await anthropicSummarize(prompt);
+      // Strip any accidental JSON / fences
+      const cleaned = (result || '').replace(/```[a-z]*\s*|\s*```/g, '').trim();
+      if (cleaned.length > 100) return cleaned.slice(0, 1500);
+    } catch (e) {
+      log(`    long_description LLM fallback failed: ${e.message}`);
+    }
+  }
+  return null;
+}
+
 async function extractFieldsForShop(shop) {
   log(`\n📊 Extracting fields for: ${shop.name} (${shop.city}, ${shop.state})`);
   
@@ -211,6 +266,16 @@ async function extractFieldsForShop(shop) {
       updates.description = description;
       extracted.description = description;
       log(`  📝 Extracted description: ${description.slice(0, 100)}...`);
+    }
+  }
+
+  // Extract long_description: prefer review_summary, then website crawl summary, then concatenated page text
+  if (!shop.long_description || shop.long_description === '') {
+    const longDesc = await extractLongDescription(shop, pages);
+    if (longDesc && longDesc.length > 100) {
+      updates.long_description = longDesc;
+      extracted.long_description = longDesc.slice(0, 80) + '...';
+      log(`  📜 Extracted long_description: ${longDesc.slice(0, 100)}...`);
     }
   }
   

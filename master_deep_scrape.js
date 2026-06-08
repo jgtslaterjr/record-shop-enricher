@@ -172,6 +172,14 @@ async function deepScrapeShop(shop, args) {
         await runScript('extract_fields.js', ['--shop-id', shop.id]);
       }
     },
+    {
+      name: 'promote_hero',
+      skip: args['skip-hero'],
+      run: async () => {
+        // After all photo-capturing steps: promote one to image_hero_url if not already set
+        await runScript('promote_hero.js', ['--shop-id', shop.id]);
+      }
+    },
   ];
 
   for (const scraper of scrapers) {
@@ -201,14 +209,13 @@ async function deepScrapeShop(shop, args) {
 
   results.completedAt = new Date().toISOString();
   
-  // Always mark as scraped, but validate data first
+  // Always mark as scraped — bypass validateShopData (it requires name/city/state which we don't pass here)
   if (shop.id !== 'manual') {
     try {
-      const updateData = validateShopData({ deep_scrape_at: results.completedAt });
-      await supabase.from('shops').update(updateData).eq('id', shop.id);
+      await supabase.from('shops').update({ deep_scrape_at: results.completedAt }).eq('id', shop.id);
       log('  ✓ Marked deep_scrape_at in Supabase');
     } catch (e) {
-      log(`  ⚠️  Validation failed: ${e.message}`);
+      log(`  ⚠️  deep_scrape_at update failed: ${e.message}`);
     }
   }
   
