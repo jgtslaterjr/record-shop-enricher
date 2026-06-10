@@ -13,6 +13,10 @@ const PORT = 3456;
 // Active enrichment processes
 const activeEnrichments = new Map();
 
+// Data-quality report cache (GET /api/quality), invalidated after /api/run batches
+let qualityCache = null;
+const QUALITY_CACHE_TTL = 60 * 1000;
+
 function deleteShop(shopId) {
   try {
     execSync(`curl -s -X DELETE "${SUPABASE_URL}/rest/v1/shops?id=eq.${shopId}" \
@@ -213,18 +217,21 @@ const server = http.createServer((req, res) => {
     return;
   }
   
-  // API: Cancel enrichment
+  // API: Cancel enrichment (single shop) or dashboard batch
   if (url.pathname === '/api/cancel' && req.method === 'POST') {
     let body = '';
     req.on('data', chunk => body += chunk);
     req.on('end', () => {
       try {
-        const { shopId } = JSON.parse(body);
-        const enrichment = activeEnrichments.get(shopId);
-        
-        if (enrichment && enrichment.process) {
-          enrichment.process.kill('SIGTERM');
-          activeEnrichments.delete(shopId);
+        const { shopId, batchId } = JSON.parse(body);
+        const key = batchId || shopId;
+        const enrichment = activeEnrichments.get(key);
+
+        if (enrichment) {
+          enrichment.cancelled = true;
+          if (enrichment.process) enrichment.process.kill('SIGTERM');
+          // Batch entries are cleaned up by the /api/run loop itself
+          if (!batchId) activeEnrichments.delete(key);
           res.writeHead(200, { 'Content-Type': 'application/json' });
           res.end(JSON.stringify({ success: true }));
         } else {
@@ -236,6 +243,129 @@ const server = http.createServer((req, res) => {
         res.end(JSON.stringify({ success: false, error: error.message }));
       }
     });
+    return;
+  }
+
+  // Dashboard: quality report (cached 60s; ?refresh=1 bypasses)
+  if (url.pathname === '/api/quality') {
+    const refresh = url.searchParams.get('refresh') === '1';
+    (async () => {
+      try {
+        if (!refresh && qualityCache && Date.now() - qualityCache.ts < QUALITY_CACHE_TTL) {
+          res.writeHead(200, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify(qualityCache.report));
+          return;
+        }
+        const { buildQualityReport } = require('./lib/quality');
+        const report = await buildQualityReport();
+        qualityCache = { report, ts: Date.now() };
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify(report));
+      } catch (error) {
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ error: error.message }));
+      }
+    })();
+    return;
+  }
+
+  // Dashboard: run a whitelisted enrichment action on shops (SSE stream)
+  if (url.pathname === '/api/run' && req.method === 'POST') {
+    let body = '';
+    req.on('data', chunk => body += chunk);
+    req.on('end', async () => {
+      try {
+        const { action, shopIds = [] } = JSON.parse(body);
+        const registry = require('./lib/run-registry');
+        const spec = registry[action];
+        if (!spec) {
+          res.writeHead(400, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify({ error: `Unknown action: ${action}` }));
+          return;
+        }
+
+        let queue;
+        if (spec.perShop) {
+          if (!Array.isArray(shopIds) || shopIds.length === 0) {
+            res.writeHead(400, { 'Content-Type': 'application/json' });
+            res.end(JSON.stringify({ error: 'shopIds required for this action' }));
+            return;
+          }
+          if (shopIds.length > 25) {
+            res.writeHead(400, { 'Content-Type': 'application/json' });
+            res.end(JSON.stringify({ error: 'Batch capped at 25 shops' }));
+            return;
+          }
+          queue = shopIds.map(id => ({ shopId: id, args: spec.args(id) }));
+        } else {
+          queue = [{ shopId: null, args: spec.args() }];
+        }
+
+        res.writeHead(200, {
+          'Content-Type': 'text/event-stream',
+          'Cache-Control': 'no-cache',
+          'Connection': 'keep-alive'
+        });
+        const send = obj => res.write(`data: ${JSON.stringify(obj)}\n\n`);
+        const ping = setInterval(() => res.write(': ping\n\n'), 15000);
+
+        const batchId = 'batch:' + Date.now();
+        const state = { process: null, cancelled: false, startTime: Date.now() };
+        activeEnrichments.set(batchId, state);
+
+        send({ type: 'batch-start', batchId, action, total: queue.length });
+
+        let succeeded = 0, failed = 0;
+        // Sequential on purpose: scrapers are rate-limit-sensitive
+        for (let i = 0; i < queue.length; i++) {
+          if (state.cancelled) break;
+          const item = queue[i];
+          send({ type: 'shop-start', shopId: item.shopId, index: i + 1, total: queue.length });
+
+          const code = await new Promise(resolve => {
+            const proc = spawn('node', [spec.script, ...item.args], { cwd: __dirname, env: process.env });
+            state.process = proc;
+            proc.stdout.on('data', d => send({ type: 'output', shopId: item.shopId, text: d.toString() }));
+            proc.stderr.on('data', d => send({ type: 'output', shopId: item.shopId, text: d.toString() }));
+            proc.on('close', resolve);
+            proc.on('error', err => {
+              send({ type: 'output', shopId: item.shopId, text: `spawn error: ${err.message}\n` });
+              resolve(-1);
+            });
+          });
+          state.process = null;
+
+          const success = code === 0;
+          if (success) succeeded++; else failed++;
+          // NOTE: no updateShopStatus() here — these scripts write their own DB state
+          send({ type: 'shop-complete', shopId: item.shopId, success, code });
+        }
+
+        clearInterval(ping);
+        activeEnrichments.delete(batchId);
+        qualityCache = null;
+        send({ type: 'complete', succeeded, failed, cancelled: state.cancelled });
+        res.end();
+      } catch (error) {
+        try {
+          res.writeHead(500, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify({ error: error.message }));
+        } catch (e) { res.end(); }
+      }
+    });
+    return;
+  }
+
+  // Dashboard page
+  if (url.pathname === '/dashboard') {
+    try {
+      const html = fs.readFileSync(path.join(__dirname, 'ui', 'dashboard.html'), 'utf8');
+      res.writeHead(200, { 'Content-Type': 'text/html' });
+      res.end(html);
+    } catch (error) {
+      res.writeHead(500, { 'Content-Type': 'text/plain' });
+      res.end(`Dashboard page missing: ${error.message}`);
+    }
     return;
   }
   
@@ -786,6 +916,7 @@ const server = http.createServer((req, res) => {
     <div class="header">
       <h1>🎵 Record Shop Enricher</h1>
       <p>Tier 1: Web Intelligence • Tier 2: Social Media • v 2.3.8</p>
+      <p style="margin-top:8px"><a href="/dashboard" style="color:#fff;font-weight:600;text-decoration:underline">📊 Data Quality Dashboard</a></p>
     </div>
     
     <div class="controls">

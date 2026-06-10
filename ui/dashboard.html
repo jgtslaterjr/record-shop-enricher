@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Quality Dashboard — Record Shop Enricher</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>📊</text></svg>">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding: 20px;
+  color: #222;
+}
+.container { max-width: 1400px; margin: 0 auto; }
+.header { text-align: center; color: white; margin-bottom: 24px; }
+.header h1 { font-size: 2.2em; margin-bottom: 6px; }
+.header a { color: #fff; font-weight: 600; }
+.header .meta { opacity: .85; font-size: .9em; margin-top: 6px; }
+
+.panel {
+  background: white; border-radius: 12px; padding: 20px;
+  margin-bottom: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.panel h2 { font-size: 1.1em; margin-bottom: 14px; color: #444; }
+
+.banner {
+  background: #fff3cd; border: 1px solid #ffc107; color: #664d03;
+  border-radius: 10px; padding: 12px 16px; margin-bottom: 20px; display: none;
+}
+
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px; margin-bottom: 20px; }
+.card {
+  background: white; border-radius: 12px; padding: 18px; text-align: center;
+  cursor: pointer; box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border: 3px solid transparent; transition: transform .1s;
+}
+.card:hover { transform: translateY(-2px); }
+.card.active { border-color: #667eea; }
+.card .num { font-size: 2.1em; font-weight: 700; }
+.card .label { color: #666; font-size: .85em; margin-top: 4px; }
+.card.good .num { color: #198754; }
+.card.needs .num { color: #fd7e14; }
+.card.suspect .num { color: #dc3545; }
+.card.closed .num { color: #6c757d; }
+.card.total .num { color: #667eea; }
+.card .sub { font-size: .75em; color: #999; margin-top: 4px; }
+
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+@media (max-width: 980px) { .cols { grid-template-columns: 1fr; } }
+
+.stategrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); gap: 6px; }
+.statecell {
+  border-radius: 8px; padding: 8px 4px; text-align: center; font-size: .8em;
+  background: #f1f3f5; color: #888;
+}
+.statecell .ab { font-weight: 700; }
+.statecell .ct { font-size: .9em; }
+.statecell.c1 { background: #e7f0fe; color: #1d4f9c; }
+.statecell.c2 { background: #c5dbfc; color: #1d4f9c; }
+.statecell.c3 { background: #8fbcf9; color: #0d3478; }
+.statecell.c4 { background: #4a90e2; color: #fff; }
+.statecell.c5 { background: #1d4f9c; color: #fff; }
+
+.vhbar { background: #eee; border-radius: 8px; overflow: hidden; height: 26px; margin: 8px 0 4px; }
+.vhbar > div { background: linear-gradient(90deg, #667eea, #764ba2); height: 100%; color: #fff; font-size: .8em; line-height: 26px; padding-left: 10px; white-space: nowrap; }
+.smallnote { font-size: .8em; color: #888; }
+
+table.simple { width: 100%; border-collapse: collapse; font-size: .9em; }
+table.simple th, table.simple td { text-align: left; padding: 6px 8px; border-bottom: 1px solid #eee; }
+table.simple th { color: #888; font-weight: 600; font-size: .8em; text-transform: uppercase; }
+
+.fieldrow { display: flex; align-items: center; gap: 10px; margin-bottom: 6px; font-size: .85em; }
+.fieldrow .fname { width: 160px; color: #555; text-align: right; }
+.fieldrow .fbar { flex: 1; background: #f1f3f5; border-radius: 6px; height: 18px; overflow: hidden; }
+.fieldrow .fbar > div { height: 100%; border-radius: 6px; }
+.fieldrow .fpct { width: 44px; color: #666; }
+
+.toolbar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+.toolbar input[type=text] {
+  flex: 1; min-width: 220px; padding: 9px 12px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: .95em;
+}
+.toolbar select { padding: 9px; border: 2px solid #e0e0e0; border-radius: 8px; }
+button {
+  padding: 8px 14px; border: none; border-radius: 8px; cursor: pointer;
+  font-size: .85em; font-weight: 600; background: #667eea; color: white;
+}
+button:hover { filter: brightness(1.08); }
+button:disabled { background: #bbb; cursor: not-allowed; }
+button.secondary { background: #e9ecef; color: #333; }
+button.danger { background: #dc3545; }
+button.small { padding: 4px 9px; font-size: .75em; }
+
+#shopTable { width: 100%; border-collapse: collapse; font-size: .88em; }
+#shopTable th, #shopTable td { text-align: left; padding: 8px; border-bottom: 1px solid #eee; vertical-align: top; }
+#shopTable th { color: #888; font-size: .78em; text-transform: uppercase; position: sticky; top: 0; background: #fff; }
+.tier-pill { padding: 2px 9px; border-radius: 999px; font-size: .78em; font-weight: 700; white-space: nowrap; }
+.tier-good { background: #d1e7dd; color: #0f5132; }
+.tier-needs_enrichment { background: #ffe5d0; color: #984c0c; }
+.tier-suspect { background: #f8d7da; color: #842029; }
+.tier-closed { background: #e2e3e5; color: #41464b; }
+.chip {
+  display: inline-block; background: #f1f3f5; color: #555; border-radius: 6px;
+  padding: 1px 7px; font-size: .73em; margin: 1px 2px 1px 0; cursor: pointer;
+}
+.chip:hover { background: #dde1e5; }
+.scorebar { width: 90px; background: #f1f3f5; border-radius: 5px; height: 14px; overflow: hidden; display: inline-block; vertical-align: middle; }
+.scorebar > div { height: 100%; }
+.scoretxt { font-size: .78em; color: #777; margin-left: 6px; }
+
+#modal {
+  display: none; position: fixed; inset: 0; background: rgba(0,0,0,.55); z-index: 50;
+  align-items: center; justify-content: center;
+}
+#modal .box {
+  background: #fff; border-radius: 14px; width: min(860px, 92vw); max-height: 86vh;
+  display: flex; flex-direction: column; padding: 20px;
+}
+#modal h3 { margin-bottom: 8px; }
+#modalProgress { font-size: .9em; color: #555; margin-bottom: 8px; }
+#modalLog {
+  flex: 1; background: #131722; color: #c8e1ff; font-family: ui-monospace, monospace;
+  font-size: .75em; border-radius: 8px; padding: 12px; overflow-y: auto;
+  white-space: pre-wrap; min-height: 240px; max-height: 50vh;
+}
+#modal .actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 12px; }
+.loading { text-align: center; color: white; font-size: 1.1em; padding: 40px; }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>📊 Data Quality Dashboard</h1>
+    <p><a href="/">← Back to Enricher</a></p>
+    <p class="meta" id="meta"></p>
+  </div>
+
+  <div id="loading" class="loading">Crunching 886 shops…</div>
+  <div id="app" style="display:none">
+
+    <div class="banner" id="migrationBanner"></div>
+
+    <div class="cards" id="cards">
+      <div class="card total" data-tier=""><div class="num" id="n-total">–</div><div class="label">Total shops</div><div class="sub" id="sub-total"></div></div>
+      <div class="card good" data-tier="good"><div class="num" id="n-good">–</div><div class="label">Good</div><div class="sub">complete &amp; fresh</div></div>
+      <div class="card needs" data-tier="needs_enrichment"><div class="num" id="n-needs">–</div><div class="label">Needs enrichment</div><div class="sub" id="sub-needs"></div></div>
+      <div class="card suspect" data-tier="suspect"><div class="num" id="n-suspect">–</div><div class="label">Suspect</div><div class="sub">contradictory data</div></div>
+      <div class="card closed" data-tier="closed"><div class="num" id="n-closed">–</div><div class="label">Closed</div><div class="sub">hidden on site</div></div>
+    </div>
+
+    <div class="cols">
+      <div class="panel">
+        <h2 id="coverageTitle">State coverage</h2>
+        <div class="stategrid" id="stategrid"></div>
+        <div id="vinylhub" style="margin-top:14px"></div>
+      </div>
+      <div class="panel">
+        <h2>Top cities</h2>
+        <table class="simple"><thead><tr><th>City</th><th>State</th><th>Shops</th></tr></thead><tbody id="cities"></tbody></table>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Field coverage <span class="smallnote">(worst gaps first)</span></h2>
+      <div id="fields"></div>
+    </div>
+
+    <div class="panel">
+      <h2>Shops <span class="smallnote" id="tableCount"></span></h2>
+      <div class="toolbar">
+        <input type="text" id="search" placeholder="🔍 Filter by name, city, state…">
+        <select id="reasonFilter"><option value="">All issues</option></select>
+        <button class="secondary" id="clearFilters">Clear filters</button>
+        <button id="refreshBtn" class="secondary">↻ Refresh data</button>
+        <span style="flex:1"></span>
+        <select id="batchAction">
+          <option value="deep_scrape">Deep scrape</option>
+          <option value="reviews">Regenerate review</option>
+          <option value="place_id">Resolve place ID</option>
+        </select>
+        <button id="runSelected" disabled>Run on selected (0)</button>
+        <button id="verifyAll" class="secondary" title="Runs verify_business_status.js --stale-days 60 across the DB">Verify statuses (batch)</button>
+      </div>
+      <div style="max-height: 560px; overflow-y: auto;">
+        <table id="shopTable">
+          <thead><tr>
+            <th><input type="checkbox" id="checkAll"></th>
+            <th>Name</th><th>Location</th><th>Tier</th><th>Score</th><th>Issues</th><th>Actions</th>
+          </tr></thead>
+          <tbody id="shopRows"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="modal">
+  <div class="box">
+    <h3 id="modalTitle">Running…</h3>
+    <div id="modalProgress"></div>
+    <div id="modalLog"></div>
+    <div class="actions">
+      <button class="danger" id="cancelBtn">Cancel</button>
+      <button class="secondary" id="closeBtn" style="display:none">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+let REPORT = null;
+let tierFilter = '';
+let reasonFilter = '';
+let searchTerm = '';
+const selected = new Set();
+let activeBatchId = null;
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+const ACTION_LABELS = { deep_scrape: 'Deep scrape', reviews: 'Reviews', place_id: 'Place ID', verify_status: 'Verify status' };
+const REASON_LABELS = {
+  CLOSED_PERMANENT: 'Closed permanently', NO_COORDS: 'No coordinates', BAD_COORDS: 'Bad coordinates',
+  DUP_NAME_CITY: 'Duplicate name+city', DUP_SLUG: 'Duplicate slug', MISSING_SLUG: 'No slug',
+  BAD_STATE: 'Bad state', NO_CITY: 'No city', ENRICH_FAILED: 'Enrichment failed',
+  REVIEW_CONTRADICTION: 'Summary w/o reviews', BAD_URL: 'Broken URL',
+  NEVER_ENRICHED: 'Never enriched', STALE_SCRAPE: 'Stale scrape', PARTIAL: 'Partial enrichment',
+  LOW_SCORE: 'Low data score', NO_CONTACT: 'No contact info', NO_DESCRIPTION: 'No description',
+  NO_HOURS: 'No hours', NO_HERO: 'No hero image', REVIEWS_UNSUMMARIZED: 'Reviews unsummarized',
+  SCRAPER_FAILURES: 'Scraper failures', CLOSED_TEMP: 'Closed temporarily',
+  NO_PLACE_ID: 'No place ID', STATUS_UNVERIFIED: 'Status unverified',
+};
+
+async function load(refresh) {
+  $('loading').style.display = 'block';
+  $('app').style.display = 'none';
+  const res = await fetch('/api/quality' + (refresh ? '?refresh=1' : ''));
+  if (!res.ok) {
+    $('loading').textContent = 'Failed to load: ' + (await res.text());
+    return;
+  }
+  REPORT = await res.json();
+  render();
+  $('loading').style.display = 'none';
+  $('app').style.display = 'block';
+}
+
+function render() {
+  const r = REPORT;
+  $('meta').textContent = `Generated ${new Date(r.generatedAt).toLocaleString()} • avg score ${r.avgScore}/${r.config.maxScore} • ${r.deepScrapedPct}% deep-scraped`;
+
+  // Cards
+  $('n-total').textContent = r.totalShops;
+  $('n-good').textContent = r.tiers.good;
+  $('n-needs').textContent = r.tiers.needs_enrichment;
+  $('n-suspect').textContent = r.tiers.suspect;
+  $('n-closed').textContent = r.tiers.closed;
+  $('sub-total').textContent = `${r.coverage.statesCovered}/${r.coverage.totalStates} states`;
+  $('sub-needs').textContent = `${r.staleness.neverEnriched} never enriched · ${r.staleness.stale} stale`;
+
+  // Migration banner
+  if (r.missingColumns.length) {
+    $('migrationBanner').style.display = 'block';
+    $('migrationBanner').textContent =
+      `⚠️ Missing DB columns (${r.missingColumns.join(', ')}) — run add-enrichment-source-columns.sql to enable all checks.`;
+  }
+
+  // State grid
+  $('coverageTitle').textContent = `State coverage — ${r.coverage.statesCovered}/${r.coverage.totalStates}` +
+    (r.coverage.unrecognizedStateShops ? ` (${r.coverage.unrecognizedStateShops} shops with unrecognized state)` : '');
+  const maxCount = Math.max(...r.coverage.states.map(s => s.count), 1);
+  $('stategrid').innerHTML = [...r.coverage.states]
+    .sort((a, b) => a.abbrev.localeCompare(b.abbrev))
+    .map(s => {
+      let cls = '';
+      if (s.count > 0) {
+        const q = s.count / maxCount;
+        cls = q > .66 ? 'c5' : q > .4 ? 'c4' : q > .2 ? 'c3' : q > .08 ? 'c2' : 'c1';
+      }
+      const vh = s.vinylhubCount !== null ? ` / ${s.vinylhubCount} VH` : '';
+      return `<div class="statecell ${cls}" title="${esc(s.name)}: ${s.count} shops${vh}"><div class="ab">${s.abbrev}</div><div class="ct">${s.count}</div></div>`;
+    }).join('');
+
+  // VinylHub bar
+  if (r.coverage.vinylhub && r.coverage.vinylhub.usStoreCount) {
+    const v = r.coverage.vinylhub;
+    $('vinylhub').innerHTML =
+      `<div class="smallnote">DB size vs VinylHub US directory (${v.usStoreCount} stores listed)</div>
+       <div class="vhbar"><div style="width:${Math.min(v.pct, 100)}%">${v.dbCount} shops (${v.pct}%)</div></div>
+       <div class="smallnote">VinylHub report: ${v.reportTimestamp ? new Date(v.reportTimestamp).toLocaleDateString() : '—'}${v.hasByState ? '' : ' — re-run discover_vinylhub.js for per-state comparison'}</div>`;
+  }
+
+  // Cities
+  $('cities').innerHTML = r.coverage.topCities
+    .map(c => `<tr><td>${esc(c.city)}</td><td>${esc(c.state)}</td><td>${c.count}</td></tr>`).join('');
+
+  // Field coverage
+  $('fields').innerHTML = r.fieldCoverage.map(f => {
+    const color = f.pct >= 70 ? '#198754' : f.pct >= 35 ? '#fd7e14' : '#dc3545';
+    return `<div class="fieldrow"><div class="fname">${esc(f.field)}</div>
+      <div class="fbar"><div style="width:${f.pct}%;background:${color}"></div></div>
+      <div class="fpct">${f.pct}%</div></div>`;
+  }).join('');
+
+  // Reason filter options (by frequency)
+  const opts = Object.entries(r.reasonCounts).sort((a, b) => b[1] - a[1])
+    .map(([code, n]) => `<option value="${code}">${REASON_LABELS[code] || code} (${n})</option>`).join('');
+  $('reasonFilter').innerHTML = '<option value="">All issues</option>' + opts;
+  $('reasonFilter').value = reasonFilter;
+
+  renderTable();
+}
+
+function filteredShops() {
+  const q = searchTerm.toLowerCase();
+  return REPORT.shops.filter(s =>
+    (!tierFilter || s.tier === tierFilter) &&
+    (!reasonFilter || s.reasons.includes(reasonFilter)) &&
+    (!q || `${s.name} ${s.city} ${s.state}`.toLowerCase().includes(q))
+  );
+}
+
+function renderTable() {
+  const shops = filteredShops();
+  $('tableCount').textContent = `(${shops.length} shown)`;
+  document.querySelectorAll('.card').forEach(c => c.classList.toggle('active', c.dataset.tier === tierFilter));
+
+  $('shopRows').innerHTML = shops.slice(0, 500).map(s => {
+    const pct = Math.round((s.score / s.maxScore) * 100);
+    const color = pct >= 55 ? '#198754' : pct >= 30 ? '#fd7e14' : '#dc3545';
+    const chips = s.reasons.map(code =>
+      `<span class="chip" data-reason="${code}" title="${esc((s.issues.find(i => i.code === code) || {}).message || '')}">${REASON_LABELS[code] || code}</span>`).join('');
+    const btns = s.actions.filter(a => a !== 'verify_status').map(a =>
+      `<button class="small" data-run="${a}" data-id="${s.id}" data-name="${esc(s.name)}">${ACTION_LABELS[a]}</button>`).join(' ');
+    return `<tr>
+      <td><input type="checkbox" class="rowcheck" data-id="${s.id}" ${selected.has(s.id) ? 'checked' : ''}></td>
+      <td><strong>${esc(s.name)}</strong>${s.website ? `<br><a href="${esc(s.website)}" target="_blank" class="smallnote">${esc(s.website.replace(/^https?:\/\/(www\.)?/, '').slice(0, 35))}</a>` : ''}</td>
+      <td>${esc(s.city || '?')}, ${esc(s.state || '?')}</td>
+      <td><span class="tier-pill tier-${s.tier}">${s.tier.replace('_', ' ')}</span></td>
+      <td><span class="scorebar"><div style="width:${pct}%;background:${color}"></div></span><span class="scoretxt">${s.score}/${s.maxScore}</span></td>
+      <td>${chips}</td>
+      <td>${btns}</td>
+    </tr>`;
+  }).join('');
+  if (shops.length > 500) {
+    $('shopRows').innerHTML += `<tr><td colspan="7" class="smallnote">…and ${shops.length - 500} more — narrow the filters</td></tr>`;
+  }
+  updateRunButton();
+}
+
+function updateRunButton() {
+  $('runSelected').textContent = `Run on selected (${selected.size})`;
+  $('runSelected').disabled = selected.size === 0 || selected.size > 25;
+  if (selected.size > 25) $('runSelected').textContent += ' — max 25';
+}
+
+// ── Run / SSE ──────────────────────────────────────────────
+
+async function runAction(action, shopIds, label) {
+  $('modal').style.display = 'flex';
+  $('modalTitle').textContent = `${ACTION_LABELS[action] || action} — ${label}`;
+  $('modalProgress').textContent = 'Starting…';
+  $('modalLog').textContent = '';
+  $('cancelBtn').style.display = 'inline-block';
+  $('closeBtn').style.display = 'none';
+  activeBatchId = null;
+
+  const res = await fetch('/api/run', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ action, shopIds }),
+  });
+  if (!res.ok || !res.body) {
+    $('modalProgress').textContent = 'Failed to start: ' + (await res.text());
+    $('cancelBtn').style.display = 'none';
+    $('closeBtn').style.display = 'inline-block';
+    return;
+  }
+
+  const reader = res.body.getReader();
+  const decoder = new TextDecoder();
+  let buf = '';
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    buf += decoder.decode(value, { stream: true });
+    const parts = buf.split('\n\n');
+    buf = parts.pop();
+    for (const part of parts) {
+      const line = part.split('\n').find(l => l.startsWith('data: '));
+      if (!line) continue;
+      let msg;
+      try { msg = JSON.parse(line.slice(6)); } catch { continue; }
+      handleEvent(msg);
+    }
+  }
+}
+
+function handleEvent(msg) {
+  const log = $('modalLog');
+  if (msg.type === 'batch-start') {
+    activeBatchId = msg.batchId;
+    $('modalProgress').textContent = `0/${msg.total}`;
+  } else if (msg.type === 'shop-start') {
+    $('modalProgress').textContent = `${msg.index}/${msg.total}` + (msg.shopId ? ` — ${shopName(msg.shopId)}` : '');
+    log.textContent += `\n━━━ [${msg.index}/${msg.total}] ${msg.shopId ? shopName(msg.shopId) : 'batch run'} ━━━\n`;
+  } else if (msg.type === 'output') {
+    log.textContent += msg.text;
+    log.scrollTop = log.scrollHeight;
+  } else if (msg.type === 'shop-complete') {
+    log.textContent += msg.success ? '✓ done\n' : `✗ failed (exit ${msg.code})\n`;
+    log.scrollTop = log.scrollHeight;
+  } else if (msg.type === 'complete') {
+    $('modalProgress').textContent =
+      `Finished: ${msg.succeeded} succeeded, ${msg.failed} failed${msg.cancelled ? ' (cancelled)' : ''}`;
+    $('cancelBtn').style.display = 'none';
+    $('closeBtn').style.display = 'inline-block';
+    activeBatchId = null;
+  }
+}
+
+function shopName(id) {
+  const s = REPORT.shops.find(x => x.id === id);
+  return s ? s.name : id;
+}
+
+// ── Events ─────────────────────────────────────────────────
+
+document.querySelectorAll('.card').forEach(card => card.addEventListener('click', () => {
+  tierFilter = (tierFilter === card.dataset.tier) ? '' : card.dataset.tier;
+  renderTable();
+}));
+$('search').addEventListener('input', e => { searchTerm = e.target.value; renderTable(); });
+$('reasonFilter').addEventListener('change', e => { reasonFilter = e.target.value; renderTable(); });
+$('clearFilters').addEventListener('click', () => {
+  tierFilter = ''; reasonFilter = ''; searchTerm = '';
+  $('search').value = ''; $('reasonFilter').value = '';
+  renderTable();
+});
+$('refreshBtn').addEventListener('click', () => load(true));
+
+$('shopRows').addEventListener('click', e => {
+  const runBtn = e.target.closest('[data-run]');
+  if (runBtn) {
+    runAction(runBtn.dataset.run, [runBtn.dataset.id], runBtn.dataset.name);
+    return;
+  }
+  const chip = e.target.closest('[data-reason]');
+  if (chip) {
+    reasonFilter = chip.dataset.reason;
+    $('reasonFilter').value = reasonFilter;
+    renderTable();
+    return;
+  }
+  const check = e.target.closest('.rowcheck');
+  if (check) {
+    check.checked ? selected.add(check.dataset.id) : selected.delete(check.dataset.id);
+    updateRunButton();
+  }
+});
+
+$('checkAll').addEventListener('change', e => {
+  const shown = filteredShops().slice(0, 500);
+  selected.clear();
+  if (e.target.checked) shown.slice(0, 25).forEach(s => selected.add(s.id));
+  renderTable();
+});
+
+$('runSelected').addEventListener('click', () => {
+  const action = $('batchAction').value;
+  const ids = [...selected];
+  const est = { deep_scrape: 3, reviews: 1, place_id: 0.2 }[action] || 1;
+  if (!confirm(`Run "${ACTION_LABELS[action]}" on ${ids.length} shop(s)? Estimated ~${Math.ceil(ids.length * est)} min, sequential.`)) return;
+  runAction(action, ids, `${ids.length} shops`);
+});
+
+$('verifyAll').addEventListener('click', () => {
+  if (!confirm('Run verify_business_status.js --stale-days 60 across the whole DB? (~$15 in Google API calls for a full sweep)')) return;
+  runAction('verify_status', [], 'all stale shops');
+});
+
+$('cancelBtn').addEventListener('click', async () => {
+  if (!activeBatchId) return;
+  await fetch('/api/cancel', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ batchId: activeBatchId }),
+  });
+});
+$('closeBtn').addEventListener('click', () => {
+  $('modal').style.display = 'none';
+  load(true); // re-assess after runs
+});
+
+load(false);
+</script>
+</body>
+</html>
