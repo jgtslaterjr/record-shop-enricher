@@ -79,6 +79,19 @@ function loadDiscogsData(shopId) {
 }
 
 /**
+ * Load TripAdvisor reviews from content/{shopId}/reviews/tripadvisor_reviews.json
+ */
+function loadTripAdvisorReviews(shopId) {
+  const taPath = contentDir(shopId, 'reviews', 'tripadvisor_reviews.json');
+  const data = loadJSON(taPath);
+  return {
+    reviews: data?.reviews || [],
+    rating: data?.rating || null,
+    reviewCount: data?.reviewCount || 0
+  };
+}
+
+/**
  * Load website content from content/{shopId}/website/
  */
 function loadWebsiteContent(shopId) {
@@ -330,7 +343,7 @@ async function loadUserReviews(shopId) {
 async function buildContext(shopId, shopName, city, state, slug) {
   const sources = {
     yelp: 0, google: 0, facebook: 0, reddit: 0, wheree: false,
-    user: 0, press: 0, discogs: 0, website: 0
+    user: 0, press: 0, discogs: 0, website: 0, tripadvisor: 0
   };
   
   let context = `=== SHOP INFO ===\nName: ${shopName}\nLocation: ${city}, ${state}\n\n`;
@@ -364,7 +377,13 @@ async function buildContext(shopId, shopName, city, state, slug) {
     context += `Discogs: ${discogsData.positivePercent}% positive (${discogsData.ratingCount} ratings)\n`;
     sources.discogs = discogsData.ratingCount;
   }
-  
+
+  const taData = loadTripAdvisorReviews(shopId);
+  if (taData.rating) {
+    context += `TripAdvisor: ${taData.rating}★ (${taData.reviewCount} reviews)\n`;
+    sources.tripadvisor = taData.reviewCount;
+  }
+
   context += '\n';
   
   // ─────────────────────────────────────────────────────────────────────────────
@@ -399,6 +418,18 @@ async function buildContext(shopId, shopName, city, state, slug) {
     }
   }
   
+  // TripAdvisor reviews
+  for (const review of taData.reviews.slice(0, 10)) {
+    if (review.text && review.text.length > 20) {
+      allReviewTexts.push({
+        source: 'TripAdvisor',
+        text: review.text.slice(0, 400),
+        author: review.author || 'TripAdvisor reviewer',
+        rating: review.rating || null
+      });
+    }
+  }
+
   // User reviews
   const userReviews = await loadUserReviews(shopId);
   sources.user = userReviews.length;
@@ -561,41 +592,89 @@ async function buildContext(shopId, shopName, city, state, slug) {
 // ═══════════════════════════════════════════════════════════════════════════════
 
 /**
- * Generate improved prompt based on synthesis-prompt.md template
+ * JSON Schema for the review analysis — passed to the API as a structured
+ * output constraint, so the response is guaranteed to be valid JSON in this
+ * exact shape. Field names match the DB columns persistAnalysis() writes.
+ */
+const QUOTE_SCHEMA = {
+  anyOf: [
+    {
+      type: 'object',
+      additionalProperties: false,
+      required: ['text', 'source'],
+      properties: {
+        text: { type: 'string', description: 'Verbatim quote copied exactly from the source material — never paraphrased or invented' },
+        source: { type: 'string', description: 'Where the quote came from, e.g. Google, Yelp, Reddit, Facebook' },
+      },
+    },
+    { type: 'null' },
+  ],
+};
+
+const REVIEW_SCHEMA = {
+  type: 'object',
+  additionalProperties: false,
+  required: [
+    'review_score', 'review_vibe', 'review_pros', 'review_cons', 'review_themes',
+    'review_notable_quotes', 'genre_specialties', 'staff_mentions',
+    'recommendation_for', 'review_summary', 'data_caveats',
+  ],
+  properties: {
+    review_score: { type: 'number', description: 'Overall score from 1 to 10 (10 = exceptional), weighted by source reliability and review volume' },
+    review_vibe: { type: 'string', description: '2-3 sentences that evoke the feel of standing in the store — its atmosphere, personality, and what makes it distinctive' },
+    review_pros: { type: 'array', items: { type: 'string' }, description: '3-5 main positives; each specific and traceable to a source' },
+    review_cons: { type: 'array', items: { type: 'string' }, description: '2-4 honest negatives or trade-offs drawn from the sources; empty only if the sources give none' },
+    review_themes: { type: 'array', items: { type: 'string' }, description: '5-8 recurring themes across all sources' },
+    review_notable_quotes: {
+      type: 'object',
+      additionalProperties: false,
+      required: ['best', 'worst', 'funniest'],
+      properties: { best: QUOTE_SCHEMA, worst: QUOTE_SCHEMA, funniest: QUOTE_SCHEMA },
+      description: 'Each slot is null if no verbatim quote in the sources genuinely fits it',
+    },
+    genre_specialties: { type: 'array', items: { type: 'string' }, description: 'Genres/formats the sources actually mention the shop specializing in' },
+    staff_mentions: { anyOf: [{ type: 'string' }, { type: 'null' }], description: 'What reviewers say about staff, naming names when sources do; null if staff are not mentioned' },
+    recommendation_for: { type: 'string', description: 'Who would love this shop — specific (e.g. "crate-diggers hunting 45s and obscure soul"), not "music lovers"' },
+    review_summary: { type: 'string', description: '2-3 tight paragraphs of plain confident prose with inline source attribution; no headings or bullets' },
+    data_caveats: { type: 'array', items: { type: 'string' }, description: 'Honest gaps or staleness in the source material, e.g. "only 4 reviews, newest from 2023", "possible closure mentioned on Reddit". Empty if the data is solid.' },
+  },
+};
+
+/**
+ * Build the synthesis prompt. Output shape is enforced by REVIEW_SCHEMA
+ * (structured outputs), so the prompt focuses on grounding and voice.
  */
 function buildPrompt(shopName, city, state, context) {
-  return `You are analyzing "${shopName}", a record shop in ${city}, ${state}. Synthesize ALL sources below into a comprehensive review analysis.
+  return `You are writing the definitive profile of "${shopName}", a record shop in ${city}, ${state}, for a directory that vinyl collectors trust. Your analysis will be published, so every claim must be supported by the source material below.
 
 ${context}
 
-## Instructions
+## Grounding rules (non-negotiable)
 
-Analyze ALL the above and return JSON with EXACTLY these keys:
+- Use ONLY the sources above. Never invent facts, staff names, genres, events, or history — if the sources don't say it, you don't say it.
+- Quotes must be verbatim text copied from the sources. Never paraphrase inside quotation marks and never compose a quote. If no real quote fits a slot, return null for it.
+- Attribute insights to where they came from: "Google reviewers consistently mention...", "their Discogs seller record shows...".
+- Watch review dates when present. Weight recent reviews more heavily; if most material is old, or anything hints at closure or relocation, flag it in data_caveats.
+- If sources conflict (e.g. beloved in-store but slow mail-order), present the disagreement honestly instead of averaging it away.
+- If the material is thin, write less. A short accurate profile beats a padded one — note what's missing in data_caveats rather than filling gaps with generic praise.
 
-{
-  "review_score": <number 1-10, 10 = most positive, weighted by source reliability>,
-  "review_vibe": "<2-3 sentences describing the shop's atmosphere, personality, and what makes it distinctive>",
-  "review_pros": ["<3-5 main positives, specific and sourced>"],
-  "review_cons": ["<2-4 negatives or areas for improvement, be honest>"],
-  "review_themes": ["<5-8 recurring themes across all sources>"],
-  "review_notable_quotes": {
-    "best": {"text": "<most glowing quote>", "source": "<Google/Yelp/Facebook/Reddit>"},
-    "worst": {"text": "<most critical quote>", "source": "<source>"},
-    "funniest": {"text": "<most entertaining quote>", "source": "<source>"}
-  },
-  "genre_specialties": ["<genres frequently mentioned>"],
-  "staff_mentions": "<summary of what reviewers say about staff, name names if mentioned>",
-  "recommendation_for": "<who would love this shop, be specific>",
-  "review_summary": "<SEO-friendly 2-3 paragraph overview synthesizing everything, similar to a Google AI Overview. Include source attribution like 'According to Yelp reviewers...' or 'Discogs sellers rate them...'>"
-}
+## Source weighting
 
-IMPORTANT:
-- Weight Discogs transaction ratings highly for record shops — a 99%+ rating over 1000+ sales is extremely meaningful
-- Distinguish between the physical store experience and online/mailorder when both exist
-- Note if the shop is also a record label or distributor (common in this industry)
-- Include specific details (staff names, genre focuses, unique features) — avoid generic praise
-- If sources conflict, note the disagreement rather than averaging
-- Source attribution is critical — say WHERE each insight comes from`;
+- Discogs marketplace ratings are the strongest trust signal for record shops — 99%+ positive over 1000+ sales is exceptional and should anchor the score.
+- Volume matters: 4.8 stars over 300 Google reviews outweighs 5.0 over 6.
+- Reddit mentions are candid and unprompted — treat organic praise or warnings there as strong signal.
+- Distinguish the physical store experience from online/mail-order when both exist.
+- Note if the shop is also a record label or distributor (common in this industry).
+
+## Writing style
+
+Write like a music journalist who has actually stood in the store, not a marketer:
+- Lead with what makes THIS shop different from every other record store — the specific detail a collector would remember.
+- Use concrete specifics from the sources: the listening stations, the dollar bins, the owner who special-orders Japanese pressings. Never use filler like "a treasure trove for music lovers" or "something for everyone."
+- review_summary: first paragraph — what the shop is and its strongest credential; second — the experience and inventory, with attribution; third (only if warranted) — caveats and who it's best for.
+- Honest cons build reader trust. "Prices run high on collectible pressings" is useful information, not criticism.
+
+Score from 1-10 (10 = exceptional), weighted by source reliability and volume per the rules above.`;
 }
 
 /**
@@ -659,14 +738,19 @@ async function summarizeShopReviews(shop, force = false) {
   // Build prompt
   const prompt = buildPrompt(shopName, city, state, context);
   
-  // Call Anthropic Sonnet
+  // Call Claude with the output schema enforced (structured outputs)
   try {
-    log(`  Analyzing with Claude Sonnet 4.5...`);
+    log(`  Analyzing with Claude Opus 4.8...`);
     log(`  Context: ${context.length} chars`);
-    const result = await anthropicSummarize(prompt);
-    
-    const analysis = parseOllamaJSON(result);
-    
+    const result = await anthropicSummarize(prompt, { schema: REVIEW_SCHEMA });
+
+    let analysis;
+    try {
+      analysis = JSON.parse(result);
+    } catch (e) {
+      analysis = parseOllamaJSON(result); // fallback, should not be needed with structured outputs
+    }
+
     if (!analysis) {
       log(`  JSON parse failed, saving raw summary`);
       return {
@@ -689,7 +773,7 @@ async function summarizeShopReviews(shop, force = false) {
     return analysis;
     
   } catch (e) {
-    log(`  Ollama error: ${e.message}`);
+    log(`  Claude API error: ${e.message}`);
     return { error: e.message };
   }
 }

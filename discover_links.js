@@ -14,41 +14,15 @@
  *   node discover_links.js --force                # overwrite existing values
  */
 
-const { supabase, delay, getShopByName, getAllShops, updateShop, saveJSON, contentDir, parseArgs, log, randomUA } = require('./lib/common');
+const { supabase, delay, getShopByName, getAllShops, updateShop, saveJSON, contentDir, parseArgs, log, randomUA, ddgSearch } = require('./lib/common');
 const https = require('https');
 const path = require('path');
 
-// ── Google Search ──────────────────────────────────────────
+// ── Web Search ─────────────────────────────────────────────
 
+// DuckDuckGo HTML search with built-in 429 retry/backoff (see lib/common.js)
 function webSearch(query) {
-  return new Promise((resolve, reject) => {
-    const postData = `q=${encodeURIComponent(query)}`;
-    const options = {
-      hostname: 'html.duckduckgo.com',
-      path: '/html/',
-      method: 'POST',
-      headers: {
-        'User-Agent': randomUA(),
-        'Accept': 'text/html,application/xhtml+xml',
-        'Accept-Language': 'en-US,en;q=0.9',
-        'Content-Type': 'application/x-www-form-urlencoded',
-        'Content-Length': Buffer.byteLength(postData),
-      }
-    };
-    const req = https.request(options, (res) => {
-      if (res.statusCode === 429 || res.statusCode === 202) {
-        resolve({ html: '', blocked: true });
-        return;
-      }
-      let data = '';
-      res.on('data', chunk => data += chunk);
-      res.on('end', () => resolve({ html: data, blocked: false }));
-      res.on('error', reject);
-    });
-    req.on('error', reject);
-    req.write(postData);
-    req.end();
-  });
+  return ddgSearch(query);
 }
 
 // ── URL Extraction ─────────────────────────────────────────

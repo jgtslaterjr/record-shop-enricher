@@ -125,6 +125,13 @@ async function deepScrapeShop(shop, args) {
       }
     },
     {
+      name: 'tripadvisor',
+      skip: args['skip-tripadvisor'],
+      run: async () => {
+        await runScript('deep_scrape_tripadvisor.js', ['--shop-id', shop.id]);
+      }
+    },
+    {
       name: 'discogs',
       skip: args['skip-discogs'],
       run: async () => {

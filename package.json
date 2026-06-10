@@ -7,7 +7,15 @@
     "enrich": "node enrich_shop_v2.js",
     "capture-web": "node capture_web_content.js",
     "capture-social": "node capture_social_content.js",
-    "ui": "node enricher-ui.js"
+    "ui": "node enricher-ui.js",
+    "discover:vinylhub": "node discover_vinylhub.js",
+    "discover:rsd": "node discover_rsd.js",
+    "discover:foursquare": "node discover_foursquare.js",
+    "discover:google": "node discover_from_google_places.js",
+    "backfill:place-ids": "node backfill_place_ids.js",
+    "verify:status": "node verify_business_status.js",
+    "enrich:founded": "node enrich_founded_year_wayback.js",
+    "scrape:tripadvisor": "node deep_scrape_tripadvisor.js"
   },
   "keywords": [
     "record-shop",
@@ -19,13 +27,14 @@
   "author": "John Slater",
   "license": "MIT",
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18.0.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/jgtslaterjr/record-shop-enricher.git"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.104.1",
     "@mendable/firecrawl-js": "^4.13.2",
     "@supabase/supabase-js": "^2.95.3",
     "cheerio": "^1.2.0",
