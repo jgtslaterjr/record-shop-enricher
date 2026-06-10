@@ -84,18 +84,31 @@ table.simple th { color: #888; font-weight: 600; font-size: .8em; text-transform
 }
 .toolbar select { padding: 9px; border: 2px solid #e0e0e0; border-radius: 8px; }
 button {
-  padding: 8px 14px; border: none; border-radius: 8px; cursor: pointer;
-  font-size: .85em; font-weight: 600; background: #667eea; color: white;
+  padding: 6px 11px; border: none; border-radius: 7px; cursor: pointer;
+  font-size: .8em; font-weight: 600; background: #667eea; color: white;
 }
 button:hover { filter: brightness(1.08); }
 button:disabled { background: #bbb; cursor: not-allowed; }
 button.secondary { background: #e9ecef; color: #333; }
 button.danger { background: #dc3545; }
-button.small { padding: 4px 9px; font-size: .75em; }
+button.small { padding: 2px 7px; font-size: .68em; border-radius: 5px; background: #eef0fe; color: #4a55c4; }
+button.small:hover { background: #dfe3fc; }
 
 #shopTable { width: 100%; border-collapse: collapse; font-size: .88em; }
-#shopTable th, #shopTable td { text-align: left; padding: 8px; border-bottom: 1px solid #eee; vertical-align: top; }
+#shopTable th, #shopTable td { text-align: left; padding: 7px 8px; border-bottom: 1px solid #eee; vertical-align: top; }
 #shopTable th { color: #888; font-size: .78em; text-transform: uppercase; position: sticky; top: 0; background: #fff; }
+#shopTable th.sortable { cursor: pointer; user-select: none; white-space: nowrap; }
+#shopTable th.sortable:hover { color: #444; }
+.prio { display: inline-block; min-width: 30px; text-align: center; border-radius: 6px; padding: 2px 6px; font-weight: 700; font-size: .82em; }
+.prio-hi { background: #f8d7da; color: #842029; }
+.prio-mid { background: #ffe5d0; color: #984c0c; }
+.prio-lo { background: #e9ecef; color: #555; }
+.recency { font-size: .82em; white-space: nowrap; }
+.recency .never { color: #dc3545; font-weight: 600; }
+.recency .old { color: #fd7e14; }
+.recency .fresh { color: #198754; }
+.status-tag { font-size: .7em; color: #888; display: block; }
+.sitelink { font-size: .75em; white-space: nowrap; text-decoration: none; color: #4a55c4; }
 .tier-pill { padding: 2px 9px; border-radius: 999px; font-size: .78em; font-weight: 700; white-space: nowrap; }
 .tier-good { background: #d1e7dd; color: #0f5132; }
 .tier-needs_enrichment { background: #ffe5d0; color: #984c0c; }
@@ -187,7 +200,14 @@ button.small { padding: 4px 9px; font-size: .75em; }
         <table id="shopTable">
           <thead><tr>
             <th><input type="checkbox" id="checkAll"></th>
-            <th>Name</th><th>Location</th><th>Tier</th><th>Score</th><th>Issues</th><th>Actions</th>
+            <th class="sortable" data-sort="name">Name</th>
+            <th>Location</th>
+            <th>Tier</th>
+            <th class="sortable" data-sort="priority" title="Fix priority: suspect data and never-enriched shops first">Priority ▾</th>
+            <th class="sortable" data-sort="score">Score</th>
+            <th class="sortable" data-sort="enriched" title="Most recent of deep scrape / legacy enrichment">Enriched</th>
+            <th>Issues</th>
+            <th>Actions</th>
           </tr></thead>
           <tbody id="shopRows"></tbody>
         </table>
@@ -213,6 +233,8 @@ let REPORT = null;
 let tierFilter = '';
 let reasonFilter = '';
 let searchTerm = '';
+let sortKey = 'priority';
+let sortDir = -1; // -1 desc, 1 asc
 const selected = new Set();
 let activeBatchId = null;
 
@@ -312,19 +334,47 @@ function render() {
   renderTable();
 }
 
+function lastEnrichedTs(s) {
+  const dates = [s.deep_scrape_at, s.date_of_enrichment].filter(Boolean).map(d => new Date(d).getTime());
+  return dates.length ? Math.max(...dates) : 0;
+}
+
+function relTime(ts) {
+  if (!ts) return null;
+  const days = (Date.now() - ts) / 86400000;
+  if (days < 1) return 'today';
+  if (days < 30) return `${Math.round(days)}d ago`;
+  if (days < 365) return `${Math.round(days / 30.44)}mo ago`;
+  return `${(days / 365.25).toFixed(1)}y ago`;
+}
+
 function filteredShops() {
   const q = searchTerm.toLowerCase();
-  return REPORT.shops.filter(s =>
+  const shops = REPORT.shops.filter(s =>
     (!tierFilter || s.tier === tierFilter) &&
     (!reasonFilter || s.reasons.includes(reasonFilter)) &&
     (!q || `${s.name} ${s.city} ${s.state}`.toLowerCase().includes(q))
   );
+  const val = s =>
+    sortKey === 'name' ? (s.name || '').toLowerCase() :
+    sortKey === 'enriched' ? lastEnrichedTs(s) :
+    s[sortKey] ?? 0;
+  return shops.sort((a, b) => {
+    const va = val(a), vb = val(b);
+    return (va < vb ? -1 : va > vb ? 1 : 0) * sortDir;
+  });
 }
 
 function renderTable() {
   const shops = filteredShops();
   $('tableCount').textContent = `(${shops.length} shown)`;
   document.querySelectorAll('.card').forEach(c => c.classList.toggle('active', c.dataset.tier === tierFilter));
+
+  // Sort indicators
+  document.querySelectorAll('#shopTable th.sortable').forEach(th => {
+    const base = th.textContent.replace(/ [▾▴]$/, '');
+    th.textContent = th.dataset.sort === sortKey ? `${base} ${sortDir === -1 ? '▾' : '▴'}` : base;
+  });
 
   $('shopRows').innerHTML = shops.slice(0, 500).map(s => {
     const pct = Math.round((s.score / s.maxScore) * 100);
@@ -333,18 +383,38 @@ function renderTable() {
       `<span class="chip" data-reason="${code}" title="${esc((s.issues.find(i => i.code === code) || {}).message || '')}">${REASON_LABELS[code] || code}</span>`).join('');
     const btns = s.actions.filter(a => a !== 'verify_status').map(a =>
       `<button class="small" data-run="${a}" data-id="${s.id}" data-name="${esc(s.name)}">${ACTION_LABELS[a]}</button>`).join(' ');
+
+    const prioCls = s.priority >= 70 ? 'prio-hi' : s.priority >= 40 ? 'prio-mid' : 'prio-lo';
+
+    const ts = lastEnrichedTs(s);
+    const rel = relTime(ts);
+    const ageDays = ts ? (Date.now() - ts) / 86400000 : Infinity;
+    const recCls = !ts ? 'never' : ageDays > 183 ? 'old' : 'fresh';
+    const statusTag = [s.enrichment_status, s.deep_scrape_at ? 'deep-scraped' : null].filter(Boolean).join(' · ');
+    const enrichedCell = `<span class="recency"><span class="${recCls}">${rel || 'never'}</span></span>` +
+      (statusTag ? `<span class="status-tag">${esc(statusTag)}</span>` : '');
+
+    const siteLink = s.slug
+      ? ` <a class="sitelink" href="${esc(REPORT.siteBaseUrl)}/shops/${esc(s.slug)}" target="_blank" title="View on the public site">↗ site</a>`
+      : '';
+    const webLink = s.website
+      ? `<br><a href="${esc(s.website)}" target="_blank" class="smallnote">${esc(s.website.replace(/^https?:\/\/(www\.)?/, '').slice(0, 35))}</a>`
+      : '';
+
     return `<tr>
       <td><input type="checkbox" class="rowcheck" data-id="${s.id}" ${selected.has(s.id) ? 'checked' : ''}></td>
-      <td><strong>${esc(s.name)}</strong>${s.website ? `<br><a href="${esc(s.website)}" target="_blank" class="smallnote">${esc(s.website.replace(/^https?:\/\/(www\.)?/, '').slice(0, 35))}</a>` : ''}</td>
+      <td><strong>${esc(s.name)}</strong>${siteLink}${webLink}</td>
       <td>${esc(s.city || '?')}, ${esc(s.state || '?')}</td>
       <td><span class="tier-pill tier-${s.tier}">${s.tier.replace('_', ' ')}</span></td>
+      <td><span class="prio ${prioCls}" title="Fix priority 0–100">${s.priority}</span></td>
       <td><span class="scorebar"><div style="width:${pct}%;background:${color}"></div></span><span class="scoretxt">${s.score}/${s.maxScore}</span></td>
+      <td>${enrichedCell}</td>
       <td>${chips}</td>
       <td>${btns}</td>
     </tr>`;
   }).join('');
   if (shops.length > 500) {
-    $('shopRows').innerHTML += `<tr><td colspan="7" class="smallnote">…and ${shops.length - 500} more — narrow the filters</td></tr>`;
+    $('shopRows').innerHTML += `<tr><td colspan="9" class="smallnote">…and ${shops.length - 500} more — narrow the filters</td></tr>`;
   }
   updateRunButton();
 }
@@ -439,6 +509,13 @@ $('clearFilters').addEventListener('click', () => {
   renderTable();
 });
 $('refreshBtn').addEventListener('click', () => load(true));
+
+document.querySelectorAll('#shopTable th.sortable').forEach(th => th.addEventListener('click', () => {
+  const key = th.dataset.sort;
+  if (sortKey === key) sortDir = -sortDir;
+  else { sortKey = key; sortDir = key === 'name' ? 1 : -1; }
+  renderTable();
+}));
 
 $('shopRows').addEventListener('click', e => {
   const runBtn = e.target.closest('[data-run]');
