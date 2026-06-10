@@ -7,7 +7,7 @@
     "enrich": "node enrich_shop_v2.js",
     "capture-web": "node capture_web_content.js",
     "capture-social": "node capture_social_content.js",
-    "ui": "node enricher-ui.js",
+    "ui": "node --max-http-header-size=131072 enricher-ui.js",
     "discover:vinylhub": "node discover_vinylhub.js",
     "discover:rsd": "node discover_rsd.js",
     "discover:foursquare": "node discover_foursquare.js",
