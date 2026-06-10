@@ -10,7 +10,7 @@
  *   node discover_socials.js --shop "Main Street Music" --city "Philadelphia" --state "PA"
  */
 
-const { supabase, delay, getShopByName, updateShop, parseArgs, log } = require('./lib/common');
+const { supabase, delay, getShopByName, updateShop, parseArgs, log, extractFacebookPage } = require('./lib/common');
 const https = require('https');
 
 function webSearch(query) {
@@ -59,8 +59,8 @@ function extractFacebook(html) {
   for (const pattern of patterns) {
     let match;
     while ((match = pattern.exec(html)) !== null) {
-      const page = match[1];
-      if (['sharer', 'share', 'login', 'help', 'pages', 'groups', 'events', 'marketplace', 'watch', 'gaming', 'bookmarks', 'ads', 'privacy', 'policies'].includes(page.toLowerCase())) continue;
+      const page = extractFacebookPage(match[1]);
+      if (!page) continue;
       pages.add(page);
     }
   }

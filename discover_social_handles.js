@@ -107,6 +107,7 @@ function extractInstagram(html) {
 }
 
 function extractFacebook(html) {
+  const { extractFacebookPage } = require('./lib/common');
   const patterns = [
     /https?:\/\/(?:www\.)?facebook\.com\/([a-zA-Z0-9._-]{2,50})\/?/gi,
   ];
@@ -114,10 +115,8 @@ function extractFacebook(html) {
   for (const pattern of patterns) {
     let match;
     while ((match = pattern.exec(html)) !== null) {
-      const handle = match[1].toLowerCase();
-      if (!['sharer', 'sharer.php', 'share', 'dialog', 'login', 'help', 'privacy', 'terms', 'policies', 'pages', 'groups', 'events', 'marketplace', 'watch', 'gaming', 'flx', 'profile.php'].includes(handle)) {
-        handles.add(handle);
-      }
+      const handle = extractFacebookPage(match[1].toLowerCase());
+      if (handle) handles.add(handle);
     }
   }
   return [...handles];

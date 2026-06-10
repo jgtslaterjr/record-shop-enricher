@@ -14,7 +14,7 @@
  *   node discover_links.js --force                # overwrite existing values
  */
 
-const { supabase, delay, getShopByName, getAllShops, updateShop, saveJSON, contentDir, parseArgs, log, randomUA, ddgSearch } = require('./lib/common');
+const { supabase, delay, getShopByName, getAllShops, updateShop, saveJSON, contentDir, parseArgs, log, randomUA, ddgSearch, extractFacebookPage } = require('./lib/common');
 const https = require('https');
 const path = require('path');
 
@@ -63,11 +63,8 @@ const INSTAGRAM_SKIP = [
   'directory', 'developer', 'legal', 'privacy', 'terms', 'tags', 'locations',
 ];
 
-const FACEBOOK_SKIP = [
-  'sharer', 'share', 'login', 'help', 'pages', 'groups', 'events',
-  'marketplace', 'watch', 'gaming', 'bookmarks', 'ads', 'privacy',
-  'policies', 'settings', 'photo', 'photos',
-];
+// Facebook page validation lives in lib/common.js extractFacebookPage()
+// (rejects login.php/profile.php-style endpoints and reserved paths)
 
 const DIRECTORY_DOMAINS = [
   'recordstores.love', 'recordshopmap.com',
@@ -115,9 +112,9 @@ function categorizeURL(url) {
 
   // Facebook
   if (lower.includes('facebook.com/')) {
-    const m = lower.match(/facebook\.com\/([a-zA-Z0-9.]{2,50})/);
-    if (m && !FACEBOOK_SKIP.includes(m[1].toLowerCase())) {
-      return { category: 'facebook', url: `https://facebook.com/${m[1]}` };
+    const page = extractFacebookPage(url);
+    if (page) {
+      return { category: 'facebook', url: `https://facebook.com/${page}` };
     }
     return null;
   }

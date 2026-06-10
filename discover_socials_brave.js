@@ -14,7 +14,7 @@
  */
 
 require('dotenv').config();
-const { supabase, delay, getShopByName, updateShop, parseArgs, log } = require('./lib/common');
+const { supabase, delay, getShopByName, updateShop, parseArgs, log, extractFacebookPage } = require('./lib/common');
 
 const BRAVE_KEY = process.env.BRAVE_KEY;
 if (!BRAVE_KEY) {
@@ -81,10 +81,8 @@ function pickFacebookUrl(results, shopName) {
     const url = r.url || '';
     // Want facebook.com/<page> not facebook.com/search/ etc
     if (/facebook\.com\/[a-zA-Z0-9.]+\/?$/.test(url) || /facebook\.com\/[a-zA-Z0-9.]+\/?\?/.test(url)) {
-      const page = url.match(/facebook\.com\/([a-zA-Z0-9.]+)/)?.[1];
+      const page = extractFacebookPage(url);
       if (!page) continue;
-      const blocked = ['sharer', 'share', 'login', 'help', 'pages', 'groups', 'events', 'marketplace', 'watch', 'gaming', 'bookmarks', 'ads', 'privacy', 'policies', 'media', 'profile.php'];
-      if (blocked.includes(page.toLowerCase())) continue;
       
       // Relevance check
       const titleLower = (r.title || '').toLowerCase();
