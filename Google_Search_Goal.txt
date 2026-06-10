@@ -1,0 +1,35 @@
+What we're trying to set up
+
+  The goal: When we enrich a record store, we want to automatically search Google for that store's Yelp, Facebook, Discogs, and Instagram pages — so we find social links
+  even when they're not listed on the store's own website.
+
+  ---
+  What we need from Google — three things that must all live in the same place:
+
+  1. A Google Cloud Project
+  This is just a container. Everything below belongs to it. You likely already have one (it's where your Places API key lives).
+
+  2. The Custom Search JSON API — enabled on that project
+  This is the API that lets our server make search queries programmatically. It's free for 100 searches/day. It needs to be switched ON for the project.
+
+  3. A Programmable Search Engine (the "CX")
+  This is a configured search engine you create at programmablesearchengine.google.com. We set it to search only Yelp, Facebook, Discogs, and Instagram. It gives you an ID
+   (the "CX") that we pass with every query. It does not need to be linked to a Cloud project — it's just a configuration.
+
+  4. Billing enabled on the project
+  Google requires a billing account to be attached before they'll allow API calls, even for free-tier usage. No charges will occur under 100 queries/day.
+
+  ---
+  The API call we make looks like this:
+
+  GET https://www.googleapis.com/customsearch/v1
+    ?key=YOUR_API_KEY          ← from Google Cloud project (same key as Places)
+    &cx=YOUR_SEARCH_ENGINE_ID  ← from Programmable Search Engine
+    &q="Academy Records" "New York" site:facebook.com
+
+  ---
+  What has likely gone wrong: The Custom Search JSON API was either enabled on a different project than the one the API key belongs to, or billing isn't properly attached
+  to that same project.
+
+  The single most important check: Go to the credentials page, click the API key (AIzaSyBD8...), confirm the project name shown — then make sure BOTH the Custom Search
+  JSON API is enabled AND billing is attached to that exact project.
