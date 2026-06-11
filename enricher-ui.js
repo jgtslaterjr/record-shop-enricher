@@ -5,9 +5,16 @@ const { execSync, spawn } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 const { enrichSocial } = require('./enrich_social.js');
+require('dotenv').config();
 
 const SUPABASE_URL = "https://oytflcaqukxvzmbddrlg.supabase.co";
 const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im95dGZsY2FxdWt4dnptYmRkcmxnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjY5NTIwMjQsImV4cCI6MjA4MjUyODAyNH0.YpFZfu2BPxwXxXz5j-xqgu7VdIuTP315eiS3UuLD2wo";
+// RLS blocks writes from the anon key (PATCH/DELETE silently match 0 rows),
+// so all write operations must use the service key.
+const SUPABASE_WRITE_KEY = process.env.SUPABASE_SERVICE_KEY;
+if (!SUPABASE_WRITE_KEY) {
+  console.error('⚠️  SUPABASE_SERVICE_KEY not found in .env — edits/deletes will fail (RLS blocks anon writes)');
+}
 const PORT = 3456;
 
 // Active enrichment processes
@@ -19,11 +26,17 @@ const QUALITY_CACHE_TTL = 60 * 1000;
 
 function deleteShop(shopId) {
   try {
-    execSync(`curl -s -X DELETE "${SUPABASE_URL}/rest/v1/shops?id=eq.${shopId}" \
-      -H "apikey: ${SUPABASE_KEY}" \
-      -H "Authorization: Bearer ${SUPABASE_KEY}"`,
+    const result = execSync(`curl -s -X DELETE "${SUPABASE_URL}/rest/v1/shops?id=eq.${shopId}" \
+      -H "apikey: ${SUPABASE_WRITE_KEY}" \
+      -H "Authorization: Bearer ${SUPABASE_WRITE_KEY}" \
+      -H "Prefer: return=representation"`,
       { encoding: 'utf8' }
     );
+    const parsed = JSON.parse(result);
+    if (!Array.isArray(parsed) || parsed.length === 0) {
+      console.error('Delete affected 0 rows (RLS or bad id):', result);
+      return false;
+    }
     return true;
   } catch (error) {
     console.error("Error deleting shop:", error.message);
@@ -45,8 +58,8 @@ function updateShop(shopId, updates) {
     fs.writeFileSync(tempFile, JSON.stringify(updates));
     
     const result = execSync(`curl -s -X PATCH "${SUPABASE_URL}/rest/v1/shops?id=eq.${shopId}" \
-      -H "apikey: ${SUPABASE_KEY}" \
-      -H "Authorization: Bearer ${SUPABASE_KEY}" \
+      -H "apikey: ${SUPABASE_WRITE_KEY}" \
+      -H "Authorization: Bearer ${SUPABASE_WRITE_KEY}" \
       -H "Content-Type: application/json" \
       -H "Prefer: return=representation" \
       -d @${tempFile}`,
@@ -72,14 +85,15 @@ function updateShop(shopId, updates) {
       return false;
     }
     
-    // Check if array with data was returned
+    // With Prefer: return=representation, the updated rows come back.
+    // An empty array means 0 rows matched (RLS block or bad id) — that is a failure.
     if (Array.isArray(parsed) && parsed.length > 0) {
       console.log('Update successful, returned:', parsed[0]);
       return true;
     }
-    
-    console.log('Update completed');
-    return true;
+
+    console.error('Update affected 0 rows (RLS or bad id):', result);
+    return false;
   } catch (error) {
     console.error("Error updating shop:", error.message, error.stack);
     return false;
@@ -137,13 +151,19 @@ function updateShopStatus(shopId, socialData = null) {
   }
   
   try {
-    execSync(`curl -s -X PATCH "${SUPABASE_URL}/rest/v1/shops?id=eq.${shopId}" \
-      -H "apikey: ${SUPABASE_KEY}" \
-      -H "Authorization: Bearer ${SUPABASE_KEY}" \
+    const result = execSync(`curl -s -X PATCH "${SUPABASE_URL}/rest/v1/shops?id=eq.${shopId}" \
+      -H "apikey: ${SUPABASE_WRITE_KEY}" \
+      -H "Authorization: Bearer ${SUPABASE_WRITE_KEY}" \
       -H "Content-Type: application/json" \
+      -H "Prefer: return=representation" \
       -d '${JSON.stringify(updateData)}'`,
       { encoding: 'utf8' }
     );
+    const parsed = JSON.parse(result);
+    if (!Array.isArray(parsed) || parsed.length === 0) {
+      console.error('Status update affected 0 rows (RLS or bad id):', result);
+      return false;
+    }
     return true;
   } catch (error) {
     console.error("Error updating shop:", error.message);
@@ -770,6 +790,7 @@ const server = http.createServer((req, res) => {
       display: flex;
       gap: 10px;
       margin-top: 15px;
+      flex-shrink: 0;
     }
     .modal-btn {
       padding: 10px 20px;
@@ -872,7 +893,14 @@ const server = http.createServer((req, res) => {
       max-height: 80vh;
       display: flex;
       flex-direction: column;
+      overflow: hidden;
       box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+    .modal-form-body {
+      flex: 1;
+      min-height: 0;
+      overflow-y: auto;
+      padding: 10px 5px 10px 0;
     }
     .modal-header {
       display: flex;
@@ -956,7 +984,7 @@ const server = http.createServer((req, res) => {
         <h2>✏️ Edit Shop Details</h2>
         <button class="close-btn" onclick="closeEditModal()">&times;</button>
       </div>
-      <div style="padding: 10px 0;">
+      <div class="modal-form-body">
         <div class="form-group">
           <label for="edit-name">Shop Name</label>
           <input type="text" id="edit-name" />
@@ -1078,8 +1106,12 @@ const server = http.createServer((req, res) => {
         const status = isEnriched ? '✓' : '○';
         const cardClass = isEnriched ? 'shop-card enriched' : (hasWebsite ? 'shop-card' : 'shop-card no-website');
         
-        const websiteLink = shop.website 
-          ? '<a href="' + escapeHtml(shop.website) + '" target="_blank" class="shop-website">' + escapeHtml(shop.website) + '</a>'
+        // Prepend a scheme when missing so the link doesn't resolve relative to localhost
+        const websiteHref = shop.website && !/^https?:\/\//i.test(shop.website)
+          ? 'http://' + shop.website
+          : shop.website;
+        const websiteLink = shop.website
+          ? '<a href="' + escapeHtml(websiteHref) + '" target="_blank" class="shop-website">' + escapeHtml(shop.website) + '</a>'
           : '<div class="shop-info">No website</div>';
           
         const enrichedDate = shop.date_of_enrichment 
@@ -1472,7 +1504,8 @@ const server = http.createServer((req, res) => {
       if (name !== (currentEditShop.name || '')) {
         updates.name = name;
       }
-      if (website) updates.website = website;
+      // Ensure the website has a scheme, otherwise it renders as a relative link
+      if (website) updates.website = /^https?:\/\//i.test(website) ? website : 'http://' + website;
       if (phone) updates.phone = phone;
       if (address) updates.address = address;
       if (city) updates.city = city;

@@ -398,7 +398,7 @@ function renderTable() {
       ? ` <a class="sitelink" href="${esc(REPORT.siteBaseUrl)}/shops/${esc(s.slug)}" target="_blank" title="View on the public site">↗ site</a>`
       : '';
     const webLink = s.website
-      ? `<br><a href="${esc(s.website)}" target="_blank" class="smallnote">${esc(s.website.replace(/^https?:\/\/(www\.)?/, '').slice(0, 35))}</a>`
+      ? `<br><a href="${esc(/^https?:\/\//i.test(s.website) ? s.website : 'http://' + s.website)}" target="_blank" class="smallnote">${esc(s.website.replace(/^https?:\/\/(www\.)?/, '').slice(0, 35))}</a>`
       : '';
 
     return `<tr>
