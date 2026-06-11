@@ -12,7 +12,7 @@
 
 const { delay, saveJSON, getAllShops, getShopByName, updateShop,
   createStealthBrowser, parseArgs, log, supabase, findExistingShop, 
-  scoreShopData, mergeShopData } = require('./lib/common');
+  scoreShopData, mergeShopData, generateSlug } = require('./lib/common');
 const { writeFileSync, readFileSync, existsSync } = require('fs');
 const path = require('path');
 
@@ -609,14 +609,6 @@ function parseCityState(address, searchLocation) {
   return { city: searchCity, state: 'Pennsylvania' };
 }
 
-function slugify(name) {
-  return name
-    .toLowerCase()
-    .replace(/[''`]/g, '')
-    .replace(/&/g, 'and')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '');
-}
 
 async function main() {
   const args = parseArgs();
@@ -707,7 +699,7 @@ async function main() {
               name: shop.name,
               city,
               state,
-              slug: slugify(shop.name),
+              slug: generateSlug(shop.name, city, state),
               address: shop.address || null,
               google_maps_url: shop.googleMapsUrl || null,
               average_rating: shop.rating || null,

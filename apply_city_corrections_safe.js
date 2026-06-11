@@ -17,22 +17,8 @@ const supabase = createClient(
 );
 
 // Helper: slugify function
-function slugify(name, city, state) {
-  const cleanText = (text) => {
-    if (!text) return '';
-    return text.toLowerCase()
-      .replace(/[^\w\s-]/g, '')
-      .replace(/\s+/g, '-')
-      .replace(/-+/g, '-')
-      .trim();
-  };
-  
-  const parts = [cleanText(name)];
-  if (city) parts.push(cleanText(city));
-  if (state) parts.push(cleanText(state));
-  
-  return parts.join('_');
-}
+const { generateSlug } = require('./lib/common');
+const slugify = (name, city, state) => generateSlug(name, city, state);
 
 // Helper: Check if slug exists and generate unique one if needed
 async function generateUniqueSlug(shopId, name, city, state) {

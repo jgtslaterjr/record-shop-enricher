@@ -9,10 +9,7 @@ const { readFileSync } = require('fs');
 const path = require('path');
 
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY);
-
-function slugify(name) {
-  return name.toLowerCase().replace(/['']/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-}
+const { generateSlug } = require('./lib/common');
 
 function normalizeForMatch(name) {
   return name.toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -147,7 +144,7 @@ async function step1_ingest() {
     if (fuzzyMatch) continue;
     
     // Insert
-    const slug = slugify(shop.name) + '_' + slugify(shop.searchCity) + '_pennsylvania';
+    const slug = generateSlug(shop.name, shop.searchCity, 'Pennsylvania');
     const newShop = {
       name: shop.name,
       city: shop.searchCity,
