@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// DEPRECATED 2026-06: replaced by deep_scrape_google_api.js. Headless DOM path is bot-blocked. Kept for reference only.
 /**
  * Deep Google Maps Scraper — Ratings, reviews, popular times, photos, Q&A
  * 

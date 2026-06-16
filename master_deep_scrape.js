@@ -110,7 +110,11 @@ async function deepScrapeShop(shop, args) {
       name: 'google',
       skip: args['skip-google'],
       run: async () => {
-        await runScript('deep_scrape_google.js', ['--shop', shop.name, '--city', shop.city, '--state', shop.state]);
+        const forceFlag = args.force ? ['--force'] : [];
+        const target = shop.id && shop.id !== 'manual'
+          ? ['--shop-id', shop.id]
+          : ['--shop', shop.name, '--city', shop.city, '--state', shop.state];
+        await runScript('deep_scrape_google_api.js', [...target, ...forceFlag]);
       }
     },
     {
